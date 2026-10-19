@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": true,
+  "run_id": "FILL_UNIQUE_RUN_ID",
+  "actor_id": "FILL_ACTOR_ALIAS",
+  "role": "FILL_ROLE",
+  "task_ref": "FILL_ISSUE_OR_LOCAL_TASK_ID",
+  "parent_run_id": null,
+  "client": "FILL_CLIENT",
+  "transport": "FILL_NATIVE_ACP_MANUAL_OR_OTHER",
+  "tools": [],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "FILL_SOURCE_OR_REASON_UNKNOWN",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "FILL_SOURCE_OR_REASON_UNKNOWN",
+    "verification": "unknown"
+  },
+  "recorded_at": "FILL_ISO8601_WITH_TIMEZONE",
+  "recorded_by_run_id": "FILL_RECORDING_RUN_ID",
+  "read_rules_ref": {
+    "commit": null,
+    "paths": [],
+    "sha256_by_path": {}
+  },
+  "owned_paths": [],
+  "note": "FILL_LIMITATIONS_AND_ANY_REQUESTED_REPORTED_MISMATCH"
+}
