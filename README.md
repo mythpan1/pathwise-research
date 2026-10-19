@@ -32,6 +32,7 @@
 | [AGENTS.md](AGENTS.md) | Codex 和外部 Agent 的协作规则 |
 | [docs/research-framework.md](docs/research-framework.md) | 研究范围、证据要求和工作流程 |
 | [docs/research-architecture.md](docs/research-architecture.md) | 自上而下的研究总图及人口—政策—职业连接 |
+| [docs/research-methods.md](docs/research-methods.md) | 复杂系统文献与思维实验、定向求证和修订方法 |
 | [docs/agent-workflow.md](docs/agent-workflow.md) | Issue、分支、PR 与多 Agent 分工、交接 |
 | [docs/review-automation.md](docs/review-automation.md) | 自动状态机、后台协调与平台限制 |
 | [reviews/](reviews/README.md) | 独立审核、版本绑定、问题与复核记录 |
