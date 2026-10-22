@@ -2,7 +2,9 @@
 
 本项目从已出生队列、入园及升学需求出发，研究园所、家庭、教师与公共部门怎样调整，再连接岗位、培养与新人入口。事实、合成假设、条件推演和未知分别记录。
 
-**当前审阅入口：[HANDOFF.md](HANDOFF.md)。** 本次阶段对照的任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)；[候选报告](stages/20261022-existing-evidence/REPORT.md)。本单元只整理已有推导与证据，采用状态见 [PR #13](https://github.com/mythpan1/pathwise-research/pull/13)及其固定版本审核；后续补证没有启动。
+**当前审阅入口：[HANDOFF.md](HANDOFF.md)。** 同[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)/[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)已按用户授权扩大地区选一案：[续作证据卡](evidence/EVENT-20261022/EXPANDED-REPORT.md)。已核上海青浦蟠龙民办幼儿园2025年终止办学批复，物理停办/注销完成日期和实际公办承接仍未核实；额度后测未知停止。新增4查询/2原文、保守预留8credits；首轮[陕州限定结果](evidence/EVENT-20261022/REPORT.md)及其4+2留作历史。作者不合并，新head另交Dot审核。
+
+上一阶段对照见[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)、[阶段报告](stages/20261022-existing-evidence/REPORT.md)及已合并[PR #13](https://github.com/mythpan1/pathwise-research/pull/13)，其采用范围不变。
 
 ## 已有成果与本次候选
 
