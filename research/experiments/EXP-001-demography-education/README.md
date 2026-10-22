@@ -2,7 +2,9 @@
 
 本项目从已出生队列、入园及升学需求出发，研究园所、家庭、教师与公共部门怎样调整，再连接岗位、培养与新人入口。事实、合成假设、条件推演和未知分别记录。
 
-**当前审阅入口：[HANDOFF.md](HANDOFF.md)。** 本次阶段对照的任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)；[候选报告](stages/20261022-existing-evidence/REPORT.md)。本单元只整理已有推导与证据，采用状态见 [PR #13](https://github.com/mythpan1/pathwise-research/pull/13)及其固定版本审核；后续补证没有启动。
+**当前审阅入口：[HANDOFF.md](HANDOFF.md)。** 当前补证单元：[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)、[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)及[事件证据卡](evidence/EVENT-20261022/REPORT.md)。4条查询、2次官方读取未取得合格事件锚点，实际公办承接仍未检验；候选待Dot审核，作者不合并。
+
+上一阶段对照见[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)、[阶段报告](stages/20261022-existing-evidence/REPORT.md)及已合并[PR #13](https://github.com/mythpan1/pathwise-research/pull/13)，其采用范围不变。
 
 ## 已有成果与本次候选
 

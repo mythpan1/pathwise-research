@@ -1,6 +1,13 @@
 # EXP-001：给 Dot 的审阅入口
 
-## 当前一个小任务
+## 当前一个小任务：具名调整事件与实际公办承接
+
+- 权威[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)；唯一[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)。候选[证据卡](evidence/EVENT-20261022/REPORT.md)及[来源/预算索引](evidence/EVENT-20261022/sources.json)。
+- 陕州区2023—2025真实民办园调整，先冻结事件后查同窗口实际接收。实际4/4条查询、2/6次官方读取，在查询上限停止；未取得合格事件锚点，承接分支仍未检验。此结果不证明现实不存在。
+- 执行：`RUN-EXP001-20261022-EVENT-EXEC-01`。Chat只调度/读回；作者自检不等于独立审核。固定main基线`de82afb9b33207de323d29d5b5f42b4b4d26be22`。
+- Dot核对PR正文当前完整head、退出Draft及预算/结论边界，尤其查询相关性和年检名单不能推成调整或转园事实。本次仅交审核，作者不合并；返工同PR，交接后停止。
+
+## 上一阶段对照（历史入口，PR #13已合并）
 
 - 任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)；本次候选及交接：[PR #13](https://github.com/mythpan1/pathwise-research/pull/13)。
 - 候选：[已有推导与证据的阶段对照](stages/20261022-existing-evidence/REPORT.md)，先读结论与命题表，再按需查[来源和状态](stages/20261022-existing-evidence/sources.json)。
