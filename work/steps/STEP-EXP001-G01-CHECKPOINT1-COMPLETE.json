@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-EXP001-G01-CHECKPOINT1-COMPLETE",
+  "action_id": "ACT-EXP001-G01-CHECKPOINT1",
+  "run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "parent_step_ids": [],
+  "retry_of": null,
+  "phase": "completed",
+  "recorded_at": "2026-10-22T14:49:22.485113+08:00",
+  "action": "Publish initial sanitized checkpoint and create Draft PR",
+  "inputs": [
+    {
+      "commit": "3411080524cfa48319d4c45ffa1c0e14b16208bb"
+    }
+  ],
+  "outputs": [
+    {
+      "commit": "bc8ac3f6b185d2d8951d2f4295d5b3295f74a87b"
+    },
+    {
+      "pull_request": "https://github.com/mythpan1/pathwise-research/pull/9"
+    },
+    {
+      "local_start_record_sha256": "d2bac7bc7bc999ecaf364694b4b944254e99d434550eae5d0eb2570914762a8d"
+    }
+  ],
+  "result": "Initial six-file checkpoint pushed; Draft PR9 read back at exact head. This is a historical checkpoint, not final research approval.",
+  "verification": {
+    "status": "verified",
+    "by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+    "evidence": [
+      "Coordinator checked actual tool outputs and specified source locations"
+    ]
+  },
+  "experiment_ref": {
+    "experiment_id": "EXP-001-demography-education",
+    "evidence_unit": "G01-20261022"
+  },
+  "unresolved": []
+}
