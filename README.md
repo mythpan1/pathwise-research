@@ -33,6 +33,7 @@
 | [docs/research-framework.md](docs/research-framework.md) | 研究范围、证据要求和工作流程 |
 | [docs/research-architecture.md](docs/research-architecture.md) | 自上而下的研究总图及人口—政策—职业连接 |
 | [docs/research-methods.md](docs/research-methods.md) | 复杂系统文献与思维实验、定向求证和修订方法 |
+| [docs/tavily-protocol.md](docs/tavily-protocol.md) | Research/Search/原文配套核验、wrapper入口与额度错误边界 |
 | [docs/experiment-protocol.md](docs/experiment-protocol.md) | 实验项目、回合、分支、规则版本与回放约束 |
 | [docs/agent-provenance.md](docs/agent-provenance.md) | Codex、Chat/RDC及外部Agent的身份、模型、思考强度与步骤归属 |
 | [docs/agent-workflow.md](docs/agent-workflow.md) | 当前唯一主流程：单元派发、显式交接、审核、返工及合并 |
