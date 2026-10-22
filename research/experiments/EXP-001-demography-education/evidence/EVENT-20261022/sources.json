@@ -1,0 +1,15 @@
+{
+  "task": "Issue #14",
+  "baseline": "de82afb9b33207de323d29d5b5f42b4b4d26be22",
+  "status": "pending",
+  "budget": {
+    "query_limit": 4,
+    "official_read_limit": 6,
+    "queries_used": 0,
+    "official_reads_used": 0
+  },
+  "queries": [],
+  "reads": [],
+  "event_anchor": null,
+  "actual_public_reception": null
+}
