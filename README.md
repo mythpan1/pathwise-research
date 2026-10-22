@@ -8,10 +8,10 @@
 
 ## 当前阶段
 
-项目处于研究框架搭建阶段，由个人负责，Codex 与经 ACP 调用的外部 Agent 协助。
-当前建立研究架构、任务与审核流程，尚未导入研究资料或实现应用功能。
+项目处于学习型研究与流程试验阶段：同时检验思维实验方法和 Chat—执行者—Dot 的协作方式，项目骨架尚在演进，不急于搭建完整生产系统。
+已有 EXP-001 / G01 脱敏证据成果进入仓库；这不等于完成研究验证或获得新的资料上传授权。当前研究仍暂停，本轮只完善流程。
 
-**当前上传范围：通用骨架、本轮整理的研究架构提案、多 Agent 协作与审核约定，以及审核自动化代码与测试。** 现有“学业”仓库及其他本地知识库的资料不导入、不上传；后续通过研读逐步重建，每批内容另行确定范围。本轮提案先通过 Draft PR 提交，已授权范围内审核与检查通过后自动推进，异常才交项目负责人。
+**每批上传范围单独受用户授权约束。** 现有“学业”仓库及其他本地知识库的资料不导入、不上传；后续通过研读逐步重建。先读[学习型研究协作闭环](docs/agent-workflow.md)：Chat 每次派发一个有界单元，执行者提交 PR 并显式交接，Dot 审核固定 SHA，用户手动唤醒 Chat 读取返工意见。通过不等于自动启动下一轮。当前每4小时巡检仅只读报告，不写 GitHub、不触发 Chat；新审核/条件合并授权没有自动接入该巡检。
 
 研究从中国的政策脉络、人口结构、产业基础及国际环境开始，追踪它们如何改变具体职业，再核对培养路径与个人条件。老龄化和少子化均须研究全社会的职业影响；个人兴趣在下游参与路径选择。
 
@@ -35,8 +35,8 @@
 | [docs/research-methods.md](docs/research-methods.md) | 复杂系统文献与思维实验、定向求证和修订方法 |
 | [docs/experiment-protocol.md](docs/experiment-protocol.md) | 实验项目、回合、分支、规则版本与回放约束 |
 | [docs/agent-provenance.md](docs/agent-provenance.md) | Codex、Chat/RDC及外部Agent的身份、模型、思考强度与步骤归属 |
-| [docs/agent-workflow.md](docs/agent-workflow.md) | Issue、分支、PR 与多 Agent 分工、交接 |
-| [docs/review-automation.md](docs/review-automation.md) | 自动状态机、后台协调与平台限制 |
+| [docs/agent-workflow.md](docs/agent-workflow.md) | 当前唯一主流程：单元派发、显式交接、审核、返工及合并 |
+| [docs/review-automation.md](docs/review-automation.md) | 既有本地控制器、历史运行边界与平台限制 |
 | [reviews/](reviews/README.md) | 独立审核、版本绑定、问题与复核记录 |
 | [docs/roadmap.md](docs/roadmap.md) | 分阶段建设计划 |
 | [research/](research/README.md) | 研究问题、任务和过程分析 |
@@ -45,13 +45,13 @@
 | [reports/](reports/README.md) | 经检查的研究报告和决策材料 |
 | [templates/](templates/research-task.md) | 研究任务、来源记录和报告模板 |
 
-## 开始第一项研究
+## 获准恢复后，开始一个研究单元
 
 1. 根据研究总图选定一个具体问题，明确地区、年份和适用对象。
 2. 使用研究任务 Issue 模板分派任务；可先用[本地模板](templates/research-task.md)准备，Issue 建立后以其正文为准。
 3. 用 [来源记录模板](templates/source-record.md) 登记证据，注明原文位置和适用范围。
 4. 用 [研究报告模板](templates/research-report.md) 整理结论、限制和待核实事项。
-5. 在独立分支提交 Draft PR，由未编写本次成果的 Agent 审核并记录到 `reviews/`，协调者按授权、版本与自动检查条件继续推进。
+5. 在独立分支提交 Draft PR，自检后按[主流程](docs/agent-workflow.md)退出 Draft 并在正文写明 `ready for Dot review`、完整 head SHA 和交接者。未编写成果的实际运行审核、归档；用户手动唤醒 Chat 读取结果，同 PR 返工。仅满足精确版本、授权与全部门禁时才可合并。
 
 本阶段不需要安装依赖或启动服务。
 
@@ -59,7 +59,9 @@
 
 Pathwise Research is a private research workspace for education and career pathways.
 It connects admissions, universities, academic programs, occupations, and individual
-decision-making through traceable evidence. The initial repository contains only the
-project scaffold, a proposed top-down research architecture, and a documented multi-agent
-review workflow with a local controller and automated tests. Existing local research
-collections have not been imported or uploaded.
+decision-making through traceable evidence. The project is a learning-stage experiment in research methods and collaboration,
+not a finished production architecture. It now includes scoped EXP-001/G01 evidence,
+a developing scaffold, and a local review controller with tests. Existing local research
+collections are not authorized for import. Research remains paused; the canonical
+[workflow](docs/agent-workflow.md) requires explicit handoff and manual Chat wake-up.
+The current four-hour monitor is read-only and does not write to GitHub or trigger Chat.
