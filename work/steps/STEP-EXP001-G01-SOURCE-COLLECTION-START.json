@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-EXP001-G01-SOURCE-COLLECTION-START",
+  "action_id": "ACT-EXP001-G01-SOURCE-COLLECTION",
+  "run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "phase": "started",
+  "recorded_at": "2026-10-22T14:32:06.402378+08:00",
+  "action": "Retrieve identified official annual bulletins, yearbooks and private-kindergarten inspection notice; preserve source hashes and parse failures locally",
+  "inputs": [
+    {
+      "source_ids": [
+        "G01-S01",
+        "G01-S02",
+        "G01-S03",
+        "G01-S04",
+        "G01-S05",
+        "G01-S06"
+      ]
+    }
+  ],
+  "outputs": [],
+  "result": "Collection started; no result inferred from title or search excerpt",
+  "verification": {
+    "status": "not_checked",
+    "by_run_id": null,
+    "evidence": []
+  },
+  "unresolved": [
+    "Attachment parsing and table-year alignment pending"
+  ]
+}
