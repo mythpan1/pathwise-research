@@ -58,5 +58,24 @@
     "work/runs/RUN-EXP001-20261022-PANLONG-COMPARE-01.json",
     "work/steps/RUN-EXP001-20261022-PANLONG-COMPARE-01.jsonl"
   ],
-  "note": "Only native guard; no additional quota/usage calls or 500 search gate. Search baseline freeze before one mini Research; full raw outputs local, no old evidence modifications."
+  "note": "Only native guard; no additional quota/usage calls or 500 search gate. Search baseline freeze before one mini Research; full raw outputs local, no old evidence modifications.",
+  "outcome": {
+    "search_baseline": "frozen_checkpoint33aa7c91f6e8805813b0c996b7ab4269314c5f99",
+    "research": "one mini native creation invocation, POSTHTTP422; no ID/report; no retry",
+    "comparison": "not_performed_no_report",
+    "review": "executor self-check only; pending independent Dot review",
+    "merge_authorized_for_this_unit": false
+  },
+  "self_check": {
+    "unittest": "9passed",
+    "diff_check": "passed",
+    "owned_file_count": 8,
+    "baseline_byte_hash_and_snapshot": "unchanged/passed",
+    "originals_and_search_return_hashes": "passed",
+    "rule_hashes": "passed",
+    "JSON_and_step_ids": "passed",
+    "branch_history_sensitive_pattern_scan": "0matches; actual owned content and history read",
+    "old_evidence": "untouched",
+    "CI": "pending_exact_final_head"
+  }
 }

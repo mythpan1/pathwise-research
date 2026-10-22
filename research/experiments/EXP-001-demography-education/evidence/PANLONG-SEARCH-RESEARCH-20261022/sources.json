@@ -2,7 +2,7 @@
   "task": "https://github.com/mythpan1/pathwise-research/issues/18",
   "run_id": "RUN-EXP001-20261022-PANLONG-COMPARE-01",
   "main_baseline": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
-  "phase": "baseline_frozen_before_mini",
+  "phase": "search_baseline_complete_research_http422_comparison_unavailable",
   "baseline_freeze": {
     "frozen_at": "2026-10-22T12:52:02.157077+00:00",
     "baseline_text_sha256": "45114f11ba9fe515f3bf5ad8ed8bc6c604f7b62102868cda616c643cdf8073f7",
@@ -249,9 +249,47 @@
   },
   "research": {
     "model_requested": "mini",
-    "status": "not_invoked",
+    "status": "creation_post_attempted_http422",
+    "at_started": "2026-10-22T12:53:15.861Z",
+    "at_finished": "2026-10-22T12:53:36.759Z",
+    "creation_tool_invocations": 1,
+    "business_post_attempts_observed": 1,
+    "accepted_job_creation_confirmed": false,
     "request_id": null,
-    "creation_calls": 0
+    "poll_calls": 0,
+    "reports_returned": 0,
+    "visible_internal_extraction": null,
+    "error": "tavily_research: HTTP 422",
+    "http_status": 422,
+    "native_classification": "non_quota_http",
+    "rotation_observed": false,
+    "retry_calls": 0,
+    "creation_args": {
+      "model": "mini",
+      "max_wait_ms": 180000,
+      "citation_format": "markdown"
+    },
+    "input_scope_summary": "同一蟠龙案例2025暑秋原幼儿到公办园实际接收，区分批准/物理停止/注销/计划/实际，要求原始来源；唯一已知批复作为定位。",
+    "raw_local_receipt_id": "RESEARCH-01-RECEIPT.json",
+    "receipt_sha256": "ab45c463c64791b8c756651cba4878b2c2b0acf082fee38a1355f9446a3d599d",
+    "raw_local_start_id": "RESEARCH-01-START.json",
+    "start_sha256": "6694d98f158a853e2fd7e09bd50503716a6613e0473c847747021f3f1f4eb257",
+    "error_body_exposed": false,
+    "cause": "unknown; HTTP422 alone cannot identify invalid field, quota, throttling or backend acceptance",
+    "new_sources_after_research": [],
+    "comparison_status": "not_performed_no_report",
+    "stop": "Native non-quota HTTP error reported; no second creation, parameter change, alternate model, probe, manual rotation or recovery.",
+    "citation_format_origin": {
+      "value": "markdown",
+      "selected_by": "executor_explicit_parameter",
+      "native_schema_enum": [
+        "numbered",
+        "markdown"
+      ],
+      "native_default": null,
+      "static_reference": "installed0.2.5 tools.js:430,447",
+      "remote_acceptance": "unknown; no responsebody; not established as HTTP422 cause"
+    }
   },
   "cost": {
     "search_reserve_cap": 20,
@@ -277,5 +315,31 @@
     ],
     "search_postflight": "intentionally_skipped_by_native_tool; not a failure; no external supplement",
     "rotation_observed": false
+  },
+  "native_audit_final": {
+    "raw_local_evidence_id": "native-audit.ndjson",
+    "sha256": "50d9e17d767d5f6535cf82afc6764aab89a853b080257e957980e7afae9fbdc1",
+    "rows": 11,
+    "snapshot_events": 0,
+    "slots_observed": [
+      496
+    ],
+    "research_before": {
+      "attempt": 1,
+      "required_credits": 250,
+      "usage_known": true,
+      "remaining": 884
+    },
+    "research_after": {
+      "attempt": 1,
+      "http_status": 422,
+      "usage_known": true,
+      "remaining": 884,
+      "delta_credits": 0,
+      "outcome": "error"
+    },
+    "research_blocked_reason": "non_quota_http",
+    "rotation_observed": false,
+    "limits": "Native audit only; no added quota/usage requests. Visible zero delta is not proof of zero bill."
   }
 }
