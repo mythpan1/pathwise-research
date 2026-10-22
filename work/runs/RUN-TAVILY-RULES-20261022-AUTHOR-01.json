@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-TAVILY-RULES-20261022-AUTHOR-01",
+  "actor_id": "Dot-docs-author",
+  "role": "documentation author; not independent reviewer",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/16",
+  "parent_run_id": null,
+  "client": "ChatGPT",
+  "transport": "native delegated agent",
+  "tools": [
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "No independently verifiable runtime metadata supplied.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "No independently verifiable runtime metadata supplied.",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-22T12:31:00Z",
+  "recorded_by_run_id": "RUN-TAVILY-RULES-20261022-AUTHOR-01",
+  "read_rules_ref": {
+    "commit": "3763a2a37a749e4d0a3c101fb00bc32ff0c8bc3b",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "docs/research-methods.md",
+      "docs/research-framework.md"
+    ],
+    "sha256_by_path": {}
+  },
+  "owned_paths": [
+    "docs/tavily-protocol.md",
+    "AGENTS.md",
+    "docs/research-methods.md",
+    "docs/research-framework.md",
+    "README.md",
+    "work/runs/RUN-TAVILY-RULES-20261022-AUTHOR-01.json",
+    "work/steps/RUN-TAVILY-RULES-20261022-AUTHOR-01.jsonl"
+  ],
+  "note": "Parent Dot delegated user's docs-only update. Parent run ID unavailable; model/reasoning metadata not independently exposed. No Tavily/ACP/local execution, credentials, configuration or automation changes. Author does not independently review or merge."
+}
