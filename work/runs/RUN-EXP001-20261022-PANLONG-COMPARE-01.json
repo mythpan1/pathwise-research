@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-EXP001-20261022-PANLONG-COMPARE-01",
+  "actor_id": "/root/shanzhou_event_executor",
+  "role": "single-case Search/original/mini Research comparison executor; no independent review or merge",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/18",
+  "parent_run_id": "/root",
+  "client": "Codex desktop",
+  "transport": "native subagent",
+  "tools": [
+    "GitHub connector",
+    "exec_command",
+    "unchanged installed Tavily tool definitions",
+    "official-source web open"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable executor runtime metadata exposed",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable executor runtime metadata exposed",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-22T12:46:16.538009+00:00",
+  "recorded_by_run_id": "RUN-EXP001-20261022-PANLONG-COMPARE-01",
+  "read_rules_ref": {
+    "commit": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/tavily-protocol.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "reviews/README.md"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "41b0bda9aa9cb209e4d12e84e77caed5a9fa1f8b45c3cb74215cbceb6e81167b",
+      "docs/agent-workflow.md": "37c3dd2b30e22f953b79707ee7e7e5ab9fc9dd11c68695e49d29693ea920870d",
+      "docs/tavily-protocol.md": "eb530c16f6286f63b58d25c5677f3c2ff877b633452bc89d18b57c7fd0350a16",
+      "docs/agent-provenance.md": "5c3cd807445b84447e06593bea675df925434ae4c153a893cf6c62329837bd42",
+      "docs/experiment-protocol.md": "a6976a1d826e2251fa4aa494345fd23edefc63c1b9b36f448abbc201a3c3a57c",
+      "reviews/README.md": "e306842160af48f2034338a9a7d88594893c70becdbeac1ac71e7ac9899e4e21"
+    }
+  },
+  "owned_paths": [
+    "research/experiments/EXP-001-demography-education/evidence/PANLONG-SEARCH-RESEARCH-20261022/REPORT.md",
+    "research/experiments/EXP-001-demography-education/evidence/PANLONG-SEARCH-RESEARCH-20261022/sources.json",
+    "research/experiments/EXP-001-demography-education/evidence/PANLONG-SEARCH-RESEARCH-20261022/BASELINE.md",
+    "research/experiments/EXP-001-demography-education/evidence/PANLONG-SEARCH-RESEARCH-20261022/COMPARISON.md",
+    "research/experiments/EXP-001-demography-education/README.md",
+    "research/experiments/EXP-001-demography-education/HANDOFF.md",
+    "work/runs/RUN-EXP001-20261022-PANLONG-COMPARE-01.json",
+    "work/steps/RUN-EXP001-20261022-PANLONG-COMPARE-01.jsonl"
+  ],
+  "note": "Only native guard; no additional quota/usage calls or 500 search gate. Search baseline freeze before one mini Research; full raw outputs local, no old evidence modifications."
+}

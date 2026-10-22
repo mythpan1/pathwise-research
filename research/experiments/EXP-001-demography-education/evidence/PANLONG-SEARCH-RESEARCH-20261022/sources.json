@@ -1,0 +1,21 @@
+{
+  "task": "Issue #18",
+  "run_id": "RUN-EXP001-20261022-PANLONG-COMPARE-01",
+  "baseline_commit": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
+  "status": "pending_before_search",
+  "search_queries": [],
+  "official_reads": [],
+  "baseline_freeze": null,
+  "research": {
+    "model_requested": "mini",
+    "status": "not_attempted",
+    "request_id": null,
+    "creation_calls": 0
+  },
+  "cost": {
+    "search_conservative_reserve_cap": 20,
+    "research_admission_default": 250,
+    "research_actual_cost": null,
+    "extra_quota_calls": 0
+  }
+}
