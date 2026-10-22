@@ -2,14 +2,17 @@
 
 本项目从已出生队列、入园及升学需求出发，研究园所、家庭、教师与公共部门怎样调整，再连接岗位、培养与新人入口。事实、合成假设、条件推演和未知分别记录。
 
-**审阅入口：[HANDOFF.md](HANDOFF.md)。** 当前任务权威入口：[Issue #8](https://github.com/mythpan1/pathwise-research/issues/8)；候选成果：[PR #9](https://github.com/mythpan1/pathwise-research/pull/9)。
+**当前审阅入口：[HANDOFF.md](HANDOFF.md)。** 本次阶段对照的任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)；[候选报告](stages/20261022-existing-evidence/REPORT.md)。本单元只整理已有推导与证据，等待 Dot 独立审核；后续补证没有启动。
 
-## 已有成果
+## 已有成果与本次候选
 
+- [阶段对照](stages/20261022-existing-evidence/REPORT.md)与[来源/状态索引](stages/20261022-existing-evidence/sources.json)：逐段说明原推导、已有材料、结论边界与最少补证；A/B 均保留“尚未检验”。
 - 两个已封存本地支线的[历史摘要](HISTORY.md)：信息探查按预设停止；透明合成敏感性检查保留初答和复核边界。
 - [G01资料核查](evidence/G01-20261022/REPORT.md)：六份官方文件的限定核查未补齐两期同口径区级学前总量及公民办分项；保留可用的民办年检汇总、口径风险和下一项补证条件。
-- [来源索引](evidence/G01-20261022/sources.json)、[观察与缺失值](evidence/G01-20261022/observations.json)、[检索和解析记录](evidence/G01-20261022/SEARCH-LOG.md)。
+- G01 的[来源索引](evidence/G01-20261022/sources.json)、[观察与缺失值](evidence/G01-20261022/observations.json)、[检索和解析记录](evidence/G01-20261022/SEARCH-LOG.md)。
 
-尚未把全国或市级变化赋给区级、单个园所；未形成当地闭园、失业或招聘预测。G01结论只适用于本次所检材料，不能推出官方从未公开相关数据。
+G01 已由 [PR #9](https://github.com/mythpan1/pathwise-research/pull/9)合并；[Issue #8](https://github.com/mythpan1/pathwise-research/issues/8)继续保存该批历史和开放证据缺口，不是本次阶段整理的第二套任务状态。G01 被采用不表示地方趋势、转园或岗位机制已被验证。
 
-本次同步由用户于2026-10-22明确授权，采用独立分支和PR。仓库保存来源链接、必要事实、分析及审阅后的步骤摘要；原件与原始调用档案留本地。具体任务状态与后续推进以Issue为准；采用范围须结合固定版本独立审核与检查，不由Draft/Ready标签单独决定。
+原全国教育底稿仍为回顾性检验、独立最终审核未完成；F1/F2/F3 尚未到验收期。当前没有当地闭园、失业或新人招聘预测，不能把全国或市级变化直接赋给区级、单个园所。
+
+仓库只保存获准的来源链接、必要摘要、分析和脱敏步骤记录；原件与原始调用返回留本地。Issue 记录范围，PR 记录候选、完整 head 交接与返工；Dot 按[现行流程](../../../docs/agent-workflow.md)审核和条件合并。已采用与候选、机械检查与实质审核分别判断。
