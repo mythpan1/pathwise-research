@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-ISSUE10-20261022-DOCS-01",
+  "actor_id": "dot-documentation-executor",
+  "role": "documentation author; not independent reviewer",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/10",
+  "parent_run_id": null,
+  "client": "Codex cloud task",
+  "transport": "connected GitHub tools",
+  "tools": [
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable model metadata exposed for this run",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable reasoning-setting metadata exposed for this run",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-22T08:37:07Z",
+  "recorded_by_run_id": "RUN-ISSUE10-20261022-DOCS-01",
+  "read_rules_ref": {
+    "commit": "046d0df4180951f32dc716a93b24b6dd81172e56",
+    "paths": [
+      "README.md",
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "reviews/README.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "docs/review-automation.md",
+      ".github/pull_request_template.md",
+      ".github/workflows/validation.yml"
+    ],
+    "sha256_by_path": {}
+  },
+  "owned_paths": [
+    "README.md",
+    "AGENTS.md",
+    "docs/agent-workflow.md",
+    "docs/review-automation.md",
+    "reviews/README.md",
+    "docs/agent-provenance.md",
+    ".github/pull_request_template.md"
+  ],
+  "note": "Parent delegated scoped documentation task. No local commands, ACP, account changes, credentials, experiments, merge or automation changes. Initial start was recorded in execution-session state at 08:33:35Z before GitHub writes; persisted here afterwards without claiming earlier Git publication."
+}

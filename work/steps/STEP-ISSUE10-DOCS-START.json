@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-ISSUE10-DOCS-START",
+  "action_id": "ACTION-ISSUE10-DOCS",
+  "run_id": "RUN-ISSUE10-20261022-DOCS-01",
+  "recorded_by_run_id": "RUN-ISSUE10-20261022-DOCS-01",
+  "task_ref": "LOCAL-20261022-LEARNING-WORKFLOW",
+  "parent_step_ids": [],
+  "retry_of": null,
+  "phase": "started",
+  "recorded_at": "2026-10-22T08:33:35Z",
+  "action": "Create documentation issue, branch and draft PR via connected GitHub; no merge or research execution",
+  "inputs": [
+    {
+      "commit": "046d0df4180951f32dc716a93b24b6dd81172e56",
+      "paths": [
+        "README.md",
+        "AGENTS.md",
+        "docs/agent-workflow.md",
+        "reviews/README.md",
+        "docs/agent-provenance.md",
+        "docs/experiment-protocol.md",
+        "docs/review-automation.md",
+        ".github/pull_request_template.md",
+        ".github/workflows/validation.yml"
+      ]
+    }
+  ],
+  "outputs": [],
+  "result": "Started; issue, branch, documentation and draft PR pending at this time",
+  "verification": {
+    "status": "not_checked",
+    "by_run_id": null,
+    "evidence": []
+  },
+  "experiment_ref": null,
+  "unresolved": [
+    "Start originally recorded in execution-session state before external mutations; repository persistence occurs later."
+  ]
+}
