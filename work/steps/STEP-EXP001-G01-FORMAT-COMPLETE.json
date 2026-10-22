@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-EXP001-G01-FORMAT-COMPLETE",
+  "action_id": "ACT-EXP001-G01-FORMAT",
+  "run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "parent_step_ids": [
+    "STEP-EXP001-G01-FORMAT-START"
+  ],
+  "retry_of": null,
+  "phase": "completed",
+  "recorded_at": "2026-10-22T14:51:14.849902+08:00",
+  "action": "Only two trailing Markdown hard-break spaces removed; research claims unchanged. Older output hash remains a local archived intermediate revision.",
+  "inputs": [
+    {
+      "path": "research/experiments/EXP-001-demography-education/evidence/G01-20261022/REPORT.md",
+      "sha256": "75067104a12fb1c0d27ed8a2333f26c03a03fdcdc5a11c5ca0a9a9fbe27f6494",
+      "availability": "local archived intermediate"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/experiments/EXP-001-demography-education/evidence/G01-20261022/REPORT.md",
+      "sha256": "ac7131de3108f9a72c001b9e38e92c5c28a8142d755e83c06865de0935fd90f3"
+    }
+  ],
+  "result": "Only two trailing Markdown hard-break spaces removed; research claims unchanged. Older output hash remains a local archived intermediate revision.",
+  "verification": {
+    "status": "verified",
+    "by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+    "evidence": [
+      "Line-by-line comparison changes whitespace only"
+    ]
+  },
+  "experiment_ref": {
+    "experiment_id": "EXP-001-demography-education",
+    "evidence_unit": "G01-20261022"
+  },
+  "unresolved": []
+}
