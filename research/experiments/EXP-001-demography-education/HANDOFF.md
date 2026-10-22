@@ -1,6 +1,14 @@
 # EXP-001：给 Dot 的审阅入口
 
-## 当前一个小任务：具名调整事件与实际公办承接
+## 当前续作：地区扩大后固定一个调整事件
+
+- 同[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)/[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)；[续作报告](evidence/EVENT-20261022/EXPANDED-REPORT.md)与[来源/额度账本](evidence/EVENT-20261022/expanded-sources.json)。运行`RUN-EXP001-20261022-EVENT-EXPAND-02`。
+- 用户授权中国境内2023—2025按证据条件选一案。先冻结上海青浦蟠龙民办园2025-07-18终止办学批复，再查接收；没有按成功结果倒选或换案。只确认行政批准，物理停办/注销完成和同窗口实际公办接收仍未知。
+- 新增4Tavily查询/2官方HTML读取，保守预留8/100credits；前3次匿名槽496余额884→884，第4次业务成功、后测未知即停。没有达到方法复核点，更没有宣称实际0费用。NQ05只有额度诊断、未发送业务的中断偏差完整记录。
+- 旧4查询/2原文和下列首轮内容保持历史，新范围不回填为陕州事实。旧head`7fc2a2fda0f4c5a5851c12d9a29660ddf5e160ae`交接不适用新成果；PR需新完整SHA重新交Dot并退出Draft。
+- Dot重点查批准/物理关闭/注销日期分开、一般插班计划不冒充实际接收、窗口仍未知、选案顺序、余额未知停止和未发送业务计数。Chat只调度读回，作者不自审、不合并；Dot仅审核。
+
+## 首轮历史：陕州限定查询（旧head交接已撤回当前效力）
 
 - 权威[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)；唯一[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)。候选[证据卡](evidence/EVENT-20261022/REPORT.md)及[来源/预算索引](evidence/EVENT-20261022/sources.json)。
 - 陕州区2023—2025真实民办园调整，先冻结事件后查同窗口实际接收。实际4/4条查询、2/6次官方读取，在查询上限停止；未取得合格事件锚点，承接分支仍未检验。此结果不证明现实不存在。
