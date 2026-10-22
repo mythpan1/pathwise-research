@@ -2,7 +2,7 @@
 
 ## 当前一个小任务
 
-- 任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)。
+- 任务权威入口：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12)；本次候选及交接：[PR #13](https://github.com/mythpan1/pathwise-research/pull/13)。
 - 候选：[已有推导与证据的阶段对照](stages/20261022-existing-evidence/REPORT.md)，先读结论与命题表，再按需查[来源和状态](stages/20261022-existing-evidence/sources.json)。
 - 执行者：`RUN-EXP001-20261022-STAGE-HANDOFF-01`。本次只核已有材料、整理、自检和提交；事实检索、官方原件重取、ACP 均为 0。
 - Dot 审核当前 PR 正文绑定的完整 head；作者没有审核批准。本单元交接后停止，返工继续同一 PR；用户负责提醒 Chat 读取结果。

@@ -1,7 +1,7 @@
 # EXP-001：已有推导与证据的阶段对照
 
 日期：2026-10-22 · 任务：[Issue #12](https://github.com/mythpan1/pathwise-research/issues/12) · 执行：`RUN-EXP001-20261022-STAGE-HANDOFF-01`  
-状态：本阶段整理是待 Dot 审核的候选；已有成果各自的采用与审核状态不因这份整理升级。来源版本见 [sources.json](sources.json)。
+状态：本阶段整理提交时为候选；采用情况见 [PR #13](https://github.com/mythpan1/pathwise-research/pull/13)及其固定版本审核。已有成果各自的采用与审核状态不因这份整理升级。来源版本见 [sources.json](sources.json)。
 
 ## 现在能判断到哪里
 
