@@ -1,0 +1,201 @@
+{
+  "task_ref": "mythpan1/pathwise-research#20",
+  "status_as_of": "2026-10-23",
+  "scope": "Existing single mini/pro samples; test unit stopped; no new research in this workflow revision.",
+  "outcome": {
+    "mini_chain": "succeeded",
+    "pro_chain": "succeeded",
+    "mini_content": "not_passed",
+    "pro_content": "not_passed",
+    "issue_state": "open",
+    "workflow_pr_independent_review": "pending"
+  },
+  "input_equality": {
+    "utf8_bytes_each": 621,
+    "sha256_each": "56f246adda8abd5c5f0cbb95181f1738f12ff1ec9463d11512e5f91809b2f749",
+    "changed_parameters": [
+      "model",
+      "submission marker"
+    ],
+    "controlled_parameters_uploaded": false
+  },
+  "client_calls": {
+    "mini": {
+      "create": 1,
+      "status": 1,
+      "result": 1,
+      "search": 1,
+      "source_reads": 3,
+      "usage": 0,
+      "retries": 0
+    },
+    "pro": {
+      "create": 1,
+      "status": 2,
+      "result": 1,
+      "new_search": 0,
+      "new_source_reads": 0,
+      "usage": 0,
+      "retries": 0
+    },
+    "boundary": "Client recorded actions only; provider internal retrieval count unknown."
+  },
+  "sources": {
+    "mini_count": 0,
+    "pro_count": 3,
+    "pro_visible_fields": [
+      "url",
+      "title",
+      "favicon"
+    ],
+    "independent_extraction_visible": false,
+    "erratum_ref": "PRO-SOURCES-ERRATUM-01",
+    "originals_preserved": true
+  },
+  "source_excerpt": {
+    "document": "RFC 9110, June 2022",
+    "target_tool_marked_lines": [
+      "L1745-L1765",
+      "L2000-L2020"
+    ],
+    "line_count": 42,
+    "acquired_and_compared": true,
+    "boundary": "Returned target snippets, not complete RFC byte archive.",
+    "official_locators": [
+      "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.3.1",
+      "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.3.2",
+      "https://www.rfc-editor.org/rfc/rfc9110.html#section-8.6"
+    ]
+  },
+  "claim_map": [
+    {
+      "claim": "Mini strengthens SHOULD/MAY into MUST; pro avoids those explicit errors but leaves the rules unverified.",
+      "comparison_ids": [
+        "C03",
+        "C04"
+      ],
+      "report_lines": {
+        "mini": [
+          "M15-M16",
+          "M28",
+          "M34"
+        ],
+        "pro": [
+          "P26-P31",
+          "P35-P36",
+          "P40-P41"
+        ]
+      },
+      "source_lines": [
+        "L2016-L2017",
+        "L1758"
+      ]
+    },
+    {
+      "claim": "Both omit required request content semantics, risks and conditions; unverified alone is not a hallucination.",
+      "comparison_ids": [
+        "C02"
+      ],
+      "report_lines": {
+        "mini": [
+          "M10-M12"
+        ],
+        "pro": [
+          "P20-P21",
+          "P39"
+        ]
+      },
+      "source_lines": [
+        "L2008-L2009",
+        "L2018-L2019"
+      ]
+    },
+    {
+      "claim": "Pro sources are three metadata records; official-only claim conflicts with rfcinfo citation.",
+      "comparison_ids": [
+        "C05"
+      ],
+      "report_lines": {
+        "pro": [
+          "P4",
+          "P8-P17",
+          "P47-P49"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "MINI-COLLECTION-MANIFEST",
+      "sha256": "a48e01466a1641db60710f312cbb1f2523edd997e8fdbf7ddc4c6d68b9f30872",
+      "bytes": 5336,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index",
+      "locator": "33 entries"
+    },
+    {
+      "id": "PRO-COLLECTION-MANIFEST",
+      "sha256": "cfd5867f904d3bea3ed319c614ec228b7db8bffe3963ff61bf221001031ad2a5",
+      "bytes": 5676,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index",
+      "locator": "34 entries"
+    },
+    {
+      "id": "COMPARISON-MANIFEST",
+      "sha256": "98416708233045339e2ed9dfd787bdec25243c3e1f8bfd1cc669aa783361f1ad",
+      "bytes": 815,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index"
+    },
+    {
+      "id": "MINI-PRO-COMPARISON",
+      "sha256": "2a8021da405d550c55bcc15f4d980f63fe73674a054a13f2c92b3d7f6fd7ac3d",
+      "bytes": 9350,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index",
+      "locator": "C01-C05; M/P report physical lines and L source tool markers"
+    },
+    {
+      "id": "PRO-SOURCES-ERRATUM-01",
+      "sha256": "b5dcd58eff434b931e64e67236ad1d87e3411dcab197540790eda74fe970aa8d",
+      "bytes": 1318,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index"
+    },
+    {
+      "id": "MINI-TARGET-EXCERPTS",
+      "sha256": "b800f1dbbc64c0bcedf0d746a2e76ba4c3c3fa756cb1af13c6cfae79bccd7dfe",
+      "bytes": 11024,
+      "access": "controlled; coordinator provides authorized access; not uploaded with this index"
+    }
+  ],
+  "controlled_review_bundle": {
+    "name": "Issue20-Pro-Mini-Comparison-Review.zip",
+    "bytes": 101184,
+    "sha256": "6ba193cda54870166cb96e22f14d2dcbe72313857dbed48bae6cb964b03fb2f2",
+    "evidence_items": 41,
+    "additional_readme_and_manifest_files": 2,
+    "access": "Controlled bundle; coordinator must provide actual access to an authorized reviewer. Hashes and pointers are not proof of access."
+  },
+  "prior_result_review": {
+    "status": "Reviewed according to current Zhizhou handoff",
+    "source": "Parent relays current Zhizhou handoff; no formal reviewer run/comment/archive locator supplied.",
+    "reported_checks": [
+      "41/41 evidence items verified",
+      "621 UTF-8 bytes and identical input SHA256",
+      "report texts match result fields",
+      "42 target source lines present"
+    ],
+    "reviewer_run_id": null,
+    "comment_url": null,
+    "archive_ref": null,
+    "does_not_approve_new_workflow_pr": true
+  },
+  "unknown": [
+    "runtime deployment identity",
+    "actual backend model",
+    "actual charges",
+    "provider internal retrieval process"
+  ],
+  "limitations": [
+    "One sample per requested Research tier; no global quality, stable superiority or root-cause inference.",
+    "No independent extraction layer visible; full report-extraction-source verification not established.",
+    "This index is a sanitized evidence map and does not substitute for original material access."
+  ]
+}

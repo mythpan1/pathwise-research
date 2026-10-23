@@ -1,0 +1,23 @@
+{
+  "run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-PUBLISH-01",
+  "parent_run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-COORDINATE-01",
+  "status": "prepared_for_tree",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "high",
+  "runtime_reported_model": null,
+  "runtime_reported_reasoning": null,
+  "backend_identity": "unknown",
+  "input_manifest_sha256": "753434896ba2c736645a3b41e58ebc612f13762f0d7988d3c2d616437898ac32",
+  "baseline_commit": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+  "candidate_count": 8,
+  "branch": "docs/search-first-workflow-20261023",
+  "remote_actions": [],
+  "created_at": "2026-10-23T00:00:00Z",
+  "branch_created_from": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+  "candidate_manifest_verified": true,
+  "remote_blob_readbacks": "9/9 exact UTF-8 bytes and SHA-256 verified",
+  "remote_pr": "pending",
+  "designated_ci": "pending",
+  "independent_review": "pending Dot",
+  "issue_append": "pending"
+}
