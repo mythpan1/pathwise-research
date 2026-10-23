@@ -41,8 +41,9 @@
   "owned_paths": [
     "AGENTS.md",
     "docs/agent-workflow.md",
+    "docs/tavily-acceptance-plan.md",
     "work/runs/RUN-MODEL-ROUTING-20261023-AUTHOR-01.json",
     "work/steps/RUN-MODEL-ROUTING-20261023-AUTHOR-01.jsonl"
   ],
-  "note": "Documentation-only task. Research remains paused. The author did not review or merge this deliverable; publication is delegated separately."
+  "note": "Documentation-only task. Research remains paused. The author did not review or merge this deliverable; publication is delegated separately. Scope amended after user request: plan the Issue20 actual-plugin acceptance subtask only; execution is pending and no paid calls were made. Earlier scope is preserved in version history and append-only steps."
 }
