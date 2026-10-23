@@ -34,3 +34,5 @@
 审核者实际发布并完整读回的[审核评论](https://github.com/mythpan1/pathwise-research/pull/28#issuecomment-6363291430)绑定 H2 `4d1420c14de0c2b45aa3906e76792800d1ea1bce` 与基线 `97183b34167fbd2f5de27185832ca3dfc7677d92`；结论“建议采用”、阻断 0、无新增非阻断修改要求。该评论不是 GitHub 平台 APPROVE，也不是合并授权。
 
 本记录只机械归档真实审核结果。H2→F2 应仅新增 `reviews/ISSUE-27-r2.md`；此 r2 不改变情景或事实正文，不扩展 r1 的审核范围，也不授权合并。Issue #27 保持 open，PR #28 保持 Ready、open、unmerged，main 不变。
+
+勘误（2026-10-23）：上文“本轮范围”行中的前版归档提交 SHA 误写为 `41433c7942d82c05ba4306e76792800d1ea1bce`；真实 F 为 `41433c7942d82c05ba4307c6f3d1fa3bd73d3779`。被审 H2 `4d1420c14de0c2b45aa3906e76792800d1ea1bce` 不变。本勘误仅更正提交 SHA。
