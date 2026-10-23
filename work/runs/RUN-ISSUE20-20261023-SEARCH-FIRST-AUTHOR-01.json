@@ -1,0 +1,56 @@
+{
+  "run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-AUTHOR-01",
+  "parent_run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-COORDINATE-01",
+  "actor_id": "search_first_workflow_author",
+  "role": "documentation_author",
+  "task_ref": "mythpan1/pathwise-research#20",
+  "recorded_at": "2026-10-23T06:00:04.943445+00:00",
+  "client": "Codex delegated agent",
+  "transport": "native collaboration spawn",
+  "tools": [
+    "functions.exec/exec_command (local files only)",
+    "collaboration.send_message (parent coordination)"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Parent confirms explicit native spawn model request and successful child creation; no per-run model metadata exposed here.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Parent confirms explicit native spawn reasoning_effort request; no per-run reasoning metadata exposed here.",
+    "verification": "unknown"
+  },
+  "configuration_boundary": "Known launch request; no unavailable/substitution error reported. Runtime-reported values and actual backend identity remain unknown.",
+  "baseline_commit": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+  "input_manifest_sha256": "c14b415e425c621d59cfe3fe543feef8d65cf8270a1164d7c65bdd7697643731",
+  "read_rules_ref": {
+    "snapshot_id": "ISSUE20-MINI-RULE-SNAPSHOTS",
+    "sha256": "b0b147214ff23c2516e53528ffd9ba52aacab622e058a69dc2e0f7a43b74fe78",
+    "baseline_commit": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/tavily-protocol.md",
+      "docs/experiment-protocol.md",
+      "docs/agent-provenance.md"
+    ]
+  },
+  "owned_paths": [
+    "AGENTS.md",
+    "docs/agent-workflow.md",
+    "docs/tavily-protocol.md",
+    "docs/tavily-acceptance-plan.md",
+    "docs/tavily-acceptance-result.md",
+    "work/evidence/ISSUE20-TAVILY-20261023/mini-pro-result-index.json",
+    "work/runs/RUN-ISSUE20-20261023-SEARCH-FIRST-AUTHOR-01.json",
+    "work/steps/RUN-ISSUE20-20261023-SEARCH-FIRST-AUTHOR-01.jsonl"
+  ],
+  "scope": "Minimal Search-first workflow documentation and sanitized existing mini/pro result index; no new research or independent review.",
+  "external_business_calls": 0,
+  "github_writes": 0,
+  "independent_review_performed": false,
+  "designated_ci_status": "not_run_by_author; publisher must verify the new PR exact head"
+}

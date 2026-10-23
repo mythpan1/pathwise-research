@@ -1,0 +1,22 @@
+{
+  "run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-PUBLISH-01",
+  "parent_run_id": "RUN-ISSUE20-20261023-SEARCH-FIRST-COORDINATE-01",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "high",
+  "runtime_reported_model": null,
+  "runtime_reported_reasoning": null,
+  "backend_identity": "unknown",
+  "input_manifest_sha256": "753434896ba2c736645a3b41e58ebc612f13762f0d7988d3c2d616437898ac32",
+  "baseline_commit": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+  "candidate_count": 8,
+  "branch": "docs/search-first-workflow-20261023",
+  "branch_created_from": "f96057cacedd169c8ae6158aeb1386afdab40b30",
+  "candidate_manifest_verified": true,
+  "status": "mechanical_preparation_completed",
+  "created_at": null,
+  "created_at_status": "unknown; exact run-start timestamp was not captured",
+  "candidate_file_count": 8,
+  "scope": "Frozen author candidates only; final PR/CI state is recorded in PR #22 and local publisher receipts.",
+  "recorded_at": "2026-10-23T06:12:11Z",
+  "recorded_at_note": "Correction record time from the available UTC clock; run-start time was not captured and remains unknown."
+}
