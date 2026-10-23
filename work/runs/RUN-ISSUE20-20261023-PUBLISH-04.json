@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-ISSUE20-20261023-PUBLISH-04",
+  "actor_id": "publisher-04-luna",
+  "role": "mechanical publishing, verification, PR body handoff and ready-state update; no review or merge",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/20",
+  "parent_run_id": "RUN-MODEL-ROUTING-20261023-CHAT-HANDOFF-01",
+  "client": "Codex",
+  "transport": "native delegated task execution",
+  "tools": [
+    "GitHub connector",
+    "local shell"
+  ],
+  "model": {
+    "requested": "gpt-6-luna",
+    "reported": null,
+    "source": "Parent assignment requests gpt-6-luna; runtime identity metadata is not exposed in this execution context.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "high",
+    "reported": null,
+    "source": "Parent assignment requests high; runtime reasoning metadata is not exposed in this execution context.",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-23T02:52:36Z",
+  "recorded_by_run_id": "RUN-ISSUE20-20261023-PUBLISH-04",
+  "read_rules_ref": {
+    "commit": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
+    "paths": [
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "docs/tavily-protocol.md",
+      "templates/agent-run.json",
+      "templates/work-step.json",
+      "reviews/README.md",
+      ".github/pull_request_template.md",
+      ".github/workflows/validation.yml"
+    ],
+    "sha256_by_path": {}
+  },
+  "owned_paths": [
+    "docs/tavily-acceptance-plan.md",
+    "docs/tavily-acceptance-result.md",
+    "docs/tavily-protocol.md",
+    "work/evidence/ISSUE20-TAVILY-20261023/receipt-index.json",
+    "work/runs/RUN-ISSUE20-20261023-CLOSEOUT-ANALYZE-02.json",
+    "work/runs/RUN-ISSUE20-20261023-SEARCH-FIX-CHECK-01.json",
+    "work/runs/RUN-ISSUE20-20261023-TAVILY-COLLECT-01.json",
+    "work/steps/RUN-ISSUE20-20261023-CLOSEOUT-ANALYZE-02.jsonl",
+    "work/steps/RUN-ISSUE20-20261023-SEARCH-FIX-CHECK-01.jsonl",
+    "work/steps/RUN-ISSUE20-20261023-TAVILY-COLLECT-01.jsonl",
+    "work/runs/RUN-ISSUE20-20261023-PUBLISH-04.json",
+    "work/steps/RUN-ISSUE20-20261023-PUBLISH-04.jsonl"
+  ],
+  "note": "Mechanical continuation over frozen PUBLISH-03 branch state and Astra closeout handoff. Requested configuration is not treated as runtime-reported identity. No new Tavily, Exa, Research, ACP or WorkBuddy calls; no Issue body change, self-review or merge. Controlled raw inputs, source material, manifests and handoff objects remain local-only."
+}
