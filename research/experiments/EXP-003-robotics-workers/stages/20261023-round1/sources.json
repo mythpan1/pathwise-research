@@ -1,0 +1,363 @@
+{
+  "experiment_id": "EXP-003-robotics-workers",
+  "stage": "20261023-round1",
+  "status": "candidate; independent review pending; unmerged",
+  "baseline": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+  "accessed_date": "2026-10-23",
+  "scope": "Frozen partial evidence for China 2026–2036 worker/task/career discussion; not a China employment forecast",
+  "source_groups": {
+    "trends": {
+      "collector_index_sha256": "5fde2082b1400e2737c560df856d32f001617a756aeb7524b8c4563476dbec85",
+      "frozen_at": "2026-10-23T11:18:16.361558+00:00",
+      "source_index": [
+        {
+          "id": "T1",
+          "title": "World Robotics 2026 – Industrial Robots: Executive Summary",
+          "url": "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf",
+          "publication_date": "2026-09-24",
+          "event_time": "2025 observed statistics; 2026/2029 forecasts excluded",
+          "scope": "Global and China multipurpose industrial robots",
+          "locator": "PDF index 3 / printed p.15; parsed L33–61",
+          "copy_type": "Complete returned web tool payload; parsed PDF text, not binary PDF",
+          "evidence_hashes": [
+            {
+              "id": "O1",
+              "sha256": "0acb35e0191913b99920de1a747aa0fd338baefbfe4a39f6d3a92e6d2c7f44b9",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            }
+          ],
+          "limitations": [
+            "Full statistical tables/database",
+            "Future forecasts"
+          ]
+        },
+        {
+          "id": "T2",
+          "title": "World Robotics 2026 – Industrial Robots: Sources and methods",
+          "url": "https://ifr.org/img/worldrobotics/Sources___Methods_WR_2026_-_Industrial_Robots.pdf",
+          "publication_date": "2026",
+          "event_time": "Methods for 2026 report / 2025 statistics",
+          "scope": "IFR definitions, sources, revisions",
+          "locator": "printed pp.24,30–33; parsed L160–174,359–438; §§1.2.3,1.5,1.6,1.7",
+          "copy_type": "Complete returned web tool payload; only parsed part of43-page PDF, not complete PDF",
+          "evidence_hashes": [
+            {
+              "id": "O2",
+              "sha256": "e226b77909b07e8050d611fccdfeee9eef00b91d5c7d5320dd3196d0e4e3f975",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            }
+          ],
+          "limitations": [
+            "Chapter2.5.1 employment source tables not in returned range",
+            "Remaining pages not returned by parser",
+            "Independent validation of IFR survey coverage"
+          ]
+        },
+        {
+          "id": "T3",
+          "title": "Robot Density Surges in Europe, Asia, and Americas",
+          "url": "https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas",
+          "publication_date": "2026-04-08",
+          "event_time": "2024 robot density in World Robotics2025",
+          "scope": "China/manufacturing employment denominator; official revised-vintage statement",
+          "locator": "parsed L8,19–22,32–34",
+          "copy_type": "Complete returned web parsed HTML text payload, not full HTML",
+          "evidence_hashes": [
+            {
+              "id": "O3",
+              "sha256": "39e384b54911a67edebd6313b2f5b8c9b48582d45318e96e9777a0720a4815e5",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            }
+          ],
+          "limitations": [
+            "NBS employment denominator underlying table/count",
+            "Revision algorithm",
+            "Comparable prior-vintage density series",
+            "Latest 2025 density not obtained"
+          ]
+        },
+        {
+          "id": "T4",
+          "title": "Competing with Robots: Firm-Level Evidence from France",
+          "url": "https://economics.mit.edu/sites/default/files/publications/Competing%20with%20Robots%20-%20Firm-Level%20Evidence%20from%20F.pdf",
+          "publication_date": "2020-05",
+          "event_time": "2010–2015",
+          "scope": "France manufacturing;55390 continuing firms;598 adopters; main employment variable total work hours",
+          "locator": "pp.383–388; §I–III,Tables1–2,p.383 selection caveat,p.387 notes7–8,p.388 conclusion",
+          "copy_type": "Two complete returned web parsed PDF text payloads with overlapping ranges; not PDF binary; first lacked final page,second included it",
+          "evidence_hashes": [
+            {
+              "id": "O4",
+              "sha256": "6470d5ca9799fa6faf30d64aaf2be3b708fb8b0454369182b1fc39a52f5224f3",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            },
+            {
+              "id": "O6",
+              "sha256": "88870e40e271df92731ff6cf18d049c45f2c9f03abcc94152e3856159336f951",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            }
+          ],
+          "limitations": [
+            "Online appendix",
+            "Underlying firm data",
+            "Replication",
+            "Exact robot-type classification compatibility withIFR",
+            "China external validity",
+            "Maintenance/integration job net effect"
+          ]
+        },
+        {
+          "id": "T5",
+          "title": "Five Million Robots now Operate in Factories Globally",
+          "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+          "publication_date": "2026-09-24",
+          "event_time": "2025 observed statistics; subsequent outlook excluded",
+          "scope": "Official release of World Robotics2026; same source family asT1/T2",
+          "locator": "parsed L6–15,37–42",
+          "copy_type": "Complete returned web parsed HTML text payload, not full HTML",
+          "evidence_hashes": [
+            {
+              "id": "O5",
+              "sha256": "d5c5378794c19c2a4192bf4823f3b932988937c4fa0e5455854ba87a86c39565",
+              "hash_scope": "serialized returned tool payload, not original source file"
+            }
+          ],
+          "limitations": [
+            "Forecast realization",
+            "Independent source corroboration"
+          ]
+        }
+      ]
+    },
+    "cases": {
+      "collector_index_sha256": "2a33e05848ce0e17fa02fdb2e63b72caf004abffa9a93e6bff002c35831b8ff4",
+      "frozen_at": "2026-10-23T11:21:23.831057+00:00",
+      "run_id": "robot-cases-collect-b-20261023",
+      "accessed_date": "2026-10-23",
+      "source_index": [
+        {
+          "id": "B-S1",
+          "title": "Dynamic Group quadruples injection molding output",
+          "publisher": "Universal Robots",
+          "source_relation": "robot supplier; customer CEO and automation engineer quoted; commercial case study, not independent evaluation",
+          "url": "https://www.universal-robots.com/case-stories/dynamic-group/",
+          "publication_date": null,
+          "publication_date_status": "not shown in returned page; deployment date unknown",
+          "geography": "USA per video label; exact plant/city unknown",
+          "period": "undated case page as accessed; not necessarily current deployment",
+          "robot_type": "UR10 collaborative industrial arms; one application also uses an existing Cartesian robot",
+          "status": "reported installed, not a future contract or trial",
+          "locator": "Returned page lines 25, 34–50, 59–66; tool page turn34view0",
+          "short_excerpt": "as little as two people",
+          "claim_ids": [
+            "B1-install",
+            "B1-tasks",
+            "B1-task-staffing",
+            "B1-capacity-wording-discrepancy"
+          ],
+          "raw_sha256": "78e059e3df4c43c0437261ad0fd28c57c2b28ca69b322c8c47a958c2bbad9231",
+          "original_attempt": "original-01",
+          "representation": "Complete untruncated tool return saved; parsed page text, not full HTML or video",
+          "missing": [
+            "publication/deployment date",
+            "exact facility",
+            "constant-output labor hours",
+            "company/site job changes",
+            "reassignment destinations",
+            "recruitment",
+            "independent measurement"
+          ],
+          "verification": "Checked page text against claims; supplier/CEO claims attributed, not causal proof"
+        },
+        {
+          "id": "B-S2",
+          "title": "DHL Supply Chain Passes Unprecedented 500 Million Picks Milestone Using Locus Robotics Autonomous Mobile Robots",
+          "publisher": "DHL Group hosting Locus Robotics announcement",
+          "source_relation": "operator-hosted supplier announcement with DHL CIO quote; joint commercial publicity; not independent of B-S3/B-S4",
+          "url": "https://group.dhl.com/en/media-relations/press-releases/2024/dhl-supply-chain-passes-unprecedented-500-million-picks-milestone-using-locus-robotics-autonomous-mobile-robots.html",
+          "publication_date": "2024-06-14T11:00:00+02:00",
+          "geography": "DHL global network; Toledo, Spain milestone site",
+          "period": "cumulative to 2024-05-18; announced 2024-06-14",
+          "status": "reported in operation across more than 35 sites; no site-level fleet count",
+          "locator": "Returned page lines 6, 12–21; tool page turn34view1",
+          "short_excerpt": "500 millionth pick occurred on May 18, 2024",
+          "claim_ids": [
+            "B2-real-operation",
+            "B2-network-cumulative-output",
+            "B2-event-site"
+          ],
+          "raw_sha256": "78e059e3df4c43c0437261ad0fd28c57c2b28ca69b322c8c47a958c2bbad9231",
+          "original_attempt": "original-02",
+          "representation": "Complete untruncated tool return saved; parsed page text, not full HTML",
+          "missing": [
+            "per-site robot count",
+            "constant fleet throughput",
+            "site labor hours",
+            "site staffing and recruitment",
+            "counterfactual"
+          ],
+          "verification": "Checked scope of cumulative count and 35+ sites; no conversion to employment"
+        },
+        {
+          "id": "B-S3",
+          "title": "Business Bites: DHL hits 500 million picks with LocusBots",
+          "publisher": "DHL Delivered",
+          "source_relation": "operator promotional article repeating B-S2; not independent corroboration",
+          "url": "https://www.dhl.com/global-en/delivered/innovation/dhl-and-locusbots-hit-500-million-picks.html",
+          "publication_date": "2024-08",
+          "geography": "DHL global network",
+          "period": "2024 retrospective promotional article",
+          "status": "reports already operating across 35+ locations",
+          "locator": "Returned page lines 41–47, 101–105, 156; tool page turn34view2",
+          "short_excerpt": null,
+          "claim_ids": [
+            "B2-navigation-to-task-detail"
+          ],
+          "raw_sha256": "78e059e3df4c43c0437261ad0fd28c57c2b28ca69b322c8c47a958c2bbad9231",
+          "original_attempt": "original-03",
+          "representation": "Complete untruncated tool return saved; parsed page text; embedded video did not load",
+          "missing": [
+            "site labor data",
+            "independent measures"
+          ],
+          "verification": "Read for mechanism and followed link14 to B-S4; not counted as separate independent evidence"
+        },
+        {
+          "id": "B-S4",
+          "title": "How robotic picking is revolutionizing warehouse productivity",
+          "publisher": "DHL Delivered",
+          "source_relation": "deployment operator; commercial/promotional account citing DHL and Locus, not causal evaluation",
+          "url": "https://www.dhl.com/global-en/delivered/innovation/locus-robotics-robotic-picking.html",
+          "publication_date": "2023-06",
+          "publication_date_status": "page says Updated: June 2023; initial date unknown",
+          "geography": "DHL global warehouse network; no identified plant before/after panel",
+          "period": "as of June 2023 page update; not 2026 fleet count",
+          "status": "3,000 deployed at page time; 5,000 by end-2023 stated as plan",
+          "locator": "Returned page lines 49–51, 65–92, 114–118, 150–153; tool page turn36view0",
+          "short_excerpt": "30-180% INCREASE IN PER-HOUR UNITS PICKED",
+          "claim_ids": [
+            "B2-task-movement",
+            "B2-plan-vs-actual",
+            "B2-percent-baseline-unknown"
+          ],
+          "raw_sha256": "dbf61e2c55d6d8329e9a57c312dddd02f7bb06a28196bd44b76c42ca596267e6",
+          "original_attempt": "original-06",
+          "representation": "Complete untruncated tool return saved; parsed page text, not full HTML",
+          "missing": [
+            "which sites in productivity range",
+            "sample size",
+            "comparison period",
+            "SKU/order mix",
+            "worker-hours denominator",
+            "Toledo staffing",
+            "all-grasping task boundaries"
+          ],
+          "verification": "Distinguished goods movement from full automated grasping; range is publisher claim with undisclosed baseline"
+        }
+      ],
+      "failed_attempts": [
+        {
+          "id": "B-F1",
+          "original_attempt": "original-04",
+          "url": "https://www.dhl.com/content/dam/dhl/global/csi/documents/pdf/glo-csi-logistics-trend-radar-7-0.pdf",
+          "result": "failed: tool reports content length too large, 44,462,530 bytes",
+          "raw_sha256": "25dc9fda59f13733a1e9782d9f09ddf36e543a5b0c6f00733e54a18fe827f053",
+          "adopted_claims": []
+        },
+        {
+          "id": "B-F2",
+          "original_attempt": "original-05",
+          "url": null,
+          "locator": "B-S1 linked Video — UR10 robot, Dynamic Group, USA; embedded player link11",
+          "result": "failed: JavaScript required; video and date not retrieved",
+          "raw_sha256": "25dc9fda59f13733a1e9782d9f09ddf36e543a5b0c6f00733e54a18fe827f053",
+          "adopted_claims": []
+        },
+        {
+          "id": "B-F3",
+          "original_attempt": "original-07",
+          "url": "https://www.dpdhl.com/en/media-relations/press-releases/2021/dhl-supply-chain-signs-agreement-with-locus-robotics.html",
+          "result": "failed: tool reports timeout fetching; no retry",
+          "raw_sha256": "07ca4d871bd87e0ec280344a65578ec0e2550127d166ce9ed1000b349b836904",
+          "adopted_claims": []
+        }
+      ],
+      "independence_note": "B-S2 and B-S3 are the same announcement lineage. B-S4 is same operator/vendor relationship, not independent validation. B-S1 supplier has commercial interest.",
+      "evidence_access": "Opaque source IDs and capture hashes identify controlled local tool-return snapshots. Raw originals and internal returns excluded from public export.",
+      "capture_limitations": "Tool-parsed texts only; not full HTML/PDF. Failed sources supply no evidence."
+    }
+  },
+  "capture_boundary": {
+    "available": "Tool-parsed source texts/visible excerpts in complete saved tool-return payloads; not original HTML/PDF binaries or underlying data",
+    "hash_scope": "All evidence hashes, including raw_sha256, hash serialized tool-return payloads, not publisher-original files; several case sources share one returned payload",
+    "controlled_access": "Source group plus source/evidence ID and capture hash identify local controlled snapshots; raw content and internal logs excluded from repository",
+    "failed_attempts": "Three failed original reads are preserved under cases.failed_attempts; none supports adopted claims",
+    "source_independence": "T1/T2/T3/T5 share IFR; T4 overlapping reads are one paper; B-S2/B-S3 share one announcement, B-S4 shares operator/vendor interests; counts are not independent corroboration"
+  },
+  "collection_counts": {
+    "search": 7,
+    "original_attempts": 13,
+    "original_parsed": 10,
+    "original_failed": 3,
+    "research": 0,
+    "setup": 0,
+    "usage": 0,
+    "counts_not_independent_sources": true,
+    "author_new_investigation_calls": 0
+  },
+  "claim_map": [
+    {
+      "discussion_anchor": "IFR采用规模",
+      "sources": [
+        "T1",
+        "T2",
+        "T5"
+      ],
+      "evidence_use": "Adoption scale and definitions only; not jobs lost"
+    },
+    {
+      "discussion_anchor": "IFR密度",
+      "sources": [
+        "T3"
+      ],
+      "evidence_use": "Revised-vintage density; no splicing of prior denominators or rankings"
+    },
+    {
+      "discussion_anchor": "Dynamic Group",
+      "sources": [
+        "B-S1"
+      ],
+      "evidence_use": "Attributed supplier/customer task and staffing claims; uncontrolled comparison"
+    },
+    {
+      "discussion_anchor": "DHL仓储",
+      "sources": [
+        "B-S2",
+        "B-S4"
+      ],
+      "evidence_use": "Attributed network operation and task claims; no site labor effect"
+    },
+    {
+      "discussion_anchor": "法国企业研究",
+      "sources": [
+        "T4"
+      ],
+      "evidence_use": "Historical association and mechanism support; selection, hours and external-validity limits retained"
+    },
+    {
+      "discussion_anchor": "三条推演路径",
+      "sources": [
+        "B-S1",
+        "B-S2",
+        "B-S4",
+        "T4"
+      ],
+      "evidence_use": "Conditional author reasoning; remaining-task skills, recruitment and China impacts not established by these sources"
+    },
+    {
+      "discussion_anchor": "培养选择与讨论问题",
+      "sources": [],
+      "evidence_use": "Author implications and discriminating questions; not source-verified training outcomes"
+    }
+  ]
+}
