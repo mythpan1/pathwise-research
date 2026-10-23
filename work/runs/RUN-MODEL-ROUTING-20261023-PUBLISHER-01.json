@@ -4,9 +4,9 @@
   "is_template": false,
   "run_id": "RUN-MODEL-ROUTING-20261023-PUBLISHER-01",
   "actor_id": "publisher-luna",
-  "role": "mechanical publication and independent mechanical verification",
+  "role": "mechanical publication and publisher self-check (not independent content review)",
   "task_ref": "LOCAL-20261023-MODEL-ROUTING-01",
-  "parent_run_id": null,
+  "parent_run_id": "RUN-MODEL-ROUTING-20261023-AUTHOR-01",
   "client": "Codex",
   "transport": "native task execution",
   "tools": [
@@ -15,15 +15,15 @@
   ],
   "model": {
     "requested": "gpt-6-luna",
-    "reported": "gpt-6-luna",
-    "source": "task execution configuration",
-    "verification": "runtime_reported"
+    "reported": null,
+    "source": "The publisher task requested gpt-6-luna. No separate runtime/model metadata or backend identity receipt was exposed in this run; a task instruction/configuration is not evidence of actual backend routing.",
+    "verification": "unknown"
   },
   "reasoning": {
     "requested": "high",
-    "reported": "high",
-    "source": "task execution configuration",
-    "verification": "runtime_reported"
+    "reported": null,
+    "source": "The publisher task requested high. No separate runtime reasoning metadata receipt was exposed; the configured request is not independently reported runtime evidence.",
+    "verification": "unknown"
   },
   "recorded_at": "2026-10-23T00:58:37Z",
   "recorded_by_run_id": "RUN-MODEL-ROUTING-20261023-PUBLISHER-01",
@@ -47,7 +47,8 @@
     }
   },
   "owned_paths": [
-    "/workspace/shared/workflow-role-20261023-publisher/"
+    "work/runs/RUN-MODEL-ROUTING-20261023-PUBLISHER-01.json",
+    "work/steps/RUN-MODEL-ROUTING-20261023-PUBLISHER-01.jsonl"
   ],
-  "note": "Configured/requested model and reasoning settings are logged; this is not independent proof of backend model identity. Mechanical publication only; candidate documents and author records are immutable inputs."
+  "note": "Sanitized publication-export copy. Corrects the original local record: gpt-6-luna/high were requested, but no runtime or backend identity receipt was exposed, so reported values are unknown. Original local run/steps are retained unchanged as local history. Not proof of actual backend identity. No raw tool logs included. Parent-run correction in this export: the original local record had parent_run_id=null, but the known delegating run is RUN-MODEL-ROUTING-20261023-AUTHOR-01 (/root/update_agent_routing_workflow); original local record retained unchanged and correction is documented in appended steps. Role correction for resumed task: publisher performed only packaging/publication checks and self-checks, not independent content review. An earlier export role phrase said “independent mechanical verification”; that wording is corrected here and recorded in appended steps; the prior local source record is preserved."
 }
