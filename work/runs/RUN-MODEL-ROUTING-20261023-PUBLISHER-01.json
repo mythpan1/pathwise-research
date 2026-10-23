@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-MODEL-ROUTING-20261023-PUBLISHER-01",
+  "actor_id": "publisher-luna",
+  "role": "mechanical publication and independent mechanical verification",
+  "task_ref": "LOCAL-20261023-MODEL-ROUTING-01",
+  "parent_run_id": null,
+  "client": "Codex",
+  "transport": "native task execution",
+  "tools": [
+    "GitHub connector",
+    "local shell"
+  ],
+  "model": {
+    "requested": "gpt-6-luna",
+    "reported": "gpt-6-luna",
+    "source": "task execution configuration",
+    "verification": "runtime_reported"
+  },
+  "reasoning": {
+    "requested": "high",
+    "reported": "high",
+    "source": "task execution configuration",
+    "verification": "runtime_reported"
+  },
+  "recorded_at": "2026-10-23T00:58:37Z",
+  "recorded_by_run_id": "RUN-MODEL-ROUTING-20261023-PUBLISHER-01",
+  "read_rules_ref": {
+    "commit": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "templates/agent-run.json",
+      "templates/work-step.json"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "41b0bda9aa9cb209e4d12e84e77caed5a9fa1f8b45c3cb74215cbceb6e81167b",
+      "docs/agent-workflow.md": "37c3dd2b30e22f953b79707ee7e7e5ab9fc9dd11c68695e49d29693ea920870d",
+      "docs/agent-provenance.md": "5c3cd807445b84447e06593bea675df925434ae4c153a893cf6c62329837bd42",
+      "docs/experiment-protocol.md": "a6976a1d826e2251fa4aa494345fd23edefc63c1b9b36f448abbc201a3c3a57c",
+      "templates/agent-run.json": "be096acf9585b4a5c75c85bacc80edc4006960972ab83db5913beb6d1685a501",
+      "templates/work-step.json": "c75a64dc701e964558a7f7e26423e964ed6caac089bda163d3a156e723c9ed6b"
+    }
+  },
+  "owned_paths": [
+    "/workspace/shared/workflow-role-20261023-publisher/"
+  ],
+  "note": "Configured/requested model and reasoning settings are logged; this is not independent proof of backend model identity. Mechanical publication only; candidate documents and author records are immutable inputs."
+}
