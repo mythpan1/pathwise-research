@@ -1,0 +1,80 @@
+{
+  "schema": "bounded-video-source-index-v1",
+  "video_id": "BV1oFojB2EWz",
+  "analysis_date": "2026-10-24",
+  "status": "author candidate; independent review pending",
+  "video": {
+    "url": "https://www.bilibili.com/video/BV1oFojB2EWz/",
+    "title": "球磨机还能搞出什么花样？中国教授：给它搞成等离子的",
+    "author": "院里新来了个杨主任",
+    "author_uid": "1121263766",
+    "published_at": "2026-04-24",
+    "duration": "04:53",
+    "reader": "parent task cloud subagent",
+    "author_viewed": false,
+    "reading_mode": "AI字幕、关键帧、少量匿名评论抽样；非全音轨／逐秒阅读",
+    "actual_read_date": null,
+    "coverage": "交接主张点00:08、00:42、01:10—01:23、01:41—01:45、02:15—02:32、02:46—02:59、03:13—03:31、03:38—03:52；完整覆盖与间隙未知；04:19后宏观比较排除",
+    "limits": "术语ASR不稳、未外检；评论仅问题线索；作者未重看视频。纳米铝粉仅高层用途，不含制备信息。",
+    "handoff_evidence_hash": {
+      "sha256": "e2a4ab069dc4f78328b0a2589644b9afaf566dc2e9be2a8d17edc5d00b60ec38",
+      "bytes": 2465
+    }
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "中国新闻网：效率提升近10倍！全球首台100L连续生产型等离子球磨机发布",
+      "publisher": "华南理工大学新闻网转载中国新闻网（记者许青青）",
+      "source_type": "official host of media repost; not independent university engineering test",
+      "url": "https://news.scut.edu.cn/2026/0420/c44a59776/page.htm",
+      "published_at": "2026-04-20",
+      "locator": "L98,L101,L107,L111–L114",
+      "short_summary": "报道100L设备发布及意向订单；不证明交付、投产、连续测试或商业验收。",
+      "limits": "数字及性能是报道／主体声明；全球首创与效率倍数未核验且不采用。",
+      "accessed_at": "2026-10-24",
+      "underlying_report_date": "2026-04-16",
+      "event_date": "2026-04-15",
+      "controlled_original_window_hash": {
+        "sha256": "a07ad80a0cef848e0096e291b0f6c1d0147b3bd4a9c107625acd000094229323",
+        "bytes": 2293
+      }
+    },
+    {
+      "id": "S02",
+      "title": "广东华欣材创官网",
+      "publisher": "广东华欣材创科技有限公司",
+      "source_type": "project company original; vendor declaration",
+      "url": "https://www.plasma-milling.com/",
+      "published_at": null,
+      "locator": "L43–L71,L73–L99,L172–L190",
+      "short_summary": "原理概述为等离子与机械过程的电热力耦合；列活化、细化、用途与检测研发服务。",
+      "limits": "当前主页无发布日期；不能反推视频时期配置、普适工况、零污染或客户效果。",
+      "accessed_at": "2026-10-24",
+      "controlled_original_window_hash": {
+        "sha256": "f08dbab7e0559ad338ad183ebb8aec71917a19af6451d7244f66f157f819a8ad",
+        "bytes": 2983
+      }
+    },
+    {
+      "id": "S03",
+      "title": "PBM-E系列100L等离子球磨机",
+      "publisher": "广东华欣材创科技有限公司",
+      "source_type": "project company original product page; vendor declaration",
+      "url": "https://www.plasma-milling.com/2026/05/27/100l%E7%BD%90%E4%BD%93%E3%80%81%E7%BA%B3%E7%B1%B3%E5%87%BA%E6%96%99%E3%80%81%E8%BE%89%E5%85%89%E6%94%BE%E7%94%B5%E3%80%81%E7%9C%9F%E7%A9%BA%E4%BD%8E%E6%B8%A9%E7%A0%94%E7%A3%A8%E3%80%81%E8%B4%9F/",
+      "published_at": "2026-05-27",
+      "locator": "L40–L45,L55–L56,L104,L106",
+      "short_summary": "100L为罐体容积；公司称连续型生产设备，并写连续生产可定制，另有自检与监测声明。",
+      "limits": "日期晚于视频；无已读24小时实测、寿命、良率、交付或独立验收；操作参数不摘录。",
+      "accessed_at": "2026-10-24",
+      "controlled_original_window_hash": {
+        "sha256": "62c8c12635ba366288e575fa9777a96c9b9f37cd0dbb0ec450ecb0565ef5a4c5",
+        "bytes": 1158
+      }
+    }
+  ],
+  "reading_boundary": "原文窗口于2026-10-24取得并核读；工具返回含两个月前抓取提示，访问日期不等于实时状态验证。S02无发布日期，S03晚于视频；仅采用列明窗口及摘要。受控原文与完整回执不上传。",
+  "independence": "S02、S03来自同一公司；S01为高校托管的发布新闻转载，三份来源不是三方独立验证。",
+  "claim_boundary": "24小时、稳定产出、良率、寿命及客户验收未核；两条任务链是功能拆解与条件推断；未核岗位数量或应届招聘。",
+  "collection_summary": "既有有限收集：2次Search、3次原文读取，失败0；本文新增外部取证0。"
+}
