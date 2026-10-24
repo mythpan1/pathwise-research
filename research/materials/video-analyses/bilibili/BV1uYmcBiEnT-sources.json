@@ -1,0 +1,442 @@
+{
+  "material_id": "BV1uYmcBiEnT",
+  "task_ref": "Issue63 / queue10 of 15 / directory period16",
+  "analysis_date": "2026-10-24",
+  "status": "author V3 candidate; independent review pending",
+  "project_input": "环保产业的两条任务链：设施群的供料、运行、维护和跨方交付；残余物检测、去向治理及有条件的资源化。用于未来十年及当前培养路径比较，不作行业/专业排名。",
+  "video": {
+    "platform": "Bilibili",
+    "url": "https://www.bilibili.com/video/BV1uYmcBiEnT/",
+    "title": "国内喂不饱，中国得去海外抢垃圾烧",
+    "creator": "院里新来了个杨主任",
+    "creator_uid": "1121263766",
+    "published_at": "2025-12-07",
+    "duration": "05:33",
+    "reading": "Parent-provided cloud subtitle/keyframe sampling, not full audio; author did not watch",
+    "actual_sampler": null,
+    "sampling_date": null,
+    "complete_coverage": null,
+    "use": "signal only; unverified video figures, anonymous comments and AI discussion not evidence"
+  },
+  "sources": [
+    {
+      "id": "R2-S01",
+      "publisher": "国家统计局（住建部供数）",
+      "title": "中国统计年鉴2025 表8-17",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C08-17.jpg",
+      "date": "2024 data / 2025 yearbook",
+      "accessed": "2026-10-24",
+      "locator": "表头和全国行",
+      "window_sha256": "185911e6a47c6fab81b674fe7800024757f67f3021307d562405645aaba480dc",
+      "limits": "城市非城乡；表列能力非实际量/稳定全年可用产能",
+      "level": "official statistics",
+      "summary": "2024全国城市生活垃圾焚烧厂739座、表列处理能力920979吨/日、全年焚烧21970.0万吨、无害化总量25961.0万吨。",
+      "data_period": "2024",
+      "publication": "2025 yearbook; exact publication date unknown",
+      "source_group": "urban-statistics",
+      "evidence_hashes": [
+        {
+          "kind": "full official JPG bytes; retained locally, not uploaded",
+          "sha256": "e6e1e849c777c32d73b95d78f18ee024fb8890ff8bf8a3ff081cc23f04e506c9"
+        },
+        {
+          "kind": "PNG crop containing table title, column headers and national row; retained locally",
+          "sha256": "6b68b9f5b57591e4ea9c491f075ffff1441060611450d8432d65ccaf623a3df3"
+        }
+      ],
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    },
+    {
+      "id": "R2-S02",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴2021 表8-18",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2021/html/C08-18.jpg",
+      "date": "2020 data / 2021 yearbook",
+      "accessed": "2026-10-24",
+      "locator": "表头和全国行",
+      "window_sha256": "69ac220511c051cc176de50b762a5508cd7f5520ff7e3458e5c7afef81b761cb",
+      "limits": "同字段全国城市序列非恒定城市样本",
+      "level": "official statistics",
+      "summary": "2020全国城市生活垃圾焚烧厂463座、表列处理能力567804吨/日、全年焚烧14607.6万吨、无害化总量23452.3万吨。",
+      "data_period": "2020",
+      "publication": "2021 yearbook; exact publication date unknown",
+      "source_group": "urban-statistics",
+      "evidence_hashes": [
+        {
+          "kind": "full official JPG bytes; retained locally, not uploaded",
+          "sha256": "6eed04025de40a9e3fab13e9a91c8ecb4609be7e9f88dfa71c7579d0bf118049"
+        },
+        {
+          "kind": "PNG crop containing table title, column headers and national row; retained locally",
+          "sha256": "6788b80a4e27afdc20e1549565e716784cb95bea7d748e57417200b57b25c9e2"
+        }
+      ],
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    },
+    {
+      "id": "R2-S03",
+      "publisher": "国家统计局",
+      "title": "资源和环境篇说明与主要统计指标解释",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/zb08.pdf",
+      "date": "2025 yearbook",
+      "accessed": "2026-10-24",
+      "locator": "PDF第2页（印刷256页），另sm08.htm L12–16供数链",
+      "window_sha256": "b6e107066a777c2f1e3afa61420317be9240d515595143cdd9ba88ed200c2bae",
+      "limits": "没有更细能力/厂数定义；清运与产生量分开",
+      "level": "official statistical definitions and source chain",
+      "summary": "城市生活垃圾含居民及单位等；清运量与产生量分开。城市生活垃圾清运处理资料由住建部提供。未取得表列能力更细定义。",
+      "publication": "2025 yearbook; exact publication date unknown",
+      "source_group": "urban-statistics",
+      "additional_url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm08.htm",
+      "evidence_hashes": [
+        {
+          "kind": "full official definitions PDF bytes; retained locally, not uploaded",
+          "sha256": "5fee440866c991f370bc49b1e464a8bc65a6077483a9b29458be57f8986a045e"
+        }
+      ],
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    },
+    {
+      "id": "R3-S01",
+      "publisher": "兴平市垃圾处置中心，陕西省事业单位登记管理局托管",
+      "title": "2023年度业务报告",
+      "url": "https://www.sxbb.gov.cn/site-sxdjgl/yearlyReport_view/251604",
+      "date": "2024-03-27 16:28",
+      "accessed": "2026-10-24",
+      "locator": "开展业务活动情况第1项；存在的问题；下年度工作计划第2–3项",
+      "window_sha256": "8f65a7f9c717ada423aeedeb312ab6b6e035d2229c79e244ceb6df6646482379",
+      "limits": "实际焚烧量非全城产生量或明确地磅进厂量；不足为报告提出的问题，设计能力、服务边界、合同与季节成因未闭合。试运行/商运验收日期不一致未裁定；制砖为计划，去向记录非安全合规/金属回收证明。",
+      "level": "local public institution annual business report",
+      "summary": "2023全年焚烧152730.25吨，兴平89757.99吨、武功62972.26吨；次年计划提出解决垃圾量不足。另记炉渣转运42265.71吨、接收填埋项目飞灰3948.57吨。",
+      "data_period": "2023 business activity; next-year work plan",
+      "publication": "2024-03-27 16:28; timezone not stated",
+      "source_group": "Xingping-waste-center",
+      "evidence_hashes": [
+        {
+          "kind": "full original HTML bytes; retained locally, not uploaded",
+          "sha256": "b729d2f3d1b3321ea2540c11787f1b2d881cc0a295de3a49f753292003ef9082"
+        }
+      ],
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    },
+    {
+      "id": "R3-S02",
+      "publisher": "重庆三峰环境集团股份有限公司",
+      "title": "2025-05-08投资者关系活动记录表",
+      "url": "https://pdf.dfcfw.com/pdf/H22_AN202505191675464942_1.pdf",
+      "date": "活动2025-05-08；托管URL2025-05-19",
+      "accessed": "2026-10-24",
+      "locator": "PDF p3–4 / L98–105、150–159",
+      "window_sha256": "213a16b207f2c1ea9ecd2500c9e4d9fafb5b79097628e2ab0215c875d677f93e",
+      "limits": "公司市场和战略自述，非独立全国因果估计；与兴平不同主体，不证明兴平缺料导致三峰出海。",
+      "level": "company formal investor-relations statement; third-party-hosted original PDF",
+      "summary": "管理层把国内固废市场增速放缓、新项目减少与海外设备、工程及运管拓展联系。",
+      "event_date": "2025-05-08",
+      "publication": "hosting URL dated 2025-05-19; first publication not separately verified",
+      "source_group": "Sanfeng-company",
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    },
+    {
+      "id": "R3-S03",
+      "publisher": "重庆三峰环境集团股份有限公司",
+      "title": "2025-03-31投资者关系活动记录表",
+      "url": "https://pdf.dfcfw.com/pdf/H22_AN202504021650375874_1.pdf",
+      "date": "活动2025-03-31；托管URL2025-04-02",
+      "accessed": "2026-10-24",
+      "locator": "PDF p6 / L181–208；p1–2 / L38–50",
+      "window_sha256": "e77dfc10579c6e55b1fa0204801ce7ea83c972600497ded8c6fd727e94d0a59b",
+      "limits": "与R3-S02同公司非独立确认；不将现金流解释或海外服务计划当实际完成业绩或岗位变化。",
+      "level": "company formal investor-relations statement; third-party-hosted original PDF",
+      "summary": "管理层称国内需求下降造成EPC减少、国内历练形成技术产品经验优势；仍列3个国内在建项目，并谈海外建后运维服务。",
+      "event_date": "2025-03-31",
+      "publication": "hosting URL dated 2025-04-02; first publication not separately verified",
+      "source_group": "Sanfeng-company",
+      "window_hash_scope": "SHA-256 of the UTF-8 controlled short-window Markdown bytes; not a hash of the complete external document",
+      "adopted_for": "bounded claims in final article and mapping below"
+    }
+  ],
+  "data_and_calculations": {
+    "scope": "National urban household waste series for 2020 and 2024, same named table fields, not a constant-city panel; county tables, all urban-rural waste and industrial/hazardous waste not aggregated.",
+    "urban_rows": [
+      {
+        "year": 2020,
+        "plants": 463,
+        "table_capacity_tonnes_per_day": 567804,
+        "annual_incineration_10000tonnes": 14607.6,
+        "annual_harmless_total_10000tonnes": 23452.3,
+        "calculated_incineration_share_pct_rounded": 62.3
+      },
+      {
+        "year": 2024,
+        "plants": 739,
+        "table_capacity_tonnes_per_day": 920979,
+        "annual_incineration_10000tonnes": 21970.0,
+        "annual_harmless_total_10000tonnes": 25961.0,
+        "calculated_incineration_share_pct_rounded": 84.6
+      }
+    ],
+    "share_formula": "annual incineration / same-table annual harmless-treatment total * 100; denominator is not all generated waste or daily capacity",
+    "Xingping_2023": {
+      "total_incinerated_tonnes": 152730.25,
+      "Xingping_tonnes": 89757.99,
+      "Wugong_tonnes": 62972.26,
+      "calculated_Wugong_share_pct_rounded": 41.23,
+      "formula": "62972.26 / 152730.25 * 100; two source components sum to reported total",
+      "slag_transferred_tonnes": 42265.71,
+      "project_flyash_received_landfilled_tonnes": 3948.57
+    },
+    "limits": "No utilization/idle-rate calculation from annual volume and capacity. Table capacity exact design/end-year definition unknown. No claim every incinerator generates power. Local reported treatment is not city generation, daily weighbridge input or operating-day load. Residue quantities do not prove composition, recovery yield, safety or compliance."
+  },
+  "claim_map": [
+    {
+      "id": "F01",
+      "type": "official-series observation",
+      "sources": [
+        "R2-S01",
+        "R2-S02",
+        "R2-S03"
+      ],
+      "claim": "城市焚烧处理规模与占无害化处理量的份额在两点比较中扩大，形成规模化工程运营背景。",
+      "limit": "数据核到2024，非逐年趋势、全国过剩/40%闲置证明或全部固废统计。"
+    },
+    {
+      "id": "F02",
+      "type": "local reported activity and problem",
+      "sources": [
+        "R3-S01"
+      ],
+      "claim": "一个实际焚烧项目跨县处理且报告提出垃圾量不足问题。",
+      "limit": "设计能力、完整供料账与成因权重未知，未证明能力超过全城实际产生。"
+    },
+    {
+      "id": "F03",
+      "type": "company motive explanation",
+      "sources": [
+        "R3-S02",
+        "R3-S03"
+      ],
+      "claim": "三峰把国内新增市场放缓、国内能力历练与海外设备工程运管发展相连，国内仍有在建。",
+      "limit": "同公司自述；兴平和三峰非同主体，不拼已证全国完整因果。"
+    },
+    {
+      "id": "H01",
+      "type": "partially supported mechanism hypothesis",
+      "basis": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "claim": "设施扩张若超过服务范围可收运进厂料流，会产生供料协调压力；国内新增机会变化可推动已有能力找外部市场。",
+      "conditions": "成熟非缺料充分条件；收运组织、合同半径、分类分流、季节及试运行均可能影响，权重未识别；能力积累与市场机会两动因可共存。"
+    },
+    {
+      "id": "I01",
+      "type": "conditional task and training implication",
+      "basis": [
+        "H01"
+      ],
+      "claim": "培养比较扩展至供料组织、运行控制、维护改造、设备服务与跨地区交付。",
+      "limit": "当地原料、合同标准、稳定运营与经济性须再验证；任务非净岗位。"
+    },
+    {
+      "id": "F04",
+      "type": "local residual handling record",
+      "sources": [
+        "R3-S01"
+      ],
+      "claim": "炉渣转运、飞灰接收填埋表明处理后仍有残余物治理任务。",
+      "limit": "制砖为计划，未核成分/金属/可回收性，不认定全部混烧或必有贵金属。"
+    },
+    {
+      "id": "I02",
+      "type": "conditional downstream task and training implication",
+      "basis": [
+        "F04"
+      ],
+      "claim": "检测、分选、去向记录和交接属于环保同链；具条件可接资源化产品质量与交付，条件不足仍须合适处置。",
+      "limit": "普通金属回收只作待核接口，无新增调查、工艺参数或回收收益。"
+    },
+    {
+      "id": "I03",
+      "type": "project decision input",
+      "basis": [
+        "I01",
+        "I02"
+      ],
+      "claim": "比较受监督料流检测台账、测量排错、设备反馈、运维验收和跨方去向交接实践，另核目标毕业年新人入口。",
+      "limit": "可能由熟手、外包、自动化承接；研发训练可先于商业成熟，不承诺专业就业。"
+    }
+  ],
+  "revision_triggers": [
+    {
+      "information": "服务边界及收运改善后的输入/负荷",
+      "if_supports": "持续供料不足则提高规模匹配、改造和服务转向训练权重",
+      "if_revises": "改善即缓解则收窄为组织接口问题，不宣称技术成熟导致全国缺料"
+    },
+    {
+      "information": "任务承接方式与目标毕业年/地区/资格/真实带教及初级入口",
+      "if_supports": "有初级任务和可核训练提高培养路径可信度",
+      "if_revises": "仅资深承接或训练脱节则下调新人机会判断"
+    },
+    {
+      "information": "残余物真实成分、可利用性和处置去向",
+      "if_supports": "可稳定回收交付则增加检测分选和产品质量训练",
+      "if_revises": "不具条件则侧重治理追溯与处置交接"
+    }
+  ],
+  "collection_rounds": [
+    {
+      "round": "R1",
+      "counts": {
+        "tavily_basic_calls": 4,
+        "web_calls": 12,
+        "web_search_queries": 5,
+        "web_open_targets": 12,
+        "web_find_targets": 10,
+        "web_open_failures": 4,
+        "github_read_calls": 2,
+        "github_wrong_path_failures": 1,
+        "github_corrected_successes": 1,
+        "adopted_sources": 2,
+        "independent_source_groups": 1
+      },
+      "research_calls": 0,
+      "balance_lookups": 0,
+      "final_article_use": "Prior company/Hue windows retained locally but not used in final article; call history remains recorded."
+    },
+    {
+      "round": "R2",
+      "counts": {
+        "tavily_basic_calls": 3,
+        "web_run_calls": 8,
+        "web_search_queries": 5,
+        "web_open_targets": 8,
+        "web_click_targets": 1,
+        "web_open_failed_or_unreadable": 4,
+        "web_frame_partial": 1,
+        "browser_calls": 5,
+        "browser_timeouts": 2,
+        "local_default_public_fetch_failed_dns": 1,
+        "public_official_file_fetch_http200": 7,
+        "research_calls": 0
+      },
+      "balance_usage_credential_probes": 0,
+      "final_article_use": "Official tables, definitions and source chain only; historical county policy and equipment-forum account retained as prior background, not needed for final claims."
+    },
+    {
+      "round": "R3",
+      "counts": {
+        "tavily_basic_calls": 5,
+        "web_calls": 9,
+        "web_search_queries": 15,
+        "web_open_targets": 8,
+        "web_open_unreadable": 2,
+        "public_original_fetch_calls": 2,
+        "public_original_fetch_http403": 1,
+        "public_original_fetch_http200": 1
+      },
+      "research_calls": 0,
+      "balance_usage_credential_probes": 0,
+      "final_article_use": "Xingping and two Sanfeng statements; EPA was retrieved before scope closure but not adopted."
+    }
+  ],
+  "collection_failures": [
+    {
+      "round": "R1",
+      "action": "web.open",
+      "target": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0902/ltn20190902768_c.pdf",
+      "outcome": "not accessible; no retry, not adopted"
+    },
+    {
+      "round": "R1",
+      "action": "web.open",
+      "target": "https://unhabitat.org/sites/default/files/2021/11/innovative-experiences-cities-es-and-ca-unossc-un-habitat.pdf",
+      "outcome": "403; no retry, not adopted"
+    },
+    {
+      "round": "R1",
+      "action": "web.open",
+      "target": "https://doc.irasia.com/listco/hk/cebenvironment/annual/2023/crespress.pdf",
+      "outcome": "timeout; no retry, not adopted"
+    },
+    {
+      "round": "R1",
+      "action": "web.open",
+      "target": "https://www.brigc.net/xwzx/dtzx/hzhbdt/202404/t20240409_133051.html",
+      "outcome": "timeout; no retry, not adopted"
+    },
+    {
+      "round": "R1",
+      "action": "GitHub README read",
+      "outcome": "wrong path 404; one correction using explicitly supplied path succeeded"
+    },
+    {
+      "round": "R2",
+      "action": "web.open",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/indexch.htm",
+      "outcome": "frame-only partial response; browser/HTML later identified actual links"
+    },
+    {
+      "round": "R2",
+      "action": "web.open",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/html/C08-17.jpg",
+      "outcome": "timeout; later ordinary public download HTTP200"
+    },
+    {
+      "round": "R2",
+      "action": "web.open",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/html/C25-03.jpg",
+      "outcome": "out-of-bounds/unreadable; later public download HTTP200; broader table not adopted"
+    },
+    {
+      "round": "R2",
+      "action": "web.open",
+      "target": "https://www.sasac.gov.cn/n2588025/n2588124/c34059691/content.html",
+      "outcome": "timeout; original not adopted"
+    },
+    {
+      "round": "R2",
+      "action": "web.open",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/html/zb08.pdf",
+      "outcome": "timeout; later ordinary public download HTTP200"
+    },
+    {
+      "round": "R2",
+      "action": "browser navigate and one current-state check",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/html/C08-17.jpg",
+      "outcome": "navigation read-only timeout then state-check timeout; no click retries; image obtained by public download"
+    },
+    {
+      "round": "R2",
+      "action": "ordinary public HTML fetch",
+      "target": "https://www.stats.gov.cn/sj/ndsj/2025/indexch.htm",
+      "outcome": "default-environment DNS failure; later successful official-file fetches separately counted"
+    },
+    {
+      "round": "R3",
+      "action": "web.open then public original download",
+      "target": "https://www.ningguo.gov.cn/download?id=948052&siteId=3",
+      "outcome": "tool inaccessible then HTTP403 Forbidden; stopped, no retry, content not adopted"
+    },
+    {
+      "round": "R3",
+      "action": "web.open then public original download",
+      "target": "https://www.sxbb.gov.cn/site-sxdjgl/yearlyReport_view/251604",
+      "outcome": "tool inaccessible then ordinary public download HTTP200; adopted saved original"
+    }
+  ],
+  "not_adopted": [
+    "Video unverified figures, search snippets and anonymous comments; AI discussion not evidence.",
+    "Fuping media figure/official bulletin not retrieved, Ningguo denied attachment, unlocated reliable design-capacity source; no fabricated closed supply-demand balance.",
+    "R3-S04 EPA Electronics Donation and Recycling (https://www.epa.gov/recycle/electronics-donation-and-recycling), retrieved and retained but unused after scope closure; electronic-device material cannot establish incineration-residue metal content.",
+    "R1 company/Hue and R2 county-policy/equipment-forum windows remain preserved as prior evidence, not inserted merely because collected."
+  ],
+  "process_limits": "Counts are actual recorded calls/queries/targets from each round, not user budget, daily cap or fee estimate. Charges unknown. Author used only frozen local inputs and made zero external retrievals. R3 case/report and company-event dates precede the video. Statistical data years are 2020 and 2024; exact yearbook publication dates were not verified, and historical data are not asserted as current 2026 conditions.",
+  "privacy": "Only necessary numerical rows, short paraphrases, original URLs, locators and scoped hashes are public. Full tables, source documents, controlled windows, receipts and author run logs remain local.",
+  "stop": "Three candidates frozen after one author self-check; no new search, school/hiring/metal investigation, publication, independent review or queue11 by author."
+}
