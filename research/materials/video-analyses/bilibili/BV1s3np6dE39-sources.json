@@ -1,0 +1,132 @@
+{
+  "schema": "bounded-primary-source-index-v1",
+  "scope": "TEM-F200 release and maturity (S01–S02); supplementary existing EM functional chain and battery/semiconductor application tasks (S03–S05), not F200-specific validation",
+  "access_date": "2026-10-24",
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "科技日报／中国科技网",
+      "author": "吴长锋",
+      "title": "国产200kV透射电镜实现量产交付",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/19/content_598613.html",
+      "published_display": "2026-10-19 11:09:25",
+      "published_timezone": null,
+      "accessed_date": "2026-10-24",
+      "retrieval": "Search located; opened original publisher page via web__run",
+      "checked_range": "page lines 21–44: title/date/byline/article body; linked images not visually inspected",
+      "supports": [
+        "TEM-F200; 200kV field-emission TEM",
+        "2026-10-18 release at annual electron microscopy meeting in Nanjing",
+        "information resolution 0.1nm and point resolution 0.25nm as reported",
+        "mass-production delivery capability attributed in body to company chairman"
+      ],
+      "limits": [
+        "title differs from parent screenshot; identity/version not established",
+        "no performance test laboratory, method/report or actual customer delivery/acceptance record disclosed in checked text",
+        "same-event reporting and company claims are not two independent measurements"
+      ],
+      "source_type": "publisher original news article; reporting includes interested manufacturer statements"
+    },
+    {
+      "id": "S02",
+      "publisher": "国仪量子",
+      "title": "重磅新品！国仪量子200kV场发射透射电镜发布",
+      "url": "https://www.ciqtek.com/news/news.html?id=3b6b6f31-4a7c-4f8f-ad44-c075256624df",
+      "published_display": "2026-10-19T09:31:06.367Z",
+      "published_timezone": "UTC explicit Z",
+      "accessed_date": "2026-10-24",
+      "retrieval": "Search located; opened manufacturer original page via web__run",
+      "checked_range": "page lines 128–286: release, technical descriptions, sample cases and expected testing applications; linked images not visually inspected",
+      "supports": [
+        "TEM-F200 formally released October 18 at 2026 annual electron microscopy meeting",
+        "0.10nm information resolution as manufacturer statement",
+        "STEM detector control and TEM-BF/STEM-HAADF image descriptions",
+        "FinFET FFT example 1.045Å as manufacturer statement",
+        "expected TEM-F200 sample-testing applications from December; contemporaneous 2026 context"
+      ],
+      "limits": [
+        "manufacturer promotional source with direct commercial interest",
+        "not an independent performance test",
+        "no named customer delivery/acceptance or user validation in read text",
+        "do not transfer TEM-F120 swap-time specifications to TEM-F200"
+      ],
+      "source_type": "interested manufacturer primary release"
+    },
+    {
+      "id": "S03",
+      "publisher": "JEOL Ltd.",
+      "title": "Transmission Electron Microscope (TEM)",
+      "url": "https://www.jeol.com/products/science/em.php",
+      "published_display": null,
+      "accessed_date": "2026-10-24",
+      "retrieval": "web__run open; no Search or Research",
+      "source_type": "manufacturer instrument basics; commercial interest",
+      "published_date_status": "unknown; no date in returned text",
+      "checked_range": "Electron Beam and Light L250–262; electron diffraction L263–269",
+      "supports": [
+        "Electron source, electron optics, vacuum and current-control functions; imaging and diffraction in existing TEM instruments"
+      ],
+      "limits": [
+        "Functional explanation, not procurement or supplier identification",
+        "No performance test or F200-specific equivalence established",
+        "Read text only; images not visually checked",
+        "Does not establish TEM-F200 suppliers/localization, acceptance, procurement share, use-cost improvement or hiring growth"
+      ],
+      "retained_excerpt_sha256": "3a4159cb30209f91226bcdfa1dbc31254963fe562a7e071e679afb83155b5b2a",
+      "hash_scope": "UTF-8 controlled local excerpt with source/returned-region labels and quoted line-numbered text; not full HTML; excerpt not uploaded"
+    },
+    {
+      "id": "S04",
+      "publisher": "Thermo Fisher Scientific",
+      "title": "Battery Imaging Instrumentation and Software",
+      "url": "https://www.thermofisher.com/fr/en/home/materials-science/battery-research/technologies/imaging-analysis.html",
+      "published_display": null,
+      "accessed_date": "2026-10-24",
+      "retrieval": "web__run open; no Search or Research",
+      "source_type": "manufacturer application and product marketing; direct commercial interest",
+      "published_date_status": "unknown; no date in returned text",
+      "resolved_urls": [
+        "https://www.thermofisher.com/it/en/home/materials-science/battery-research/technologies/imaging-analysis.html",
+        "https://www.thermofisher.com/us/en/home/materials-science/battery-research/technologies/imaging-analysis.html"
+      ],
+      "redirect_note": "Initial exact assigned URL returned IT regional page; same-document reference read returned US page. Both preserved; line numbers refer to respective versions.",
+      "checked_range": "Initial TEM L127–129; US sample preparation L181–182, electrode analysis L216–223, SEI example L253–263",
+      "supports": [
+        "Manufacturer case uses cryogenic TEM with EDS and 3D software to study silicon-anode SEI structure and degradation",
+        "Separate FIB preparation and electrode structure-analysis examples; not all capabilities belong to TEM"
+      ],
+      "limits": [
+        "Linked research paper, PDFs, product specifications and images not independently checked",
+        "SEM/FIB-SEM/TEM abilities kept distinct",
+        "Manufacturer case is not independent validation of TEM-F200",
+        "Read text only; images not visually checked",
+        "Does not establish TEM-F200 suppliers/localization, acceptance, procurement share, use-cost improvement or hiring growth"
+      ],
+      "retained_excerpt_sha256": "6d4b165bef532f67900d8d60bb95e8e874a3eda7662add10884e9c58579c328f",
+      "hash_scope": "UTF-8 controlled local excerpt with source/returned-region labels and quoted line-numbered text; not full HTML; excerpt not uploaded"
+    },
+    {
+      "id": "S05",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "title": "Advanced Analytical Electron Tomography for Materials Development and Failure Analysis in Semiconductor Devices",
+      "url": "https://www.nist.gov/programs-projects/advanced-analytical-electron-tomography-materials-development-and-failure-analysis",
+      "published_display": "Created March 11, 2024, Updated October 2, 2026",
+      "accessed_date": "2026-10-24",
+      "retrieval": "web__run open; no Search or Research",
+      "source_type": "US federal metrology institution project original; institutional research objectives",
+      "checked_range": "Summary L118–119; Description L127–136; dates L140, L159–163",
+      "supports": [
+        "TEM/STEM used for semiconductor process development/control and failure analysis; complex structures challenge existing methods",
+        "Project aims to improve defect-related 3D measurement, detector sensitivity, data acquisition/processing/reconstruction; aims are not completed results"
+      ],
+      "limits": [
+        "Forward-looking project deliverables are not completed results",
+        "No claim about TEM-F200, Chinese market demand, procurement or hiring",
+        "Read text only; images not visually checked",
+        "Does not establish TEM-F200 suppliers/localization, acceptance, procurement share, use-cost improvement or hiring growth"
+      ],
+      "retained_excerpt_sha256": "9faf495b24ecb7b60a579c3c84c40e852753e65148b73c02345498cb2e7ebdc9",
+      "hash_scope": "UTF-8 controlled local excerpt with source/returned-region labels and quoted line-numbered text; not full HTML; excerpt not uploaded"
+    }
+  ]
+}
