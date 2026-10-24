@@ -1,0 +1,141 @@
+{
+  "schema": "video-lead-source-index-v1",
+  "video_id": "BV1L7zLBeE1H",
+  "analysis_date": "2026-10-24",
+  "material_status": "视频线索，原论文未定位",
+  "adopted_source_count": 0,
+  "adopted_sources": [],
+  "scope": {
+    "region": "中国",
+    "decision_horizon": "2026—2036",
+    "theme": "产业／科技：材料循环",
+    "purpose": "多产物流的条件任务链及培养问题",
+    "technical_efficacy_verified": false,
+    "commercialization_verified": false
+  },
+  "video_handoff": {
+    "url": "https://www.bilibili.com/video/BV1L7zLBeE1H/",
+    "platform": "Bilibili",
+    "title": "中国锂电池产业的最新重大突破，是请黑粉喝苏打水",
+    "author_uid": "1121263766",
+    "author_display_name": null,
+    "published_on": "2026-01-21",
+    "duration": "03:27",
+    "metadata_status": "inherited handoff; this author did not reopen video",
+    "reader": "母任务云端子智能体",
+    "author_viewed_video": false,
+    "method": "AI字幕与关键帧抽样",
+    "sampled_ranges": [
+      "00:05–00:24",
+      "00:45–01:41",
+      "01:47–03:24"
+    ],
+    "read_on": null,
+    "complete_coverage": null,
+    "complete_gap_inventory": null,
+    "full_audio_read": false,
+    "verbatim_transcript_read": false,
+    "asr_note": "交接称02:51硬字幕为绿氢制取；自动字幕误识已按该信息修正，不作为逐字引语",
+    "comment_scope": "仅转交回收点、缺点与出处问题；数量、实际读取日期及完整覆盖未知；超临界猜测不采"
+  },
+  "video_claims": [
+    {
+      "id": "V01",
+      "locator": "00:05–00:14",
+      "claim": "水和CO₂回收95%的锂",
+      "status": "video claim only",
+      "unknown": [
+        "实验原料",
+        "回收率分母",
+        "适用范围"
+      ],
+      "boundary": "不能外推所有混合工业黑粉"
+    },
+    {
+      "id": "V02",
+      "locator": "01:55–02:05",
+      "claim": "中科院／北理工团队、自然通讯1月10日、锂回收与废阴极材料再利用三合一策略",
+      "status": "video attribution only; target paper not located"
+    },
+    {
+      "id": "V03",
+      "locator": "02:11–02:52",
+      "claim": "受控机械化学预处理、CO₂水选择性提锂、残余钴镍锰材料用于催化绿氢",
+      "status": "video description only; mechanism and validation not independently verified",
+      "unknown": [
+        "锂产物形态",
+        "锂产物纯度",
+        "残余材料实际反应",
+        "器件与应用验证层级"
+      ],
+      "boundary": "不是普通饮料直接处理废电池；不据此补写电池级碳酸锂或操作参数"
+    },
+    {
+      "id": "V04",
+      "locator": "03:17–03:24",
+      "claim": "如果成功工业规模化",
+      "status": "conditional outlook in video; not evidence of commercialization"
+    }
+  ],
+  "unverified_paper": {
+    "title": null,
+    "authors": null,
+    "institutions": null,
+    "journal": null,
+    "year": null,
+    "published_on": null,
+    "doi": null,
+    "url": null,
+    "note": "V02只记录视频提及信息，尚未转化为已核论文元信息"
+  },
+  "collection_summary": {
+    "collected_on": "2026-10-24",
+    "outcome": "target paper not located; no relevant original obtained",
+    "counts": {
+      "search_tool_requests": 4,
+      "search_provider_sent": 3,
+      "search_successful_returns": 3,
+      "search_topical_misses": 3,
+      "search_denied_before_execution": 1,
+      "authorized_same_operation_retries": 1,
+      "retry_successful_returns": 1,
+      "original_or_locator_visits_sent": 1,
+      "original_or_locator_visits_successful": 0,
+      "original_or_locator_visits_failed": 1,
+      "research_calls": 0,
+      "author_new_searches": 0,
+      "author_new_original_visits": 0
+    },
+    "history": "前两次检索未命中；原第三次请求被拒且未执行。用户授权额外一次定点检索后，同一操作重试一次成功返回，仍未定位目标。Nature站内定位访问一次失败，未重试；无关结果及失败回执均不作为事实来源。原记录保留，恢复记录只更新阻塞状态。",
+    "interpretation": "搜索未命中不证明论文不存在。原两次上限属于派工计划，不是用户原始预算。"
+  },
+  "author_inferences": [
+    {
+      "id": "I01",
+      "type": "conditional task decomposition",
+      "assumptions": [
+        "明确可追溯原料上的选择性提锂有效",
+        "残余物达到另一用途规格"
+      ],
+      "chain": "原料差异→两支产物质量与验收变化→分选检测、预处理设备工艺与追溯数据衔接",
+      "not_claimed": "已验证技术有效性或真实招聘增长"
+    },
+    {
+      "id": "I02",
+      "type": "conditional economic and training questions",
+      "assumptions": [
+        "两支产物达到用途规格",
+        "安全、应用及客户验证通过",
+        "追加处理检验环保销售成本计入总投入"
+      ],
+      "chain": "两支产物→分别验证与需求连接→条件性价值；残余物不能出售时收窄收益推演",
+      "not_claimed": "双利润、低成本、净低碳或已商业化"
+    }
+  ],
+  "decisive_unknowns": [
+    "原论文对应的原料与回收率口径",
+    "两支产物规格及用途验证",
+    "全流程成本边界"
+  ],
+  "review_status": "pending independent review; author self-check is not approval"
+}
