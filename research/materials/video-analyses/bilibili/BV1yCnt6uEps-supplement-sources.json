@@ -1,0 +1,105 @@
+{
+  "scope": "2026-10-24 supplementary research only; original-video A–D sources remain separately attributed in the article",
+  "analysis_status": "pending independent review",
+  "hash_scope": "SHA-256 of locally retained tool-returned original source text/excerpts; a return may contain multiple sources. These are not publisher PDF/HTML byte hashes. Original returns and internal logs are not included.",
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "International Monetary Fund; working paper authors Daniel Garcia-Macia, Siddharth Kothari, Yifan Tao",
+      "title": "Industrial Policy in China: Quantification and Impact on Misallocation",
+      "published": "2025-08",
+      "url": "https://www.imf.org/-/media/files/publications/wp/2025/english/wpiea2025155-source-pdf.pdf",
+      "document": "WP/25/155",
+      "source_checked_by": "supplement source collector; author used frozen handoff",
+      "accessed": "2026-10-24",
+      "locations": [
+        "printed p5 fn3; p6 figure notes: cash/value added and filters",
+        "printed p10–12 §2 Total Size of IP; fn9: extrapolation and limitations",
+        "printed p23–24 Annex I; Table A.2: 2023 4882 observations and 8.8% GDP value added",
+        "printed p26–28 Annex I non-listed data and Annex II: Orbis latest large year2018; structural fiscal-cost cross-check"
+      ],
+      "evidence_sha256": [
+        "8efc4ae1cdf23740349b461a0e5433a6f5026feb19f00db391384ad474bc33aa",
+        "6e6e8f6fbaa30b50a3ebd10cbb1fd9769d8331d0b7ce09d1e9da256f247a5606",
+        "cbef09147ae2356dde04978ba88d8302f404e63c43c4c804e2bed65ea33f2d5b",
+        "c60822831f087c9177fab0cfd07aa6a220495dc0369612191dbf59140ed734ae"
+      ],
+      "status": "Targeted original source text obtained; publisher PDF binary not retained",
+      "scope": "2010–2023 listed financials; 2018 broader structural comparison",
+      "limitations": [
+        "Filtered observations are not the listed-company universe count.",
+        "fn9 states 1.5% of GDP; visible Annex II passage uses value added. Do not silently harmonize wording or treat either as a 2023 all-instrument payment survey.",
+        "Annex II final lines not obtained; method not reproduced."
+      ]
+    },
+    {
+      "id": "S02",
+      "publisher": "Gavekal Dragonomics (parent citation only)",
+      "title": "State Subsidies Subside Further",
+      "published": "2026 (parent citation only)",
+      "url": null,
+      "author": "Thomas Gatley (parent citation only)",
+      "source_checked_by": "Metadata inherited only; original source not obtained",
+      "accessed": null,
+      "last_attempted": "2026-10-24",
+      "locations": [],
+      "evidence_sha256": [],
+      "status": "Original not obtained; metadata inherited from parent citation",
+      "limitations": [
+        "Exact sample and consolidation boundary unknown.",
+        "A’s listed-company scope remains parent-verified evidence; not independently obtained in this supplement."
+      ]
+    },
+    {
+      "id": "S03",
+      "publisher": "上海市科学技术委员会",
+      "title": "关于印发《上海市科技型中小企业技术创新资金管理办法》的通知",
+      "published": "2025-12-02",
+      "url": "https://stcsm.sh.gov.cn/zwgk/kjzc/zcwj/kwzcxwj/20251202/f4e72ad4ace94c91818c5fde3def3c7e.html",
+      "document": "沪科规〔2025〕7号",
+      "source_checked_by": "supplement source collector; author used frozen handoff",
+      "accessed": "2026-10-24",
+      "locations": [
+        "第4–6条资格及排除",
+        "第7–11条遴选及资助",
+        "第15条期限"
+      ],
+      "evidence_sha256": [
+        "cbef09147ae2356dde04978ba88d8302f404e63c43c4c804e2bed65ea33f2d5b"
+      ],
+      "status": "Official policy full text read",
+      "scope": "Shanghai; effective 2025-12-09 to 2030-12-08",
+      "limitations": [
+        "Eligibility and selection rules only; no verified enterprise payment record; not a national rule."
+      ]
+    },
+    {
+      "id": "S04",
+      "publisher": "深圳市工业和信息化局；深圳市人民政府公报",
+      "title": "深圳市工业和信息化局打造人工智能先锋城市项目扶持计划操作规程",
+      "published": "2025-03-14; government gazette posted2025-04-07",
+      "url": "https://www.sz.gov.cn/zfgb/2025/gb1368/content/post_12114699.html",
+      "document": "深工信规〔2025〕3号",
+      "source_checked_by": "supplement source collector; author used frozen handoff",
+      "accessed": "2026-10-24",
+      "locations": [
+        "第8条现金支持方式与标准",
+        "第9–10、19、31条模型券资格、活动期、申领和兑现",
+        "第16、25条机器人产品奖励资格及材料",
+        "第27–31、34、36、38条程序、追回、年度选择/预算和期限"
+      ],
+      "evidence_sha256": [
+        "cbef09147ae2356dde04978ba88d8302f404e63c43c4c804e2bed65ea33f2d5b",
+        "c60822831f087c9177fab0cfd07aa6a220495dc0369612191dbf59140ed734ae",
+        "04aa21108ec7b3f493b41077983766275eac1a78e1de7731d48d0d77b948688f"
+      ],
+      "status": "Official regulation full text read; two instruments selected",
+      "scope": "Shenzhen including Shenshan; effective 2025-03-18 to 2027-06-30",
+      "limitations": [
+        "No current annual application notice or enterprise award/payment verified.",
+        "Customer purchase payment proof is not proof of fiscal subsidy receipt.",
+        "One regulation supplies two examples; listing is not a stated necessary condition in the read text."
+      ]
+    }
+  ]
+}
