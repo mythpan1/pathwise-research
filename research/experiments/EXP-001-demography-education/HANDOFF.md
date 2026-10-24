@@ -1,6 +1,14 @@
 # EXP-001：给 Dot 的审阅入口
 
-## 当前续作：地区扩大后固定一个调整事件
+## 当前候选：蟠龙Search原文基线与一次mini尝试
+
+- 新[Issue #18](https://github.com/mythpan1/pathwise-research/issues/18)/[PR #19](https://github.com/mythpan1/pathwise-research/pull/19)，运行`RUN-EXP001-20261022-PANLONG-COMPARE-01`，基线main`524f664d2445987eaba36ab1a2ed6aad8c5bdd20`。不改已合并PR15证据。
+- 阅读：[报告](evidence/PANLONG-SEARCH-RESEARCH-20261022/REPORT.md) → [不可回填基线](evidence/PANLONG-SEARCH-RESEARCH-20261022/BASELINE.md) → [对照未完成说明](evidence/PANLONG-SEARCH-RESEARCH-20261022/COMPARISON.md) → [来源/调用索引](evidence/PANLONG-SEARCH-RESEARCH-20261022/sources.json)。四次advancedSearch、八次官方读取尝试（含三次超时、两次恢复）先于mini。冻结检查点`33aa7c91f6e8805813b0c996b7ab4269314c5f99`；PDF和计划原图完整视觉核读。
+- 行政批准已核；物理停止/注销完成/原幼儿实际公办接收仍null。一般插班程序及计划表不证明实际接收。两批查询无新的匹配接收线索，不声称穷尽。
+- 唯一一次mini原生前检通过后业务POST HTTP422，无ID/报告/内部萃取，未轮询或重建、未轮转；原因未知，不能称额度耗尽或限流。仅原生守门，无额外quota/usage或500search门槛。Search保守预留8/20，实际费用未知，mini250仅准入。
+- 知舟重点核对冻结顺序/原件哈希、计划与实际、行政与物理状态、不可完成的对照及诚实失败记录。执行者自检不算独立审核；PR正文绑定新完整SHA且退出Draft才交接。本次知舟仅审核、不得自行合并；交接后停止。
+
+## PR #15已采用历史：地区扩大后固定一个调整事件
 
 - 同[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)/[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)；[续作报告](evidence/EVENT-20261022/EXPANDED-REPORT.md)与[来源/额度账本](evidence/EVENT-20261022/expanded-sources.json)。运行`RUN-EXP001-20261022-EVENT-EXPAND-02`。
 - 用户授权中国境内2023—2025按证据条件选一案。先冻结上海青浦蟠龙民办园2025-07-18终止办学批复，再查接收；没有按成功结果倒选或换案。只确认行政批准，物理停办/注销完成和同窗口实际公办接收仍未知。

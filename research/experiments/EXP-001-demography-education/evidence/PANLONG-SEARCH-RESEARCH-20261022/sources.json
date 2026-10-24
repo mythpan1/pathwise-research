@@ -1,0 +1,345 @@
+{
+  "task": "https://github.com/mythpan1/pathwise-research/issues/18",
+  "run_id": "RUN-EXP001-20261022-PANLONG-COMPARE-01",
+  "main_baseline": "524f664d2445987eaba36ab1a2ed6aad8c5bdd20",
+  "phase": "search_baseline_complete_research_http422_comparison_unavailable",
+  "baseline_freeze": {
+    "frozen_at": "2026-10-22T12:52:02.157077+00:00",
+    "baseline_text_sha256": "45114f11ba9fe515f3bf5ad8ed8bc6c604f7b62102868cda616c643cdf8073f7",
+    "evidence_snapshot_sha256": "192523a1b43e77e0c4a95d14f49f42069bf7764d7fbe1bd9b8a84c4c7da63d3b",
+    "research_invoked_before_freeze": false,
+    "source_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04"
+    ],
+    "search_queries": 4,
+    "official_read_attempts": 8
+  },
+  "frozen_search_evidence": {
+    "region": "上海市青浦区",
+    "case": "上海青浦区蟠龙民办幼儿园",
+    "event_period": "2025暑秋；允许后发明确回溯",
+    "queries": [
+      {
+        "id": "SEARCH-01",
+        "query": "\"上海青浦区蟠龙民办幼儿园\" 2025 注销 安置 幼儿",
+        "search_depth": "advanced",
+        "summary": "全称加2025/注销/安置/幼儿；返回批复、一般招生与旧招生转载等，无匹配原幼儿实际接收。",
+        "at_started": "2026-10-22T12:46:55.044Z",
+        "at_finished": "2026-10-22T12:47:00.156Z",
+        "raw_local_evidence_id": "SEARCH-01-RAW.json",
+        "tool_return_json_sha256": "d266ecc8e8e1a050880a53aeb890941130f9e5470a467c731a1e26a799fceb39"
+      },
+      {
+        "id": "SEARCH-02",
+        "query": "\"蟠龙\" \"徐泾\" \"幼儿\" 分流 安置 2025",
+        "search_depth": "advanced",
+        "summary": "简称及徐泾地域加分流/安置；返回一般招生计划、道路/动迁等同词噪声，无匹配接收。",
+        "at_started": "2026-10-22T12:47:38.711Z",
+        "at_finished": "2026-10-22T12:47:44.775Z",
+        "raw_local_evidence_id": "SEARCH-02-RAW.json",
+        "tool_return_json_sha256": "5d15d24dbd90ce05909bb0f9bd651919d5476e761418b334dfafbf47f36402d0"
+      },
+      {
+        "id": "SEARCH-03",
+        "query": "\"蟠龙民办幼儿园\" \"幼儿\" \"去向\"",
+        "search_depth": "advanced",
+        "summary": "原园名加幼儿/去向；返回旧2023招生、同名区外园及既有批复，无匹配接收。",
+        "at_started": "2026-10-22T12:48:28.485Z",
+        "at_finished": "2026-10-22T12:48:35.474Z",
+        "raw_local_evidence_id": "SEARCH-03-RAW.json",
+        "tool_return_json_sha256": "ebf650817169b3f9a8892243d84ddb2a44345bf874874c9d638bce95bb13d9d5"
+      },
+      {
+        "id": "SEARCH-04",
+        "query": "青浦 蟠龙幼儿园 停办 后 家长 孩子 转学 公办 2025",
+        "search_depth": "advanced",
+        "summary": "青浦/原园简称加停办后家长/孩子/转学/公办；返回一般招生/政策问答，未建立原园到接收园实际链。",
+        "at_started": "2026-10-22T12:49:20.752Z",
+        "at_finished": "2026-10-22T12:49:28.146Z",
+        "raw_local_evidence_id": "SEARCH-04-RAW.json",
+        "tool_return_json_sha256": "b4b8cef4ab018ff3f171f812a24a2e127b0d9ba6b05ec95c8d36a795167a18e1"
+      }
+    ],
+    "originals": [
+      {
+        "id": "P01",
+        "url": "https://www.shqp.gov.cn/edu/edu/upload/202510/1013_133349_363.pdf",
+        "title": "关于同意“上海青浦区蟠龙民办幼儿园”终止办学的批复",
+        "publisher": "上海市青浦区教育局",
+        "document_number": "青教〔2025〕82号",
+        "document_date": "2025-07-18",
+        "printed_date": "2025-07-21",
+        "locator": "PDFp1正文/署期；p2无正文及印发栏",
+        "read_scope": "Both2pages locally rendered and visually inspected; scannedPDF text extraction empty, not used as absence evidence",
+        "raw_local_evidence_id": "approval-original.pdf",
+        "original_bytes_sha256": "ad9d927b5316d6e89853dd9d561d94c54da90e494e1616f638b6ba5c545928fb",
+        "bytes": 65429,
+        "facts_supported": [
+          "B01",
+          "B02"
+        ],
+        "limits": "Approval and requested deregistration only; not physical stop date/completed deregistration/child reception."
+      },
+      {
+        "id": "P02",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250416/e32bef7227bc4f2db7dc94df52916b0c.html",
+        "title": "2025年青浦区幼儿园中、大班转园插班安排",
+        "publisher": "上海市人民政府网站，来源青浦区人民政府",
+        "published_date": "2025-04-16",
+        "locator": "HTMLreturnedlines41-57",
+        "read_scope": "HTMLbody read; embeddedplan image separatelyP03",
+        "raw_local_evidence_id": "C-R02-WEB.json",
+        "tool_return_json_sha256": "403e1d8a86142eec9b909cb1188d11c9fe8e5462258f562678990a1bf8a52de2",
+        "facts_supported": [
+          "B03"
+        ],
+        "limits": "General procedure, not matched original-kindergarten actual reception."
+      },
+      {
+        "id": "P03",
+        "url": "https://www.shanghai.gov.cn/cmsres/06/06ae8d51bd784db08d61bef5ddc23875/a143181aee28e7b1e80576ddc32de895.jpg",
+        "title": "2025青浦区公办幼儿园转园插班计划一览表",
+        "publisher": "上海市人民政府网站随P02发布",
+        "published_date": "2025-04-16 (parent page)",
+        "locator": "Imageheaderandfulltable; columns中班插班人数/大班插班人数",
+        "read_scope": "Full950x3419image visually inspected; noOCR-generated numbers used",
+        "raw_local_evidence_id": "transfer-plan-original.jpg",
+        "original_bytes_sha256": "1fb6ffb6d09cda3ba37d577863bd7d4d97698b6631d2d69e58703f08d5cdc372",
+        "bytes": 926215,
+        "facts_supported": [
+          "B04"
+        ],
+        "limits": "Plan table lacks original-kindergarten child linkage and actual completion; not actual receipt counts."
+      },
+      {
+        "id": "P04",
+        "url": "https://www.shqp.gov.cn/edu/eduzwgk/lm/jy/zs/xq/20250415/1277266.html",
+        "title": "2025年青浦区适龄幼儿入园政策问答",
+        "publisher": "青浦区人民政府教育局网站",
+        "published_date": "2025-04-15",
+        "locator": "Q16-Q17,returnedlines119-124; Q4lines47-49",
+        "read_scope": "HTMLbody read, relevantquestionschecked",
+        "raw_local_evidence_id": "C-R04-WEB.json",
+        "tool_return_json_sha256": "1777e8d186b9d13231bb1049acea4d3ef432672f02f864e658f06d4e9a420bf8",
+        "facts_supported": [
+          "B05"
+        ],
+        "limits": "General conditions/process only, not evidence of Panlong actual placement."
+      }
+    ],
+    "source_read_attempts": [
+      {
+        "id": "A01",
+        "source": "P01",
+        "operation": "web.openPDF",
+        "status": "metadata_only_2pages_zero_text_lines"
+      },
+      {
+        "id": "A02",
+        "source": "P01",
+        "operation": "web.screenshotpage0",
+        "status": "failed_timeout"
+      },
+      {
+        "id": "A03",
+        "source": "P01",
+        "operation": "web.screenshotpage1",
+        "status": "failed_timeout"
+      },
+      {
+        "id": "A04",
+        "source": "P02",
+        "operation": "web.openHTML",
+        "status": "read_success"
+      },
+      {
+        "id": "A05",
+        "source": "P01",
+        "operation": "direct_official_download_once_then_local_render",
+        "status": "read_success",
+        "retry_of": [
+          "A02",
+          "A03"
+        ]
+      },
+      {
+        "id": "A06",
+        "source": "P03",
+        "operation": "web.clickimage",
+        "status": "failed_timeout"
+      },
+      {
+        "id": "A07",
+        "source": "P03",
+        "operation": "direct_official_image_download_once",
+        "status": "read_success",
+        "retry_of": [
+          "A06"
+        ]
+      },
+      {
+        "id": "A08",
+        "source": "P04",
+        "operation": "web.openHTML",
+        "status": "read_success"
+      }
+    ],
+    "facts": [
+      {
+        "id": "B01",
+        "kind": "source_fact",
+        "claim": "教育局2025-07-18作出终止办学批准，要求依法办理注销手续。",
+        "sources": [
+          "P01"
+        ],
+        "not_supported": "不证明物理停办日或注销已经完成。"
+      },
+      {
+        "id": "B02",
+        "kind": "source_fact",
+        "claim": "PDF第2页注明此页无正文，印发栏为2025-07-21。",
+        "sources": [
+          "P01"
+        ],
+        "not_supported": "印发日不是实际停办或儿童安置日。"
+      },
+      {
+        "id": "B03",
+        "kind": "source_fact",
+        "claim": "2025一般中大班插班安排为登记、5月24/25日材料审核、7月12日前通知程序。",
+        "sources": [
+          "P02"
+        ],
+        "not_supported": "不是蟠龙原幼儿已被公办接收记录。"
+      },
+      {
+        "id": "B04",
+        "kind": "source_fact",
+        "claim": "公办转园插班表为计划，列接收园及中/大班插班人数栏，没有原园幼儿到接收园的已实施映射。",
+        "sources": [
+          "P03"
+        ],
+        "not_supported": "数字不作实际接收人数，也不由邻近/同街镇推定接收园。"
+      },
+      {
+        "id": "B05",
+        "kind": "source_fact",
+        "claim": "Q16指插班/转园不属此次统一信息登记，Q17说明登记地点/顺序不等于录取，按条件与计划录取。",
+        "sources": [
+          "P04"
+        ],
+        "not_supported": "一般程序不保证这批原幼儿已经入园。"
+      }
+    ],
+    "unknowns": {
+      "physical_stop_date": null,
+      "deregistration_completed_date": null,
+      "original_children_transfer_list": null,
+      "receiving_public_kindergarten": null,
+      "receiving_public_status_evidence": null,
+      "actual_matched_2025_summer_autumn_window": null,
+      "actual_received_children": null,
+      "unit": "人"
+    },
+    "freeze_reason": "Two2-query batches yielded no new matched child-reception lead; primary PDF/plan/Q&A read enough for limited fact/unknown baseline. Not search exhaustion; useful plan/image read despite query count.",
+    "research_status_at_freeze": "not_invoked"
+  },
+  "research": {
+    "model_requested": "mini",
+    "status": "creation_post_attempted_http422",
+    "at_started": "2026-10-22T12:53:15.861Z",
+    "at_finished": "2026-10-22T12:53:36.759Z",
+    "creation_tool_invocations": 1,
+    "business_post_attempts_observed": 1,
+    "accepted_job_creation_confirmed": false,
+    "request_id": null,
+    "poll_calls": 0,
+    "reports_returned": 0,
+    "visible_internal_extraction": null,
+    "error": "tavily_research: HTTP 422",
+    "http_status": 422,
+    "native_classification": "non_quota_http",
+    "rotation_observed": false,
+    "retry_calls": 0,
+    "creation_args": {
+      "model": "mini",
+      "max_wait_ms": 180000,
+      "citation_format": "markdown"
+    },
+    "input_scope_summary": "同一蟠龙案例2025暑秋原幼儿到公办园实际接收，区分批准/物理停止/注销/计划/实际，要求原始来源；唯一已知批复作为定位。",
+    "raw_local_receipt_id": "RESEARCH-01-RECEIPT.json",
+    "receipt_sha256": "ab45c463c64791b8c756651cba4878b2c2b0acf082fee38a1355f9446a3d599d",
+    "raw_local_start_id": "RESEARCH-01-START.json",
+    "start_sha256": "6694d98f158a853e2fd7e09bd50503716a6613e0473c847747021f3f1f4eb257",
+    "error_body_exposed": false,
+    "cause": "unknown; HTTP422 alone cannot identify invalid field, quota, throttling or backend acceptance",
+    "new_sources_after_research": [],
+    "comparison_status": "not_performed_no_report",
+    "stop": "Native non-quota HTTP error reported; no second creation, parameter change, alternate model, probe, manual rotation or recovery.",
+    "citation_format_origin": {
+      "value": "markdown",
+      "selected_by": "executor_explicit_parameter",
+      "native_schema_enum": [
+        "numbered",
+        "markdown"
+      ],
+      "native_default": null,
+      "static_reference": "installed0.2.5 tools.js:430,447",
+      "remote_acceptance": "unknown; no responsebody; not established as HTTP422 cause"
+    }
+  },
+  "cost": {
+    "search_reserve_cap": 20,
+    "search_reserved": 8,
+    "search_actual_billed": null,
+    "research_admission_default": 250,
+    "research_actual_billed": null,
+    "extra_quota_calls": 0
+  },
+  "native_audit_before_research": {
+    "raw_local_evidence_id": "native-audit.ndjson",
+    "sha256": "f87330acc801381703b98a6761c2ab5e16cdee28d16c749c3a452c7146f7d583",
+    "search_HTTP200_calls": 4,
+    "snapshot_events": 0,
+    "slots_observed": [
+      496
+    ],
+    "preflight_remaining_reported": [
+      884,
+      884,
+      884,
+      884
+    ],
+    "search_postflight": "intentionally_skipped_by_native_tool; not a failure; no external supplement",
+    "rotation_observed": false
+  },
+  "native_audit_final": {
+    "raw_local_evidence_id": "native-audit.ndjson",
+    "sha256": "50d9e17d767d5f6535cf82afc6764aab89a853b080257e957980e7afae9fbdc1",
+    "rows": 11,
+    "snapshot_events": 0,
+    "slots_observed": [
+      496
+    ],
+    "research_before": {
+      "attempt": 1,
+      "required_credits": 250,
+      "usage_known": true,
+      "remaining": 884
+    },
+    "research_after": {
+      "attempt": 1,
+      "http_status": 422,
+      "usage_known": true,
+      "remaining": 884,
+      "delta_credits": 0,
+      "outcome": "error"
+    },
+    "research_blocked_reason": "non_quota_http",
+    "rotation_observed": false,
+    "limits": "Native audit only; no added quota/usage requests. Visible zero delta is not proof of zero bill."
+  }
+}
