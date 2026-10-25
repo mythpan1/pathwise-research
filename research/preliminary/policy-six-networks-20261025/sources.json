@@ -1,0 +1,482 @@
+{
+  "schema_version": "public-bounded-policy-index-v1",
+  "scope": "中国2026—2036年学业、职业与当前培养选择的有界前置研究；四来源，不是政策全景。",
+  "analysis_date": "2026-10-25",
+  "method": "依据此前已核的固定文字摘要及来源索引分析；本分析未再次访问网页。条目中的读取范围和访问日属于材料收集时的记录，不冒充本分析的直接核读。",
+  "paragraph_numbering": "正文首段起算，图片说明不计入正文段号。",
+  "snapshot_limit": "未保存网页全文、HTML或网页内容版本哈希；访问日期不证明是当日最新版本。",
+  "sources": [
+    {
+      "id": "S001",
+      "title": "发展中国的“算力高铁”",
+      "author": "刘韵洁",
+      "author_identity_displayed": "中国工程院院士、紫金山实验室首席科学家",
+      "publisher": "求是网",
+      "attributed_source": "《求是》2026/20",
+      "source_nature": "专家署名文章；非强制性实施文件",
+      "issue": "2026/20",
+      "web_published_at": "2026-10-16 09:00:00",
+      "timezone_displayed": null,
+      "event_date": null,
+      "event_date_displayed": null,
+      "date_caveat": "URL路径含20261015；采用页面明示的10月16日网页时间，未据URL推定刊发日。",
+      "public_url": "https://www.qstheory.cn/20261015/fba441ed043d4d7087c2e8cbd51f5194/c.html",
+      "collected_access_date": "2026-10-25",
+      "specific_locations": [
+        "页首来源/作者/时间栏",
+        "正文第4段（当前困难）",
+        "第5段（策略）",
+        "第9段（一至四项建议）",
+        "第10段（未来演进设想）",
+        "末尾作者身份"
+      ],
+      "applicability": "中国；2026年算力网及六网建设讨论/协调；供未来十年学业职业研究前期材料使用",
+      "read_boundary": {
+        "reported_collection_coverage": "正文第1–11段及图注、署名",
+        "not_read": "图片像素、纸刊版面、站内其他链接",
+        "author_reopened_page": false,
+        "basis": "固定文字摘要与索引；未经本作者再次原网页核读"
+      },
+      "limitations": [
+        "未独立核实技术性能、国际比较及工程覆盖数字",
+        "未核纸刊与网页的逐字一致性",
+        "未验证建议的实际部署结果"
+      ],
+      "mapping": {
+        "facts": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "inferences": [
+          "I0",
+          "I1a",
+          "I1b"
+        ],
+        "premises": [
+          "P1",
+          "P2"
+        ],
+        "reason": "提供问题与技术/组织方案线索；无法验证需求、经济性、新人入口；F3只用于划清未来设想边界。"
+      }
+    },
+    {
+      "id": "S002",
+      "title": "国家发展改革委召开“六张网”重大项目协调调度机制会 完善“六网协同”工作推进机制",
+      "author": null,
+      "author_identity_displayed": null,
+      "publisher": "国家发展和改革委员会",
+      "attributed_source": "投资司",
+      "source_nature": "官方会议短讯",
+      "issue": null,
+      "web_published_at": "2026-08-19",
+      "timezone_displayed": null,
+      "event_date": "2026-08-19",
+      "event_date_displayed": null,
+      "date_caveat": null,
+      "public_url": "https://www.ndrc.gov.cn/fzggw/wld/yxh/zyhd/202608/t20260819_1407093.html",
+      "collected_access_date": "2026-10-25",
+      "specific_locations": [
+        "发布时间及来源栏",
+        "正文唯一一段首句及参会名单"
+      ],
+      "applicability": "中国；2026年算力网及六网建设讨论/协调；供未来十年学业职业研究前期材料使用",
+      "read_boundary": {
+        "reported_collection_coverage": "正文唯一一段全文",
+        "not_read": "图片像素及站内链接",
+        "author_reopened_page": false,
+        "basis": "固定文字摘要与索引；未经本作者再次原网页核读"
+      },
+      "limitations": [
+        "未取得机制制度文本、责任清单或落地结果；本页不证明已全部建立"
+      ],
+      "mapping": {
+        "facts": [
+          "F4"
+        ],
+        "inferences": [
+          "I0",
+          "I2a",
+          "I2b"
+        ],
+        "premises": [
+          "P4",
+          "P5"
+        ],
+        "reason": "确认有关主体协同进入研究议程；不确认机制全面建立、联合运营或招聘。"
+      }
+    },
+    {
+      "id": "S003",
+      "title": "国家发展改革委召开“六张网”重大项目协调推进会 研究加强要素保障工作",
+      "author": null,
+      "author_identity_displayed": null,
+      "publisher": "国家发展和改革委员会",
+      "attributed_source": "投资司",
+      "source_nature": "官方会议短讯",
+      "issue": null,
+      "web_published_at": "2026-09-09",
+      "timezone_displayed": null,
+      "event_date": null,
+      "event_date_displayed": "近日",
+      "date_caveat": "会议时间未明示，仅为近日；网页日期不是确切事件日。",
+      "public_url": "https://www.ndrc.gov.cn/fzggw/wld/yxh/zyhd/202609/t20260909_1407500.html",
+      "collected_access_date": "2026-10-25",
+      "specific_locations": [
+        "发布时间及来源栏",
+        "正文唯一一段的会议提出及参会名单"
+      ],
+      "applicability": "中国；2026年算力网及六网建设讨论/协调；供未来十年学业职业研究前期材料使用",
+      "read_boundary": {
+        "reported_collection_coverage": "正文唯一一段全文",
+        "not_read": "图片像素及站内链接",
+        "author_reopened_page": false,
+        "basis": "固定文字摘要与索引；未经本作者再次原网页核读"
+      },
+      "limitations": [
+        "会议准确发生日未明示",
+        "未取得具体项目清单、要素批准或开工验收结果"
+      ],
+      "mapping": {
+        "facts": [
+          "F5"
+        ],
+        "inferences": [
+          "I0",
+          "I2a"
+        ],
+        "premises": [
+          "P4"
+        ],
+        "reason": "确认部门提出要素保障要求；不确认项目批准、投运或长期技术岗位。"
+      }
+    },
+    {
+      "id": "S004",
+      "title": "媒体报道 | 纳入国家顶层部署的“六张网”是什么？一图梳理→",
+      "author": null,
+      "author_identity_displayed": null,
+      "publisher": "国家数据局",
+      "attributed_source": "新闻联播",
+      "source_nature": "官方站点媒体声音栏目转载；非部署原始文件",
+      "issue": null,
+      "web_published_at": "2026-06-15",
+      "timezone_displayed": null,
+      "event_date": null,
+      "event_date_displayed": null,
+      "date_caveat": null,
+      "public_url": "https://www.nda.gov.cn/sjj/swdt/mtsy/0615/20260615130632669785689_pc.html",
+      "collected_access_date": "2026-10-25",
+      "specific_locations": [
+        "标题、日期、来源栏",
+        "导语唯一一段"
+      ],
+      "applicability": "中国；2026年算力网及六网建设讨论/协调；供未来十年学业职业研究前期材料使用",
+      "read_boundary": {
+        "reported_collection_coverage": "导语唯一一段及来源时间",
+        "not_read": "两幅图片像素、新闻联播原始页面、被转述会议原文",
+        "author_reopened_page": false,
+        "basis": "固定文字摘要与索引；未经本作者再次原网页核读"
+      },
+      "limitations": [
+        "不能由转载导语替代中央政治局会议、国务院常务会议原文",
+        "未核配图中的定义或细项"
+      ],
+      "mapping": {
+        "facts": [
+          "F6"
+        ],
+        "inferences": [
+          "I0"
+        ],
+        "premises": [],
+        "reason": "只定位六网名单与被转述的顶层背景；不能据此认定具体政策工具或完整传导链。"
+      }
+    }
+  ],
+  "fact_definitions": {
+    "F1": {
+      "source": "S001",
+      "location": "正文第4、5段",
+      "statement": "作者将芯片约束、跨区利用和网络传输作为问题，提出联网聚合资源。",
+      "kind": "来源中的专家诊断与方案，不是独立复验事实"
+    },
+    "F2": {
+      "source": "S001",
+      "location": "正文第9段",
+      "statement": "作者建议规划接续、科研设施利用、运营商与设备商创新及金融支持。",
+      "kind": "专家建议"
+    },
+    "F3": {
+      "source": "S001",
+      "location": "正文第10段",
+      "statement": "智能运维及空间延伸是未来设想。",
+      "kind": "未来设想，非现状"
+    },
+    "F4": {
+      "source": "S002",
+      "location": "正文唯一一段；发布时间",
+      "statement": "8月19日会议研究建立电网企业、电信运营商与算力企业2+3+N协同机制。",
+      "kind": "官方会议活动与研究事项"
+    },
+    "F5": {
+      "source": "S003",
+      "location": "正文唯一一段；发布时间",
+      "statement": "9月9日刊出的会议短讯要求对接项目单位办理要素保障；会议发生日只写近日。",
+      "kind": "部门要求；非审批或投运结果"
+    },
+    "F6": {
+      "source": "S004",
+      "location": "导语唯一一段；来源日期栏",
+      "statement": "转载导语列六网名单并转述顶层规划建设要求。",
+      "kind": "媒体转载背景；非原始部署文本"
+    }
+  },
+  "conditional_premises": {
+    "P1": {
+      "text": "存在持续且有支付来源的需求，部分负载适合跨资源部署。",
+      "related": [
+        "F1"
+      ],
+      "unknowns": [
+        "U3"
+      ],
+      "reason": "联网方案只有被实际使用，才能形成持续服务任务。"
+    },
+    "P2": {
+      "text": "对适用负载，迁移传输适配与交易成本不吞掉利用收益，可靠性满足要求。",
+      "related": [
+        "F1"
+      ],
+      "unknowns": [
+        "U3"
+      ],
+      "reason": "单项性能或资源总量不能保证服务可用和可持续；不依赖任何未经复验性能数值。"
+    },
+    "P3": {
+      "text": "服务主体将部分测试部署运行支持工作交给有监督的新人。",
+      "related": [],
+      "unknowns": [
+        "U4"
+      ],
+      "reason": "任务存在与新人可进入是不同条件。"
+    },
+    "P4": {
+      "text": "协调和要素安排转成项目责任、执行资源与可验收接口。",
+      "related": [
+        "F4",
+        "F5"
+      ],
+      "unknowns": [
+        "U1",
+        "U2"
+      ],
+      "reason": "会议研究和行政要求本身不能证明合同或资源落实。"
+    },
+    "P5": {
+      "text": "电力网络计算配置的相互约束足以需要持续接口责任。",
+      "related": [
+        "F4"
+      ],
+      "unknowns": [
+        "U2",
+        "U3"
+      ],
+      "reason": "多方参会提供考察线索，但是否形成持续技术工作需要项目证明。"
+    },
+    "P6": {
+      "text": "接口责任主体有适合新人参与的技术子任务、带教和工程接触条件。",
+      "related": [],
+      "unknowns": [
+        "U4"
+      ],
+      "reason": "既有管理协调不能直接推出广泛的新人工程岗位。"
+    }
+  },
+  "inference_map": {
+    "I0": {
+      "text": "优先研究跨资源服务与跨专业集成，尚不能确认产业已实际转向。",
+      "facts": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "premises": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "reason": "专家问题解释与部门组织议程在有限节点上方向相容，不能拼成已实施因果链。",
+      "strength": "研究优先级中等支持；实际产业转向未证实",
+      "unknowns": [
+        "U1",
+        "U2",
+        "U3"
+      ]
+    },
+    "I1a": {
+      "text": "符合需求和成本条件时，交付边界可能从设备/单站延伸到跨资源的持续计算服务。",
+      "facts": [
+        "F1",
+        "F2"
+      ],
+      "premises": [
+        "P1",
+        "P2"
+      ],
+      "reason": "共同服务要求资源和网络提供者对接口及质量协作；主导者尚不明。",
+      "strength": "条件机制推断",
+      "unknowns": [
+        "U2",
+        "U3"
+      ]
+    },
+    "I1b": {
+      "text": "持续服务产生互联兼容、资源安排、端到端测量和故障处理等任务要求，不推定人数增长。",
+      "facts": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "premises": [
+        "P1",
+        "P2"
+      ],
+      "reason": "组件合格不足以保证组合服务合格；F3仅限制未来设想不得写作现状。",
+      "strength": "条件机制较强；任务规模未核",
+      "unknowns": [
+        "U2",
+        "U3"
+      ]
+    },
+    "I1c": {
+      "text": "P3成立时，测试、部署与运行支持才构成待核新人入口。",
+      "facts": [],
+      "premises": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "reason": "将条件任务映射到受监督的学习工作；未收集招聘，不能确认岗位存在或规模。",
+      "strength": "现实入口支持弱",
+      "unknowns": [
+        "U4"
+      ]
+    },
+    "I2a": {
+      "text": "工具落地且接口重要时，采购、联调、验收与运行责任可能跨专业衔接。",
+      "facts": [
+        "F4",
+        "F5"
+      ],
+      "premises": [
+        "P4",
+        "P5"
+      ],
+      "reason": "组织协调给出主体线索；实际责任边界还须合同与项目确认。",
+      "strength": "组织线索直接，落实未证",
+      "unknowns": [
+        "U1",
+        "U2"
+      ]
+    },
+    "I2b": {
+      "text": "可出现需求对照、接口测试、变更记录与运行交接任务，需要一门主干技术及相邻系统理解。",
+      "facts": [
+        "F4"
+      ],
+      "premises": [
+        "P4",
+        "P5"
+      ],
+      "reason": "整体交付需要处理各专业约束之间的冲突，不能以泛泛协调代替技术判断。",
+      "strength": "条件机制推断；长期工作量未核",
+      "unknowns": [
+        "U2",
+        "U3"
+      ]
+    },
+    "I2c": {
+      "text": "P6成立时可核验集成测试调试支持等新人入口；否则把接口理解保留为主专业补充。",
+      "facts": [],
+      "premises": [
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "reason": "会议协调可能由既有管理层或成熟供应商消化，不自动开放独立跨界岗位。",
+      "strength": "现实入口支持弱",
+      "unknowns": [
+        "U4"
+      ]
+    }
+  },
+  "advice_map": {
+    "A1": {
+      "text": "链一以网络、操作系统、编程、测量和故障分析及可复现小实验比较培养。",
+      "inferences": [
+        "I1b",
+        "I1c"
+      ],
+      "unknowns": [
+        "U4",
+        "U5"
+      ],
+      "basis": "训练动作直接对应条件任务，学校与就业效果未核。"
+    },
+    "A2": {
+      "text": "链二先形成一个主专业的可检验能力，再训练接口与交付，不以广度代替实验。",
+      "inferences": [
+        "I2b",
+        "I2c"
+      ],
+      "unknowns": [
+        "U4",
+        "U5"
+      ],
+      "basis": "需要能够识别约束和核验交付的技术基础，非具体学校推荐。"
+    },
+    "A3": {
+      "text": "用两类实践检验兴趣和学习进展，再结合个人条件、真实入口与课程比较。",
+      "inferences": [
+        "I1c",
+        "I2c"
+      ],
+      "unknowns": [
+        "U4",
+        "U5"
+      ],
+      "basis": "当前不足以排名专业或给个体最优建议；观察窗口不是技术预测。"
+    },
+    "A4": {
+      "text": "围绕工具、合同、持续运行、新人分工和课程成果收集能改变选择的信息。",
+      "inferences": [
+        "I0",
+        "I1a",
+        "I1b",
+        "I1c",
+        "I2a",
+        "I2b",
+        "I2c"
+      ],
+      "unknowns": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ],
+      "basis": "按断点取材，避免政策新闻堆积；本轮未执行后续收集。"
+    }
+  },
+  "excluded": [
+    "辅助E未读取",
+    "图片像素和纸刊未读",
+    "技术性能数字未独立复验，未作为必要前提",
+    "实际预算审批采购投运用工课程效果均未核"
+  ],
+  "status": "分析作者自检候选；未作独立内容审核。"
+}
