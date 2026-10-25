@@ -1,0 +1,345 @@
+{
+  "video_id": "BV1UwSQB2EJS",
+  "analysis_date": "2026-10-25",
+  "status": "draft_candidate_self_checked_pending_independent_review",
+  "scope": {
+    "region": "中国",
+    "horizon": "2026—2036",
+    "audience": "高校培养选择及医药研发相关职业准备",
+    "primary_thread": "产业变迁",
+    "policy_role": "注册、质量及职业准入的待核边界",
+    "population_role": "无独立证据链，不强加人口解释",
+    "purpose": "从阶段研发许可分工推导任务、能力和多对多培养路径"
+  },
+  "video": {
+    "source_id": "V15",
+    "title": "外资给中国医药研发的首付款翻倍：晚一步就抢不到了",
+    "publisher": "院里新来了个杨主任",
+    "publisher_url": "https://space.bilibili.com/1121263766/",
+    "url": "https://www.bilibili.com/video/BV1UwSQB2EJS/",
+    "published_date": "2026-04-05",
+    "published_time_timezone": null,
+    "duration": "04:22",
+    "sampling_date": null,
+    "handoff_date": "2026-10-25",
+    "author_watched_video": false,
+    "coverage": "云端有限AI字幕与关键帧文字交接；非完整音轨、逐字稿或全片审查",
+    "sample_points": [
+      {
+        "time": "00:37",
+        "description": "口播与字幕画面描述"
+      },
+      {
+        "time": "00:45",
+        "description": "口播与字幕，可见7770万美元；不作为统计事实证据"
+      },
+      {
+        "time": "01:42",
+        "description": "试验数量论断缺主体和口径，排除事实使用"
+      },
+      {
+        "time": "02:34",
+        "description": "论断不完整，排除"
+      },
+      {
+        "time": "03:26",
+        "description": "快速变现论述只作视角线索"
+      },
+      {
+        "time": "03:27",
+        "description": "口播与字幕画面描述"
+      },
+      {
+        "time": "03:57",
+        "description": "研发能力和需求的修辞，不作证据"
+      }
+    ],
+    "comments_read": false,
+    "limits": [
+      "采样时间未知，交接日不等于采样日",
+      "视频是分析视角来源，不是独立产业事实证据",
+      "未核页面完整论证和标题统计"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S15a",
+      "publisher": "GSK",
+      "title": "GSK and Hengrui Pharma enter agreements to develop up to 12 innovative medicines across Respiratory, Immunology & Inflammation and Oncology",
+      "published_date": "2025-07-28",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-and-hengrui-pharma-enter-agreements",
+      "accessed_date": "2026-10-25",
+      "status": "official_announcement_reopened_and_key_clauses_checked",
+      "source_type": "交易当事方公告",
+      "locators": [
+        {
+          "label": "导语与HRS-9821许可段",
+          "supports": [
+            "F1",
+            "F4"
+          ]
+        },
+        {
+          "label": "另最多11项合作段及紧接的选择权段",
+          "supports": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        {
+          "label": "财务条款章节两段",
+          "supports": [
+            "F3",
+            "F4"
+          ]
+        },
+        {
+          "label": "前瞻性声明章节",
+          "supports": []
+        }
+      ],
+      "scope": "公司在公告日披露的协议条款与研发分工，不是第三方疗效、行业就业或履约审计",
+      "limitations": [
+        "未核公告后的项目状态与实际付款",
+        "最多12项不等于全部药物已获批或将上市",
+        "里程碑及提成不能合计为当前收入"
+      ]
+    },
+    {
+      "id": "S15b",
+      "publisher": "Reuters（检索线索归属）",
+      "title": null,
+      "title_note": "未读取原文，不以网址路径或摘要补造正式标题",
+      "reported_published_date": "2026-02-13",
+      "url": "https://www.reuters.com/sustainability/climate-energy/china-biotech-licensing-boom-hit-record-2026-pipeline-swells-2026-02-13",
+      "accessed_date": null,
+      "status": "search_lead_only_original_not_read",
+      "locator": null,
+      "locator_reason": "原文此前读取失败；本轮未再次打开或搜索",
+      "attributed_data_provider": "Pharmcube（线索中的归属，未原文核实）",
+      "scope": "仅说明视频标题关联统计尚未核，不参与事实前提",
+      "used_as_fact_premise": false,
+      "limitations": [
+        "年份、截止时点、样本与平均值口径未核",
+        "不同口径检索结果不拼接"
+      ]
+    }
+  ],
+  "claim_mapping": {
+    "F0": {
+      "type": "metadata_and_coverage",
+      "source_ids": [
+        "V15"
+      ],
+      "basis": "单篇云端采样交接的身份、时间点与覆盖说明；作者未观看视频",
+      "locator": "视频元数据与采样范围",
+      "scope": "视频身份与材料覆盖，不能作为独立产业事实"
+    },
+    "F1": {
+      "type": "source_fact",
+      "source_ids": [
+        "S15a"
+      ],
+      "basis": "协议结构将HRS-9821许可与另外最多11项合作区分",
+      "locator": "导语、HRS-9821许可段、另11项合作段",
+      "scope": "2025-07-28公司披露的协议结构"
+    },
+    "F2": {
+      "type": "source_fact",
+      "source_ids": [
+        "S15a"
+      ],
+      "basis": "另11项由恒瑞开发至一期完成，包含境外患者；GSK选择时点为一期末或自行选择更早",
+      "locator": "另11项合作段及下一段",
+      "scope": "另最多11项，不把相同选择权结构套用于HRS-9821"
+    },
+    "F3": {
+      "type": "source_fact",
+      "source_ids": [
+        "S15a"
+      ],
+      "basis": "5亿美元首付款、约120亿美元未来条件里程碑、另有净销售分级提成",
+      "locator": "财务条款章节第一段",
+      "scope": "协议披露金额与条件，不确认到账、收入或兑现"
+    },
+    "F4": {
+      "type": "source_fact",
+      "source_ids": [
+        "S15a"
+      ],
+      "basis": "许可、选择权、提成均有排除中国大陆及港澳台的区域口径；HRS-9821许可受惯常条件约束",
+      "locator": "HRS-9821许可段、选择权段、财务条款两段",
+      "scope": "地域和条件，不确认当前履行或境内外岗位分配"
+    },
+    "P1": {
+      "type": "premise",
+      "source_ids": [],
+      "anchor_ids": [
+        "F1",
+        "F2"
+      ],
+      "basis": "将个案用于观察期能力选择，需要类似阶段合作持续且实际推进",
+      "verification": "assumed_not_verified",
+      "gap": "重复合作、项目选择和持续投入未知"
+    },
+    "P2": {
+      "type": "premise",
+      "source_ids": [],
+      "anchor_ids": [
+        "F2",
+        "F3"
+      ],
+      "basis": "后续选择和投入取决于证据可判断、可复核、可交接",
+      "verification": "explicit_mechanism_assumption",
+      "gap": "各项目的实际决策标准和质量要求未读取"
+    },
+    "P3": {
+      "type": "premise",
+      "source_ids": [],
+      "anchor_ids": [
+        "F2",
+        "F4"
+      ],
+      "basis": "国内团队承接任务且提供新人训练，才可连接中国学生职业入口",
+      "verification": "assumed_not_verified",
+      "gap": "地域、企业与外包分工、应届入口未核"
+    },
+    "I1": {
+      "type": "conditional_inference",
+      "source_ids": [],
+      "depends_on": [
+        "F1",
+        "F2",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "basis": "跨阶段交付需要能够连接研究、数据及质量证据的能力",
+      "strength": "能力方向中等；行业和就业规模未知",
+      "limits": [
+        "单一协议不能推出行业普遍增长"
+      ]
+    },
+    "I2": {
+      "type": "conditional_inference",
+      "source_ids": [],
+      "depends_on": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "P2"
+      ],
+      "basis": "早期成果经临床验证、数据统计和注册质量材料，供后续选择和继续开发使用；质量与注册考虑贯穿前期",
+      "strength": "任务分工有事实锚点，具体能力组合是机制推断",
+      "limits": [
+        "未读取具体岗位标准、质量要求或当前注册规则"
+      ]
+    },
+    "I3": {
+      "type": "inference_and_unknown_boundary",
+      "source_ids": [],
+      "depends_on": [
+        "F3",
+        "F4",
+        "P1",
+        "P3"
+      ],
+      "basis": "资金只有经项目推进、地域和组织选择、新增招聘才转为就业；目前缺转换证据",
+      "strength": "不能形成净岗位增量判断",
+      "limits": [
+        "未核企业数量、净增岗位、工资、应届名额"
+      ]
+    },
+    "I4": {
+      "type": "conditional_inference",
+      "source_ids": [],
+      "depends_on": [
+        "I2",
+        "P3"
+      ],
+      "basis": "任务由多种学科基础和实践组合准备，同名专业并不保证相同训练",
+      "strength": "培养路径比较框架",
+      "limits": [
+        "院校与岗位事实需另核"
+      ]
+    },
+    "I5": {
+      "type": "observation_framework",
+      "source_ids": [],
+      "depends_on": [
+        "P1",
+        "P2",
+        "P3",
+        "I3"
+      ],
+      "basis": "按当前训练、毕业进入与长期转向设置三段观察窗口",
+      "strength": "非招聘或商业化时点预测",
+      "windows": [
+        "2026-2028",
+        "2029-2031",
+        "2032-2036"
+      ]
+    },
+    "A1": {
+      "type": "recommendation",
+      "source_ids": [],
+      "depends_on": [
+        "I2",
+        "I4",
+        "P3"
+      ],
+      "basis": "按核心专业、相邻能力、训练产物和待核入口进行多对多比较",
+      "limits": [
+        "候选入口类型，不是已核实在招职位；研究岗位不等于诊疗资格"
+      ]
+    },
+    "A2": {
+      "type": "recommendation",
+      "source_ids": [],
+      "depends_on": [
+        "I1",
+        "I4",
+        "A1"
+      ],
+      "basis": "核验课程、合规实训和具体毕业去向，再决定专业、辅修或深造",
+      "limits": [
+        "无具体院校优劣排名；不据历史材料推当年招生与资格"
+      ]
+    },
+    "A3": {
+      "type": "future_collection_recommendation",
+      "source_ids": [],
+      "depends_on": [
+        "P1",
+        "P2",
+        "P3",
+        "I2",
+        "I3",
+        "A1"
+      ],
+      "basis": "用项目选择、阶段结果、数据质量、任务去向和应届训练入口区分推演是否成立",
+      "execution_status": "listed_only_not_collected"
+    },
+    "U1": {
+      "type": "unverified_lead_exclusion",
+      "source_ids": [
+        "S15b"
+      ],
+      "basis": "只交接到检索线索，原文此前读取失败，本轮未重开",
+      "used_as_fact_premise": false,
+      "limits": [
+        "不确认均值翻倍、不跨年份口径拼接、不由年初替代全年、不由均值推所有公司"
+      ]
+    }
+  },
+  "limits": [
+    "作者仅做单篇文字分析及一次指定官方公告核读",
+    "不将视频、搜索摘要或金额当作行业就业数据",
+    "当前培养、准入、招聘和院校材料未采集，实际入口须核",
+    "近中远期为观察和培养窗口",
+    "不提供投资或医疗方案",
+    "尚无独立内容审核"
+  ]
+}
