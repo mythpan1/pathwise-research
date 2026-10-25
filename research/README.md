@@ -10,19 +10,19 @@
 
 ## 已采用材料与候选成果
 
-以下为2026-10-25本次GitHub读取快照，不授权自动合并或恢复。后续状态以实际PR为准。
+以下当前导航已于2026-10-25按 main c3fcdc910aac220e3d73afad564e761850674515 同步。原读取基线 1b0c3332d4a435b34f29b87a6eea87d1258d9792 仅为历史快照；采用不等于现实全链验证、完整行业预测或下一任务授权。后续状态以实际PR为准。
 
 | 入口 | 内容与采用边界 |
 | --- | --- |
-| [EXP-001](experiments/EXP-001-demography-education/README.md) | main已采用较早人口教育证据及阶段记录；其中“当前交接”是历史时点，不是全局最新进度 |
-| [PR #26](https://github.com/mythpan1/pathwise-research/pull/26) | 少子化前置收口，open、未合并；已读head 5ad022984a68964412c7df2f8e4a7c79616e7a4f |
-| [PR #28](https://github.com/mythpan1/pathwise-research/pull/28) | CO₂产品链及产业推演，open、未合并；已读head 72e6797030b7e14a79a09b6fa3a495355160bb8c |
-| [PR #30](https://github.com/mythpan1/pathwise-research/pull/30) | 机器人两轮及前置收口，open、未合并；已读head 214cdcf19b1f1d24b7f83683679acf4e2df1cd12 |
+| [EXP-001](experiments/EXP-001-demography-education/README.md) | main已采用人口教育证据、阶段记录及PR #26少子化前置收口；正文内早期“当前交接”按其历史时点理解 |
+| [PR #26](https://github.com/mythpan1/pathwise-research/pull/26) | 少子化前置收口已采用；合并提交 91437299b0ae60029224e7d15f653288431c7f74；见上方EXP-001入口 |
+| [PR #28](https://github.com/mythpan1/pathwise-research/pull/28) | [CO₂产品链及产业推演](experiments/EXP-002-co2-starch/README.md)已采用；合并提交 dcc58fd02545b62ef903cecfe1d9ec2d714017e8 |
+| [PR #30](https://github.com/mythpan1/pathwise-research/pull/30) | [机器人两轮及前置收口](experiments/EXP-003-robotics-workers/README.md)已采用；合并提交 9a3978308d0059b3ff56a20138c0a57848c65bb5 |
 | [PR #32](https://github.com/mythpan1/pathwise-research/pull/32) | 跨实验草案，open、未合并；“独立国际主线待补实验”建议已不符合现行方向，不可直接执行；head 53ff105deb949cdd3bafb8b8457b774abe058f01 |
-| [视频素材](materials/video-analyses/README.md) | main已收录18篇：前6篇加批准批次12篇；其中含未核线索及非证据排除，不等于18项事实验证 |
+| [视频素材](materials/video-analyses/README.md) | main已收录21份：前6份加批准批次15/15；本批已全部采用并结束，其中含未核线索及非证据排除，不等于全片审核或21项事实验证 |
 
 ## 复用方式
 
 每个有界任务保持独立记录，并说明承接哪条连续研究链、改变什么判断、下一连接是什么。材料正文和历史版本保留，当前导航区分已采用、候选、历史与待核。本地未推送资料不可见，不代表没有执行。
 
-从[任务模板](../templates/research-task.md)准备，Issue建立后在其正文维护范围与状态；方法、成果、素材与执行日志分开。当前不预建全行业数据库，不恢复实验、视频13—15或旧候选PR。
+从[任务模板](../templates/research-task.md)准备，Issue建立后在其正文维护范围与状态；方法、成果、素材与执行日志分开。当前不预建全行业数据库，不启动新实验、重做已完成视频批次或自动采用旧候选PR。

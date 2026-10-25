@@ -1,5 +1,11 @@
 # EXP-001：给 Dot 的审阅入口
 
+## 本轮前置研究收尾（2026-10-23）
+
+任务：[Issue #25](https://github.com/mythpan1/pathwise-research/issues/25)。[收尾报告](stages/20261023-preliminary-closeout/REPORT.md)与[来源及可核范围](stages/20261023-preliminary-closeout/sources.json)整理了少子化到职业入口、培养选择的条件路径与三个关键证据组合。本轮可按“前置研究路径与改判点已整理”收尾，职业入口实际规模、资格和毕业年对应仍待后续决策研究；不再追幼儿园个案。全国教育底稿仍是回顾性检验且未独立最终终审。
+
+本轮稿件待独立审核，采用情况以本轮 PR 及绑定成果版本的审核记录为准，阶段切换由知舟决定。下列既有个案与 G01 条目按历史范围保留，其中“当前”指原阶段，不作为本轮续查指令。
+
 ## 当前续作：地区扩大后固定一个调整事件
 
 - 同[Issue #14](https://github.com/mythpan1/pathwise-research/issues/14)/[PR #15](https://github.com/mythpan1/pathwise-research/pull/15)；[续作报告](evidence/EVENT-20261022/EXPANDED-REPORT.md)与[来源/额度账本](evidence/EVENT-20261022/expanded-sources.json)。运行`RUN-EXP001-20261022-EVENT-EXPAND-02`。

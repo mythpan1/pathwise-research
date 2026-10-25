@@ -1,0 +1,237 @@
+{
+  "title": "少子化前置研究收尾：来源与可核范围",
+  "date": "2026-10-23",
+  "report_status": "author candidate; independent final review pending",
+  "baseline_commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+  "scope": "中国2026—2036职业与培养选择的前置研究；仅使用已获准固定材料，不新增检索、原文请求或研究。",
+  "author_provenance": {
+    "actor": "demography_closeout_author",
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "ultra",
+    "reported_model": null,
+    "reported_reasoning": null,
+    "verification": "unknown; actual runtime metadata not exposed; requested configuration is not backend identity certification",
+    "role": "author, not final independent reviewer"
+  },
+  "reading_boundary": "本轮读取的是本地固定规则、受控推导与反例、既有仓库报告及入口。来源摘要不能替代原件；全国底稿及官方原件不在本次新包，也未重核。可核范围是固定输入所写主张、条件推导及本稿引用的对应关系。需要原件级核验时，审核者须使用既有获授权受控渠道或明确不可核范围，不因本索引扩大上传。",
+  "rule_precedence": "当前规则采用97183b34167fbd2f5de27185832ca3dfc7677d92；旧研究包内的旧规则不作为本轮规则。",
+  "rules": [
+    {
+      "id": "R-AGENTS",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "AGENTS.md",
+      "sha256": "4585e09d6415f1cfb856fdce3bd1d31120efe9149059522490847cfa8df826b6"
+    },
+    {
+      "id": "R-WORKFLOW",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/agent-workflow.md",
+      "sha256": "c88beba44e3ec5a8ed1f97d82d0a86fad2577a2157b7ecf30b728ad9ac2c9033"
+    },
+    {
+      "id": "R-PROVENANCE",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/agent-provenance.md",
+      "sha256": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f"
+    },
+    {
+      "id": "R-PROTOCOL",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/experiment-protocol.md",
+      "sha256": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6"
+    },
+    {
+      "id": "R-METHOD",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/research-methods.md",
+      "sha256": "bec5ee083d3a50fc13910f957f721270b65c32c5306f9e05f46f1946de67b265"
+    },
+    {
+      "id": "R-ARCH",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/research-architecture.md",
+      "sha256": "035556ae8f79104b9765917996d034e55763a803b829f9cea3df341ac7e99216"
+    },
+    {
+      "id": "R-REVIEW",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "reviews/README.md",
+      "sha256": "f98d2933f1e2cf82323bce7ebb14ebc26610ac09915ca5abedbb0c8a2eaf0d71"
+    },
+    {
+      "id": "R-REVIEW-TEMPLATE",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "templates/review-record.md",
+      "sha256": "9b3b0ca1415d97d5300879ccce611f836b0ef6ac40eec500e3b4d117e5fe3e1d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "E-STAGE",
+      "kind": "existing_repository_report_or_entry",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "579b816616cdeb6931d0f53f220f406f08847c7a",
+      "path": "research/experiments/EXP-001-demography-education/stages/20261022-existing-evidence/REPORT.md",
+      "git_blob": "4f80197ffb4f46c7f4297ae57787f0881a0733e0",
+      "sha256": "9d2432969db494cc2e6fcb783de81dc0f4e4a75c58853a59b248a469dc72a398",
+      "sections": [
+        "现在能判断到哪里",
+        "命题—证据对照：H1—H4",
+        "已封存材料与尚未到期预测"
+      ],
+      "summary": "全国教育底稿所述学前收缩、民办相对收缩、教师与生源调整不同步、小学初中错峰，均通过这份阶段报告转述。全国底稿仍为回顾性检验且未独立最终终审；历史预测不在本轮验收。",
+      "limits": "只支持既有研究的观察与状态摘要；不直接验证全国官方统计、地方机制或职业入口。",
+      "access_this_run": "read locally saved content; no remote or official-original retrieval",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-G01",
+      "kind": "existing_repository_report_or_entry",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "579b816616cdeb6931d0f53f220f406f08847c7a",
+      "path": "research/experiments/EXP-001-demography-education/evidence/G01-20261022/REPORT.md",
+      "git_blob": "d9a3ffa73b86ea805d7bcf4e4dc637fdd719ff23",
+      "sha256": "ac7131de3108f9a72c001b9e38e92c5c28a8142d755e83c06865de0935fd90f3",
+      "sections": [
+        "结论与证据状态",
+        "2. 可比较性表",
+        "3. 保留下来的事实，及其不能替代的变量"
+      ],
+      "summary": "已有限定民办年检汇总，但两期可比区级学前总量与公民办分项未齐；教职工存量不能替代专任教师或新招聘。",
+      "limits": "不能描述该区趋势、转园流量或招聘方向；本轮不复制原件或重取来源。",
+      "access_this_run": "read locally saved content; no remote or official-original retrieval",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-EVENT",
+      "kind": "existing_repository_report_or_entry",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "579b816616cdeb6931d0f53f220f406f08847c7a",
+      "path": "research/experiments/EXP-001-demography-education/evidence/EVENT-20261022/EXPANDED-REPORT.md",
+      "git_blob": "ff7877d158ff052b76773df9045dfa7b2078445e",
+      "sha256": "ff6756ad6f7255eab6b9a2e97ed473c821587c68cfc0341abf01da4662f05391",
+      "sections": [
+        "当前结果",
+        "可改变判断的材料与交付边界"
+      ],
+      "summary": "旧报告确认上海青浦蟠龙民办幼儿园2025-07-18终止办学的行政批准；只作为行政退出锚点。",
+      "limits": "不证明少子化因果、毕业后物理闭园、注销完成或实际公办接收。本轮不续查个案，旧报告的续查建议不构成本轮任务。",
+      "access_this_run": "read locally saved content; no remote or official-original retrieval",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-README",
+      "kind": "existing_repository_report_or_entry",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "579b816616cdeb6931d0f53f220f406f08847c7a",
+      "path": "research/experiments/EXP-001-demography-education/README.md",
+      "git_blob": "99935a9eecc4b73636a45c732b2ba586e67a3c7c",
+      "sha256": "70fd3f1e1d86927e7bf67422a6388c535abe61982e4290ea3e7e4e5e51dbdbfa",
+      "sections": [
+        "已有成果与本次候选"
+      ],
+      "summary": "实验入口保留G01、阶段对照、全国底稿和历史预测各自的范围及状态。",
+      "limits": "历史入口和旧角色分工不覆盖本轮新授权、当前规则与独立审核安排。",
+      "access_this_run": "read locally saved content; no remote or official-original retrieval",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-HANDOFF",
+      "kind": "existing_repository_report_or_entry",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "579b816616cdeb6931d0f53f220f406f08847c7a",
+      "path": "research/experiments/EXP-001-demography-education/HANDOFF.md",
+      "git_blob": "fca3cfddd1bc5c70d5e7c1a26d43f2458813f008",
+      "sha256": "e237fa1aa72b4b02a2a8989280a88270041814857a03ca2a8b6f09741d5adea3",
+      "sections": [
+        "上一阶段对照（历史入口，PR #13已合并）",
+        "历史 G01 入口（已采用范围保持）"
+      ],
+      "summary": "交接材料用于交叉辨识历史采用范围与未核事项。",
+      "limits": "仅引用必要状态摘要；不复制其历史工具运行、额度或内部回执信息。",
+      "access_this_run": "read locally saved content; no remote or official-original retrieval",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-DRAFT",
+      "kind": "controlled_local_input",
+      "controlled_relative_path": "cohort-impact-discussion-01/analysis/DRAFT.md",
+      "sha256": "0e77c0fe45aaca375f03259801df7d8978ffbe8517d4858dd167a05231c71961",
+      "sections": [
+        "先把“儿童少了”拆成不同需求",
+        "三个真正区分机制的岔路",
+        "暂定判断"
+      ],
+      "summary": "提供教育、儿童消费、课外活动和托育等服务的条件机制，以及量价、总量与份额、任务与录用的区分；不是新增行业实证。",
+      "necessary_excerpt": "若实际使用和劳动时长保持或上升，才支持投入深化抵消量缩。",
+      "limits": "仅方法与条件推演输入；无现实净效应验证。全文留受控位置，不在本次新包复制。",
+      "access_this_run": "read fixed local file",
+      "originals_in_new_package": false
+    },
+    {
+      "id": "E-COUNTEREXAMPLE",
+      "kind": "controlled_local_input",
+      "controlled_relative_path": "cohort-impact-discussion-01/counterexample-02/REVIEW.md",
+      "sha256": "7d0c5f8fd8f3b07fd6ebc4c20855c4c85224bac804e6e4d9df9d334153b273dd",
+      "sections": [
+        "儿童消费：C1—C5及份额分支",
+        "儿童服务：S1—S5",
+        "人员调整再分支，不能由任务替代",
+        "方法复盘与修订"
+      ],
+      "summary": "所有数字和规则均合成：100→80且参与率不变时，每孩实际使用需增25%才持平；量价、集中、班组整数约束和人员流量限制下游推断。S1只排除原稿的弱化读法，不推翻原稿合看实际使用与劳动时长的条件。",
+      "necessary_excerpt": "原稿原句要求“实际使用和劳动时长保持或上升”，合看二者的方向成立。",
+      "limits": "仅方法与条件推演输入；无现实净效应验证。全文留受控位置，不在本次新包复制。",
+      "access_this_run": "read fixed local file",
+      "originals_in_new_package": false
+    }
+  ],
+  "claim_map": [
+    {
+      "report_part": "已有材料支持到哪里",
+      "source_ids": [
+        "E-STAGE",
+        "E-G01",
+        "E-EVENT",
+        "E-README",
+        "E-HANDOFF"
+      ],
+      "claim_type": "existing_report_summary_with_status_limits"
+    },
+    {
+      "report_part": "基准方向与主要路径表",
+      "source_ids": [
+        "E-DRAFT",
+        "E-COUNTEREXAMPLE",
+        "R-METHOD",
+        "R-ARCH"
+      ],
+      "claim_type": "conditional_inference; not empirical forecast"
+    },
+    {
+      "report_part": "三组证据与当前选择意义",
+      "source_ids": [
+        "E-DRAFT",
+        "E-COUNTEREXAMPLE",
+        "R-METHOD",
+        "R-ARCH"
+      ],
+      "claim_type": "author synthesis of discriminating evidence and conditional decision implications; no collection performed"
+    }
+  ],
+  "excluded_from_upload": [
+    "complete original tool returns",
+    "internal run logs",
+    "official source originals",
+    "other knowledge bases"
+  ],
+  "next_stage": "Fixed author output for scheduler; mechanical publishing and independent review are separate runs. No automatic merge authorized by this record."
+}
