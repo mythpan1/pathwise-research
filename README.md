@@ -1,5 +1,11 @@
 # 知途研究 · Pathwise Research
 
+## 当前建设入口（2026-10-26）
+三条主线不变：政策、产业变迁、人口结构变化。方法试水用于检验可行性，本次进入[完整研究框架](docs/research-framework.md)设计与文档衔接，不以小范围试用稿作为最终项目框架。完整设计不等于全行业内容已填充或预测已验证。
+依次阅读[完整框架](docs/research-framework.md)、[研究总图](docs/research-architecture.md)、[研究覆盖与推进](research/coverage.md)和[建设计划](docs/roadmap.md)。本次依据见[方向决定](docs/decisions/2026-10-26-complete-research-framework.md)。
+下方旧阶段状态按其日期理解；当前任务与采用状态由对应 Issue、PR、reviews 维护，旧暂停或旧人工唤醒叙述不覆盖后续授权。常规执行沿用三个职责会话及[唯一主流程](docs/agent-workflow.md)。不因此恢复巡检、工具重测或导入本地知识库。
+
+
 **升学与职业发展研究 · Education & Career Pathways**
 
 以数据与证据为基础，研究教育选择与职业发展的路径。
@@ -60,7 +66,7 @@
 2. 使用研究任务 Issue 模板分派任务；可先用[本地模板](templates/research-task.md)准备，Issue 建立后以其正文为准。
 3. 用 [来源记录模板](templates/source-record.md) 登记证据，注明原文位置和适用范围。
 4. 用 [研究报告模板](templates/research-report.md) 整理结论、限制和待核实事项。
-5. 在独立分支提交 Draft PR，自检后按[主流程](docs/agent-workflow.md)退出 Draft 并在正文写明 `ready for Dot review`、完整 head SHA 和交接者。未编写成果的实际运行审核、归档；用户手动唤醒 Chat 读取结果，同 PR 返工。仅满足精确版本、授权与全部门禁时才可合并。
+5. 在独立分支提交 Draft PR，自检后按[主流程](docs/agent-workflow.md)退出 Draft，并在 PR 正文写明 `ready for independent review`、完整 head SHA、实际交接运行及独立审核角色。不同于作者的实际运行审核，Chat Work 调度器读回、跟进同 PR 返工及归档；只有精确版本、授权、指定检查和平台门禁全部满足才可合并。实际通知能力未知时如实说明并人工补位，不把旧的用户手动唤醒安排作为唯一现行路径。
 
 本阶段不需要安装依赖或启动服务。
 
@@ -74,3 +80,4 @@ a developing scaffold, and a local review controller with tests. Existing local 
 collections are not authorized for import. Research remains paused; the canonical
 [workflow](docs/agent-workflow.md) requires explicit handoff and manual Chat wake-up.
 The current four-hour monitor is read-only and does not write to GitHub or trigger Chat.
+
