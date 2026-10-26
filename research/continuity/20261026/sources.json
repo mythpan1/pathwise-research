@@ -1,6 +1,6 @@
 {
   "schema": "continuity-staging-sources/v1",
-  "status": "local staging candidate; not published",
+  "status": "Included as the source/version manifest in open Draft PR #97; not merged.",
   "repository": "mythpan1/pathwise-research",
   "fixed_source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
   "execution": {
@@ -385,9 +385,8 @@
   "limits": [
     "No raw source evidence or video materials were re-reviewed in this staging operation.",
     "All source/evidence/market, hiring, admissions, training, costs and applicability gaps remain as stated in the author handoffs and historical reviews; see per-article open_evidence_limits.",
-    "Migration 05 author handoff does not establish full-source read range; only linked/excerpt anchors can be confirmed from that handoff. Review record states its separate full-source read.",
-    "Migration 06 author handoff lacks an exact read range; the designated review record states its separate 41-line full-source read.",
-    "Continuity overview README has not been supplied. Both navigation candidate links therefore target a pending repository-relative file."
+    "Migration 05 fixed-source read scope is reported by its author as the complete 73-line analysis; the scheduler handoff confirms this for the final manuscript. This mechanical publisher did not independently reread the source body.",
+    "Migration 06 fixed-source read scope is reported by its author and scheduler handoff as all 41 logical lines with matching hash. This mechanical publisher did not independently reread the source body."
   ],
   "not_performed": [
     "No raw source evidence or video materials were re-reviewed in this publication correction.",
