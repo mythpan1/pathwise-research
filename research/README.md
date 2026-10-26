@@ -23,6 +23,7 @@
 
 - [已采用的有界前置政策样本：六张网与算力服务](preliminary/policy-six-networks-20261025/analysis.md) — 独立审核建议采用；不表示政策前调或整体框架完成，也未验证政策效果或未来就业机会。
 - [PR #86：十五五政策总图](https://github.com/mythpan1/pathwise-research/pull/86) — 已采用为基于固定摘要、短摘及索引的有界选材与条件推演；不表示政策前调或整体框架完成，也未验证政策效果或未来就业机会。见[分析](preliminary/fiveyear-policy-map-20261026/analysis.md)与[审核归档](../reviews/ISSUE-85-r1.md)，合并提交 `08dbcde15c737533679b39c4893a6833f4cb2c46`。
+- 候选：[产业结构调整目录环保资源循环——方法修订样本](preliminary/industry-catalog-environment-20261026/analysis.md) — 按“政策条件→企业响应→分工与任务→能力培养研究问题”修订方法，说明迁移变量与失效边界；职业例子非最终清单，也非完整项目框架。发布版不含可核验PDF像素/原始字节，2026全年沿革未认证，现实用工未核实，不作企业合规意见；待独立审核。
 
 ## 复用方式
 
