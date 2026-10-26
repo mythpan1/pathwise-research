@@ -22,7 +22,7 @@
 | [视频素材](materials/video-analyses/README.md) | main已收录21份：前6份加批准批次15/15；本批已全部采用并结束，其中含未核线索及非证据排除，不等于全片审核或21项事实验证 |
 
 - [已采用的有界前置政策样本：六张网与算力服务](preliminary/policy-six-networks-20261025/analysis.md) — 独立审核建议采用；不表示政策前调或整体框架完成，也未验证政策效果或未来就业机会。
-- [十五五政策总图（待独立审核）](preliminary/fiveyear-policy-map-20261026/analysis.md) — 基于固定摘要、短摘及索引的前置选材候选；未通读纲要、未新增政策网页，政策前调及整体框架均未完成。
+- [PR #86：十五五政策总图](https://github.com/mythpan1/pathwise-research/pull/86) — 已采用为基于固定摘要、短摘及索引的有界选材与条件推演；不表示政策前调或整体框架完成，也未验证政策效果或未来就业机会。见[分析](preliminary/fiveyear-policy-map-20261026/analysis.md)与[审核归档](../reviews/ISSUE-85-r1.md)，合并提交 `08dbcde15c737533679b39c4893a6833f4cb2c46`。
 
 ## 复用方式
 
