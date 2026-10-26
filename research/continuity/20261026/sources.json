@@ -374,13 +374,13 @@
     }
   ],
   "review_boundary": {
-    "archived_as": "internal/review-archive-candidates/",
-    "status": "sanitized local archive candidates only",
-    "current_issue_or_pr": "unknown",
-    "exact_current_head_binding": "unknown",
+    "archived_as": "reviews/ISSUE-97-continuity/ (historical directory identity retained)",
+    "status": "Nine sanitized review copies are included as candidates in Draft PR #97; records preserve their manuscript-hash bindings.",
+    "current_issue_or_pr": "Draft PR #97; separate tracking Issue #98",
+    "exact_current_head_binding": "The review records bind to manuscript hashes, not PR head H; independent review of the current exact head remains pending.",
     "github_comment_or_approval_written": false,
     "independent_approval_for_current_publication": "not established by this staging operation",
-    "archive_location_status": "local-only staging/internal/review-archive-candidates; these files are not inside repo/ and are not proposed for upload"
+    "archive_location_status": "Sanitized copies are proposed at reviews/ISSUE-97-continuity/ in PR #97; original review records remain local-only."
   },
   "limits": [
     "No raw source evidence or video materials were re-reviewed in this staging operation.",
@@ -390,16 +390,26 @@
     "Continuity overview README has not been supplied. Both navigation candidate links therefore target a pending repository-relative file."
   ],
   "not_performed": [
-    "No GitHub write, Issue/PR creation, comment, publication, merge, or repository commit.",
-    "No new analysis, research, article review, or source-body reread.",
-    "No absolute local paths, credentials, account identifiers, or local-only source body locations are part of this manifest."
+    "No raw source evidence or video materials were re-reviewed in this publication correction.",
+    "No new analysis or external research was performed.",
+    "No GitHub comment, independent approval, or merge was performed."
   ],
   "manifest_path": "research/continuity/20261026/sources.json",
   "issue": {
-    "number": 97,
-    "url": "https://github.com/mythpan1/pathwise-research/issues/97",
-    "title": "Continuity package 2026-10-26",
-    "state": "open"
+    "original_issue_converted_to_pull_request": {
+      "number": 97,
+      "url": "https://github.com/mythpan1/pathwise-research/pull/97",
+      "title": "Continuity package 2026-10-26",
+      "state": "open",
+      "draft": true
+    },
+    "tracking_issue": {
+      "number": 98,
+      "url": "https://github.com/mythpan1/pathwise-research/issues/98",
+      "title": "Track continuity package publication review",
+      "state": "open"
+    },
+    "history": "The initial Issue #97 was converted into PR #97 by the PR creation call. Issue #98 is the separate tracking issue; review archive directory naming retains its original task identity."
   },
   "base": {
     "branch": "main",
@@ -621,10 +631,12 @@
   },
   "publication": {
     "branch": "publication/continuity-20261026-issue-97",
-    "issue_number": 97,
     "base_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
-    "pr_state": "not_created",
-    "independent_review": "pending exact PR head"
+    "pr_state": "draft",
+    "independent_review": "pending exact PR head",
+    "original_issue_number_converted_to_pr": 97,
+    "tracking_issue_number": 98,
+    "pull_request_number": 97
   },
   "link_check": {
     "base_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
