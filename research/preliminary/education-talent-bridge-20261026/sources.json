@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0",
+  "title": "教育人才政策桥梁来源与主张映射",
+  "analysis_date": "2026-10-26",
+  "geography": "中国",
+  "purpose": "服务2026—2036职业观察和当前培养选择；D1有效规划观察止2035，2036另核",
+  "author_coverage": {
+    "read": "固定交接的来源身份索引、摘要、九条短摘、覆盖说明及既有桥梁节选",
+    "direct_official_page_access": false,
+    "full_clean_policy_text_read": false,
+    "html_obtained": false,
+    "unabridged_original_obtained": false,
+    "school_or_employer_implementation_checked": false,
+    "upstream_claim": "上游声明已读两份工具返回的公开清洁正文；未保存完整清洁文本或HTML，只留必要片段、短摘、摘要及章条。",
+    "boundary": "上述上游读取不是本作者亲读；本作者的字节核对仅确认固定交接包一致，不证明原网页保真。"
+  },
+  "documents": [
+    {
+      "id": "D1",
+      "title": "教育强国建设规划纲要（2024—2035年）",
+      "issuing_authorities": [
+        "中共中央",
+        "国务院"
+      ],
+      "official_host": "中国政府网",
+      "page_source": "新华社",
+      "official_url": "https://www.gov.cn/zhengce/202501/content_6999913.htm",
+      "document_number": null,
+      "document_number_note": "所交公开文本未见文号",
+      "document_date": null,
+      "document_date_note": "所交公开文本未列独立成文日；2024—2035为规划期",
+      "page_published_at": "2025-01-19 18:50",
+      "page_time_zone": "未单独核验",
+      "publication_form": "官方公开的主要内容正文，一至十一部分、（一）至（三十八）；不能等同未删节原件或HTML",
+      "period": "2024—2035；目标节点2027与2035；2036滚动观察",
+      "population": "各级各类教育；本分析限高校、职业学校及培养衔接",
+      "chapter_map": {
+        "F2": "四（十一）、（十三）、（十四）",
+        "F3": "五（十九）、六（二十）、（二十二）",
+        "F4": "八（二十八）、（二十九）",
+        "F7": "九（三十二）",
+        "F8": "三（七）、（九）",
+        "F9": "十一"
+      },
+      "upstream_access_date": "2026-10-26",
+      "author_actual_coverage": "交接摘要、相应短摘和章条；未访问官方网页或阅读完整正文",
+      "scope_limit": "职教专属工具不直接推广为所有普通高校的同等安排；政策安排不证明实际资源或效果"
+    },
+    {
+      "id": "D2",
+      "title": "关于加快构建普通高等学校毕业生高质量就业服务体系的意见",
+      "issuing_authorities": [
+        "中共中央办公厅",
+        "国务院办公厅"
+      ],
+      "official_host": "教育部政府门户网站",
+      "page_source": "新华社",
+      "official_url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html",
+      "document_number": null,
+      "document_number_note": "所交公开文本未见文号",
+      "document_date": "2024-11-03",
+      "document_date_basis": "正文标题下日期",
+      "page_published_at": "2025-04-08",
+      "page_published_basis": "上游记录的页末明示日期；不能以成文日替代",
+      "publication_form": "官方站承载意见正文，一至七部分、（一）至（二十）",
+      "period": "经过3至5年努力的体系目标；不以成文日或网页日期擅定起止",
+      "population": "普通高等学校毕业生；在校与离校后服务职责分开",
+      "chapter_map": {
+        "F1": "二（一）至（三）",
+        "F5": "三（六）",
+        "F6": "四（八）、七（十五）、（十六）、（十九）",
+        "F7": "六（十三）、（十四）",
+        "F9": "七（二十）"
+      },
+      "upstream_access_date": "2026-10-26",
+      "author_actual_coverage": "交接摘要、相应短摘和章条；未访问官方网页或阅读完整正文",
+      "scope_limit": "推动、鼓励、支持、按规定保留；就业实习和就业见习分开；不推出法定普遍义务、统一资格或录用承诺"
+    }
+  ],
+  "context": [
+    {
+      "id": "C1",
+      "type": "adopted_analysis_context_only",
+      "title": "已采用十五五政策总图的教育人才桥梁及A1—A3标题",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5c813f57f62ab875b61b9765755ded57cef85b3f/research/preliminary/fiveyear-policy-map-20261026/analysis.md",
+      "revision": "5c813f57f62ab875b61b9765755ded57cef85b3f",
+      "source_locator": "原文48—60行及A1、A2、A3标题",
+      "author_actual_coverage": "只读指定派生节选",
+      "use": "界定共用桥梁、任务与培养多对多及供给竞争；不作为D1/D2政策事实的独立证据"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "type": "policy_text_fact",
+      "statement": "需求研判、专业论证及就业评估衔接专业资源、招生和培养方案。",
+      "locations": [
+        {
+          "document_id": "D2",
+          "section": "二（一）至（三）",
+          "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "不表示专业、招生或培养已改变。"
+    },
+    {
+      "id": "F2",
+      "type": "policy_text_fact",
+      "statement": "分类办学资源支持、学科动态调整及课程、实践项目和师资安排。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "四（十一）、（十三）、（十四）",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "未取得逐校资源数量、可用日期或容量。"
+    },
+    {
+      "id": "F3",
+      "type": "policy_text_fact",
+      "statement": "按需求组织项目、地方统筹职教、鼓励企业参与办学和校企合作、实习实训基地安排。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "五（十九）、六（二十）、（二十二）",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "鼓励和支持保留条件；项目与基地不是学生参与证明。"
+    },
+    {
+      "id": "F4",
+      "type": "policy_text_fact",
+      "statement": "教师企业实践、双师建设及按规定互聘兼职提供指导入口。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "八（二十八）、（二十九）",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "互聘须按规定；未核实际教师与指导供给。"
+    },
+    {
+      "id": "F5",
+      "type": "policy_text_fact",
+      "statement": "推动大学生寒暑假至少一次就业实习，有责任保险及税优鼓励机会安排；就业见习岗位另按规定补贴。",
+      "locations": [
+        {
+          "document_id": "D2",
+          "section": "三（六）",
+          "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "推动不是已普遍落实或新增法定义务；实习与见习不混同；无统一金额和资格推断。"
+    },
+    {
+      "id": "F6",
+      "type": "policy_text_fact",
+      "statement": "校企联合培养、就业服务机构人员场地经费、指导教师与招聘公平分别有安排。",
+      "locations": [
+        {
+          "document_id": "D2",
+          "section": "四（八）、七（十五）、（十六）、（十九）",
+          "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "服务和公平安排不是录用承诺，也不豁免岗位相关条件。"
+    },
+    {
+      "id": "F7",
+      "type": "policy_text_fact",
+      "statement": "就业跟踪、需求和质量评价反馈招生、培养及教育学科评价。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "九（三十二）",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        },
+        {
+          "document_id": "D2",
+          "section": "六（十三）、（十四）",
+          "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "未核反馈是否引起实际调整。"
+    },
+    {
+      "id": "F8",
+      "type": "policy_text_fact",
+      "statement": "学龄人口监测、跨学段资源调配及支持有条件幼儿园招收2至3岁幼儿。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "三（七）、（九）",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "有条件及支持的限定保留；不能推出净招聘。"
+    },
+    {
+      "id": "F9",
+      "type": "policy_text_fact",
+      "statement": "D1由中央教育工作领导小组统筹、各级党委政府落实；D2由教育部牵头、地方党委政府和高校落实，人社部负责离校后指导服务。",
+      "locations": [
+        {
+          "document_id": "D1",
+          "section": "十一",
+          "url": "https://www.gov.cn/zhengce/202501/content_6999913.htm"
+        },
+        {
+          "document_id": "D2",
+          "section": "七（二十）",
+          "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202504/t20250408_1186543.html"
+        }
+      ],
+      "evidence_basis": "固定交接中的对应政策摘要、章条定位及短摘；本作者未亲读原网页。",
+      "limits": "组织分工是政策层；不证明逐校逐企责任执行。"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "P1",
+      "type": "condition",
+      "statement": "需求能分辨地区、具体任务与人才层次；培养资源在目标学生受训时可用。",
+      "basis": [
+        "F1",
+        "F2"
+      ],
+      "status": "未核实施；不是政策事实或统一法定条件"
+    },
+    {
+      "id": "P2",
+      "type": "condition",
+      "statement": "学生可参与真实任务，具备持续指导，保险、组织及适用支持实际兑现。",
+      "basis": [
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "status": "未核实施；按具体主体与对象限定"
+    },
+    {
+      "id": "P3",
+      "type": "condition",
+      "statement": "实际工作量支撑向新人开放的岗位；雇主可识别成果；学生满足适用资格及经验条件。",
+      "basis": [
+        "F6"
+      ],
+      "status": "未核岗位或当年资格；不编造统一认证、资格和录用保证"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "I0",
+      "type": "inference",
+      "basis": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F9",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "reason": "具体工具可改善信息、资源和组织约束；净岗位仍依赖实际工作量、雇主选择和竞争。",
+      "direction": "匹配与训练供给的条件改善有较具体机制支持；净就业增量支持较弱、方向未定",
+      "observed_effect": false
+    },
+    {
+      "id": "I1",
+      "type": "inference",
+      "basis": [
+        "F1",
+        "F2",
+        "P1"
+      ],
+      "reason": "需求论证连接招生与资源配置后，可把任务要求转成教学；已有资源复用可能快于新增专业建设，速度待核。",
+      "limits": "新增名称不等于能力；需求总量不等于应届需求"
+    },
+    {
+      "id": "I2",
+      "type": "inference",
+      "basis": [
+        "F3",
+        "F4",
+        "F5",
+        "P2"
+      ],
+      "reason": "任务、指导与保障共同改变学生参与和单位接收成本、风险约束。",
+      "limits": "没有实际学生角色、覆盖与成果，不能确认训练质量"
+    },
+    {
+      "id": "I3",
+      "type": "inference",
+      "basis": [
+        "F6",
+        "P3",
+        "C1"
+      ],
+      "reason": "服务与能力识别可以降低匹配障碍；岗位开放和合资格竞争仍决定就业结果。",
+      "limits": "能力评价至录用为分析连接，不是两文规定的统一认证；培养供给扩张可能加剧竞争"
+    },
+    {
+      "id": "I4",
+      "type": "inference",
+      "basis": [
+        "F7",
+        "F9",
+        "P1",
+        "P3"
+      ],
+      "reason": "反馈可定位训练不足或岗位不足，分别修订课程训练或招生出口；需同届同口径和后续周期比较。",
+      "limits": "总体就业比例不足以区分质量、匹配和竞争；未核反馈已执行"
+    },
+    {
+      "id": "I5",
+      "type": "inference",
+      "basis": [
+        "F3",
+        "F4",
+        "F5",
+        "F8",
+        "C1"
+      ],
+      "reason": "三项问题可共用需求至培养机制，按各自真实任务选证据；专业和任务多对多。",
+      "limits": "不构成A1—A3已发生的任务变化或专门就业承诺"
+    }
+  ],
+  "next_materials": [
+    {
+      "id": "A01",
+      "type": "proposed_evidence_selection",
+      "basis": [
+        "I1",
+        "P1"
+      ],
+      "target": "需求到可用资源",
+      "material": "同一专业调整需求论证与目标届培养方案、资源到位及可用容量安排",
+      "strengthen_if": "具体任务转成目标届可获得的训练；既有专业也可纳入路径比较",
+      "narrow_if": "只有热门名称、总量需求或远期承诺",
+      "executed": false
+    },
+    {
+      "id": "A02",
+      "type": "proposed_evidence_selection",
+      "basis": [
+        "I2",
+        "P2"
+      ],
+      "target": "资源到真实参与",
+      "material": "目标学生可参与的一个完整项目／实习样本，含角色、操作反馈、指导、成果和保险组织责任",
+      "strengthen_if": "学生实际操作、修正、被评价，且覆盖范围明确",
+      "narrow_if": "只有协议、名额、参观或少数团队成果；补贴对象不可混同",
+      "executed": false
+    },
+    {
+      "id": "A03",
+      "type": "proposed_evidence_selection",
+      "basis": [
+        "I3",
+        "I4",
+        "P3"
+      ],
+      "target": "评价到新人入口及培养反馈",
+      "material": "任务考核产物与入口要求对照，同届去向质量反馈及课程／招生修订记录",
+      "strengthen_if": "考核被雇主识别且岗位向新人开放",
+      "narrow_if": "只有证书、结课、总体就业率或经验岗位；供给扩张时重估竞争",
+      "executed": false
+    }
+  ],
+  "unknowns": [
+    "逐校资源、可用日期与目标学生覆盖",
+    "学生实际任务、指导、保险和适用支持兑现",
+    "岗位、当年资格、雇主评价与新人录用",
+    "招生扩张后的竞争与净就业结果",
+    "反馈是否实际改变招生培养"
+  ],
+  "publication_boundary": "公开候选仅含独立分析、必要摘要、官方及已采用上下文链接与来源边界；没有运行日志、原始回执、完整原文或院校成效证据。"
+}
