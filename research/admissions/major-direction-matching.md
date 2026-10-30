@@ -17,7 +17,7 @@
 3. 与[组内调剂情景](major-adjustment-position.md)结合，列出可能调入的专业及对每个方向的关联，综合考生对专业、培养方式和后果的接受程度，提出服从、换组或不服从的方案。不得以组内平均相关性替代逐专业判断。
 4. 与[专业目录](undergraduate-major-catalog.md)、[历史位次](historical-rank-planning.md)和职业情景按需组合：同一专业可对应多条职业入口，同一职业可由多个专业进入，并保留替代路径及改变判断的条件。
 
-[AI 学业与职业情景](ai-study-career-scenarios.md)、[集成电路学业与职业情景](integrated-circuit-career-scenarios.md)、[机器人学业与职业情景](robotics-career-scenarios.md)、[无人机与低空职业情景](unmanned-aviation-career-scenarios.md)和[储能与新能源职业情景](energy-storage-career-scenarios.md)提供从考生条件到约十年后职业入口的方向示例。
+[AI 学业与职业情景](ai-study-career-scenarios.md)、[集成电路学业与职业情景](integrated-circuit-career-scenarios.md)、[机器人学业与职业情景](robotics-career-scenarios.md)、[无人机与低空职业情景](unmanned-aviation-career-scenarios.md)、[储能与新能源职业情景](energy-storage-career-scenarios.md)和[数字媒体职业情景](digital-media-career-scenarios.md)提供从考生条件到约十年后职业入口的方向示例。
 
 ## 数据与维护
 
