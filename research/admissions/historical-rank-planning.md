@@ -87,7 +87,7 @@
 
 若缺关键数据，先用已知数据和明确假设给出可用的条件方案，并标记最能改变结果的缺口；真实资格硬约束未确认时不能当成已满足。新计划、规则或录取结果出现后，更新对应对象与相关方案，不覆盖历史预测版本。
 
-江苏数据字段、口径及原始资料示例见[物理类历史招生数据单元](jiangsu-physics-reference.md)和[历史类历史招生数据单元](jiangsu-history-reference.md)，按考生科类分别检索。
+江苏[一分一段换算单元](jiangsu-score-rank-tables.md)提供分数与同分位次区间方法。江苏数据字段、口径及原始资料示例见[物理类历史招生数据单元](jiangsu-physics-reference.md)和[历史类历史招生数据单元](jiangsu-history-reference.md)，按考生科类分别检索。
 
 ## 依据与范围
 
