@@ -14,4 +14,4 @@
 
 ## 研究与更新
 
-旧章将位次相对水位分成固定百分比并给出调剂概率和固定权重，可保留为候选研究模型；需要专业组内录取分布、同口径计划和真实调剂数据进行分年回测后校准，不直接转成通用概率。填报前用当年章程和招生计划更新组内专业，后续用实际录取数据回测。与[本科专业目录](undergraduate-major-catalog.md)、[历史位次规划](historical-rank-planning.md)和[位次购买力](rank-purchasing-power.md)组合检索。
+旧章将位次相对水位分成固定百分比并给出调剂概率和固定权重，可保留为候选研究模型；需要专业组内录取分布、同口径计划和真实调剂数据进行分年回测后校准，不直接转成通用概率。填报前用当年章程和招生计划更新组内专业，后续用实际录取数据回测。与[专业及职业方向匹配](major-direction-matching.md)、[本科专业目录](undergraduate-major-catalog.md)、[历史位次规划](historical-rank-planning.md)和[位次购买力](rank-purchasing-power.md)组合检索。
