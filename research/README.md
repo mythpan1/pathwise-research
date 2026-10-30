@@ -48,3 +48,5 @@
 [培养与职业连接](admissions/education-career-bridge.md)：通过可报志愿、培养路径和职业入口连接十年就业情景，并提供合成比较示范。
 
 [机器人与制造业 2036 就业情景](industry/robotics-2036-employment-scenarios.md)：结合已核政策、产业与人口事实和条件推导，连接培养和职业入口。
+
+[人口与教育资源调整的 2036 职业情景](industry/education-2036-employment-scenarios.md)：以已核人口、教育统计和政策为起点，分别推导学段、岗位及培养选择。
