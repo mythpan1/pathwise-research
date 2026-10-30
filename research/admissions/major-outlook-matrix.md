@@ -22,4 +22,6 @@
 
 旧章行业、政策、高校调整和 AI 四维，以及供需、培养投入和情景方法可供重建；固定专业星级、统一权重、未经验证的情景概率和分数段推荐不作为普遍规则。政策和数据既可产生方向判断，也需记录前提、反例与改判信号；避免只标“待核实”而不形成方案。
 
+同专业不同院校选择可进一步使用[跨校比较](cross-school-major-comparison.md)。
+
 按需读取[历史位次规划](historical-rank-planning.md)、[专业组决策](major-group-decision.md)、[专业就业基线](major-employment-comparison.md)、[专业方向映射](major-direction-matching.md)及相应行业情景，不一次加载全库。
