@@ -60,3 +60,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 研究组织与既有成果见[完整研究框架](research-framework.md)；执行和审核记录沿用[协作主流程](agent-workflow.md)，具体分工按用户最新指令执行。
 
 普通志愿位次比较的方法与合成示例见[历史位次推演工作单元](../research/admissions/historical-rank-planning.md)。
+
+选科匹配与招生渠道的执行方法见[选科与招生渠道路由](../research/admissions/subject-channel-routing.md)。

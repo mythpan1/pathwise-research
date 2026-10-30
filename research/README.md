@@ -42,3 +42,5 @@
 ## 高考志愿下端入口
 
 [历史位次推演普通志愿](admissions/historical-rank-planning.md)：按省份、科类与志愿单位比较可比历史数据，形成当年条件估计与冲稳保方案；具体数据和省年规则待按需接入。
+
+[选科与招生渠道路由](admissions/subject-channel-routing.md)：按省份、年份和院校专业要求匹配选科，分别比较普通志愿、强基与综合评价。
