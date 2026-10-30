@@ -46,3 +46,5 @@
 [选科与招生渠道路由](admissions/subject-channel-routing.md)：按省份、年份和院校专业要求匹配选科，分别比较普通志愿、强基与综合评价。
 
 [培养与职业连接](admissions/education-career-bridge.md)：通过可报志愿、培养路径和职业入口连接十年就业情景，并提供合成比较示范。
+
+[机器人与制造业 2036 就业情景](industry/robotics-2036-employment-scenarios.md)：结合已核政策、产业与人口事实和条件推导，连接培养和职业入口。
