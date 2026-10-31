@@ -125,3 +125,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 户籍、公共岗位与基层就业政策见[就业政策路径](employment-policy-pathways.md)。
 
 政策到招生与职业的应用步骤见[政策分析五步法](policy-analysis-workflow.md)。
+
+高校专业调整与招生职业判断见[高校调整信号](university-adjustment-signals.md)。
