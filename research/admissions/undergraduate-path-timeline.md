@@ -32,3 +32,5 @@
 科研、竞赛与组织活动的目标、时间及成果比较见[培养活动路径](research-activities-paths.md)。
 
 辅修、双学士项目和第二学士的制度及投入比较见[复合培养路径](minor-degree-pathways.md)。
+
+职业资格、技能证书与岗位条件比较见[证书路径规划](credential-path-planning.md)。
