@@ -119,3 +119,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 量子、6G 与边缘计算的条件路径见[下一代信息基础设施](next-infrastructure-careers.md)。
 
 教育改革、招生渠道和培养政策见[教育政策路径](education-policy-pathways.md)。
+
+政策对行业及职业的差异化传导见[产业政策差异](policy-industry-differences.md)。
