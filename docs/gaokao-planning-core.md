@@ -80,3 +80,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 提前批军队院校的资格、培养与职业入口见[军校路径](../research/admissions/military-academy-path.md)。
 
 公安院校的招生与招警入口见[公安院校路径](../research/admissions/police-academy-path.md)。
+
+特色院校的分专业招生与职业入口见[特色院校路径](../research/admissions/specialized-academies-path.md)。
