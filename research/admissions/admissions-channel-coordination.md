@@ -39,3 +39,5 @@
 假设某江苏物理类考生接受 A 校强基基础专业和 B 校综评专业，也愿意读普通批 C、D 组合；其估计位次接近 A 校可比入围边界，校测能力较强。若强基报名及校测安排与综评不冲突，可在规则允许下同时准备；出分前按期限确认愿意接受的 A 类综评学校顺序，出分后将实际位次与 B 校项目和 C、D 普通批候选比较。若 B 的专业与调剂结果整体优于 C、D，则按要求填 B 类；若 C、D 更符合目标，选择时不应假设被 B 录取后仍能选择 C、D。若强基已正式录取，则按适用规则不再参加后续录取。本例无真实院校、位次或概率。
 
 旧章的多渠道协同、分时决策和备选思路予以吸收；跨省统一批次顺序、固定分数段、未经校准的概率和统一降分不照搬。知识连接：[强基策略](strong-foundation-selection-strategy.md)、[江苏综评](jiangsu-comprehensive-evaluation.md)、[四省综评](four-province-comprehensive-evaluation.md)、[专业前景](major-outlook-matrix.md)。
+
+跨渠道资格、培养、成本及职业入口比较见[特殊招生渠道索引](special-channel-overview.md)。
