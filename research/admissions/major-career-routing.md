@@ -31,3 +31,5 @@
 计算机与软件职业路线见[软件职业路径与 AI 情景](software-career-pathways.md)。
 
 土木建筑的项目方向、培养与职业入口见[土木建筑职业路径](civil-engineering-careers.md)。
+
+机械制造与自动化职业入口见[机械职业路径](mechanical-automation-careers.md)。
