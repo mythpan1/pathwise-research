@@ -36,3 +36,5 @@
 职业资格、技能证书与岗位条件比较见[证书路径规划](credential-path-planning.md)。
 
 课程、升学及职业的外语训练和考试要求见[英语能力路径](english-development-pathways.md)。
+
+暑期与交流项目的课程、成本和备选比较见[交流项目决策](exchange-project-comparison.md)。
