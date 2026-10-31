@@ -21,3 +21,5 @@
 最终向考生列报院校专业前，核验省考试院及学校当年计划、选科与章程；薪资和招聘条件按实际求职年份复核。
 
 研究生实践安排与职业入口见[研究生实践路径](graduate-internship-pathways.md)。
+
+考公路径与读研成本比较见[研究生学历与公务员岗位选择](graduate-civil-service-choices.md)。
