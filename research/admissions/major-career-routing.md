@@ -99,3 +99,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 不确定性下仍需给出方案的步骤见[风险与情景决策](uncertainty-decision.md)。
 
 产业演变与职业入口连接见[行业周期判断](industry-lifecycle-career.md)。
+
+AI 对工作任务及高考路径影响见[AI 与职业变化](ai-work-transformation.md)。
