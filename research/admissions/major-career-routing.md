@@ -59,3 +59,5 @@
 药学、生物和器械的产业岗位见[药学与医疗器械职业路径](pharma-device-careers.md)。
 
 疾控、基层与研究方向见[公共卫生职业路径](public-health-careers.md)。
+
+护理本科与专科、考试注册及岗位比较见[护理职业路径](nursing-careers.md)。
