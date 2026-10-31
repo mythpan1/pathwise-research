@@ -25,3 +25,5 @@
 同专业不同院校选择可进一步使用[跨校比较](cross-school-major-comparison.md)。
 
 按需读取[历史位次规划](historical-rank-planning.md)、[专业组决策](major-group-decision.md)、[专业就业基线](major-employment-comparison.md)、[专业方向映射](major-direction-matching.md)及相应行业情景，不一次加载全库。
+
+职业任务反推专业、薪资口径与情景校准见[就业反推方法](employment-backward-inference.md)。
