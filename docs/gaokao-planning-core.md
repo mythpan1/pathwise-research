@@ -72,3 +72,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 选科匹配与招生渠道的执行方法见[选科与招生渠道路由](../research/admissions/subject-channel-routing.md)。
 
 多路径组合示范见[培养与职业连接](../research/admissions/education-career-bridge.md)。
+
+综合评价的计分机制及渠道比较见[综评机制与选择](../research/admissions/comprehensive-evaluation-mechanism.md)。
