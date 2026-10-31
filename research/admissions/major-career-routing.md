@@ -83,3 +83,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 生物制造研发、发酵与质量路径见[生物制造职业路径](biomanufacturing-careers.md)。
 
 智能机器人与具身系统入口见[机器人职业路径](robotics-careers.md)。
+
+低空经济研发、作业与准入见[无人机职业路径](low-altitude-careers.md)。
