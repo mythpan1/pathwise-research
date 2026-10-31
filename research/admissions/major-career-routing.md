@@ -75,3 +75,5 @@
 学前及融合教育方向见[学前与特殊教育职业路径](preschool-special-education-careers.md)。
 
 新能源汽车产业、岗位及 2037 情景见[新能源汽车职业路径](nev-industry-careers.md)。
+
+半导体设计、制造、设备与测试入口见[半导体职业路径](semiconductor-careers.md)。
