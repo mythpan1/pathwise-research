@@ -117,3 +117,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 人口老龄化、政策与职业入口见[老龄化职业需求](aging-economy-careers.md)。
 
 量子、6G 与边缘计算的条件路径见[下一代信息基础设施](next-infrastructure-careers.md)。
+
+教育改革、招生渠道和培养政策见[教育政策路径](education-policy-pathways.md)。
