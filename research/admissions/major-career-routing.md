@@ -91,3 +91,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 视觉、交互与数字内容入口见[数字创意职业路径](digital-creative-careers.md)。
 
 跨专业和跨行业迁移方法见[职业迁移路径](cross-major-career-pathways.md)。
+
+考生条件、职业情景及方案比较见[高考职业决策清单](career-decision-checklist.md)。
