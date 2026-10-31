@@ -30,3 +30,5 @@
 实习与替代实践的培养、岗位入口及成本比较见[实习与职业衔接](internship-career-bridges.md)。
 
 科研、竞赛与组织活动的目标、时间及成果比较见[培养活动路径](research-activities-paths.md)。
+
+辅修、双学士项目和第二学士的制度及投入比较见[复合培养路径](minor-degree-pathways.md)。
