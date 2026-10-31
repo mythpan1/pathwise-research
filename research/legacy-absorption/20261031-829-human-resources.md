@@ -1,0 +1,5 @@
+# 旧库 8.2.9 人力资源管理职业
+
+基线 66125cad2be3d4954fb5757a81877c1135585f55；主会话完整审读旧章 410 行，SHA-256 d40f632ac6e72193eff1ea6db5348896e74009ea76d4e9b9e7ec0f629104c63a；旧文及原来源、过程记录保留。
+
+吸收招聘、薪酬、员工关系、HR 数据及跨背景进入的路径，用最高法解释和本科岗位校准；舍弃样本不明的统一薪资、AI 替代率、证书溢价和家庭照护偏题。旧文把劳务派遣注册资本二百万元写成 2025 年修法，实际可追溯至[2012 年修改决定](https://www.cqtn.gov.cn/bm/qrlsbj/zwgk_25192/zfxxgkml_bm/zcwj_bm/qtwj_bm/202103/t20210301_8950240.html)；把 21.75 月计薪日写成 2025 新规亦与[早年官方说明](https://hrss.qingdao.gov.cn/zxzx_47/gzdt_47/202206/t20220613_6128495.shtml)不符。新增 research/admissions/human-resources-careers.md 与 2037 条件路径；独审、检查、合并后再读下一章。
