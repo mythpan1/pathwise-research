@@ -63,3 +63,5 @@
 护理本科与专科、考试注册及岗位比较见[护理职业路径](nursing-careers.md)。
 
 口腔本科、专科与资格路径见[口腔医学职业路径](dentistry-careers.md)。
+
+公务员、选调与公共服务职位比较见[公务员与选调路径](civil-service-careers.md)。
