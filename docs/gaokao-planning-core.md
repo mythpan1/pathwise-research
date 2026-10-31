@@ -94,3 +94,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 合作大学的招生、培养与费用对照见[合作大学路径](../research/admissions/cooperative-universities.md)。
 
 计划内合作项目的位次、证书与转专业比较见[合作项目路径](../research/admissions/cooperative-programs.md)。
+
+港澳、合作办学和普通本科的条件比较见[国际路径比较](../research/admissions/international-path-comparison.md)。
