@@ -26,3 +26,5 @@
 旧章的机制分类、跨渠道选择与面试准备方向予以吸收；具体学校清单、省际分布、校测及材料细节留待后续章节逐一处理；[分省院校入口](comprehensive-evaluation-regional-map.md)提供江苏、浙江和上海的官方入口及候选筛选方法。
 
 校测诊断和准备方法见[综评校测准备](comprehensive-evaluation-exam-preparation.md)。
+
+报名材料和确认时间见[综评申请与时间线](comprehensive-evaluation-application.md)。
