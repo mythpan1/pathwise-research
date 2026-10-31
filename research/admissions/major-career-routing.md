@@ -65,3 +65,5 @@
 口腔本科、专科与资格路径见[口腔医学职业路径](dentistry-careers.md)。
 
 公务员、选调与公共服务职位比较见[公务员与选调路径](civil-service-careers.md)。
+
+人口变化、师范培养及招聘见[教师职业路径](teacher-careers.md)。
