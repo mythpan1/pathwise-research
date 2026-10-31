@@ -100,3 +100,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 农村与脱贫地区专项资格、批次与位次比较见[专项招生路径](../research/admissions/rural-special-admissions.md)。
 
 民族班与预科的培养、投档口径与条件比较见[民族班及预科路径](../research/admissions/minority-preparatory-paths.md)。
+
+少年班、保送和普通高考衔接见[少年班与保送路径](../research/admissions/youth-recommendation-paths.md)。
