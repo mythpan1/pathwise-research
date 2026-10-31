@@ -5,7 +5,7 @@
 ## 江苏相关实例：2026，不是2027承诺
 
 - **西交利物浦大学**：[校方招生页](https://www.xjtlu.edu.cn/zh/admissions/domestic/how-to-apply)列普通高考及江苏、广东综合评价两条方式；毕业符合要求可取得西浦毕业证和学位及利物浦大学学位。[江苏2026综评简章](https://www.xjtlu.edu.cn/wp-content/uploads/2026/04/bf2775ec98e5c8b14e47a37c5218f575.pdf)采用高考65%、校测35%，不能沿用旧章60/40。学校[2026费用页](https://www.xjtlu.edu.cn/zh/admissions/domestic/fees-and-scholarship)列新生每学年9.9万元；选择2+2赴英者后两年按出国时的外方收费，不可用四年国内费用替代。
-- **昆山杜克大学**：[2026招生简章](https://admissions.dukekunshan.edu.cn/wp-content/uploads/2025/11/dukekunshan-undergrad-admissions-guide-mainland-2026.pdf)采用综合评价，具体计分和学考口径以适用省份规则及学校简章为准。[2026级学费调整公告](https://admissions.dukekunshan.edu.cn/undergrad-tuition-adjustment-2026/)列每学年21万元，旧章17—19万元不能作为该届最终费用。助学金、奖学金和续领条件分别核对。
+- **昆山杜克大学**：[2026招生简章](https://admissions.dukekunshan.edu.cn/wp-content/uploads/2025/11/dukekunshan-undergrad-admissions-guide-mainland-2026.pdf)采用综合评价，高考60%、学校自主综合评估40%；高考成绩按简章规定转换，不是简单原始分比例换算。具体口径以适用省份及学校简章为准。[2026级学费调整公告](https://admissions.dukekunshan.edu.cn/undergrad-tuition-adjustment-2026/)列每学年21万元，旧章17—19万元不能作为该届最终费用。助学金、奖学金和续领条件分别核对。
 - **上海纽约大学**：[2026中国大陆招生简章](https://shanghai.nyu.edu/node/2747)规定申请与校园日等程序；2026入学本科生前两年每年20万元、后两年每年23万元。不能把海外或港澳台申请要求混入内地高考渠道，亦不能将同校跨省分数直接比较。
 
 费用只列学费，生活、住宿、境外交流、汇率、学费变化与奖助另算；各校证书须满足实际毕业及授予条件。2027简章及江苏计划公布后逐校更新，2026事例不锁定候选。
@@ -18,4 +18,4 @@
 
 ## 旧章取舍
 
-吸收逐校比较渠道、专业、费用、证书及就业出口的方法；不照搬C9/985/211固定分层、跨省分数、无法核实的统一就业和深造结论。校方[2025届西浦深造数据页](https://www.xjtlu.edu.cn/zh/admissions/domestic/)明确QS百分比的分母为选择出国出境攻读硕士的国内统招本科毕业生，不能当作全体毕业生比例或录取概率。旧章其他学校和各指标需按需求回到原始来源核验，不为凑齐数量制造排名。连接[合作办学分类](cooperative-education-classification.md)、[招生渠道协同](admissions-channel-coordination.md)和[历史位次](historical-rank-planning.md)。
+吸收逐校比较渠道、专业、费用、证书及就业出口的方法；不照搬C9/985/211固定分层、跨省分数、无法核实的统一就业和深造结论。校方[2025届就业质量报告](https://www.xjtlu.edu.cn/wp-content/uploads/2026/04/69e9d64f22e59831b438a568d71a46c1.pdf)按综合QS、THE和U.S. News排名口径公布前10/50/100比例，分母为选择出国出境攻读硕士的国内统招本科毕业生，不能当作全体毕业生比例或录取概率。旧章其他学校和各指标需按需求回到原始来源核验，不为凑齐数量制造排名。连接[合作办学分类](cooperative-education-classification.md)、[招生渠道协同](admissions-channel-coordination.md)和[历史位次](historical-rank-planning.md)。
