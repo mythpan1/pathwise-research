@@ -40,3 +40,5 @@
 暑期与交流项目的课程、成本和备选比较见[交流项目决策](exchange-project-comparison.md)。
 
 本科就业与继续深造的成本、岗位入口和求职安排见[本科直接就业路径](direct-employment-pathways.md)。
+
+硕士研考规模、口径和就业对照见[硕士升学数据与决策](postgraduate-data-decisions.md)。
