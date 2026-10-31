@@ -74,3 +74,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 多路径组合示范见[培养与职业连接](../research/admissions/education-career-bridge.md)。
 
 综合评价的计分机制及渠道比较见[综评机制与选择](../research/admissions/comprehensive-evaluation-mechanism.md)。
+
+强基、综评与普通批的时序与协同选择见[多渠道并行策略](../research/admissions/admissions-channel-coordination.md)。
