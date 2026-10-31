@@ -77,3 +77,5 @@
 新能源汽车产业、岗位及 2037 情景见[新能源汽车职业路径](nev-industry-careers.md)。
 
 半导体设计、制造、设备与测试入口见[半导体职业路径](semiconductor-careers.md)。
+
+AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.md)。
