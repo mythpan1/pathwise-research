@@ -11,7 +11,7 @@
 
 ## 政策与岗位事实
 
-[工信部等七部门 2024 年意见](https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2024/art_ad15b0f08a714fd8888c0e31468b8c54.html)将生物制造列为未来制造布局方向；[八部门 2024 年指导意见](https://www.miit.gov.cn/threestrategy/zcgh/zcfg/art/2024/art_3a99177675ce4aff97e5d320ef5e2a75.html)提出核心菌种、酶制剂、分离纯化及食品、医药和化工等应用。政策反映发展方向，不直接给出岗位规模或商业化成功率。
+[工信部等七部门 2024 年意见](https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2024/art_ad15b0f08a714fd8888c0e31468b8c54.html)将生物制造列为未来制造布局方向；[八部门 2023 年指导意见](https://www.miit.gov.cn/threestrategy/zcgh/zcfg/art/2024/art_3a99177675ce4aff97e5d320ef5e2a75.html)提出核心菌种、酶制剂、分离纯化及食品、医药和化工等应用。政策反映发展方向，不直接给出岗位规模或商业化成功率。
 
 [合肥和晨招聘简章](https://www.chu.edu.cn/_upload/article/files/c8/53/54a68c04495197e8954bf0b15228/5b8f0edd-9fec-4f71-af61-ce0748bbe9d3.pdf)列发酵技术员本科及以上，任务包括发酵中试、菌种制备和操作规程，专业包括生物工程、微生物及发酵工程等；同简章也列纯化与 QC 岗位。[浙江大学就业网 2026 年发布的元素驱动分子生物/发酵研发实习](https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=53CDBE50068BE9E5E0653A68DD0E9B18)面向 2027 届硕博在读，任务包括菌株构建、发酵与数据分析。这是不同岗位和用工形式的实例，不是全行业学历分层规则。
 
