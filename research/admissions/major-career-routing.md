@@ -69,3 +69,5 @@
 人口变化、师范培养及招聘见[教师职业路径](teacher-careers.md)。
 
 科研助理、技术支持与研究岗位见[科研院所职业路径](research-institute-careers.md)。
+
+考公资格、择岗与备选决策见[考公决策方法](civil-service-decision.md)。
