@@ -43,3 +43,5 @@
 金融、经济和跨专业金融科技入口见[金融职业路径](finance-career-pathways.md)。
 
 中文新闻传媒的采编、传播及备选方向见[中文新闻传媒职业路径](news-media-careers.md)。
+
+公共管理与社会学的公共岗位和研究技能迁移见[公共管理与社会学职业路径](public-sociology-careers.md)。
