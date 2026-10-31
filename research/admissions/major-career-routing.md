@@ -131,3 +131,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 专业预警、停招与报考判断见[专业预警决策](program-warning-decisions.md)。
 
 学科评估与双一流的报考应用见[学科建设信号](discipline-evaluation-decisions.md)。
+
+高校调整信号的筛选和方案推演见[信号使用流程](university-signal-use.md)。
