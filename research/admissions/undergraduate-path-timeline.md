@@ -34,3 +34,5 @@
 辅修、双学士项目和第二学士的制度及投入比较见[复合培养路径](minor-degree-pathways.md)。
 
 职业资格、技能证书与岗位条件比较见[证书路径规划](credential-path-planning.md)。
+
+课程、升学及职业的外语训练和考试要求见[英语能力路径](english-development-pathways.md)。
