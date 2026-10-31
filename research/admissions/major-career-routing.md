@@ -133,3 +133,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 学科评估与双一流的报考应用见[学科建设信号](discipline-evaluation-decisions.md)。
 
 高校调整信号的筛选和方案推演见[信号使用流程](university-signal-use.md)。
+
+江苏工科院校学科示例与选校方法见[工科学科速查](engineering-discipline-reference.md)。
