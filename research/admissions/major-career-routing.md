@@ -55,3 +55,5 @@
 招聘、员工关系与组织数据方向见[人力资源职业路径](human-resources-careers.md)。
 
 临床医学本科、住培与岗位路径见[临床医学职业路径](clinical-medicine-careers.md)。
+
+药学、生物和器械的产业岗位见[药学与医疗器械职业路径](pharma-device-careers.md)。
