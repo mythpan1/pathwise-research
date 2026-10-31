@@ -93,3 +93,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 跨专业和跨行业迁移方法见[职业迁移路径](cross-major-career-pathways.md)。
 
 考生条件、职业情景及方案比较见[高考职业决策清单](career-decision-checklist.md)。
+
+专业与行业双链检验方法见[双链验证操作流](major-industry-validation.md)。
