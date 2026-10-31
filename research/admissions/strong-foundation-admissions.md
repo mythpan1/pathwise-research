@@ -14,7 +14,7 @@
 4. 假设某 2027 年江苏考生的物理类选科符合 A 校强基专业条件，A 校采用以高考成绩为基础的入围方式，历史入围位次接近其估计位次，考生接受该基础专业及培养路线，并已按 A 校当年时序完成报名与必要确认：可将 A 列为条件性强基候选，同时按历史位次准备普通批冲稳保。若按当年入围规则及官方结果未入围，则按适用规则继续普通批；若入围且已按时完成必要确认，则依据高校校测和计分规则继续。若拟改变报考意愿，须在学校允许的节点按简章处理，不假设出分后仍可退出或补确认。该例不代表真实学校或保证录取。
 5. 连接[专业方向](major-direction-matching.md)、[专业前景矩阵](major-outlook-matrix.md)与[历史位次规划](historical-rank-planning.md)，比较基础学科课程、继续深造、研究或产业岗位入口，结合政策、产业和人口情景推演职业初期，而非仅因院校名气报考。
 
-[强基试点院校筛选](strong-foundation-school-selection.md)提供教育部名单、分校分省比较与候选选择方法；[强基培养与职业路径](strong-foundation-training-pathways.md)细化本科专业、转段与职业入口。
+[强基入围方式与策略](strong-foundation-entry-modes.md)比较分阶段资格、加权和前置校测；[强基试点院校筛选](strong-foundation-school-selection.md)提供教育部名单、分校分省比较与候选选择方法；[强基培养与职业路径](strong-foundation-training-pathways.md)细化本科专业、转段与职业入口。
 
 ## 旧章取舍与更新
 
