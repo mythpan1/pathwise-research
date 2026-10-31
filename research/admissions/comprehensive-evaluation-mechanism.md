@@ -24,3 +24,5 @@
 4. 不用未校准的全国统一降分幅度、录取率或“确认必锁档”替代具体判断。结合[历史位次规划](historical-rank-planning.md)、[专业前景矩阵](major-outlook-matrix.md)及相关培养路径，形成有理由的主选、备选和改判条件。
 
 旧章的机制分类、跨渠道选择与面试准备方向予以吸收；具体学校清单、省际分布、校测及材料细节留待后续章节逐一处理；[分省院校入口](comprehensive-evaluation-regional-map.md)提供江苏、浙江和上海的官方入口及候选筛选方法。
+
+校测诊断和准备方法见[综评校测准备](comprehensive-evaluation-exam-preparation.md)。
