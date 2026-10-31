@@ -84,3 +84,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 特色院校的分专业招生与职业入口见[特色院校路径](../research/admissions/specialized-academies-path.md)。
 
 公费师范、定向医学与农科的培养和履约比较见[公费定向路径](../research/admissions/publicly-funded-paths.md)。
+
+军事及民航招飞的招生、培养与职业入口见[招飞路径](../research/admissions/flight-training-paths.md)。
