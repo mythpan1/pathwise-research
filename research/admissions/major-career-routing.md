@@ -109,3 +109,5 @@ AI 对工作任务及高考路径影响见[AI 与职业变化](ai-work-transform
 能源建设、制造与运行的情景见[能源转型职业变化](energy-transition-workforce.md)。
 
 制造与人形机器人的条件情景见[机器人产业与职业入口](humanoid-manufacturing-careers.md)。
+
+AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工作](ai-professional-work.md)。
