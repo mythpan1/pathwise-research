@@ -37,3 +37,5 @@
 电网、发电与设备方向见[电气能源职业路径](electrical-energy-careers.md)。
 
 材料与化工的工艺、研发和安全路径见[材料化工职业选择](materials-chemical-careers.md)。
+
+理学专业的工程、数据、材料、生物和地理信息入口见[理学职业路径](science-major-careers.md)。
