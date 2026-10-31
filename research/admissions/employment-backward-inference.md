@@ -25,3 +25,5 @@
 工科八类岗位、培养及备选见[工科职业路径](engineering-career-pathways.md)。
 
 理科与医科六类培养和职业入口见[理医职业路径](science-health-career-pathways.md)。
+
+法学与财会培养、证书及职业入口见[法学财会职业路径](law-accounting-career-pathways.md)。
