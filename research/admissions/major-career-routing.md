@@ -71,3 +71,5 @@
 科研助理、技术支持与研究岗位见[科研院所职业路径](research-institute-careers.md)。
 
 考公资格、择岗与备选决策见[考公决策方法](civil-service-decision.md)。
+
+学前及融合教育方向见[学前与特殊教育职业路径](preschool-special-education-careers.md)。
