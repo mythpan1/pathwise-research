@@ -4,7 +4,7 @@
 
 本科口腔医学、专科口腔医学和口腔医学技术不是同一专业。[教育部高职专科专业简介](https://www.moe.gov.cn/s78/A07/zcs_ztzl/2017_zt06/17zt06_bznr/bznr_zdzyxxzyml/gaozhizhuan/yiyao/202209/P020220905517490293385.pdf)将专科口腔医学列为 520102K，面向口腔助理医师等职业；[教育部目录](https://www.moe.gov.cn/s78/A07/zcs_ztzl/2017_zt06/17zt06_bznr/bznr_zyjyzyjxbz/gdzyjy_zk/zk_yywsdl/yywsdl_yxjsl/)另列口腔医学技术。不能把专科口腔医学直接写成口腔医学技术，也不能仅凭专业名称推定已经取得医师执业资格。
 
-[武汉市医师资格说明](https://www.wuhan.gov.cn/ztzl/ztfw/yszyzc/index.shtml)列有相关医学本科学历和专科学历的不同报考路径：专科学历人员取得执业助理医师执业证书后，符合条件且在医疗卫生机构执业满两年可报执业医师。报名、实践和注册须按当年规则与个人学历逐项核；口腔医学技术等医学技术类学历的医师资格适用问题另依[报名资格规定](https://www.nhc.gov.cn/bgt/2014deq/201407/2cc71d55b97245568a5c4eac323ccb5c/files/1745204274604_25430.pdf)核验。
+[武汉市医师资格说明](https://www.wuhan.gov.cn/ztzl/ztfw/yszyzc/index.shtml)列有相关医学本科学历和专科学历的不同报考路径：专科学历人员取得执业助理医师执业证书后，符合条件且在医疗卫生机构执业满两年可报执业医师。报名、实践和注册须按当年规则与个人学历逐项核；[2014 年报名资格规定](https://www.nhc.gov.cn/bgt/2014deq/201407/2cc71d55b97245568a5c4eac323ccb5c/files/1745204274604_25430.pdf)将医学技术类等医学相关专业学历列为不能作为报考医师资格的学历依据；具体以当年适用规定核验。
 
 ## 支付政策与岗位
 
