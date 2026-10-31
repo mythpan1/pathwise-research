@@ -45,3 +45,5 @@
 中文新闻传媒的采编、传播及备选方向见[中文新闻传媒职业路径](news-media-careers.md)。
 
 公共管理与社会学的公共岗位和研究技能迁移见[公共管理与社会学职业路径](public-sociology-careers.md)。
+
+外语、翻译、外贸和本地化入口见[外语与翻译职业路径](foreign-language-careers.md)。
