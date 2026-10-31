@@ -12,10 +12,10 @@
 ## 按需组合入口
 
 - **强基与综合评价**：核对校测、选科、专业、综合分公式与入围条件；普通批用可比历史位次另行准备，不把不同综合分与裸分直接相减称作统一降分。[强基策略](strong-foundation-selection-strategy.md)、[江苏综评](jiangsu-comprehensive-evaluation.md)、[四省综评](four-province-comprehensive-evaluation.md)。
-- **提前批、军警、招飞及定向培养**：检查具体招生类别、体检政考、培训、履约与退出条件；军校、公安院校、民航及军队招飞不能套一套身体标准或就业保证。比较其培养和职业入口与普通批备选。[提前批协同](admissions-channel-coordination.md#本科提前批与普通批协同江苏2026示例)。
+- **提前批、军警、招飞及定向培养**：检查具体招生类别、体检政考、培训、履约与退出条件；军校、公安院校、民航及军队招飞不能套一套身体标准或就业保证。比较其培养和职业入口与普通批备选。[提前批协同](admissions-channel-coordination.md#本科提前批与普通批协同江苏2026示例)、[军校](military-academy-path.md)、[公安院校](police-academy-path.md)、[招飞](flight-training-paths.md)、[公费师范及医学定向](publicly-funded-paths.md)。民间所谓“五大官校”并非统一招生类别，见[特色院校](specialized-academies-path.md)。
 - **专项招生、民族班及预科**：国家、地方、高校专项的适用区域、户籍学籍和省份实施细则分别核验；民族班与预科区分招生资格、专业和学制，不能把统一降分或就业安排视为全国规则。[专项招生](rural-special-admissions.md)、[民族班及预科](minority-preparatory-paths.md)。资格判断由主管机构依规则办理，不依据个人敏感信息自行决定教育录取结果。
 - **少年班与保送**：高中年级、年龄和项目规则差异较大，很多低年级项目不适用于当前高三；保送类别、学校考核及公示需逐项核对。若资格不符或窗口已过，转向普通高考等实际可用渠道。[少年班与保送](youth-recommendation-paths.md)。
-- **港澳与中外合作**：核对目标校招生方式、内地志愿和确认时间的关系、专业语言、学位及全部费用；按项目而不是统一价格或家庭收入门槛比较。分别保留可承担且愿意接受的普通批或其他项目作为备选。
+- **港澳与中外合作**：核对目标校招生方式、内地志愿和确认时间的关系、专业语言、学位及全部费用；按项目而不是统一价格或家庭收入门槛比较。分别保留可承担且愿意接受的普通批或其他项目作为备选。[港澳](hong-kong-macau-admissions.md)、[合作办学分类](cooperative-education-classification.md)、[合作大学](cooperative-universities.md)、[合作项目](cooperative-programs.md)、[国际路径比较](international-path-comparison.md)。
 
 ## 合成决策例子
 
