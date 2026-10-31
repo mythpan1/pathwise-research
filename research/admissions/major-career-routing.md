@@ -95,3 +95,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 考生条件、职业情景及方案比较见[高考职业决策清单](career-decision-checklist.md)。
 
 专业与行业双链检验方法见[双链验证操作流](major-industry-validation.md)。
+
+不确定性下仍需给出方案的步骤见[风险与情景决策](uncertainty-decision.md)。
