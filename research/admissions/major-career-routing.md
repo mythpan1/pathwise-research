@@ -49,3 +49,5 @@
 外语、翻译、外贸和本地化入口见[外语与翻译职业路径](foreign-language-careers.md)。
 
 品牌、渠道和数字运营见[市场营销职业路径](marketing-careers.md)。
+
+心理教育、研究与服务入口见[心理学职业路径](psychology-careers.md)。
