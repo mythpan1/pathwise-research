@@ -41,3 +41,5 @@
 理学专业的工程、数据、材料、生物和地理信息入口见[理学职业路径](science-major-careers.md)。
 
 金融、经济和跨专业金融科技入口见[金融职业路径](finance-career-pathways.md)。
+
+中文新闻传媒的采编、传播及备选方向见[中文新闻传媒职业路径](news-media-careers.md)。
