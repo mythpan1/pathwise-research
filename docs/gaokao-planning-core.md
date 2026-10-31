@@ -78,3 +78,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 强基、综评与普通批的时序与协同选择见[多渠道并行策略](../research/admissions/admissions-channel-coordination.md)。
 
 提前批军队院校的资格、培养与职业入口见[军校路径](../research/admissions/military-academy-path.md)。
+
+公安院校的招生与招警入口见[公安院校路径](../research/admissions/police-academy-path.md)。
