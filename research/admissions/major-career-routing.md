@@ -97,3 +97,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 专业与行业双链检验方法见[双链验证操作流](major-industry-validation.md)。
 
 不确定性下仍需给出方案的步骤见[风险与情景决策](uncertainty-decision.md)。
+
+产业演变与职业入口连接见[行业周期判断](industry-lifecycle-career.md)。
