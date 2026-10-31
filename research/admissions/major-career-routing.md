@@ -51,3 +51,5 @@
 品牌、渠道和数字运营见[市场营销职业路径](marketing-careers.md)。
 
 心理教育、研究与服务入口见[心理学职业路径](psychology-careers.md)。
+
+招聘、员工关系与组织数据方向见[人力资源职业路径](human-resources-careers.md)。
