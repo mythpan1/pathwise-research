@@ -53,3 +53,5 @@
 心理教育、研究与服务入口见[心理学职业路径](psychology-careers.md)。
 
 招聘、员工关系与组织数据方向见[人力资源职业路径](human-resources-careers.md)。
+
+临床医学本科、住培与岗位路径见[临床医学职业路径](clinical-medicine-careers.md)。
