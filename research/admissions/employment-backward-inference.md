@@ -27,3 +27,5 @@
 理科与医科六类培养和职业入口见[理医职业路径](science-health-career-pathways.md)。
 
 法学与财会培养、证书及职业入口见[法学财会职业路径](law-accounting-career-pathways.md)。
+
+就业市场信号、统计分母和改判方法见[就业信号验证](labor-signal-validation.md)。
