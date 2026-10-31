@@ -90,3 +90,5 @@ Agent 从考生条件筛选可报对象，再按专业、职业、地区、时�
 港澳高校申请与内地招生协同见[港澳招生路径](../research/admissions/hong-kong-macau-admissions.md)。
 
 中外合作办学的招生、培养和证书分类见[合作办学分类](../research/admissions/cooperative-education-classification.md)。
+
+合作大学的招生、培养与费用对照见[合作大学路径](../research/admissions/cooperative-universities.md)。
