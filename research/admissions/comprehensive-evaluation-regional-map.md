@@ -18,3 +18,5 @@
 4. 对每个候选保留学校、专业、年份、省份、可报条件、校测、综合公式、计划和来源；用历史同口径结果与当年成绩情景建立主选和备选，接入[综评机制](comprehensive-evaluation-mechanism.md)、[历史位次](historical-rank-planning.md)及[专业前景](major-outlook-matrix.md)。
 
 旧章的省份分层与跨省检索思路有用；全国总数、固定校数、个人录取率及把入选人数当录取人数的汇总不直接沿用。未在本单元展开的省份是待补入口，不是不存在综评；后续按章核对。
+
+浙江、上海、山东和广东的条件比较见[四省综评对照](four-province-comprehensive-evaluation.md)。
