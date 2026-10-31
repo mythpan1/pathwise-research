@@ -26,3 +26,5 @@
 转专业资格、培养代价与未获批准后的选择见[转专业策略](major-change-strategy.md)。
 
 不同升学与就业路径的课程成绩规则和实践取舍见[学业成绩决策](gpa-path-decisions.md)。
+
+实习与替代实践的培养、岗位入口及成本比较见[实习与职业衔接](internship-career-bridges.md)。
