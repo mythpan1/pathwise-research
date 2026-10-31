@@ -61,3 +61,5 @@
 疾控、基层与研究方向见[公共卫生职业路径](public-health-careers.md)。
 
 护理本科与专科、考试注册及岗位比较见[护理职业路径](nursing-careers.md)。
+
+口腔本科、专科与资格路径见[口腔医学职业路径](dentistry-careers.md)。
