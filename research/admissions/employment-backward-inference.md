@@ -29,3 +29,5 @@
 法学与财会培养、证书及职业入口见[法学财会职业路径](law-accounting-career-pathways.md)。
 
 就业市场信号、统计分母和改判方法见[就业信号验证](labor-signal-validation.md)。
+
+入学至就业或继续深造的阶段窗口见[大学培养时间线](undergraduate-path-timeline.md)。
