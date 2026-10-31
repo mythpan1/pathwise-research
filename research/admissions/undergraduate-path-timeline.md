@@ -38,3 +38,5 @@
 课程、升学及职业的外语训练和考试要求见[英语能力路径](english-development-pathways.md)。
 
 暑期与交流项目的课程、成本和备选比较见[交流项目决策](exchange-project-comparison.md)。
+
+本科就业与继续深造的成本、岗位入口和求职安排见[本科直接就业路径](direct-employment-pathways.md)。
