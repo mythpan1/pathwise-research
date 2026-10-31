@@ -87,3 +87,5 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 低空经济研发、作业与准入见[无人机职业路径](low-altitude-careers.md)。
 
 储能与氢能的专业及岗位入口见[储能氢能职业路径](storage-hydrogen-careers.md)。
+
+视觉、交互与数字内容入口见[数字创意职业路径](digital-creative-careers.md)。
