@@ -113,3 +113,5 @@ AI 对工作任务及高考路径影响见[AI 与职业变化](ai-work-transform
 AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工作](ai-professional-work.md)。
 
 低空与自动驾驶条件情景见[未来交通职业路径](future-mobility-careers.md)。
+
+人口老龄化、政策与职业入口见[老龄化职业需求](aging-economy-careers.md)。
