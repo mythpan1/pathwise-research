@@ -105,3 +105,5 @@ AI 对工作任务及高考路径影响见[AI 与职业变化](ai-work-transform
 区域产业与培养、职业机会连接见[区域产业路径](regional-industry-opportunities.md)。
 
 产业、政策、技术、区域到招生职业汇合见[产业变迁五步操作卡](industry-analysis-workflow.md)。
+
+能源建设、制造与运行的情景见[能源转型职业变化](energy-transition-workforce.md)。
