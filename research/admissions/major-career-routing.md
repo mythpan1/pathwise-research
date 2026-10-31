@@ -35,3 +35,5 @@
 机械制造与自动化职业入口见[机械职业路径](mechanical-automation-careers.md)。
 
 电网、发电与设备方向见[电气能源职业路径](electrical-energy-careers.md)。
+
+材料与化工的工艺、研发和安全路径见[材料化工职业选择](materials-chemical-careers.md)。
