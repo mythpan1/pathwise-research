@@ -20,3 +20,5 @@
 4. 国家线、招生政策和学位要求以当年教育部及招生单位公布为准；此前数据只作可比背景。
 
 学术硕士和专业硕士的项目比较见[学硕与专硕选择](academic-professional-masters.md)。
+
+复试分数线与调剂选择见[研考分数线决策](graduate-threshold-decisions.md)。
