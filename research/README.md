@@ -41,7 +41,7 @@
 
 ## 高考志愿下端入口
 
-当前以江苏生源为数据建设重点，保留全国在江苏招生院校；具体就业地区由考生条件决定。[专业与职业总索引](admissions/major-career-routing.md)直接连接已吸收的产业、职业和培养单元；[江苏物理类](admissions/jiangsu-physics-reference.md)、[历史类](admissions/jiangsu-history-reference.md)及[一分一段](admissions/jiangsu-score-rank-tables.md)是本地数据入口。下述 2026-10-25 状态及连续研究总览为历史基线，新增单元以索引及实际 PR 为准。
+当前以江苏生源为数据建设重点，保留全国在江苏招生院校；具体就业地区由考生条件决定。[专业与职业总索引](admissions/major-career-routing.md)直接连接已吸收的产业、职业和培养单元；[江苏物理类](admissions/jiangsu-physics-reference.md)、[历史类](admissions/jiangsu-history-reference.md)及[一分一段](admissions/jiangsu-score-rank-tables.md)是本地数据入口。上述 2026-10-25 状态及连续研究总览为历史基线，新增单元以索引及实际 PR 为准。
 
 [历史位次推演普通志愿](admissions/historical-rank-planning.md)：按省份、科类与志愿单位比较可比历史数据，形成当年条件估计与冲稳保方案；具体数据和省年规则待按需接入。
 
