@@ -141,3 +141,5 @@ AI 任务变化、培养与志愿比较见[AI 韧性规划](ai-resilience-planni
 考生可选的方案沟通与证据核对见[志愿决策沟通](decision-dialogue.md)。
 
 培养路径的成本、机会成本与条件比较见[教育路径成本比较](education-path-cost-comparison.md)。
+
+志愿及培养路径的条件压力测试见[路径压力测试](path-stress-test.md)。
