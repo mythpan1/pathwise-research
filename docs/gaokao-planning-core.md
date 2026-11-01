@@ -53,6 +53,8 @@
 
 ## Agent 按需组合与知识组织
 
+具体模块/目录、八类知识单元、年度组身份、条件关系与分阶段检索输出以[知识单元和组合契约](planning-knowledge-contract.md)承接下述原则；填写用[扩展模板](../templates/planning-knowledge-unit.md)，反例见[合成验收](../research/admissions/planning-framework-acceptance.md)。它是现有框架的接口细化，不代表真实数据或自动检索已经建成。
+
 各模块提供可引用、可更新的最小知识单元，而非把完整资料一次塞入上下文：
 
 - **考生与招生：** 省份、年份、考试模式、选科、位次、渠道资格、规则和招生计划。

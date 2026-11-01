@@ -1,5 +1,9 @@
 # 研究工作区
 
+## 当前规划框架入口（2026-11-01）
+
+[高考总入口](../docs/gaokao-planning-core.md) → [知识单元与组合契约](../docs/planning-knowledge-contract.md) → [已有方法与覆盖缺口](coverage.md) → [有界建设计划](../docs/roadmap.md)。[扩展模板](../templates/planning-knowledge-unit.md)和[合成验收](admissions/planning-framework-acceptance.md)用于约束组合，不另建资料库；个人接受度、受限成员 CSV 及其未获准派生物留受控位置。以下 2026-10-26/25 各节是保留的历史框架与状态，现行执行按 AGENTS.md 和协作主流程的当前说明。
+
 ## 完整框架与连续研究（2026-10-26）
 [完整研究框架](../docs/research-framework.md)规定三条主线怎样连续组织、跨线连接职业及培养，以及材料和判断怎样更新；[覆盖与推进](coverage.md)列出现有起点、未评估维度和填充顺序。
 新任务须归属连续研究链，用[链模板](../templates/research-chain.md)、[判断与改判模板](../templates/research-judgment.md)及现有报告承接。不得按每篇视频孤立成结论，也不把现有几个实验固定为全部研究范围。
