@@ -137,3 +137,5 @@ AI 对财会、法律、金融和设计任务的情景见[AI 与专业服务工�
 江苏工科院校学科示例与选校方法见[工科学科速查](engineering-discipline-reference.md)。
 
 AI 任务变化、培养与志愿比较见[AI 韧性规划](ai-resilience-planning.md)。
+
+考生可选的方案沟通与证据核对见[志愿决策沟通](decision-dialogue.md)。
