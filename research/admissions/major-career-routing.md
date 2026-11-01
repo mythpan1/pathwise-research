@@ -145,3 +145,5 @@ AI 任务变化、培养与志愿比较见[AI 韧性规划](ai-resilience-planni
 志愿及培养路径的条件压力测试见[路径压力测试](path-stress-test.md)。
 
 志愿方案的证据及反向检查见[决策证据检查](decision-evidence-check.md)。
+
+不同用人单位的具体职位比较见[职业单位比较](employment-organization-comparison.md)。
