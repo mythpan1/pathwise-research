@@ -149,3 +149,5 @@ AI 任务变化、培养与志愿比较见[AI 韧性规划](ai-resilience-planni
 不同用人单位的具体职位比较见[职业单位比较](employment-organization-comparison.md)。
 
 专业与职业收入数据口径见[收入证据方法](salary-evidence-method.md)。
+
+院校、校区与当年招生单位的映射见[院校映射方法](institution-mapping-method.md)。
