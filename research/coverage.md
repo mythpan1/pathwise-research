@@ -1,5 +1,24 @@
 # 研究覆盖与推进
-日期：2026-10-26。用途：完整框架的覆盖规划与缺口导航，不是全行业研究完成证明。任务授权与实时执行状态以 Issue 为准。
+当前接口盘点：2026-11-01；下方 1–4 节保留 2026-10-26 的覆盖基线。用途：完整框架的覆盖规划与缺口导航，不是全行业研究完成证明。任务授权与实时执行状态以 Issue 为准；建立前可按主流程使用 LOCAL 标识，不另造并行任务状态。
+
+## 江苏招生与职业规划：已有、缺口及顺序
+
+按[知识契约](../docs/planning-knowledge-contract.md)盘点；这是对当前入口和既有方法的有界检查，不宣称逐项审核全库原文或受控数据。下表“已有方法”不等于真实年度记录齐全，“未建立覆盖清单”也不证明本地没有数据。省外学校仍属于在江苏招生的候选；其他生源省数据不在本阶段建设范围。
+
+| 单元 / 已有入口 | 当前可复用能力 | 必须显式保留的缺口 | 优先任务与理由 |
+| --- | --- | --- | --- |
+| GROUP：[物理类](admissions/jiangsu-physics-reference.md)、[历史类](admissions/jiangsu-history-reference.md)、[专业组](admissions/major-group-decision.md) | 数据口径及组级比较方法 | 未建立按省年/类别/批次/轮次列明的年度计划覆盖和完整成员核验清单；不在此声称已掌握全部学校 | P0 / F1：组身份和成员错误会污染资格、调剂及保底 |
+| RULE：[选科渠道](admissions/subject-channel-routing.md)、[历史位次](admissions/historical-rank-planning.md) | 有适用性和分阶段规则方法/实例 | 目标报考年度的规则生效、例外、更正和冲突尚需逐项固定；历史实例非永久现行规则 | P0 / F1：先固定资格及流程，不把数据缺失判为不可报 |
+| CHANGE：[历史位次](admissions/historical-rank-planning.md)、[一分一段](admissions/jiangsu-score-rank-tables.md)、[位次购买力](admissions/rank-purchasing-power.md) | 历史可比、同分区间、变化校准 | 尚未形成候选年度组逐成员拆并映射及可比性记录；专业级缺失须保留 | P0 / F2：防止虚假连续趋势与确定梯度 |
+| ACCEPT：[组内位次与调剂](admissions/major-adjustment-position.md)、[专业组](admissions/major-group-decision.md) | 逐专业接受度与服从/不服从比较方法 | 没有本轮获准的真实考生接受度；成员不完整时无法认定整组保底 | P0 / F3：先合成检验；个人实例另须相应授权 |
+| SCENARIO：[机器人情景](industry/robotics-2036-employment-scenarios.md)、[教育情景](industry/education-2036-employment-scenarios.md)、既有连续研究 | 已有有界上端情景与机制方法 | 不等于全行业、全部地区或目标就业年的覆盖；连续链与现有专题的固定版本关联尚需按候选核对 | P1 / F4：优先能改变当前路径排序的关键情景，不全行业铺开 |
+| ENTRY：[职业总索引](admissions/major-career-routing.md)、[就业信号](admissions/labor-signal-validation.md) | 多专业多职业路由、任务及入口辨析 | 各职业的新人入口、地区雇主筛选、实际竞争与可迁移成本不齐；行业增长不可补空 | P1 / F4：补两端之间最容易跳步的连接 |
+| TRAINING：[院校映射](admissions/institution-mapping-method.md)、[培养职业连接](admissions/education-career-bridge.md) | 从职业要求到学校培养的核对方法 | 真实候选院校/校区/届别的课程实践、资源取得与资格关系待逐项落地 | P1 / F4：防止同名专业等同训练与就业入口 |
+| PATH：[路径压力测试](admissions/path-stress-test.md)、[决策证据](admissions/decision-evidence-check.md) | 组合、共同风险、改判方法及示范 | 尚未把一组受控真实候选按本契约贯通；覆盖范围与缺口须随输出给出 | P1 / F5，P2 / F6：先走完整有界链，再检验更新传播 |
+
+优先级 P0 是会改变可报性及保底的基础，P1 是让上下端真正汇合，P2 是已有组合后的持续维护；不是按新闻热度排序。F1–F6 的依赖、交付和验收见[建设计划](../docs/roadmap.md)。这是后续候选表，不自动授权采集、个人资料读取或连续派工。
+
+后续每项覆盖摘要至少写：省年/类别/渠道/批次/轮次、学校/组范围、就业地区/时间、已核对象集合、未核/无权限/不存在证据的区别、固定输入版本、关键缺口及其决策影响。仅在有完整分母时报告覆盖比例，不能用文档数量推“覆盖率”。
 
 ## 1. 组织方式
 三条主线各自连续，同时用产业/公共服务、人口、政策环节、职业培养及时间地区检查覆盖。行业、职业、专业目录用途不同，使用具体分类时注明版本，不把下列设计用分组冒称官方分类。

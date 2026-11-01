@@ -2,6 +2,8 @@
 
 项目当前主线与 Agent 按需组合入口：[高考志愿与未来职业规划](docs/gaokao-planning-core.md)。
 
+框架接口细化（2026-11-01）：[知识单元与组合契约](docs/planning-knowledge-contract.md)、[覆盖缺口](research/coverage.md)、[建设计划](docs/roadmap.md)及[合成验收](research/admissions/planning-framework-acceptance.md)。这是对现有框架的扩展，不代表年度招生数据、全行业研究或自动检索已完成；当前执行依 AGENTS.md 与[协作主流程当前说明](docs/agent-workflow.md)，本页历史角色概述不覆盖最新指示。
+
 **从未来十年的变化，反推今天的学业与职业选择。**
 
 我们关心的不是“现在什么专业最热门”，而是：一个学生完成几年学习、进入职场时，产业在做什么、哪些工作正在改变、什么能力还有价值，以及原来的路走不通时能否转向。
