@@ -6,8 +6,8 @@
 - 被审基线提交 SHA：`33f90706423509c1b2051558fb4ba055810350a4`
 - 被审成果提交 SHA（H）：`c7fce9c56b2451ce0e29a098eaf58125a127e17c`
 - 作者 Agent：`/root/compare_teacher_law_choices`
-- 审核 Agent、独立运行标识：``/root/review_mechanical_path_card`;真实普通独审评论 [#6574269390](https://github.com/mythpan1/pathwise-research/pull/336#issuecomment-6574269390)
-- 作者及审核者的运行记录引用；模型/思考强度的报告值、来源与未知项：作者实际运行报告 `gpt-6-astra`;强度未知；资源收集运行 ``/root/compare_teacher_law_choices/collect_teacher_law_evidence` 请求 `gpt-6.1-sol/high`;实际模型/强度未知；审者报告模型与强度均 unknown。模型报告不独立认证后端身份。
+- 审核 Agent、独立运行标识：`/root/review_mechanical_path_card`；真实普通独审评论 [#6574269390](https://github.com/mythpan1/pathwise-research/pull/336#issuecomment-6574269390)
+- 作者及审核者的运行记录引用；模型/思考强度的报告值、来源与未知项：作者实际运行报告 `gpt-6-astra`，强度未知；资源收集运行 `/root/compare_teacher_law_choices/collect_teacher_law_evidence` 请求 `gpt-6.1-sol/high`，实际模型/强度未知；审者报告模型与强度均 unknown。模型报告不独立认证后端身份。
 - 被审步骤/回合记录范围，输入输出版本及未结操作检查：H 相对 base 仅新增研究卡 +61、导航 +2，无删除或其他路径；PR 列出两文件、63 additions。审者确认远端全文与最终已审 v2 逐字一致。此记录是对真实评论的忠实摘要和链接，不是逐字全文。
 - 审核者是否参与本次被审成果编写：否。审者说明未参与正文；不同运行不证明不同 GitHub 账户或自然人。
 - 实际收到的材料及范围：`research/admissions/jiangsu-history-trade-english-order.md`（SHA-256 `f66c983fb65783155aad39edc5fadda29e5b036a112180ae9594d76df2605caf`）及 `research/admissions/education-career-bridge.md`（SHA-256 `c4f2ab11b5f9eb3a67c2bed2b5dd3bf04f8005ce8d46e497dcb07643acc8a447`）。结论：建议采用。
