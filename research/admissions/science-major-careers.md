@@ -4,7 +4,7 @@
 
 ## 以实际岗位反查培养任务
 
-- **数学/物理 → 半导体制造工程**：[上海华力 2027 届招聘](https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/details?id=b24b707f534445f8b32d7a4e22fefeaf)列本科数学类、物理学类等工程技术人员。应从具体岗位再核专业、工作任务与技能；数学训练可结合编程、数据分析和工程问题，物理可结合实验、器件与工艺。
+- **数学/物理 → 半导体工程候选，尚缺具体本科岗位匹配**：[上海华力 2027 届招聘](https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/details?id=b24b707f534445f8b32d7a4e22fefeaf)总表列本科数学类、物理学类等工程技术人员，但详细工艺/良率/智能制造岗为硕士及以上、器件模型岗为博士；本科起的设备岗明列材料/化学/机械/自动化等，未明列数理。2026-11-02复核后收窄原概括：保留总表的正向线索，不将其当作数学/物理本科已匹配这些细岗；仍须核具体专业、任务与学历。见[三组敏感成员桥接](jiangsu-three-group-entry-bridges.md)。
 - **化学 → 材料工艺**：[厦钨新能源材料 2026 届校招](https://job.tju.edu.cn/recruitment/content/type/2/id/5960.html)列工艺工程师本、硕、博，接受化学、应用化学、化学工程与工艺和材料等相关方向，正极材料相关研究方向优先。课程、实验和项目是否匹配，按岗位核对。
 - **生物 → 生物制药研发任务**：[成都药明生物 2026 年发布岗位](https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WKuLa-yWHddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E)列本科、硕士、博士，要求实验设计、执行与数据分析等能力，相关实习优先。这反驳“生物研发一律必须博士”，但不意味着其他岗位没有更高要求。
 - **地理信息 → 科研项目技术支持**：[南京信息工程大学 2026 年科研助理公告](https://rsc.nuist.edu.cn/2026/0823/c1102a300646/page.htm)岗位 2 接受本科及以上的地理信息科学、计算机等相关专业，并要求 Python 与前端能力；该岗位为派遣制、首聘一年。不要把这一案例当作长期岗位保证。
