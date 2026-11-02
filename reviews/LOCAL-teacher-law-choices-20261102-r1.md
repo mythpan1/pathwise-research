@@ -5,11 +5,11 @@
 - PR / 分支：[PR #334](https://github.com/mythpan1/pathwise-research/pull/334) / `research/teacher-law-choices-20261102`
 - 被审基线提交 SHA：`8171904aa6da2f9015567c95c23ec088cf7226c9`
 - 被审成果提交 SHA（H）：`cf823ef3576a717f08e1368288875f87f0b56dbf`
-- 作者 Agent：`/root/compare_teacher_law_choices`（研究加工/定稿角色；当前审核交接未提供作者实际运行标识、模型/强度报告或来源，记为未知）
+- 作者 Agent：`/root/compare_teacher_law_choices`（实际运行标识已提供；runtime报告模型 `gpt-6-astra`，思考强度未知）
 - 审核 Agent、独立运行标识：`/root/review_mechanical_path_card`；审核评论所报模型与强度均为 unknown。见[实际审核评论 #6572840435](https://github.com/mythpan1/pathwise-research/pull/334#issuecomment-6572840435)。
-- 作者及审核者的运行记录引用；模型/思考强度的报告值、来源与未知项：作者运行记录及模型/强度在本次公开交接中不可见；审核者明确报告 reported_model=unknown、reported_effort=unknown。运行标识按实际评论记录。
+- 作者及审核者的运行记录引用；模型/思考强度的报告值、来源与未知项：作者实际运行标识 `/root/compare_teacher_law_choices`，runtime报告 `gpt-6-astra`（思考强度未知）；审核者评论明确报告 reported_model=unknown、reported_effort=unknown。
 - 被审步骤/回合记录范围，输入输出版本及未结操作检查：本轮固定成果 H 的两个文件全文；相对 base 仅新增研究卡与两行导航（共 +63 / -0）；评论称只核实际版本和检查，不把本地预审冒称此前已发表的 PR 审核。
-- 审核者是否参与本次被审成果编写：独立运行评论声明其承担审核；未声明参与本成果编写。
+- 审核者是否参与本次被审成果编写：否；独立审核者 `/root/review_mechanical_path_card` 确认其未参与正文编写。
 - 实际收到的材料及范围：H `research/admissions/jiangsu-history-teacher-law-pair.md`（SHA-256 `64780ea6e726fb43bdf1fb0c156564b56be5eaf20f8d3d9449e3209631efa14d`）、`research/admissions/education-career-bridge.md`（SHA-256 `0bffbf6f05291fef861315d58898bbd6172b9c59f60a152d6e411d2dfa6ec5ee`），以及评论记录的预审/来源核验摘要。结论：建议采用。
 
 ## 实际检查及结果
