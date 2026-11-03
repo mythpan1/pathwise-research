@@ -36,7 +36,7 @@
       "docs/experiment-protocol.md",
       "reviews/README.md"
     ],
-    "sha256_by_path": {
+    "git_blob_sha_by_path": {
       "AGENTS.md": "e32e3f832f4d1ebc82800fdbb714ecbeb660fb57",
       "docs/agent-workflow.md": "bd9b169b9914302fe76e7fab97e5f1713fc0df4a",
       "docs/agent-provenance.md": "faf55b827696116a96709f9aae04508ead9995fa",
