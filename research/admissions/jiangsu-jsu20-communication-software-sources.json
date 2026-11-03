@@ -1,0 +1,259 @@
+{
+  "scope": "江大既有20组通信/软件，两职业入口；本地研究，不新增招生数据",
+  "basis": "fb1f38b4dd720d659b5a65d5961a3f3a06599edd",
+  "created_date_utc": "2026-11-03",
+  "note": "必要脱敏索引；原件及不必要联系/跟踪字段不上传。已核快照哈希只定位证据，不表示仓库存有原件。",
+  "sources": [
+    {
+      "id": "U1",
+      "url": "https://cs.ujs.edu.cn/info/1067/33217.htm",
+      "title": "通信工程本科专业介绍",
+      "publisher": "江苏大学计算机科学与通信工程学院",
+      "published_date": "2023-06-15",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "发布日期；正文“核心课程”“通信工程实践”段",
+      "supports": [
+        "核心为信号与线性系统、通信系统原理；特色包含通信网、移动通信系统、微波电路与天线",
+        "通信实践含Linux基础、网络编程基础、云计算应用与开发等；支持通信有软件邻接训练的有限事实"
+      ],
+      "limits": [
+        "不是2027届完整必选修方案；不证明电力电子和仪器训练充分",
+        "不采用专业排名、就业率、旧薪酬宣传；不证明校企实践人人可得"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 30887,
+          "sha256": "7894478416a4cf8968f405c405bff468208fcdbfc5b96deafb7fc6a44a4d2fa4",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "U2",
+      "url": "https://cs.ujs.edu.cn/info/1067/33237.htm",
+      "title": "软件工程本科专业介绍",
+      "publisher": "江苏大学计算机科学与通信工程学院",
+      "published_date": "2023-06-15",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "培养目标段；“专业学习内容”图1",
+      "supports": [
+        "需求分析与建模、软件系统设计开发的培养目标",
+        "图1含Web、移动开发、软件测试、大数据与人工智能模块"
+      ],
+      "limits": [
+        "不是2027届逐门课程/必修/实践可取得表",
+        "就业薪酬图不用于2031/2037收益推断；不把基地宣传认作普通20组录取项目"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 28840,
+          "sha256": "a605d946775d5b095c4d7418ee5462decd39102a784eca48a37b9e8078d1a27c",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "U2-FIG",
+      "url": "https://cs.ujs.edu.cn/__local/4/4C/33/F73C0CCA555E611E5D784E20967_CB0BD6EB_7308.png",
+      "title": "U2图1 专业学习内容",
+      "publisher": "江苏大学计算机科学与通信工程学院",
+      "published_date": "随U2，2023-06-15",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "从本地原始U2 HTML实际img src取公开图片；目视原图及白底派生图，不将OCR当原文",
+      "locator": "图中Web应用开发、移动应用开发、软件测试、大数据与人工智能模块",
+      "supports": [
+        "结构性模块存在；仅转述清晰标签"
+      ],
+      "limits": [
+        "不是完整学分表；不据图片推定每项必修或人人取得",
+        "未采用第一模块不够清晰的精确字样"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "采用原图",
+          "bytes": 29448,
+          "sha256": "dade2aed5dea24dc3a7602f742b881b453f6de8b4d1201148954d8db9b6db6aa",
+          "availability": "受控本地留存，不提交原始材料"
+        },
+        {
+          "kind": "透明背景白底目视派生图",
+          "bytes": 31530,
+          "sha256": "7df4dc5731a3728fe3c1bbcb8d0ed034f8043d6b1ea33ca68a062bea91c7c5cd",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "J1",
+      "url": "https://kedacom.zhiye.com/zpdetail/511214858",
+      "title": "应用软件开发工程师（2027校招）",
+      "publisher": "苏州科达官方招聘",
+      "published_date": "2026-09-22",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "工作地点、发布日期；工作职责1起；任职资格1起",
+      "supports": [
+        "苏州、应届本科及以上；计算机/软件工程/人工智能/信息管理等优先，其他专业有扎实项目实践也欢迎",
+        "含导师指导需求、编码、测试与发布、AI辅助与代码审查；语言、基础算法、Git等要求"
+      ],
+      "limits": [
+        "单岗不能证明2031招聘人数或江大保录；导师安排不等于带教兑现",
+        "通信不是优先清单逐项明列；可选加分项不改作硬门槛"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 27845,
+          "sha256": "2f16834ecfd0ae7a63a7acbdba2d2de1b2a198490b60b17220a44eae2e1f7400",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "url": "https://scc.hnu.edu.cn/detail/job?career_id=715358&id=2384153",
+      "title": "测试工程师（上能电气股份有限公司）",
+      "publisher": "湖南大学就业网承载企业岗位",
+      "published_date": "2026-08-27",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取同一公开HTML，用Python JSONDecoder解析嵌入job对象；只导出与研究有关的白名单字段",
+      "locator": "公开HTML嵌入job对象publish_id=2384153：job_name、city_name、degree_require、job_descript、job_require、publish_time、end_time",
+      "supports": [
+        "深圳/苏州，本科；完整job_require明列通信工程及电气/测控等，英语四级及以上",
+        "搭测试平台，光伏/储能产品单板、性能、白盒、环境测试和测试记录；电路等成绩/主导设计为优先项"
+      ],
+      "limits": [
+        "未明示应届届别、经验、带教；不能当与J1同强度新人接收证据",
+        "软件未逐项明列，不等于永远排除，也不能确认符合；顶部about_major缩略不代替完整正文",
+        "截止2026-11-03，仅作公布案例不宣称今天仍可申请",
+        "原始HTML仅本地供复核，不上传其中不必要页面元数据/联系字段"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 79249,
+          "sha256": "a276cbede11aa2ecabed3fa78089480b6802ad8d05a360b50f2c786752ed7404",
+          "availability": "受控本地留存，不提交原始材料"
+        },
+        {
+          "kind": "仅学历/专业/任务等研究相关白名单派生字段",
+          "bytes": 977,
+          "sha256": "14896dc785673b9cc333b5fed9669867999d0c3de62d74b4415b25da8d39fb80",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "url": "https://www.suzhou.gov.cn/yhyshjzl/zcwj/202501/885ec241322042a2a570a2a8cf359d63.shtml",
+      "title": "市政府关于印发苏州市加快推动软件产业高质量发展的若干政策措施的通知",
+      "publisher": "苏州市人民政府",
+      "published_date": "2025-01-08（文件落款2024-12-30）",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "第一项软件创新平台（含软硬件适配测试中心）；第四项工业软件/制造场景；第七项人才；末段有效期",
+      "supports": [
+        "制造场景、工业软件和软硬适配、人才培育的政策方向",
+        "2025-02-01起施行，有效至2027-12-31"
+      ],
+      "limits": [
+        "不是2031/2037政策延续、实际订单或本科名额；补助目标不是已兑现新增岗位"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 25888,
+          "sha256": "e334043d6b47eb005badf94c917739e85805078e817956476c8cd274cd29fd7d",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "url": "https://jg.ndrc.gov.cn/c/2025-02-09/500482.shtml",
+      "title": "关于深化新能源上网电价市场化改革 促进新能源高质量发展的通知（发改价格〔2025〕136号）",
+      "publisher": "国家发展改革委、国家能源局",
+      "published_date": "2025-02-09（文件落款2025-01-27）",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "第（二部分）（一）项“新能源项目（风电、太阳能发电，下同）”定义；第三部分存量/增量；第（九）项新建项目储能前置限制；末段",
+      "supports": [
+        "本通知将新能源项目限定为风电、太阳能发电；上网电量市场交易定价，区分存量增量的价格结算机制",
+        "不得将配置储能作为新建风电、太阳能发电项目核准、并网、上网等前置条件"
+      ],
+      "limits": [
+        "前置限制不得扩展为所有新能源种类、存量项目或所有储能配置情形；不是禁止自愿储能，也不是储能补贴或岗位配额",
+        "上游收益到设备采购、付费验证、新人任务需要条件链，未核省级执行及企业订单"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 35092,
+          "sha256": "8b4369cad0c2e4bd237fe5783030629b7925eb201d74c6b420cb5ce593d8cf17",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "url": "https://tjj.suzhou.gov.cn/sztjj/tjgb/202604/3dc4b574cabd4e86b36ec5d3280e927c.shtml",
+      "title": "2025年苏州市国民经济和社会发展统计公报",
+      "publisher": "苏州市统计局、国家统计局苏州调查队",
+      "published_date": "2026-04-30",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "正常读取公开HTML；按正文定位，不执行脚本或访问内部接口",
+      "locator": "综合就业；工业；教育普通高等学校；人口段",
+      "supports": [
+        "城市制造/服务业基础及高校毕业、引留、发布岗位、常住人口的不同口径",
+        "支持地域背景与外地流动需纳入观察，不能只看本地出生量"
+      ],
+      "limits": [
+        "总体引留/岗位发布/毕业量不可相减为特定职业供需缺口或胜率",
+        "不支持2031/2037合格求职供给和岗位数量预测"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 66716,
+          "sha256": "1bb3922e4410dcf95f41fa8a1965411570d1303e662a03cddbc9b7fb36156719",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    },
+    {
+      "id": "R0",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fb1f38b4dd720d659b5a65d5961a3f3a06599edd/research/admissions/jiangsu-27151-jsu20-buffer.md",
+      "title": "既有江大20组接受边界研究",
+      "publisher": "pathwise-research 已有研究",
+      "published_date": "固定fb1f38b4基线；不冒称原发布时间",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "复用固定基线已采用研究，不在本批重新读取录取CSV、计划或收费PDF",
+      "locator": "P_S非用户假设、六成员接受状态；培养四年、2025收费6380元/年及四年25520；年度成员/规则须另核",
+      "supports": [
+        "历史组背景与未确认接受状态",
+        "两专业既有2025学制/标价相同，不作为2027锁价"
+      ],
+      "limits": [
+        "本轮未新核完整计划/章程/收费PDF；不推断真实用户位次、接受或2027可报"
+      ],
+      "original_fee_reference_only": "https://xxgk.ujs.edu.cn/__local/F/BE/8F/09C90EA4BDC802E51A7F481AAB6_9F242AAC_1C837.pdf",
+      "evidence_snapshots": [
+        {
+          "kind": "原有本地研究快照",
+          "bytes": 13128,
+          "sha256": "e5642a771007356c20c76f49b6359d84c643116c7a0858555f71c223faad999f",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ]
+    }
+  ],
+  "separation": {
+    "facts": "各source supports仅限原件范围；R0明确既有事实复用",
+    "inferences": "REPORT S0–S3、课程到任务的补差及条件方向为作者推导，不是2031/2037已发生事实",
+    "assumptions": "P_S、2027入学且实际四年、苏州就业地均非真实用户已给参数"
+  }
+}
