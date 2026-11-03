@@ -1,0 +1,493 @@
+{
+  "schema": "source-index-v1",
+  "research_date": "2026-11-03",
+  "base_commit": "4994f47ee524b80786ec79bd893298cacece0492",
+  "report_path": "research/admissions/jiangsu-54120-care-imaging-software.md",
+  "scope": "江苏物理既有54120历史候选；南京研究就业市场，2031本科入口及2037开放情景；非用户条件。",
+  "privacy": "仅发布必要来源元数据、定位及哈希；不上传原件、原表、抽取、完整工具返回或内部日志。",
+  "source_policy": "新源按冻结原件/抽取使用；旧支点显式沿固定B1复用。失败不是成功读取，推导不冒充事实。",
+  "historical_data": {
+    "read_original_csv_this_round": false,
+    "collected_2026_admissions": false,
+    "reused_from": "B1",
+    "old_csv_sha256_reported_in_B1": "c434b75ea891070dc87ac5d472653f1c4d6aa86833a6ebe676f590fe5ca83c2b",
+    "note": "哈希沿旧卡，不声称本轮重算；仅B11+C4，不重计A5；旧符号不赋义。"
+  },
+  "sources": [
+    {
+      "id": "L1",
+      "url": "https://ybj.nanjing.gov.cn/gkml/202106/t20210624_2978585.html",
+      "title": "关于印发《南京市失能人员照护保险实施细则（试行）》的通知",
+      "published": "2021-06-24",
+      "scope": "南京市；历史基础办法，后续已调整的筹资、单价、评估规则不得直接当作2026现行规则。",
+      "locators": [
+        "第二条",
+        "第五条",
+        "第二十二至二十五条",
+        "第二十七至三十条",
+        "第三十五至三十七条",
+        "第四十至四十二条",
+        "第四十八条"
+      ],
+      "supports": "制度保障基本生活照料及密切相关医疗护理；有重度失能评估门槛；医疗、养老及残疾人托养康复机构等可申请定点并受协议管理；按服务范围/时长向机构结算；从业人员培训及服务能力变化复评。",
+      "cannot_support": "不能单独证明现行评估持续时长或现行支付单价；未规定成人服务各项目的护士/护理员资质边界，未规定新增本科注册护士名额。",
+      "effective": "2021-07-01",
+      "publisher": "南京市医疗保障局",
+      "retrieved_at_utc": "2026-11-03T04:54:05Z",
+      "capture_kind": "official_html_download",
+      "sha256": "6e69ef4eb69f81ade635e108a30682a0867b3bdae6a8cba621be11ff82574c3f",
+      "hash_scope": "本轮下载的原HTML字节，不是抽取文本；原件仅受控留存，不随报告发布。",
+      "derived_text_sha256": "d7707c5efad0e0b685f65132db634a351ca67f7d2084844dd02c4bb5fc22147d",
+      "derived_text_kind": "local_extraction_not_independent_source"
+    },
+    {
+      "id": "L2",
+      "url": "https://ybj.nanjing.gov.cn/gkml/202403/t20240301_4177629.html",
+      "title": "关于调整长期护理保险有关政策的通知",
+      "published": "2024-03-01",
+      "scope": "南京市待遇支付标准调整；附件1是新增居家项目而非成人全部项目目录。",
+      "locators": [
+        "一、提高待遇支付标准",
+        "二、扩大照护服务项目范围",
+        "三、优化0-6岁失能儿童照护服务供给",
+        "五、执行时间",
+        "附件1",
+        "附件2"
+      ],
+      "supports": "规定服务范围内居家50元/小时、机构70元/天；新增3项基础生活照料和血压监测；0—6岁6项康复资格为护士或康复治疗师。",
+      "cannot_support": "单价不是劳动者工资；不能证明全部成人服务均需护士，不能将儿童人员条款推广成人；未规定新增注册护士或本科新人的岗位/劳动合同。",
+      "signed": "2024-01-25",
+      "effective": "2024-03-01",
+      "publisher": "南京市医疗保障局",
+      "retrieved_at_utc": "2026-11-03T04:54:05Z",
+      "capture_kind": "official_html_download",
+      "sha256": "a8a2b3fb207e6e5ea47a9b1fd98f299f848a08c8df391e873cc6ea10a6b8f9d8",
+      "hash_scope": "本轮下载的原HTML字节，不是抽取文本；原件仅受控留存，不随报告发布。",
+      "derived_text_sha256": "e0f277f968d0a378055550d66ea598fa8bed25b8cb9262fda2ef0ca53519a4e4",
+      "derived_text_kind": "local_extraction_not_independent_source"
+    },
+    {
+      "id": "L3",
+      "url": "https://www.nhsa.gov.cn/art/2026/3/26/art_53_20040.html",
+      "title": "国家医保局等八部门关于印发《加快建立长期护理保险制度实施方案》的通知",
+      "published": "2026-03-26",
+      "scope": "全国；网页明确本文有删减；旧试点用3年左右逐步过渡，不代表南京现行待遇已按本文件一比一切换。",
+      "locators": [
+        "二（三）1—4、6",
+        "三（一）—（四）",
+        "四（二）"
+      ],
+      "supports": "参保缴费、长期失能和评估条件；起步重度；合规机构/人员基本服务费用；原则不直接发现金；年度限额与预算收支约束；机构定点、居家社区倾斜、原目录映射及试点过渡。",
+      "cannot_support": "未列各具体项目执行人资格；不能用全国待遇基准直接替换南京现行单价或受益人条件；未规定新增注册护士、应届生或本科生配额。",
+      "effective": "网页未单列生效日；国家制度方向和试点过渡要求。",
+      "publisher": "国家医疗保障局等发布机关",
+      "retrieved_at_utc": "2026-11-03T04:54:05Z",
+      "capture_kind": "official_html_download",
+      "sha256": "91bb407b48da48ed4204589789381bfb1795c91a1187a34f39568e9cc9158ea7",
+      "hash_scope": "本轮下载的原HTML字节，不是抽取文本；原件仅受控留存，不随报告发布。",
+      "derived_text_sha256": "fad27494789fe51a87f47900a09812d9d4fad5c9db7b1860937bb8ff337796a2",
+      "derived_text_kind": "local_extraction_not_independent_source"
+    },
+    {
+      "id": "L4",
+      "url": "https://www.nhsa.gov.cn/art/2025/9/25/art_104_18020.html",
+      "title": "国家医疗保障局关于印发《国家长期护理保险服务项目目录（试行）》的通知",
+      "published": "2025-09-25",
+      "scope": "全国；原试点城市对照映射，约3年逐步统一，不等于南京成人已逐项执行。",
+      "locators": [
+        "通知二、三、四",
+        "附件凡例一、三",
+        "生活照护类表序号1、2、3，右侧服务要点",
+        "医疗护理类表序号1、2、3，右侧服务要点"
+      ],
+      "supports": "目录20生活照护+16医疗护理；支付边界与试点映射过渡；生活照护及医疗护理若干行均推荐长期照护师及具备相关资质人员，并非写成本科注册护士专属或新增护士编制。",
+      "cannot_support": "推荐不等于全部执业资格授权；不免除其他资质/技术规范；不能直接确定南京现行成人每项可由护理员操作，也不能证明既有人员完全覆盖或未来绝不招护士。",
+      "signed": "2025-09-18",
+      "document_number": "医保发〔2025〕24号",
+      "publisher": "国家医疗保障局等发布机关",
+      "retrieved_at_utc": "2026-11-03T04:56:03Z",
+      "capture_kind": "official_html_download",
+      "sha256": "e3b667fa65743d3bdf78420bed71fb16feec24cc3d2d8da57ca26ac68443a6c7",
+      "hash_scope": "本轮下载的原HTML字节，不是抽取文本；原件仅受控留存，不随报告发布。",
+      "official_text_download": {
+        "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=636d8412806640f697b50429b0c13ecd.txt",
+        "sha256": "6aefab1ca86536190e98308da24b86c7875fdcbf64e0d91b1a9c0a4af3e82616",
+        "kind": "official_text_download"
+      },
+      "attachments": [
+        {
+          "url": "https://www.nhsa.gov.cn/picture/0/458fd9cd2b0d44fc80a0458fb29c2f73.jpg",
+          "description": "通知正文",
+          "sha256": "8549cfb68bd88727f38912f4a736d36bbf5cbc46d0425e80ce403e7ae06f8ab3"
+        },
+        {
+          "url": "https://www.nhsa.gov.cn/picture/0/7466352accb5426b8e6f1e0b3cc93ba0.jpg",
+          "description": "目录封面及凡例",
+          "sha256": "27a2a1f5ad46c2b5284fef8a15facae4db617eda4d2e8134f49e4166f94bfe00"
+        },
+        {
+          "url": "https://www.nhsa.gov.cn/picture/0/1f6a9b60857e430295109fd1c22da242.jpg",
+          "description": "生活照护类20项原表",
+          "sha256": "de645c9e6ebb9d1a42936c782d51580a51c7f43459dca9cae8395ccb3b8b703b"
+        },
+        {
+          "url": "https://www.nhsa.gov.cn/picture/0/599b1481b35e41f29be986706f2a7ff9.jpg",
+          "description": "医疗护理类16项原表",
+          "sha256": "8acc063e570ec3464cf63767ac1a207610a3c9155263cba761de1195e136f38d"
+        }
+      ],
+      "visual_check": "已查看生活照护及医疗护理原表前3行的本地定位裁切；原图与裁切哈希分别留存。推荐人员不替代执业与操作规则。"
+    },
+    {
+      "id": "E1",
+      "url": "https://www.njtrh.org/rencaizhaopin/zhaopingonggao/2026-04-01/8751.html",
+      "title": "南京同仁医院2026年护理应届生招聘考试公告",
+      "publisher": "南京同仁医院",
+      "published": "2026-04-01",
+      "retrieved_at_utc": "2026-11-03",
+      "scope": "南京；2026应届护理相关专业，全日制本科及以上，三级医院实习；公告考试时间已过。",
+      "locators": [
+        "正文L103—110招聘要求",
+        "L114护士岗位",
+        "L116—128初筛、笔试、操作、面试"
+      ],
+      "supports": "曾有本地本科护理应届申请入口；有实习与择优筛选。",
+      "cannot_support": "未列资格注册不等无需资格；不补病区、班次、人数、薪资、编制或合同；不证2031接收或长护险资助。",
+      "capture_kind": "web_tool_line_extract_of_official_page",
+      "capture_sha256": "e5a008dbd224ee52ab859b05faa5a2bdfe8e1f1e8933636fc99abd776e4b7dad",
+      "original_html_sha256": null,
+      "hash_scope": "保存的逐行抽取，不是网站原HTML字节。"
+    },
+    {
+      "id": "E2",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202606/t20260630_26841815.htm",
+      "title": "南京市江宁医院数据中心设备维保及运维技术支撑服务项目采购公告",
+      "publisher": "中国政府采购网；采购人南京市江宁医院",
+      "published": "2026-06-30",
+      "retrieved_at_utc": "2026-11-03",
+      "scope": "南京江宁；JSZC-320115-NJZZ-G2026-0029，采购需求与合同期限，不是员工招聘。",
+      "locators": [
+        "L19—20品目/采购单位",
+        "L48—56预算、采购需求、合同期限",
+        "L61—82供应商资格",
+        "L104所属行业",
+        "L130—144采购人与代理"
+      ],
+      "supports": "医院为采购客户；数据中心设备维保/运维技术支持，合同生效起一年。",
+      "cannot_support": "预算138万元不是成交/付款/工资；未核附件、实际回款、资金来源、开发或接口职责、团队人数及本科新人。与E1不同医院，不证已发生同预算冲击。",
+      "capture_kind": "web_tool_line_extract_of_official_page",
+      "capture_sha256": "2906a7ab3b132a40fb37afd9c69928f992cc7e05c6638de03388419daca40956",
+      "original_html_sha256": null,
+      "hash_scope": "保存的逐行抽取，不是网站原HTML/附件字节。"
+    },
+    {
+      "id": "T1",
+      "url": "https://english.njmu.edu.cn/_t257/5731/list.htm",
+      "title": "School of Nursing — Undergraduate",
+      "publisher": "南京医科大学英文官网",
+      "published": null,
+      "retrieved_at_utc": "2026-11-03",
+      "scope": "护理本科一般介绍，页面无单独发布日期或适用届别。",
+      "locators": [
+        "Undergraduate，Length of Schooling: Four Years；HTML第233行"
+      ],
+      "supports": "护理四年时间桥。",
+      "cannot_support": "不擅译英文学位名称为已核中文学位；不套国际生规则；不保证2027安排、资格/注册或岗位。",
+      "capture_kind": "official_html_download",
+      "sha256": "909d25f5b649398ab3d90af033d0c15473acf26d9cd3627207f7436c4a81c942",
+      "hash_scope": "下载的原HTML字节。"
+    },
+    {
+      "id": "B1",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/4994f47ee524b80786ec79bd893298cacece0492/research/admissions/jiangsu-2025-imaging-pair.md",
+      "title": "jiangsu-2025-imaging-pair.md",
+      "publisher": "Pathwise Research",
+      "published": null,
+      "read_at_utc": "2026-11-03",
+      "scope": "历史组/专业记录与已核职业支点；不继承P0/Q模拟偏好。",
+      "locators": [
+        "完整固定版本"
+      ],
+      "capture_kind": "fixed_repository_baseline",
+      "git_blob_sha": "cdfd33aab553a0dca8648c732a905fade39ad0b1",
+      "sha256": "e7015761f0ee2239932ec71c2a367041775ec835fc349dfe436cf653c396c4af",
+      "hash_scope": "sha256对应本轮本地UTF-8快照字节，比仓库原字节仅多末尾一个LF；git_blob_sha对应固定仓库原字节。正文无差异，不声称两份文件字节完全相同；均不是外部原件哈希。",
+      "repository_content_sha256": "22a677251f428c8bae045aacbfb6add339786d2a320164ea7e26fc82f8006420",
+      "snapshot_difference": "仅本地快照末尾多一个LF（0x0A）；去除此一个字节后重新计算Git blob，与所列git_blob_sha一致。"
+    },
+    {
+      "id": "B2",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/4994f47ee524b80786ec79bd893298cacece0492/research/admissions/nursing-careers.md",
+      "title": "nursing-careers.md",
+      "publisher": "Pathwise Research",
+      "published": null,
+      "read_at_utc": "2026-11-03",
+      "scope": "护理路径背景；不采用本轮未核的考试细则或更强岗位描述。",
+      "locators": [
+        "完整固定版本"
+      ],
+      "capture_kind": "fixed_repository_baseline",
+      "git_blob_sha": "5cc8954c88f4ed805460c46f612ad2c80affe325",
+      "sha256": "bdbcee1f09bf0e7d76b6ae92abd471064500fc231ae538e8a53772e392e4c15d",
+      "hash_scope": "sha256对应本轮本地UTF-8快照字节，比仓库原字节仅多末尾一个LF；git_blob_sha对应固定仓库原字节。正文无差异，不声称两份文件字节完全相同；均不是外部原件哈希。",
+      "repository_content_sha256": "ba20c06a26bdcd5fb8001feded4eed19522d50f1e1bb24f714bd59b2fd5d8a11",
+      "snapshot_difference": "仅本地快照末尾多一个LF（0x0A）；去除此一个字节后重新计算Git blob，与所列git_blob_sha一致。"
+    },
+    {
+      "id": "B3",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/4994f47ee524b80786ec79bd893298cacece0492/research/admissions/aging-economy-careers.md",
+      "title": "aging-economy-careers.md",
+      "publisher": "Pathwise Research",
+      "published": null,
+      "read_at_utc": "2026-11-03",
+      "scope": "人口—支付—岗位背景；不新增人口数字或扩大候选学校。",
+      "locators": [
+        "完整固定版本"
+      ],
+      "capture_kind": "fixed_repository_baseline",
+      "git_blob_sha": "aba7a01dda93e7fe79bb0851650c101d6afe368a",
+      "sha256": "9b0798d9b06dc31409f838d834fcad8aba6915aa08c85f6007012a3c9ee6f185",
+      "hash_scope": "sha256对应本轮本地UTF-8快照字节，比仓库原字节仅多末尾一个LF；git_blob_sha对应固定仓库原字节。正文无差异，不声称两份文件字节完全相同；均不是外部原件哈希。",
+      "repository_content_sha256": "862b68ea0e2e052e7982e06953ff8b8f3ad722f2a802d5fd09812e0686c70d15",
+      "snapshot_difference": "仅本地快照末尾多一个LF（0x0A）；去除此一个字节后重新计算Git blob，与所列git_blob_sha一致。"
+    },
+    {
+      "id": "R1",
+      "url": "https://mzj.nanjing.gov.cn/njsmzj/mzdt/202406/t20240613_4690010.html",
+      "title": "南京2023老龄事业发展状况报告发布稿",
+      "publisher": "南京市民政局",
+      "published": "2024-06-13",
+      "locators": [
+        "人口老龄化持续加深"
+      ],
+      "scope": "南京2023常住年龄结构，仅支撑潜在需求，不线性外推2037或岗位。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R2",
+      "url": "https://www.nhsa.gov.cn/art/2022/2/21/art_37_7840.html",
+      "title": "医疗机构检查检验结果互认管理办法",
+      "publisher": "国家卫生健康委等",
+      "published": "2022-02-14",
+      "locators": [
+        "第2、17—19、22—29、39条"
+      ],
+      "scope": "不含医师诊断，必要复查例外与质量要求，不因互认调减区域/机构医保预算总额；非医院增员事实。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R3",
+      "url": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2025njytabl/shirddbjy/202512/t20251205_5706248.html",
+      "title": "南京市医保局人大建议答复",
+      "publisher": "南京市医疗保障局",
+      "published": "2025-12-05",
+      "locators": [
+        "署2025-07-09；第一（三）"
+      ],
+      "scope": "本地DRG与成本约束；不把原研药议题费用变化推成影技/护理用工。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R4",
+      "url": "https://www.nanjing.gov.cn/hdjl/xwfbh/2026njrjdh/index.html",
+      "title": "2026南京软件大会新闻发布会",
+      "publisher": "南京市工业和信息化局等",
+      "published": "2026-06-16",
+      "locators": [
+        "产业背景及答记者问四项举措"
+      ],
+      "scope": "多行业场景、工具及存量人才转型；计划和营收非订单/本科岗位。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R5",
+      "url": "https://xxgk.njmu.edu.cn/2017/0622/c2947a93469/page.htm",
+      "title": "医学影像技术专业介绍",
+      "publisher": "南京医科大学",
+      "published": "2021-05-30",
+      "locators": [
+        "学制/学位/培养目标"
+      ],
+      "scope": "四年及检查技术目标；不证明2027安排、个人能力或就业。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R6",
+      "url": "https://nau.edu.cn/_t1291/2026/0527/c5730a157904/page.htm",
+      "title": "南京审计大学2026年本科招生章程",
+      "publisher": "南京审计大学",
+      "published": "2026-05-27",
+      "locators": [
+        "第三条、第17条"
+      ],
+      "scope": "基本四年与专业分配参照；不承诺2027成员、资格或规则。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R7",
+      "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WKu9S6spzddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "title": "阜外医院深圳医院放射科技师招聘",
+      "publisher": "四川大学就业网承载招聘原文",
+      "published": "2026-09-18",
+      "locators": [
+        "学历、正文专业、任职条件"
+      ],
+      "scope": "深圳应届本科技师入口，影像技术/影像学；非南京现状或2031承诺。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R8",
+      "url": "https://jy.gzhu.edu.cn/index.php/web/index/jobs-brief-detail?id=STUXSWE",
+      "title": "广汽商贸物流2027校园招聘",
+      "publisher": "广州大学就业网承载招聘原文",
+      "published": "2026-10-12",
+      "locators": [
+        "Java开发、业务系统分析、仓储/运输运筹算法岗位"
+      ],
+      "scope": "广州本科计算机/软件开发与分析，AI有具体本科运筹入口；数据未逐项明列；不补Java空缺条件，不证南京或跨行业无成本。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R9",
+      "url": "https://xzfg.moj.gov.cn/mobile/law/detail?LawID=209",
+      "title": "护士条例（2020修订本）",
+      "publisher": "国家行政法规库",
+      "published": "2020-03-27",
+      "locators": [
+        "第7、17、21条"
+      ],
+      "scope": "学习/实习、考试、注册与护理责任分开；不扩考试全部细则、不以门槛保就业。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R10",
+      "url": "https://zs.njmu.edu.cn/2026/0518/c19562a301321/page.htm",
+      "title": "南京医科大学2026年本科招生章程",
+      "publisher": "南京医科大学",
+      "published": "2026-05-18",
+      "locators": [
+        "第14、15、17条"
+      ],
+      "scope": "专业分配、选科与部分体检限制参照；不把某专业限制套全组，不承诺2027。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    },
+    {
+      "id": "R11",
+      "url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html",
+      "title": "江苏省2026年普通高校招生热点问题",
+      "publisher": "江苏省教育考试院",
+      "published": "2026-07-25",
+      "locators": [
+        "第5、8问"
+      ],
+      "scope": "退档不补投同批后列平行组、服从覆盖适用全组；只作现行参照。",
+      "capture_kind": "reused_previously_verified_source_from_fixed_baseline",
+      "reused_from": "B1",
+      "external_original_reopened_this_round": false,
+      "original_sha256": null,
+      "hash_note": "本轮未重新取得该外部原件哈希；追溯固定B1正文及其明示原件定位，不用基线哈希冒充原件哈希。"
+    }
+  ],
+  "failed_or_unavailable": [
+    {
+      "id": "F1",
+      "url": "https://www.njls.gov.cn/zwgk/qrddbjy/lsrdschy/202511/t20251126_5698287.html",
+      "title": "南京溧水长期护理服务培训相关答复线索",
+      "date": "2025-11-26",
+      "outcome": "web不可访问、HTTP503；未取正文",
+      "used_as_evidence": false,
+      "effect": "成人完整执行人员/配置规则仍未知，不采镜像或摘要。",
+      "failure_capture_sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.ccgp-jiangsu.gov.cn/fileApi/320000/202606/ce9cea5ca1ce4d919d6297202be93552.doc",
+      "title": "江宁医院项目采购文件附件",
+      "date": "2026-06",
+      "outcome": "web超时、HTTP503、另一读取CRAWL_TIMEOUT；未取原件",
+      "used_as_evidence": false,
+      "effect": "不补技术明细、团队、付款、验收和员工筛选。"
+    },
+    {
+      "id": "F3",
+      "url": "https://wjw.nanjing.gov.cn/njswshjhsywyh/202512/P020251224656029492675.xlsx",
+      "title": "南京卫生招聘岗位表线索",
+      "date": "2025-12",
+      "outcome": "工具不支持内容类型；HTTP403后停止",
+      "used_as_evidence": false,
+      "effect": "未读目标护理行，不借第三方摘要补学历、考试或编外字段。"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.njqxq.gov.cn/qxqrmzf/qxqwshjhsyj/202610/t20261028_6027409.html",
+      "title": "栖霞相关采购线索",
+      "date": "2026-10-28",
+      "outcome": "cache miss；HTTP403后停止",
+      "used_as_evidence": false,
+      "effect": "不作为第三张采购卡。"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.njtrh.com/rencaizhaopin/zhaopingonggao/2026-04-01/8751.html",
+      "title": "同仁医院公告另一域名入口",
+      "date": "2026-04-01",
+      "outcome": "读取超时；官方.org页面成功，见E1",
+      "used_as_evidence": false
+    },
+    {
+      "id": "F6",
+      "url": "https://www.njsdyyy.com.cn/",
+      "title": "医院首页线索",
+      "date": null,
+      "outcome": "工具不可访问，停止；无护理原岗",
+      "used_as_evidence": false
+    }
+  ],
+  "unresolved": [
+    "南京成人完整项目执行人员、配置与实际存量承接比例",
+    "三细岗2031同口径新人接收、合格供给、可比薪资及用工",
+    "江宁项目真实付款与本科任务",
+    "个人偏好/资格、2027正式组及学制",
+    "2037实际经历与接收，不默认六年就业或硕士"
+  ]
+}
