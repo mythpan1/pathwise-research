@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "LOCAL-HISTORY-NANJING-YANCHENG-20261103-AUTHOR-PUBLISH",
+  "actor_id": "advance_existing_career_paths",
+  "role": "有界研究作者及获授权机械发布，不担任独立审核",
+  "task_ref": "LOCAL-HISTORY-NANJING-YANCHENG-20261103",
+  "parent_run_id": null,
+  "client": "delegated cloud task",
+  "transport": "native tools and GitHub connector",
+  "tools": [
+    "public source reading",
+    "local files/PDF rendering inspection",
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "本作者实际模型元数据未暴露，不以角色名认证后端",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "本作者实际强度元数据未暴露",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T03:13:09.448605+00:00",
+  "recorded_by_run_id": "LOCAL-HISTORY-NANJING-YANCHENG-20261103-AUTHOR-PUBLISH",
+  "read_rules_ref": {
+    "commit": "71915703df16365aeae601fb8632a80323a45bdd",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "reviews/README.md"
+    ],
+    "note": "沿已读且未变约束；范围按本批最新授权，不恢复历史暂停采集。"
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-history-nanjing-yancheng-choices.md",
+    "research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+    "research/admissions/jiangsu-history-6527-decision-slice.md",
+    "work/runs/LOCAL-HISTORY-NANJING-YANCHENG-20261103.json"
+  ],
+  "participants": [
+    {
+      "actor": "verify_nanjing_yancheng_teaching",
+      "role": "教师入口/队列有界原件收集",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    },
+    {
+      "actor": "verify_nanjing_yancheng_accounting",
+      "role": "盐城财务/产业有界原件收集",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    },
+    {
+      "actor": "review_history_city_choices",
+      "role": "与作者分离的独立审核，未参与编写",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    }
+  ],
+  "scope_boundary": "历史6527与物理27151独立；扬大/南财主比较，天津工业后位接续；旧招生资料复用，无真实个人接受/成绩/预算，不能直接交个人志愿表。",
+  "evidence_boundary": [
+    "盐城教师代码44/本科/合并格已目视；编制/统筹/服务及考试不等入职保证。",
+    "南京表1/目录本次仅官方URL抽取并沿旧已核PDF复用，不冒称新取原PDF。",
+    "盐城企业财务地点原HTML合并格覆盖；具体毕业窗/合同与金融专业接收未明。",
+    "人口流量/存量/时钟、财政到外补、产业到新人分工分开，未取得退休调配或合资格供需分母。",
+    "必要政策校准只澄清原招聘报到证旧字样，不扩大学或就业法律全审。"
+  ],
+  "local_review_history": [
+    {
+      "version": "v1",
+      "report_sha256": "c8168b5939451fcc4b17b8f0edec154a4f8d31b0ed85e35a8ad134bfc17a65f4",
+      "sources_sha256": "f36cb2edf8375249a9647d275ac334669dab5109bdfddbb33d663103584dc7ca",
+      "outcome": "独立建议采用，阻断0、非阻断建议2。"
+    },
+    {
+      "version": "N1/N2及必要资格校准",
+      "report_sha256": "485bc0557067b6f0126ad27b181354f97300ac0685f67ce3380ce8f5b7ee71c7",
+      "sources_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "change": "中汇共同届别/境外窗与主比较层次；原页报到证字样与2023五部门取消政策核对，不造通用材料门槛。",
+      "outcome": "原独审复核通过，N1/N2解决；Q1必要新增政策已核，无新增阻断。导航/归属待精确H审。"
+    }
+  ],
+  "checks": "作者本地39项一致性自查通过，不是独审或平台CI。",
+  "privacy": "原HTML/PDF/图片/完整返回与原表均不上传；不读改原CSV或采暂停高考录取数据，不访问人员名单，不报名联系投递，不用RDC或配置CLI凭据。",
+  "publication_status": "准备阶段，不预填H或平台检查；实际PR交接绑定完整H。",
+  "issue_ref": null,
+  "issue_note": "沿获授权LOCAL成果路径，不重试此前被拒的新建Issue；精确操作若拒绝即停报。"
+}
