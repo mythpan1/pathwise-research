@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "LOCAL-STORAGE-GRADUATE-ENTRY-20261103-AUTHOR-PUBLISH",
+  "actor_id": "advance_existing_career_paths",
+  "role": "有界研究作者及获授权机械发布，不承担独立审核",
+  "task_ref": "LOCAL-STORAGE-GRADUATE-ENTRY-20261103",
+  "parent_run_id": null,
+  "client": "delegated cloud task",
+  "transport": "native tools and GitHub connector",
+  "tools": [
+    "public source reading",
+    "local filesystem",
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "作者运行未暴露可核模型报告，不以角色名称认证后端",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "作者运行未暴露可核强度报告",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T01:32:18.168191+00:00",
+  "recorded_by_run_id": "LOCAL-STORAGE-GRADUATE-ENTRY-20261103-AUTHOR-PUBLISH",
+  "read_rules_ref": {
+    "commit": "3cf14e514c9ce09d82cad140e767da1b3b766c7e",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "reviews/README.md"
+    ],
+    "note": "前两文件按本批固定基线重读，blob与前批相同；身份和审核约束沿前批已读不变版本"
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-jsu20-communication-software.md",
+    "research/admissions/jiangsu-jsu20-communication-software-sources.json",
+    "work/runs/LOCAL-STORAGE-GRADUATE-ENTRY-20261103.json"
+  ],
+  "participants": [
+    {
+      "actor": "verify_storage_graduate_entry",
+      "role": "原件收集",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    },
+    {
+      "actor": "review_storage_entry_update",
+      "role": "不同运行独立审核，未参与编写",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    }
+  ],
+  "source_result": "同一2027届校招career对象直接列具体本科测试职位2384153，六关键字段与旧J2一致。只一条公司/岗位源链，不计独立样本或新增名额。",
+  "evidence_bounds": [
+    "岗位要求未逐岗重复2027应届；不保证免经验录用、带教、实时名额或2031接收。",
+    "批次活动2026-09-22、旧详情展示发布2026-08-27、职位create_time2024-8-26不可互代，不猜复用原因。",
+    "HUST只同源表行参照；普通reader已读，另取HTML403后停止，无原HTML快照声明。",
+    "旧培养、政策、统计及费用复用，未恢复录取采集或核高校培养。"
+  ],
+  "local_review_history": [
+    {
+      "version": "v1",
+      "report_sha256": "2d534ade2e7f38cc081e366b40713e8ce55bd59128505aae2136a939c340da5e",
+      "sources_sha256": "0b4340e4bc5d2bd0280316be2cd517c20f48d1602a64ad1efd7e6862482c64cb",
+      "outcome": "独立建议采用，研究无阻断，N1非阻断时态澄清"
+    },
+    {
+      "version": "N1",
+      "report_sha256": "9efb5c4f6331551ee0da4de84583934f619de57c05f8fcac0e6a2c60b52e096d",
+      "sources_sha256": "0b4340e4bc5d2bd0280316be2cd517c20f48d1602a64ad1efd7e6862482c64cb",
+      "change": "仅J2前批读取/本次沿用时态澄清",
+      "outcome": "原独审窄复核通过，N1解决；无内容阻断。仍不替代PR精确H审核。"
+    }
+  ],
+  "checks": "作者本地18项一致性自查通过；上批固定脚本镜像9tests OK；不是平台CI。",
+  "publication_status": "开始准备，本记录不预填成果提交；精确H在实际PR交接绑定。",
+  "privacy": "不上传原HTML/图/完整返回/内部日志，不采录取数据或修改旧表，不配置CLI登录、不用RDC，不正式APPROVE。",
+  "issue_ref": null,
+  "issue_note": "沿已授权LOCAL成果路径，不重试此前明确拒绝的新建Issue操作。"
+}
