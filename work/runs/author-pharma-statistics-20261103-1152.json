@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run_summary",
+  "is_template": false,
+  "run_id": "author-pharma-statistics-20261103-1152",
+  "actor_id": "compare_pharma_statistics_choices",
+  "role": "research_author",
+  "task_ref": "LOCAL-pharma-statistics-choices-20261103",
+  "parent_run_id": "advance_existing_career_paths",
+  "base_commit": "6d325694028d8d2403aab68b805d321551e5fcef",
+  "recorded_at_utc": "2026-11-03T12:04:42.010930+00:00",
+  "client": "native_subagent",
+  "transport": "native",
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "verification": "unknown",
+    "source": "Parent handoff requests Astra; runtime did not expose a verifiable reported identity.",
+    "backend_identity": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "verification": "unknown",
+    "source": "Parent handoff; no independent runtime setting metadata."
+  },
+  "owned_scope": [
+    "author/"
+  ],
+  "actual_work": [
+    "Read fixed plan, rules and necessary existing cards.",
+    "Verified frozen source indexes against their SHA-256 and byte sizes; read the local recruitment HTML, policy text and DM poster.",
+    "Authored conditional comparison, source index and two-line navigation append.",
+    "Ran author-only content, privacy, navigation and digest checks. No independent review or GitHub publication performed."
+  ],
+  "tools_used": [
+    "exec_command",
+    "view_image",
+    "collaboration.send_message"
+  ],
+  "input_snapshot": {
+    "base": "6d325694028d8d2403aab68b805d321551e5fcef",
+    "manifest_sha256": "53be07f78e9fd8adb181c16f4b17e8e4ba70d7b554e2ef0fe616d02c3fea1a1e",
+    "source_indexes": [
+      {
+        "source_group": "production",
+        "sha256": "fa025a732fa9867f1d2837928ee0d0307aafc57de697f51243cf40fc45dbf8c3"
+      },
+      {
+        "source_group": "statistics",
+        "sha256": "987d10a182e6491f4173f65b6d7cfe568f883a6f4207144158f5057c01806c90"
+      },
+      {
+        "source_group": "policy-business",
+        "sha256": "4bd26a51864d87d1d2d67d19b3c90361b55d2632f1690d48060233a6f57c2f54"
+      }
+    ]
+  },
+  "read_rules": [
+    "AGENTS.md",
+    "docs/agent-workflow.md",
+    "docs/agent-provenance.md",
+    "docs/experiment-protocol.md",
+    "docs/research-architecture.md",
+    "reviews/README.md"
+  ],
+  "authorship_limits": [
+    "Collectors obtained source material separately.",
+    "Requested model/reasoning are not verified backend identity.",
+    "Author self-check is not independent review.",
+    "Raw sources and full internal operation logs remain local."
+  ],
+  "outputs": [
+    {
+      "artifact": "REPORT.md",
+      "sha256": "d20acaac041428b634f8933d0bbe4ddb44e8c7e0023e28d1c7161e667f7b4b77",
+      "bytes": 16117
+    },
+    {
+      "artifact": "sources.json",
+      "sha256": "9760b0fe1deb25aaa18e576c78e85bd315ad5953ca0e1c8f2cb790ffccc9826e",
+      "bytes": 15298
+    },
+    {
+      "artifact": "NAVIGATION.txt",
+      "sha256": "c343e9c8e45a673046f77c12265891af05856d369d3b6c74e35f0d7abc8ee4c7",
+      "bytes": 224
+    }
+  ],
+  "revision_note": "Accepted the independent R1 nonblocking wording precision suggestion: replace the mistaken two-school phrasing with two majors of the same school. No substantive conclusion, source, or navigation change."
+}
