@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "dot-publisher-energy-capacity-choices-20261103-01",
+  "actor_id": "publish_energy_paid_choices",
+  "role": "机械发布与精确版本核验；不作研究内容独审或条件合并",
+  "task_ref": "LOCAL-ENERGY-CAPACITY-CHOICES-20261103",
+  "parent_run_id": null,
+  "client": "delegated cloud task",
+  "transport": "native subagent and GitHub connector",
+  "tools": [
+    "GitHub connector for read-only repository/state checks and requested writes",
+    "local SHA-256/Git blob checks",
+    "local JSON/reference checks"
+  ],
+  "model": {
+    "requested": "gpt-6-luna",
+    "reported": null,
+    "source": "运行后端元数据未暴露",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "high",
+    "reported": null,
+    "source": "运行强度元数据未暴露",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T06:31:10Z",
+  "recorded_by_run_id": "dot-publisher-energy-capacity-choices-20261103-01",
+  "read_rules_ref": {
+    "base_commit": "main as read during preparation; publication requires current verification",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "reviews/README.md"
+    ],
+    "note": "Read through GitHub connector before publication."
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+    "research/admissions/jiangsu-27151-energy-capacity-materials-control-sources.json",
+    "research/admissions/jiangsu-27151-software-control-synthesis.md",
+    "work/runs/LOCAL-ENERGY-CAPACITY-CHOICES-20261103.json"
+  ],
+  "participants": [
+    {
+      "actor": "energy-paid-choices-author-20261103",
+      "role": "作者",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown; author handoff/R2 note"
+    },
+    {
+      "actor": "verify-storage-capacity-payment-20261103",
+      "role": "有界容量政策与运行证据收集",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown; local policy manifest"
+    },
+    {
+      "actor": "RUN-20261103-STORAGE-BUSINESS-01",
+      "role": "有界企业经营原证核查",
+      "requested_model": null,
+      "requested_reasoning": null,
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown; local business manifest does not expose model/strength"
+    },
+    {
+      "actor": "review_energy_paid_choices-20261103-r1",
+      "role": "同一独立审核运行的R1/R2内容审核",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown; reviewer reports requested settings only"
+    },
+    {
+      "actor": "publish_energy_paid_choices",
+      "role": "机械发布",
+      "requested_model": "gpt-6-luna",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    }
+  ],
+  "scope_boundary": "江苏物理方向；2027入学、2031本科入职、2037观察均为假设时钟，27151仅历史观察尺。就业地区R、真实位次/资格及组成员接受度未知。只比较既定上电材料与杭电合作自动化路径，不新增院校或招聘，不采2026录取，不读CSV。",
+  "evidence_boundary": [
+    "N01为114号有条件容量补偿路径；纯市场运行收益需另按交易、结算及履约规则分析，不把清单条件推广为全部市场收益的前提。",
+    "N02为全国新型储能统计，不是单站顶峰或回款；N03为企业系统产品收入，不识别材料/控制单项收入或新人任务。",
+    "R01—R10继承固定base摘要，本批未重读对应外部原件。"
+  ],
+  "author_revisions": [
+    {
+      "revision": "r0",
+      "purpose": "固定比较边界。"
+    },
+    {
+      "revision": "r1",
+      "report_sha256": "4cca5795662f499f15223bbbd36e0bfeb361e5560273b39e99bfeeb152025bf4",
+      "sources_sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+      "purpose": "基于固定原始来源交接形成完整报告与来源索引。"
+    },
+    {
+      "revision": "r2",
+      "report_sha256": "b07ffbcffdcb7ce2ddb1fe85f32413e34d71a51b188f3c9526d03194f25aef42",
+      "sources_sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+      "purpose": "作者采纳两项R1非阻断建议，仅改报告两处文字；来源索引未变。R1无阻断，无“阻断修复”历史。"
+    }
+  ],
+  "candidate_outputs": [
+    {
+      "path": "research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "sha256": "b07ffbcffdcb7ce2ddb1fe85f32413e34d71a51b188f3c9526d03194f25aef42",
+      "bytes": 18048
+    },
+    {
+      "path": "research/admissions/jiangsu-27151-energy-capacity-materials-control-sources.json",
+      "sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+      "bytes": 31022
+    }
+  ],
+  "navigation_change": {
+    "path": "research/admissions/jiangsu-27151-software-control-synthesis.md",
+    "base_commit": "640df3fb60e4d439bc73e5524a9c3fdba2a3700e",
+    "base_prefix_sha256": "ee465aa111ecf0358ee82b088f00560db5f88bf662d55ddc88b064b7d798fe9f",
+    "appended_navigation_sha256": "94cb65d9da41df36137403fd84d3308944b602976910c985cdbd02bf7f5bfaa9",
+    "candidate_file_sha256": "1a2dad5ad6b1e85b52f77c4ed5322121dccc5bf99a181153530c0f114bbce52b",
+    "bytes": 20468,
+    "note": "完整旧文件字节前缀后原样附加NAVIGATION.txt两行。"
+  },
+  "local_review_history": [
+    {
+      "round": "R1",
+      "reviewer_run_id": "review_energy_paid_choices-20261103-r1",
+      "record_path": "independent-review-energy-capacity/R1.md",
+      "record_sha256": "b58188a5975efc2eca96d872d1f1b8e68b612b15710716e1364fe01e6d55dcca",
+      "bound_report_sha256": "4cca5795662f499f15223bbbd36e0bfeb361e5560273b39e99bfeeb152025bf4",
+      "bound_sources_sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+      "bound_head_sha": null,
+      "verdict": "建议采用",
+      "blocking_items": 0,
+      "nonblocking_items": 2,
+      "status": "R1独立审核；作者自愿采纳两项非阻断建议。"
+    },
+    {
+      "round": "R2",
+      "reviewer_run_id": "review_energy_paid_choices-20261103-r1",
+      "record_path": "independent-review-energy-capacity/R2.md",
+      "record_sha256": "e7a870ea4c941f915e4e451ce49ea9c553b71f746a43a56e8aab1d4c89a71dd9",
+      "bound_report_sha256": "b07ffbcffdcb7ce2ddb1fe85f32413e34d71a51b188f3c9526d03194f25aef42",
+      "bound_sources_sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+      "bound_head_sha": null,
+      "verdict": "建议采用",
+      "blocking_items": 0,
+      "nonblocking_items": 0,
+      "accepted_nonblocking_items": [
+        "NB1: 114号相应容量补偿链与纯市场收益的规则边界分开。",
+        "NB2: 东山岗位具体届别与带教未核明，正文明确标出。"
+      ],
+      "status": "R2窄复核验收两项采纳；无新增阻断。"
+    }
+  ],
+  "checks": [
+    "冻结REPORT与sources SHA-256与最终交接值吻合；R1/R2文件SHA-256与协调者提供值吻合。",
+    "R2确认报告相对R1仅两处差异、sources未变；publisher另做差异核对。",
+    "9个本地base摘要均匹配manifest；来源索引引用一致。",
+    "本地JSON/链接/引用与导航前缀核对通过。",
+    "固定控制器Git blob hash已核验；9项本地单测通过，非本批研究实证或GitHub CI。"
+  ],
+  "privacy": "原始网页、PDF、完整抽取文本、图片与原始运行日志不进入PR；不含个人资料或凭据。不使用RDC、CLI登录或录取CSV。",
+  "publication_status": "最终候选本地核验通过。将按协调者明确授权创建普通（非Draft）PR并明确交Dot审核；H只在提交成功后记录。H上普通独审评论由原审另做。此run记录不预填PR、H、CI结果或平台批准。",
+  "head_sha": null,
+  "pull_request": null,
+  "ci": null,
+  "formal_approval": false,
+  "issue_ref": null,
+  "issue_note": "仅使用LOCAL任务标识，不创建Issue，不重试之前被拒的Issue操作。"
+}
