@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "record_type": "research_task_run_summary",
+  "task_ref": "LOCAL-NUCLEAR-OPERATIONS-CHOICES-20261103",
+  "baseline": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "dd568a929b4c0005ed6fcf25e37b873e0a3290f1"
+  },
+  "status": "prepublication_snapshot_after_local_R1",
+  "source_runs": [
+    {
+      "run_id": "verify-nuclear-undergrad-entry-20261103",
+      "actor_id": "nuclear-jobs-collector",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "backend_identity": "unknown",
+      "source_index_sha256": "5d374896806c3d06848cc8ae391856846ef42e918c68599c07d34b5052090489",
+      "history": "jobs r2 clarified collector-stage wording before author freeze; not content R1 rework."
+    },
+    {
+      "run_id": "nuclear-policy-20261103-collector",
+      "actor_id": "verify_nuclear_policy_scope",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "backend_identity": "unknown",
+      "source_index_sha256": "2ab2e5cbb7d35a7b5b4dce129bcca7862c757bbc4c1e122dc7de48c6b3a77566",
+      "history": "Bounded policy-source collection."
+    },
+    {
+      "run_id": "nuclear-project-collector-20261103-1113",
+      "actor_id": "verify_laiyang_project_stage",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "backend_identity": "unknown",
+      "source_index_sha256": "542279972c05a572cc4c0599a8f2822dcb33b7e2cad3f81a279a1cf2f732e43e",
+      "history": "Bounded project-source collection."
+    }
+  ],
+  "author": {
+    "run_id": "nuclear-choices-author-20261103-r1",
+    "actor_id": "nuclear-choices-author",
+    "model_requested": "gpt-6-astra",
+    "reasoning_requested": "ultra",
+    "reported_model": null,
+    "reported_reasoning": null,
+    "backend_identity": "unknown",
+    "frozen_sha256": {
+      "report": "a76ae50994ca23d320959b4b8d9b4bb0a0dd1d5404c6427b65ce138941537c31",
+      "sources": "37ef6318f1b930b982fe6292148fa3fd9277085abbb79de7f382f50dfd1413b5",
+      "navigation_append": "01a1b7432017655d8ebc781896affb03d5320bb0a495b6b9ee9c6d1f2ec7fa39",
+      "author_record": "a9f32daf1ca196b2f889899a9ed7e2782cac6c6ed64ecaa8719129d9e50aa2a1"
+    }
+  },
+  "independent_review": {
+    "run_id": "nuclear-independent-review-20261103-r1",
+    "actor_id": "review_nuclear_control_choices",
+    "model_requested": "gpt-6-astra",
+    "reasoning_requested": "ultra",
+    "reported_model": null,
+    "reported_reasoning": null,
+    "backend_identity": "unknown",
+    "record_sha256": "8d9db5d6e3a0acbe24b22681ddc27aeca3bc800455d3bfcee3688461d98081c9",
+    "verdict": "建议采用",
+    "blocking_count": 0,
+    "required_changes_count": 0,
+    "scope": "Frozen local report, sources, NAV and author record only; no GitHub H reviewed."
+  },
+  "publisher": {
+    "run_id": "publisher-nuclear-choices-20261103",
+    "actor_id": "publish_nuclear_control_choices",
+    "model_requested": "gpt-6-luna",
+    "reasoning_requested": "high",
+    "reported_model": null,
+    "reported_reasoning": null,
+    "backend_identity": "unknown"
+  },
+  "files_sha256": {
+    "research/admissions/jiangsu-27151-nuclear-operations-control.md": "a76ae50994ca23d320959b4b8d9b4bb0a0dd1d5404c6427b65ce138941537c31",
+    "research/admissions/jiangsu-27151-nuclear-operations-control-sources.json": "37ef6318f1b930b982fe6292148fa3fd9277085abbb79de7f382f50dfd1413b5",
+    "research/admissions/jiangsu-three-group-entry-bridges.md": "0637dd217713f4a3be8bf2e543015f49ffa9d1aa4dc718963b67921d66b962cb",
+    "work/runs/LOCAL-NUCLEAR-OPERATIONS-CHOICES-20261103.json": null
+  },
+  "navigation": {
+    "base_prefix_sha256": "66b63281b6ce9a461170147c64e2693fc27c32d7187b135a6af409a8c4467045",
+    "append_sha256": "01a1b7432017655d8ebc781896affb03d5320bb0a495b6b9ee9c6d1f2ec7fa39",
+    "lines_added": 2,
+    "prefix_preserved": true
+  },
+  "checks": "Frozen author outputs match FROZEN.json byte counts and SHA-256. Local report/source/NAV privacy scan found no personal contacts or absolute paths; source JSON parses. Stage has exactly four paths. Legacy tests not rerun.",
+  "scope": "Four candidate paths only; source originals/full texts/raw logs/absolute paths/personal contact data/2026 admissions CSV or data excluded.",
+  "formal_approval": false,
+  "head_sha": null,
+  "pull_request": null,
+  "ci": null,
+  "merge": null
+}
