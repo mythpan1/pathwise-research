@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "heritage-english-author-20261103-01",
+  "actor_id": "heritage-english-author",
+  "role": "substantive_author",
+  "task_ref": "LOCAL-HERITAGE-ENGLISH-CHOICES-20261103",
+  "parent_run_id": null,
+  "client": "native_subagent",
+  "transport": "native",
+  "tools": [
+    "functions.exec / exec_command: local read, hash verification and artifact writes",
+    "collaboration.send_message: parent handoff"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Coordinator role request; no independently exposed backend/model report",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Coordinator role request; no runtime setting report exposed",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T14:14:47.641419+00:00",
+  "recorded_by_run_id": "heritage-english-author-20261103-01",
+  "read_rules_ref": {
+    "commit": "9fd9331d798badaf66247419b7c79a304effbaa9",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "docs/research-architecture.md",
+      "reviews/README.md",
+      "templates/agent-run.json",
+      "templates/work-step.json",
+      "templates/review-record.md"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8",
+      "docs/agent-workflow.md": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1",
+      "docs/agent-provenance.md": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f",
+      "docs/experiment-protocol.md": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6",
+      "docs/research-architecture.md": "1436c50eccc300e422d117a28de40725dea27f9e9c18153c9f57a4f25a0925bc",
+      "reviews/README.md": "8d26b4e9d7b836e2a52c4b73eea777dba6c71d600a49aba2b33690e6a6850f92",
+      "templates/agent-run.json": "be096acf9585b4a5c75c85bacc80edc4006960972ab83db5913beb6d1685a501",
+      "templates/work-step.json": "c75a64dc701e964558a7f7e26423e964ed6caac089bda163d3a156e723c9ed6b",
+      "templates/review-record.md": "9b3b0ca1415d97d5300879ccce611f836b0ef6ac40eec500e3b4d117e5fe3e1d"
+    }
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-history-heritage-english-choices.md",
+    "research/admissions/jiangsu-history-heritage-english-sources.json",
+    "research/admissions/jiangsu-history-trade-english-order.md",
+    "work/runs/heritage-english-author-20261103.json"
+  ],
+  "note": "Author only. No independent review, external refetch or GitHub mutation. Requested settings do not authenticate backend identity. Coordinator operating run ID was not supplied; parent_run_id remains null.",
+  "input_versions": {
+    "base_ref": "9fd9331d798badaf66247419b7c79a304effbaa9",
+    "snapshot_sha256": "ed4c8a8d932a5dc29d6e8e2217950374dca5d6baa698069358c2b848e5d6dd88",
+    "base_manifest_sha256": "5b1138fe2257660fffed1d4f1dc90a9fd42129a624179f863a70bb2e89864e38",
+    "policy_index_sha256": "82a2ab74aad89f31cef4e3850034bb161e9d82741db982a95224a7ddfa1fd3df",
+    "recruitment_index_sha256": "ea53289e213e44ff1c1044d3f92e5edb79935f20c0ab12dea51917149ca9be36",
+    "reuse_manifest_sha256": "75640f01f1155870d36c6991a9ced32bffb8d9907c0bdb864629d2228df489ee"
+  },
+  "actual_operations": [
+    {
+      "operation": "Read fixed rules and prior cards; verify base16 hashes/git blobs and reused representations",
+      "status": "completed"
+    },
+    {
+      "operation": "Draft bounded comparison, read frozen collector originals and recheck input versions",
+      "status": "completed"
+    },
+    {
+      "operation": "Apply final source mapping and remove unadopted Shanghai role subcase; preserve provisional draft",
+      "status": "completed"
+    },
+    {
+      "operation": "Write report/source index; append exactly two lines to unchanged navigation baseline; run structural/privacy/arithmetic self-checks",
+      "status": "completed"
+    },
+    {
+      "operation": "Read actual R1 review/result and verify hashes; adopt sole nonblocking N1 as narrow precision change; retain V1 snapshots",
+      "status": "completed"
+    }
+  ],
+  "reasoning_evidence_summary": [
+    {
+      "conclusion": "B weak priority under E0",
+      "basis": "N1/N2 refute exclusive museum entry; R1 supplies separate English-prioritized order-task example. E0 explicitly assumes no decisive museum-preparation disadvantage and a feasible acceptable extra outlet; examples alone do not prove these assumptions."
+    },
+    {
+      "conclusion": "A reversal under H",
+      "basis": "N1/N2 supply real education tasks; N3/N4 only policy/payment channels. Requires A qualification and relatively more obtainable domain training plus paid undergraduate task/feedback; not inferred from major title."
+    },
+    {
+      "conclusion": "Historical opportunity and group acceptance remain separate",
+      "basis": "B1/B2: target5797 versus6527, group6766,12 members; R3/old2026Q&A are dated rules, not2027 guarantees."
+    }
+  ],
+  "self_check": {
+    "checked_at": "2026-11-03T14:14:47.641506+00:00",
+    "results": {
+      "frozen_input_manifest": true,
+      "nav_base_exact_prefix": true,
+      "nav_append_exact_two_lines": true,
+      "sources_json_parse": true,
+      "report_source_link_mapped": true,
+      "excluded_shanghai_role_removed": true,
+      "no_sensitive_patterns": true,
+      "arithmetic": true,
+      "no_2027_rule_claim": true
+    },
+    "limitations": [
+      "Self-check is not independent review.",
+      "No actual student inputs, future probabilities or new professional eligibility adjudication.",
+      "Original sources and full logs remain local; publication contains sanitized pointers only."
+    ]
+  },
+  "planned_not_executed": [
+    "Independent reviewer checks V1-to-V2 narrow differences and any future remote H binding",
+    "Authorized publisher may submit exactly approved artifacts; author has made no GitHub writes"
+  ],
+  "review_revision_history": [
+    {
+      "version_before": "v1",
+      "version_after": "v2",
+      "recorded_at": "2026-11-03T14:19:45.489532+00:00",
+      "independent_review": {
+        "review_id": "R1",
+        "reviewer_run": "heritage-english-independent-review-20261103",
+        "scope": "Frozen local V1 only; not a remote commit approval",
+        "verdict": "建议采用",
+        "blocking_count": 0,
+        "nonblocking_ids": [
+          "N1"
+        ],
+        "controlled_review_ref": "independent-review/R1.md",
+        "sha256": "8f2757267518344a4fe4d7db0300529784b420651de3c29fd9ccd4f0c4aefc83",
+        "result_sha256": "e4f650063d16e7eee1d0d77eb825dc2666437258472c3d3bc3b53da732b0b923",
+        "reviewed_frozen_manifest_sha256": "891926da2cc9afca9a3c19cd63bb9c4417fd0d4b12e6c821fc76891f216deef7"
+      },
+      "author_action": "Adopted N1 precision suggestion only: full-time degree conditions for both SCU roles and exact English/guide-experience preference. V1 was accepted with no blockers; this is not a failed initial draft or an author independent review.",
+      "changed_artifacts": [
+        "REPORT.md",
+        "sources.json",
+        "AUTHOR-RECORD.json"
+      ],
+      "unchanged_artifact": "NAV.md",
+      "self_check": "Report differs only by requested terms; source JSON differs only in N1 facts_used; NAV byte-identical to V1. No new sources, GitHub writes or outcome claims.",
+      "status": "Narrow changes completed; independent V2 recheck pending"
+    }
+  ]
+}
