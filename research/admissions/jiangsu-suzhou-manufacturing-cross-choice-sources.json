@@ -1,0 +1,277 @@
+{
+  "basis": "5ebcf2c7e32347a648030c192a371bb4bc12c30e",
+  "updated_date_utc": "2026-11-03",
+  "scope": "已有南邮05、江大普通20、杭电合作03的跨目标比较；只新核一条永联校招及其直接职位，未采招生数据",
+  "sources": [
+    {
+      "id": "W1",
+      "url": "https://51uns.bysjy.com.cn/Announce/Details/3575502?schoolCode=10700",
+      "title": "永联科技2027届校园招聘简章",
+      "publisher": "西安理工大学就业平台承载深圳市永联科技股份有限公司招聘",
+      "published_date": "2026-09-20 10:44:23",
+      "captured_date_utc": "2026-11-03",
+      "reading_method": "作者与收集者分别正常亲读公开原页及HTML；解析可见正文/表格/链接，不执行脚本或登录",
+      "locator": "五、招聘对象；六、2027届计划中“计划”行；三、人才培养；招聘职位中“计划（职能岗）”链接",
+      "supports": [
+        "对象2027应届；计划一行明确本科及以上、企业管理/工商管理/物流管理/工科类、苏州/南通",
+        "同一公告计划职位链接positionId=3229343，不与采购岗或公司通用专业表混配",
+        "宣布入职理论/产品实操及一对一导师安排；专业素养/实践要求，学生会社团管理经验为优先"
+      ],
+      "limits": [
+        "苏州与南通并列，不保证苏州分配；计划不是采购或软件开发",
+        "物流明列但不独占，工科同样开放；未列信息管理不泛成所有管理类，也不推永久排除",
+        "培训是宣布安排，不证明训练兑现、零经验必录、当前空缺或2031持续接收",
+        "发布人数/广告工资不用于录用概率、学校排名或未来收益比较"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "作者亲取原HTML",
+          "bytes": 62470,
+          "sha256": "3feeed00128cf0b1754892739f137e9febdaaf0e8b5237c6351e3deab75e96d9",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "url": "https://51uns.bysjy.com.cn/Announce/PositionDetails?positionId=3229343&schoolCode=10700",
+      "title": "计划（职能岗）",
+      "publisher": "西安理工大学就业平台承载永联具体职位",
+      "published_date": null,
+      "captured_date_utc": "2026-11-03",
+      "reading_method": "从W1计划职位链接正常打开原页/HTML，与同一positionId绑定；公司地址与岗位地点分开",
+      "locator": "职位概述第1—4项；页头计划职名/苏州市南通市/本科及以上；W1直接href链接",
+      "supports": [
+        "生产计划制定落实、仓储/生产管理、进度跟踪、物料核算/到料/缺料预警、报表及仓采车间异常协调",
+        "该具体职位的地点/学历与W1计划行相符；届别及逐岗专业来自直接关联的W1，不用公司宽表补齐"
+      ],
+      "limits": [
+        "未写ERP/MES开发或实施顾问职责；使用系统/数据不等写软件",
+        "详情未单独给发布日期，不能凭抓取时间编首发日期",
+        "W1/W2同一雇主招聘链，不算两个独立样本；未核留用/轮班/分配安排"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "作者亲取具体职位原HTML",
+          "bytes": 26973,
+          "sha256": "0d5cabce460d36094ea9fd5dd2550ef7027351415f78fdc06b76ba40701e3524",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ]
+    },
+    {
+      "id": "K1",
+      "url": "https://kedacom.zhiye.com/zpdetail/511214858",
+      "title": "应用软件开发工程师（2027校招）",
+      "publisher": "苏州科达官方招聘",
+      "published_date": "2026-09-22",
+      "reading_method": "复用前批已核原件和冻结基线索引，本批未重取全页",
+      "locator": "工作地点；工作职责；任职资格1及其他专业扎实项目条款",
+      "supports": [
+        "苏州、应届本科及以上；计算机/软件/AI/信息管理等优先，其他专业扎实项目也欢迎",
+        "需求、AI辅助编码、评审、测试发布，宣布导师指导",
+        "至少一门编程语言、基础数据结构/算法、Git及了解/使用AI编程工具要求，不把加分项当必需"
+      ],
+      "limits": [
+        "不是独立ERP/MES实施顾问岗；不证明仅制造客户或与永联同客户/合同",
+        "信管和软件同列优先不证明各学校同等训练或双项目已获认可",
+        "不把信息管理明列扩为物流+AI专业已通过开发筛选；2031接收/训练兑现未知"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "前批已核原HTML，此次复用",
+          "bytes": 27845,
+          "sha256": "2f16834ecfd0ae7a63a7acbdba2d2de1b2a198490b60b17220a44eae2e1f7400",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "url": "https://scc.hnu.edu.cn/detail/career?id=715358",
+      "title": "上能2027届校招批次及具体测试岗2384153",
+      "publisher": "湖南大学就业网承载企业校招",
+      "published_date": null,
+      "event_date": "2026-09-22 09:00（活动不当发布）",
+      "reading_method": "复用#342已核同一career对象原HTML及旧J2六字段对应，本批不重复取该页",
+      "locator": "career.meet_name/career_talk_id715358；career.jobs内publish_id2384153；job_require/job_descript",
+      "supports": [
+        "2027批次直接列本科及以上具体测试岗，深圳/苏州，自动化等明列、CET4",
+        "光储产品平台、单板/性能/白盒/环境与记录任务"
+      ],
+      "limits": [
+        "产品测试不自动等于控制现场/所有PLC/机械设计任务；计算机/软件未逐项明列不强填符合",
+        "零经验录用/带教兑现/2031接收未知；双地点不保证自选苏州",
+        "旧create_time与详情发布时间不同，不能作2026首次建岗/新增名额证据"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "前批已核原HTML，此次复用",
+          "bytes": 197793,
+          "sha256": "a9f337cfcace9cf6372d05f0b4cbd8bc341ec626d10fc963b5568749caeb943a",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5ebcf2c7e32347a648030c192a371bb4bc12c30e/research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "title": "五组历史/合作条件综合",
+      "publisher": "pathwise-research既有已核成果",
+      "published_date": "固定基线，不编首次发布日期",
+      "reading_method": "读取固定基线已采用正文；不读取原CSV或重核招生/收费原件",
+      "locator": "候选组/项目条件；实际任务与接受边界",
+      "supports": [
+        "南邮05两个双学士项目、杭电03两个合作专业，既有历史来源/规则及2025费用事实",
+        "杭电两合作28000元/年，四年年费不变112000仅学费，不是2027锁价；南邮相关条件仍待核"
+      ],
+      "limits": [
+        "只作历史候选与既有核验记录，不证明2027可报或真实用户接受",
+        "先前P/P_E/P_S不拼成同一真实用户；无实际分数/预算等不输出个人可提交顺序"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "固定基线研究快照",
+          "bytes": 19909,
+          "sha256": "b187ecd608aa1e32cf88e920719ec3869fd52eade1cf8c37f66fd8aa9223b9a2",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5ebcf2c7e32347a648030c192a371bb4bc12c30e/research/admissions/jiangsu-jsu20-communication-software.md",
+      "title": "江大20计软/通信比较（#342后）",
+      "publisher": "pathwise-research既有已核成果",
+      "published_date": "固定基线，不编首次发布日期",
+      "reading_method": "读取固定基线已采用正文；不读取原CSV或重核招生/收费原件",
+      "locator": "候选组/项目条件；实际任务与接受边界",
+      "supports": [
+        "江大普通20六成员，与基地17不混同；普通计软四年与2025费6380年标准复用",
+        "真实接受仍未知；2027/2031/2037与岗位公告时间分开"
+      ],
+      "limits": [
+        "只作历史候选与既有核验记录，不证明2027可报或真实用户接受",
+        "先前P/P_E/P_S不拼成同一真实用户；无实际分数/预算等不输出个人可提交顺序"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "固定基线研究快照",
+          "bytes": 14015,
+          "sha256": "9efb5c4f6331551ee0da4de84583934f619de57c05f8fcac0e6a2c60b52e096d",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ],
+      "inherited_source": {
+        "url": "https://github.com/mythpan1/pathwise-research/blob/5ebcf2c7e32347a648030c192a371bb4bc12c30e/research/admissions/jiangsu-27151-jsu20-buffer.md",
+        "locator": "2025收费原件核验与四项6380元/年、四年25520元段；同批计算机/软件均在四项中",
+        "boundary": "主源通信/软件稿的“两专业”只指通信及软件；计算机收费沿buffer继承，不将主源直接支持范围扩大"
+      }
+    },
+    {
+      "id": "T2",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5ebcf2c7e32347a648030c192a371bb4bc12c30e/research/admissions/jiangsu-27000-industrial-control-pair.md",
+      "title": "东山自动化本科任务的既有核验",
+      "publisher": "pathwise-research既有原件核验记录",
+      "published_date": "原岗位记录2026-09-10；研究首次发布日期不在本批补写",
+      "reading_method": "复用已采用研究中高校承载岗位核验，不声称本次重读原网页",
+      "locator": "真实入口表第二行自动化工程师、苏州昆山",
+      "supports": [
+        "本科、自动化等；设计/BOM、改造安装调试和移交任务"
+      ],
+      "limits": [
+        "具体届别及实际带教未明，不能借T1校招批次补齐",
+        "原件未重读，本批仅解释任务差别，不扩为2027已确认自动化校招"
+      ]
+    },
+    {
+      "id": "P1",
+      "url": "https://www.suzhou.gov.cn/yhyshjzl/zcwj/202501/885ec241322042a2a570a2a8cf359d63.shtml",
+      "title": "市政府关于印发苏州市加快推动软件产业高质量发展的若干政策措施的通知",
+      "publisher": "苏州市人民政府",
+      "published_date": "2025-01-08（文件落款2024-12-30）",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "复用固定基线已核来源/限制，本批未重读原网页",
+      "locator": "第一项软件创新平台（含软硬件适配测试中心）；第四项工业软件/制造场景；第七项人才；末段有效期",
+      "supports": [
+        "制造场景、工业软件和软硬适配、人才培育的政策方向",
+        "2025-02-01起施行，有效至2027-12-31"
+      ],
+      "limits": [
+        "不是2031/2037政策延续、实际订单或本科名额；补助目标不是已兑现新增岗位"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 25888,
+          "sha256": "e334043d6b47eb005badf94c917739e85805078e817956476c8cd274cd29fd7d",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ],
+      "reuse": "不将旧政策期限/统计口径自动延伸到2031/2037"
+    },
+    {
+      "id": "P2",
+      "url": "https://jg.ndrc.gov.cn/c/2025-02-09/500482.shtml",
+      "title": "关于深化新能源上网电价市场化改革 促进新能源高质量发展的通知（发改价格〔2025〕136号）",
+      "publisher": "国家发展改革委、国家能源局",
+      "published_date": "2025-02-09（文件落款2025-01-27）",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "复用固定基线已核来源/限制，本批未重读原网页",
+      "locator": "第（二部分）（一）项“新能源项目（风电、太阳能发电，下同）”定义；第三部分存量/增量；第（九）项新建项目储能前置限制；末段",
+      "supports": [
+        "本通知将新能源项目限定为风电、太阳能发电；上网电量市场交易定价，区分存量增量的价格结算机制",
+        "不得将配置储能作为新建风电、太阳能发电项目核准、并网、上网等前置条件"
+      ],
+      "limits": [
+        "前置限制不得扩展为所有新能源种类、存量项目或所有储能配置情形；不是禁止自愿储能，也不是储能补贴或岗位配额",
+        "上游收益到设备采购、付费验证、新人任务需要条件链，未核省级执行及企业订单"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 35092,
+          "sha256": "8b4369cad0c2e4bd237fe5783030629b7925eb201d74c6b420cb5ce593d8cf17",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ],
+      "reuse": "不将旧政策期限/统计口径自动延伸到2031/2037"
+    },
+    {
+      "id": "P3",
+      "url": "https://tjj.suzhou.gov.cn/sztjj/tjgb/202604/3dc4b574cabd4e86b36ec5d3280e927c.shtml",
+      "title": "2025年苏州市国民经济和社会发展统计公报",
+      "publisher": "苏州市统计局、国家统计局苏州调查队",
+      "published_date": "2026-04-30",
+      "captured_date_utc": "2026-11-02",
+      "reading_method": "复用固定基线已核来源/限制，本批未重读原网页",
+      "locator": "综合就业；工业；教育普通高等学校；人口段",
+      "supports": [
+        "城市制造/服务业基础及高校毕业、引留、发布岗位、常住人口的不同口径",
+        "支持地域背景与外地流动需纳入观察，不能只看本地出生量"
+      ],
+      "limits": [
+        "总体引留/岗位发布/毕业量不可相减为特定职业供需缺口或胜率",
+        "不支持2031/2037合格求职供给和岗位数量预测"
+      ],
+      "evidence_snapshots": [
+        {
+          "kind": "原始公开网页快照",
+          "bytes": 66716,
+          "sha256": "1bb3922e4410dcf95f41fa8a1965411570d1303e662a03cddbc9b7fb36156719",
+          "availability": "受控本地留存，不提交原始材料"
+        }
+      ],
+      "reuse": "不将旧政策期限/统计口径自动延伸到2031/2037"
+    }
+  ],
+  "source_count_boundary": "W1/W2是同一条雇主源链，不是两个独立样本；其余为明确复用。",
+  "separation": {
+    "facts": "岗位与历史候选事实仅限各supports及版本；原始材料不上传",
+    "assumptions": "江苏生源/2027拟入学实际四年/苏州目标地及任务偏好分支均为非用户坐标，不替用户作接受声明",
+    "inferences": "付款与预算传导、2031/2037情景、目标优先/反转及职业备选为作者推导，不是订单/留用/岗位数预测"
+  },
+  "exclusions": [
+    "未核得独立苏州ERP/MES实施顾问本科应届入口，不用广州岗位、苏州公司总部或采购实习补齐；未继续穷搜。"
+  ]
+}

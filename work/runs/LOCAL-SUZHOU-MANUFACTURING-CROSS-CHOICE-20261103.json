@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "LOCAL-SUZHOU-MANUFACTURING-CROSS-CHOICE-20261103-AUTHOR-PUBLISH",
+  "actor_id": "advance_existing_career_paths",
+  "role": "有界横向研究作者/获授权机械发布，非独立审核者",
+  "task_ref": "LOCAL-SUZHOU-MANUFACTURING-CROSS-CHOICE-20261103",
+  "parent_run_id": null,
+  "client": "delegated cloud task",
+  "transport": "native tools and GitHub connector",
+  "tools": [
+    "public source read",
+    "local filesystem",
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "本作者运行实际模型未暴露，不以项目角色名认证后端",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "本作者运行实际强度未暴露",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T02:19:55.059638+00:00",
+  "recorded_by_run_id": "LOCAL-SUZHOU-MANUFACTURING-CROSS-CHOICE-20261103-AUTHOR-PUBLISH",
+  "read_rules_ref": {
+    "commit": "5ebcf2c7e32347a648030c192a371bb4bc12c30e",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "reviews/README.md"
+    ],
+    "note": "沿本批前已读且未变版本；任务按最新有界授权，不复活历史暂停项"
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+    "research/admissions/jiangsu-suzhou-manufacturing-cross-choice-sources.json",
+    "research/admissions/jiangsu-27151-software-control-synthesis.md",
+    "work/runs/LOCAL-SUZHOU-MANUFACTURING-CROSS-CHOICE-20261103.json"
+  ],
+  "participants": [
+    {
+      "actor": "verify_suzhou_business_entries",
+      "role": "有界原件收集",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    },
+    {
+      "actor": "review_manufacturing_cross_choice",
+      "role": "独立内容审核，未参与编写",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "verification": "unknown"
+    }
+  ],
+  "source_result": "只新核永联2027简章及直接计划职位3229343一条雇主源链；作者与收集者原HTML同哈希，苏州/南通、本科、物流及工科与物料任务闭合。旧候选/岗位/政策/人口明确复用。",
+  "decision_boundary": "信管/计软可争同一开发入口；物流为愿不同计划任务者的本科方向，非物流独占或开发同出口；制造客户预算相关性为情景，不是已证同客户合同或风险对冲。",
+  "local_review_history": [
+    {
+      "version": "v1",
+      "report_sha256": "445a45924f22634e4ffbd7b83aa50809094548a146be28661b6696d211c735fb",
+      "sources_sha256": "274e4287b8cb5b65103d22c4661414f26a28f1fdf0eafeb3bd3559b0016b2b48",
+      "outcome": "独立建议采用，阻断0、非阻断建议2。"
+    },
+    {
+      "version": "N1/N2",
+      "report_sha256": "75ae5627a541a093738e1ba341a6c779408f53da449ec8e2ad08d764e1f43ace",
+      "sources_sha256": "809d27a51ef55efbbf5daf4fda48cbbbc35b810eaad85ba0ba199d1ff7c9ebe3",
+      "change": "计算机收费明确沿buffer继承；科达条件补语言/算法/Git/AI要求。不改费用数值，不扩课程/招聘范围。",
+      "outcome": "原独审窄复核通过，N1/N2关闭，阻断0；导航追加待精确H核。"
+    }
+  ],
+  "checks": "作者本地23项一致性自查通过，非独审/平台CI。",
+  "privacy": "不采暂停录取数据、不读改旧CSV、不上传原HTML/图片/完整返回/内部日志，不联系HR、不登录或投递，不用RDC或配置CLI凭据。",
+  "publication_status": "准备阶段；不预填成果提交，精确H由实际PR交接绑定。",
+  "issue_ref": null,
+  "issue_note": "沿既有获授权LOCAL成果路径，不重试先前被拒的新建Issue；精确操作若拒绝即停。"
+}
