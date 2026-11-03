@@ -1,0 +1,562 @@
+{
+  "task_ref": "LOCAL-COHORT-RETIREMENT-CHOICES-20261103",
+  "revision": "r2",
+  "research_date_utc": "2026-11-03",
+  "fixed_base": "307b20e06e95b96dfaa4556bb39ce2e3db7be8f2",
+  "scope": "江苏历史类既有扬大06语文师范、扬大07法学、天津工业旧01会计/金融，三组四显示成员；2031四年本科入口与2037开放情景；南京/盐城仅为条件就业地。",
+  "source_policy": "新增原件与完整页面阅读文本仅在受控本地；仓库只交研究及脱敏索引。复用不声称本轮重新访问或保存原件。未知用null，不填0。",
+  "baseline_inputs": [
+    {
+      "repository_path": "research/industry/demography-education-health-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/industry/demography-education-health-2037-choices.md",
+      "sha256": "f8f1fe9599f93967db2d89c226706048022267299ddfa6c3319b3421b458ad84",
+      "bytes": 10209,
+      "git_blob_sha": "1b7c51dc0501ab5bf0c7dad8fbac3946f1892b57",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/industry/education-2036-employment-scenarios.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/industry/education-2036-employment-scenarios.md",
+      "sha256": "852a113163601fe9d9cf0cc812150e486fe7fa2781dcdd551a772a4e23104169",
+      "bytes": 7413,
+      "git_blob_sha": "b19155b534c4703c49f32f5c9fcc335417905d57",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/graduate-field-competition.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/graduate-field-competition.md",
+      "sha256": "14e87e3394ee1e3e749dc022a683a2b54fa833133af77e478a195e372d32c0fe",
+      "bytes": 4525,
+      "git_blob_sha": "55f4e50bfcb83d5ffa61da784b7b8680c2a46167",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-2025-history-law-accounting-pair.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-2025-history-law-accounting-pair.md",
+      "sha256": "41b61afda607ffb9ff5249ef1bffdb12298e6f155e9ba276dfbebf474858b88b",
+      "bytes": 25014,
+      "git_blob_sha": "70589867b1abe769c11cc651c3de7e120e923af1",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-history-6527-decision-slice.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-6527-decision-slice.md",
+      "sha256": "c4cbafca2979235bde37e64e8b7b85618fa4a9b44e9c9762991116c0af541791",
+      "bytes": 18686,
+      "git_blob_sha": "db3285278c9a81a18394b30d698c50b17e989a16",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "bytes": 20412,
+      "git_blob_sha": "ca134f3ce9508f7a8f1979606ab28c4ae9a9203e",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-history-nanjing-yancheng-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices.md",
+      "sha256": "e6f7b81bfa1dec36b901a8b38594bf62e88c2ccf2dcb06f22b929575569e3e93",
+      "bytes": 14698,
+      "git_blob_sha": "516c592b06ef5718277a491ebfb727e829a3ab8c",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-history-teacher-law-pair.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "sha256": "64780ea6e726fb43bdf1fb0c156564b56be5eaf20f8d3d9449e3209631efa14d",
+      "bytes": 13766,
+      "git_blob_sha": "3c71784b6d03cae1b6c6136b0f7d4c109490c34d",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-history-tiangong-buffer.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-tiangong-buffer.md",
+      "sha256": "1db589289968598d473f4606bd443c4ba8267a5d0ae507287dc8f3cef1c104da",
+      "bytes": 11092,
+      "git_blob_sha": "aa62c7efa9ef8bc689842ec638f9c2dba7bd29cc",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    },
+    {
+      "repository_path": "research/admissions/teacher-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/teacher-careers.md",
+      "sha256": "50b29c4d72996dc92d5ac68590fe0d12b6014bc0dcb88c110b241c812e0452a7",
+      "bytes": 2982,
+      "git_blob_sha": "dc3b356b19e2855cbfcaa6bced79d0835a3cb304",
+      "use": "fixed adopted research snapshot; not independent original evidence"
+    }
+  ],
+  "collection_handoffs": [
+    {
+      "evidence_id": "YANCHENG-REDEPLOYMENT-20261103",
+      "findings_sha256": "2746513c72a13672e3090ccfa081307fe68ac81c6b7fa49089b2ac9b09d266c9",
+      "manifest_sha256": "557481503e1dd8ab407a943df6a3e41ba5be860fa30032eaac1be4a9ce287896",
+      "availability": "受控本地，只供授权审核；不上传原件或工作日志"
+    },
+    {
+      "evidence_id": "RETIREMENT-RULE-20261103",
+      "findings_sha256": "5c919340b12974985a801edf000baf8e8b03846081f23fc39490b3f24e30842a",
+      "manifest_sha256": "1675aa1b666033954fe44997a33e215cce55bb78b5f04f03f1891cc35d695bb5",
+      "availability": "受控本地，只供授权审核；不上传原件或工作日志"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Y1",
+      "use": "newly_checked_official_page_text",
+      "title": "市教育局：优化资源配置 办好人民满意的教育",
+      "url": "https://ycedu.yancheng.gov.cn/art/2025/9/1/art_579_4362726.html",
+      "publisher": "盐城市教育局办公室",
+      "published_date": "2025-09-01",
+      "document_date": null,
+      "accessed_at_utc": "2026-11-03T07:34:03Z",
+      "method": "完整官方页阅读文本；web.open返回全部可见正文，收集者手工转录并规范化导航空白；作者读回正文定位。非原HTML、非搜索摘要。",
+      "page_or_section": "正文“优化教师结构统筹资源配置”及“发挥银龄力量提升教育质量”；阅读记录L22–26、L30–35",
+      "raw_html": null,
+      "raw_html_sha256": null,
+      "original_response_headers": null,
+      "exact_origin_capture_time": null,
+      "reader_cache_recency": "last month",
+      "reading_text_snapshot": {
+        "sha256": "9b3fd96fc968fdca7b8297bbed4899a51b4342954b38caf402fc798a47d5ff32",
+        "bytes": 7350,
+        "kind": "完整工具可见页阅读转录；非源站逐字节原件",
+        "availability": "受控本地不上传"
+      },
+      "retrieval_limit": "原HTML直取HTTP403后停止，未重试或绕路；访问日不是源站实时快照日期。",
+      "supports": [
+        "截至2025-09-01报道所称目前，全市191名符合条件教师参加跨学段交流；有小学至初中、初中至高中实际案例，伴随选拔与培训。",
+        "同一报道转述市教育局直属学校2025招募17名初高中优秀退休教师计划，面向市内外，披露原则年龄不超过65周岁、高级教师以上职称等；拟满工作量教学并带教。"
+      ],
+      "limits": [
+        "191不是外招、语文学科人数或全员到岗/永久调编证明，起算时间、学科分布、实际编制划转不明。",
+        "17仅为市直计划，完整招募公告/岗位表未取得，实聘、学科、期限、净替代量不明；不推广至所有退休者。",
+        "两数字来自同一报道不同对象，不能算减少208岗或与外招相减；不引用个人称谓/名单。"
+      ]
+    },
+    {
+      "id": "Y2",
+      "use": "newly_checked_official_page_text",
+      "title": "盐政办发〔2025〕10号：关于优化全市教育资源配置的指导意见",
+      "url": "https://wap.yancheng.gov.cn/art/2025/5/22/art_45641_11010.html",
+      "publisher": "盐城市人民政府办公室；页面来源字段为市司法局办公室",
+      "published_date": "2025-04-16",
+      "document_date": "2025-04-16",
+      "accessed_at_utc": "2026-11-03T07:34:03Z",
+      "method": "完整官方页阅读文本；web.open返回全部可见正文，收集者手工转录并规范化导航空白；作者读回正文定位。非原HTML、非搜索摘要。",
+      "page_or_section": "第（五）（六）（十五）（十六）（十七）项；阅读记录L41–42、L61–66",
+      "raw_html": null,
+      "raw_html_sha256": null,
+      "original_response_headers": null,
+      "exact_origin_capture_time": null,
+      "reader_cache_recency": "last week",
+      "reading_text_snapshot": {
+        "sha256": "4dcf499489e73b7051504ca3b176a33624d5778e9bef38d71edf66520d2de4ef",
+        "bytes": 10793,
+        "kind": "完整工具可见页阅读转录；非源站逐字节原件",
+        "availability": "受控本地不上传"
+      },
+      "retrieval_limit": "原HTML直取HTTP403后停止，未重试或绕路；访问日不是源站实时快照日期。",
+      "supports": [
+        "公办普通中小学编制单列管理，在总量约束下跨层级、跨区域、跨学段调配使用闲置空余编制；培训调整富余学段师资、银龄返聘及县管校聘。",
+        "政策同时部署小班化/班额调整、高中扩容和引进优秀师资，不能反推停止外招。"
+      ],
+      "limits": [
+        "政策安排不是2031实际预算、编制或招聘数量；实际跨县流量、永久划编未知，191人不证明全员编制转移。调配须符合适用条件，不保证跨学科跨学段互换。",
+        "URL含2025/5/22不替代正文发文和页面显示2025-04-16；不将盐城政策当南京已实施。"
+      ]
+    },
+    {
+      "id": "R",
+      "use": "newly_checked_official_document_body",
+      "title": "全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定及国务院关于渐进式延迟法定退休年龄的办法",
+      "url": "https://www.gov.cn/yaowen/liebiao/202409/content_6974294.htm",
+      "document_issuers": [
+        "全国人民代表大会常务委员会",
+        "国务院"
+      ],
+      "host_publisher": "中国政府网",
+      "page_source": "新华社",
+      "published_at": "2024-09-13 17:17",
+      "decision_adopted_date": "2024-09-13",
+      "effective_date": "2025-01-01",
+      "accessed_at_utc": "2026-11-03T07:36:49.337227+00:00",
+      "page_or_section": "决定第一、五项；国务院办法第一、二、三条。第六条仅检查不作为返聘岗位证据。",
+      "method": "收集者实际保存政府官网载正式决定及办法的完整HTML；作者读回正式文件正文。web.open为403，结果返回前已启动的正常本地GET成功200，之后无重试。不是人社部或全国人大网原发布页。",
+      "raw_html_snapshot": {
+        "sha256": "b5b763ab56db62f3deb971aed23ca97572d0a9ff95e670b501e067dc4669753b",
+        "bytes": 31968,
+        "availability": "受控本地不上传"
+      },
+      "document_text_snapshot": {
+        "sha256": "e044b1eafd6450ecdabc82490562714dae0c372806c24e02f836edbf3dbaa4ec",
+        "bytes": 5032,
+        "availability": "受控本地不上传"
+      },
+      "supports": [
+        "法定退休年龄渐进调整与有条件的弹性提前/延迟分开；提前须最低缴费年限、最长3年且不低于原法定年龄；到法定年龄后单位与职工协商一致可延迟最长3年。",
+        "国家另有规定从其规定，不得违法强制或变相强制选择；仅能修订旧固定退出时点假设。"
+      ],
+      "limits": [
+        "未取得四个附件表内容，不作个人退休年龄计算；没有教师岗位类别/专门程序或本地实际选择比例。",
+        "不推算盐城语文退休、出编、外招净额或所有教师可自愿留任。",
+        "第六条保障超龄招用者基本权益，不证明公办教师返聘岗位、人数或编制属性。"
+      ]
+    },
+    {
+      "id": "N-T",
+      "title": "南京玄武2026公开招聘教师公告/表1/专业目录",
+      "publisher": "南京市教育局",
+      "published_date": "2026-01-09",
+      "locator": "公告二（一）3/5/6/7及编内/考试条款；表1第1页初中语文；目录第1页语文本科",
+      "supports": [
+        "初中语文3岗、本科及以上，汉语言文学（师范）；须符合公告师范本科毕业群体、学位/教资及通用条件",
+        "2026应届有关学历学位/教资时限2026-08-01；公告为编内招聘、按学科合并招聘，有考试程序"
+      ],
+      "limits": [
+        "当期实例不是2031资格/名额承诺；3岗不代表南京全市或录用率",
+        "不按小学/高中不同表行推本例初中，也不凭取证通过代表聘用",
+        "本次未取得表1/目录原始PDF字节，抽取文本不是原PDF文件或目视合并格证据；关键事实同时沿已采用原卡复用"
+      ],
+      "urls": [
+        "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761685.html",
+        "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557636600491.pdf",
+        "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557638494444.pdf"
+      ],
+      "use": "reused_adopted_verification_not_recollected",
+      "method": "本轮只读固定main已采用文稿及来源索引，不宣称重新取得原件。前批取得方式和限制见固定索引。",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "reuse_record_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "prior_snapshot_metadata": [
+        {
+          "kind": "本次公告原HTML",
+          "bytes": 45307,
+          "sha256": "c68653d1df296a14b494f8276ade352aae8649234e2db8cc7d11df1c8ffdd27f",
+          "availability": "受控本地留存，不上传原始材料"
+        },
+        {
+          "kind": "官方PDF URL抽取文本，非原PDF",
+          "bytes": 4566,
+          "sha256": "1668dd4fe0f3f35b58665fb16119a5a1acb09f02081e7db58933da1726c2ce7d",
+          "availability": "受控本地留存，不上传原始材料"
+        },
+        {
+          "kind": "官方PDF URL抽取文本，非原PDF",
+          "bytes": 3884,
+          "sha256": "4df60f907325feaebd330afc190871f92996d6907add217f89846a43da533a25",
+          "availability": "受控本地留存，不上传原始材料"
+        }
+      ],
+      "snapshot_limit": "这些是前批来源索引记录的哈希；本轮未新取原件，不能称本轮再次目视或认证原始字节。"
+    },
+    {
+      "id": "Y-T",
+      "title": "盐城市教育局直属学校2026年上半年公开招聘教师公告及岗位表",
+      "publisher": "盐城市教育局",
+      "published_date": "2026-05-15",
+      "locator": "公告二3/5、三3（3）、四、六3/4/5；岗位表PDF第4页（印刷14页）代码44及合并对象/教资列",
+      "supports": [
+        "市直初中语文代码44、2岗，本科及以上/相应学位，中国语言文学类、学科教学（语文）/课程与教学论（语文）；2026毕业生含公告允许的往届无单位等群体",
+        "一般公招未列指定院校或本科必须师范限制；初中须2026-08-31前取得相应教资",
+        "全额事业编制，笔面试体检考察；义务教育局管校聘统筹；3年服务及违约责任"
+      ],
+      "limits": [
+        "2岗不作未来配额/竞争率或单校空缺；91是全学科总计划不代语文补员",
+        "不把高中硕士入职3年取证例外套初中或本科；不按公告正文/表内年龄边界差异给未提供出生年的个人下判断",
+        "师范/教资不等聘用；2031资格、财政/编制、新招与在岗调配尚未定"
+      ],
+      "url": "https://ycedu.yancheng.gov.cn/art/2026/5/15/art_714_4425295.html",
+      "attachment_url": "https://ycedu.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=5b5018514a5a4d22b2b8a900aa7ec24f.pdf",
+      "use": "reused_adopted_verification_not_recollected",
+      "method": "本轮只读固定main已采用文稿及来源索引，不宣称重新取得原件。前批取得方式和限制见固定索引。",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "reuse_record_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "prior_snapshot_metadata": [
+        {
+          "kind": "本次官方公告HTML",
+          "bytes": 26517,
+          "sha256": "599bb7965393eea8fa393b8c0a41882c3373a45559771a5cd0419d7c6cde89f6",
+          "availability": "受控本地留存，不上传原始材料"
+        },
+        {
+          "kind": "本次官方岗位原PDF",
+          "bytes": 201235,
+          "sha256": "70b5dff8d6c742015ec3cc7f4ff14f1ff068c70ac4de09717d05398177bfb802",
+          "availability": "受控本地留存，不上传原始材料"
+        },
+        {
+          "kind": "原PDF第4页阅读渲染，不上传",
+          "bytes": 588482,
+          "sha256": "2b1c6c86c36803a2a018f8778ac2f25cd89022deb18662ea5b7301aeeb0d80e7",
+          "availability": "受控本地留存，不上传原始材料"
+        }
+      ],
+      "snapshot_limit": "这些是前批来源索引记录的哈希；本轮未新取原件，不能称本轮再次目视或认证原始字节。"
+    },
+    {
+      "id": "N-A",
+      "title": "中汇2027汇梦生与菁英计划校招",
+      "publisher": "南开大学就业网承载中汇招聘",
+      "published_date": "2026-10-16",
+      "locator": "招聘基本条件（三）的共同届别/证书时限；审计职责/任职资格/地点；相邻资产估值细岗分别看",
+      "supports": [
+        "共同条件为2027应届本科及以上；境外2026-10至2027-07毕业，2027年8月底前取得学历学位并经学历认证等要求。只作当期校园入口。",
+        "审计本科及以上、专业不限，统计/计算机/信管/财会等优先，地点含南京，现场实施、底稿、流程/内控",
+        "评估本科及以上，金融/财会等优先，地点含南京；不是普通本科银行后台保证"
+      ],
+      "limits": [
+        "公司广义城市清单不替各岗位地点；税务/风控未列南京者不搬本地",
+        "专业不限不是同准备/免补差；未证明这几所学校已获雇主认可、2031持续接收或南京市场全部结构",
+        "前批119792是采用页；117052旧页失效不作事实来源",
+        "不把2027届校招范围变为任意届本科或2037社招；国内/境外具体证书时限按原文分别核",
+        "原页基本条件仍列报到证；与Q1取消政策不相符，不照抄成通用法定招聘材料要求；单位实际办理解释未核"
+      ],
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/119792.html",
+      "use": "reused_adopted_verification_not_recollected",
+      "method": "本轮只读固定main已采用文稿及来源索引，不宣称重新取得原件。前批取得方式和限制见固定索引。",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "reuse_record_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "prior_snapshot_metadata": [
+        {
+          "kind": "前批官方URL全文抽取结果，非原HTML",
+          "bytes": 13584,
+          "sha256": "2f1e21757da73aff274285324ce1ab77256f41116362dd3e04de173e2e45c8b0",
+          "availability": "受控本地留存，不上传原始材料"
+        }
+      ],
+      "snapshot_limit": "这些是前批来源索引记录的哈希；本轮未新取原件，不能称本轮再次目视或认证原始字节。"
+    },
+    {
+      "id": "Y-A",
+      "title": "通威太阳能（盐城）有限公司2027招聘简章",
+      "publisher": "大连理工大学盘锦校区就业网承载企业招聘",
+      "published_date": "2026-10-14（本篇关联列表日期）",
+      "locator": "标题2027；应届启航工程；招聘表财务第9数据行，首行工作地盐城rowspan=12覆盖；offer/三方流程",
+      "supports": [
+        "财务本科及以上，会计/财管/审计/财政等，基础会计知识及Office；预算/成本/税费/报表和经营成本数据分析",
+        "工作地盐城由合并格直接对应；2027标题、应届培养及签约三方支持校招就业入口形态"
+      ],
+      "limits": [
+        "未给精确毕业日期窗/逐岗合同类型/班次/出差，不改写成已承诺特定合同或双休",
+        "金融未单列，不把等相关自动认定其符合，也不据未列判永久排除",
+        "未列CPA或初级会计硬槛；广告工资/人数不是2031收入或录用保证",
+        "盐城本例与南京审计不同雇主/任务，不是城市总市场的代表性差异"
+      ],
+      "url": "https://pjcareer.dlut.edu.cn/info/1051/48482.htm",
+      "use": "reused_adopted_verification_not_recollected",
+      "method": "本轮只读固定main已采用文稿及来源索引，不宣称重新取得原件。前批取得方式和限制见固定索引。",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "reuse_record_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "prior_snapshot_metadata": [
+        {
+          "kind": "本次采用原HTML",
+          "bytes": 383209,
+          "sha256": "277a1ff0547fa60b4433daac1910ca4883ad9e7e91836d47f1acf8ff868d7ffe",
+          "availability": "受控本地留存，不上传原始材料"
+        },
+        {
+          "kind": "必要财务行及合并格派生字段",
+          "bytes": 3214,
+          "sha256": "315d217b7b5e9fc13981f728e91fcb909d2f227cc3fa125b160b435599ea9c6c",
+          "availability": "受控本地留存，不上传原始材料"
+        }
+      ],
+      "snapshot_limit": "这些是前批来源索引记录的哈希；本轮未新取原件，不能称本轮再次目视或认证原始字节。"
+    },
+    {
+      "id": "Q1",
+      "title": "关于做好取消普通高等学校毕业生就业报到证有关衔接工作的通知（人社部发〔2023〕26号）",
+      "publisher": "中组部、人社部、教育部、公安部、国务院国资委；人社部中国就业网发布",
+      "published_date": "2023-06-05网页发布；文件落款2023-04-23",
+      "locator": "一、简化求职就业材料；五、报到入职衔接；末段梳理规则要求",
+      "supports": [
+        "2023年起不再发放就业报到证，不再作为招聘录用等手续必需材料；支持不将N-A旧字样当通用法定门槛"
+      ],
+      "limits": [
+        "不代招聘单位解释该旧页条款，不替代2031适用材料/资格重新核验；不因此抹除真实学历学位/境外认证条件"
+      ],
+      "url": "https://chinajob.mohrss.gov.cn/c/2023-06-05/379428.shtml",
+      "use": "reused_adopted_verification_not_recollected",
+      "method": "本轮只读固定main已采用文稿及来源索引，不宣称重新取得原件。前批取得方式和限制见固定索引。",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-nanjing-yancheng-choices-sources.json",
+      "reuse_record_sha256": "1bada6c8e3107755c7dc3e3cc4d11811a11035edd8a785f7720e27decc6b464a",
+      "prior_snapshot_metadata": [
+        {
+          "kind": "本次官方政策原HTML",
+          "bytes": 49760,
+          "sha256": "e707b340465cf9441c58bf4a2a05908e4f2d1110d0135989451d41e771013447",
+          "availability": "受控本地留存，不上传原件"
+        }
+      ],
+      "snapshot_limit": "这些是前批来源索引记录的哈希；本轮未新取原件，不能称本轮再次目视或认证原始字节。"
+    },
+    {
+      "id": "N-L",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "天华院（南京）智能制造法务专员，2027秋招",
+      "publisher": "中国中化招聘官网",
+      "url": "https://wecruit.hotjob.cn/SU610b91ee0dcad4106ff11c21/pb/posDetail.html?postId=6aa35286ded00b8cb69ba6b4&postType=campus",
+      "published_date": null,
+      "updated_date": "2026-09-10",
+      "locator": "职责、任职条件、工作地；固定师范—法学卡“中间只核决定入口的事实”",
+      "method": "复用固定基线已核原岗，本轮未重访或新取HTML",
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "raw_html_sha256": null,
+      "supports": [
+        "南京、本科及以上法学相关；合同/招投标审查、纠纷协助兼党建宣传、公文综合；法律职业资格为优先。"
+      ],
+      "limits": [
+        "原页发布日/原始HTML哈希本轮未取得；2027届校招不是2027入学者的2031保证，未核预算及训练兑现。"
+      ]
+    },
+    {
+      "id": "U-T",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "扬州大学汉语言文学培养方案",
+      "publisher": "扬州大学文学院",
+      "url": "https://wxy.yzu.edu.cn/__local/A/D9/4E/A590B9418F1180A58CF3537C0D6_A77F53B5_485EB.pdf",
+      "published_date": null,
+      "applicable_entry_cohort": null,
+      "locator": "一、三、五及教育实习；固定师范—法学卡中间段",
+      "method": "复用固定基线已核方案，不重取PDF或展开课程",
+      "raw_pdf_sha256": null,
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "supports": [
+        "四年、文学学士、中学语文定位、教学训练和实习连接。"
+      ],
+      "limits": [
+        "不锁2027课程/适用届别、训练效果或免试教资；本轮费用未知。"
+      ]
+    },
+    {
+      "id": "TG-PLAN",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "天津工业大学2025分省计划",
+      "publisher": "天津工业大学本科招生网",
+      "url": "https://zsb.tiangong.edu.cn/2025/0619/c194a106309/page.htm",
+      "attachment_url": "https://zsb.tiangong.edu.cn/_upload/article/files/62/c0/5afcab16401e9b11566926e41d1a/b0420204-8e38-48d0-9eac-d1e9a06b579b.pdf",
+      "published_date": "2025-06-19",
+      "locator": "PDF第2页文史/历史江苏列；固定天津工业卡",
+      "method": "复用前批原页/PDF核验，不重取文件",
+      "raw_pdf_sha256": null,
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-tiangong-buffer.md",
+      "supports": [
+        "当年江苏历史金融2、会计2的计划支点，与旧录取数分账。"
+      ],
+      "limits": [
+        "没有01组编码或再选科目，不等2027全组完整或官方录取对账。"
+      ]
+    },
+    {
+      "id": "TG-RULE",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "天津工业大学2025招生章程",
+      "publisher": "天津工业大学本科招生网",
+      "url": "https://zsb.tiangong.edu.cn/2025/0521/c195a105120/page.htm",
+      "published_date": "2025-05-21",
+      "locator": "第13、15、17条；固定天津工业卡",
+      "method": "复用前批章程核验，不重取HTML",
+      "raw_html_sha256": null,
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-tiangong-buffer.md",
+      "supports": [
+        "会计具体颜色辨识限制须与旧表疑似转录标签分账；当年组内分配/服从与退档。"
+      ],
+      "limits": [
+        "不改写成凡色弱/色盲不可报会计或金融免通用体检；不判断个人资格，不锁2027。"
+      ]
+    },
+    {
+      "id": "TG-FEE",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "天津工业大学2025本科专业学费表",
+      "publisher": "天津工业大学本科招生网",
+      "url": "https://zsb.tiangong.edu.cn/2024/0626/c189a96033/page.htm",
+      "attachment_url": "https://zsb.tiangong.edu.cn/_upload/article/files/a1/4d/f66f545245e5939c5fdbde744560/e7b1085f-7ab2-48be-aa88-17e58f7983c6.pdf",
+      "published_date": "2025-07-03",
+      "locator": "PDF第2页；金融/会计标准四年及正常四年合计",
+      "method": "复用前批费用原PDF目视核验，本轮未新取",
+      "raw_pdf_sha256": null,
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-tiangong-buffer.md",
+      "supports": [
+        "金融/会计均标准四年、正常四年学分与专业学费合计17600元。"
+      ],
+      "limits": [
+        "URL年份不替正文日期；不是固定年费4400、全部就学预算或2027锁价。"
+      ]
+    },
+    {
+      "id": "JS-RULE",
+      "use": "reused_adopted_verification_not_recollected",
+      "title": "江苏2026普通高校招生政策问答",
+      "publisher": "江苏省教育考试院",
+      "url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html",
+      "published_date": "2026-07-25",
+      "locator": "第8、5问；固定天津工业卡和师范—法学卡的调剂退档边界",
+      "method": "复用已采用卡所引用官方规则，本轮未重访",
+      "raw_html_sha256": null,
+      "reuse_record": "https://github.com/mythpan1/pathwise-research/blob/307b20e06e95b96dfaa4556bb39ce2e3db7be8f2/research/admissions/jiangsu-history-tiangong-buffer.md",
+      "supports": [
+        "后位平行组不是已经投档退档后的自动救援；组内去向/服从与资格须分别核。"
+      ],
+      "limits": [
+        "2026规则不保证2027；不据此声称已完成用户可提交志愿。"
+      ]
+    }
+  ],
+  "unused_or_unverified_sources": [
+    {
+      "id": "R0",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202409/t20240913_525781.html",
+      "status": "未取得正文，不作新核依据",
+      "raw_document_sha256": null,
+      "reason": "工具超时/空内容及挑战脚本，不当正文。"
+    },
+    {
+      "id": "R94",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/shehuibaozhang/zcwj/yanglao/202501/t20250101_533701.html",
+      "alternate_url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html",
+      "status": "仅定位，正式可核原件未得，不采用",
+      "published_date_verified": null,
+      "raw_document_sha256": null,
+      "excluded_claims": [
+        "3个月/1个月书面告知",
+        "事业管理人员/干部报批程序"
+      ],
+      "reason": "超时、无可读行或挑战响应；已按范围停止，不为细节扩源。"
+    }
+  ],
+  "unknowns": {
+    "user_rank": null,
+    "user_member_task_location_acceptance": null,
+    "yzu_current_applicable_tuition": null,
+    "target_2027_full_groups_and_rules": null,
+    "yancheng_chinese_teacher_actual_retirement": null,
+    "cross_stage_191_all_arrived_or_permanent_transfers": null,
+    "retired_17_actual_hires_term_or_net_substitution": null,
+    "target_2031_external_hiring_budget": null,
+    "target_2031_qualified_applicant_denominators": null,
+    "future_training_or_continuous_employment": null
+  },
+  "claim_classes": {
+    "facts": [
+      "Y1交流及招募计划的对象/状态",
+      "Y2政策部署及日期",
+      "R已取正式退休决定/办法的有限规则",
+      "固定基线的历史四成员及当期入口"
+    ],
+    "assumptions": [
+      "2027入学及实际四年毕业约2031",
+      "南京/盐城为可接受就业地时才应用",
+      "约六岁入小学及六年小学制的简化时钟",
+      "比较情景中真实任务接受、未来外招/付费和带教是否成立"
+    ],
+    "inferences": [
+      "只凭旧年龄或退休预期给师范新人入口溢价缺依据",
+      "内部/返聘承接与合资格毕业供给要分别对照外招",
+      "合资格供给不随当前出生或小学人数同步缩减",
+      "条件下法学或普通会计相对师范前置及其反转，不推出概率或固定总序"
+    ]
+  },
+  "review_status": "作者自检后待独立审核；未进行独审、未写GitHub、未创建PR。"
+}
