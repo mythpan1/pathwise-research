@@ -1,0 +1,76 @@
+{
+  "record_type": "AUTHOR-RECORD",
+  "run_id": "progress-entry-repair-author-20261104",
+  "actor_id": "progress-entry-author",
+  "role": "document-author",
+  "task_ref": "LOCAL-progress-entry-repair-20261104",
+  "recorded_at": "2026-11-04T11:55:21.461797+00:00",
+  "baseline": "fd640406b2fa6230b77799a75652432cc0683f95",
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Coordinator assignment; runtime metadata not exposed",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Coordinator assignment; runtime metadata not exposed",
+    "verification": "unknown"
+  },
+  "read_rules_ref": [
+    {
+      "path": "AGENTS.md",
+      "ref": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "sha256": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8"
+    },
+    {
+      "path": "docs/agent-workflow.md",
+      "ref": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "sha256": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1"
+    },
+    {
+      "path": "docs/agent-provenance.md",
+      "ref": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "sha256": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f"
+    },
+    {
+      "path": "docs/experiment-protocol.md",
+      "ref": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "sha256": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 16639,
+      "sha256": "9baf0e17e7c924d2fc5196dc5dc731cb81144ae951fa4aebdbcfabd7007c4f49"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 8669,
+      "sha256": "aa65bec29732a172211e31a7d1016b2934002ef2fe9eb685d9637e3d8667c6f6"
+    },
+    {
+      "path": "research/coverage.md",
+      "bytes": 12517,
+      "sha256": "8be8b1a1b9d1ae8678a5bfe17e2b725208b9650db513e923b2b3314f72498f06"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "bytes": 13207,
+      "sha256": "0092a8bfc7990df313736e06b23644748d336d339e620cfc6315fd582d000bd4"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1867,
+      "sha256": "c835f939e085a4b3c10f8e65d0ee074d0b7a8884e92300d9862cff4ab7aa67bf"
+    }
+  ],
+  "checks": {
+    "relative_file_links": "112 occurrences / 53 unique targets resolve in fixed tree",
+    "existing_local_tests": "9 tests OK; not GitHub CI",
+    "content_review": "Author self-check only"
+  },
+  "external_actions": "No GitHub writes, PR creation, independent review or merge performed by this author."
+}

@@ -10,7 +10,7 @@
 
 为此，项目以 **政策、产业变迁、人口结构变化** 为三条主线，研究中国未来十年的职业入口、成长和转换条件，再连接高考志愿、专业学习、院校培养与个人选择。
 
-**当前进度（2026-10-26）：完整研究框架已通过独立审核并随 [PR #94](https://github.com/mythpan1/pathwise-research/pull/94) 合并。接下来是按框架整理既有成果、识别覆盖缺口并分批填充，不再把方法试水当作项目终点。** 框架完整不等于行业资料已经填满，更不等于未来预测已经被现实验证。
+**当前进度（2026-11-04）：完整研究框架与组合接口已采用，已有有限真实历史候选、招聘与政策来源支点上的条件路径比较。** 可直接从[培养与职业连接](research/admissions/education-career-bridge.md)看历史候选怎样比较，从[专业与职业总索引](research/admissions/major-career-routing.md)按方向进入研究，再看[覆盖与未闭合项](research/coverage.md)。这不等于全行业填满、个人志愿方案已闭合或未来预测已验证。
 
 ## 一、为什么不能只查专业、学校和招聘信息
 
@@ -123,13 +123,14 @@
 
 ## 七、目前完成到哪一步
 
-截至 2026-10-26：
+截至 2026-11-04，按已合并正文区分以下层次；固定版本与代表范围见[覆盖盘点](research/coverage.md)。
 
-- **已完成**：前置样本与方法复盘；完整研究框架、连续链和判断模板、覆盖推进计划及导航衔接已随 PR #94 纳入主分支。对应[独立审核记录](reviews/ISSUE-93-r1.md)保留了问题、返工和精确版本核验。
-- **已有研究起点**：少子化、CO₂ 产品链、机器人、政策样本与视频分析，详见[成果导航](research/README.md)。它们不是全行业覆盖证明。
-- **接下来**：按框架整理已有成果及空白，再分批深入连续研究链，补足职业和真实培养连接。
-- **尚未完成**：全行业资料填充、全国十年职业预测验证、院校培养效果的系统核验，以及针对具体个人的完整路径应用。
-- **没有宣称部署**：全自动采集、数据库、无人值守研究或强制门禁系统。软件建设与研究框架是两件事。
+- **框架已经建立**：2026-10-26，前置样本与方法复盘、完整研究框架、连续链和判断模板、覆盖推进计划及导航随 [PR #94](https://github.com/mythpan1/pathwise-research/pull/94) 采用，[当时独立审核记录](reviews/ISSUE-93-r1.md)保留问题、返工和版本核验。2026-11-01，[PR #306](https://github.com/mythpan1/pathwise-research/pull/306) 又采用知识单元、组合契约与合成验收；两次采用都不是全量内容完成。
+- **已有有限真实候选比较**：[培养与职业连接](research/admissions/education-career-bridge.md)已汇入不同科类、位次坐标的2025江苏历史候选，给出目标任务下的条件取舍、部分顺序、共同失效与输入变更走查，不再只有合成示范。各卡范围不同，不拼成一个人的完整志愿表，也不把历史组号和位次当目标年度名单。
+- **已有职业与情景研究可用**：[专业与职业总索引](research/admissions/major-career-routing.md)可按方向进入已采用专题，结合有限招聘、政策等来源支点比较任务、培养、入口和转换条件。来源的取得表示与核验层级沿正文和索引保留；允许申请不等实际录用，当期岗位不保证未来继续招聘。各卡的入学、2031毕业及2037观察等时间是分别写明的研究假设，不是用户的真实条件。
+- **仍未闭合**：目标年度完整组与规则、逐成员接受度、候选院校及届别的实际训练取得、目标市场的真实新人接收，以及由此形成的个性化完整路径。有限比较不使[建设计划](docs/roadmap.md)的 F1–F6 整体完成；全行业填充、全国十年预测验证和培养效果系统核验仍未完成。
+- **下一步**：在已授权范围内，沿现有候选与连续研究链补会改变当前比较结果的关键连接，例如实际新人任务、训练可得性或规则适用性，再更新受影响判断。缺少个人年份、位次、地区、成本或接受输入时继续明示条件比较，不代填个人偏好。一个局部题目已做或重复，只跳过该题，不代表其他方向无价值或项目结束。
+- **采集与研究分开**：2026录取资料采集继续暂停；暂停补采不等于停止基于既有材料的职业方向研究，也不授权访问受限来源。仍未宣称部署全自动采集、数据库、无人值守研究或强制门禁系统。
 
 完整框架、内容填充、现实验证和软件实现分别验收，不能用目录、提交或审核通过替代后面几项。
 
@@ -162,4 +163,4 @@
 
 Pathwise Research connects changes in China's policy, industries and population structure to career entry, development and transition, then to education and individual choices over a ten-year horizon.
 
-Its complete research framework has been adopted. The next stage is to organize existing findings, identify coverage gaps and develop evidence-backed research incrementally. Framework adoption is not a claim of complete industry coverage, validated forecasts or deployed automation. Sources, assumptions, alternative explanations and revisions remain traceable.
+Its research framework and combination contract have been adopted, alongside bounded comparisons using historical admission candidates and career evidence. Current work addresses decision-relevant gaps in rules, training, entry conditions and individual applicability. This is not complete industry coverage, a finished personal plan, validated forecasts or deployed automation. Sources, assumptions, alternative explanations and revisions remain traceable.
