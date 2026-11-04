@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "run_id": "LOCAL-JAPANESE-ENGLISH-AUTHOR-20261104",
+  "actor_id": "compare_japanese_english_choices",
+  "role": "separate research author; not reviewer, publisher or merger",
+  "parent_run_id": "advance_existing_career_paths",
+  "task_ref": "LOCAL-japanese-english-choices-20261104",
+  "recorded_at": "2026-11-04T08:27:01.462643+00:00",
+  "client": "native subagent",
+  "transport": "local shell through functions",
+  "tools": [
+    "exec_command local reads/writes and deterministic hashes",
+    "skills read"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "parent handoff; actual runtime metadata not exposed",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "parent handoff; actual runtime metadata not exposed",
+    "verification": "unknown"
+  },
+  "research_base": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+  "input_manifest_sha256": "3ca7644f10ce5540f51631f42f2410b4143e7a2bd1cbe0efb6946391f38997aa",
+  "input_checks": {
+    "frozen_files": 25,
+    "sha256_and_byte_count": "passed",
+    "exact_base_files": 15,
+    "utf8_and_git_blob_comparison": "passed"
+  },
+  "read_rules_ref": [
+    {
+      "path": "AGENTS.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8"
+    },
+    {
+      "path": "docs/agent-workflow.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1"
+    },
+    {
+      "path": "docs/agent-provenance.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f"
+    },
+    {
+      "path": "docs/experiment-protocol.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6"
+    },
+    {
+      "path": "docs/research-architecture.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "1436c50eccc300e422d117a28de40725dea27f9e9c18153c9f57a4f25a0925bc"
+    },
+    {
+      "path": "reviews/README.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "8d26b4e9d7b836e2a52c4b73eea777dba6c71d600a49aba2b33690e6a6850f92"
+    },
+    {
+      "path": "templates/planning-knowledge-unit.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "sha256": "a127cb2f18c6616cf246bc0e1ba003af890573ec22896e7dcfeaf6104e4ed528"
+    }
+  ],
+  "owned_publish_paths": [
+    "research/admissions/jiangsu-history-japanese-english-choices.md",
+    "research/admissions/jiangsu-history-japanese-english-choices-sources.json",
+    "research/admissions/foreign-language-careers.md",
+    "work/runs/japanese-english-author-20261104.json"
+  ],
+  "artifacts": [
+    {
+      "repo_path": "research/admissions/jiangsu-history-japanese-english-choices.md",
+      "sha256": "8354d23e0290b49d5b04f99382ebf4af2b4fb28a8f72ddc7b7bdc902e07eab44",
+      "bytes": 24881
+    },
+    {
+      "repo_path": "research/admissions/jiangsu-history-japanese-english-choices-sources.json",
+      "sha256": "90cf9ca0fff7e03347609f3017e6f6b19f9fe9d1c2e6a47eefd49a25fc35fbcc",
+      "bytes": 12290
+    },
+    {
+      "repo_path": "research/admissions/foreign-language-careers.md",
+      "sha256": "7a0cf8881f9b354ecf3f37b5098df840acdcd11280c6aef5eadca8ce004aff8d",
+      "bytes": 3740
+    }
+  ],
+  "substantive_result": "同一P/R的宽S0并列比较A/B；SA须覆盖B共享营业及自然英语产品/订单路线，在同总时间/费用约束下有相对任务/反馈或总补差优势才偏弱前置A。SB反向成立则B前置，差异消失回并列；汉得冲突不计确认出口。",
+  "scope_checks": {
+    "github_writes": false,
+    "new_external_searches": false,
+    "csv_or_admissions_collection": false,
+    "raw_source_uploads": false,
+    "navigation_change": "原foreign-language-careers字节完整保留，末尾仅增加空行及一行链接；不改major-career-routing"
+  },
+  "verification": {
+    "kind": "author self-check only",
+    "independent_review": "v2首次独立R1结论需修改，阻断B1；v3已按B1修订，待原独立审核者复核，未声称通过",
+    "ci": "not run",
+    "planned_review_archive": "reviews/japanese-english-choices-20261104-r1.md"
+  },
+  "deviation": "最初创建本地目录及INPUT-CHECK.json早于持久步骤开始记录；已按实际顺序补记，不声称此前预登记。未作外部写入。",
+  "open_limits": [
+    "请求配置不是实际后端身份认证",
+    "用户条件和目标年招生资格未知",
+    "训练差距、客户付款及新人任务为条件，不作企业现状断言",
+    "v3待独立复核；后续发布、精确远端版本、CI和合并门禁由分离运行承担"
+  ],
+  "artifact_version": "v3",
+  "revision_history": [
+    {
+      "version": "v2",
+      "type": "pre-review author revision",
+      "manifest_sha256": "f3614b66a31a796ba442e835aa324f7ab041c8bf2f9b21962d68daf8f163a31e",
+      "note": "首次独审前的作者自修，非失败R1后返工"
+    },
+    {
+      "event": "first_independent_R1",
+      "verdict": "需修改",
+      "blocking_ids": [
+        "B1"
+      ],
+      "review_sha256": "afe6dc3d672c1043a06d81cc838caa011f72fdc067f1fc37e296faecc0b7413e",
+      "review_manifest_sha256": "e16124d9adb91f6a8085300d549418ebf1c03df9a24dd25e4719a0c123427e1a",
+      "reviewer_run": "LOCAL-JAPANESE-ENGLISH-INDEPENDENT-REVIEW-20261104-R1"
+    },
+    {
+      "version": "v3",
+      "type": "author revision after R1",
+      "change": "采纳B1最小修法2：宽S0并列；相对分支覆盖B既有英语产品/订单路径。N1-N4边界保留，无新来源。",
+      "independent_recheck": "pending"
+    }
+  ]
+}
