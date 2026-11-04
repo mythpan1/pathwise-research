@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "report": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+  "research_date_utc": "2026-11-03",
+  "base_commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+  "sources": [
+    {
+      "id": "P01",
+      "status": "new_official_source_text_representation_checked",
+      "title": "推动热泵行业高质量发展行动方案",
+      "publisher": "国家发展改革委及联合署名部门",
+      "document_number": "发改环资〔2025〕313号",
+      "signed_date": "2025-03-17",
+      "published_date": "2025-04-02",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/P020250402316909851943.pdf",
+      "notice_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250402_1396954.html",
+      "retrieved_at": "2026-11-03T14:46:07.045669+00:00",
+      "target_years": [
+        2030
+      ],
+      "explicit_expiry_date": null,
+      "representation": {
+        "kind": "web tool returned full page-numbered official PDF text and notice text",
+        "pages": 6,
+        "pdf_bytes_acquired": false,
+        "pdf_sha256": null,
+        "http_status": null,
+        "http_headers_acquired": false,
+        "visually_verified": false,
+        "text_sha256": "c0d99bdcd9de847f657c36a0bc778bab9368b391fbccfd2c02299b410bf86210",
+        "notice_text_sha256": "ef7381fe9cd19d8179a6582bd6d5cfce1e9bf987beaee3c4809f2257c4968b4b"
+      },
+      "locators": [
+        "第1—2页二（一）（二）：建筑与工业用途",
+        "第2—3页二（四）：投运10年以上诊断评估及改造",
+        "第3—4页三（七）、四（九）：运行调控与资源匹配",
+        "第1页一：2030目标，非失效日"
+      ],
+      "verification": "收集者读取完整工具文本；作者读取所保存正文/通知并核SHA-256。不是PDF字节或视觉核验。",
+      "supports": [
+        "建筑/工业热泵应用、低效设备诊断改造、监测调控和资源匹配的政策方向",
+        "10年以上先诊断评估，不等于到龄全量更换"
+      ],
+      "limits": [
+        "全国政策不是具体项目采购、回款或本科岗位证据",
+        "目标年不是失效日；2025目标不作2026实绩；2030不作2031/2037保证",
+        "产品能效/PUE目标不能换算项目实际节电率、总电费或工资收益"
+      ]
+    },
+    {
+      "id": "P02",
+      "status": "new_official_source_text_representation_checked",
+      "title": "数据中心绿色低碳发展专项行动计划",
+      "publisher": "国家发展改革委及联合署名部门",
+      "document_number": "发改环资〔2024〕970号",
+      "signed_date": "2024-07-03",
+      "published_date": "2024-07-23",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202407/P020240723625582947550.pdf",
+      "notice_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202407/t20240723_1391894.html",
+      "retrieved_at": "2026-11-03T14:46:07.045669+00:00",
+      "target_years": [
+        2025,
+        2030
+      ],
+      "explicit_expiry_date": null,
+      "representation": {
+        "kind": "web tool returned full page-numbered official PDF text and notice text",
+        "pages": 7,
+        "pdf_bytes_acquired": false,
+        "pdf_sha256": null,
+        "http_status": null,
+        "http_headers_acquired": false,
+        "visually_verified": false,
+        "text_sha256": "701b32181223b44d6004e212224e8413d1a106212d869addab73884b66d8b044",
+        "notice_text_sha256": "5e7a56f1ffa2b699506e74fb33e1d40c3d749d05c62a719e0985528789a416c2"
+      },
+      "locators": [
+        "第1页一：2025/2030目标，非实绩或失效日",
+        "第1—2页二（一）：布局与资源约束",
+        "第2—4页二（三）（五）（六）：存量、余热、制冷及多技术选择"
+      ],
+      "verification": "收集者读取完整工具文本；作者读取所保存正文/通知并核SHA-256。不是PDF字节或视觉核验。",
+      "supports": [
+        "数据中心布局、存量改造和运行优化的政策方向",
+        "液冷与其他散热技术并列，非全部强制采用"
+      ],
+      "limits": [
+        "全国政策不是具体项目采购、回款或本科岗位证据",
+        "目标年不是失效日；2025目标不作2026实绩；2030不作2031/2037保证",
+        "产品能效/PUE目标不能换算项目实际节电率、总电费或工资收益"
+      ]
+    },
+    {
+      "id": "J01",
+      "status": "new_employer_html_checked",
+      "title": "暖通工程师—加一智慧能源科技（天津）有限公司",
+      "publisher": "天津商业大学就业信息网（企业发布单岗页）",
+      "url": "https://career.tjcu.edu.cn/correcruit/content/id/14504.html",
+      "published_date_as_shown": "2026-09-15",
+      "retrieved_at": "2026-11-03T14:43:51.372975+00:00",
+      "representation": {
+        "kind": "server HTML body bytes",
+        "http_status": 200,
+        "bytes": 18297,
+        "sha256": "09174c5144a7f43c1cf430b3f2bd336eb0b8e9aa3fd33e065b839144e55e59b9"
+      },
+      "locators": [
+        "页面岗名/企业/发布日期与工作地域/学历栏",
+        "专业要求：本科或研究生及相关专业优先考虑",
+        "职位描述→岗位职责；不依不同换行归一方式的行号定位"
+      ],
+      "facts": {
+        "location": "天津市",
+        "education": "单岗学历栏本科；正文本科或研究生",
+        "professional_scope": "热能、机械、电气控制、自动化等相关专业优先考虑，非硬性仅限",
+        "tasks": "热泵设计选型、图纸、生产检测、变频功能控制及施工运行问题处理",
+        "graduating_cohort": null,
+        "pay_period": null,
+        "actual_hires": null,
+        "current_application_status": null
+      },
+      "verification": "收集者取得HTTP 200 HTML；作者从保存HTML读取目标单岗并核SHA-256。",
+      "limits": [
+        "热能与能源与动力工程具体方向的认定待雇主确认",
+        "不借页面导航补届别，不补工资周期或税前税后",
+        "同岗覆盖热工和控制，不能由此判断谁更易录用",
+        "未证2031继续招聘、实际录用上电毕业生、带教或行业岗位规模"
+      ]
+    },
+    {
+      "id": "J02",
+      "status": "new_employer_html_checked",
+      "title": "热管理工程师",
+      "publisher": "德业官网校园招聘数据入口",
+      "url": "https://www.deye.com.cn/ajax/campus_ajax",
+      "published_date_as_shown": "2026.09.01",
+      "retrieved_at": "2026-11-03T14:44:00.934363+00:00",
+      "representation": {
+        "kind": "server HTML body bytes; ajax endpoint also returned HTML",
+        "http_status": 200,
+        "bytes": 196357,
+        "sha256": "3df81403c412f57b7a9b2d722513e5e4f792b8714bfdee38e8d65c77a1fedfcc"
+      },
+      "locators": [
+        "热管理工程师单岗：产品中心、地点、日期、学历和经验栏",
+        "该岗岗位职责第1—5项",
+        "该岗任职资格第1—5项；不借同页其他岗位条件"
+      ],
+      "facts": {
+        "location": "宁波慈溪",
+        "department": "产品中心",
+        "education": "单岗列表及任职条款均本科及以上",
+        "professional_scope": "热能与动力工程、机械工程、电子封装等；自动化未明列",
+        "tasks": "热仿真、散热设计实验、热测试平台与失效/可靠性；液冷只是技术之一",
+        "skill_threshold": "传热、流体、数值模拟、仿真软件和热测试设备；数据处理能力优先",
+        "experience": "不限",
+        "graduating_cohort": null,
+        "actual_hires": null,
+        "current_application_status": null
+      },
+      "verification": "收集者取得HTTP 200 HTML；作者从保存HTML读取目标单岗并核SHA-256。",
+      "limits": [
+        "旧称谓与现行能源与动力工程的认定仍待雇主确认",
+        "未列自动化既不证明接受也不证明绝对排除；不借邻岗应届条款",
+        "未证数据中心客户/订单、热泵任务；不能当数据中心液冷雇主闭环",
+        "未证2031继续招聘、实际录用上电毕业生、带教或行业岗位规模"
+      ]
+    },
+    {
+      "id": "R01",
+      "status": "fixed_adopted_report_reuse",
+      "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+      "repository_path": "research/admissions/jiangsu-2025-three-group-conditional-comparison.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6590d415f242b93a0ecb7e8f2b580e8685e0d5ba/research/admissions/jiangsu-2025-three-group-conditional-comparison.md",
+      "sha256": "7fb0ffb9cd0c43663e248a8cf34f1f2d7d1872d2d2cfc4a443db97e293c51f03",
+      "git_blob": "d7a5d6dc6ddea43c86f17b0145560afe8d4494ba",
+      "hash_scope": "实际读取固定基线文稿，非所引外部原件",
+      "locators": [
+        "B上电02，16项逐项保留；来源与历史进入机会"
+      ],
+      "supports": [
+        "2025组608/27151/60、物+化、能动616/21044/3及自动化612/23948/4",
+        "16显示成员及原符号/疑字、旧摘要非当年官方核验"
+      ],
+      "limits": [
+        "录取数非计划；本轮未读取CSV或重采录取",
+        "27151非真实用户位次，16项接受均未知"
+      ],
+      "external_originals_reopened_this_round": false
+    },
+    {
+      "id": "R02",
+      "status": "fixed_adopted_report_reuse",
+      "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+      "repository_path": "research/admissions/jiangsu-27000-industrial-control-pair.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6590d415f242b93a0ecb7e8f2b580e8685e0d5ba/research/admissions/jiangsu-27000-industrial-control-pair.md",
+      "sha256": "9a374a027170c68cf5657a86af61cc71453c75a85aac00c87d3a982251df3c49",
+      "git_blob": "055e668ef0976312d0aca921c75d4a0245073c3f",
+      "hash_scope": "实际读取固定基线文稿，非所引外部原件",
+      "locators": [
+        "合作代价、组分配与本科任务"
+      ],
+      "supports": [
+        "旧江苏2026问答第5/8问：服从调剂与退档不补投同批后列组的参照",
+        "东山精密测试/自动化两本科岗的任务与自动化相关专业接收"
+      ],
+      "limits": [
+        "不继承P_E拒核/材料/数理或R=苏州",
+        "本轮未重开外部原页；未核2027分配、当届招聘和带教",
+        "原工业岗不证明热工专业同样接收，也非本轮热管理客户订单"
+      ],
+      "external_originals_reopened_this_round": false,
+      "reused_rule_url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html"
+    },
+    {
+      "id": "R03",
+      "status": "fixed_adopted_report_reuse",
+      "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+      "repository_path": "research/admissions/jiangsu-27151-nuclear-operations-control.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6590d415f242b93a0ecb7e8f2b580e8685e0d5ba/research/admissions/jiangsu-27151-nuclear-operations-control.md",
+      "sha256": "a76ae50994ca23d320959b4b8d9b4bb0a0dd1d5404c6427b65ce138941537c31",
+      "git_blob": "ca0946d9ea25f3d891f0947fda66bc1b59057304",
+      "hash_scope": "实际读取固定基线文稿，非所引外部原件",
+      "locators": [
+        "N03及第3节：运行准备岗类别与通用本科/届别条件"
+      ],
+      "supports": [
+        "能源动力类、自动化类均列入运行准备；同页通用条件2026/2027本科及以上",
+        "核电作为另一客户/项目方向的有界候选"
+      ],
+      "limits": [
+        "非该单岗独立明列学历；具体专业/任务/厂址/班制/训练仍未核",
+        "不把核电类岗位保证延伸至2031，不继承旧合成接受设定"
+      ],
+      "external_originals_reopened_this_round": false,
+      "fixed_source_index": {
+        "repository_path": "research/admissions/jiangsu-27151-nuclear-operations-control-sources.json",
+        "sha256": "37ef6318f1b930b982fe6292148fa3fd9277085abbb79de7f382f50dfd1413b5",
+        "git_blob": "64694f02305666abb2a5b8aaf9ea615315d9df5e"
+      }
+    },
+    {
+      "id": "R04",
+      "status": "fixed_adopted_report_reuse",
+      "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+      "repository_path": "research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6590d415f242b93a0ecb7e8f2b580e8685e0d5ba/research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "sha256": "b07ffbcffdcb7ce2ddb1fe85f32413e34d71a51b188f3c9526d03194f25aef42",
+      "git_blob": "57b86728ac75bade99ec7f6c5b66f8f5c19f3c81",
+      "hash_scope": "实际读取固定基线文稿，非所引外部原件",
+      "locators": [
+        "客户付款与本科分工；条件C/M/CM/F"
+      ],
+      "supports": [
+        "本轮接续已采用的客户付款/验收回款/本科分工方法",
+        "本批不重复可靠容量或材料排序"
+      ],
+      "limits": [
+        "其情景不是当前用户偏好或已验证未来事实",
+        "不从储能系统收入推热管理客户订单或工资"
+      ],
+      "external_originals_reopened_this_round": false,
+      "fixed_source_index": {
+        "repository_path": "research/admissions/jiangsu-27151-energy-capacity-materials-control-sources.json",
+        "sha256": "0910dd2d7a2d3038c33238aa4c8c5504f9690e49cafbb008c66b0178943ad30f",
+        "git_blob": "41b5aad34ba7d38a6fee583f41514bab10d191bd"
+      }
+    }
+  ],
+  "claim_map": [
+    {
+      "id": "F1",
+      "class": "reused_fact_and_arithmetic",
+      "report_sections": [
+        "1"
+      ],
+      "sources": [
+        "R01",
+        "R02"
+      ],
+      "claim": "历史组与专业及调剂参照分账；6107/3203/2904仅历史算术。"
+    },
+    {
+      "id": "F2",
+      "class": "new_fact_bounded",
+      "report_sections": [
+        "2"
+      ],
+      "sources": [
+        "P01",
+        "P02"
+      ],
+      "claim": "两政策支持不同客户的热系统改造方向，不证明采购和岗位。"
+    },
+    {
+      "id": "F3",
+      "class": "new_fact_bounded",
+      "report_sections": [
+        "3"
+      ],
+      "sources": [
+        "J01",
+        "J02"
+      ],
+      "claim": "共同暖通本科入口与具名热管理本科入口；届别/接收/客户边界不借用。"
+    },
+    {
+      "id": "A1",
+      "class": "assumption",
+      "report_sections": [
+        "当前判断",
+        "4",
+        "5"
+      ],
+      "sources": [],
+      "claim": "2027入学、实际四年则2031；2037为观察点；H/C/HC/F均为有条件分工和训练情景，非用户接受声明。"
+    },
+    {
+      "id": "I1",
+      "class": "conditional_inference",
+      "report_sections": [
+        "4",
+        "5"
+      ],
+      "sources": [
+        "P01",
+        "P02",
+        "J01",
+        "J02",
+        "R02"
+      ],
+      "claim": "热工边界/性能验收主导H能动前，既定设备控制工作包主导C自动化前；HC不总排，F共同下调。",
+      "depends_on": [
+        "实际采购/验收回款或运行预算",
+        "雇主专业接收和本科带教分工",
+        "必要训练可取得",
+        "地点、工作条件和两类任务可接受"
+      ],
+      "not_established": "同一市场未来订单、岗位数量、工资差及学校训练优劣。"
+    },
+    {
+      "id": "I2",
+      "class": "conditional_inference",
+      "report_sections": [
+        "6"
+      ],
+      "sources": [
+        "P01",
+        "P02",
+        "J01",
+        "R02",
+        "R03"
+      ],
+      "claim": "通用替代须实际接收/补训/付款来源；人口仅经负荷布局、存量和人员接续；不由总量推岗位。"
+    }
+  ],
+  "privacy_scope": "仅最小来源索引、必要定位、取得表示和哈希。原件/政策文本表示、完整返回、响应头、联系信息和内部日志不上传。",
+  "hash_boundary": "政策哈希只识别保存的工具文本表示，不冒PDF字节hash；招聘为实际HTML字节hash；复用为固定仓库文稿hash。"
+}
