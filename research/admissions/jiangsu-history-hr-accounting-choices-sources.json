@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "task_ref": "LOCAL-hr-accounting-choices-20261104",
+  "research_date": "2026-11-04",
+  "research_base": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+  "input_manifest_sha256": "d230006ea445f77d2d4035007877158e9769e6ecdd0eef41a64bb93461c8c12a",
+  "purpose": "Sanitized source locations, limited summaries, support limits and fixed text hashes; no original-source full text or raw tool returns.",
+  "new_sources": [
+    {
+      "id": "P1",
+      "title": "人力资源社会保障部等5部门关于进一步健全就业公共服务体系的意见",
+      "url": "https://app.www.gov.cn/govdata/gov/202505/26/529861/article.html",
+      "publisher": "人力资源社会保障部等5部门；国务院客户端承载，页面来源标人社部网站",
+      "document_number": "人社部发〔2025〕21号",
+      "document_date": "2025-04-22",
+      "page_publication_date": "2025-05-26",
+      "source_locator": [
+        "第四、五条信息及职业介绍",
+        "第七至九条政策服务、登记联办与援助",
+        "第十四至十七条服务队伍和社会力量",
+        "第十八至二十条数字平台与数据",
+        "末段经费条件与安全；落款"
+      ],
+      "converted_excerpt_sha256": "c11aa7153d75efd44a9cd5226380ba0b1894a189d4e7fce664880c276275b729",
+      "support_scope": [
+        "全国公共就业服务任务、按规定购买服务、地方有条件经费安排和数字集约方向",
+        "老年求职与裁员风险服务作为政策对象"
+      ],
+      "not_supported": [
+        "南京采购合同、金额、回款、编制或本科招聘",
+        "企业HR/payroll采购、科锐合同及2031/2037岗位数",
+        "将机构资格或政策支持考试当本轮个人岗位硬门槛"
+      ],
+      "retrieved_by_collector_on": "2026-11-04",
+      "author_action": "Read fixed converted excerpts and check their SHA-256; no new web retrieval.",
+      "preserved_format": "Selected tool-converted text, not raw HTML, complete tool return or original-page byte hash."
+    },
+    {
+      "id": "J1",
+      "title": "欣旺达动力科技2027届校园招聘宣讲会",
+      "url": "https://career.nankai.edu.cn/recruitment/content/type/2/id/6059.html",
+      "publisher": "欣旺达动力科技股份有限公司招聘简章，南开大学就业网承载",
+      "page_publication_date": null,
+      "event_time": "2026-09-16 18:00",
+      "source_locator": [
+        "2027届校园招聘计划和岗位表头",
+        "职能体系：人力资源专员、会计专员、行政专员三独立行",
+        "招聘流程及通用培养/薪酬段"
+      ],
+      "converted_excerpt_sha256": "79d35d5a21cc9328c395e3e47ffe0bfbaa8417338de7aeb4ad29202bcc635343",
+      "support_scope": [
+        "HR本科及以上，列人力资源管理/心理学/统计学等相关，南京为所列多地之一",
+        "会计本科及以上、财经类，南京为多地之一；行政本科及以上、含行政管理等但地点仅深圳"
+      ],
+      "not_supported": [
+        "单岗职责、南京必分、实际录用、个人合同或薪资金额",
+        "把公管四方向一并认定符合HR或把会计行条件借给HR",
+        "将宣讲时间当发布日期或将行政深圳改南京"
+      ],
+      "retrieved_by_collector_on": "2026-11-04",
+      "author_action": "Read fixed converted excerpts and check their SHA-256; no new web retrieval.",
+      "preserved_format": "Selected tool-converted text, not raw HTML, complete tool return or original-page byte hash."
+    },
+    {
+      "id": "J2",
+      "title": "科锐国际2027届秋季校园招聘",
+      "url": "https://career.tjcu.edu.cn/correcruit/content/id/14575.html",
+      "publisher": "北京科锐国际人力资源股份有限公司雇主发布，天津商业大学就业网承载",
+      "page_publication_date": "2026-09-29",
+      "source_locator": [
+        "三计划划分：计划一顾问、计划二理工专项、计划三锦州专项",
+        "顾问职责/任职要求",
+        "计划三员工薪酬核算培训生职责/任职",
+        "计划三员工管理培训生职责/任职",
+        "全局地点、录用流程和2027届对象"
+      ],
+      "converted_excerpt_sha256": "b7aaf6a6d0a6472830b49ffeebe9a503dbeeebcfe5508fe58f9ad41bbbba7627",
+      "support_scope": [
+        "计划一顾问本科及以上、专业不限；候选人和客户沟通、面试、薪谈等任务，具体城市以网申为准",
+        "锦州计划三员工管理明确本科，含外包员工流程、薪资/关系、客户账单及内部对接；单岗未写专业",
+        "锦州薪酬核算段提供任务、Excel及三个月每周三天以上实习线索，单岗未写学历"
+      ],
+      "not_supported": [
+        "将全局南京分到单岗或将锦州员工管理/payroll放进南京",
+        "将总层学历/薪资/人数/北京强分到单岗；将员工管理专业空当明示不限",
+        "将薪酬核算实习时长套给员工管理，或将雇主业务员工混同其处理的外包员工",
+        "合同法人、派遣性质、转正保证、收费模式或未来录用"
+      ],
+      "retrieved_by_collector_on": "2026-11-04",
+      "author_action": "Read fixed converted excerpts and check their SHA-256; no new web retrieval.",
+      "preserved_format": "Selected tool-converted text, not raw HTML, complete tool return or original-page byte hash."
+    }
+  ],
+  "reused_repository_artifacts": [
+    {
+      "id": "R1",
+      "repository_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "sections": [
+        "旧名单召回与全部显示成员",
+        "P0接受边界与调剂",
+        "当期南京原件"
+      ],
+      "support_scope": [
+        "两组14显示成员、2025数值与空字段边界",
+        "已采用的南农/南财及江苏规则定位",
+        "中汇南京本科审计条件；不继承该文P0与排序"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "R2",
+      "repository_path": "research/admissions/jiangsu-history-joint-accounting-choice.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/jiangsu-history-joint-accounting-choice.md",
+      "sha256": "a2ab1d846d676c997bd9624ff35fb1814171fd51c320b48b832327b540dce854",
+      "sections": [
+        "成本同口径",
+        "证据分层",
+        "国内入口是共同起点"
+      ],
+      "support_scope": [
+        "ISCA身份、2025四年/5700元学费口径、费用及退出未知",
+        "智慧会计改选限制、天衡活动与资源边界",
+        "不继承旧普通会计/联合项目先后，不新加入学校"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "R3",
+      "repository_path": "research/admissions/jiangsu-history-urban-gis-trade-choices.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/jiangsu-history-urban-gis-trade-choices.md",
+      "sha256": "48c4909f25ddd0a71bd500ea33d89da0da31aeb91631bf994f3e2268788f398a",
+      "sections": [
+        "同一组内的机会账",
+        "新证据接通哪几段",
+        "从权属与钱到本科工作"
+      ],
+      "support_scope": [
+        "公管是一条大类、土管分流/训练/雇主接收分开",
+        "GIS仅为真实且本人接受时的土管条件支路，不覆盖人资/劳保/行政"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "R4",
+      "repository_path": "research/admissions/jiangsu-history-reference.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/jiangsu-history-reference.md",
+      "sha256": "189b824c7fbf8524acf13f19a436f6c176d308f8959328a1614d5c7d125cf182",
+      "sections": [
+        "本地底座和字段",
+        "原始资料示例",
+        "同分位次口径提醒"
+      ],
+      "support_scope": [
+        "旧汇集不是官方精确位次边界；同分区间与排序待核",
+        "2026录取采集暂停；本轮不读取源数据"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "R5",
+      "repository_path": "research/admissions/jiangsu-history-6527-decision-slice.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/jiangsu-history-6527-decision-slice.md",
+      "sha256": "c4cbafca2979235bde37e64e8b7b85618fa4a9b44e9c9762991116c0af541791",
+      "sections": [
+        "统一考生假设、市场与时间",
+        "五组机会账",
+        "调剂、退档与后位缓冲"
+      ],
+      "support_scope": [
+        "旧6527只是研究尺，历史个案偏好不转成用户声明",
+        "用于去重和边界复核，未沿用总榜或扩充本轮候选"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "N1",
+      "repository_path": "research/admissions/human-resources-careers.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/human-resources-careers.md",
+      "sha256": "a3faf9f8160f1f40df51fcaba1c43bf06df601c9430929e60279bbe133795a27",
+      "sections": [
+        "岗位任务与入口",
+        "制度与技术变化",
+        "2037年条件情景"
+      ],
+      "support_scope": [
+        "既有宏观HR导航，原文精确保留",
+        "本轮只追加两行报告/来源链接，不将旧宏观例证当新核南京单岗"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    },
+    {
+      "id": "N2",
+      "repository_path": "research/admissions/major-career-routing.md",
+      "commit": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef/research/admissions/major-career-routing.md",
+      "sha256": "691af11fe197cf8ef3ac25b3d6ea23edc762b778874b283e5d2411fa1e94c068",
+      "sections": [
+        "人力资源职业路径导航"
+      ],
+      "support_scope": [
+        "检查已有导航；本轮不修改"
+      ],
+      "verification_in_this_run": "Read exact fixed UTF-8 repository artifact; SHA-256 and Git blob match collector manifest; underlying webpages/data not re-fetched."
+    }
+  ],
+  "reused_upstream_sources": [
+    {
+      "id": "J3-reused",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/119792.html",
+      "title": "中汇2027校园招聘",
+      "publisher": "中汇招聘，南开大学就业网承载",
+      "page_publication_date": "2026-10-16",
+      "locator": "审计职责、任职及城市段",
+      "reused_via": [
+        "R1",
+        "R2"
+      ],
+      "support_scope": "审计本科及以上、专业不限、财会等优先，地点含南京；现场、底稿及内控相关任务。",
+      "limit": "本轮仅复用已采用卡，不声称重新核原页、仍可投递或校别录用优势。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "A-rule-reused",
+      "url": "https://zsxx.njau.edu.cn/info/1016/4062.htm",
+      "title": "南京农业大学2025年本科招生章程",
+      "locator": "第11、21、22、23条",
+      "reused_via": [
+        "R1",
+        "R3"
+      ],
+      "support_scope": "江苏专业分配、大类分流、申请转专业及语种边界。",
+      "limit": "不证明2027规则、类内名额或无条件不退档。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "B-rule-reused",
+      "url": "https://bkzs.nufe.edu.cn/info/1006/3439.htm",
+      "title": "南京财经大学2026年本科招生章程",
+      "locator": "分配第20/23条及旧联合卡所引培养/费用/转专业条款",
+      "reused_via": [
+        "R1",
+        "R2"
+      ],
+      "support_scope": "沿旧卡规则与一般培养边界，不与南农算法互套。",
+      "limit": "未在本轮重取原文；不补造2027收费、项目英语硬门槛或随时可退。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "JS-rule-reused",
+      "url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html",
+      "title": "江苏2026年志愿填报相关问答",
+      "locator": "第8、5问",
+      "reused_via": [
+        "R1",
+        "R5"
+      ],
+      "support_scope": "组内调剂与投档退档后不再补投本批后列平行组的历史规则参照。",
+      "limit": "实际填报须核适用年规则；不是后列组自动接盘承诺。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "B-fee-reused",
+      "url": "https://bkzs.nufe.edu.cn/2025js.pdf",
+      "title": "南京财经大学2025江苏招生计划",
+      "locator": "PDF页1，会计/审计联合项目学制与学费",
+      "reused_via": [
+        "R2"
+      ],
+      "support_scope": "两项目四年、5700元/生·学年，费率不变下名义四年22800元。",
+      "limit": "未新增招生计划账；不是全包总价或2027锁价；A费用未取不计算两校差。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "ISCA-identity-reused",
+      "url": "https://kj.nufe.edu.cn/info/1047/27018.htm",
+      "title": "会计学ISCA联合培养开班报道",
+      "page_publication_date": "2025-10-17",
+      "locator": "2025-10-16开班及新加坡特许会计师协会参与",
+      "reused_via": [
+        "R2"
+      ],
+      "support_scope": "ISCA项目身份与开班活动。",
+      "limit": "不证明ACCA身份、就业保录、个人资格或境外工作许可。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "ISCA-choice-reused",
+      "url": "https://kj.nufe.edu.cn/info/1046/27157.htm",
+      "title": "2026年智慧会计选拔细则",
+      "page_publication_date": "2026-03-30",
+      "locator": "面向2025级的报名排除范围",
+      "reused_via": [
+        "R2"
+      ],
+      "support_scope": "ISCA联合会计与ACCA实验班分别被列为不得报名本次智慧班。",
+      "limit": "不是所有转专业禁止，也不证明其他项目退出无损。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "Tianheng-practice-reused",
+      "url": "https://kj.nufe.edu.cn/info/1047/26617.htm",
+      "title": "天衡联合培养校外导师聘任报道",
+      "page_publication_date": "2024-11-21",
+      "locator": "导师聘任及培养/导师/实习实践方案协商",
+      "reused_via": [
+        "R2"
+      ],
+      "support_scope": "已发生活动与实践安排方向，属于同组另一审计成员。",
+      "limit": "不移植给ISCA；未确认每人可得实践、质量、工资、返费或录用。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    },
+    {
+      "id": "ISCA-terms-unclosed",
+      "url": "https://bkzs.nufe.edu.cn/info/1003/1028.htm",
+      "title": "会计学院介绍页的未闭合条款线索",
+      "locator": "旧联合卡“原URL抽取线索”及未知列表",
+      "reused_via": [
+        "R2"
+      ],
+      "support_scope": "仅定位英文、考试/称号、推荐等下一次待核条款，不作为已核事实。",
+      "limit": "旧卡直取原HTML未成功、只有抽取线索；本轮没有再次请求或提升证据级别。",
+      "current_run_original_retrieval": false,
+      "original_converted_text_hash": null,
+      "hash_note": "Original source bytes/excerpts are not part of this fixed author package; exact reused artifact hashes are supplied above."
+    }
+  ],
+  "claim_map": [
+    {
+      "claim": "C1: B弱前置的条件路径与可反转方向",
+      "evidence": [
+        "R1",
+        "R2",
+        "J1",
+        "J2",
+        "J3-reused"
+      ],
+      "status": "Author inference under explicit P/R/S0; not inherited old-card ranking or observed outcome."
+    },
+    {
+      "claim": "C2: 公管/组/目标/分流与退档分账",
+      "evidence": [
+        "R1",
+        "R3",
+        "R4",
+        "A-rule-reused",
+        "B-rule-reused",
+        "JS-rule-reused"
+      ],
+      "status": "Reused historical data/rules; target-year and personal acceptance remain unknown."
+    },
+    {
+      "claim": "C3: 公共就业服务经资源和组织才可能到新人任务",
+      "evidence": [
+        "P1"
+      ],
+      "status": "Policy facts plus conditional mechanism; no local procurement or recruitment verified."
+    },
+    {
+      "claim": "C4: 企业HR、服务公司业务员工、外包员工和财务任务不同",
+      "evidence": [
+        "J1",
+        "J2",
+        "J3-reused"
+      ],
+      "status": "Role/requirement facts plus task-to-training inference; no personal labor-law advice."
+    },
+    {
+      "claim": "C5: 项目总成本/退出与训练兑现足以改方向",
+      "evidence": [
+        "R2",
+        "B-fee-reused",
+        "ISCA-identity-reused",
+        "ISCA-choice-reused",
+        "Tianheng-practice-reused",
+        "ISCA-terms-unclosed"
+      ],
+      "status": "Known fee/identity constraints separated from unresolved terms; no A/B total-cost difference calculated."
+    },
+    {
+      "claim": "C6: 2031/2037、平台分工、人口与共同现金流风险",
+      "evidence": [
+        "P1",
+        "J1",
+        "J2",
+        "R1",
+        "R2"
+      ],
+      "status": "Explicit future scenario/inference; no quantitative forecast or net employment claim."
+    }
+  ],
+  "not_collected": [
+    "New admissions data or source CSV",
+    "New universities, school curricula or local budgets",
+    "Same-city payroll confirmation, personal contracts, exact city allocation or future recruitment",
+    "Personal acceptance, rank, qualifications or cost ceiling"
+  ],
+  "privacy": "No contacts, tool reference IDs, internal filesystem locations, raw returns or source full text included."
+}
