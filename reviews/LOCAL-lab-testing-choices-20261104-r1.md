@@ -8,7 +8,7 @@ GitHub 评论账号：mythpan1；此普通评论不是 GitHub APPROVE，也不�
 
 真实历史：v1 的 R1 结论为“需修改”；作者返工形成 v2，原独审者 R2 复核变化后建议采用。不得将 v1/R1 表述为一次通过。
 
-原 H 评论正文：2829 UTF-8 字节；SHA-256 `9385133a8ec1fb7cd3a4d7a1a2004b4dd9b82ecb11b7eacdbffff76c13a12fc2`。
+原 H 评论正文：5023 UTF-8 字节；SHA-256 `9385133a8ec1fb7cd3a4d7a1a2004b4dd9b82ecb11b7eacdbffff76c13a12fc2`。
 
 ---
 
