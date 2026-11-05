@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "run_id": "LOCAL-LAB-ANALYSIS-20261105-0329",
+  "actor_id": "lab-cdc-analysis-author",
+  "role": "substantive analysis author; did not independently review own output",
+  "recorded_at": "2026-11-05T03:29:40.795635+00:00",
+  "task_ref": "LOCAL-LAB-CLINICAL-ENTRY-20261105",
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Original delegated model request; no runtime model report available.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Original delegated reasoning request; no runtime setting report available.",
+    "verification": "unknown"
+  },
+  "input_baseline_commit": "9e8aaa1e65f14c0ec2d0eebcb4e6a266e4d2a031",
+  "author_read_rules": [
+    "AGENTS.md",
+    "docs/agent-provenance.md",
+    "docs/experiment-protocol.md",
+    "docs/agent-workflow.md"
+  ],
+  "authored_paths": [
+    "research/admissions/jiangsu-lab-cdc-branch.md",
+    "research/admissions/jiangsu-lab-cdc-branch-sources.json"
+  ],
+  "integration": {
+    "run_id": "LOCAL-LAB-INTEGRATION-20261105-0423",
+    "actor_id": "lab-cdc-analysis-author",
+    "role": "same author, separate local integration run; no external publishing or independent review",
+    "recorded_at": "2026-11-05T04:24:12.167119+00:00",
+    "changed_paths": [
+      "research/admissions/jiangsu-lab-cdc-branch.md",
+      "research/admissions/jiangsu-lab-cdc-branch-sources.json",
+      "research/admissions/jiangsu-lab-testing-choices.md"
+    ],
+    "substantive_change": false,
+    "description": "Added repository navigation and a fixed B0 link, retained the old comparison verbatim before its appended branch link, and preserved the reviewed conclusions/source boundaries."
+  },
+  "artifact_sha256": {
+    "research/admissions/jiangsu-lab-cdc-branch.md": "9437ff935f23126edf6a4b0d8226d1991183f273aa4c6edbfe489c5d0807c0fb",
+    "research/admissions/jiangsu-lab-cdc-branch-sources.json": "2154fa0798b731a45af0af0577641f370a72df09f184c99732b538bcf4a4f1c7",
+    "research/admissions/jiangsu-lab-testing-choices.md": "b9b2dc5be71b3855c5d6ad7d7aff49f97f0c6c60e4ba871ccb36a714c051d838"
+  },
+  "review_boundary": "Prior independent R1 applies to the original frozen local analysis only. The integrated repository version requires independent review bound to the exact remote head, plus required checks and platform gates. This authorship record is not review approval."
+}
