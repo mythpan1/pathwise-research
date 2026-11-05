@@ -1,0 +1,121 @@
+{
+  "run_id": "suzhou-comparison-reason-author-20261105",
+  "parent_run_id": "advance_existing_career_paths",
+  "actor_id": "suzhou-comparison-reason-author",
+  "role": "independent author; not reviewer",
+  "task_ref": "LOCAL-SUZHOU-COMPARISON-REASON-REPAIR-20261105",
+  "fixed_main": "a2d7c113d0bb52d84a36010bd55d2b99829a50f8",
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "parent assignment; no exposed runtime metadata",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "parent assignment; no exposed runtime metadata",
+    "verification": "unknown"
+  },
+  "client": "native subagent",
+  "transport": "collaboration delegation",
+  "tools": [
+    "local shell read/write/hash/diff checks"
+  ],
+  "owned_paths": [
+    "research/admissions/jiangsu-27000-decision-slice.md",
+    "research/coverage.md",
+    "work/runs/suzhou-comparison-reason-author-20261105.json"
+  ],
+  "input_manifest_sha256": "59a5c584900c657b7dee038fcd1111d4b6d89b21b254515d5fa17e1f772f084e",
+  "supplemental_rule_manifest_sha256": "d0cc5d3bc1e9afa2cfecd527ca5e63ae0e31d3a0c758d16e6b6d3cac9c68506b",
+  "steps": [
+    {
+      "step_id": "author-edit-start",
+      "action_id": "author-edit-v1",
+      "phase": "started",
+      "recorded_at": "2026-11-05T00:16:47.072918+00:00",
+      "operation": "Repair the existing market-specific comparison reason chain, append one coverage subsection, and prepare the minimal author record. No external collection or publication."
+    },
+    {
+      "step_id": "author-edit-completed",
+      "action_id": "author-edit-v1",
+      "parent_step_ids": [
+        "author-edit-start"
+      ],
+      "phase": "completed",
+      "recorded_at": "2026-11-05T00:21:08.387640+00:00",
+      "operation": "Completed the two bounded text changes and this minimal attribution record.",
+      "document_outputs": [
+        {
+          "repository_path": "research/admissions/jiangsu-27000-decision-slice.md",
+          "sha256": "188bcca080147546f2ad2ae9a9c3f69e7611381fc409abe1ea61bdc0c0a654cf",
+          "bytes": 25968
+        },
+        {
+          "repository_path": "research/coverage.md",
+          "sha256": "cf0e6881fb5bf3876fe2cb9c5d60c669c8ff33214aeb05d67e043548f9c8d2bc",
+          "bytes": 15019
+        }
+      ],
+      "verification": "not_checked",
+      "verification_note": "Editing completed; author checks are recorded separately below, not independent approval."
+    },
+    {
+      "step_id": "author-self-check-completed",
+      "action_id": "author-self-check-v1",
+      "parent_step_ids": [
+        "author-edit-completed"
+      ],
+      "phase": "completed",
+      "recorded_at": "2026-11-05T00:21:08.387640+00:00",
+      "operation": "Checked input hashes, fixed-main blobs, unchanged fact/acceptance blocks, coverage insertion, EOF, external link preservation, 47 relative link targets, table form, affected conclusions and privacy.",
+      "verification": "verified",
+      "verified_by_run_id": "suzhou-comparison-reason-author-20261105",
+      "verification_note": "Author self-check only. No independent review or CI result is claimed."
+    }
+  ],
+  "read_rules_ref": [
+    "AGENTS.md",
+    "docs/agent-workflow.md",
+    "docs/agent-provenance.md",
+    "docs/experiment-protocol.md",
+    "docs/research-architecture.md",
+    "docs/research-methods.md"
+  ],
+  "adopted_content_refs": [
+    "research/admissions/jiangsu-27000-decision-slice.md",
+    "research/admissions/jiangsu-2025-three-group-conditional-comparison.md",
+    "research/admissions/education-career-bridge.md",
+    "research/admissions/jiangsu-27151-software-control-synthesis.md",
+    "research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+    "research/admissions/jiangsu-jsu20-security-software.md",
+    "research/coverage.md"
+  ],
+  "input_scope": "At fixed_main, checked all 22 frozen input hashes plus the supplemental method rule. Reasoning used adopted texts, not re-fetched originals; collector/analysis proposals were treated as opinions. No new fact collection.",
+  "change_summary": [
+    "Made the Suzhou application-development comparison symmetric for computer science/software and information management, preserving separate Guangzhou/Nanjing filters, logistics, group acceptance and project identity.",
+    "Kept P/P_R and factual blocks unchanged. Added two explicit single-variable walkthroughs and one coverage subsection; preserved the old coverage text and date."
+  ],
+  "unchanged_related_files": [
+    {
+      "path": "research/admissions/education-career-bridge.md",
+      "reason": "The pure-development branch must still respect logistics-member acceptance; the business-willing branch already compares NUPT and JSU at the same job. No effect on its existing logic."
+    },
+    {
+      "path": "research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "reason": "P_S independently prioritizes software delivery plus device-test programs/interfaces, supported by a test job expressly listing computer science. Its weak JSU-first check and 22-member acceptance states do not depend on excluding information management from development."
+    }
+  ],
+  "checks": [
+    "All frozen input hashes and available fixed-main blobs matched.",
+    "P/P_R, admissions history, source table, fees and key acceptance/withdrawal paragraphs unchanged; coverage is exactly one insertion and existing date is untouched.",
+    "Original external links and EOF style preserved; all 47 relative-link target paths exist in fixed main; table shapes and conflict-marker checks passed.",
+    "Affected reason chain and both single-variable branches manually checked; candidate scope and privacy checked. These are author checks, not independent review or CI."
+  ],
+  "not_performed": [
+    "External source retrieval; CSV/Youzy or 2026 admissions/plan collection; unrelated pending-task publication",
+    "GitHub writes, CI, independent review, publication or merge"
+  ],
+  "handoff_status": "ready for a separate independent review of exact frozen bytes; requested model/reasoning metadata remain unverified"
+}
