@@ -1,0 +1,31 @@
+{
+  "run_id": "NJMU-PUBLICATION-20261105",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/377",
+  "role": "mechanical publication; not substantive author or independent reviewer",
+  "baseline_commit": "20f38bbbd27294eef515e58694965762304d036d",
+  "original_research_baseline": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+  "original_author_run": "LOCAL-NJMU-BIOINFO-BIOSTAT-ANALYSIS-20261105",
+  "model": {
+    "requested": null,
+    "reported": null,
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "verification": "unknown"
+  },
+  "source_hashes": {
+    "njmu-bioinfo-biostat-choices.md": "e018e42ae4777de443671cc72a9572b2c638654b2de8c1cf8e1616b647b89507",
+    "sources.json": "4f9ec5d96c4f8f53321f57ab9c1e038fd64565a0bc62c3bd4957284972209bc7",
+    "claims-and-assumptions.md": "3dde7a254c086b2e4b30f9e44ea2a4b9f29c3d6c8aedc844a2a91e3dd9e7b30a"
+  },
+  "changes": [
+    "Only rename relative links in frozen body and claims",
+    "Only update scope and add publication note in sanitized source index",
+    "Append bounded navigation to existing card"
+  ],
+  "historical_correction": "During original local coordination, reviewer metadata temporarily changed the author-bound request provenance from 546 to 685 bytes. The 685-byte version was preserved and the original 546-byte input restored to SHA256 cf1269a89a5256e99faec0344e05b2a52fa947e80bbd3ffb028b06f0517bfd72. Author and collector substantive files were unchanged. Full correction record remains locally retained.",
+  "review_boundary": "Historical local review does not approve this publication head; new independent review required.",
+  "scope": "Third authorized unit only. No raw sources, internal logs, new research or 2026 admissions collection."
+}
