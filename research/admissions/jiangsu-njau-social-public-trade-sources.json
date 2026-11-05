@@ -1,0 +1,93 @@
+{
+  "scope": "2025江苏历史南农01旧候选；南京公共服务与贸易的有界条件比较。新取证与旧摘要复用分层，不证明2031/2037入口。",
+  "baseline_commit": "a2d7c113d0bb52d84a36010bd55d2b99829a50f8",
+  "sources": [
+    {
+      "id": "H1",
+      "publisher": "知途研究既有历史候选摘要",
+      "title": "南农01全部12显示成员及三目标",
+      "date": null,
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a2d7c113d0bb52d84a36010bd55d2b99829a50f8/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "locator": "全部12显示成员表A1928、A1931、A1932及组1922",
+      "representation": "固定基线既有摘要；非本轮官方录取原件或CSV重读",
+      "sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "limits": "旧录取数非计划；显示人数对账不证完整；专业独立选科/备注空值不补不限；用户位次与接受未知。"
+    },
+    {
+      "id": "U1",
+      "publisher": "南京农业大学；江苏省教育考试院，均沿既有卡核验层级",
+      "title": "南农2025章程与江苏2026平行志愿问答的旧摘要",
+      "date": null,
+      "urls": [
+        "https://zsxx.njau.edu.cn/info/1016/4062.htm",
+        "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html"
+      ],
+      "locator": "南农第11、21—23条；江苏第8/5问；固定基线国贸—英语卡“P0与填报”",
+      "representation": "复用固定仓库文稿，不称本轮新读两原页",
+      "reused_summary_sha256": "531fff068190db35307590f2db6fd5e3013a0010344f14c640d2ca641ba17fc7",
+      "limits": "不保证2027规则、大类分流或转专业结果；未新增渠道/批次/轮次原始核验。"
+    },
+    {
+      "id": "J1",
+      "publisher": "南京河西新城开发建设管理委员会官网转载",
+      "title": "南京市2025年事业单位统一公开招聘工作人员岗位信息表",
+      "date": "2025-03-19",
+      "url": "https://newtown.nanjing.gov.cn/xxgk/rszp/202503/P020250319589213736807.pdf",
+      "repost_page": "https://newtown.nanjing.gov.cn/xxgk/rszp/202503/t20250319_5098909.html",
+      "locator": "物理第1页表头；第48页序286、287",
+      "representation": "先前成功取得的网页转换文本；按表头及连续行列序判读，非原始PDF字节、像素或XLS单元格",
+      "representation_sha256": {
+        "header": "e276f5d474f5a778da9748ba94acc7c5d38e0104d94057ce1a1265840310fab3",
+        "selected_text": "c231c88e6d99bf6c6d90511c6c737f53317026903fcce60d054eadd4d6ba3b1a"
+      },
+      "limits": "同一表两行，不是两独立市场样本；原PDF后续直取403，之后另取官方XLS亦403，均无字节；此后全部附件/替代源获取停止，唯一岗位依据为此前既得转换文本。未认证两格式等同、完整本科目录、个人报考资格、工资或未来岗位。"
+    },
+    {
+      "id": "G1",
+      "publisher": "南京市人力资源和社会保障局",
+      "title": "南京市2025年事业单位统一公开招聘工作人员公告，宁事招公告〔2025〕1号",
+      "date": "2025-03-19",
+      "url": "https://rsj.nanjing.gov.cn/njsrlzyhshbzj/202503/t20250319_5098724.html",
+      "locator": "二（一）、二（三）1—2；三（一）9（1）、三（二）、三（四）",
+      "representation": "既得官方网页转换文本，非raw HTML",
+      "representation_sha256": "ce6863e0597edc70ccaec9c31e19995c46830face9e284b21f6d4a8404eb1700",
+      "limits": "2025历史规定，非当前仍开放或2031规则保证；附件XLS未取得，不以总公告替代逐岗字段。"
+    },
+    {
+      "id": "R1",
+      "publisher": "国机招聘平台苏美达轻纺岗位，沿既有文稿摘要",
+      "title": "南京业务助理本科入口",
+      "date": null,
+      "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/posDetail.html?postId=6a9aff38ded00b8cb6908edb&postType=campus",
+      "locator": "固定基线国贸—英语卡“原件连接”苏美达轻纺行",
+      "representation": "仅复用旧已核摘要，本轮未重取岗位原页",
+      "reused_summary_sha256": "531fff068190db35307590f2db6fd5e3013a0010344f14c640d2ca641ba17fc7",
+      "limits": "发布日期/具体届别/工资/确定人数/合同未知；优先不等独占；回款为作者支付机制推断，不是该岗明列职责。"
+    },
+    {
+      "id": "P1",
+      "publisher": "中共中央社会工作部官方转载，来源新华社；发文机关中办、国办",
+      "title": "关于加强社区工作者队伍建设的意见",
+      "document_date": "2024-03-28",
+      "xinhua_release_date": "2024-04-10",
+      "repost_timestamp": "2024-10-01 06:02",
+      "url": "https://www.zyshgzb.gov.cn/n1/2024/0920/c459388-40324583.html",
+      "locator": "二§1、3、4；四§10；五§12、13；六§15",
+      "representation": "已取得并保存在受控位置的原始HTML及提取文字，未作视觉认证",
+      "raw_html_sha256": "0eaf99b88cadc95d7748a63155db2e7b2f08ef434a7f61a723039a1f1a3c7b5c",
+      "limits": "限文件定义的全日制专职社区工作者；配置标准非净招录量，非J1事业岗口径；未全面审查后续政策或南京落实。"
+    },
+    {
+      "id": "N1",
+      "publisher": "南京公共采购信息网公告；公告显示采购人为南京市江宁区人民政府江宁街道办事处",
+      "title": "江宁街道民政服务平台购买服务项目采购公告",
+      "date": "2026-05-15",
+      "url": "https://njgc.jfh.com/purchase/detail?id=51496&type=1",
+      "locator": "一、项目基本情况（包1及履行期限）；二、申请人资格；采购人信息",
+      "representation": "从网页转换原公告整理的选定事实笔记和短摘；非raw HTML、非签署合同；jfh.com不是政府域名",
+      "representation_sha256": "fdf1869f96f736a32a07b34826e2b421488d22b815072e6b58be0f1244ba11a0",
+      "limits": "Word正文未取得；503/超时等是技术失败。人员、个人劳动合同、验收付款及补偿细则未知；预算/控制价非成交实付、工资或增员。"
+    }
+  ],
+  "publication_boundary": "只发布最少来源索引与原创分析；原件、长转换文本、邻近岗位、联系方式及原工具引用标记不上传。无新增附件获取。"
+}
