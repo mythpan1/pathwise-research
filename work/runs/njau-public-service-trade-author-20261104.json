@@ -86,5 +86,16 @@
     "review_sha256": "c235f083ead1bedaee34d4da1bc28fe92c8c2cef11d25fda9bc382ad43ab7a4b",
     "change": "明确认定路径所指为专业参考目录和招聘条件中都未列出的专业、留学人员的毕业专业；未改变任何具体专业的资格认定、条件顺序或其他结论。",
     "status": "author precision revision complete; independent addendum pending"
+  },
+  "base_integration_20261105": {
+    "recorded_at": "2026-11-05T01:05:06.445553+00:00",
+    "prior_content_head": "8319152970d17580767976a11f658b2398c43d9d",
+    "publication_base_commit": "9a1cea6158544a39ed33e5baf10ef0335fd41200",
+    "publication_base_tree": "eefeef44eea7930557b33d60355c574dc708fde2",
+    "reason": "PR #367 已合并，PR #368 与其 coverage 在同一位置插段，协调者新核 mergeable=false；本次只衔接版本，不变更研究结论。",
+    "preservation": "报告、来源索引和专题导航与v2字节不变；完整保留新main的苏州段及其他coverage原文，再加入南农v2原段。",
+    "review_history": "R1原建议采用、0阻断；v2只采纳非阻断措辞精度并获原独审补记建议采用。旧H已有普通审核评论；本次变化待原独审复核，不把基线变化称为初审失败或事实返工。",
+    "scope": "新增main内容归PR #367，不计为南农成果。原有baseline_commit继续表示研究输入基线；此字段另记发布衔接基线。",
+    "status": "author base integration prepared; independent affected-content review pending"
   }
 }
