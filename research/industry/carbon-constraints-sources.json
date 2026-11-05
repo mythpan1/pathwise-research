@@ -1,0 +1,305 @@
+{
+  "schema": "sanitized-source-index-v1",
+  "as_of": "2026-11-05",
+  "scope": "Chinese industrial carbon constraints and EU exposure mechanisms; Jiangsu steel-process anchor; 2031/2037 conditional pathways",
+  "baseline_main": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+  "sources": [
+    {
+      "id": "CN01",
+      "issuer": "生态环境部",
+      "title": "全国碳排放权交易市场覆盖钢铁、水泥、铝冶炼行业工作方案",
+      "issued": "2025-03-20",
+      "published": "2025-03-26",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/t20250326_1104736.html",
+      "attachment_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/W020250326367625819894.pdf",
+      "locators": [
+        "PDF物理页1—2/印刷页3—4：启动阶段、范围、2.6万吨",
+        "物理页3/印刷页5：核算报告核查、实测、缺省、在线监测探索",
+        "物理页4/印刷页6：强制年度清缴"
+      ],
+      "coverage": "中国全国；2024—2026起步、2027起深化；钢铁/水泥/铝冶炼重点排放单位",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "ab14bdc23f9ba819b2ebf2a04c0eeff7a2131fef48b2705e6c881270900dbfaa"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "CN02",
+      "issuer": "生态环境部",
+      "title": "2024、2025年度全国碳排放权交易市场钢铁、水泥、铝冶炼行业配额总量和分配方案",
+      "issued": "2025-11-16",
+      "published": "2025-11-18",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/t20251118_1134175.html",
+      "attachment_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "locators": [
+        "物理页1—4/印刷页3—6：免费、范围、等量和系数法",
+        "物理页7—10/印刷页9—12：预分配70%、2024省级代清缴、清缴"
+      ],
+      "coverage": "2024/2025三行业名录内企业/线/工序",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "ff4c2f685aeeb007d68dc667eb794ceb2cebf0b3618cd8659fba2326ef9da28c",
+        "3793c9d2a203c6809bb5c873b9db7815500cb02665968bc8569e4821aed71634"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "CN03",
+      "issuer": "生态环境部",
+      "title": "全国碳排放权交易市场2025、2026年度发电行业以及2026年度钢铁、水泥、铝冶炼行业配额总量和分配方案",
+      "issued": "2026-09-01",
+      "published": "2026-09-03",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/t20260903_1165029.html",
+      "attachment_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/W020260903551498752549.pdf",
+      "locators": [
+        "PDF物理页1—2/印刷页3—4：免费、2026对象、仅直接排放",
+        "物理页7—9/印刷页9—11：三（二）A=E×(1+α)、行业平衡值、表3±3%",
+        "物理页11—12/印刷页13—14：三（三）特殊情形",
+        "物理页13/印刷页15：2026预分配50%",
+        "物理页15—16/印刷页17—18：五、清缴"
+      ],
+      "coverage": "发电2025/2026；三行业2026名录单位（本任务仅三行业为主）",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "42f193375f199644d2c0c12bcec87fe18789907e1fec7fe6736cc9f44fbfadfb"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "EU01",
+      "issuer": "European Parliament and Council / EUR-Lex",
+      "title": "Regulation (EU) 2025/2083 and Regulation (EU) 2023/956 consolidated 20 October 2025",
+      "issued": "2025-10-08",
+      "published": "2025-10-17",
+      "entered_into_force": "2025-10-20",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/2083/oj/eng",
+      "consolidated_url": "https://eur-lex.europa.eu/eli/reg/2023/956/2025-10-20/eng",
+      "locators": [
+        "Articles 2a and Annex VII: cumulative 50t, electricity/hydrogen exception",
+        "Articles 5,6: responsible declarant, annual deadline, EU free allocation adjustment",
+        "Articles 7,8: actual/default, verification; Annex II direct-only goods",
+        "Article 9: effective carbon price, rebates, certification, default-carbon-price path",
+        "Articles 20—22: Feb 2027 sales, 2026 quarterly prices, Sep 2027 surrender, 2027 50%",
+        "Annex I/II: exact CN scope; 26011200 not in Annex II",
+        "Annex IV points 3 and 4.1: complex precursors and defaults",
+        "Article 31: EU ETS free allocation adjustment",
+        "Article3: direct emissions includes heating/cooling consumed in production irrespective of where produced; differs from domestic purchased-heat boundary"
+      ],
+      "coverage": "EU imports of Annex I goods; many substantive provisions from 2026, sales from 2027-02-01",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "f1162298bfe11eb8fe1d36345f7e1bdd2a3f94264e7c9508e2e0b2107ddfa626",
+        "8d3c2d394082ce6c707d9837835e643da5b7c91a2c22926d3553f62f842fea0d"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "EU02",
+      "issuer": "European Commission DG TAXUD",
+      "title": "CBAM legislation and guidance (current official legislation directory)",
+      "published": null,
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-legislation-and-guidance_en",
+      "locators": [
+        "Regulations: 2025/2083 and consolidated version",
+        "Implementing acts: 2025/2621 and 2026/1740 correcting act",
+        "Review and legislative proposals: COM(2025)989 is proposal",
+        "Default values and benchmarks: 10 August 2026 information workbook; legally binding values in act"
+      ],
+      "coverage": "Current directory observed 2026-11-05; not exhaustive legal-history certification",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "04200634de92639f85dfe1426b1e289893f4a86276b52d88e4e1cf105de20cf2"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "EU03",
+      "issuer": "European Commission / EUR-Lex",
+      "title": "Commission Implementing Regulation (EU) 2026/1740 correcting Implementing Regulation (EU) 2025/2621 as regards Annexes I and IV",
+      "issued": "2026-07-20",
+      "published": "2026-07-31",
+      "entered_into_force": "2026-08-03",
+      "applies_from": "2026-01-01",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/1740/oj/eng",
+      "locators": [
+        "Recitals (2)—(14): corrections, production route, 26011200 indirect, rounding",
+        "Article 1: replace Annexes I and IV",
+        "Article 2: third day following publication; retroactive Jan 2026",
+        "Annex I opening: mark-ups 10/20/30%; fertilisers1%; total-emissions basis and route benchmark"
+      ],
+      "coverage": "EU CBAM definitive default values; only body and beginning of annex captured, country tables not exhaustively checked",
+      "capture_kind": "official-origin text returned by web/exa; not source PDF binary",
+      "captured_content_sha256": [
+        "6e58dc99f6129f755e4f55eb7032329daf5d0e5e46dfb978a4c2192439802ad2"
+      ],
+      "use_status": "official-origin text checked in fixed local capture"
+    },
+    {
+      "id": "E1",
+      "issuer": "南京钢铁股份有限公司",
+      "title": "2025年度可持续发展报告",
+      "published": "2026-03-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-17/1225011792.PDF",
+      "locators": [
+        "PDF25/印刷45—46：风险认识",
+        "PDF28/印刷51—52：自建系统、培训与企业目标",
+        "PDF31/印刷57—58：改造与控制",
+        "PDF32/印刷59—60：余热年效益与强度"
+      ],
+      "capture_kind": "company PDF binary and local text extraction",
+      "sha256": "0e2d069526583bc28fb5974791f2a37a1c60384a61cebff3c4208698780f434e",
+      "limits": [
+        "Company self-report, not independently identified carbon-price effect, audit cash receipt or new hiring.",
+        "Author read fixed extracted pages; did not repeat coordinator visual inspection."
+      ]
+    },
+    {
+      "id": "E2",
+      "issuer": "江苏省生态环境厅（机关），江苏省政府采购中心；江苏省公共资源交易网公开",
+      "title": "2025-2027年度碳排放核查中标公告采购包2（正文列包1—11）",
+      "published": "2026-02-05",
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20260205/8d01bcba5b87472e96024130b019e6b8.html",
+      "locators": [
+        "三、中标信息，采购包1：4257000元，南京市节能技术服务中心",
+        "四、主要标的：分包1—11自签约起三年",
+        "九、采购人：江苏省生态环境厅（机关）"
+      ],
+      "capture_kind": "official-origin web-readable conversion",
+      "captured_content_sha256": "e49fe7669640be43a6b209a6b8f4aa1be92c2e721a70654c4f050b96936a31f2",
+      "limits": [
+        "Award notice, not signed contract, payment or wage.",
+        "Separate tender URL returned403; no alternate access or invented tender conditions."
+      ]
+    },
+    {
+      "id": "B01",
+      "title": "上电能动与自动化：热泵、制冷和热管理怎样改变本科选择",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "730f7c658ee4bce62e0e68ac3ad0bc82f13dd1717621396871f776766fa9aa1d",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "27151观察尺：可靠容量付费怎样改变材料与合作自动化的比较",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "c3a2b8ceb8ccae178db198d4ea47317297910e6cd11f5f7f15a29a54b9993eaa",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B03",
+      "title": "上电同组两专业：电力市场分析与能源系统方案怎样选",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/admissions/jiangsu-power-market-math-choices.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "a45099a49a04f49e28c46d41c995cbb0edf13060a3f43c2aba01554783fd5aa2",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B04",
+      "title": "外需重组：货物出口、海外经营与国内交易怎样改变历史类专业先后",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/admissions/jiangsu-history-export-overseas-domestic.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "ff9ee0ba475a769ca021e4e38be505e37cf01ab26f5371ff64296cd7a90caa15",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B05",
+      "title": "新增、改造与运行共存时：四类本科方向的条件取舍",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/industry/investment-retrofit-operations-2037-choices.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "8505b72289c1874f8f79e6b324757c5312f5290a7b038d134a9356eb1b9ce4e3",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B06",
+      "title": "任务留客户还是转到服务商：本科方向与新人入口怎么变",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/industry/service-organization-2037-choices.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "37449285e6e6586196fab5255051db3fd56a1e7a51b659b146b67d6f5651a708",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "B07",
+      "title": "研究覆盖与推进",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/758cba68ccd3959a7f9b48fa466e1044bbc1c2a5/research/coverage.md",
+      "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+      "captured_content_sha256": "a2b46ef0426bb7c10256beb55c6739797f3a9ad98ae64cf37d5231a27695aaa4",
+      "use_status": "Fixed adopted research reused; source admission/recruitment pages not re-fetched",
+      "limits": [
+        "Historical positions are not future offers or applicant preferences.",
+        "Complete groups, unknowns and eligibility restrictions retained."
+      ]
+    },
+    {
+      "id": "P01",
+      "title": "能源互联网本科第一份工作：已审待入库补充",
+      "url": null,
+      "controlled_evidence_id": "P01-handoff-20261105",
+      "captured_content_sha256": "6f7a69b2d3ff9e21ad437f7ffdb3f70bf1aec0fabd6e3df3b775494622b72c67",
+      "use_status": "Local candidate handoff only; P01 used for latest entry status, P02/P03 for non-duplication",
+      "limits": [
+        "Not yet adopted into fixed main; prior independent review does not approve this new analysis.",
+        "No new recruitment or school evidence collected in this run."
+      ],
+      "adopted_url": "https://github.com/mythpan1/pathwise-research/blob/b00bd36598bcd6732e7fc0aeeaacaca2a6422bf2/research/admissions/energy-internet-undergraduate-entry-addendum.md"
+    },
+    {
+      "id": "P02",
+      "title": "首师普通AI—软件：已审待入库候选",
+      "url": null,
+      "controlled_evidence_id": "P02-handoff-20261105",
+      "captured_content_sha256": "af3bc64bff485ef38b92f2189ea17726d7bd6358614f0ee31ce636f1c0b52854",
+      "use_status": "Local candidate handoff only; P01 used for latest entry status, P02/P03 for non-duplication",
+      "limits": [
+        "Not yet adopted into fixed main; prior independent review does not approve this new analysis.",
+        "No new recruitment or school evidence collected in this run."
+      ],
+      "adopted_url": "https://github.com/mythpan1/pathwise-research/blob/b00bd36598bcd6732e7fc0aeeaacaca2a6422bf2/research/admissions/cnu-ai-software-choices.md"
+    },
+    {
+      "id": "P03",
+      "title": "南医生物信息—生物统计：已审待入库候选",
+      "url": null,
+      "controlled_evidence_id": "P03-handoff-20261105",
+      "captured_content_sha256": "ad3e542aeedd8387971955b7e9daa722f2bb5340139d26ada6b1c8cb3016cdf9",
+      "use_status": "Local candidate handoff only; P01 used for latest entry status, P02/P03 for non-duplication",
+      "limits": [
+        "Not yet adopted into fixed main; prior independent review does not approve this new analysis.",
+        "No new recruitment or school evidence collected in this run."
+      ],
+      "adopted_url": "https://github.com/mythpan1/pathwise-research/blob/b00bd36598bcd6732e7fc0aeeaacaca2a6422bf2/research/admissions/njmu-bioinfo-biostat-choices.md"
+    }
+  ],
+  "limits": [
+    "No raw tool responses, names/contact fields from procurement, private account data or machine paths in this index.",
+    "Public/authorized source URLs are locators, not a grant to publish the research.",
+    "Current rules are not treated as permanent through2037; exact enterprise bills and causal hiring impacts not established."
+  ],
+  "publication_note": "Authorized fourth unit, 2026-11-05. Original frozen source descriptions and hashes retained. P01-P03 were adopted by publication baseline b00bd36598bcd6732e7fc0aeeaacaca2a6422bf2; added adopted_url is navigation, not a new primary source verification."
+}
