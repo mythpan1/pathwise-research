@@ -8,11 +8,11 @@
       "issued": "2022-02-14",
       "published": "2022-02-21",
       "effective": "2022-03-01",
-      "representation": "共同发布机构官网的工具可读全文转换；非原始HTML",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "第二、四、十七至二十、二十八至二十九条",
       "limitation": "NHC另一原页读取412后停止；NHSA文本独立取得。不证地方结算或招聘。",
-      "captured_text_excerpt_sha256": "095b526ee1292117452ac43230c80453b6c6baec49b5fe104b48005c328d04e6",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
+      "tool_text_sha256": "d304a9ef3645253f97226cddea13d60c92c61fc5815e8ee02151b730c82c95c7",
+      "tool_text_bytes": 13049
     },
     {
       "id": "S2",
@@ -21,11 +21,11 @@
       "url": "https://www.hunan.gov.cn/zqt/zcsd/202411/t20241128_33512727.html",
       "issued": "2024-11-08",
       "published": "2024-11-28",
-      "representation": "湖南省政府对国家文件转载的工具可读全文转换；非首发字节",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "一、二（一）（二）、三（三）（四）、四（六）（八）",
       "limitation": "2025/2027/2030均文件目标，不证完成；首发NHC页面412后停止。",
-      "captured_text_excerpt_sha256": "47d67b850c1c43159d5657c084a7574aa09236963109cadbc793c2b98d06f805",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
+      "tool_text_sha256": "0bc7f2f22055017b1553120e995da731a229678482a02b04876125e89b564b56",
+      "tool_text_bytes": 9878
     },
     {
       "id": "S3a",
@@ -34,11 +34,11 @@
       "url": "https://www.hunan.gov.cn/zqt/zcsd/202605/t20260528_33988400.html",
       "issued": "2026-05-19",
       "published": "2026-05-28",
-      "representation": "湖南省政府转载工具可读全文转换",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "国卫办基层函〔2026〕184号，正文供推进工作中参考使用",
       "limitation": "与S3同一政策族，不是独立就业证据。",
-      "captured_text_excerpt_sha256": "a4f9ecaa3c3af8b919e9b8682778e99c578b33a7862815341d1bbe967ec3e45c",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
+      "tool_text_sha256": "2ec671524e6755c546fc00050731b52307a15b20ec1a6c4f229abf870b9905a2",
+      "tool_text_bytes": 3590
     },
     {
       "id": "S3",
@@ -46,12 +46,12 @@
       "issuer": "国家卫生健康委办公厅",
       "url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/2.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E6%A3%80%E9%AA%8C%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf",
       "issued": "2026-05-19",
-      "representation": "NHC官网PDF工具分页文本，仅P0到P13开头；非原PDF字节。工具显示总19页。",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "页码按印刷页：1–3设置与人员；5基础检验与上送；6–7信息；8–10分级协作与培训；12–13全过程质量",
       "limitation": "没有实际图像渲染内容可目视核验。后续页面两次超时，P13余部–P18不作依据。配置不是新增招聘或编制。",
-      "captured_text_excerpt_sha256": "020ea3fc30524ef8126cdfdf0cf7075490bfeda103ae0a8ea83457652514df6a",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes.",
-      "printed_page_mapping": "Printed page p = tool P index + 1; used printed pages 1–13 only."
+      "printed_page_mapping": "Printed page p = tool P index + 1; used printed pages 1–13 only.",
+      "tool_text_sha256": "13985d8965eebe14bc868d2bc7f70463309e2ec198ec4b8fb296b897e45782ca",
+      "tool_text_bytes": 23456
     },
     {
       "id": "S4",
@@ -60,11 +60,11 @@
       "url": "https://www.jiangsu.gov.cn/art/2025/2/8/art_89146_11487838.html",
       "published": "2025-02-08",
       "observation_as_of": "2025-02-06",
-      "representation": "政府网站转载报道的工具可读全文转换",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "“8826万份检验数据线上互认”段；L20–29（接入机构、检验目录/上传与调阅分列）",
       "limitation": "新闻披露，非底层数据审计；上传量/调阅量不等于唯一患者、免检数或用工变化。",
-      "captured_text_excerpt_sha256": "9128859fd9f3402148abc6d54ce8c834fbab29de484fbbe82ebac3cf5197d7e1",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
+      "tool_text_sha256": "cd59c56b5fa26b5039adf28d4ff97d82067bbf2b6a4ee2f5e06e3af7ddfe5412",
+      "tool_text_bytes": 5620
     },
     {
       "id": "S5",
@@ -73,11 +73,11 @@
       "url": "https://wjw.wuxi.gov.cn/doc/2026/01/16/4718898.shtml",
       "published": "2026-01-16",
       "observation_as_of": "2026-01-06",
-      "representation": "卫健委网站转载报道的工具可读全文转换",
+      "representation": "source-specific tool-readable text segment, not original HTML/PDF bytes",
       "locator": "“检查结果全省互认，数据跑代替群众跑”段；L20–33（L29–33涵盖互认判断及云检验接入/目录）",
       "limitation": "与S4均新华日报来源家族，不当独立验证。接入/目录不证全部项目可认或某县实验室已重组。",
-      "captured_text_excerpt_sha256": "fd03723bd9495a9bd6359a919d1f38ba80e6ea0a4a3337c83c25d0a14a11c11f",
-      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
+      "tool_text_sha256": "cf40df4c66f3a3663420ee9c87fcdfecc49207866c77b9371b169a2315f929b8",
+      "tool_text_bytes": 12122
     }
   ]
 }
