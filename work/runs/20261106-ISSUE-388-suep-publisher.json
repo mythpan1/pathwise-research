@@ -26,7 +26,7 @@
     "source": "Runtime reasoning report not exposed in this run",
     "verification": "unknown"
   },
-  "recorded_at": "2026-11-06T04:39:15Z",
+  "recorded_at": "2026-11-06T04:42:20Z",
   "recorded_by_run_id": "publish_suep_research-20261106",
   "read_rules_ref": {
     "commit": "ec388160beaec5a84b414a24c05185ef67e7b19e",
@@ -46,5 +46,5 @@
     "research/README.md",
     "research/admissions/suep-thermal-control-training-sources.md"
   ],
-  "note": "Mechanical publication only; research author and independent reviewer have separate records/roles. Initial Issue creation occurred without a pre-write publisher start record; this actual deviation is recorded here, not backdated. Input SHA-256: analysis e3096ab422764bc340b7cc4514f421d0e3ea49114a3172ac7901da1c8c0b2d04; source register 8c34d565a79441880870aea11e011760a78dcedba7a08b513ea6c75d52b57b25; integration note 762674718fcbbaecf274beb89d9010e738e2dd9e3d6322ee008327afdff02173. Base main ec388160beaec5a84b414a24c05185ef67e7b19e. Authorized scope is Issue #388 publication and minimal navigation/coverage/legacy-card linkage; no 2026 admissions collection, old-library import, protection changes, self-review, APPROVE or merge. No local Git worktree/CI; GitHub validation on exact PR head is the check source."
+  "note": "Mechanical publication only; research author and independent reviewer have separate records/roles. Initial Issue creation occurred without a pre-write publisher start record; this actual deviation is recorded here, not backdated. Input SHA-256: analysis e3096ab422764bc340b7cc4514f421d0e3ea49114a3172ac7901da1c8c0b2d04; source register 8c34d565a79441880870aea11e011760a78dcedba7a08b513ea6c75d52b57b25; integration note 762674718fcbbaecf274beb89d9010e738e2dd9e3d6322ee008327afdff02173. Base main ec388160beaec5a84b414a24c05185ef67e7b19e. Authorized scope is Issue #388 publication and minimal navigation/coverage/legacy-card linkage; no 2026 admissions collection, old-library import, protection changes, self-review, APPROVE or merge. No local Git worktree/CI; GitHub validation on exact PR head is the check source. This record was added after the Issue creation; recorded_at reflects the publisher record's actual creation time."
 }
