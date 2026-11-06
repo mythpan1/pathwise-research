@@ -60,6 +60,8 @@
 
 疾控、基层与研究方向见[公共卫生职业路径](public-health-careers.md)。
 
+医学检验技术与卫生检验与检疫的具名入口见[两种检验本科比较](jiangsu-lab-testing-choices.md)、[疾控分支](jiangsu-lab-cdc-branch.md)和[常熟临床本科补证](changshu-lab-undergraduate-entry.md)，网络分工见[县域检验专题](../industry/county-lab-network-2037-choices.md)。P企业分子／食品QC并列、C公共卫生卫检暂前置、L县域临床医检暂前置，各守研究假设。常熟为单地单检验所的本科可报与录用前公示支点，非南医输送或最终到岗、训练证明。
+
 护理本科与专科、考试注册及岗位比较见[护理职业路径](nursing-careers.md)。
 
 口腔本科、专科与资格路径见[口腔医学职业路径](dentistry-careers.md)。
@@ -151,3 +153,4 @@ AI 任务变化、培养与志愿比较见[AI 韧性规划](ai-resilience-planni
 专业与职业收入数据口径见[收入证据方法](salary-evidence-method.md)。
 
 院校、校区与当年招生单位的映射见[院校映射方法](institution-mapping-method.md)。
+

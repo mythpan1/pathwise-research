@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-06",
+  "baseline_repository": "mythpan1/pathwise-research",
+  "baseline_commit": "2dc0827dde432dcd4b83e5eb67416ae45967d85e",
+  "scope": {
+    "employment_place": "江苏常熟",
+    "employer": "常熟市医学检验所",
+    "recruitment_cohort": "2025年公开招聘备案制工作人员",
+    "position_code": "029",
+    "comparison": "南京医科大学2025江苏物理05旧组医学检验技术与卫生检验与检疫",
+    "source_family_count": 1,
+    "independent_employer_count": 1,
+    "limits": "历史单地单雇主样本，录用前公示不等于最终接收、无经验或新人训练。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.changshu.gov.cn/zgcs/kjww/202508/3704096fae504d3a878d4394fca281d2.shtml",
+      "published": "2025-08-20",
+      "retrieved": "2026-11-06",
+      "publisher": "常熟市卫生健康委员会",
+      "source_family": "常熟市卫生健康委员会；招聘与公示为同一检验所同一2025批次",
+      "sha256": "3f965d03f233237c783f69dc7ec1958e94c0dbda16cee09ef0a8544d08f49b8f",
+      "sha256_representation": "原始下载字节",
+      "title": "常熟市构建医学检验一体化“县域模式”",
+      "representation": "官方网页原始HTML；政策实施正文定向核对，并与网页可读转换文本比对。",
+      "locations": [
+        "正文首段：2010年成立、四家市属医院整合、2025年8月印发方案",
+        "正文“一是”段：1+5+N及全市公立医疗机构一体化",
+        "正文“二是”段：独立法人财务资产、五个统一、精简分流20余人、耗材和设备利用率",
+        "正文“三是”段：部分项目集中送检、LIS及86项共享互认"
+      ],
+      "supports": [
+        "常熟具名县域检验网络的主管部门实施披露",
+        "存量人员与检验资源调整的历史组织背景"
+      ],
+      "limits": [
+        "主管部门披露，不是独立效果审计",
+        "实施以来为相对时间线，精确统计起止、分母及人员去向未披露",
+        "分流不等于裁员或净就业减少；设备实物迁移未证",
+        "不能用8月方案解释7月招聘的原因"
+      ]
+    },
+    {
+      "id": "S2",
+      "url": "https://www.changshu.gov.cn/zgcs/c100303/202507/632fd83487c64946bb0f45fee128aef3.shtml",
+      "published": "2025-07-15",
+      "retrieved": "2026-11-06",
+      "publisher": "常熟市卫生健康委员会",
+      "source_family": "常熟市卫生健康委员会；招聘与公示为同一检验所同一2025批次",
+      "sha256": "457a634d143d36e2372f45c5b2b605c99ff0eaaccd953433e6356dd802f53eba",
+      "sha256_representation": "原始下载字节",
+      "title": "常熟市卫生健康系统2025年公开招聘备案制工作人员公告",
+      "representation": "官方网页原始HTML；资格、招聘程序及公示录用条款定向核对，并与网页可读转换文本比对。",
+      "locations": [
+        "资格条件（四）：毕业生类别及部分往届等适用范围",
+        "报名注意事项第2项：开考比例和核减规则",
+        "公示和录用第1—3项：备案制、合同、最低服务及资格期限"
+      ],
+      "supports": [
+        "2025招聘批次的毕业生类别定义",
+        "合同至少3年、除依法依规解除外最低服务3年、试用期",
+        "检验所卫生专业技术人员3年（2个考试周期）取得执业资格（技术职称）的条款"
+      ],
+      "limits": [
+        "毕业生类别及报名时无工作单位均不证明从未工作",
+        "1:3为开考程序条件，非报录比",
+        "备案制不等于事业编制保证",
+        "未指定本研究两精确专业的适用证书、考试或报告权限",
+        "2025批次条款不承诺2031沿用"
+      ]
+    },
+    {
+      "id": "S2a",
+      "url": "https://www.changshu.gov.cn/zgcs/c100303/202507/632fd83487c64946bb0f45fee128aef3/files/f655f7d49b6a42498b295fda0f516712.xlsx",
+      "published": "2025-07-15",
+      "retrieved": "2026-11-06",
+      "publisher": "常熟市卫生健康委员会",
+      "source_family": "常熟市卫生健康委员会；招聘与公示为同一检验所同一2025批次",
+      "sha256": "3aa9018b6722569e57999b0600fe20a85a422e2cf07e5e0651a79f0c8a1db7f2",
+      "sha256_representation": "原始下载字节",
+      "title": "常熟市卫生健康系统2025年公开招聘备案制工作人员岗位表",
+      "representation": "官方附件原始XLSX；OOXML单元格提取，未做Excel视觉核验。",
+      "locations": [
+        "Sheet1!B2:J2：表头",
+        "Sheet1!B31:J31：常熟市医学检验所029检验岗位",
+        "Sheet1合并范围A29:A31：非医共体单位",
+        "全表单位及岗位名：核对该所唯一检验岗位"
+      ],
+      "supports": [
+        "029计划2人，本科及以上，毕业生类别及相应学位条件",
+        "专业清单明确医学检验、医学检验技术、临床检验诊断学",
+        "研究生报考者本科阶段须为医学类专业",
+        "检验所归入招聘表非医共体单位"
+      ],
+      "limits": [
+        "本科可报而非本科专岗",
+        "该行未列卫生检验与检疫，不作全行业排除",
+        "029未单列工作年限，不证明拟聘者无经验",
+        "不能据计划人数认定最终到岗或净新增人数"
+      ],
+      "parent_source_id": "S2"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.changshu.gov.cn/zgcs/gongshi/202509/2f95419c20f54685b0e92b6bb40d45d5.shtml",
+      "published": "2025-09-17",
+      "retrieved": "2026-11-06",
+      "publisher": "常熟市卫生健康委员会",
+      "source_family": "常熟市卫生健康委员会；招聘与公示为同一检验所同一2025批次",
+      "sha256": "6375001d87748efb9bf1175f9fd631142c7cdca9cd53c10d0c7bb8c7a5ca7da6",
+      "sha256_representation": "原始下载字节",
+      "title": "常熟市卫生健康系统2025年公开招聘备案制工作人员录用前公示（第一批）",
+      "representation": "官方网页原始HTML；说明、表头及相关两行定向核对，并与网页可读转换文本比对。",
+      "locations": [
+        "说明段：通过笔试、面试、资格审查、体检及政审后公示拟录用人员",
+        "表格第24行：检验所检验、本科、医学检验技术、备案制及毕业院校",
+        "表格第25行：检验所检验、硕士、临床检验诊断学、备案制、递补"
+      ],
+      "supports": [
+        "精确专业本科对象进入录用前公示，超出仅允许申请",
+        "同岗另有临床检验诊断学硕士拟录用对象",
+        "本科公示对象非南京医科大学"
+      ],
+      "limits": [
+        "未列029代码，关联依同批次、单位、岗位名称及人数规模的一致性",
+        "只到拟录用公示，未证明最终录用、报到、留任或训练兑现",
+        "本科对象毕业年份和工作经历未闭合",
+        "不证明南医输送、实习合作、培养效果、本科胜率或硕士优势"
+      ]
+    }
+  ],
+  "reused_baselines": [
+    {
+      "repository_path": "research/industry/county-lab-network-2037-choices.md",
+      "commit": "2dc0827dde432dcd4b83e5eb67416ae45967d85e",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/2dc0827dde432dcd4b83e5eb67416ae45967d85e/research/industry/county-lab-network-2037-choices.md",
+      "representation": "固定仓库正文；仅复用已采用摘要，不重核上游原件或提升取得等级。",
+      "sha256": "024e2b5c8759f51fe0d85cffc0c38aa8e2753d3953f15a875124d42a79663899",
+      "sha256_representation": "固定提交仓库正文UTF-8原字节，与Git blob对象一致",
+      "byte_count": 16596,
+      "git_blob_sha": "67909d66593656cf8ed8e9213c5c40737e22dd95"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-lab-testing-choices.md",
+      "commit": "2dc0827dde432dcd4b83e5eb67416ae45967d85e",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/2dc0827dde432dcd4b83e5eb67416ae45967d85e/research/admissions/jiangsu-lab-testing-choices.md",
+      "representation": "固定仓库正文；仅复用已采用摘要，不重核上游原件或提升取得等级。",
+      "sha256": "8510330a9e7865cdd74a02827b483246bf8cf6246c52dfcfa0fb69beeff524b2",
+      "sha256_representation": "固定提交仓库正文UTF-8原字节，与Git blob对象一致",
+      "byte_count": 25251,
+      "git_blob_sha": "95533d49b46e7cc55f2394e8625df5e2f5d6d62d"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-lab-cdc-branch.md",
+      "commit": "2dc0827dde432dcd4b83e5eb67416ae45967d85e",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/2dc0827dde432dcd4b83e5eb67416ae45967d85e/research/admissions/jiangsu-lab-cdc-branch.md",
+      "representation": "固定仓库正文；仅复用已采用摘要，不重核上游原件或提升取得等级。",
+      "sha256": "9c4e24e37e63d0ab75fe0f224eac88c2813167cab4307c485b70f128f0607bf3",
+      "sha256_representation": "固定提交仓库正文UTF-8原字节，与Git blob对象一致",
+      "byte_count": 6325,
+      "git_blob_sha": "c8adb7e0e62d5df42392343170c2ed2ca2264280"
+    }
+  ],
+  "source_relationships": [
+    "S2a为S2官方岗位附件，非独立招聘样本",
+    "合同及资格条款来自S2，不另计来源或样本",
+    "S3与029的关联依据同批次、单位、岗位及规模一致，公示未列代码",
+    "原HTML与其转换文本为同一来源的不同表示"
+  ],
+  "privacy": {
+    "raw_artifacts_included": false,
+    "person_names_or_birth_details_included": false,
+    "retained_person_level_fields": "仅保留判断所需的学历、专业、备案制、递补及非南京医科大学这一院校关系；不包含姓名、性别、出生年月。"
+  }
+}
