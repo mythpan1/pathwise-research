@@ -74,7 +74,7 @@
 
 ## 固定研究基线的复用，不冒充本轮原始核验
 
-- **B1**：[上电能动与自动化：热泵、制冷和热管理怎样改变本科选择（固定基线）](https://github.com/mythpan1/pathwise-research/blob/ec388160beaec5a84b414a24c05185ef67e7b19e/research/admissions/jiangsu-27151-thermal-control-choices.md)，SHA256 `183075ff18bb88875749fd1e3cce87b5d66aaf139331485f47470398d5dcf9fe`。§2政策、§3天津/慈溪岗位、§4—6机制与H/C边界。主文复用其政策、任务及专业筛选限制，不新增岗位、不声称当期仍在招聘，也不把招聘地点归入上海或苏州。
-- **B2**：[熟料旧线退出之后：产能指标、生产系统和新人入口怎样分开（固定基线）](https://github.com/mythpan1/pathwise-research/blob/ec388160beaec5a84b414a24c05185ef67e7b19e/research/industry/cement-capacity-exit-2037-choices.md)，SHA256 `1d31e3ba5670e437b27381e97b926a8556c0edf0215b4e35c5e1a42a9fbca42d`。§1、3旧线退出与补充备案边界，§4—6产业、劳动组织与地点分支。未重新取得政策、企业原件，保留该文关于原始表示与OCR的限制。
+- **B1**：[上电能动与自动化：热泵、制冷和热管理怎样改变本科选择（固定基线）](https://github.com/mythpan1/pathwise-research/blob/ec388160beaec5a84b414a24c05185ef67e7b19e/research/admissions/jiangsu-27151-thermal-control-choices.md)，SHA256 `c98608c569cc9b13a7d97deee43314317fa7cbc57c5120ed30373aff8c792cbf`。§2政策、§3天津/慈溪岗位、§4—6机制与H/C边界。主文复用其政策、任务及专业筛选限制，不新增岗位、不声称当期仍在招聘，也不把招聘地点归入上海或苏州。
+- **B2**：[熟料旧线退出之后：产能指标、生产系统和新人入口怎样分开（固定基线）](https://github.com/mythpan1/pathwise-research/blob/ec388160beaec5a84b414a24c05185ef67e7b19e/research/industry/cement-capacity-exit-2037-choices.md)，SHA256 `b6bbc0743e0e02c7ac4954734869a25f4a9ace141cc89e6eeac7ff52562f062b`。§1、3旧线退出与补充备案边界，§4—6产业、劳动组织与地点分支。未重新取得政策、企业原件，保留该文关于原始表示与OCR的限制。
 
 B1、B2均来自固定仓库基线 `ec388160beaec5a84b414a24c05185ef67e7b19e`。本轮研究未取2026录取、未读取其他知识库、未扩展学校或产业样本。本版作为已授权准备入库的仓库候选，原件及完整内部日志仍受控保留，不随本文上传。初稿已获独立内容审核；本版吸收三项非阻断建议并作入库脱敏，须按修订后的精确版本重新绑定核验，不能以初稿哈希替代本版审核或宣称已经合并。
