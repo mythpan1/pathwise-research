@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "task_id": "LOCAL-XUANWU-TEACHER-ENTRY-20261106",
+  "baseline_commit": "41af04451871850ffd1e5a3662ee2913741e07b0",
+  "author_run_id": "xuanwu-teacher-entry-author-20261106",
+  "status": "author_draft_not_independently_reviewed",
+  "source_policy": "Fixed input only; S ids are external sources, B ids frozen prior bodies; claim ids in source_ids are explicit logical dependencies, not new observations.",
+  "source_map": {
+    "S1": {
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761685.html",
+      "location": "二（一）3/5/6/7；三（一）1/9；三（三）；三（五）",
+      "source_kind": "fixed_new_source",
+      "representation": "Official URL converted text in fixed packet; original bytes not held."
+    },
+    "S2": {
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557636600491.pdf",
+      "location": "p1 初中区段、小计、学历、考试形式列",
+      "source_kind": "fixed_new_source",
+      "representation": "Official URL converted text in fixed packet; original bytes not held."
+    },
+    "S3": {
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557638494444.pdf",
+      "location": "p1 语文第一行",
+      "source_kind": "fixed_new_source",
+      "representation": "Official URL converted text in fixed packet; original bytes not held."
+    },
+    "S4": {
+      "url": "https://www.xwzf.gov.cn/xwqrmzf/202605/t20260515_5841208.html",
+      "location": "公告正文及文件下载",
+      "source_kind": "fixed_new_source",
+      "representation": "官方URL搜索可见转换全文；直接web open/exa fetch均超时，shell HTTPS 503。非直接成功读取HTML。"
+    },
+    "S5": {
+      "url": "http://www.xwzf.gov.cn/xwqrmzf/202605/P020260515643784654665.pdf",
+      "location": "PDF第1页序号20–22；页码经同题转载PDF定位，官方转换文本有序号",
+      "source_kind": "fixed_new_source",
+      "representation": "Exa web_fetch_exa 对官方PDF URL读取成功的转换文本，已保留脱敏20–22行及续行；不是原PDF字节。"
+    },
+    "S6": {
+      "url": "https://www.xuexinjiaoshi.com/file/upload/202605/19/153532391.pdf",
+      "location": "p1 序号20–22",
+      "source_kind": "fixed_new_source",
+      "representation": "Third-party reprint raw PDF acquired and page 1 visually checked by collector per controlled collection closeout record, not by this author; not official binary authentication or an independent case."
+    },
+    "B1": {
+      "url": "https://github.com/mythpan1/pathwise-research/blob/41af04451871850ffd1e5a3662ee2913741e07b0/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "location": "下端历史表、中间入口、上端及条件情景",
+      "source_kind": "fixed_baseline_reuse",
+      "representation": "Read fixed baseline body; no source recollection or upgrade of prior verification."
+    },
+    "B2": {
+      "url": "https://github.com/mythpan1/pathwise-research/blob/41af04451871850ffd1e5a3662ee2913741e07b0/research/admissions/jiangsu-history-cohort-retirement-choices.md",
+      "location": "新事实、2031入口及条件比较",
+      "source_kind": "fixed_baseline_reuse",
+      "representation": "Read fixed baseline body; no source recollection or upgrade of prior verification."
+    },
+    "B3": {
+      "url": "https://github.com/mythpan1/pathwise-research/blob/41af04451871850ffd1e5a3662ee2913741e07b0/research/industry/higher-education-supply-entry-2037.md",
+      "location": "一、三、四、六节",
+      "source_kind": "fixed_baseline_reuse",
+      "representation": "Read fixed baseline body; no source recollection or upgrade of prior verification."
+    }
+  },
+  "claims": [
+    {
+      "id": "E01",
+      "kind": "provenance",
+      "claim": "本批证据为官方URL转换、官方公示搜索可见转换及第三方同源转载图像校对；没有官方PDF原字节认证。S1—S6属于同一过程，不计独立样本。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "report_location": "二、2",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "S2/S3原PDF403；S4网页超时及HTTPS503；S5原PDF超时/403均已停止。",
+        "S6采集者真正目视由受控采集收口记录追加接续早先索引；作者未实施该次目视。",
+        "截图占位文本不计目视。"
+      ]
+    },
+    {
+      "id": "F01",
+      "kind": "source_fact",
+      "claim": "表1允许相应应届师范本科、相应研究生及规定的往届无工作单位毕业生等，还包括符合条件的特殊群体；必须满足专业、学历学位、教资等要求。",
+      "source_ids": [
+        "S1"
+      ],
+      "report_location": "三、F01",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "不是所有本科，也不是仅当届应届。",
+        "现工作单位空白不能证明从未工作、无教学经历或当届身份。",
+        "2026证书截止日不延用至2031。"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "source_fact",
+      "claim": "本批表1初中语文计划3，本科及以上，合并学科报名；语文本科专业目录列汉语言文学（师范），研究生另列。",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "report_location": "三、F02",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "计划不是最终补员，不是2031配额。",
+        "法学加教资不自动通过专业筛选；未列专业须单位具体认定。",
+        "不混骨干表2、小学或高中门槛；合并岗位不承诺锁定学校。"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "source_fact",
+      "claim": "同批公示（一）第20—22行出现三条初中语文本科、汉语言文学（师范）记录，毕业院校分别泰州学院、江苏师范大学、文山学院，体检考察合格、编内。",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "report_location": "三、F03",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "官方名单仅转换文本；同源转载目视核字段。",
+        "三条非扬大输送；不证明2026应届或无经历。",
+        "公示不等于最终入职，后续批次未全面核读。"
+      ],
+      "decision_impact": "本科符合条件者已走到拟聘公示这一阶段，不再仅有准入条文。"
+    },
+    {
+      "id": "F04",
+      "kind": "source_fact",
+      "claim": "公告规定公示无异议后仍须备案、签订协议和办理手续，缺证、未按时报到等可取消聘用。",
+      "source_ids": [
+        "S1"
+      ],
+      "report_location": "三、F03",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "三条公示与计划数量对应不能当作补员已完成。"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "source_fact",
+      "claim": "本批初中语文总分为笔试30%加面试70%，面试为模拟课堂80%加综合答辩20%。",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "report_location": "三、F05",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "仅本批该岗位；各项合格及其他门槛仍适用。"
+      ]
+    },
+    {
+      "id": "CALC01",
+      "kind": "derived_arithmetic",
+      "claim": "模拟课堂折总分56%，综合答辩14%，笔试30%。",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "report_location": "三、F05",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "premises": [
+        "面试占总成绩0.70，模拟课堂与答辩分别占面试0.80和0.20。"
+      ],
+      "limits": [
+        "0.70×0.80=0.56；0.70×0.20=0.14。",
+        "是评分权重，不是训练时长、能力价值或录用概率权重。"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "inherited_fact",
+      "claim": "旧T为扬大2025江苏历史06汉语言文学（师范）6766/41；旧L为07法学6527/41；均一个显示成员，组史+不限，专业独立选科及备注空。",
+      "source_ids": [
+        "B1",
+        "B2"
+      ],
+      "report_location": "二、1",
+      "scope": "江苏历史类2025旧记录，服务2027规划",
+      "limits": [
+        "239仅历史差，不是用户位次、录取概率或安全垫。",
+        "显示人数一致不是官方全组完整；未核2027完整组、费用、分配与适用规则。",
+        "T旧四年培养定位只复用，L四年仍为规划假设。"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "inherited_fact",
+      "claim": "旧稿所载南京2024/2023小学招生94199/109394、初中85111/74946，历史上同城学段可不同向。",
+      "source_ids": [
+        "B1"
+      ],
+      "report_location": "五、1",
+      "scope": "南京2023/2024招生流量",
+      "limits": [
+        "本轮未重核年鉴。",
+        "招生流量不是教师新招或2031/2037生源预测。"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "inherited_fact",
+      "claim": "旧稿盐城191名符合条件教师跨学段交流为地方实例，17名退休教师招募为计划；一般退休规则与退休后返聘须区分。",
+      "source_ids": [
+        "B2"
+      ],
+      "report_location": "五、2",
+      "scope": "盐城历史地方安排与全国一般退休制度",
+      "limits": [
+        "不是南京实际承接；计划不是实聘；不能累加为挤出人数或从外招名额相减。",
+        "没有南京这三条岗位缺口来源与承接优先级。"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "inherited_fact",
+      "claim": "旧高教研究记录多层次扩展、专业新设与存量调整，以及2023—2025全国相关本科和硕士招生、毕业流量增加。",
+      "source_ids": [
+        "B3"
+      ],
+      "report_location": "五、3",
+      "scope": "全国高教政策与2023—2025历史统计，仅复用",
+      "limits": [
+        "本轮未重核。",
+        "全国总量不等于玄武本科/硕士申请分母；不把专业布点当毕业人数。"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "inherited_fact",
+      "claim": "旧南京天华院2027法务招聘接受法学相关本科及以上，合同/招投标、纠纷协助兼党建宣传、公文和综合事务，法律职业资格为优先。",
+      "source_ids": [
+        "B1",
+        "B2"
+      ],
+      "report_location": "五、4",
+      "scope": "南京单条企业2027校招旧实例",
+      "limits": [
+        "本轮无实际拟聘/到岗、名额、薪资或带教新证据。",
+        "不证明纯法务，不保证2031入口；与教师端观察阶段不同。"
+      ]
+    },
+    {
+      "id": "I01",
+      "kind": "inference",
+      "claim": "新证据加强本科路径先例：合资格师范本科不只可报名，本批有本科记录走到拟聘公示；扬大训练与个人结果仍未闭合。",
+      "source_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "B1"
+      ],
+      "report_location": "四、I01",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "premises": [
+        "官方同批元数据、转换名单与转载校对指向同一岗位。"
+      ],
+      "limits": [
+        "反驳本批本科绝不可能拟聘的绝对说法，不测其难度或普遍性。",
+        "不由其他高校案例推定扬大更易获聘。"
+      ],
+      "decision_impact": "愿做对应教学且未来条件兑现时，加强T的本科直申准备，而非默认追加学历。",
+      "reversal_observation": [
+        "最终名单被官方更正则重核本批结果主张。",
+        "未来资格或实际接收变化将改变规划，不否定2026历史公示本身。"
+      ]
+    },
+    {
+      "id": "I02",
+      "kind": "inference",
+      "claim": "考试结构把训练核查指向教学设计、模拟授课、反馈后修改和答辩，并另核真实课堂接触与指导；旧课程概述不证明兑现。",
+      "source_ids": [
+        "F05",
+        "CALC01",
+        "B1"
+      ],
+      "report_location": "四、I02",
+      "scope": "目标初中语文训练比较",
+      "premises": [
+        "考核形式反映本批测试任务，而职业训练还超出考试。"
+      ],
+      "limits": [
+        "无新增扬大课时、实践、反馈与毕业生结果证据。",
+        "模拟课堂不等于真实课堂，权重不等于带教已落实。"
+      ],
+      "decision_impact": "本科与候选硕士比较时核实际学生任务和反馈，而非仅课程/基地名。"
+    },
+    {
+      "id": "I03",
+      "kind": "conditional_inference",
+      "claim": "A直接应聘、B1硬硕士门槛、B2可验证训练增量与C共同失效须分开；本批本科公示不排除B1/B2。",
+      "source_ids": [
+        "I01",
+        "I02",
+        "B3"
+      ],
+      "report_location": "四、I03",
+      "scope": "本人接受的同地区同工作包与可承受成本",
+      "premises": [
+        "A需未来真实本科接收、资格、训练、预算与反馈。",
+        "B1需目标硬门槛及项目学历专业认可、匹配和成本可行；不要求训练独特。",
+        "B2需目标接受本科，项目提供可验证且难替代、雇主认可的训练。"
+      ],
+      "limits": [
+        "没有具体硕士项目已满足条件。",
+        "同等本科训练只可撤销B2增量，不撤销B1硬门槛。",
+        "机会成本只计实际可得工作，不虚构三年工资。"
+      ],
+      "decision_impact": "保留本科准备主线，深造按具体理由另比。",
+      "reversal_observation": [
+        "目标硬门槛改变、项目训练增量不兑现、本科等效训练可得或两路径都无真实接收。"
+      ]
+    },
+    {
+      "id": "I04",
+      "kind": "conditional_inference",
+      "claim": "较小队列只有经班级/学科工作量、财政编制与内部承接/外招分配才影响新人入口；读研改变申请窗口，不保证避险也不证明2034更差。",
+      "source_ids": [
+        "F09",
+        "F10",
+        "F11",
+        "F03",
+        "B3"
+      ],
+      "report_location": "五、1—3",
+      "scope": "约2031/2034进入市场及2037接续情景",
+      "premises": [
+        "简化时钟为约6岁入小学、六年小学制；2025出生约2031小学/2037初中。",
+        "若迁入和有经费小班化不足抵消较小队列、可接受外招收缩且合资格供给未同步降，入口趋紧。"
+      ],
+      "limits": [
+        "无目标年本地队列、预算、承接、学历分母。",
+        "盐城不自动成为南京；退休不等于补位；三条公示不说明缺口来源。",
+        "名义六年/三年不等于连续在岗或能力差。"
+      ],
+      "decision_impact": "不把读研当自动等三年避开竞争；保留分年度复核。",
+      "reversal_observation": [
+        "本地迁入/班额与预算支持外招、合资格供给收缩更快，或本科/硕士接收规则改变。"
+      ]
+    },
+    {
+      "id": "I05",
+      "kind": "conditional_inference",
+      "claim": "师范与法务须分别核付款、实际新人分工和训练；教师端拟聘与法务端广告的证据不对称不能制造专业胜率或稳定性排序。",
+      "source_ids": [
+        "F03",
+        "F12",
+        "B1",
+        "B2"
+      ],
+      "report_location": "一、五、4",
+      "scope": "南京两类具体任务的条件比较",
+      "premises": [
+        "教育预算与企业现金流不同但可能受共同经营财政冲击。",
+        "法务任务可被资深团队、外包或工具重组，新人接收须核实。"
+      ],
+      "limits": [
+        "三条公示与一条广告数量不可作供需比。",
+        "两职业名称不自动构成个人风险对冲。"
+      ],
+      "decision_impact": "旧L弱前置只有在明确任务接受和相对新人分工条件下保留；不能继承P0。",
+      "reversal_observation": [
+        "教学实际外招、训练兑现而法务付款/新人分工弱，T前置；反向则可L弱前置。"
+      ]
+    },
+    {
+      "id": "U01",
+      "kind": "unknown",
+      "claim": "三条公示最终备案、报到与后续取消情况未知；后续公示未全面核读。",
+      "source_ids": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "report_location": "三、F03；七",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "decision_impact": "停在公示阶段，不宣称全批最终录用或到岗。"
+    },
+    {
+      "id": "U02",
+      "kind": "unknown",
+      "claim": "没有按学历/专业/届别及申请阶段一致统计的报名、合格、面试和录用分母，也未识别个人经历。",
+      "source_ids": [
+        "S1",
+        "S5"
+      ],
+      "report_location": "三、F05；七",
+      "scope": "南京玄武2026年1月同一批合并招聘初中语文；不推广2031或全南京",
+      "limits": [
+        "不得推本科胜率、硕士被挤出、无需读研或南京普遍入口。"
+      ],
+      "decision_impact": "只做路径存在判断，不做学历效果估计。"
+    },
+    {
+      "id": "R01",
+      "kind": "recommendation",
+      "claim": "若本人偏初中语文且A条件成立，T可前置并以本科直申准备；保持B1/B2复核点。",
+      "source_ids": [
+        "I01",
+        "I02",
+        "I03"
+      ],
+      "report_location": "六、1",
+      "scope": "江苏历史旧候选T的条件选择",
+      "limits": [
+        "不是当前个体最终志愿排序；本人偏好未知。"
+      ],
+      "reversal_observation": [
+        "训练、资格或实际外招不成立；目标硬门槛或可验证训练增量出现。"
+      ]
+    },
+    {
+      "id": "R02",
+      "kind": "recommendation",
+      "claim": "若两任务都接受、教育外招弱而法务付款和新人分工兑现且接受混合任务，L可弱前置；反向T前置。",
+      "source_ids": [
+        "I05",
+        "F12"
+      ],
+      "report_location": "六、2",
+      "scope": "江苏历史旧候选T/L条件比较",
+      "limits": [
+        "不因退休、学历或法律面广自行前置。"
+      ],
+      "reversal_observation": [
+        "法务只剩不接受的综合工作或熟手分工，而教学实际外招与训练兑现。"
+      ]
+    },
+    {
+      "id": "R03",
+      "kind": "recommendation",
+      "claim": "两边同强不强造总序，同弱可无已确认主方案；改地区、学段、学历或职业须明示新条件，不能把名单学校升级为招生保底。",
+      "source_ids": [
+        "F08",
+        "I03",
+        "I05"
+      ],
+      "report_location": "六、3—4及备选",
+      "scope": "当前规划备选",
+      "limits": [
+        "小学意愿不能用本题初中岗位接住。",
+        "教资、专业、实际接收不互换；不保证转专业或2037转岗。"
+      ]
+    },
+    {
+      "id": "N01",
+      "kind": "next_observation",
+      "claim": "在本人选定的同一地区初中语文工作包，对照可比批次本科/硕士资格、拟聘/实际接收及真实新人任务反馈；考虑读研时再核一个项目的训练增量和总成本。",
+      "source_ids": [
+        "I03",
+        "I04",
+        "I05",
+        "U01",
+        "U02"
+      ],
+      "report_location": "七",
+      "scope": "下一次有界研究建议，非已执行采集",
+      "limits": [
+        "先确认本人任务、地区和成本接受。",
+        "如只问本批到岗，先核最终聘用/取消，不收集个人退休名单。",
+        "有学历比例仍不足单独作因果结论。"
+      ],
+      "decision_impact": "区分A持续、B1硬门槛、B2训练增量或C共同失效。"
+    }
+  ],
+  "not_collected": [
+    "2026 college admissions data",
+    "new schools",
+    "new sources",
+    "applicant personal identifiers",
+    "target-year employment or training verification"
+  ],
+  "independent_review_performed": false
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-06",
+  "baseline_commit": "41af04451871850ffd1e5a3662ee2913741e07b0",
+  "scope": "南京玄武2026年1月同一批合并招聘初中语文，并条件连接既有2025江苏历史类扬大06/07候选；不扩展招聘批次或录取研究。",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260109_5761685.html",
+      "publisher": "南京市玄武区教育局，南京市教育局转载",
+      "published": "2026-01-09",
+      "location": "二（一）3/5/6/7；三（一）1/9；三（三）；三（五）",
+      "representation": "官方招聘公告可读转换正文；本地转换文本 SHA-256 45cc5b22e3caf9434ca672d476796f61a474492cd09aac2653f25bf7a70f82f3",
+      "supports": "2026规则中的适用类别、专业/教资条件、考试权重、公示后手续和合并岗位选岗。",
+      "limits": "不等同仅2026应届；工作单位空白不证明无经历；不把其他学科条款套用于语文。"
+    },
+    {
+      "id": "S2",
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557636600491.pdf",
+      "publisher": "南京市玄武区教育局，南京市教育局转载",
+      "published": "2026-01-09",
+      "location": "第1页初中区段、小计、学历及考试形式列",
+      "representation": "官方PDF网址可读分页转换；原始PDF字节未取得、未目视，shell请求403后停止。",
+      "supports": "初中语文计划3、本科及以上、合并学科报名及面试结构。",
+      "limits": "计划数非实际补员或未来岗位数。"
+    },
+    {
+      "id": "S3",
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/P020260109557638494444.pdf",
+      "publisher": "南京市玄武区教育局，南京市教育局转载",
+      "published": "2026-01-09",
+      "location": "第1页语文第一行",
+      "representation": "官方PDF网址可读分页转换；原始PDF字节未取得、未目视，shell请求403后停止。",
+      "supports": "本科专业列为汉语言文学（师范），研究生另列专业。",
+      "limits": "法学加教资不自动符合；保留招聘单位认定路径。"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.xwzf.gov.cn/xwqrmzf/202605/t20260515_5841208.html",
+      "publisher": "南京市玄武区人民政府",
+      "published": "2026-05-15",
+      "location": "公告正文及文件下载",
+      "representation": "官方URL搜索可见转换内容；未成功直接读取完整网页，未持有原HTML。",
+      "supports": "同一招聘公告编号、公示程序及公示期2026-05-18至05-26。",
+      "limits": "只作官方公示元数据定位；直接读取超时、shell返回503。"
+    },
+    {
+      "id": "S5",
+      "url": "http://www.xwzf.gov.cn/xwqrmzf/202605/P020260515643784654665.pdf",
+      "publisher": "南京市玄武区人民政府",
+      "published": "2026-05-15（对应公告）",
+      "location": "PDF第1页序号20—22；续行及同题转载表格定位",
+      "representation": "官方PDF网址Exa取得的可读转换文本，保留最小脱敏行片段；非原PDF字节。",
+      "supports": "初中语文合并招聘的3条本科拟聘公示记录、汉语言文学（师范）、院校及公示状态。",
+      "limits": "原文件读取超时/403后停止；公示不等于最终到岗；不得推出应届、无经验、扬大输送、学历胜率或未来岗位。"
+    },
+    {
+      "id": "S6",
+      "url": "https://www.xuexinjiaoshi.com/file/upload/202605/19/153532391.pdf",
+      "publisher": "学信教师（第三方转载）",
+      "published": "2026-05-19（转载页面）",
+      "location": "第1页序号20—22",
+      "representation": "第三方转载PDF，已目视核对，SHA-256 7ea0137b0c93157c97add5a435f84dcb210a539946982e7d05ae92d3d9fa112f；原文件不随库发布。",
+      "supports": "同题名单表头、相关行及部分续行与官方转换文本的同源校对。",
+      "limits": "与S5同源非独立样本；非官方原字节认证，不能替代原件视觉核验。"
+    }
+  ],
+  "source_relationships": [
+    "S1—S5来自同一玄武招聘流程不同环节；S6为同题转载校对，不是独立招聘样本。"
+  ],
+  "known_gaps": [
+    "官方岗位表和专业目录PDF原字节未取得、未目视。",
+    "S4官方公示网页完整正文未在本地，未能直接读取原HTML。",
+    "官方名单PDF原字节未取得；S5仅为转换文本，S6转载图像仅用作校对。",
+    "拟聘后续到岗、取消和完整学历/申请阶段分母未核。"
+  ],
+  "privacy": {
+    "candidate_identifiers_excluded": true,
+    "source_artifacts_included": false,
+    "absolute_paths_and_raw_logs_excluded": true
+  }
+}
