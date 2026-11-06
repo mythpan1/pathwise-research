@@ -66,4 +66,4 @@
 [人口与教育资源调整的 2036 职业情景](industry/education-2036-employment-scenarios.md)：以已核人口、教育统计和政策为起点，分别推导学段、岗位及培养选择。
 
 
-[suep普通能动与自动化本科训练连接](admissions/suep-thermal-control-training.md)：补充课程计划与具体训练活动之间的有限校方证据；区分能动与自动化方向必修，并保留课程映射、方向分流和个人实际获得未知。
+[上电普通能动与自动化本科训练连接](admissions/suep-thermal-control-training.md)：补充课程计划与具体训练活动之间的有限校方证据；区分能动与自动化方向必修，并保留课程映射、方向分流和个人实际获得未知。
