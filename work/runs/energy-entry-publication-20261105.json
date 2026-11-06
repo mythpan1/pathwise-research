@@ -1,0 +1,29 @@
+{
+  "run_id": "ENERGY-ENTRY-PUBLICATION-20261105",
+  "role": "mechanical integration of frozen independently reviewed research; not its substantive author or independent reviewer",
+  "baseline_commit": "758cba68ccd3959a7f9b48fa466e1044bbc1c2a5",
+  "original_research_baseline": "9e8aaa1e65f14c0ec2d0eebcb4e6a266e4d2a031",
+  "original_author_run": "LOCAL-ENERGY-ANALYSIS-20261105",
+  "original_review_run": "LOCAL-ENERGY-REVIEW-20261105-R1",
+  "model": {
+    "requested": null,
+    "reported": null,
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "verification": "unknown"
+  },
+  "author_requested_route": "gpt-6-astra / ultra; reported unknown",
+  "original_body_sha256": "b41919fd727e4f1262f2353eb4a98774d4f31cc91e03361c82631f7e922ddad9",
+  "original_index_sha256": "3d31337db66956bc58f28accf33a667ba313194695bbe4e592c99506bef6d784",
+  "original_R2_sha256": "c18a859e535fe4d092d026cfd395c67eb7ccf197b748746489b5a881486c4961",
+  "changes": [
+    "Only replace final source-index navigation in body",
+    "Sanitize local source pointers to controlled evidence IDs; retain facts, locators, hashes and limits",
+    "Append bounded navigation to old comparison without deleting historical text"
+  ],
+  "original_review_status": "R1 and R2 retained locally; R2 recommends adoption with zero content blockers; does not approve this publication head",
+  "external_state": "No 2026 admissions collection; no raw source files or raw internal logs exported; new exact-head independent review still required"
+}

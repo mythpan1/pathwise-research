@@ -1,0 +1,22 @@
+{
+  "run_id": "PRODUCT-PUBLICATION-20261105",
+  "role": "mechanical publication; not author or independent reviewer",
+  "baseline_commit": "9870867037274a3aeb242ff0cbc160dc13ed3252",
+  "model": {
+    "requested": null,
+    "reported": null,
+    "verification": "unknown"
+  },
+  "source_hashes": {
+    "author/REPORT.md": "cea0ed36eb44978a48cae0a2406eb7eb8ad84c0b44cc6e14e6f2c083ce006257",
+    "author/source-index.json": "b586cd670dee1f81f7b394603299ed307a23037f20086ba28442947026dd5c8a",
+    "review/REVIEW.md": "9425ad903b0c1fc8a00b7fc287b966ff3a8756349d2ecae905e105639ae990a9"
+  },
+  "changes": [
+    "Adapt three report links without changing research prose",
+    "Remove local storage paths from source metadata and clarify hash objects",
+    "Append three bounded navigation entries"
+  ],
+  "scope": "Authorized report, source metadata and review only; no original sources, personal data, credentials or internal raw logs. 2026 admissions collection remains paused.",
+  "historical_review": "Local review recommends adoption; does not cover publication head. Final independent review is separately requested."
+}

@@ -1,0 +1,650 @@
+{
+  "schema": "continuity-staging-sources/v1",
+  "status": "Included as the source/version manifest in open Draft PR #97; not merged.",
+  "repository": "mythpan1/pathwise-research",
+  "fixed_source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
+  "execution": {
+    "requested_model": "gpt-6-luna",
+    "requested_reasoning": "high",
+    "reported_model": "unknown",
+    "reported_reasoning": "unknown",
+    "backend_run_id": "unknown",
+    "native_run_id": "unknown",
+    "run_id": "LOCAL-CONTINUITY-PUBLISH-ISSUE-97-20261026",
+    "call_counts": "unknown"
+  },
+  "read_scope": {
+    "this_staging_run": "Mechanical staging only: six input-verification records, required author/handoff metadata, exactly the eight designated sanitized reviews, required current repository rules/workflow/provenance records and navigation baselines. No article-body content review, no intake/claims bodies or operation logs, no videos, no external research. Exact author input/rules metadata for units 05 and 06 was read to resolve their source line ranges; no author step logs were read.",
+    "required_current_rules": [
+      {
+        "path": "AGENTS.md",
+        "ref": "main",
+        "github_blob_sha": "bf62c9fbc6803c3112ef809eb45f36e4e4d9f372"
+      },
+      {
+        "path": "docs/agent-workflow.md",
+        "ref": "main",
+        "read": "full via read-only GitHub connector",
+        "github_blob_sha": "8927f81c0cb186970d509412499be62a6300ffbf"
+      },
+      {
+        "path": "docs/experiment-protocol.md",
+        "ref": "main",
+        "github_blob_sha": "b9c9be5958b403806e256d84a08417f242e0aed1"
+      },
+      {
+        "path": "docs/agent-provenance.md",
+        "ref": "main",
+        "github_blob_sha": "faf55b827696116a96709f9aae04508ead9995fa"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "migration_01",
+      "target": "research/continuity/20261026/01-demography.md",
+      "bytes": 10184,
+      "sha256": "70679ce3ee06151f996dc921e53811ecf3bd77f9336152eb7e791dcc45c1b548",
+      "input_verification": "verified",
+      "intake_sha256": "92af5c04c3717a3319c6c4ea3ac175f2d63466f4f70614b4c863fd5852c1e21c",
+      "claims_sha256": "2b6daaee7179c58a1d0f149682d5802567e55c6d59b3a91d2958b7a7b788a070",
+      "source_path": "research/experiments/EXP-001-demography-education/stages/20261023-preliminary-closeout/REPORT.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/experiments/EXP-001-demography-education/stages/20261023-preliminary-closeout/REPORT.md",
+      "source_sha256": "51b1d1bc92c6f61e4cd5c50bb806d9ff2b5fb4deb5ac60b97cbe6f390eb7d473",
+      "source_read_scope_recorded": "fixed REPORT full 38 logical lines; this staging run read only input-verification, handoff metadata, exact source URL/hash anchors in candidate and designated review records; no source body reread",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_01",
+          "run_id": "RUN-MIGRATION-01-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "e33046e7a129c98d010eabd4468dd929156362d8b334d9d08a50b9d3f64d48a2",
+          "recorded_outcome": "建议采用旧版本；阻断0、非阻断0、无需修改。历史审查记录保留。",
+          "incremental": false,
+          "archive_sha256": "ead204e5be3deb49f9fb949b532e97710b11a5189c7aecc8adc5472164dd9835",
+          "archive_bytes": 7744,
+          "archive_controlled_id": "review_archive_migration01_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration01-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration01-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "a4cb49139b0fd81168840efb39128cd52d6404e85635460a90468b90237910f7",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration01",
+            "original_local_sha256": "a4cb49139b0fd81168840efb39128cd52d6404e85635460a90468b90237910f7",
+            "published_record_sha256": "ead204e5be3deb49f9fb949b532e97710b11a5189c7aecc8adc5472164dd9835",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        },
+        {
+          "reviewer_id": "reviewer_01",
+          "run_id": "RUN-MIGRATION-01-INDEPENDENT-REVIEW-20261026-02",
+          "bound_candidate_sha256": "70679ce3ee06151f996dc921e53811ecf3bd77f9336152eb7e791dcc45c1b548",
+          "recorded_outcome": "建议采用；仅复核两处历史状态澄清，新增阻断0、非阻断0、无需修改。",
+          "incremental": true,
+          "archive_sha256": "c54493bcab4eb5695292a119ba158034f6c4c3571cbda994812649bf7cdf44d5",
+          "archive_bytes": 2805,
+          "archive_controlled_id": "review_archive_migration01_review_v3_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration01-review-v3-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration01-review-v3-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "c54493bcab4eb5695292a119ba158034f6c4c3571cbda994812649bf7cdf44d5",
+          "archive_sanitization": "No content transformation; byte-identical to designated sanitized local review record."
+        }
+      ],
+      "open_evidence_limits": [
+        "底层原始证据与实际目标市场入口规模未在限定范围内复核",
+        "实际课程训练接受、雇主接受及转换成本未核实"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    },
+    {
+      "id": "migration_02",
+      "target": "research/continuity/20261026/02-co2.md",
+      "bytes": 10650,
+      "sha256": "217acc553699b0caaed3e313fc1596c13f22a238c1b93cc487e15712656fc426",
+      "input_verification": "verified",
+      "intake_sha256": "847e4c3195719b7c4f534ff2a5f2651d9e91dd1d02532a505756bee5eaa9258e",
+      "claims_sha256": "9fc5b8aa8a96cfbc60532947b46102aa395a04a8e4950ec46ef5b165ed706fcf",
+      "source_path": "research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/SCENARIO.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/SCENARIO.md",
+      "source_sha256": "dc9733f28f2c9ed24635898053604f932e27ff5b206964b7bb12714606d63b3d",
+      "source_read_scope_recorded": "fixed SCENARIO L1-L42 per author handoff; this staging run read only input-verification, handoff metadata, exact source URL/hash anchors in candidate and designated review records; no source body reread",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_02",
+          "run_id": "RUN-MIGRATION-02-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "444df273de244fb07752fd2ba0dcc7968640a61b13dec7bbda7af917ed79f369",
+          "recorded_outcome": "需修改；一处必要补句，旧判定保留。",
+          "incremental": false,
+          "archive_sha256": "a850ca28ba68d5fa606f2a1f9a52f15db4367ca49dfd727114bec7d7f55cb054",
+          "archive_bytes": 5191,
+          "archive_controlled_id": "review_archive_migration02_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration02-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration02-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "f161a6e70b1544044bf07e5025b053b3b160d9852657d74fd43a186c284316df",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration02",
+            "original_local_sha256": "f161a6e70b1544044bf07e5025b053b3b160d9852657d74fd43a186c284316df",
+            "published_record_sha256": "a850ca28ba68d5fa606f2a1f9a52f15db4367ca49dfd727114bec7d7f55cb054",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        },
+        {
+          "reviewer_id": "reviewer_02",
+          "run_id": "RUN-MIGRATION-02-INDEPENDENT-REVIEW-20261026-02",
+          "bound_candidate_sha256": "217acc553699b0caaed3e313fc1596c13f22a238c1b93cc487e15712656fc426",
+          "recorded_outcome": "建议采用V2；原阻断已消除，新增实质阻断0。",
+          "incremental": true,
+          "archive_sha256": "3aa36e3559305eadd1726b6d50aebe28d4637a49b4b2b7f58fb7593ef9f0e767",
+          "archive_bytes": 2097,
+          "archive_controlled_id": "review_archive_migration02_review_v2_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration02-review-v2-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration02-review-v2-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "d90ea8f73f27a178a4c9a3310048125c13257d6a71510e20124ef902f113ca28",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration02",
+            "original_local_sha256": "d90ea8f73f27a178a4c9a3310048125c13257d6a71510e20124ef902f113ca28",
+            "published_record_sha256": "3aa36e3559305eadd1726b6d50aebe28d4637a49b4b2b7f58fb7593ef9f0e767",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        }
+      ],
+      "open_evidence_limits": [
+        "底层引文、论文及补充材料未核",
+        "现实商业化、招聘、院校培养成效及个人实际转换成本未核"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    },
+    {
+      "id": "migration_03",
+      "target": "research/continuity/20261026/03-robotics.md",
+      "bytes": 10030,
+      "sha256": "555947853e90b42906a9c6d7f40db2f72eeb8f6e3127b56dffe5a2e5f6fb4ec1",
+      "input_verification": "verified",
+      "intake_sha256": "8058cce78cba756abb46aacf574bd8587957d211e4a1bb88fe304d750e747947",
+      "claims_sha256": "f630c4f8a1801d1352b47a872cf88ff60dd0e5ac0f7b6df4dddcd5f6419345e7",
+      "source_path": "research/experiments/EXP-003-robotics-workers/stages/20261024-closeout/REPORT.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/experiments/EXP-003-robotics-workers/stages/20261024-closeout/REPORT.md",
+      "source_sha256": "e746f57258d6b6d64615048b8715992ca44bcb8a4914c3818c57d4b0ca9f1652",
+      "source_read_scope_recorded": "fixed REPORT all 44 logical lines per author handoff; this staging run read only input-verification, handoff metadata, exact source URL/hash anchors in candidate and designated review records; no source body reread",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_03",
+          "run_id": "RUN-MIGRATION-03-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "555947853e90b42906a9c6d7f40db2f72eeb8f6e3127b56dffe5a2e5f6fb4ec1",
+          "recorded_outcome": "建议采用；实质阻断0、必要修改0。",
+          "incremental": false,
+          "archive_sha256": "09c68d075044b65e3bfe92e03f25dca8294501d299fd5723b0840d8581a210ee",
+          "archive_bytes": 5953,
+          "archive_controlled_id": "review_archive_migration03_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration03-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration03-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "f750883a08a83cbb127e09ea49fe0d963a55e7e032d98c37646021e320bcab81",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration03",
+            "original_local_sha256": "f750883a08a83cbb127e09ea49fe0d963a55e7e032d98c37646021e320bcab81",
+            "published_record_sha256": "09c68d075044b65e3bfe92e03f25dca8294501d299fd5723b0840d8581a210ee",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        }
+      ],
+      "open_evidence_limits": [
+        "同产出全流程人时及人员流向缺实测数据",
+        "目标地区和毕业届别匹配的供需、真实训练入口、资格、时间与成本未核"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    },
+    {
+      "id": "migration_04",
+      "target": "research/continuity/20261026/04-six-networks.md",
+      "bytes": 11478,
+      "sha256": "5bbde6ff4abce438f2444d77036e9d1c2d870f69f0c980d49677cb2d7882226a",
+      "input_verification": "verified",
+      "intake_sha256": "d54899b5c23f15da9f2f94d2214bde2b49a0fc10edabfc8e282510a4256d1f2c",
+      "claims_sha256": "7a5ee68dac4de49ca4f043baaa8889f80df5b5324658b4e381439323ba8c2a6e",
+      "source_path": "research/preliminary/policy-six-networks-20261025/analysis.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/preliminary/policy-six-networks-20261025/analysis.md",
+      "source_sha256": "4d487362d4af7413fa07e549e1eafe5f08d703d0f00ccb3f3216ecfc64486dad",
+      "source_read_scope_recorded": "fixed analysis all 67 lines per author handoff; this staging run read only input-verification, handoff metadata, exact source URL/hash anchors in candidate and designated review records; no source body reread",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_04",
+          "run_id": "RUN-MIGRATION-04-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "5bbde6ff4abce438f2444d77036e9d1c2d870f69f0c980d49677cb2d7882226a",
+          "recorded_outcome": "建议有条件采用；阻断0、无实质必要修改；保留一项流程状态非阻断备注。",
+          "incremental": false,
+          "archive_sha256": "e81ccfbd494b33f6d77b9b260af2a520bd967d6f45879c7147a45ec29311342e",
+          "archive_bytes": 6518,
+          "archive_controlled_id": "review_archive_migration04_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration04-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration04-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "89f4a8df9611fbb5ad9d780386e7886a65f4452776164a7e0a24426208f5f4e6",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration04",
+            "original_local_sha256": "89f4a8df9611fbb5ad9d780386e7886a65f4452776164a7e0a24426208f5f4e6",
+            "published_record_sha256": "e81ccfbd494b33f6d77b9b260af2a520bd967d6f45879c7147a45ec29311342e",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        }
+      ],
+      "open_evidence_limits": [
+        "真实需求、岗位与持续服务责任未核",
+        "新人分工、资格、实际培训机会及训练成本未核"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    },
+    {
+      "id": "migration_05",
+      "target": "research/continuity/20261026/05-fiveyear-map.md",
+      "bytes": 11033,
+      "sha256": "8775811b0377d5335aae98985483306bfb798767c3546d83761d5c6555f917da",
+      "input_verification": "verified",
+      "intake_sha256": "c569857d887e4b6de305f6aa8544065fa6a86dfa3e4d7faa64b8681604655a76",
+      "claims_sha256": "326e13a983fde0599b9b21573493b102d7d1561faf289b0f56d956bfa8e22236",
+      "source_path": "research/preliminary/fiveyear-policy-map-20261026/analysis.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/preliminary/fiveyear-policy-map-20261026/analysis.md",
+      "source_sha256": "d8a108e7bafe4cebda7a423b0f87529f515d79031a68a1ca92015e6db5d81275",
+      "source_read_scope_recorded": "Author's exact inputs-and-rules record states 'complete 73-line original analysis only'; underlying plan, packages, sources.json and citations were not opened. Scheduler handoff also reports the final正文 read all 73 lines. This staging run read that metadata only and did not reread the source body.",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_05",
+          "run_id": "RUN-MIGRATION-05-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "8775811b0377d5335aae98985483306bfb798767c3546d83761d5c6555f917da",
+          "recorded_outcome": "建议采用；必要阻断与最小修改均无；保留一项非阻断观察。",
+          "incremental": false,
+          "archive_sha256": "e35220943371b709d734ce2acf9f9a46ae2231444bece022203fd721aab1277c",
+          "archive_bytes": 5837,
+          "archive_controlled_id": "review_archive_migration05_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration05-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration05-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "68dd2a36c8c926693b3c1ae23a04194ab1f5c3496bf40fdc8a6adb39fcf10625",
+          "archive_sanitization": "One task identifier alias replaced with controlled ID; no conclusion/date/bound manuscript hash changed.",
+          "sanitization": {
+            "field": "task identifier only",
+            "replacement_count": 1,
+            "input_pattern": "internal task-path alias",
+            "output_controlled_id": "CONTROLLED-TASK-migration05",
+            "original_local_sha256": "68dd2a36c8c926693b3c1ae23a04194ab1f5c3496bf40fdc8a6adb39fcf10625",
+            "published_record_sha256": "e35220943371b709d734ce2acf9f9a46ae2231444bece022203fd721aab1277c",
+            "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+          }
+        }
+      ],
+      "open_evidence_limits": [
+        "规划原文及底层引文、执行与预算未复核",
+        "产业采用、招聘、新人资格、院校训练、雇主接受和转向成本未核"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    },
+    {
+      "id": "migration_06",
+      "target": "research/continuity/20261026/06-industry-catalog.md",
+      "bytes": 10177,
+      "sha256": "70a91a81dfbe14974a7c0d2ed7ccab0c2fc088b21b53cd7867fcb90b3d40c32f",
+      "input_verification": "verified",
+      "intake_sha256": "b8e40179bbdce4dfd84fa14ed3a744ac718c6ed0cffa37ab1317dc3ebeaeaec3",
+      "claims_sha256": "70aedc3896aeda8fb83739d31e5c6391abb20482e5ff069a135a80fd52ffc502",
+      "source_path": "research/preliminary/industry-catalog-environment-20261026/analysis.md",
+      "source_url": "https://github.com/mythpan1/pathwise-research/blob/289c4da8757f855bbb4180f688d8cc8f6c3dc8e3/research/preliminary/industry-catalog-environment-20261026/analysis.md",
+      "source_sha256": "e88c83fa3e655cbeaaf6a0b80e7ab255ec2bbd311b9481dd1150fb02d9218b2b",
+      "source_read_scope_recorded": "Author's exact input-rules source_snapshot records the fixed original analysis as 41 logical lines and matching source hash; author final handoff reports input and fixed-source hashes matched. Scheduler handoff confirms the 41-line read scope. This staging run read metadata only and did not reread the source body.",
+      "review_history": [
+        {
+          "reviewer_id": "reviewer_06",
+          "run_id": "RUN-MIGRATION-06-INDEPENDENT-REVIEW-20261026-01",
+          "bound_candidate_sha256": "70a91a81dfbe14974a7c0d2ed7ccab0c2fc088b21b53cd7867fcb90b3d40c32f",
+          "recorded_outcome": "建议采用；必要阻断0；保留一项非阻断可选微调。",
+          "incremental": false,
+          "archive_sha256": "e68cca3b5de80eba91195b90ebf3ea3ee83bc52f7690f4944c574c85c61055fc",
+          "archive_bytes": 6891,
+          "archive_controlled_id": "review_archive_migration06_review_sanitized",
+          "archive_location_status": "copied byte-identically to repository candidate; original local archive retained",
+          "source_record_name": "migration06-review-sanitized.md",
+          "repository_archive_path": "reviews/ISSUE-97-continuity/migration06-review-sanitized.md",
+          "content_review_date": "2026-10-26",
+          "original_local_record_sha256": "e68cca3b5de80eba91195b90ebf3ea3ee83bc52f7690f4944c574c85c61055fc",
+          "archive_sanitization": "No content transformation; byte-identical to designated sanitized local review record."
+        }
+      ],
+      "open_evidence_limits": [
+        "原PDF原字节与像素、2026适用版本及年度沿革未核",
+        "雇主招聘、合同和客户验收、接收承接、新人录用及院校培训效果未核"
+      ],
+      "source_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3"
+    }
+  ],
+  "navigation": [
+    {
+      "path": "research/coverage.md",
+      "baseline_ref": "main",
+      "baseline_github_blob_sha": "5e416613dbe854f55e5e9f06fa335ed539405444",
+      "candidate": "research/coverage.md",
+      "candidate_link_target": "continuity/20261026/README.md",
+      "target_overview_available": false,
+      "baseline_bytes": 4407,
+      "baseline_sha256": "f11f4e2e6ee6a996484d36be26238ed443356b0dae8469799bf7eb3bb43b1822",
+      "candidate_bytes": 4492,
+      "candidate_sha256": "5a27376ba1792e8db411d3b5b426ed66ca79f54afb188db07c46978505545a99",
+      "baseline_controlled_id": "navigation_baseline_coverage",
+      "baseline_location_status": "local-only staging baseline copy; not a repository file"
+    },
+    {
+      "path": "research/README.md",
+      "baseline_ref": "main",
+      "baseline_github_blob_sha": "3f9b4acd3e340be29f0ea1bfe0dde34253379504",
+      "candidate": "research/README.md",
+      "candidate_link_target": "continuity/20261026/README.md",
+      "target_overview_available": false,
+      "baseline_bytes": 5128,
+      "baseline_sha256": "905df188b154da2d1f209941ea74b4143434c80a8657bdfddbb9ab178cedf74b",
+      "candidate_bytes": 5213,
+      "candidate_sha256": "45557d97b7d337ce0309d1d3f2ad687df12246a19c90ae45d75a82343ffcbbdc",
+      "baseline_controlled_id": "navigation_baseline_README",
+      "baseline_location_status": "local-only staging baseline copy; not a repository file"
+    }
+  ],
+  "review_boundary": {
+    "archived_as": "reviews/ISSUE-97-continuity/ (historical directory identity retained)",
+    "status": "Nine sanitized review copies are included as candidates in Draft PR #97; records preserve their manuscript-hash bindings.",
+    "current_issue_or_pr": "Draft PR #97; separate tracking Issue #98",
+    "exact_current_head_binding": "The review records bind to manuscript hashes, not PR head H; independent review of the current exact head remains pending.",
+    "github_comment_or_approval_written": false,
+    "independent_approval_for_current_publication": "not established by this staging operation",
+    "archive_location_status": "Sanitized copies are proposed at reviews/ISSUE-97-continuity/ in PR #97; original review records remain local-only."
+  },
+  "limits": [
+    "No raw source evidence or video materials were re-reviewed in this staging operation.",
+    "All source/evidence/market, hiring, admissions, training, costs and applicability gaps remain as stated in the author handoffs and historical reviews; see per-article open_evidence_limits.",
+    "Migration 05 fixed-source read scope is reported by its author as the complete 73-line analysis; the scheduler handoff confirms this for the final manuscript. This mechanical publisher did not independently reread the source body.",
+    "Migration 06 fixed-source read scope is reported by its author and scheduler handoff as all 41 logical lines with matching hash. This mechanical publisher did not independently reread the source body."
+  ],
+  "not_performed": [
+    "No raw source evidence or video materials were re-reviewed in this publication correction.",
+    "No new analysis or external research was performed.",
+    "No GitHub comment, independent approval, or merge was performed."
+  ],
+  "manifest_path": "research/continuity/20261026/sources.json",
+  "issue": {
+    "original_issue_converted_to_pull_request": {
+      "number": 97,
+      "url": "https://github.com/mythpan1/pathwise-research/pull/97",
+      "title": "Continuity package 2026-10-26",
+      "state": "open",
+      "draft": true
+    },
+    "tracking_issue": {
+      "number": 98,
+      "url": "https://github.com/mythpan1/pathwise-research/issues/98",
+      "title": "Track continuity package publication review",
+      "state": "open"
+    },
+    "history": "The initial Issue #97 was converted into PR #97 by the PR creation call. Issue #98 is the separate tracking issue; review archive directory naming retains its original task identity."
+  },
+  "base": {
+    "branch": "main",
+    "commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
+    "repository_visibility": "private"
+  },
+  "overview": {
+    "controlled_id": "continuity_overview_20261026",
+    "target": "research/continuity/20261026/README.md",
+    "bytes": 16987,
+    "lines": 108,
+    "sha256": "f400ba9fe6de7ebede5a000ae1bc7dbbafd18a1422b01847f9c1c85ae8e4edac",
+    "source_recorded_as": "parent-supplied author input; byte-identical staging copy",
+    "review": {
+      "reviewer_id": "reviewer_overview",
+      "run_id": "RUN-CONTINUITY-OVERVIEW-INDEPENDENT-REVIEW-20261026-01",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": "unknown",
+      "reported_reasoning": "unknown",
+      "backend": "unknown",
+      "bound_candidate_sha256": "f400ba9fe6de7ebede5a000ae1bc7dbbafd18a1422b01847f9c1c85ae8e4edac",
+      "recorded_outcome": "建议采用；实质阻断0、必要修改0。",
+      "content_review_date": "2026-10-26",
+      "record_name": "continuity-overview-review-sanitized.md",
+      "archive_sha256": "d21cfb248506b90a50e55218ed25db15f70f7602e71b10680944606a6920aa5c",
+      "archive_bytes": 12211,
+      "repository_archive_path": "reviews/ISSUE-97-continuity/continuity-overview-review-sanitized.md"
+    }
+  },
+  "review_archive": {
+    "repository_directory": "reviews/ISSUE-97-continuity/",
+    "records": [
+      {
+        "controlled_id": "review_archive_migration01_review_sanitized",
+        "record_name": "migration01-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration01-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_01",
+        "review_run_id": "RUN-MIGRATION-01-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "e33046e7a129c98d010eabd4468dd929156362d8b334d9d08a50b9d3f64d48a2",
+        "record_sha256": "ead204e5be3deb49f9fb949b532e97710b11a5189c7aecc8adc5472164dd9835",
+        "record_bytes": 7744,
+        "original_outcome": "建议采用旧版本；阻断0、非阻断0、无需修改。历史审查记录保留。",
+        "incremental": false,
+        "source_local_record_sha256": "a4cb49139b0fd81168840efb39128cd52d6404e85635460a90468b90237910f7",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration01",
+          "original_local_sha256": "a4cb49139b0fd81168840efb39128cd52d6404e85635460a90468b90237910f7",
+          "published_record_sha256": "ead204e5be3deb49f9fb949b532e97710b11a5189c7aecc8adc5472164dd9835",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration01_review_v3_sanitized",
+        "record_name": "migration01-review-v3-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration01-review-v3-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_01",
+        "review_run_id": "RUN-MIGRATION-01-INDEPENDENT-REVIEW-20261026-02",
+        "bound_manuscript_sha256": "70679ce3ee06151f996dc921e53811ecf3bd77f9336152eb7e791dcc45c1b548",
+        "record_sha256": "c54493bcab4eb5695292a119ba158034f6c4c3571cbda994812649bf7cdf44d5",
+        "record_bytes": 2805,
+        "original_outcome": "建议采用；仅复核两处历史状态澄清，新增阻断0、非阻断0、无需修改。",
+        "incremental": true,
+        "source_local_record_sha256": "c54493bcab4eb5695292a119ba158034f6c4c3571cbda994812649bf7cdf44d5",
+        "sanitization": "No content transformation; byte-identical to designated sanitized local review record."
+      },
+      {
+        "controlled_id": "review_archive_migration02_review_sanitized",
+        "record_name": "migration02-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration02-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_02",
+        "review_run_id": "RUN-MIGRATION-02-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "444df273de244fb07752fd2ba0dcc7968640a61b13dec7bbda7af917ed79f369",
+        "record_sha256": "a850ca28ba68d5fa606f2a1f9a52f15db4367ca49dfd727114bec7d7f55cb054",
+        "record_bytes": 5191,
+        "original_outcome": "需修改；一处必要补句，旧判定保留。",
+        "incremental": false,
+        "source_local_record_sha256": "f161a6e70b1544044bf07e5025b053b3b160d9852657d74fd43a186c284316df",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration02",
+          "original_local_sha256": "f161a6e70b1544044bf07e5025b053b3b160d9852657d74fd43a186c284316df",
+          "published_record_sha256": "a850ca28ba68d5fa606f2a1f9a52f15db4367ca49dfd727114bec7d7f55cb054",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration02_review_v2_sanitized",
+        "record_name": "migration02-review-v2-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration02-review-v2-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_02",
+        "review_run_id": "RUN-MIGRATION-02-INDEPENDENT-REVIEW-20261026-02",
+        "bound_manuscript_sha256": "217acc553699b0caaed3e313fc1596c13f22a238c1b93cc487e15712656fc426",
+        "record_sha256": "3aa36e3559305eadd1726b6d50aebe28d4637a49b4b2b7f58fb7593ef9f0e767",
+        "record_bytes": 2097,
+        "original_outcome": "建议采用V2；原阻断已消除，新增实质阻断0。",
+        "incremental": true,
+        "source_local_record_sha256": "d90ea8f73f27a178a4c9a3310048125c13257d6a71510e20124ef902f113ca28",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration02",
+          "original_local_sha256": "d90ea8f73f27a178a4c9a3310048125c13257d6a71510e20124ef902f113ca28",
+          "published_record_sha256": "3aa36e3559305eadd1726b6d50aebe28d4637a49b4b2b7f58fb7593ef9f0e767",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration03_review_sanitized",
+        "record_name": "migration03-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration03-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_03",
+        "review_run_id": "RUN-MIGRATION-03-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "555947853e90b42906a9c6d7f40db2f72eeb8f6e3127b56dffe5a2e5f6fb4ec1",
+        "record_sha256": "09c68d075044b65e3bfe92e03f25dca8294501d299fd5723b0840d8581a210ee",
+        "record_bytes": 5953,
+        "original_outcome": "建议采用；实质阻断0、必要修改0。",
+        "incremental": false,
+        "source_local_record_sha256": "f750883a08a83cbb127e09ea49fe0d963a55e7e032d98c37646021e320bcab81",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration03",
+          "original_local_sha256": "f750883a08a83cbb127e09ea49fe0d963a55e7e032d98c37646021e320bcab81",
+          "published_record_sha256": "09c68d075044b65e3bfe92e03f25dca8294501d299fd5723b0840d8581a210ee",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration04_review_sanitized",
+        "record_name": "migration04-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration04-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_04",
+        "review_run_id": "RUN-MIGRATION-04-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "5bbde6ff4abce438f2444d77036e9d1c2d870f69f0c980d49677cb2d7882226a",
+        "record_sha256": "e81ccfbd494b33f6d77b9b260af2a520bd967d6f45879c7147a45ec29311342e",
+        "record_bytes": 6518,
+        "original_outcome": "建议有条件采用；阻断0、无实质必要修改；保留一项流程状态非阻断备注。",
+        "incremental": false,
+        "source_local_record_sha256": "89f4a8df9611fbb5ad9d780386e7886a65f4452776164a7e0a24426208f5f4e6",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration04",
+          "original_local_sha256": "89f4a8df9611fbb5ad9d780386e7886a65f4452776164a7e0a24426208f5f4e6",
+          "published_record_sha256": "e81ccfbd494b33f6d77b9b260af2a520bd967d6f45879c7147a45ec29311342e",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration05_review_sanitized",
+        "record_name": "migration05-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration05-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_05",
+        "review_run_id": "RUN-MIGRATION-05-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "8775811b0377d5335aae98985483306bfb798767c3546d83761d5c6555f917da",
+        "record_sha256": "e35220943371b709d734ce2acf9f9a46ae2231444bece022203fd721aab1277c",
+        "record_bytes": 5837,
+        "original_outcome": "建议采用；必要阻断与最小修改均无；保留一项非阻断观察。",
+        "incremental": false,
+        "source_local_record_sha256": "68dd2a36c8c926693b3c1ae23a04194ab1f5c3496bf40fdc8a6adb39fcf10625",
+        "sanitization": {
+          "field": "task identifier only",
+          "replacement_count": 1,
+          "input_pattern": "internal task-path alias",
+          "output_controlled_id": "CONTROLLED-TASK-migration05",
+          "original_local_sha256": "68dd2a36c8c926693b3c1ae23a04194ab1f5c3496bf40fdc8a6adb39fcf10625",
+          "published_record_sha256": "e35220943371b709d734ce2acf9f9a46ae2231444bece022203fd721aab1277c",
+          "diff_artifact": "local controlled artifact review-archive-sanitization.diff"
+        }
+      },
+      {
+        "controlled_id": "review_archive_migration06_review_sanitized",
+        "record_name": "migration06-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/migration06-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_06",
+        "review_run_id": "RUN-MIGRATION-06-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "70a91a81dfbe14974a7c0d2ed7ccab0c2fc088b21b53cd7867fcb90b3d40c32f",
+        "record_sha256": "e68cca3b5de80eba91195b90ebf3ea3ee83bc52f7690f4944c574c85c61055fc",
+        "record_bytes": 6891,
+        "original_outcome": "建议采用；必要阻断0；保留一项非阻断可选微调。",
+        "incremental": false,
+        "source_local_record_sha256": "e68cca3b5de80eba91195b90ebf3ea3ee83bc52f7690f4944c574c85c61055fc",
+        "sanitization": "No content transformation; byte-identical to designated sanitized local review record."
+      },
+      {
+        "controlled_id": "review_archive_continuity_overview_review_sanitized",
+        "record_name": "continuity-overview-review-sanitized.md",
+        "repository_path": "reviews/ISSUE-97-continuity/continuity-overview-review-sanitized.md",
+        "content_review_date": "2026-10-26",
+        "reviewer_id": "reviewer_overview",
+        "review_run_id": "RUN-CONTINUITY-OVERVIEW-INDEPENDENT-REVIEW-20261026-01",
+        "bound_manuscript_sha256": "f400ba9fe6de7ebede5a000ae1bc7dbbafd18a1422b01847f9c1c85ae8e4edac",
+        "record_sha256": "d21cfb248506b90a50e55218ed25db15f70f7602e71b10680944606a6920aa5c",
+        "record_bytes": 12211,
+        "original_outcome": "建议采用；实质阻断0、必要修改0。",
+        "incremental": false,
+        "source_local_record_sha256": "d21cfb248506b90a50e55218ed25db15f70f7602e71b10680944606a6920aa5c",
+        "sanitization": "No content transformation; byte-identical to designated sanitized local review record."
+      }
+    ],
+    "location_status": "Repository candidate contains only the nine mapped sanitized review copies; local source records remain under local staging internal storage."
+  },
+  "publication": {
+    "branch": "publication/continuity-20261026-issue-97",
+    "base_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
+    "pr_state": "draft",
+    "independent_review": "pending exact PR head",
+    "original_issue_number_converted_to_pr": 97,
+    "tracking_issue_number": 98,
+    "pull_request_number": 97
+  },
+  "link_check": {
+    "base_commit": "289c4da8757f855bbb4180f688d8cc8f6c3dc8e3",
+    "base_tree_sha": "126dfd733e0090a5fb399fb090ff804492109aa3",
+    "relative_markdown_targets_checked": 14,
+    "relative_markdown_targets_missing": 0,
+    "fixed_commit_repository_blob_targets_checked": 29,
+    "fixed_commit_repository_blob_targets_missing": 0,
+    "video_body_read": false,
+    "method": "local candidate tree plus read-only Git tree metadata and exact-path reads at fixed base; no source or video body was fetched for link-presence checking."
+  }
+}

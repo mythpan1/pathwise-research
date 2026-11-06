@@ -11,8 +11,8 @@
       "representation": "共同发布机构官网的工具可读全文转换；非原始HTML",
       "locator": "第二、四、十七至二十、二十八至二十九条",
       "limitation": "NHC另一原页读取412后停止；NHSA文本独立取得。不证地方结算或招聘。",
-      "captured_text_excerpt_sha256": "43e2b3e61b524098ece6b23bef77e14447ffa98b56dc50a131361daef6a1463f",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes."
+      "captured_text_excerpt_sha256": "095b526ee1292117452ac43230c80453b6c6baec49b5fe104b48005c328d04e6",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
     },
     {
       "id": "S2",
@@ -24,8 +24,8 @@
       "representation": "湖南省政府对国家文件转载的工具可读全文转换；非首发字节",
       "locator": "一、二（一）（二）、三（三）（四）、四（六）（八）",
       "limitation": "2025/2027/2030均文件目标，不证完成；首发NHC页面412后停止。",
-      "captured_text_excerpt_sha256": "8bf951be9384ab25872442a39c7eab900172495435c400115bc9dcd2d3cd6588",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes."
+      "captured_text_excerpt_sha256": "47d67b850c1c43159d5657c084a7574aa09236963109cadbc793c2b98d06f805",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
     },
     {
       "id": "S3a",
@@ -37,8 +37,8 @@
       "representation": "湖南省政府转载工具可读全文转换",
       "locator": "国卫办基层函〔2026〕184号，正文供推进工作中参考使用",
       "limitation": "与S3同一政策族，不是独立就业证据。",
-      "captured_text_excerpt_sha256": "08ba48683e1fc663acb3f6cb491af446a5451c218d4945bef11219c9e24a0183",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes."
+      "captured_text_excerpt_sha256": "a4f9ecaa3c3af8b919e9b8682778e99c578b33a7862815341d1bbe967ec3e45c",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
     },
     {
       "id": "S3",
@@ -49,8 +49,8 @@
       "representation": "NHC官网PDF工具分页文本，仅P0到P13开头；非原PDF字节。工具显示总19页。",
       "locator": "页码按印刷页：1–3设置与人员；5基础检验与上送；6–7信息；8–10分级协作与培训；12–13全过程质量",
       "limitation": "没有实际图像渲染内容可目视核验。后续页面两次超时，P13余部–P18不作依据。配置不是新增招聘或编制。",
-      "captured_text_excerpt_sha256": "a4ecd8a0ba38c481b144232bf546357cdd35a2bfca92d31e0627a73a7b1889fb",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes.",
+      "captured_text_excerpt_sha256": "020ea3fc30524ef8126cdfdf0cf7075490bfeda103ae0a8ea83457652514df6a",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes.",
       "printed_page_mapping": "Printed page p = tool P index + 1; used printed pages 1–13 only."
     },
     {
@@ -61,10 +61,10 @@
       "published": "2025-02-08",
       "observation_as_of": "2025-02-06",
       "representation": "政府网站转载报道的工具可读全文转换",
-      "locator": "L20–29；366家接入、178项目、报告上传及医生调阅分列",
+      "locator": "“8826万份检验数据线上互认”段；L20–29（接入机构、检验目录/上传与调阅分列）",
       "limitation": "新闻披露，非底层数据审计；上传量/调阅量不等于唯一患者、免检数或用工变化。",
-      "captured_text_excerpt_sha256": "ad415fe2b9e5c82c3f8a3950eb51e8b238218910618eaee39552fdc899ce8720",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes."
+      "captured_text_excerpt_sha256": "9128859fd9f3402148abc6d54ce8c834fbab29de484fbbe82ebac3cf5197d7e1",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
     },
     {
       "id": "S5",
@@ -74,10 +74,10 @@
       "published": "2026-01-16",
       "observation_as_of": "2026-01-06",
       "representation": "卫健委网站转载报道的工具可读全文转换",
-      "locator": "L29–33；云检验1982家、临床检验256项；其他混合指标不推检验互认实际量",
+      "locator": "“检查结果全省互认，数据跑代替群众跑”段；L20–33（L29–33涵盖互认判断及云检验接入/目录）",
       "limitation": "与S4均新华日报来源家族，不当独立验证。接入/目录不证全部项目可认或某县实验室已重组。",
-      "captured_text_excerpt_sha256": "a515476f7af08777d7988b1392eeb4139bed693255495039c2e405e9fbcb8775",
-      "captured_text_hash_note": "SHA-256 of source-specific excerpt segment in the local readable tool-return text; not a hash of original HTML/PDF bytes."
+      "captured_text_excerpt_sha256": "fd03723bd9495a9bd6359a919d1f38ba80e6ea0a4a3337c83c25d0a14a11c11f",
+      "captured_text_hash_note": "SHA-256 of the source-specific excerpt segment extracted from the saved readable tool-return text; not original HTML/PDF bytes."
     }
   ]
 }

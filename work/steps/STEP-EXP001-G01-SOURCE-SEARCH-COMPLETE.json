@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-EXP001-G01-SOURCE-SEARCH-COMPLETE",
+  "action_id": "ACT-EXP001-G01-SOURCE-SEARCH",
+  "run_id": "RUN-EXP001-20261022-G01-SOURCE-01",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "parent_step_ids": [],
+  "retry_of": null,
+  "phase": "completed",
+  "recorded_at": "2026-10-22T14:49:22.485113+08:00",
+  "action": "Run two bounded official-domain queries",
+  "inputs": [
+    {
+      "query_ids": [
+        "Q01",
+        "Q02"
+      ],
+      "source_log": "research/experiments/EXP-001-demography-education/evidence/G01-20261022/SEARCH-LOG.md"
+    }
+  ],
+  "outputs": [],
+  "result": "One web tool call containing Q01/Q02 returned a combined empty result; no per-query receipt, documents or source references were returned. No follow-up searches by this contributor. Empty results do not imply absence.",
+  "verification": {
+    "status": "verified",
+    "by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+    "evidence": [
+      "Coordinator checked actual tool outputs and specified source locations"
+    ]
+  },
+  "experiment_ref": {
+    "experiment_id": "EXP-001-demography-education",
+    "evidence_unit": "G01-20261022"
+  },
+  "unresolved": []
+}

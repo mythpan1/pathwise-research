@@ -1,0 +1,462 @@
+{
+  "package_id": "graduate-supply-official-minimum-20261105-v2",
+  "scope": "仅来源采集与核对，不作研究结论；江苏生源2027本科选择，2031本科/2034硕士/2037观察的全国供给结构背景。",
+  "frozen_at_utc": "2026-11-05T07:56:08.750743+00:00",
+  "core_document_count": 9,
+  "supplemental_table_count": 1,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "教育强国建设规划纲要（2024—2035年）",
+      "publisher": "中共中央、国务院；教育部网站转载新华社全文",
+      "published": "2025-01-19",
+      "document_date": null,
+      "kind": "正式纲要全文的官方页面可读转换",
+      "sections": [
+        "一、总体要求",
+        "四（十一）至（十四）",
+        "六（二十一）",
+        "九（三十一）至（三十二）"
+      ],
+      "supports": [
+        "纲要设置2027与2035两步目标。",
+        "按研究型、应用型、技能型等定位分类支持；有序扩大优质本科招生，扩大研究生培养，稳步提高博士占比，大力发展专业学位。",
+        "要求超前布局、动态调整学科专业，强化就业与招生计划、人才培养联动。"
+      ],
+      "does_not_support": [
+        "没有给出2027普通本科或硕博招生人数、分专业名额及未来毕业生人数。",
+        "不能证明高校已按目标完成培养质量改善，也不能证明新增专业有对应岗位或溢价。"
+      ],
+      "url": "http://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202501/t20250119_1176193.html",
+      "sha256": "394a8c6db6354c87ba6c8a6862f2b63a6c5edf010082b8197d345b374eaae496",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "四（十二）",
+          "verbatim": "有序扩大优质本科教育招生规模，扩大研究生培养规模，稳步提高博士研究生占比，大力发展专业学位研究生教育。",
+          "start_line": 51,
+          "end_line": 51
+        },
+        {
+          "section": "九（三十二）",
+          "verbatim": "开展就业状况跟踪调查，强化就业状况与招生计划、人才培养联动，加强就业质量监测和评价反馈。",
+          "start_line": 101,
+          "end_line": 101
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "普通高等教育学科专业设置调整优化改革方案",
+      "publisher": "教育部等五部门",
+      "published": "2023-03-29",
+      "document_date": "2023-02-21",
+      "kind": "正式方案全文的官方页面可读转换",
+      "sections": [
+        "一、总体要求3工作目标",
+        "四、国家宏观调控15、16、21"
+      ],
+      "supports": [
+        "到2025优化调整高校20%左右学科专业布点是政策目标，计量对象为布点。",
+        "提出新设与淘汰并行、人才需求预测预警、连续五年未招生专业撤销、专业预调整。"
+      ],
+      "does_not_support": [
+        "20%左右不是20%招生计划或学生的调整，不能直接换算2031某专业毕业供给。",
+        "该文件本身不证明目标完成、每一专业撤销原因或就业需求实际变化。"
+      ],
+      "date_caveat": "页面正文发布日期2023-03-29，签发日期2023-02-21；Exa Published元数据为2023-03-02，存在差异，引用分别标明，不用URL日期替代。",
+      "url": "http://www.moe.gov.cn/srcsite/A08/s7056/202304/t20230404_1054230.html",
+      "sha256": "84e4aac328771b0f0f5b6c23675003b0cf371039e1acd2d42fbde212b5d40b8c",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "一、3",
+          "verbatim": "到2025年，优化调整高校20%左右学科专业布点",
+          "start_line": 39,
+          "end_line": 39
+        },
+        {
+          "section": "四、16",
+          "verbatim": "对高校连续五年未招生的专业予以撤销处理。",
+          "start_line": 71,
+          "end_line": 71
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "2023年全国教育事业发展统计公报",
+      "publisher": "教育部",
+      "published": "2024-10-24",
+      "document_date": null,
+      "kind": "官方统计公报正文和脚注可读转换",
+      "sections": [
+        "六、高等教育",
+        "脚注1、2、25—28"
+      ],
+      "supports": [
+        "2023普通本科招生478.16万人，另有专科起点本科91.25万人；普通本科毕业489.74万人。",
+        "2023职业本科招生8.99万人，另有专科起点本科4.67万人；在校32.47万人。",
+        "2023博士招生15.33万、硕士114.84万；毕业博士8.71万、硕士92.76万。"
+      ],
+      "does_not_support": [
+        "公报未单列职业本科毕业人数，不能填0。",
+        "未分列学术/专业学位招生与毕业，不能给出2023专硕人数或把专业研究生比例当专硕比例。",
+        "并非江苏生源统计，不能估个体考研成功率或未来就业回报。"
+      ],
+      "url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202410/t20241024_1159002.html",
+      "sha256": "a8873afe2a3eb122a3d248bf06e958f8e85ccfdc3ff5cd5811b2ffeaf3bdd7de",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "六、高等教育",
+          "verbatim": "普通本科招生478.16万人，比上年增加10.23万人，增长2.19%，另有专科起点本科招生91.25万人",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "section": "脚注1",
+          "verbatim": "各项统计数据均未包括香港特别行政区、澳门特别行政区和台湾地区。部分数据因四舍五入的原因，存在着与分项合计不等的情况。",
+          "start_line": 129,
+          "end_line": 129
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "2024年全国教育事业发展统计公报",
+      "publisher": "教育部",
+      "published": "2025-06-11",
+      "document_date": null,
+      "kind": "官方统计公报正文和脚注可读转换",
+      "sections": [
+        "六、高等教育",
+        "脚注1、2、25—28"
+      ],
+      "supports": [
+        "2024普通本科招生489.97万人，另有专科起点本科87.40万人；毕业511.96万人。",
+        "2024职业本科招生10.96万人，另有专科起点本科4.41万人；在校40.68万、毕业7.00万。",
+        "2024博士招生17.11万、硕士118.57万；毕业博士9.72万、硕士98.64万。"
+      ],
+      "does_not_support": [
+        "未分列学术/专业学位招生与毕业。",
+        "招生、在校、毕业是不同存量/流量与不同入学队列，不能用招生增量直接代表同年就业新增。",
+        "不能把这两年规模外推为2031、2034或2037的精确供给与需求。"
+      ],
+      "url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202506/t20250611_1193760.html",
+      "sha256": "1887f05cc8b8d08e0388fddb74c4073a8d5d823f81f4b343ee06fc078730bab9",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "六、高等教育",
+          "verbatim": "普通本科招生489.97万人，另有专科起点本科招生87.40万人。职业本科招生10.96万人，另有专科起点本科招生4.41万人。",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "section": "六、高等教育",
+          "verbatim": "毕业研究生108.36万人，其中，毕业博士生9.72万人，毕业硕士生98.64万人。",
+          "start_line": 97,
+          "end_line": 97
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "《普通高等学校本科专业目录（2026年）》发布",
+      "publisher": "教育部",
+      "published": "2026-04-28",
+      "document_date": null,
+      "kind": "主管部门实际调整结果官方发布消息，非附件目录全文",
+      "sections": [
+        "第2段：目录结构",
+        "第3段：十四五布点统计"
+      ],
+      "supports": [
+        "2026目录13门类、92专业类、883种专业；在交叉学科门类列入11种已有专业和4种本次新专业。",
+        "教育部发布的十四五累计数据：新增本科专业布点1.02万个，撤销或停招1.22万个，累计调整比例超30%；今年专业调整比例首次突破10%。"
+      ],
+      "does_not_support": [
+        "撤销与停招是合并口径，未分开人数或原因；新增与撤停布点不是学生规模。",
+        "没有每专业布点规模、招生计划、实际招生或培养质量；不能估2031专业供给。",
+        "超30%与2023方案20%左右不能不加说明直接计算超额完成幅度，统计时期、分母与调整定义未完整披露。"
+      ],
+      "url": "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202604/t20260428_1435016.html",
+      "sha256": "df2a57894e46dd716df7c18af452eb96e40af4c19e5c842d05174e1472bfd808",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "第3段",
+          "verbatim": "据统计，“十四五”期间，全国高校新增本科专业布点1.02万个、撤销或停招1.22万个。专业调整幅度持续增大，累计调整比例超30%，今年全国高校专业调整比例首次突破10%。",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "关于深入推进学术学位与专业学位研究生教育分类发展的意见",
+      "publisher": "教育部",
+      "published": "2023-12-19",
+      "document_date": "2023-11-24",
+      "kind": "正式意见全文的官方页面可读转换",
+      "sections": [
+        "一、3",
+        "二、4—5",
+        "三、6—11",
+        "四、12—13",
+        "五、15"
+      ],
+      "supports": [
+        "到2027形成两类教育各具特色、齐头并进格局是政策目标。",
+        "学术学位面向知识创新，专业学位面向行业产业发展，二者同等地位；新增硕士单位原则只开展专业学位教育。",
+        "十四五末硕士专业学位招生占硕士招生总规模三分之二左右是目标；专业学位强调真实情境实践、联合培养和行业导师，基础学科博士培养强化直博。"
+      ],
+      "does_not_support": [
+        "三分之二是目标，不是本包核实的2025实际完成比例。",
+        "不能把学硕、专硕或研究生学历名称当作就业收益保证；不证明某培养单位已兑现实践条件。",
+        "没有2031后个人考研的成本收益、职业硬门槛或录取难度证据。"
+      ],
+      "date_caveat": "签发2023-11-24，页面正文发布日期2023-12-19；Exa Published元数据2023-11-30与两者不同，分列保留。",
+      "url": "http://www.moe.gov.cn/srcsite/A22/moe_826/202312/t20231218_1095043.html",
+      "sha256": "493da1b24293c4e05e09d4624ccb3561c6d63e7cd27894f169286894533cee13",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "二、5",
+          "verbatim": "到“十四五”末将硕士专业学位研究生招生规模扩大到硕士研究生招生总规模的三分之二左右",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "section": "三、9",
+          "verbatim": "专业学位应强化产教融合协同育人，将人才培养与用人需求紧密对接",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "中央教育工作领导小组印发高等教育学科专业设置调整优化行动方案（2025—2027年）",
+      "publisher": "教育部",
+      "published": "2025-08-28",
+      "document_date": null,
+      "kind": "正式印发的官方发布消息，不是行动方案全文",
+      "sections": [
+        "第3段：六项机制",
+        "第4段：六项行动"
+      ],
+      "supports": [
+        "正式印发消息明确缩短目录调整周期，研究生、本科、高职三类目录协同，统筹招生计划等政策。",
+        "提出急需超常布局、基础学科跃升、交叉孵化、存量预警整改、内涵更新、培养模式深化等行动。"
+      ],
+      "does_not_support": [
+        "未取得行动方案全文，不可补写未公开的指标、附件、考核办法和名额。",
+        "该页没有具体招生人数、未来毕业人数或2027后逐年安排，不能估2031专业供给。"
+      ],
+      "url": "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202508/t20250828_1410769.html",
+      "sha256": "2dc1cfeb8a3fd72c3ccac62a25573e6963678f1b19e47552bbbd55de2c4f48ab",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "第3段",
+          "verbatim": "创新目录管理机制，缩短调整周期，加强研究生、本科、高职三类学科专业目录协同联动",
+          "start_line": 15,
+          "end_line": 15
+        },
+        {
+          "section": "第4段",
+          "verbatim": "实施存量学科专业优化行动，对社会需求明显不足、培养质量下滑、办学条件不足的学科专业点进行预警并提出整改要求",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "介绍2023年全国教育事业发展基本情况［图文直播］",
+      "publisher": "教育部；发展规划司司长郭鹏原始答问",
+      "published": "2024-03-01",
+      "document_date": null,
+      "kind": "官方发布会完整可读实录；只使用高教相关定位",
+      "sections": [
+        "2024-03-01 10:27:40—10:29:50郭鹏答央广网记者"
+      ],
+      "supports": [
+        "原始答问表述2023专业学位研究生招生比例已接近60%。",
+        "2023理工农医类硕士招生规模占比60%、博士超过80%。"
+      ],
+      "does_not_support": [
+        "原文称“专业学位研究生”，没有在这句话中将分母明确限定为硕士；必须保留原称，不把媒体标题“专硕近60%”当原始统计口径。",
+        "未给出精确比例与分层人数，也不是2024年的专业学位结构。"
+      ],
+      "url": "http://www.moe.gov.cn/fbh/live/2024/55831/twwd/202403/t20240301_1117649.html",
+      "sha256": "756a58be9bb783fd6b3b193c5b0f6083d49f7528df5757f01406b9a586962850",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Full text returned by conversion, including page end; no truncation marker observed. Does not guarantee every HTML element or linked attachment is represented.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:48:43Z",
+        "2026-11-05T07:50:50Z"
+      ],
+      "geography": "全国；不是江苏生源分配或院校录取数据",
+      "time_scope": "政策适用期或统计年度见标题；不能当作2031/2034/2037观测",
+      "excerpts": [
+        {
+          "section": "2024-03-01 10:28:43",
+          "verbatim": "2023年，专业学位研究生招生比例已经接近60%。",
+          "start_line": 251,
+          "end_line": 251
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "2025年全国教育事业发展统计公报",
+      "publisher": "教育部",
+      "published": "2026-07-06",
+      "document_date": null,
+      "kind": "官方统计公报正文及脚注可读转换",
+      "url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202607/t20260706_1442870.html",
+      "sha256": "5f1522d9a670d8c642025e57de14d1bbb379a4cd59c3aa3f75aeb9ab3fc6b6e9",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation of official URL, NOT raw HTML and NOT independently compared with wire bytes",
+      "coverage": "Complete returned text through footnote29; no truncation marker observed; linked attachments not obtained.",
+      "retrieval_window_utc": [
+        "2026-11-05T07:54:47Z",
+        "2026-11-05T07:54:55Z"
+      ],
+      "geography": "全国，非江苏生源",
+      "time_scope": "统计2025年；2026-07-06发布",
+      "sections": [
+        "六、高等教育",
+        "脚注1、2、25—28"
+      ],
+      "supports": [
+        "2025普通本科招生503.71万人、另有专科起点85.42万人，毕业523.06万人。",
+        "2025职业本科招生15.41万人、另有专科起点4.66万人，在校51.83万人、毕业8.68万人。",
+        "2025博士招生20.16万、硕士123.68万；博士毕业11.29万、硕士105.36万。",
+        "本科层次职业学校87所。"
+      ],
+      "does_not_support": [
+        "仍未分列学术/专业学位研究生结构，不能证明S06专硕目标已完成。",
+        "开篇教育十四五主要目标如期实现的总括表述，不能替代每一子目标逐项验收。",
+        "未提供2027名额或2031分专业供给，不能从全国总量推断某个专业供给、就业回报。"
+      ],
+      "excerpts": [
+        {
+          "section": "六、高等教育",
+          "verbatim": "普通本科招生503.71万人，另有专科起点本科招生85.42万人。职业本科招生15.41万人，另有专科起点本科招生4.66万人。",
+          "start_line": 91,
+          "end_line": 91
+        },
+        {
+          "section": "六、高等教育",
+          "verbatim": "全国共招收研究生143.85万人，其中博士生20.16万人，硕士生123.68万人。",
+          "start_line": 97,
+          "end_line": 97
+        },
+        {
+          "section": "六、高等教育",
+          "verbatim": "毕业研究生116.65万人，其中博士生11.29万人，硕士生105.36万人。",
+          "start_line": 97,
+          "end_line": 97
+        }
+      ]
+    }
+  ],
+  "supplements": [
+    {
+      "id": "S03a",
+      "parent_source": "S03",
+      "title": "2023高等教育学生数",
+      "publisher": "教育部",
+      "published": "2024-12-25",
+      "published_basis": "Exa conversion metadata; converted table itself has no visible publication date. URL path 202501 is not substituted as publication date.",
+      "url": "http://www.moe.gov.cn/jyb_sjzl/moe_560/2023/quanguo/202501/t20250120_1176256.html",
+      "kind": "2023公报的官方全国统计补表",
+      "controlled_text": "official-text/S03a-students2023-table.md",
+      "sha256": "3cfd3a3ca6f5e63278a6f9f19af0efd4df4ceb41b4d02350194b932ef130cfe7",
+      "representation": "Exa web_fetch_exa clean readable markdown transformation, NOT raw HTML",
+      "sections": [
+        "职业本专科下本科行；表头单位和毕业/学位/招生/在校/预计毕业列"
+      ],
+      "supports": [
+        "2023职业本科毕（结）业生39924人，授予学位39495人，招生89899人，在校324692人。补足公报未单列职业本科毕业人数。"
+      ],
+      "does_not_support": [
+        "预计毕业生71120人不是2024实际毕业人数。",
+        "毕（结）业生数不等于授予学位数；2024公报“毕业生”与本表“毕（结）业生”文字口径区别必须保留。",
+        "该表不能拆出学术/专业研究生人数。"
+      ],
+      "retrieval_window_utc": [
+        "2026-11-05T07:50:20Z",
+        "2026-11-05T07:50:33Z"
+      ]
+    }
+  ],
+  "acquisition": "Search results are leads only. Facts above checked against fetched official-page readable transformations saved here. No raw HTML claim. No access failure occurred; unsuccessful targeted searches are evidence gaps, not denied actions.",
+  "workflow_limit": "Collector self-check only; no independent analysis or review; no publication. Requested sol/high; backend report unknown in run.json.",
+  "out_of_scope": [
+    "个人信息",
+    "院校录取/投档或2026招生数据采集",
+    "院校专业或就业排名",
+    "估算2031分专业供给人数",
+    "研究建议与发布"
+  ],
+  "predecessor": {
+    "source_index": "sources.json",
+    "package_manifest": "minimum-package-manifest.json",
+    "package_sha256": "8584406bb8aa228ec3e90bd35e47307a238d7a3bd8a4e3b82632581f03db82b7",
+    "note": "v1 preserved unchanged; v2 only appends 2025 bulletin and replaces fact/gap index with dated successors, per parent request."
+  },
+  "publication_note": "Authorized private-repository publication, 2026-11-05. Only source metadata, excerpts and capture hashes; no raw tool responses or source files. Controlled text locator removed; capture hashes and evidence limits retained."
+}

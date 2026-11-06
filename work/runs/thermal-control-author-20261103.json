@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "thermal-control-author-20261103",
+  "actor_id": "thermal-control-author",
+  "role": "substantive author; self-check only",
+  "task_ref": "LOCAL-THERMAL-CONTROL-CHOICES-20261103",
+  "parent_run_id": "LOCAL-THERMAL-CONTROL-CHOICES-20261103",
+  "client": "native subagent",
+  "transport": "native",
+  "tools": [
+    "functions.exec",
+    "exec_command",
+    "apply_patch",
+    "skills.read",
+    "collaboration.send_message"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Explicit parent assignment and fixed-base AGENTS.md request; runtime exposes no independently verifiable backend report.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Explicit parent assignment and fixed-base AGENTS.md request; runtime exposes no verifiable report.",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T14:52:52.581061+00:00",
+  "recorded_by_run_id": "thermal-control-author-20261103",
+  "read_rules_ref": {
+    "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "docs/research-architecture.md",
+      "reviews/README.md",
+      "templates/agent-run.json",
+      "templates/work-step.json",
+      "templates/review-record.md"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8",
+      "docs/agent-workflow.md": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1",
+      "docs/agent-provenance.md": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f",
+      "docs/experiment-protocol.md": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6",
+      "docs/research-architecture.md": "1436c50eccc300e422d117a28de40725dea27f9e9c18153c9f57a4f25a0925bc",
+      "reviews/README.md": "8d26b4e9d7b836e2a52c4b73eea777dba6c71d600a49aba2b33690e6a6850f92",
+      "templates/agent-run.json": "be096acf9585b4a5c75c85bacc80edc4006960972ab83db5913beb6d1685a501",
+      "templates/work-step.json": "c75a64dc701e964558a7f7e26423e964ed6caac089bda163d3a156e723c9ed6b",
+      "templates/review-record.md": "9b3b0ca1415d97d5300879ccce611f836b0ef6ac40eec500e3b4d117e5fe3e1d"
+    }
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-27151-thermal-control-choices.md",
+    "research/admissions/jiangsu-27151-thermal-control-sources.json",
+    "research/admissions/energy-transition-workforce.md",
+    "work/runs/thermal-control-author-20261103.json"
+  ],
+  "input_versions": {
+    "base_commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+    "fixed_base_manifest_sha256": "9959ea55cd7054231f298a26f95986733aeb0ffb7140c05692a1583f6bad22ae",
+    "source_snapshot_id": "thermal-inputs-v2",
+    "source_snapshot_sha256": "9563be3242ae17cd074dcd646da9b95b8079557f22d6adf4b8db31d50b33d53b",
+    "source_index_sha256": {
+      "policy": "600a2d5e6298b8880a93d34d34220f392953fe4e240c12d38455cae0859eb864",
+      "jobs": "5eee67f6759e403ae6047903b7aca0a0bc5152b83788dc2c558f83ca37126098"
+    }
+  },
+  "output_versions": [
+    {
+      "repository_path": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "bytes": 19172,
+      "sha256": "b562b7eab206fedde64574fb4f8d357e3cbaf4d369df781b53f452012ba77863",
+      "git_blob": "4f648efea9c36f3d4d515f33afa4d6846a489281"
+    },
+    {
+      "repository_path": "research/admissions/jiangsu-27151-thermal-control-sources.json",
+      "bytes": 16173,
+      "sha256": "47a4814b007c1348c597497c55f4a594d13d04b0131b039215b8754869f0b1e7",
+      "git_blob": "0ddfec1ecc53d07f1faa8573560f7bd36c7e0d02"
+    },
+    {
+      "repository_path": "research/admissions/energy-transition-workforce.md",
+      "bytes": 3290,
+      "sha256": "2382ef8d9e9e9e96acfb88f9366a752c8538bf57558c67ce4f6df3e7f6ad00fb",
+      "git_blob": "a0f410b4cf6f7b8537fbd175e9674798e3ae137e"
+    }
+  ],
+  "claim_map": [
+    {
+      "ids": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "class": "facts",
+      "location": "source index claim_map and report sections 1—3"
+    },
+    {
+      "ids": [
+        "A1"
+      ],
+      "class": "explicit assumptions",
+      "location": "report opening and sections 4—5"
+    },
+    {
+      "ids": [
+        "I1",
+        "I2"
+      ],
+      "class": "conditional inferences",
+      "location": "report sections 4—6; source index records dependencies and unknowns"
+    }
+  ],
+  "self_check": {
+    "kind": "author self-check, not independent review",
+    "checked_at": "2026-11-03T14:52:52.581096+00:00",
+    "checks": [
+      {
+        "check": "17 fixed-baseline files: byte sizes, SHA-256 and Git blob",
+        "result": "passed"
+      },
+      {
+        "check": "Final input V2 and six referenced files match",
+        "result": "passed"
+      },
+      {
+        "check": "NAV preserves full baseline prefix and adds exactly one blank line plus one paragraph",
+        "result": "passed"
+      },
+      {
+        "check": "Historical rank arithmetic; group/target/admitted count/future plan/user distinction",
+        "result": "passed"
+      },
+      {
+        "check": "Publication text/source/NAV: no raw originals, absolute local paths, contact address, raw tool references or secret markers",
+        "result": "passed"
+      },
+      {
+        "check": "Author read-through: policy target/actual and expiry separation; 10年以上 inclusive; liquid cooling not unique; employer same-position/cohort/major boundaries; no datacenter order borrowing",
+        "result": "passed"
+      },
+      {
+        "check": "Author read-through: H/C partial order, reversal, preference versus task changes, opportunity/common budget costs, specific alternatives, conditional 2031/2037 and population limits",
+        "result": "passed"
+      },
+      {
+        "check": "No new school/admissions/source collection or external write by author; no independent review claimed",
+        "result": "passed"
+      }
+    ]
+  },
+  "limitations": [
+    "Policy PDF bytes/headers and visible screenshots unavailable; only full textual representations checked.",
+    "Reused external original pages were not reopened.",
+    "Backend identity and reasoning reported values remain unknown.",
+    "Real user acceptance, future contracts/budgets/hiring and school training not verified."
+  ],
+  "note": "Local draft, input history, evidence map and append-only action records retained separately; not uploaded. Outputs exclude this record itself to avoid self-hash. No independent review or GitHub write performed by author.",
+  "output_version_history_note": "The original output_versions and self_check describe V1. The appended revision_history gives subsequent versions; latest output_versions supersede earlier versions without rewriting their history. This record does not hash itself.",
+  "revision_history": [
+    {
+      "version": "V2",
+      "recorded_at": "2026-11-03T14:57:52.083133+00:00",
+      "based_on": "V1",
+      "independent_review_received": {
+        "round": "R1",
+        "reviewer_run_id": "thermal-control-independent-review-20261103",
+        "reviewed_version": "V1",
+        "verdict": "建议采用",
+        "blocking_issue_count": 0,
+        "review_sha256": "3ae4b6653c0982eb64efc5ccd94dff6823c1bd589e971fdec6b2fe4dad0aee73",
+        "result_sha256": "0c143a024ab404d68b83303921265b6dbcece83c15da87b87fb20777fb32fb0a",
+        "is_platform_approval": false
+      },
+      "adopted_nonblocking_item": {
+        "id": "NB1",
+        "coordinator_alias": "N1",
+        "target": "sources.json / J01 / representation / kind",
+        "before": "server HTML body bytes; ajax endpoint also returned HTML",
+        "after": "server HTML body bytes",
+        "reason": "Ajax endpoint clarification belongs to J02, which is unchanged. No fact, conclusion or source acquisition changed."
+      },
+      "output_versions": [
+        {
+          "repository_path": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+          "bytes": 19172,
+          "sha256": "b562b7eab206fedde64574fb4f8d357e3cbaf4d369df781b53f452012ba77863",
+          "git_blob": "4f648efea9c36f3d4d515f33afa4d6846a489281"
+        },
+        {
+          "repository_path": "research/admissions/jiangsu-27151-thermal-control-sources.json",
+          "bytes": 16139,
+          "sha256": "4b9d73970df914480ae7116f28f16a08c354c41362cfa140983755adebbd36b5",
+          "git_blob": "4dce512af540144830260859c8ba1799bbd1c8bd"
+        },
+        {
+          "repository_path": "research/admissions/energy-transition-workforce.md",
+          "bytes": 3290,
+          "sha256": "2382ef8d9e9e9e96acfb88f9366a752c8538bf57558c67ce4f6df3e7f6ad00fb",
+          "git_blob": "a0f410b4cf6f7b8537fbd175e9674798e3ae137e"
+        }
+      ],
+      "author_narrow_self_check": {
+        "report_and_nav_byte_identical_to_v1": true,
+        "j02_unchanged": true,
+        "source_json_only_j01_kind_changed": true,
+        "original_author_record_fields_preserved": true,
+        "new_sources_or_external_writes": false,
+        "is_independent_review": false
+      },
+      "status": "Ready for separate narrow verification of V2 changes; R1 adoption remains explicitly bound to V1.",
+      "history_boundary": "Input precision clarifications before formal R1 were not an R1 failure or re-review round."
+    }
+  ]
+}

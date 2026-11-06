@@ -1,0 +1,760 @@
+{
+  "task_ref": "LOCAL-URBAN-GIS-TRADE-CHOICES-20261103",
+  "research_date_utc": "2026-11-03",
+  "baseline": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "ea101c6f18f1db91013a177b91832567b7743b76"
+  },
+  "intended_repository_paths": [
+    "research/admissions/jiangsu-history-urban-gis-trade-choices.md",
+    "research/admissions/jiangsu-history-urban-gis-trade-choices-sources.json"
+  ],
+  "scope": {
+    "applicants": "江苏历史类、拟2027本科入学；仅既有南农01候选",
+    "employment_market": "南京为条件市场，不是用户偏好；广东另列扩地区/实习分支",
+    "time": "四年本科假设下2031入口；2037为条件观察，不保证连续六年经历",
+    "excluded": [
+      "新院校",
+      "CSV读取或上传",
+      "暂停的2026录取采集",
+      "逐校分流/课程全景",
+      "新增出海研究",
+      "资格互认或录用保证"
+    ]
+  },
+  "attribution": {
+    "reasoning_author_run": "urban-gis-choices-author-20261103-r1",
+    "jobs_collector_run": "verify-gis-undergraduate-entries-20261103T102112Z",
+    "policy_collector_run": "verify-urban-policy-boundary-20261103",
+    "business_collector_run": "verify-supermap-payment-evidence-20261103",
+    "independent_review": "not_performed_by_author",
+    "publication": "not_performed_by_author"
+  },
+  "acquisition_and_hash_rules": {
+    "new_vs_reused": "P1、B1、B0、J1、J2为本批新取来源；R1–R10仅复用固定卡，未声称新取旧网页。",
+    "originals": "全文、原HTML/PDF、图像和完整工具返回仅受控本地保存，不随本索引上传。",
+    "null_hash": "原收集链未取得原始网页字节时original_bytes_sha256为null；工具转换文本hash单列。J2后续独立同源HTML获取另附，不覆盖原链历史。",
+    "snapshots": "哈希固定取得的字节/记录，不证明网页当前仍有效、招聘仍开放、政策后续状态或原事实已独立审计。",
+    "personal_contact_information": "不摘录招聘页个人联系信息。"
+  },
+  "frozen_input_manifests": [
+    {
+      "group": "base",
+      "sha256": "edc1bc934e74d83a0485283e976015135e4d1b908faec84eefde78ea66631829",
+      "hash_semantics": "本地冻结清单本身的内容哈希；不表示清单或原件已上库。"
+    },
+    {
+      "group": "jobs",
+      "sha256": "3da0193fcb3f2329b7a9cfda6014528abe08a81f28d54dd9196c4cb0a58051fe",
+      "hash_semantics": "本地冻结清单本身的内容哈希；不表示清单或原件已上库。"
+    },
+    {
+      "group": "policy",
+      "sha256": "2fbb92cd8c01a95e0f0412b5a362d9a77850132cce69390e96e4df7af89bf9df",
+      "hash_semantics": "本地冻结清单本身的内容哈希；不表示清单或原件已上库。"
+    },
+    {
+      "group": "business",
+      "sha256": "81fababb7026de3a8b730845a15b3cc085abeb14fd3372ad24abfdc30d3ccd1b",
+      "hash_semantics": "本地冻结清单本身的内容哈希；不表示清单或原件已上库。"
+    },
+    {
+      "group": "J2-independent-source-precheck",
+      "acquisition_record_sha256": "e2350483c6d213d1d94d3903ebf31a7a917d05f9b4b3a9bb44669deedcf411cb",
+      "precheck_report_sha256": "f3c2160ca11683372bbc849f8a2d8ab4980be0e30f5bcf9181813d26c3f26177",
+      "hash_semantics": "追加同源取得证据的本地记录哈希；非原件已上库，不是作者稿审核。"
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "P1",
+      "type": "fact_policy_deployment_not_execution",
+      "title": "国务院关于印发《城市更新“十五五”规划》的通知",
+      "issuer": "国务院",
+      "document_number": "国发〔2026〕12号",
+      "document_date": "2026-05-22",
+      "host": "中华人民共和国生态环境部网站",
+      "host_role": "转载，标示来源中国政府网；未另核首发页",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/t20260602_1157796.shtml",
+      "page_publication_date": "2026-06-02",
+      "accessed_date_utc": "2026-11-03",
+      "geography": "全国部署，非南京或江苏项目分配",
+      "goal_years": [
+        2030,
+        2035
+      ],
+      "amendments_renewal_repeal_checked": false,
+      "original_bytes_sha256": "ec7c0be872fad7e1a73d9a7e6d29e892f70da7ea0ed6b5568efbd0807c2d64ca",
+      "original_format": "HTML (69109 bytes), plus 15 separately acquired embedded policy images",
+      "acquisition": "Collector web.open then Python urllib exact public URL HTTP200; original HTML and 15 image links preserved. Author read original-HTML paragraph extraction for cited body sections and visually read original columns11/15.",
+      "author_read_sections": [
+        "一总体目标 P001–P011",
+        "二（二）P018–P019",
+        "三（一）（五）P023–P036",
+        "五（二）P052–P053",
+        "七（三）P079–P081",
+        "八（一）至（三）P083–P092",
+        "八（五）P095–P096",
+        "专栏11第1–3项原图",
+        "专栏15第1–3项原图"
+      ],
+      "adopted_fact_locators": {
+        "F-POLICY-SCOPE": "一总体要求；发文落款/网页日期",
+        "F-POLICY-IMPLEMENTATION": "八（一）城市体检、规划/策划/实施、项目库",
+        "F-POLICY-FUNDS-RIGHTS": "八（二）（三）（五），五（二）",
+        "F-POLICY-DATA": "七（三）、专栏11和15",
+        "F-POLICY-DEMOGRAPHIC-LIMIT": "三（一）（五）群体需求任务；无人口统计/预测"
+      },
+      "supported_facts": [
+        "政策部署城市更新分环节实施、有条件投融资、用途/登记和多方协商。",
+        "CIM/基础数据库、房屋市政信息与数据应用是直接政策任务；GIS职业连接不是政策原文。",
+        "适老适儿、养老托育是需求任务，不是人口数或下降预测。"
+      ],
+      "embedded_images_used": [
+        {
+          "column": 11,
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/W020260602580149307278.jpg",
+          "original_bytes_sha256": "e2bc0e89e6c2385aed588a40fe15e9201b215cb1d5c8788c84f55039b213c74e"
+        },
+        {
+          "column": 15,
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/W020260602577784068746.jpg",
+          "original_bytes_sha256": "e61560664e7dc6fbf90dd503e8cea9a10462fb7265d4fbcd953ecfeedae37811"
+        }
+      ],
+      "cannot_infer": [
+        "南京已有预算/采购/岗位",
+        "GIS在原文出现",
+        "土管独占或本科必增招",
+        "2030/2035目标保证2031/2037续约",
+        "该规划由人口下降直接驱动",
+        "2025企业中标由该2026规划造成"
+      ]
+    },
+    {
+      "id": "B1",
+      "type": "fact_issuer_disclosure_not_independent_contract_audit",
+      "publisher": "北京超图软件股份有限公司，经巨潮资讯网披露",
+      "title": "2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225110824.PDF",
+      "reporting_period": [
+        "2025-01-01",
+        "2025-12-31"
+      ],
+      "publication_date": "2026-04-17",
+      "date_evidence": "B0第1页",
+      "accessed_date_utc": "2026-11-03",
+      "pages_total": 228,
+      "original_bytes_sha256": "344e89f596bd7844d006bc7c2be76df859a423cebb1024387701441c4f4558fe",
+      "original_format": "PDF, 11028696 bytes",
+      "acquisition": "web.open failed due size; collector downloaded exact public URL using curl, used pdftotext only as locator and pdftoppm/view_image for page inspection. Author visually read saved original-page renders22/42.",
+      "collector_inspected_key_pages": [
+        11,
+        20,
+        22,
+        39,
+        42
+      ],
+      "author_adopted_pages": [
+        22,
+        42
+      ],
+      "page_numbering": "PDF物理页与印刷页一致",
+      "full_report_read": false,
+      "supported_facts": [
+        {
+          "id": "F-BUSINESS-AWARDS",
+          "page": 22,
+          "section": "主营业务分析：自然资源、住建",
+          "fact": "披露公司及子公司中标上海国土空间规划和用途管制系统升级、临沂地下管线一张图建设及数据入库等项目。"
+        },
+        {
+          "id": "F-BUSINESS-RISK",
+          "page": 42,
+          "section": "上下半年业绩不均衡风险、应收账款坏账风险",
+          "fact": "披露政府/事业单位客户采购时间节奏、招投标延缓/需求下降对签约的影响和应收款回收风险。"
+        }
+      ],
+      "cannot_infer": [
+        "中标等于验收或已收款",
+        "上述项目已拖欠",
+        "公司整体风险等于城市更新分部风险",
+        "全部GIS业务等于城市更新",
+        "2025项目受2026-05规划驱动",
+        "项目已对应J1招聘或导致新人净增"
+      ],
+      "excluded_pages_use": {
+        "20": "已验收电子海图不借作城市更新验收",
+        "39": "城市更新展望不作已成合同/付款事实"
+      },
+      "financial_metrics_used": false
+    },
+    {
+      "id": "B0",
+      "type": "fact_metadata_only",
+      "publisher": "北京超图软件股份有限公司，经巨潮资讯网披露",
+      "title": "2025年年度报告披露提示性公告",
+      "announcement_number": "2026-005",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225110847.PDF",
+      "signature_date": "2026-04-15",
+      "annual_report_disclosure_date": "2026-04-17",
+      "accessed_date_utc": "2026-11-03",
+      "locator": "单页正文",
+      "original_bytes_sha256": "d32aa66fac6d4209261b37dc684394c08f260f8a6dd75861699fb6b4403edbbb",
+      "acquisition": "Collector search located exact CNINFO source; web.open read; screenshot cache miss then exact public download and local rendering. Author read original-PDF extracted single-page text.",
+      "use": "只核B1披露日期；不计第二企业样本，不作业务补证。"
+    },
+    {
+      "id": "J1",
+      "type": "fact_employer_job_ad_converted_text",
+      "publisher": "超图软件招聘官网",
+      "title": "地信工程师（校园招聘）",
+      "url": "https://www.supermap.com/zh-cn/a/job/14_5256.html",
+      "publication_date": "2026-09-09",
+      "accessed_date_utc": "2026-11-03",
+      "tool_cache_report": "Crawled: 2 days ago",
+      "original_bytes_sha256": null,
+      "original_html_acquired": false,
+      "converted_text_sha256": "c006ebebd95073cc8f090cf80f353405c5c1727253c9a1c90fe07a7cf203c044",
+      "hash_semantics": "完整原网址web.open转换文本，保留原工具行号；非raw HTML哈希。",
+      "actual_acquisition": "Collector directly web.open specified URL, saved full returned converted text; author read relevant L324–354. No application/contact/login.",
+      "locator": "岗位描述/要求；原工具L324–354",
+      "supported_facts": [
+        {
+          "id": "F-J1-ENTRY",
+          "lines": "L346–350",
+          "fact": "单岗本科及以上，专业含土地资源管理；GIS/CAD、建库与数据治理要求。"
+        },
+        {
+          "id": "F-J1-TASKS",
+          "lines": "L334–342",
+          "fact": "项目前期/进度等协助、具体实施及资源协调。"
+        },
+        {
+          "id": "F-J1-LOCATION",
+          "lines": "L332、354",
+          "fact": "南京仅多个地点之一，明确经常出差。"
+        }
+      ],
+      "unknown": [
+        "精确届别/毕业窗口",
+        "工作经验年限或免经验承诺",
+        "南京分配名额",
+        "正式/实习合同性质",
+        "带教兑现",
+        "截止/当前余量"
+      ],
+      "cannot_infer": [
+        "今日仍招",
+        "2031预留",
+        "2027届确定适用",
+        "全公管类满足专业条件",
+        "土管无需技能训练",
+        "录用赋予法定审批或签字资格"
+      ]
+    },
+    {
+      "id": "J2",
+      "type": "fact_employer_notice_on_university_platform_converted_text",
+      "publisher_platform": "广州大学就业网",
+      "employer_as_named": "中地顾问",
+      "contract_legal_entity": null,
+      "title": "中地顾问2027届秋季校园招聘简章",
+      "url": "https://jy.gzhu.edu.cn/index.php/web/Index/jobs-brief-detail?id=SPUXSW9",
+      "publication_date": "2026-09-23",
+      "accessed_date_utc": "2026-11-03",
+      "tool_cache_report": "Crawled: today",
+      "original_bytes_sha256": null,
+      "original_html_acquired": false,
+      "converted_text_sha256": "92aa84dcf9bda765696aec268e2099c61be97b4f9ac426de0d4e27688b245084",
+      "hash_semantics": "完整原网址web.open转换文本；不是HTML原字节，也未证HTML层级。",
+      "actual_acquisition": "Collector direct web.open specified URL, full converted text retained; author read L6–16、L41–92. No application/contact/login.",
+      "locator": "招聘对象/地点L41–45；项目助理L61–64；通用任职L66–76；流程L80–89",
+      "supported_facts": [
+        {
+          "id": "F-J2-TASKS",
+          "lines": "L61–64",
+          "fact": "项目助理专业含土地资源管理；资料/外业、数据处理、制图建库、报告和成果交付。"
+        },
+        {
+          "id": "F-J2-GEOGRAPHY",
+          "lines": "L45",
+          "fact": "广东广州、湛江、云浮、清远、江门、佛山、茂名七市，无南京；单岗城市分配未知。"
+        },
+        {
+          "id": "F-J2-WINDOW-LIMIT",
+          "lines": "L43、L66–70",
+          "fact": "页面对象为2027届本科/硕士；紧邻通用要求为2027应届或在校实习生、本科以上，未由HTML结构确认该段只属项目助理，不套定单岗。"
+        },
+        {
+          "id": "F-J2-ENTRY-STAGE",
+          "lines": "L76、L82",
+          "fact": "配置岗位含个人意向/本人同意条件；招聘流程Offer后实习入职。"
+        }
+      ],
+      "unknown": [
+        "项目助理具体学历/届别/实习生适用",
+        "精确经验条件",
+        "合同签约法人",
+        "实习时长/转正/正式合同",
+        "单岗工作地/出差频率",
+        "截止与当前余量"
+      ],
+      "cannot_infer": [
+        "广州大学是用人雇主",
+        "南京正式本科岗位",
+        "所有岗位同一筛选要求",
+        "Offer保证正式转正",
+        "南农公管所有方向自动匹配"
+      ],
+      "original_html_acquired_scope": "原收集者冻结链在10:24取得状态；下列后续独立同源获取另记，保留历史。",
+      "later_same_source_precheck": {
+        "run_id": "urban-gis-choices-20261103-independent-review",
+        "role": "独立来源预核，不是冻结作者稿的审核结论",
+        "requested_at": "2026-11-03T10:33:06.564216+00:00",
+        "method": "Python urllib standard-library one unauthenticated GET at same source URL",
+        "status": 200,
+        "bytes": 62733,
+        "original_bytes_sha256": "a748298a6292b340f872c1aa76ec9b35a086c3d5bcf3c0be086b981f741aa8bd",
+        "result": "同级p结构和文本未提供排他/确定的单岗任职要求归属；原单岗学历/届别/实习生适用未知保留。",
+        "author_action": "Author read acquisition record and source-precheck report; did not claim to acquire or independently inspect raw HTML.",
+        "local_only": "原HTML含脚本/令牌式值，严格本地，不复制内容或值到仓库；只索引哈希和必要脱敏结果。"
+      }
+    }
+  ],
+  "reused_prior_cards": [
+    {
+      "id": "R4",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/civil-engineering-career-scenarios.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/civil-engineering-career-scenarios.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "20d93ccbdd74ab0f0755a820c09967978e542c6e3b7c9972d705979e0c04f362",
+      "git_blob_sha": "5c206bc395a5184a94d112f447389540b6b5202d",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：已有城市更新与土木方向，未核公管土管商业GIS单岗。旧地产统计不进入本报告事实。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R8",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/industry/demography-education-health-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/industry/demography-education-health-2037-choices.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "f8f1fe9599f93967db2d89c226706048022267299ddfa6c3319b3421b458ad84",
+      "git_blob_sha": "1b7c51dc0501ab5bf0c7dad8fbac3946f1892b57",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：人口到支付/组织的连接已有；不搬全国统计为南京人口预测。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R5",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/human-resources-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/human-resources-careers.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "a3faf9f8160f1f40df51fcaba1c43bf06df601c9430929e60279bbe133795a27",
+      "git_blob_sha": "4f5d161b17c8b92e4fe3144cab066ff4c54e9271",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：已有HR任务；不借旧异地招聘证明公管类人资有南京GIS出口。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R7",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/industry/investment-retrofit-operations-2037-choices.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "567a873c0b1c2c9dd8c7362944d2a436b24c8a3d00aab9071b57a2e42abdfbd5",
+      "git_blob_sha": "4f39bbe660f7fc56574d9da35789fb627ab3137c",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：新增/改造/运行、付款与承接已有通用机制，不重复电气/土木全景。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R10",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/jiangsu-history-6527-decision-slice.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/jiangsu-history-6527-decision-slice.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "c4cbafca2979235bde37e64e8b7b85618fa4a9b44e9c9762991116c0af541791",
+      "git_blob_sha": "db3285278c9a81a18394b30d698c50b17e989a16",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：6527仅观察尺、个人输入与组接受未知；旧P*不继承，不重排五组。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R3",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/jiangsu-history-export-overseas-domestic.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/jiangsu-history-export-overseas-domestic.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "38d16a212c50dd2757286dd218fde7a4ba14bf39f3497a1a33fabd4fc97a8258",
+      "git_blob_sha": "8a8b785014b73f97e2c97d84f5bf4faeb5181619",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "复用分析边界：出口/海外经营/国内交易的付款主体与新人分工；不重核宏观数据、不继承其P。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R1",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "git_blob_sha": "4cc6769702b08ed61db73b0453ad9aba04fcd3be",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "复用事实：南农01全部12显示成员、标签、空值、录取数及2025章程/江苏2026问答的既有核读；不继承P0。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R2",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/jiangsu-history-trade-english-order.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "07e4e5ab414f20892ac891e90c551f0de5b3a17408dd133832a67cb01275186b",
+      "git_blob_sha": "6f6c98adbba7bf5f4597428a634d6e1f3f530936",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "复用事实：国贸/英语历史记录、南京苏美达本科入口及旧训练方向；复用条件比较方法，不继承P0或排序。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R6",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/admissions/public-sociology-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/admissions/public-sociology-careers.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "d64925a94f6c03e35bf99d75bf6aab6ffa7aa807db551156aef84a236f1ad01d",
+      "git_blob_sha": "f077dd462dbc8eddc49e94ff832f1c10554195db",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "覆盖检查：公共事务/调查路径不等公务员保证；旧异地用研样本不作本批本科GIS证据。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    },
+    {
+      "id": "R9",
+      "status": "reused_fixed_card_not_original_reacquisition",
+      "repository_path": "research/industry/service-organization-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/ea101c6f18f1db91013a177b91832567b7743b76/research/industry/service-organization-2037-choices.md",
+      "fixed_commit": "ea101c6f18f1db91013a177b91832567b7743b76",
+      "card_content_sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+      "git_blob_sha": "62964bce584061e66a93b131ecec683a69fd2778",
+      "read_date_utc": "2026-11-03",
+      "publication_date": null,
+      "date_note": "按固定提交定位已采用卡，不把本轮读取日当初次发布日期。",
+      "actual_acquisition": "Parent supplied frozen local text, author read it and recomputed SHA256; GitHub connector recursive tree independently checked repository path/blob at fixed commit.",
+      "use": "复用分析边界：客户/服务商分工、付款和任务开放分开；不把旧异地雇主作南京GIS样本。",
+      "upstream_original_bytes_sha256": null,
+      "hash_semantics": "SHA256为已采用卡内容；不是其引用网页或官方招生原件哈希。"
+    }
+  ],
+  "reused_fact_details": [
+    {
+      "id": "F-HISTORICAL",
+      "via": [
+        "R1",
+        "R2"
+      ],
+      "data_type": "2025江苏历史旧汇集记录，非本轮重核官方录取原件",
+      "dataset_sha256_from_prior_card": "ef538fc0f94cd4af900615d882d4db89bc2ac2a3c76bd702411765fac9d47666",
+      "dataset_read_this_run": false,
+      "record_number_convention": "含表头",
+      "facts": {
+        "group_1922": {
+          "min_score": 595,
+          "max_score": 612,
+          "min_rank": 6766,
+          "admitted_count": 317,
+          "selection_label": "史+不限",
+          "major_name": null,
+          "remark": null
+        },
+        "public_admin_1935": {
+          "label": "公共管理类（土地资源管理、人力资源管理、劳动与社会保障、行政管理）",
+          "min_score": 595,
+          "min_rank": 6766,
+          "admitted_count": 58,
+          "independent_selection": null,
+          "remark": null
+        },
+        "trade_1931": {
+          "min_score": 596,
+          "min_rank": 6527,
+          "admitted_count": 22,
+          "independent_selection": null,
+          "remark": null
+        },
+        "english_1932": {
+          "label": "英语（只招英语考生）",
+          "min_score": 596,
+          "min_rank": 6527,
+          "admitted_count": 13,
+          "independent_selection": null,
+          "remark": null
+        }
+      },
+      "cannot_infer": [
+        "58分摊四专业",
+        "独立土管录取线",
+        "录取数等于计划",
+        "6766保证会计4463/社会学类5797",
+        "12显示成员等于目标年官方完整",
+        "6527是用户位次",
+        "239位差保证录取或决定职业排序"
+      ]
+    },
+    {
+      "id": "F-REUSED-RULES",
+      "via": [
+        "R1",
+        "R2"
+      ],
+      "originals_retrieved_this_run": false,
+      "sources": [
+        {
+          "url": "https://zsxx.njau.edu.cn/info/1016/4062.htm",
+          "title": "南京农业大学2025招生章程",
+          "publication_date": null,
+          "locator": "第11、21、22条",
+          "use": "分数优先/遵循志愿/无级差，大类按校方案分流，可申请转专业不等成功。"
+        },
+        {
+          "url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html",
+          "title": "江苏2026高招问答（旧卡已核）",
+          "publication_date": null,
+          "locator": "第8/5问",
+          "use": "组内调剂及投档退档后不补投本批后列平行组，仅历史参照，2027另核。"
+        }
+      ],
+      "date_note": "年份沿旧卡，网页发布日期本轮未重核，不从URL补造。",
+      "upstream_original_bytes_sha256": null,
+      "cannot_infer": [
+        "2027规则不变",
+        "公共管理类必分到土管",
+        "申请转专业必成功",
+        "服从无条件不退档",
+        "后列组能接住已退档"
+      ]
+    },
+    {
+      "id": "F-REUSED-TRADE",
+      "via": [
+        "R2"
+      ],
+      "originals_retrieved_this_run": false,
+      "sources": [
+        {
+          "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/posDetail.html?postId=6a9aff38ded00b8cb6908edb&postType=campus",
+          "title": "苏美达轻纺业务助理",
+          "publication_date": null,
+          "locator": "校园招聘/职责/任职",
+          "use": "南京建邺、本科、国贸/英语等优先，CET6及口语，订单/客户/供应生产/出运协同；未明列回款。"
+        },
+        {
+          "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/posDetail.html?postId=6a9afec638cb5261fe536145&postType=campus",
+          "title": "苏美达机电业务经理",
+          "publication_date": null,
+          "locator": "校招/职责/要求",
+          "use": "南京玄武、本科应届、专业含国贸及工科，英语和非派驻海外出差；岗位名不等新人管理团队。"
+        },
+        {
+          "url": "https://jwc.njau.edu.cn/__local/5/88/30/DCC15C5797F9C4D5899EE4B49AD_018EB67D_27F85.pdf?e=.pdf",
+          "title": "南农国贸旧培养方案",
+          "publication_date": null,
+          "locator": "一/二/四/五及核心/实践段",
+          "use": "历史流程训练取向，适用届别未知，不作2027训练质量证据。"
+        },
+        {
+          "url": "https://foreign.njau.edu.cn/info/1006/6013.htm",
+          "title": "南农英语系介绍",
+          "publication_date": "2022-09-26",
+          "locator": "方向与合作课程段",
+          "use": "英语有经贸复合取向，不只翻译；不保证2027可得训练。"
+        }
+      ],
+      "upstream_original_bytes_sha256": null,
+      "cannot_infer": [
+        "今日仍开放",
+        "2031职位预留",
+        "国贸或英语独占外贸",
+        "本轮新核培训质量",
+        "原岗职责包括回款"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A-P",
+      "type": "assumption_not_user_profile",
+      "statement": "愿比较可积累业务判断的空间实施与订单任务，优先本科就业并可承担必要补训；真实出差、广东实习、公管四方向与全12项接受未知，旧P0/P*不继承。"
+    },
+    {
+      "id": "A-TIME-PLACE",
+      "type": "assumption",
+      "statement": "2027入学且四年本科则2031；南京为固定条件就业市场，广东仅明确扩地区/实习阶段分支。"
+    },
+    {
+      "id": "A-U",
+      "type": "conditional_branch_not_forecast",
+      "statement": "权属/用途/资金能支持持续或独立付费的数据实施，新人任务与带教兑现；对照贸易订单/回款/新人任务较弱。"
+    },
+    {
+      "id": "A-T",
+      "type": "conditional_branch_not_forecast",
+      "statement": "更新未成付费工作或集中熟手/新人条件不接受；对照国贸有毛利回款与可接受订单协同训练。"
+    },
+    {
+      "id": "A-DEMOGRAPHY",
+      "type": "scenario_not_population_observation",
+      "statement": "家庭年龄/迁移及产业区位变化改变社区需要、空置用途和设施负荷；需经权属、资金与采购传至数据任务，没有南京人口预测或供需分母。"
+    },
+    {
+      "id": "A-ORGANIZATION",
+      "type": "scenario_not_firm_observation",
+      "statement": "平台复用/集中服务可能提高人均覆盖；有反馈的现场与数据质量/验收协同任务也可能留给新人，需实际核验。"
+    }
+  ],
+  "deductions": [
+    {
+      "id": "I-SPATIAL-PATH",
+      "type": "inference",
+      "basis": [
+        "P1",
+        "B1",
+        "J1",
+        "J2"
+      ],
+      "statement": "既有资产和设施更新可经付费数据整合/建库/交付连接土管条件路径，不等城市新建施工或公务员；政策、公司项目、招聘未核为同一合同链。"
+    },
+    {
+      "id": "I-U-PRIORITY",
+      "type": "conditional_relative_choice",
+      "basis": [
+        "A-P",
+        "A-TIME-PLACE",
+        "A-U",
+        "I-SPATIAL-PATH",
+        "F-HISTORICAL",
+        "F-REUSED-RULES"
+      ],
+      "statement": "U条件下土管支路前置国贸作职业主比较；大类不保证土管，拒绝其他公管方向则不能据此把公管招生项变成已接受。"
+    },
+    {
+      "id": "I-T-PRIORITY",
+      "type": "conditional_relative_choice",
+      "basis": [
+        "A-P",
+        "A-TIME-PLACE",
+        "A-T",
+        "F-REUSED-TRADE"
+      ],
+      "statement": "T条件下国贸前置上述土管支路；国贸/英语按实际流程和语言/订单训练再比较，不继承旧偏好。"
+    },
+    {
+      "id": "I-JOINT-STATE",
+      "type": "conditional_relative_choice",
+      "basis": [
+        "A-P",
+        "A-U",
+        "A-T"
+      ],
+      "statement": "两边均兑现不强排，两边均弱可暂无确认主方案；某一路成立本身不赋予对另一扎实路径的优先。"
+    },
+    {
+      "id": "I-CLOCK",
+      "type": "inference",
+      "basis": [
+        "P1",
+        "A-TIME-PLACE",
+        "A-ORGANIZATION"
+      ],
+      "statement": "2031晚于2030目标、2037晚于2035目标；完成后数据更新/运维可持续也可被原团队吸收，未完成亦需资金与付费，不延长2026招聘为2031名额。"
+    },
+    {
+      "id": "I-POPULATION",
+      "type": "inference",
+      "basis": [
+        "A-DEMOGRAPHY",
+        "P1",
+        "R8"
+      ],
+      "statement": "人口经空间用途/数据更新、税基/收益和支付约束影响任务，不从人口少推出GIS少、竞争少或退休必补。"
+    },
+    {
+      "id": "I-RISK",
+      "type": "inference",
+      "basis": [
+        "B1",
+        "R3",
+        "R9",
+        "A-DEMOGRAPHY"
+      ],
+      "statement": "公共更新与出口付款渠道不同才可能条件分散；经营/税基/教育及设施预算冲击可以共振，换专业不等天然对冲。"
+    },
+    {
+      "id": "I-TRAINING",
+      "type": "inference_not_curriculum_fact",
+      "basis": [
+        "J1",
+        "J2",
+        "F-REUSED-RULES",
+        "F-REUSED-TRADE"
+      ],
+      "statement": "土管路径需空间数据/工具/交付能力和雇主专业认可，国贸需语言产品订单能力；分流、训练和接受应在报考前计成本，不能待已分流才掩盖风险。"
+    },
+    {
+      "id": "I-2037",
+      "type": "conditional_inference",
+      "basis": [
+        "I-SPATIAL-PATH",
+        "F-REUSED-TRADE",
+        "A-TIME-PLACE"
+      ],
+      "statement": "实际项目、数据质量、业务交付或产品订单经验可作迁移依据；新雇主/资格接收另核，不保证连续六年、考公、读研或自动晋升。"
+    }
+  ],
+  "remaining_decision_gaps": [
+    "真实位次/年份资格与个人全组接受",
+    "公管四方向接受及必要分流/训练可得性",
+    "南京城市分配、合同/发薪主体、持续付费任务与带教",
+    "贸易回款和新人分工的相对兑现",
+    "2031/2037届时雇主与资格规则"
+  ],
+  "review_state": "Author self-check and frozen artifacts only; independent review and publishing belong to subsequent separate runs."
+}

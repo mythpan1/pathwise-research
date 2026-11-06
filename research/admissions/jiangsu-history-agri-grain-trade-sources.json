@@ -1,0 +1,319 @@
+{
+  "schema": "bounded-career-choice-source-index/v1",
+  "research_date": "2026-11-03",
+  "baseline_commit": "6d1361fe68c0de0c8dfb3488ecd7efd03e36ff89",
+  "scope": "江苏历史类既有南农01农林经济管理＋与国际经济与贸易；2031/2037条件比较",
+  "new_sources": [
+    {
+      "id": "P1",
+      "kind": "official_policy_visible_web_text",
+      "title": "中共中央 国务院印发《加快建设农业强国规划（2024－2035年）》",
+      "url": "https://www.mee.gov.cn/zcwj/zyygwj/202504/t20250407_1106860.shtml",
+      "issuing_authorities": [
+        "中共中央",
+        "国务院"
+      ],
+      "hosting_republisher": "生态环境部",
+      "host_declared_source": "中国政府网",
+      "republication_date": "2025-04-07",
+      "signature_date": null,
+      "exact_issue_date_gap": "正文只称近日印发，不以转载日补签发日",
+      "document_number": null,
+      "period": {
+        "start": 2024,
+        "end": 2035,
+        "basis": "title explicit"
+      },
+      "outlook_or_milestones": [
+        2027,
+        2035,
+        "本世纪中叶"
+      ],
+      "visible_body_sha256": "926dfd8f106b06e4c43c0913481132fe89c4329d3f85aad29cb6a27e0b52901e",
+      "hash_scope": "Saved line-numbered visible webpage body, not original HTML or response bytes",
+      "retrieval_limits": {
+        "raw_html_obtained": false,
+        "http_headers_obtained": false,
+        "abridged": false,
+        "images_or_omitted_text_verified": false
+      },
+      "locators_and_supported_claims": [
+        {
+          "id": "P1-F1",
+          "locator": "总体要求；L16",
+          "summary": "2027、2035与本世纪中叶分阶段目标，非2037结果"
+        },
+        {
+          "id": "P1-F2",
+          "locator": "二（二）—（四）；L22—25",
+          "summary": "产能、生产收益支持与粮食购销储备治理"
+        },
+        {
+          "id": "P1-F3",
+          "locator": "三（九）；L36；四（十二）（十三）；L44—46",
+          "summary": "规模化农场数字化、经营主体产后业务与社会化服务"
+        },
+        {
+          "id": "P1-F4",
+          "locator": "五（十四）；L51；六（十九）；L63",
+          "summary": "加工流通物流与农业外贸、服务贸易部署"
+        },
+        {
+          "id": "P1-F5",
+          "locator": "八（二十三）（二十四）；L75—76",
+          "summary": "县域产业与跨区域就业服务、农业转移人口市民化安排"
+        }
+      ],
+      "limits": [
+        "精确签发日与文号",
+        "政策实际投入及地方执行结果",
+        "本科新人岗位数量、专业认可、地点、报酬",
+        "2037政策与劳动力净变动"
+      ]
+    },
+    {
+      "id": "P2",
+      "kind": "official_policy_visible_web_text",
+      "title": "国务院关于印发《加快农业农村现代化 “十五五”规划》的通知",
+      "url": "https://jdjcs.moa.gov.cn/zcwj/202609/t20260917_6487744.htm",
+      "issuing_authorities": [
+        "国务院"
+      ],
+      "hosting_republisher": "农业农村部监督检查司",
+      "host_declared_source": "国务院公报",
+      "republication_date": "2026-09-17",
+      "signature_date": "2026-05-26",
+      "exact_issue_date_gap": null,
+      "document_number": "国发〔2026〕14号",
+      "period": {
+        "label": "十五五",
+        "start": 2026,
+        "start_basis": "standard mapping of 十五五; numeric start not separately specified in visible body",
+        "end": 2030,
+        "end_basis": "explicit terminal target at L54"
+      },
+      "outlook_or_milestones": 2035,
+      "visible_body_sha256": "f2fb22e32acc90728ae2949c20c17f49ac80abbc8b290a0b62b29186c7264b99",
+      "hash_scope": "Saved line-numbered visible webpage body, not original HTML or response bytes",
+      "retrieval_limits": {
+        "raw_html_obtained": false,
+        "http_headers_obtained": false,
+        "abridged": true,
+        "images_or_omitted_text_verified": false
+      },
+      "locators_and_supported_claims": [
+        {
+          "id": "P2-F1",
+          "locator": "二（一）（六）；L61、69",
+          "summary": "粮食购销储备与流通提效、进口多元化和农业服务贸易"
+        },
+        {
+          "id": "P2-F2",
+          "locator": "八（二十九）（三十）；L127—128",
+          "summary": "适度规模经营、土地流转管理和经营服务体系"
+        },
+        {
+          "id": "P2-F3",
+          "locator": "五（十七）（十九）；L98、101；七（二十三）；L115",
+          "summary": "转移劳动者技能培训、市民化及随人口结构变化调整村镇布局"
+        }
+      ],
+      "limits": [
+        "删减内容及图片表格数据",
+        "未删减原公报附件与首次公开发布时间",
+        "政策执行结果及2031/2037就业净效应",
+        "具体专业、本科层次和总部岗位的准入优势"
+      ]
+    },
+    {
+      "id": "SN-2027-GZHU-SWUXSW2",
+      "kind": "employer_recruitment_hosted_by_university",
+      "title": "神农集团2027届校园招聘简章",
+      "url": "https://jy.gzhu.edu.cn/web/index/jobs-brief-detail?id=SWUXSW2",
+      "employer_as_written": "神农集团",
+      "legal_signing_entity": null,
+      "carrier": "广州大学就业网",
+      "publication_date": "2026-09-15",
+      "graduation_cohort": 2027,
+      "page_html_sha256": "de9ee18c0b50dfd1ae48124968937942baf879546a76459d1bf8d88661a171f3",
+      "table_html_sha256": "eadad16ce4622fd241ac0e2740ed171d01068edd6462279d10bc65b8d6124f6b",
+      "locator": "三、招聘计划；第1行为表头，第2/3及20/21行",
+      "facts": [
+        {
+          "roles": "养殖生产猪厂岗／养殖生产代养岗",
+          "major_gate": "农林经济管理类与动物科学类、动物医学类、生物科学类并列",
+          "degree": "本科及以上",
+          "location": "云南/广西/广东",
+          "table_rows": [
+            2,
+            3
+          ],
+          "rowspan_checked": true
+        },
+        {
+          "role": "总部采购岗",
+          "major_gate": "物流管理与工程类/工商管理类/经济学类",
+          "degree": "硕士及以上",
+          "location": "云南",
+          "table_row": 20,
+          "rowspan_checked": true
+        },
+        {
+          "role": "总部卓越运营岗",
+          "degree": "硕士及以上",
+          "location": "云南",
+          "table_row": 21,
+          "rowspan_checked": true
+        }
+      ],
+      "limits": [
+        "未列逐岗职责；不补造管理、采购或场长任务。",
+        "未给具体城市、厂址、出差轮岗；总部不等城市办公室。",
+        "本科生产条件不可移入总部；经济学类不扩成全部经济门类。",
+        "具体签约主体、实际录用、未来持续招聘和工资预算未核。"
+      ]
+    },
+    {
+      "id": "GRAIN-NW",
+      "kind": "employer_recruitment_hosted_by_university",
+      "title": "河南正大农业有限公司宣讲会",
+      "url": "https://nxy.nwsuaf.edu.cn/pub/nxy/jyzd/jyxx/7b0f8c005b184292835b51892f781c8d.htm",
+      "carrier": "西北农林科技大学农学院",
+      "announced_entity": "河南正大农业有限公司",
+      "publication_date": "2026-03-25",
+      "cohort_note": "正文无明确届别；粮贸为应届生优先，不等于2026届限定",
+      "html_sha256": "3d27a1e771c7660ca4e4585bf2742092532ca12e5c819877a5ad5f1cc4aa2fe5",
+      "normalized_text_sha256": "79e0ed860466b7d5b7c3ba5f5890eff01c6108dabf4f2c51813f23344986d0c5",
+      "locator": "招聘岗位／四",
+      "normalized_lines": "L0119-L0132",
+      "line_number_scope": "Local normalized text, not stable website anchors",
+      "role": {
+        "title": "粮贸管培生",
+        "degree": "本科及以上",
+        "majors_exact": "农业经济管理、经济与贸易类、金融学类等",
+        "location_exact": "全国（内蒙古、陕西、甘肃等17省区）",
+        "duties_summary": "原粮采买、运输、出售，上下游客户经营与行情研究",
+        "requirements_summary": "应届生/党员/学生干部优先；粮食市场物流知识；长期出差，自有车辆优先"
+      },
+      "limits": [
+        "只列原粮/粮食，不扩为油脂进口执行、全部粮种或饲料成品。",
+        "全国不等南京；单位地址、宣讲学校不等该岗实际地点。",
+        "不证明实际利润、回款、录用、当下空缺或2031/2037招聘。",
+        "未逐字列两个目标专业；不从天府复制专业全称或回款/驾驶条款。",
+        "五、物流专员是吉林长春德惠、物流管理/交通运输等专业、驻场，不能给两目标专业自动认可。",
+        "三、数字农艺师为硕士及以上，不是农经本科数字管理岗。"
+      ],
+      "embedded_recruitment_title": "正大农业有限公司招聘简章"
+    },
+    {
+      "id": "GRAIN-TF",
+      "kind": "employer_recruitment_hosted_by_university",
+      "title": "正大农业有限公司",
+      "url": "https://jy.tfswufe.edu.cn/home/index/employDetail/mcit/MDAwMDAwMDAwMJG6n3_Ed6imi4qQsMOen5iKutS2spzRoslkzdGLeKKvjqaBh8WefduOpIyww6Bs1ZC6mdOzhtGnsnOeow.html",
+      "carrier": "西南财经大学天府学院就业系统",
+      "announced_entity": "正大农业有限公司",
+      "publication_date": null,
+      "cohort_note": "粮贸管培生未明届别；相邻基地岗2024/2025届不可移入",
+      "html_sha256": "5d3393e7334f4af36a61f7b40ee5c077e4734b20f441c39307ff0ed0adb62af9",
+      "normalized_text_sha256": "2e1e40f2102674056f35a8d536aad4e96113c4a727344ae25c4cc59b65c739ea",
+      "locator": "岗位介绍／一",
+      "normalized_lines": "L0055-L0071",
+      "line_number_scope": "Local normalized text, not stable website anchors",
+      "role": {
+        "title": "粮贸管培生",
+        "degree": "本科及以上；应届本科生/研究生",
+        "majors_exact": "农业经济管理类/农林经济管理/国际经济与贸易/工商管理类/经济学类/金融学/市场营销/农学类",
+        "location_exact": "全国",
+        "duties_summary": "原粮采购物流销售、谈判合同履约运营回款、客户与价格研究",
+        "requirements_summary": "粮食检验储藏运输、国内外供需政策、结算风险和利润核算、谈判及数据分析；长期出差并熟练驾驶，自有小汽车优先"
+      },
+      "limits": [
+        "只列原粮/粮食，不扩为油脂进口执行、全部粮种或饲料成品。",
+        "全国不等南京；单位地址、宣讲学校不等该岗实际地点。",
+        "不证明实际利润、回款、录用、当下空缺或2031/2037招聘。",
+        "发布日期未知；动态侧栏及相邻基地岗届别不可替代。",
+        "二、粮贸储备干部仅收应届研究生；不能与本科管培合并。",
+        "三、基地综合岗为山西朔州，玉米收储称量报表；未逐字列两目标专业，不作为已核共享备选。"
+      ]
+    }
+  ],
+  "same_business_source_boundary": {
+    "same_business_family": "两页自述均属正大种植/农业粮贸体系",
+    "same_legal_entity": "未确认；西农宣讲单位是河南正大农业有限公司，内嵌简章及天府单位为正大农业有限公司",
+    "same_cohort_or_reprint": "未确认；天府无发布日期，岗位组合/薪酬/专业字段不同",
+    "independent_sample_handling": "不作为两家独立雇主或两条独立市场需求样本",
+    "merge_prohibition": "不要把西农2026发布日期、天府专业全称、任一页地点与另一页薪酬/要求拼为同一职位"
+  },
+  "reused_repository_sources": [
+    {
+      "id": "BASE-ADMISSIONS",
+      "repo_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "6d1361fe68c0de0c8dfb3488ecd7efd03e36ff89",
+      "sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "git_blob_sha": "4cc6769702b08ed61db73b0453ad9aba04fcd3be",
+      "hash_note": "SHA256 is file content digest; Git blob SHA is a distinct 40-hex identifier",
+      "reuse_scope": "2025南农01组、12显示成员与历史规则参照",
+      "new_original_verification": false
+    },
+    {
+      "id": "BASE-TRADE",
+      "repo_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "commit": "6d1361fe68c0de0c8dfb3488ecd7efd03e36ff89",
+      "sha256": "83cf8d15f1934359aea0048014d48786d0d4e36a370f46009b3f6d4034fc30fa",
+      "git_blob_sha": "93aba5680d7e4f8ebd70a3547428a1585ce6912e",
+      "hash_note": "SHA256 is file content digest; Git blob SHA is a distinct 40-hex identifier",
+      "reuse_scope": "苏美达轻纺/机电本科入口及国贸旧培养取向；本轮未重取原网站",
+      "new_original_verification": false
+    }
+  ],
+  "source_freeze": {
+    "sha256": "b082b907fa4a778a6e83dd8844e1e93e4ad970f06b3c1b968db451013468b33f",
+    "description": "Coordinator-fixed seven-input manifest, retained locally"
+  },
+  "claim_map": [
+    {
+      "report_section": "政策究竟改变什么",
+      "sources": [
+        "P1",
+        "P2"
+      ],
+      "claim_type": "source facts plus explicitly marked inference"
+    },
+    {
+      "report_section": "原岗把专业、学历、地点和工作内容拆开",
+      "sources": [
+        "SN-2027-GZHU-SWUXSW2",
+        "GRAIN-TF",
+        "GRAIN-NW"
+      ],
+      "claim_type": "historical advertised entry requirements; not realized employment"
+    },
+    {
+      "report_section": "同一组内，目标机会与职业偏好分账",
+      "sources": [
+        "BASE-ADMISSIONS",
+        "BASE-TRADE"
+      ],
+      "claim_type": "reused non-officially-rechecked historical compilation; arithmetic independently checked"
+    },
+    {
+      "report_section": "从谁付款到谁招本科；情景A/B/C及共同风险",
+      "sources": [
+        "P1",
+        "P2",
+        "SN-2027-GZHU-SWUXSW2",
+        "GRAIN-TF",
+        "GRAIN-NW",
+        "BASE-TRADE"
+      ],
+      "claim_type": "conditional synthesis, not verified future profits, demand or training advantage"
+    }
+  ],
+  "privacy": "Originals, full text, contacts, headers, complete tool returns and internal logs remain local; this index contains source identity, limited facts and content hashes only.",
+  "unknowns": [
+    "本人分数位次、全组接受、工作地区/任务/长期出差与费用接受未知。",
+    "未核2027规则、正式组和招生计划；未读CSV或采集2026录取。",
+    "未核农经/国贸实际届别相对训练和补训成本，不凭证据多少排序。",
+    "未核企业实际合同/回款/利润及未来岗位预算。"
+  ]
+}

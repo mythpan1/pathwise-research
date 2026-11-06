@@ -1,0 +1,267 @@
+{
+  "title": "外需重组下三类可支付任务与既有历史类候选",
+  "research_date_utc": "2026-11-03",
+  "base_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+  "report_repository_path": "research/admissions/jiangsu-history-export-overseas-domestic.md",
+  "scope": {
+    "population": "江苏历史类，拟2027本科；6527仅历史研究尺",
+    "candidate_scope": "四旧组/17显示成员：南农01十二项、扬大07法学一项、南财03两项、天津工业旧01两项；不重复累计旧集合",
+    "horizon": "若实际四年则2031入口，2037条件观察，不假连续就业六年/硕士/经理",
+    "geography": "江苏生源；南京/天津就读与南京原岗、盐城原岗分账；海外当地本科原岗未取得"
+  },
+  "evidence_handling": "新源为已冻结官方网页全文读取或下载原件，作者读关键原文并校验留档哈希。原件、完整提取及内部日志不随本索引上传；controlled_pointer仅为授权审阅定位。哈希证明留档字节，不证明工具返回以外网页内容。",
+  "new_sources": [
+    {
+      "id": "N1",
+      "title": "国务院新闻办就2025年全年进出口情况举行发布会",
+      "publisher": "海关总署发布，中国政府网承载国务院新闻办转录",
+      "url": "https://www.gov.cn/lianbo/fabu/202601/content_7054752.htm",
+      "published_at": "2026-01-14 19:06",
+      "event_at": "2026-01-14 10:00",
+      "statistical_period": "2025全年",
+      "units": [
+        "人民币万亿元",
+        "同比百分比",
+        "份额百分比"
+      ],
+      "locator": "完整网页读取文本251行；L25出口总值；L57装备制造业产品；L73中间品/共建国家出口/东盟出口市场；L101前十大贸易伙伴进出口份额",
+      "controlled_evidence": [
+        {
+          "pointer": "structure/customs_2025_full_exa_read.json",
+          "kind": "网页完整读取工具响应，非下载HTML",
+          "sha256": "3519865de9c3139fa2146056fec5ed7a229fcca1c786873b7d3baca93e6d815a"
+        },
+        {
+          "pointer": "structure/customs_2025_full_exa_read_numbered.txt",
+          "kind": "对应原文提取及连续行号",
+          "sha256": "a647d51b4f66ca19ab2bc732a5c8342d5316256f4bf13d26223780f358862d12"
+        }
+      ],
+      "facts_used": "2025出口26.99万亿元、增长6.1%；装备制造业产品出口16.03万亿元、占59.4%；中间品贸易拉动出口；共建国家出口增长11.2%；东盟连续三年为第一大出口市场。47.7%分母是我国外贸进出口总值，不是出口。",
+      "limits": "不证明企业毛利、回款、用工、语言需求或2031/2037走势。境外设厂可能带动中间品出口为条件推导，未量化净效应。"
+    },
+    {
+      "id": "N2",
+      "title": "商务部、国家统计局和国家外汇局联合发布《2025年度中国对外直接投资统计公报》",
+      "publisher": "商务部、国家统计局、国家外汇管理局",
+      "url": "https://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/tjsj/gwjjhztj/art/2026/art_c017622612144a2d98929ab8e4cd6ace.html",
+      "published_at": "2026-09-23",
+      "statistical_period": "2025全年流量；2025年末存量、企业及员工",
+      "units": [
+        "亿美元",
+        "万亿美元",
+        "万家",
+        "万人"
+      ],
+      "locator": "完整年度原发布网页17行，非公报PDF全文；L11流量/存量/行业；L13境外企业和员工",
+      "controlled_evidence": [
+        {
+          "pointer": "structure/odi_2025_full_release_exa_read.json",
+          "kind": "完整官方发布网页读取工具响应",
+          "sha256": "7860a79a0d1df3233063f048d0b7e55b151edf52011d3b5f932af7e4e3728c08"
+        },
+        {
+          "pointer": "structure/odi_2025_full_release_exa_read_numbered.txt",
+          "kind": "对应原文提取及连续行号",
+          "sha256": "0c67155bc0b189222df30343724fdd1906f67df174ed03e5d2dae3be8a69be5d"
+        }
+      ],
+      "facts_used": "2025对外直接投资流量2135.8亿美元，年末存量约3.4万亿美元；覆盖金融等行业。境外企业5.8万家、员工476.1万人，其中原称外方员工296.5万人。",
+      "limits": "金额不是销售或出口；员工为年末总量，无新增、学历、国籍细分或招聘来源。外方不替换为全为当地国籍，余数不推中国本科招聘。公报PDF未取得，未读细表/定义，不采用未读分项；1月简明统计不与年度公报拼趋势或解释差额。"
+    },
+    {
+      "id": "N3",
+      "title": "关于进一步完善海外综合服务体系的指导意见",
+      "publisher": "商务部、外交部、国家发展改革委、工业和信息化部、国务院国资委",
+      "url": "https://www.mofcom.gov.cn/bnjg/art/2025/art_77d8a2c2703245628ed47cbfb7609a6c.html",
+      "issued_at": "2025-10-14",
+      "published_at": "2025-10-17 20:04",
+      "statistical_period": null,
+      "units": null,
+      "locator": "第（一）至（五）项公共/地方服务；（七）落地与营销网络；（十一）专业机构服务；（十三）资格对接；（十四）至（十六）人才/属地化/合规",
+      "controlled_evidence": [
+        {
+          "pointer": "policy/2025_overseas_services.html",
+          "kind": "官方HTML原始字节",
+          "sha256": "c2112017d9949cda995fa84b8c478b23c7b49f766190f97c3949c131dee7a333"
+        },
+        {
+          "pointer": "policy/2025_overseas_services.html.txt",
+          "kind": "原HTML全文提取",
+          "sha256": "138d328fa0ccbcc235369f5e906311b773a41344ff96ae16c78c96a360d672f4"
+        }
+      ],
+      "facts_used": "政策支持法律、会计审计、评估、尽调、财税与跨境供应链等专业服务，境外落地服务和属地化经营；资格认证对接仍为探讨。",
+      "limits": "没有企业采购金额、岗位/学历或净招录证据；公共产品不全部成为付费工时，专业服务发展不等每家新招本科；不授予外国执业权和工作许可。"
+    },
+    {
+      "id": "N4",
+      "title": "关于印发《企业境外经营合规管理指引》的通知及附件（发改外资〔2018〕1916号）",
+      "publisher": "国家发展改革委、外交部、商务部、人民银行、国资委、外汇局、全国工商联",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/t20181229_962358.html",
+      "attachment_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201812/W020190905514236483349.pdf",
+      "issued_at": "2018-12-26",
+      "published_at": "2018-12-29",
+      "statistical_period": null,
+      "units": null,
+      "locator": "通知供企业参考；附件12页：第二条p1；第六条p2；第九条p3；第十一条p4—5；第十五条p7—8；第十九条p9；第二十三条p10；第二十七条p11",
+      "controlled_evidence": [
+        {
+          "pointer": "policy/2018_compliance_notice.html",
+          "kind": "官方通知HTML原始字节",
+          "sha256": "bf48f334f43c7c3f0ae43d73dbf07cbb07fce24f1f53ee4e2d5ec32095d6cf1d"
+        },
+        {
+          "pointer": "policy/2018_compliance_guideline.pdf",
+          "kind": "官方附件原始PDF",
+          "sha256": "5630db56151bc78cd7358e5d1248541a3af94de0f4565a7750bd72cd3f4a8b25"
+        },
+        {
+          "pointer": "policy/2018_compliance_guideline.txt",
+          "kind": "12页完整文字提取",
+          "sha256": "34351711d643b0377c545a7b4d54b2c561b8dd348d6ec047bef691a7a533bdeb"
+        }
+      ],
+      "facts_used": "区分对外贸易与境外日常经营对象；允许已有法律事务/风险部门、现有流程和外部专业机构承担相应工作。",
+      "limits": "参考指引不改写成所有企业统一法定义务或强制采购；不证明独立新增岗位或本科负责复杂境外法律判断，具体目的地准入未核。"
+    }
+  ],
+  "reused_cards": [
+    {
+      "id": "B1",
+      "repository_path": "research/admissions/jiangsu-history-nanjing-yancheng-choices.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "516c592b06ef5718277a491ebfb727e829a3ab8c",
+      "controlled_pointer": "base/jiangsu-history-nanjing-yancheng-choices.md",
+      "local_sha256": "e6f7b81bfa1dec36b901a8b38594bf62e88c2ccf2dcb06f22b929575569e3e93",
+      "bytes": 14698,
+      "facts_reused": "只复用南京审计/估值与盐城企业财务的原岗位对象和条件；不扩展教师、城市或人口研究。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    },
+    {
+      "id": "B2",
+      "repository_path": "research/admissions/jiangsu-history-6527-decision-slice.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "db3285278c9a81a18394b30d698c50b17e989a16",
+      "controlled_pointer": "base/jiangsu-history-6527-decision-slice.md",
+      "local_sha256": "c4cbafca2979235bde37e64e8b7b85618fa4a9b44e9c9762991116c0af541791",
+      "bytes": 18686,
+      "facts_reused": "固定候选组/目标位次、南京天华院法务及中汇审计/估值入口；不继承P*或旧5组/17成员计数。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    },
+    {
+      "id": "B3",
+      "repository_path": "research/admissions/jiangsu-history-joint-accounting-choice.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "a1b93acf6a7ad690848787346db4a90273aa2afe",
+      "controlled_pointer": "base/jiangsu-history-joint-accounting-choice.md",
+      "local_sha256": "a2ab1d846d676c997bd9624ff35fb1814171fd51c320b48b832327b540dce854",
+      "bytes": 20772,
+      "facts_reused": "南财ISCA非ACCA、天衡导师已聘但不保录、普通会计进入主比较、2025纯学费条件账及未核费用/英语/考试/推荐边界；复用中汇和盐城通威桥。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    },
+    {
+      "id": "B4",
+      "repository_path": "research/admissions/jiangsu-history-tiangong-buffer.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "aa62c7efa9ef8bc689842ec638f9c2dba7bd29cc",
+      "controlled_pointer": "base/jiangsu-history-tiangong-buffer.md",
+      "local_sha256": "1db589289968598d473f4606bd443c4ba8267a5d0ae507287dc8f3cef1c104da",
+      "bytes": 11092,
+      "facts_reused": "天津工业旧01会计/金融8400、资格/公共英语和正常学费边界；不继承P*、不把后位当保底。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    },
+    {
+      "id": "B5",
+      "repository_path": "research/admissions/jiangsu-2025-history-law-accounting-pair.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "70589867b1abe769c11cc651c3de7e120e923af1",
+      "controlled_pointer": "base/jiangsu-2025-history-law-accounting-pair.md",
+      "local_sha256": "41b61afda607ffb9ff5249ef1bffdb12298e6f155e9ba276dfbebf474858b88b",
+      "bytes": 25014,
+      "facts_reused": "扬大07法学及既有法考学历路径、法律资格/律师执业/任职分账；不重核整套法律资格或继承旧P0。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    },
+    {
+      "id": "B6",
+      "repository_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "fixed_ref": "8344bda5bd55460924a9841dd2cb251e388a8087",
+      "git_blob": "a141c5b764b455122968259b514e4c61ceaa8131",
+      "controlled_pointer": "base/jiangsu-history-trade-english-order.md",
+      "local_sha256": "f66c983fb65783155aad39edc5fadda29e5b036a112180ae9594d76df2605caf",
+      "bytes": 13946,
+      "facts_reused": "南农01全12成员边界、两目标同6527、招生语种、国贸/英语内部排序、两条苏美达本科桥及工作语言/非派驻海外出差边界。",
+      "verification": "作者读固定旧卡及相关增补；未重新取得其外部招聘、招生、资格或项目原件。SHA256为本地留档字节；Git blob为协调者固定ref连接器记录。"
+    }
+  ],
+  "claim_map": [
+    {
+      "report_section": "新证据改变的是业务对象与承接组织",
+      "source_ids": [
+        "N1",
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "type": "新核事实及明确条件推导"
+    },
+    {
+      "report_section": "固定候选与已有本科桥",
+      "source_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ],
+      "type": "已采用旧卡复用，未重核外部原件"
+    },
+    {
+      "report_section": "三类任务、E0基准及L/A/F反转",
+      "source_ids": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "B2",
+        "B3",
+        "B6"
+      ],
+      "type": "作者条件推导，不是已测2031/2037岗位或个人偏好"
+    },
+    {
+      "report_section": "共同客户风险、组织集中、2037经验迁移",
+      "source_ids": [
+        "N3",
+        "N4",
+        "B2",
+        "B3",
+        "B6"
+      ],
+      "type": "机制假设/反例；无规模、概率、相关性估计"
+    }
+  ],
+  "assumptions": [
+    "P为新设研究条件：三任务均愿考虑、重本科有薪且可积累业务判断，不继承旧P0/P*。",
+    "E0假设出口利润与回款支持本科协同及带教，而法律财税主要由成熟部门/外包承接，其本科新人分工不兑现；并非未来已确认事实。",
+    "L/A/F分别要求可付费、具体本科新人分工和个人接受兑现；这些先支持进入主比较，相对前置还要求所比较路线的新人分工或带教更窄、不兑现。增长不是必需，持续或替补也可成立。",
+    "海外设厂与中间品出口可互补；未量化替代/带动效应。",
+    "真正分散要求客户收入、信用及付款来源较独立；不同专业或城市不充分。"
+  ],
+  "not_obtained": [
+    "2025对外投资公报PDF全文及其分项/定义；1月简明统计与年度值差异说明。",
+    "真正海外当地的已核本科招聘、雇主接收、工作语言、用工/工作许可及适用执业权限。",
+    "2031/2037利润、回款、预算、新人数量与分工、实际训练兑现及毕业生竞争分母。",
+    "真实考生位次/预算/资格、四组所有可能去向的个人接受与目标年正式规则。",
+    "ISCA决定性英文/考试/推荐现行原件，天衡个人实践名额、完整收费与退出义务；沿旧卡未知不补值。"
+  ],
+  "excluded": "不采暂停2026录取、不读改旧CSV/名单，不新增学校、城市、招聘或资格研究；不采用中间摘要、检索片段分项及未读PDF。",
+  "provenance": {
+    "author_role": "独立于收集者的研究作者；自检不是独审",
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "ultra",
+    "actual_model": "unknown",
+    "actual_reasoning": "unknown"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "bounded-primary-source-index-v1",
+  "task_ref": "Issue #41 / BV1QteG63ERv",
+  "scope": "China organizational office workflows, 2026–2036 vocational/education questions; fifth video only",
+  "source_access_date": "2026-10-24",
+  "author_local_read_date": "2026-10-24",
+  "video_access": {
+    "url": "https://www.bilibili.com/video/BV1QteG63ERv/",
+    "published_date": "2026-09-17",
+    "time_of_day": null,
+    "timezone": null,
+    "actual_parent_read_date": null,
+    "mode": "Parent cloud reader sampled AI subtitles about every five seconds 00:16–06:34, with key frames and replacement stable frames after buffering; author did not view video. Not complete audio or verbatim transcript.",
+    "comments": "About 20 default top-level comments and a few automatically expanded replies; anonymous question leads only.",
+    "date_limit": "Receipt/analysis date does not substitute for original video-reading date.",
+    "video_only_claims": "Document @Agent, browser invocation and visible execution remain sampled video/key-frame claims; warehouse-to-shipping is a scenario without complete acceptance evidence.",
+    "sponsorship": "Unverified; positive on-site coverage and unrelated platform advertising do not establish sponsorship."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "飞书",
+      "title": "豆包工作和飞书如何协同？团队上下文、权限与成果流转",
+      "url": "https://www.feishu.cn/content/article/7680040528708111652",
+      "accessed_date": "2026-10-24",
+      "published_date": null,
+      "updated_date": null,
+      "source_kind": "vendor_product_explanation",
+      "scope": "Current webpage; Doubao Work and Feishu collaboration",
+      "locator": "L19–31; L34–57; L83–104; L139–166",
+      "summary": "厂商描述工作资产上下文、本人对象权限、工具调用和成果回流，经团队确认再沉淀知识。",
+      "limits": "无历史固定快照；未独立验证效果或安全；验收点是厂商建议。",
+      "window_sha256": "6adfac0e0464b5ed5b5e0ee8d113d2218cf026237c32122ced3e1e03a3804f69",
+      "hash_scope": "Preserved tool-visible original-text window; not whole webpage content. Full text retained locally."
+    },
+    {
+      "id": "S02",
+      "publisher": "飞书",
+      "title": "飞书CLI 教程：如何在 AI Agent 中用一句话创建飞书云文档、管理知识库？",
+      "url": "https://www.feishu.cn/content/article/7644418854143315157",
+      "accessed_date": "2026-10-24",
+      "published_date_display": "2026-5-27",
+      "updated_date": null,
+      "source_kind": "officially_edited_community_practice_tutorial",
+      "scope": "External Agent via Feishu CLI; a different invocation path from Doubao Work",
+      "locator": "L23–31; L45–62; L127–188; L374–425; L595–631",
+      "summary": "官方整理教程示例CLI创建/搜索/更新文档、按评论修订、返回链接和授权范围报错。",
+      "limits": "不证明豆包工作Agent具同项功能；当前正文不能固定为视频期原貌；未实际安装或执行。",
+      "window_sha256": "7ec7b118cb846f62d3fe4929aedad83b90f0be2fcff066b9f58114706ed42816",
+      "hash_scope": "Preserved tool-visible original-text window; not whole webpage content. Full text retained locally."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/282796994123-%E5%9C%A8%E9%A3%9E%E4%B9%A6%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%B1%86%E5%8C%85%E5%B7%A5%E4%BD%9C",
+      "result": "web original response Total lines 0; search extract not adopted"
+    }
+  ],
+  "method_limit": "Current vendor descriptions and a separate CLI tutorial support selected task/interface nodes. No historical 2026-09-17 snapshot, product execution, independent safety/effectiveness test, maintenance-cost sample or verified hiring result. Two chains and training examples are author conditional reasoning.",
+  "author_new_external_calls": 0,
+  "local_retention": "Full original windows, tool returns, BASIS and internal working logs remain local; this index contains selected public metadata, summaries, locators and hashes only."
+}

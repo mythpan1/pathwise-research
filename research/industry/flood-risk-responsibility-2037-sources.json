@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "title": "洪涝风险与责任分担来源索引",
+  "research_date": "2026-11-05",
+  "baseline_commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+  "scope": "江苏本科候选的条件比较；2027入学、四年则2031、2037观察为研究假设。",
+  "source_standard": "Search用于发现线索；采用事实均读原单位/正式文件转载的已保存文本表示。未保存源站HTML或PDF字节，不把工具转换称作原始字节。旧卡复用单独标记。",
+  "sources": [
+    {
+      "id": "P02",
+      "collector_source_id": "P02",
+      "title": "江苏省适应气候变化行动方案及印发通知",
+      "publisher": "江苏省生态环境厅等16部门",
+      "document_date": "2024-03-13",
+      "publication_date": "2024-03-18",
+      "url": "https://sthjt.jiangsu.gov.cn/art/2024/3/18/art_83592_11179671.html",
+      "locator": [
+        "通知依据与落款",
+        "PDF一（一）",
+        "PDF三（二）3",
+        "PDF三（四）1—2",
+        "PDF三（五）1"
+      ],
+      "representation": "Official notice HTML converted text plus linked PDF continuous extracted text, without reliable page mapping or original PDF bytes.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "人口城镇密集及强降水趋势的政策背景",
+        "防洪排涝标准、空间与运行多工具并行",
+        "标准内降水边界"
+      ],
+      "limitations": [
+        "不提供某城2037损失预测或岗位数",
+        "未来变化属于方案判断，不是观测结果",
+        "正文只使用章节定位，不编页码"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "P02-E01",
+          "sha256": "3a221c81b547fecdc5e256828cdec9842ef5ae999eba29a6aa65e1ce3cd843e1",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "P02-E02",
+          "sha256": "b121fe1b9ce698a2b2edade12271a780c841e5571f480256837e43a1f53c10b5",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "P02-E03",
+          "sha256": "42e0ac7510005dad0c383d3cb53a6706aa7d0c27973fe1087fd15942a3c3cdb3",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ],
+      "attachment_url": "https://sthjt.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=5c1031fe9c9f4906b85053db53082295.pdf"
+    },
+    {
+      "id": "C01",
+      "collector_source_id": "C01",
+      "title": "吴中区西塘河枢纽运行管理和维修保养：采购、成交与合同公告",
+      "publisher": "苏州市政府采购／苏州市财政局",
+      "document_date": "2023-03-18",
+      "publication_date": "2023-03-20",
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/02943bc990564e09be1c034a39dcb466.shtml",
+      "locator": [
+        "合同公告五—七",
+        "2023-03-13成交公告第四项",
+        "2023-02-27采购需求：服务范围、人员要求、项目管理",
+        "2023-03-01工资条款更正"
+      ],
+      "representation": "Official aggregate HTML converted text. Signed contract PDF NOT obtained. Procurement requirements and contract notice are separately identified.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "203.6万元；一年来自成交公告；合同主体与日期",
+        "非运行期巡查与试运、运行按指令权限",
+        "工程师及两年以上经验要求；12/9总队伍非新增本科人数",
+        "简单维修与业主组织大故障维修分工"
+      ],
+      "limitations": [
+        "需求不冒充签署合同附件条款",
+        "拨款、实际付款、验收履行未知",
+        "人员要求并非完整应届招聘",
+        "不能将全部事故法律责任归承包商"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "C01-E01",
+          "sha256": "f3aa72c089e9bba701aff3dc3446fa8c1f5e46499fa6dfd8b20a7d5b534e388a",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "C01-E02",
+          "sha256": "72e484a7c24e638731b568e2d254e755c12276251a0015165c71f0b1a251fa58",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "C01-E03",
+          "sha256": "42e0ac7510005dad0c383d3cb53a6706aa7d0c27973fe1087fd15942a3c3cdb3",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "collector_source_id": "C02",
+      "title": "小泵小闸远控自动化项目：采购、中标与合同公告",
+      "publisher": "苏州市政府采购／苏州市财政局",
+      "document_date": "2022-12-22",
+      "publication_date": "2022-12-22",
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/3f1f952a87a84af9a81f679fc86316a2.shtml",
+      "locator": [
+        "合同SZJC2022-G-168001五—七",
+        "采购公告第一项5—6",
+        "中标清单：控制柜、UPS、传感通信、安装调试及软件完善"
+      ],
+      "representation": "Official HTML contract notice and procurement/award list converted text; signed PDF not obtained.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "318.88万元设备安装调试合同",
+        "2023-05-30前完成约定",
+        "与年度运维服务的支付对象区别"
+      ],
+      "limitations": [
+        "未核实际履约、回款、新人招聘",
+        "不是C01前期合同或同一设备链认证"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "C02-E01",
+          "sha256": "60117b1ce0c14ec9eb09af4784f71b0a15d73d2fc4ee8d03276da1584c4b288f",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "C02-E02",
+          "sha256": "1ffbbe698e4a0c92afe78c05eb0b52cbd6d8734d8d18132f937ba2bdedfe0666",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "collector_source_id": "C03",
+      "title": "2026年吴中区中心城区闸站和堤防工程运行管护合同公告",
+      "publisher": "苏州市政府采购／苏州市财政局",
+      "document_date": "2026-03-16",
+      "publication_date": "2026-03-16",
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/54ba0c920e1d4c828ed24faa6bac2dda.shtml",
+      "locator": [
+        "合同JSZC-320506-HCGC-C2026-0003001五—七"
+      ],
+      "representation": "Official HTML contract notice converted text; signed PDF not obtained.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "35座水利工程及相关设施",
+        "200万元、一年、苏州创元承接"
+      ],
+      "limitations": [
+        "不是C01续约证明",
+        "不能金额相除推薪资/人数",
+        "未核完整支付和履约"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "C03-E01",
+          "sha256": "60117b1ce0c14ec9eb09af4784f71b0a15d73d2fc4ee8d03276da1584c4b288f",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "C03-E02",
+          "sha256": "1ffbbe698e4a0c92afe78c05eb0b52cbd6d8734d8d18132f937ba2bdedfe0666",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "I01",
+      "collector_source_id": "I01",
+      "title": "关于财产保险业积极开展风险减量服务的意见，银保监办发〔2023〕7号",
+      "publisher": "中国银保监会办公厅；中国政府网转载",
+      "document_date": "2023-01-15",
+      "publication_date": "2023-02-01",
+      "url": "https://app.www.gov.cn/govdata/gov/202302/01/496660/article.html",
+      "locator": [
+        "二（三）服务内容",
+        "二（六）自组或委托",
+        "四（十四）协商一致"
+      ],
+      "representation": "Official document full-text government republication, HTML converted text; not original bytes.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "风险减量与赔付不同",
+        "技术服务可自建或委托第三方",
+        "协商明确内容形式"
+      ],
+      "limitations": [
+        "不证明江苏实际减损合同、服务收入或本科招人"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "I01-E01",
+          "sha256": "f3aa72c089e9bba701aff3dc3446fa8c1f5e46499fa6dfd8b20a7d5b534e388a",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "I01-E02",
+          "sha256": "3a221c81b547fecdc5e256828cdec9842ef5ae999eba29a6aa65e1ce3cd843e1",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "I02",
+      "collector_source_id": "I02",
+      "title": "关于扩大城乡居民住宅巨灾保险保障范围进一步完善巨灾保险制度的通知，金规〔2024〕2号",
+      "publisher": "国家金融监督管理总局、财政部；中国政府网转载",
+      "document_date": "2024-02-24",
+      "publication_date": "2024-03-28",
+      "url": "https://app.www.gov.cn/govdata/gov/202403/28/513429/article.html",
+      "locator": [
+        "正文一—三",
+        "附件一保险责任",
+        "附件二—四保险金额、赔偿与费率"
+      ],
+      "representation": "Official notice plus appended explanation in government HTML converted text.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "住宅及室内附属设施；扩展洪水暴雨等",
+        "限额、约定定损及差异化费率",
+        "原制度统一运行"
+      ],
+      "limitations": [
+        "洪水省级IV级响应与暴雨24小时50毫米为不同责任定义",
+        "不覆盖所有社会损失",
+        "不证明任何目标本科保险岗"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "I02-E01",
+          "sha256": "f3aa72c089e9bba701aff3dc3446fa8c1f5e46499fa6dfd8b20a7d5b534e388a",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        },
+        {
+          "evidence_id": "I02-E02",
+          "sha256": "3a221c81b547fecdc5e256828cdec9842ef5ae999eba29a6aa65e1ce3cd843e1",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "I03",
+      "collector_source_id": "I03",
+      "title": "建立城乡居民住宅地震巨灾保险制度实施方案，保监发〔2016〕39号",
+      "publisher": "中国保监会、财政部；新华网转载保监会网站",
+      "document_date": "2016-05-11",
+      "publication_date": "2016-05-17",
+      "url": "https://www.xinhuanet.com/politics/2016-05/17/c_128990137.htm",
+      "locator": [
+        "三（一）（二）运行及损失分层",
+        "五（四）鼓励财政税收支持"
+      ],
+      "representation": "Official document full-text republication in HTML converted text.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "投保人、直保、再保、准备金、财政支持分层且有总限额",
+        "地方保费补贴为鼓励"
+      ],
+      "limitations": [
+        "历史制度并非本轮地方执行调查",
+        "不将可能的巨灾债券安排写成已发行或招聘"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "I03-E01",
+          "sha256": "b121fe1b9ce698a2b2edade12271a780c841e5571f480256837e43a1f53c10b5",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "G01",
+      "collector_source_id": "G01",
+      "title": "关于组织申报2025年省水利科技项目的通知及需求表",
+      "publisher": "江苏省水利厅",
+      "document_date": null,
+      "publication_date": "2025-03-05",
+      "url": "https://jswater.jiangsu.gov.cn/art/2025/3/5/art_42984_11506819.html",
+      "locator": [
+        "附件江苏水利重点科研需求表第2项；工具行54—56"
+      ],
+      "representation": "Official HTML including demand table, converted text; not raw bytes.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "79个有任务市县基本编图完成",
+        "精度验证缺口；提出快速生成及检验评估系统预期成果"
+      ],
+      "limitations": [
+        "科研需求及预期，非已中标、实现或岗位配额",
+        "完成编图不等更新为零，也不证明现图无效"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "G01-E01",
+          "sha256": "54ab466d8003777d3921bd17d525d2ba40007c37d42f560ebda73758519416c7",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "J01",
+      "collector_source_id": "J01",
+      "title": "南京水利科学研究院招聘非在编工作人员公告",
+      "publisher": "南京水利科学研究院人事处",
+      "document_date": "2025-07-03",
+      "publication_date": "2025-07-03",
+      "url": "https://pxzx.nhri.cn/tzgg/art/2025/art_6bd06dc96d004b37bf5bfe3c6f6a6e53.html",
+      "locator": [
+        "岗位一：硕士及以上、水文模拟/遥感处理",
+        "岗位四：材料类本科及以上试验检测",
+        "报名及聘用说明"
+      ],
+      "representation": "Employer official HTML converted text; not raw bytes.",
+      "author_check": "Read the indicated original-source text representation, not only collector summary or search snippets.",
+      "supports": [
+        "同机构不同任务学历门槛分列",
+        "土管通用GIS本科不能据此直达岗位一"
+      ],
+      "limitations": [
+        "非事业编制、科研辅助；不称正式在编",
+        "截止2025-07-21，不称现在可投",
+        "未明届别，不补应届要求",
+        "不代表水务所有岗位须硕士；未用材料岗补自动化/土管资格"
+      ],
+      "evidence_snapshots": [
+        {
+          "evidence_id": "J01-E01",
+          "sha256": "1ffbbe698e4a0c92afe78c05eb0b52cbd6d8734d8d18132f937ba2bdedfe0666",
+          "hash_object": "complete saved tool response; may contain several sources; not source-site bytes"
+        }
+      ]
+    },
+    {
+      "id": "R01",
+      "title": "上电能动与自动化：热工控制旧卡",
+      "representation": "Previously adopted repository analysis and cited-source summaries, not newly reread external originals.",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+      "path": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "sha256": "a141864d8b5e7599ceadd8dc597c9c9ef951294810ca6f644c3b0994ef72cc66",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1/research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "supports": [
+        "上电02自动化旧目标23948、组27151、16显示成员边界及控制任务连接"
+      ],
+      "limitations": [
+        "旧数据与原件核验等级不升级；2027资格与完整接受另核；未读取原CSV或采2026录取"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "江大信息安全与软件旧卡",
+      "representation": "Previously adopted repository analysis and cited-source summaries, not newly reread external originals.",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+      "path": "research/admissions/jiangsu-jsu20-security-software.md",
+      "sha256": "63c834ccd6c9ff1a0ee008724646d7d1564ed5c9c15e70da5d8a826fa5cff60b",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1/research/admissions/jiangsu-jsu20-security-software.md",
+      "supports": [
+        "软件旧目标32191、组35804、六成员及苏州IT/软件入口与训练边界"
+      ],
+      "limitations": [
+        "旧数据与原件核验等级不升级；2027资格与完整接受另核；未读取原CSV或采2026录取"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "南农土管/GIS—国贸旧卡",
+      "representation": "Previously adopted repository analysis and cited-source summaries, not newly reread external originals.",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+      "path": "research/admissions/jiangsu-history-urban-gis-trade-choices.md",
+      "sha256": "78327c8d487dc5ba2958ef89842bfdbb021536c024691e0a1d1a3aaca4de8f82",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1/research/admissions/jiangsu-history-urban-gis-trade-choices.md",
+      "supports": [
+        "公管大类6766、四分流、旧本科GIS与地点限制"
+      ],
+      "limitations": [
+        "旧数据与原件核验等级不升级；2027资格与完整接受另核；未读取原CSV或采2026录取"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "南农金融—南财财会旧卡",
+      "representation": "Previously adopted repository analysis and cited-source summaries, not newly reread external originals.",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+      "path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "sha256": "38bcc9a323b9ba4c58bee9fcd3c59bb32462c00d0b3325e051c568637f425224",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "supports": [
+        "金融5797、会计5797、审计5559及南京银行/审计估值通用桥"
+      ],
+      "limitations": [
+        "旧数据与原件核验等级不升级；2027资格与完整接受另核；未读取原CSV或采2026录取"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "投资、改造与运行旧情景",
+      "representation": "Previously adopted repository analysis and cited-source summaries, not newly reread external originals.",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1",
+      "path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "sha256": "8505b72289c1874f8f79e6b324757c5312f5290a7b038d134a9356eb1b9ce4e3",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b35a43bfcf7b7d1c96bde2e77e7008ebe06135b1/research/industry/investment-retrofit-operations-2037-choices.md",
+      "supports": [
+        "本轮主题排重与土木/水利方向层连接"
+      ],
+      "limitations": [
+        "旧数据与原件核验等级不升级；2027资格与完整接受另核；未读取原CSV或采2026录取"
+      ]
+    }
+  ],
+  "excluded": [
+    "J02拟聘用名单及原岗表403线索未采用，不称实际录用。",
+    "J03民间转载水务岗位未采用。",
+    "P01国家战略正文未作为本稿独立事实依据；P02通知直接记录其政策依据。"
+  ],
+  "independent_review_status": "not performed by author"
+}

@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "research_revision": "2026-11-04",
+  "task_ref": "LOCAL-lab-testing-choices-20261104",
+  "research_base": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+  "publication_scope": "仅脱敏来源定位、采用范围、限制和文本哈希；不含原文全文、联系人、原CSV、工具返回或内部路径",
+  "sources": [
+    {
+      "id": "P1",
+      "evidence_family": "NHSA-laboratory-price-guidance",
+      "publisher": "国家医疗保障局",
+      "title": "收官之作！检验类立项指南正式发布",
+      "published_at": "2026-08-14",
+      "url": "https://www.nhsa.gov.cn/art/2026/8/14/art_14_21764.html",
+      "locator": "转换文本L7—43；采用L14、23、29、33、36—43",
+      "applies_to": "国家检验类医疗服务价格项目说明；省级落地与当地价格未核",
+      "supports": [
+        "按服务产出整合项目",
+        "必要人工确认等加收",
+        "联检分档折扣",
+        "过程/结果数据与参考区间约束",
+        "下一步省级落地"
+      ],
+      "limits": [
+        "官方解释页，不是完整项目附件",
+        "不证明江苏已落实、具体价格、医保支付范围、雇主回款或招聘",
+        "不授予个人独立诊断/签发权限"
+      ],
+      "text_sha256": "19f8a05705bb481b75da02b9ee9c3cf4d4def890b07edc147b0fe9e12ac1ef51",
+      "collector_retrieved_date": "2026-11-04",
+      "author_use": "逐字读取并核对冻结片段哈希；未重新联网获取",
+      "storage_form": "网页工具转换后的选定行文本，包含来源头信息；不是原始HTML；原文片段不随本索引发布",
+      "text_hash_scope": "冻结的完整转换片段文件字节（含来源头信息）；非整页HTML哈希"
+    },
+    {
+      "id": "J1",
+      "evidence_family": "Geneseeq-molecular-laboratory-recruiting",
+      "publisher": "南京世和基因生物技术股份有限公司；南开大学就业网站承载",
+      "title": "分子实验员",
+      "published_at": "2026-09-30",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/119463.html",
+      "locator": "转换文本L66—111；联系人所在L72未留存；采用L74—111",
+      "applies_to": "江苏；2027应届本科及以上；两年内服从地点调配",
+      "supports": [
+        "专业原文为医学检验等相关专业",
+        "SOP核酸提取、样本质控、NGS建库和上机",
+        "记录上传、协助异常排查、AI辅助质控和设备点检"
+      ],
+      "limits": [
+        "不是固定南京承诺",
+        "医学检验等不自动等于精确医学检验技术专业代码",
+        "未列卫检不证明所有岗位排除",
+        "不能拼入J1b字段；不证明2031接收、医院临床资格或报告签发权限",
+        "客户、收入及付款持续性未知"
+      ],
+      "text_sha256": "55bb81d61c7235797842fc222fe5ffd0f4dfb98cc340b0ded3f12299fc4be741",
+      "collector_retrieved_date": "2026-11-04",
+      "author_use": "逐字读取并核对冻结片段哈希；未重新联网获取",
+      "storage_form": "网页工具转换后的选定行文本，包含来源头信息；不是原始HTML；原文片段不随本索引发布",
+      "text_hash_scope": "冻结的完整转换片段文件字节（含来源头信息）；非整页HTML哈希"
+    },
+    {
+      "id": "J1b",
+      "evidence_family": "Geneseeq-molecular-laboratory-recruiting",
+      "publisher": "南京世和基因生物技术股份有限公司；就业平台承载",
+      "title": "分子实验员（独立岗位记录）",
+      "published_at": null,
+      "url": "https://yjsjob.91wllm.cn/job/view/id/2017909/from_type/4/from_id/1006234",
+      "locator": "转换文本L27—54；联系人L39—40未留存；采用L29、37、41、43—54",
+      "applies_to": "南京；本科；应届；具体届别未见",
+      "supports": [
+        "需求专业明确列医学检验技术",
+        "招聘清单允许相应本科应届申请，不证明实际录用或到岗"
+      ],
+      "limits": [
+        "职责正文在所取文本中为空",
+        "薪资字段与J1不同，精确岗位对应未核",
+        "不将南京、精确专业或薪资拼入J1，也不从J1补入任务/2027届",
+        "与J1同一雇主家族，不计为两个独立雇主",
+        "招聘专业清单不是实际录用结果"
+      ],
+      "text_sha256": "f7ed0daba3261476b088dcfa62c9d6058387f142f58ec3f50ee574ed4d077dc4",
+      "collector_retrieved_date": "2026-11-04",
+      "author_use": "逐字读取并核对冻结片段哈希；未重新联网获取",
+      "storage_form": "网页工具转换后的选定行文本，包含来源头信息；不是原始HTML；原文片段不随本索引发布",
+      "text_hash_scope": "冻结的完整转换片段文件字节（含来源头信息）；非整页HTML哈希"
+    },
+    {
+      "id": "J2",
+      "evidence_family": "Zhujiang-production-quality-recruiting",
+      "publisher": "广州珠江啤酒股份有限公司；南方人才网招聘会平台承载",
+      "title": "南沙珠啤-检验技术类管培生",
+      "published_at": null,
+      "event_period": {
+        "start": "2026-04-15",
+        "end": "2026-05-31"
+      },
+      "url": "https://zph.job168.com/college/jobfairPosition/637b0cc8690a285d83e09ccb1b70c6e3/f6931a44d1117d4ffdc359c178b26147",
+      "locator": "转换文本L11—53；采用L13、17、27、31—36、44—53",
+      "applies_to": "广州；本科；经验不限；招聘会已结束且岗位暂停",
+      "supports": [
+        "正文在本科招聘中明确列卫生检验与检疫等专业，支持岗位申请入口，不证明实际录用",
+        "取留样、理化与微生物检测、ERP记录、仪器维护校验",
+        "交接班、质量与CNAS相关任务"
+      ],
+      "limits": [
+        "页头专业不限不能抹正文专业清单",
+        "未明确2027届；不是持续可投或2031承诺",
+        "职责还含带教、方法开发等，未拆新人分工",
+        "不能用作南京现成备岗或同城薪资比较",
+        "CNAS相关工作不等个人医疗资格；企业性质和管培标题不保证编制/管理岗",
+        "当前暂停不作为2031路径次位的证据"
+      ],
+      "text_sha256": "8707a8eb6282ff0aa001da17980bb7f19c46bdfb209a50ce88d5b6dcb055607b",
+      "collector_retrieved_date": "2026-11-04",
+      "author_use": "逐字读取并核对冻结片段哈希；未重新联网获取",
+      "storage_form": "网页工具转换后的选定行文本，包含来源头信息；不是原始HTML；原文片段不随本索引发布",
+      "text_hash_scope": "冻结的完整转换片段文件字节（含来源头信息）；非整页HTML哈希"
+    },
+    {
+      "id": "B1",
+      "source_kind": "已采用仓库研究摘要，不是新增外部原始来源",
+      "repository_path": "research/admissions/jiangsu-2025-imaging-pair.md",
+      "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/f4b66553bac16b3c1020f4a4b2e1e43325019a1f/research/admissions/jiangsu-2025-imaging-pair.md",
+      "locator": "原表与全部已列成员；接受、专业分配与退档分开判断",
+      "scope": "2025江苏物理南医05组、11成员、2026南医/江苏规则的已采用摘要；旧来源未重取",
+      "limits": [
+        "不读原CSV、不把旧汇集表升级为官方原件；录取数不是计划；2026规则不是2027承诺"
+      ],
+      "text_sha256": "c184e3e2c66e901ed5122b96917b9c4f35f982899e471a3ce5f06fe5ccfe30db",
+      "text_hash_scope": "固定提交中整份文件的精确字节"
+    },
+    {
+      "id": "B2",
+      "source_kind": "已采用仓库研究摘要，不是新增外部原始来源",
+      "repository_path": "research/admissions/jiangsu-54120-care-imaging-software.md",
+      "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/f4b66553bac16b3c1020f4a4b2e1e43325019a1f/research/admissions/jiangsu-54120-care-imaging-software.md",
+      "locator": "一、历史坐标不重采，完整接受边界不缩小；六、从目标专业到整组",
+      "scope": "既有卡将两目标资格与入口保留为未验证，明确11成员逐项接受",
+      "limits": [
+        "不继承旧模拟偏好，不用护理或影技证明本题就业"
+      ],
+      "text_sha256": "1a84c92f2276a336b9f884517395b369bfce9b4b83614ab00c4cab6a7aab1711",
+      "text_hash_scope": "固定提交中整份文件的精确字节"
+    },
+    {
+      "id": "B3",
+      "source_kind": "已采用仓库研究摘要，不是新增外部原始来源",
+      "repository_path": "research/admissions/public-health-careers.md",
+      "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/f4b66553bac16b3c1020f4a4b2e1e43325019a1f/research/admissions/public-health-careers.md",
+      "locator": "全文，导航更新基底",
+      "scope": "原页预防医学/公卫医师路径；本轮按精确字节保留并末尾增加链接",
+      "limits": [
+        "不把原页五年时间轴、公卫资格或县区岗位套给卫检"
+      ],
+      "text_sha256": "f1cea3881198e4ee49b287631d7a8bb479a962131f003b08df43e2b8bba96333",
+      "text_hash_scope": "固定提交中整份文件的精确字节"
+    },
+    {
+      "id": "B4",
+      "source_kind": "已采用仓库研究摘要，不是新增外部原始来源",
+      "repository_path": "research/admissions/major-career-routing.md",
+      "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/f4b66553bac16b3c1020f4a4b2e1e43325019a1f/research/admissions/major-career-routing.md",
+      "locator": "供Agent组合查询的字段及时间轴",
+      "scope": "已有专业—任务—资格—地区的多对多索引与时间条件",
+      "limits": [
+        "只作方法/导航背景，不证明两个目标专业实际学制"
+      ],
+      "text_sha256": "691af11fe197cf8ef3ac25b3d6ea23edc762b778874b283e5d2411fa1e94c068",
+      "text_hash_scope": "固定提交中整份文件的精确字节"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "id": "X1",
+      "url": "https://jshrss.jiangsu.gov.cn/art/2026/4/20/art_57212_11759877.html",
+      "status": "收集阶段未取得原正文；本作者阶段未重试",
+      "use": "不作为已核南京本科新人岗位；保留本地证据缺口，不推当地无岗位"
+    }
+  ],
+  "claim_map": {
+    "historical_group_and_ranks": [
+      "B1",
+      "B2"
+    ],
+    "clinical_output_pricing_and_quality_conditions": [
+      "P1"
+    ],
+    "molecular_fresh_graduate_task_example": [
+      "J1"
+    ],
+    "exact_medtech_major_acceptance_example": [
+      "J1b"
+    ],
+    "food_qc_major_and_task_example": [
+      "J2"
+    ],
+    "qualification_separation": [
+      "J1",
+      "J1b",
+      "J2",
+      "B3"
+    ],
+    "qualification_separation_note": "来源未提供完整医疗资格条款；正文限制其证明能力，不从公告省略推免证。",
+    "conditional_scenarios": [
+      "P1",
+      "J1",
+      "J1b",
+      "J2"
+    ],
+    "conditional_scenarios_note": "P、S1—S3和付款/技术/人口传导为明示研究前提与推导，不是来源已经观测的2031/2037结果。",
+    "current_path_baseline": [
+      "P1",
+      "J1",
+      "J1b",
+      "J2"
+    ],
+    "current_path_baseline_note": "在明示非用户前提P下，两目标并列主比较，分别保留分子实验质量和食品过程质量路径；不是认定同样好。招聘清单与任务支持路径保留，不证明实际录用、具体培养或2031结果。S1/S2的新人成长分工差异用于打破并列，核验顺序与未来机会分账。"
+  },
+  "not_verified": [
+    "两目标2027届实际学制与培养",
+    "江苏具体价格落地与医疗保险支付范围",
+    "两雇主真实财务、回款与新人训练",
+    "医院临床技术上岗及报告权限",
+    "同地区可比接收和竞争",
+    "个人位次、任务/地区与11成员接受",
+    "2031岗位和2037结果"
+  ]
+}

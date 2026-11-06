@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-ISSUE20-20261023-SEARCH-FIX-CHECK-01",
+  "actor_id": "tavily-collector",
+  "role": "one-shot minimal Search repair-path verification",
+  "task_ref": "Issue20",
+  "parent_run_id": "RUN-MODEL-ROUTING-20261023-CHAT-HANDOFF-01",
+  "client": "Codex delegated execution environment",
+  "transport": "native private plugin MCP tool",
+  "tools": [
+    "mcp__codex_apps__tavily_search",
+    "clock.curr_time"
+  ],
+  "model": {
+    "requested": "gpt-6.1-sol",
+    "reported": null,
+    "source": "explicit parent delegation request; no runtime metadata exposed",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "high",
+    "reported": null,
+    "source": "explicit parent delegation request; no runtime metadata exposed",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-23T01:55:32Z",
+  "recorded_by_run_id": "RUN-ISSUE20-20261023-SEARCH-FIX-CHECK-01",
+  "read_rules_ref": {
+    "commit": null,
+    "paths": [
+      "publisher-03/receipts/template-agent-run.json",
+      "publisher-03/receipts/template-work-step.json"
+    ],
+    "sha256_by_path": {
+      "publisher-03/receipts/template-agent-run.json": "62a696af798aac99711e46599e16c52f9111c897f669d361985b95b6860fb753",
+      "publisher-03/receipts/template-work-step.json": "5599eddc76bfe0034064295c47cdf1090fccf410473ca427ea2d3556fd68d29c"
+    },
+    "note": "Parent provided exact current authorization and restrictions; previously read project rules remain applicable."
+  },
+  "owned_paths": [
+    "tavily-acceptance/search-fix-check-01"
+  ],
+  "note": "Requested configuration is not backend authentication. One Search only; JSON and URL-field mechanical checks only. Old failure is unchanged; no GitHub writes or resumed research."
+}

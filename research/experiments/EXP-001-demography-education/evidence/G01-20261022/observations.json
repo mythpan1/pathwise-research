@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "record_type": "evidence_observations",
+  "experiment_id": "EXP-001-demography-education",
+  "evidence_unit": "G01-20261022",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "created_at": "2026-10-22T14:47:28.450599+08:00",
+  "created_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "region": "河南省三门峡市陕州区",
+  "source_index": "sources.json",
+  "data_convention": "Observation means a source-reported value, not independent verification of the official data production process. null means not obtained in examined material, not zero.",
+  "observations": [
+    {
+      "observation_id": "G01-O01",
+      "claim_type": "observation",
+      "source_id": "G01-S04",
+      "metric": "participating_private_kindergartens",
+      "value": 12,
+      "unit": "所",
+      "reference_year": 2025,
+      "year_type": "annual_inspection_cycle",
+      "observation_date": null,
+      "population": "通报列示参与2025年度年检的民办幼儿园",
+      "location": "一、总体办学概况；二、年检结果情况",
+      "interpretation_limit": "不改称全区全部公民办幼儿园数量"
+    },
+    {
+      "observation_id": "G01-O02",
+      "claim_type": "observation",
+      "source_id": "G01-S04",
+      "metric": "reported_enrolled_children_private_kindergartens",
+      "value": 2018,
+      "unit": "人",
+      "reference_year": 2025,
+      "year_type": "annual_inspection_cycle",
+      "observation_date": null,
+      "population": "通报总体概况中的民办幼儿园汇总",
+      "location": "一、总体办学概况",
+      "interpretation_limit": "现有人数精确时点未列；不是全区分母、入园流量或转园人数"
+    },
+    {
+      "observation_id": "G01-O03",
+      "claim_type": "observation",
+      "source_id": "G01-S04",
+      "metric": "reported_staff_private_kindergartens",
+      "value": 305,
+      "unit": "人",
+      "reference_year": 2025,
+      "year_type": "annual_inspection_cycle",
+      "observation_date": null,
+      "population": "通报总体概况中的民办幼儿园教职工汇总",
+      "location": "一、总体办学概况",
+      "interpretation_limit": "未列岗位分项；不是专任教师数、岗位空缺或新增招聘"
+    },
+    {
+      "observation_id": "G01-O04",
+      "claim_type": "observation",
+      "source_id": "G01-S01",
+      "metric": "new_integrated_childcare_kindergarten_pilot_sites",
+      "value": 9,
+      "unit": "所",
+      "reference_year": 2025,
+      "year_type": "statistical_year",
+      "observation_date": null,
+      "population": "公报民生事项中的新增托幼一体化试点幼儿园",
+      "location": "九、人民生活、社会民生事业",
+      "interpretation_limit": "新增试点不等于新建园或就业增量"
+    },
+    {
+      "observation_id": "G01-O05",
+      "claim_type": "observation",
+      "source_id": "G01-S01",
+      "metric": "reported_added_childcare_places",
+      "value": 180,
+      "unit": "个托位",
+      "reference_year": 2025,
+      "year_type": "statistical_year",
+      "observation_date": null,
+      "population": "公报新增托幼一体化事项",
+      "location": "九、人民生活、社会民生事业",
+      "interpretation_limit": "供给指标；不是使用人数或学前在园总量"
+    },
+    {
+      "observation_id": "G01-O06",
+      "claim_type": "observation",
+      "source_id": "G01-S03",
+      "metric": "reported_added_places_mixed_kindergarten_primary",
+      "value": 720,
+      "unit": "个学位",
+      "reference_year": 2023,
+      "year_type": "statistical_year",
+      "observation_date": null,
+      "population": "改扩建幼儿园、小学合并叙述",
+      "location": "人民生活、社会民生事业",
+      "interpretation_limit": "缺学段分项，不能全归幼儿园"
+    }
+  ],
+  "target_series": [
+    {
+      "target_year": 2022,
+      "region": "河南省三门峡市陕州区",
+      "unit": "人",
+      "total_enrolled_preschool": null,
+      "public_enrolled_preschool": null,
+      "private_enrolled_preschool": null,
+      "status": "not_obtained_in_examined_material",
+      "source_ids": [
+        "G01-S06"
+      ],
+      "reason": "已检位置未取得目标口径指标"
+    },
+    {
+      "target_year": 2023,
+      "region": "河南省三门峡市陕州区",
+      "unit": "人",
+      "total_enrolled_preschool": null,
+      "public_enrolled_preschool": null,
+      "private_enrolled_preschool": null,
+      "status": "not_obtained_in_examined_material",
+      "source_ids": [
+        "G01-S03",
+        "G01-S05"
+      ],
+      "reason": "已检位置未取得目标口径指标"
+    },
+    {
+      "target_year": 2024,
+      "region": "河南省三门峡市陕州区",
+      "unit": "人",
+      "total_enrolled_preschool": null,
+      "public_enrolled_preschool": null,
+      "private_enrolled_preschool": null,
+      "status": "not_obtained_in_examined_material",
+      "source_ids": [
+        "G01-S02"
+      ],
+      "reason": "已检位置未取得目标口径指标"
+    },
+    {
+      "target_year": 2025,
+      "region": "河南省三门峡市陕州区",
+      "unit": "人",
+      "total_enrolled_preschool": null,
+      "public_enrolled_preschool": null,
+      "private_enrolled_preschool": null,
+      "status": "not_obtained_in_examined_material",
+      "source_ids": [
+        "G01-S01",
+        "G01-S04"
+      ],
+      "reason": "未取得全区总量与公办项；S04有民办年检汇总但精确人数时点未列，另存观察项，不强塞年度序列"
+    }
+  ],
+  "comparability": {
+    "comparable_target_periods_obtained": 0,
+    "target_two_period_series_obtained": false,
+    "growth_rates_computed": false,
+    "public_share_computed": false,
+    "transfer_flows_observed": false,
+    "employment_forecast_generated": false
+  },
+  "open_gaps": [
+    "Two comparable district preschool total counts",
+    "Compatible public/private decomposition",
+    "Precise date and coverage of private inspection headcounts",
+    "Separate staff stock, specialist teachers and actual new hires"
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "run_id": "lab-testing-author-20261104",
+  "parent_run_id": null,
+  "parent_run_id_note": "交接未给出父运行的已登记run_id，不由任务路径猜填。",
+  "actor_id": "lab-testing-author",
+  "role": "冻结输入上的研究作者；不承担独立审核、发布或合并",
+  "task_ref": "LOCAL-lab-testing-choices-20261104",
+  "recorded_at": "2026-11-04T04:03:03.969008+00:00",
+  "research_base": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f",
+  "client": "native subagent",
+  "transport": "direct delegation",
+  "tools": [
+    "exec_command：只读冻结输入、核哈希与写授权本地产物",
+    "collaboration.send_message：报告给协调者",
+    "skills.read：读取通用技能入口；子任务适用停止条款"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "父任务交接明确请求；本运行未暴露可核验的模型元数据。",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "父任务交接明确请求；本运行未暴露可核验的思考强度元数据。",
+    "verification": "unknown"
+  },
+  "identity_limit": "请求值不是实际后端身份认证；未知保持为空。",
+  "owned_publication_paths": [
+    "research/admissions/jiangsu-lab-testing-choices.md",
+    "research/admissions/jiangsu-lab-testing-choices-sources.json",
+    "research/admissions/public-health-careers.md",
+    "work/runs/lab-testing-author-20261104.json"
+  ],
+  "fixed_input_snapshot": {
+    "sha256": "2ce9587e0c29545d3d24d57328658f053d76923acf55ee696f39fd3adb84d186",
+    "files": 20,
+    "inputs": [
+      {
+        "input_id": "F01",
+        "bytes": 2942,
+        "sha256": "182931b1c2dab60e3fbf9fa80356eb68720e629862f2484a6f678a754b09187c",
+        "kind": "任务计划",
+        "controlled_locator": "input-01"
+      },
+      {
+        "input_id": "F02",
+        "bytes": 5365,
+        "sha256": "f83d20f27e38dbf7967aabfae05387f4f00a4c240f8e93ea359137e250615335",
+        "kind": "首次收集清单",
+        "controlled_locator": "input-02"
+      },
+      {
+        "input_id": "F03",
+        "bytes": 10876,
+        "sha256": "effa6534a7953aed510d2ec788836aff2297891c314cc35e3a2064277aaec0d5",
+        "kind": "精确字节补充清单",
+        "controlled_locator": "input-03"
+      },
+      {
+        "input_id": "F04",
+        "bytes": 9057,
+        "sha256": "e1e74359acd2dce9061699190cb02bf3090f9f853def727df1ac23b781a4585e",
+        "kind": "研究范围与收集交接",
+        "controlled_locator": "input-04"
+      },
+      {
+        "input_id": "F05",
+        "bytes": 1556,
+        "sha256": "57cc0425f45147a9d4c9bfa61beb031a2f4040603f9a6ec6af6a9a407bf35de1",
+        "kind": "作者边界补充",
+        "controlled_locator": "input-05"
+      },
+      {
+        "input_id": "F06",
+        "bytes": 2123,
+        "sha256": "55bb81d61c7235797842fc222fe5ffd0f4dfb98cc340b0ded3f12299fc4be741",
+        "source_id": "J1",
+        "kind": "冻结来源转换片段，按来源索引定位"
+      },
+      {
+        "input_id": "F07",
+        "bytes": 1477,
+        "sha256": "f7ed0daba3261476b088dcfa62c9d6058387f142f58ec3f50ee574ed4d077dc4",
+        "source_id": "J1b",
+        "kind": "冻结来源转换片段，按来源索引定位"
+      },
+      {
+        "input_id": "F08",
+        "bytes": 2340,
+        "sha256": "8707a8eb6282ff0aa001da17980bb7f19c46bdfb209a50ce88d5b6dcb055607b",
+        "source_id": "J2",
+        "kind": "冻结来源转换片段，按来源索引定位"
+      },
+      {
+        "input_id": "F09",
+        "bytes": 9014,
+        "sha256": "19f8a05705bb481b75da02b9ee9c3cf4d4def890b07edc147b0fe9e12ac1ef51",
+        "source_id": "P1",
+        "kind": "冻结来源转换片段，按来源索引定位"
+      },
+      {
+        "input_id": "F10",
+        "bytes": 13674,
+        "sha256": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8",
+        "repository_path": "AGENTS.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F11",
+        "bytes": 7561,
+        "sha256": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f",
+        "repository_path": "docs/agent-provenance.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F12",
+        "bytes": 18663,
+        "sha256": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1",
+        "repository_path": "docs/agent-workflow.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F13",
+        "bytes": 5963,
+        "sha256": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6",
+        "repository_path": "docs/experiment-protocol.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F14",
+        "bytes": 42941,
+        "sha256": "c184e3e2c66e901ed5122b96917b9c4f35f982899e471a3ce5f06fe5ccfe30db",
+        "repository_path": "research/admissions/jiangsu-2025-imaging-pair.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F15",
+        "bytes": 23251,
+        "sha256": "1a84c92f2276a336b9f884517395b369bfce9b4b83614ab00c4cab6a7aab1711",
+        "repository_path": "research/admissions/jiangsu-54120-care-imaging-software.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F16",
+        "bytes": 10528,
+        "sha256": "691af11fe197cf8ef3ac25b3d6ea23edc762b778874b283e5d2411fa1e94c068",
+        "repository_path": "research/admissions/major-career-routing.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F17",
+        "bytes": 2884,
+        "sha256": "f1cea3881198e4ee49b287631d7a8bb479a962131f003b08df43e2b8bba96333",
+        "repository_path": "research/admissions/public-health-careers.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F18",
+        "bytes": 24828,
+        "sha256": "1436c50eccc300e422d117a28de40725dea27f9e9c18153c9f57a4f25a0925bc",
+        "repository_path": "docs/research-architecture.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F19",
+        "bytes": 4305,
+        "sha256": "8d26b4e9d7b836e2a52c4b73eea777dba6c71d600a49aba2b33690e6a6850f92",
+        "repository_path": "reviews/README.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      },
+      {
+        "input_id": "F20",
+        "bytes": 1240,
+        "sha256": "9b3b0ca1415d97d5300879ccce611f836b0ef6ac40eec500e3b4d117e5fe3e1d",
+        "repository_path": "templates/review-record.md",
+        "commit": "f4b66553bac16b3c1020f4a4b2e1e43325019a1f"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "step_id": "read-fixed-inputs",
+      "phase": "completed",
+      "summary": "读取全部20件固定输入并核字节数/SHA256；复算11件精确仓库输入的Git blob，与交接清单一致。",
+      "result": "20/20、11/11通过；不是重新读取原CSV或重新收集外部来源。"
+    },
+    {
+      "step_id": "write-v1",
+      "phase": "completed",
+      "summary": "形成两检验专业的付款、任务组织、地域、时间与同组接受比较；来源分记录，导航精确保留原文，仅末尾加两行。",
+      "result": "完成三份内容产物；作者自检和版本冻结另留本地过程记录。"
+    },
+    {
+      "step_id": "read-r1",
+      "phase": "completed",
+      "summary": "读取完整真实R1及其冻结清单并核哈希；v1结论为需修改，B1阻断、N1非阻断。",
+      "result": "保留原意见与v1全部文件/快照；不将v1称一次通过。"
+    },
+    {
+      "step_id": "write-v2",
+      "phase": "completed",
+      "summary": "同一P下增加两目标并列主比较的可撤基准、具体任务/付款/训练理由及成本、条件备选；S1/S2显式从该基准改判。将当前招聘暂停与2031路径排序分开；把招聘清单正例与实际录用区分。",
+      "result": "正文、来源索引及本记录修订；导航字节不变；无新源、招生读取或外部写入。"
+    }
+  ],
+  "outputs": [
+    {
+      "publication_path": "research/admissions/jiangsu-lab-testing-choices.md",
+      "sha256": "d35df91954e54b3956a57ddbddbd409feea7ddd8856614c857bc801a254232eb",
+      "bytes": 24760
+    },
+    {
+      "publication_path": "research/admissions/jiangsu-lab-testing-choices-sources.json",
+      "sha256": "cf98eba7d9fded4326192763eced464e401cd7332c0bf3aecd16ae63f65488dc",
+      "bytes": 12187
+    },
+    {
+      "publication_path": "research/admissions/public-health-careers.md",
+      "sha256": "c27af5019a6abc6eb32b71578dc2cabccbf5b073941383e166a1d91e9a174eb4",
+      "bytes": 3113
+    }
+  ],
+  "record_self_hash": "为避免自引用，本记录哈希由后续本地冻结清单绑定。",
+  "author_checks": {
+    "kind": "self-check only; not independent review",
+    "input_integrity": "20文件内容校验与11精确Git blob校验通过",
+    "source_separation": "J1/J1b分别保留专业、届别、地点和职责边界；J2已结束/暂停和多资历职责明确",
+    "geography": "江苏调配与广州分别记录，不作同城、同R就业率或薪资排名",
+    "admissions": "2025目标61030/64、68339/30；组77094/859和11成员；94非独立组；真实接受均未知",
+    "time": "两目标适用届学制未核；2031与2037均保留条件",
+    "publication_scope": "没有新建Issue、提交/推送/PR、独立审核、合并或2026录取采集；只准备本地可审稿",
+    "current_baseline": "同一P下两目标并列主比较，明确不是同样好；任务/付款/训练及成本、条件备选可见，S1/S2打破并列，S3共同下调。",
+    "post_status_vs_future": "J2当前暂停仅限制当下可投，不支持2031次位；J1的2027届同样不承诺2031。",
+    "recruitment_vs_employment": "招聘清单列入或允许申请不写成实际录用；未来接收条件与历史招聘事实分开。"
+  },
+  "unknowns": [
+    "实际后端模型与思考强度未获得独立元数据",
+    "父运行已登记run_id未提供",
+    "具体两岗位关联、J1专业匹配、J1b职责缺失",
+    "J2实际新人分工、适用届别与未来招聘",
+    "两雇主回款、新人训练及具体医疗资格",
+    "两目标适用届学制、实际培养、2031和2037结果",
+    "正式全组、个人位次、地区/任务接受及成本"
+  ],
+  "independent_review": {
+    "performed_by_author": false,
+    "history": [
+      {
+        "version": "v1",
+        "reviewer_run_id": "lab-testing-independent-review-20261104-r1",
+        "verdict": "需修改",
+        "review_sha256": "1819baad7654acf1c9535cd17e2b9be2252faf790ae3aa92ced8c73eb7ab21ef",
+        "blocking_issues": [
+          "B1"
+        ],
+        "nonblocking_issues": [
+          "N1"
+        ]
+      }
+    ],
+    "current_version": "v2",
+    "current_verdict": null,
+    "status": "awaiting_independent_recheck",
+    "handoff": "原独审者复核v1到v2变化及受影响主张；作者回应不等于审核通过。"
+  },
+  "revision": "v2",
+  "revision_from": {
+    "version": "v1",
+    "freeze_sha256": "88509c5780fb3cf5273a2e8911a088f8a70928fdb2de2ab5931404cd26ccd6d1",
+    "publication_candidates": [
+      {
+        "publication_path": "research/admissions/jiangsu-lab-testing-choices.md",
+        "bytes": 21186,
+        "sha256": "61e2a4f3863fc933c672355b97d17a787ab7800b91f5ede67ef866453d14c51a"
+      },
+      {
+        "publication_path": "research/admissions/jiangsu-lab-testing-choices-sources.json",
+        "bytes": 11524,
+        "sha256": "868341cadda120ca5e3e1f88ace6c4dfc74227a7faa2cc212da1ab78cbea48d0"
+      },
+      {
+        "publication_path": "research/admissions/public-health-careers.md",
+        "bytes": 3113,
+        "sha256": "c27af5019a6abc6eb32b71578dc2cabccbf5b073941383e166a1d91e9a174eb4"
+      },
+      {
+        "publication_path": "work/runs/lab-testing-author-20261104.json",
+        "bytes": 9637,
+        "sha256": "c4cde6e32cdd88b2bb4bd776b4c8fa84fbf207040474c7f73d15a2304dbf524c"
+      }
+    ]
+  },
+  "additional_revision_inputs": [
+    {
+      "input_id": "R1",
+      "kind": "真实独立内容审核；结论需修改",
+      "sha256": "1819baad7654acf1c9535cd17e2b9be2252faf790ae3aa92ced8c73eb7ab21ef",
+      "reviewer_run_id": "lab-testing-independent-review-20261104-r1"
+    },
+    {
+      "input_id": "R1-freeze",
+      "kind": "独立审核产物版本清单",
+      "sha256": "a6652c1d89bd9e83cb7369d4dcc9de9887f9077e183676cd4c0e5b028202c259"
+    }
+  ],
+  "review_responses": [
+    {
+      "issue_id": "B1",
+      "severity": "blocking",
+      "author_disposition": "已按要求修订，待独立复核",
+      "changes": [
+        "摘要、第四节与收口补两目标并列主比较基准",
+        "分别说明任务、付款连接、训练与地区成本和报考前条件备选",
+        "S1/S2明确打破并列及撤销/反转；保留共同风险",
+        "J2暂停与核验顺序不作2031路径次位依据"
+      ]
+    },
+    {
+      "issue_id": "N1",
+      "severity": "nonblocking",
+      "author_disposition": "采用建议，待独立复核",
+      "changes": [
+        "正文与来源索引将精确专业曾被接收改为招聘清单列入/允许申请",
+        "明确没有实际录用或到岗证据"
+      ]
+    }
+  ]
+}

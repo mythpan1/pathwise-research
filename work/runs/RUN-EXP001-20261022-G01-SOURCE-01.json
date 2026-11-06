@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-EXP001-20261022-G01-SOURCE-01",
+  "actor_id": "g01-source-collector",
+  "role": "bounded official-source search",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "parent_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "client": "ChatGPT internal delegated agent",
+  "transport": "native delegated tools",
+  "tools": [
+    "web search",
+    "UTC clock"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "No per-run model or reasoning receipt was exposed",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "No per-run model or reasoning receipt was exposed",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-22T14:49:22.485113+08:00",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "activity_started_at": "2026-10-22T06:27:56Z",
+  "activity_ended_at": "2026-10-22T06:28:05Z",
+  "status_at_recording": "completed_no_sources_returned",
+  "read_rules_ref": {
+    "commit": "3411080524cfa48319d4c45ffa1c0e14b16208bb",
+    "paths": [],
+    "sha256_by_path": {},
+    "verification": "unknown",
+    "note": "Coordinator supplied scoped read-only delegation; no separate per-file rule-read receipt from this contributor. Governing rule hashes are preserved in parent run. Do not infer automatic rule loading."
+  },
+  "owned_paths": [],
+  "note": "Read-only contribution; coordinator records actual returned facts. This run does not author the final report or provide its independent review."
+}

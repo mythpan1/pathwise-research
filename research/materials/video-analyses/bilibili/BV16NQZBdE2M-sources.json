@@ -1,0 +1,265 @@
+{
+  "task": "Issue65 / BV16NQZBdE2M / queue 11 of 15",
+  "as_of": "2026-10-25 UTC",
+  "status": "author_v2_official_reading_handoff_and_conditional_analysis",
+  "sources": [
+    {
+      "id": "V01",
+      "title": "中国用来保粮食生产的，除了化肥，还有数学",
+      "publisher": "院里新来了个杨主任",
+      "date": "2026-03-23",
+      "url": "https://www.bilibili.com/video/BV16NQZBdE2M/",
+      "acquisition": "母任务知舟侧子智能体2026-10-25云端Chrome实际播放、读取中文字幕与关键帧后交接；收集者及本篇作者未播放。",
+      "scope": {
+        "continuous_subtitle_windows": [
+          "01:05–01:41",
+          "01:50–02:18",
+          "02:28–02:53",
+          "02:59–03:18",
+          "03:24–03:45",
+          "03:51–04:03"
+        ],
+        "supplemental_window": "00:57–01:14及前段抽样",
+        "keyframes": [
+          "开篇",
+          "00:43",
+          "02:53",
+          "01:12"
+        ],
+        "full_transcript": false,
+        "paper_or_official_report_screenshots": false,
+        "comments": "not supplied in handoff",
+        "reading_failures": "一次超时后补读；自动连播下一片已识别排除",
+        "asr_boundary": "自动字幕只作转写辅助；本片不是AI生成讨论。"
+      },
+      "evidence_status": "video claims only; video alone provides no independent factual verification; separate institutional support is recorded under S03",
+      "independence": "not an independent source for official report claims",
+      "original_obtained_by_author": false,
+      "original_sha256": null,
+      "handoff_sha256": "064f7bf75ab5f6b4b04e75814da499597bf12f253e8b9eed6b7438ec30519589",
+      "claim_locators": {
+        "planning_perspective": [
+          "00:43",
+          "00:52–01:15"
+        ],
+        "production_factors": [
+          "01:23–01:35"
+        ],
+        "statistics_and_revision": [
+          "03:24–03:38"
+        ]
+      },
+      "not_adopted_as_verified_facts": [
+        "视频所称固定半年提前期",
+        "正式公式与完整变量定义",
+        "视频准确率、长期方向及中美比较",
+        "实际采购、仓储或储备执行与收益"
+      ],
+      "qualification": "Report submission, method category and reference-use wording have separate institutional support through S03; V01 remains video claims, not independent accuracy evidence.",
+      "transcription_corrections": [
+        {
+          "handoff_transcription": "陈希康",
+          "corrected_name": "陈锡康",
+          "correction_basis": "S03母任务云端官方原文阅读交接，按官方文字更正姓名。",
+          "audio_boundary": "本篇作者未读取音轨；这是转写校正，不声称逐字听清视频。"
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "title": "2025年我院预测科学研究中心在全国和区域粮食产量预测中再一次达到极高精度",
+      "publisher": "中国科学院数学与系统科学研究院 / 预测科学研究中心",
+      "date": "2025-12-15 (Search metadata; not original verified)",
+      "url": "https://www.amss.ac.cn/ttxw/202512/t20251215_8027336.html",
+      "search_returned_url": "http://www.amss.ac.cn/ttxw/202512/t20251215_8027336.html",
+      "locator": "Search result 1, query: site.amss.cas.cn 2025 全国粮食产量 预测 风险 评估 报告 陈锡康",
+      "candidate_claims": [
+        "May submission of 2025 national and regional forecasts",
+        "system comprehensive factor method centered on input-occupancy-output",
+        "institutional statement of reference use in trade, procurement, storage and production planning"
+      ],
+      "evidence_status": "local_unobtained_search_lead_same_article_as_S03",
+      "original_obtained": false,
+      "original_sha256": null,
+      "access": "HTTPS DNS failure, then certificate verification failure; HTTP action denied by automatic approval review and not executed; target stopped",
+      "independence": "Same retrospective institutional article as S03, accessed separately by parent cloud collector at official cas.cn URL. This failed local acquisition is retained as history, not a second supporting source.",
+      "denial": {
+        "action": "GET Search返回的同一报告页HTTP URL并保存原文",
+        "status": "denied_not_executed",
+        "reason": "自动审批认为HTTPS失败后转HTTP属于未经授权的不安全绕行，且本任务原文不可访问即停止。",
+        "response": "已停止；不使用其他工具、镜像、关闭证书或其他接口重取该目标。"
+      },
+      "same_article_as": "S03"
+    },
+    {
+      "id": "S02",
+      "title": "全国粮食产量预测研究",
+      "publisher": "中国科学院院刊",
+      "author": "陈锡康 (Search lead only)",
+      "date": null,
+      "url": "https://old2022.bulletin.cas.cn/zgkxyyk/ch/reader/view_abstract.aspx?file_no=19920412&flag=1",
+      "locator": "Search 1 result 3; file_no=19920412",
+      "evidence_status": "unverified_method_lead",
+      "original_obtained": false,
+      "original_sha256": null,
+      "access": "Initial web open returned 400 Timeout fetching; one later normal HTTPS GET with certificate verification enabled executed after network sandbox approval, then failed with URLError / SSL UNEXPECTED_EOF_WHILE_READING; no HTTP status or original received; stopped.",
+      "independence": "possible separate formal methods article, but source contents and exact date not verified; no claim adopted",
+      "recovery": {
+        "id": "S02-recovery",
+        "action_executed": true,
+        "network_sandbox_escalation": "approved",
+        "certificate_verification": true,
+        "http_status": null,
+        "original_obtained": false,
+        "original_sha256": null,
+        "facts_verified": [],
+        "status": "failed_and_stopped",
+        "reason": "URLError / SSL UNEXPECTED_EOF_WHILE_READING",
+        "S01_reaccessed": false,
+        "additional_Search": 0
+      }
+    },
+    {
+      "id": "S03",
+      "title": "2025年我院预测科学研究中心在全国和区域粮食产量预测中再一次达到极高精度",
+      "publisher": "中国科学院数学与系统科学研究院／预测科学研究中心",
+      "date": "2025-12-15",
+      "url": "https://amss.cas.cn/ttxw/202512/t20251215_8027336.html",
+      "source_type": "institutional_retrospective_self_report",
+      "same_article_as": "S01",
+      "evidence_status": "official_original_read_by_parent_cloud_collector_necessary_contents_handed_over",
+      "acquisition": {
+        "reader": "母任务知舟侧另行独立云端核验者",
+        "reader_run_id": null,
+        "reader_model": null,
+        "reader_reasoning": null,
+        "runtime_metadata_status": "unknown; not supplied",
+        "read_date": "2026-10-25",
+        "method": "web__run open, successful text/html, 90 lines (parent handoff)",
+        "author_opened_page": false,
+        "original_read_success_reported": true,
+        "original_page_file_supplied": false,
+        "original_sha256": null,
+        "handoff_sha256": "39f3106572a7db0a02e8b702b0bd3d962703478da63a47f383ed809639067f33",
+        "calls_handoff_sha256": "ddf3c686ca657490fbf65b9a6710a4c7c4ddb370aafdb831a9496649d6b326f6",
+        "hash_scope": "Only parent handoff text and call-summary text; neither digest is the webpage hash."
+      },
+      "original_sha256": null,
+      "adopted_claims": [
+        {
+          "locator": "L68",
+          "claim": "Page date and issuing center attribution."
+        },
+        {
+          "locator": "L70",
+          "claim": "Institution describes the method as a system comprehensive factor method centered on input-occupancy-output technology."
+        },
+        {
+          "locator": "L71",
+          "claim": "Year-end institutional article reports May 2025 submission of national and selected main-producing-region forecasts to central leaders and relevant departments."
+        },
+        {
+          "locator": "L74",
+          "claim": "Institution states reference use by central and provincial departments for grain/cotton/oil trade, procurement, storage, production planning and scheduling."
+        }
+      ],
+      "limitations": [
+        "Not the May original submission or proof of public release then.",
+        "No fixed six-month harvest lead time or realized procurement benefit established.",
+        "Formal equations, full variable processing and data revisions not read.",
+        "The linked National Bureau of Statistics announcement was not independently opened.",
+        "Regional below-0.22% summary conflicts with listed 2025 numbers; not adopted.",
+        "National error numbers and international rankings not used in the article.",
+        "Institutional stated use is not an implementer case or independent impact evaluation."
+      ],
+      "independence": "Separate collection role does not make the institutional article an independent performance evaluation; S01 and S03 are one publication."
+    }
+  ],
+  "operation_summary": {
+    "local_collection_and_recovery": {
+      "Tavily_basic_Search": 4,
+      "Research": 0,
+      "balance_or_usage": 0,
+      "source_originals_obtained": 0,
+      "HTTPS_fetch_attempts": 3,
+      "DNS_failures": 1,
+      "TLS_failures": 2,
+      "HTTP_actions_denied_not_executed": 1,
+      "independent_method_web_open": 1,
+      "web_fetch_service_timeouts": 1,
+      "HTTPS_attempts_by_phase": {
+        "initial_collection": 2,
+        "S02_recovery": 1
+      },
+      "source_originals_obtained_note": "Original files obtained by local collection and S02 recovery only; zero. Does not erase later cloud successful reading."
+    },
+    "cloud_collector_reported": {
+      "web__run_calls": 2,
+      "search_queries": 2,
+      "open_targets": 3,
+      "successful_original_page_reads": 1,
+      "open_timeout_failures": 1,
+      "open_cache_miss": 1,
+      "Tavily": 0,
+      "balance_queries": 0,
+      "retries": 0,
+      "NBS_link_opened": false,
+      "May_submission_obtained": false,
+      "unadopted_targets": "Person introduction (timeout) and 2008 project news (cache miss) remained Search-only and were not used.",
+      "basis": "Parent call-summary handoff; full original web receipts not supplied."
+    },
+    "author": {
+      "external_requests": 0,
+      "network_original_page_reads": 0,
+      "adopted_external_articles_via_handoff": 1,
+      "original_page_files_received": 0
+    },
+    "aggregation_boundary": "Local failures and parent cloud reading are separate acquisition records; do not report all external evidence as zero or count the same article twice."
+  },
+  "discarded_searches": "Search 2-4 returned unrelated results; retained only in controlled receipts, not evidence. Submitted query and provider-echo query may differ; both retained locally.",
+  "publication_boundary": "Only approved necessary summaries, source/line locators, acquisition counts and handoff digest scope are included. Full handoff/CALLS text, raw receipts, original logs, webpage files and credentials are not publication candidates.",
+  "analysis_date": "2026-10-25",
+  "video_directory_issue": 17,
+  "scope": {
+    "region": "中国",
+    "analysis_window": "2026—2036",
+    "purpose": "预测到采购、仓储、储备与供应链决策的任务和培养接口",
+    "adopted_external_facts": [
+      "S03机构2025年末文章回述当年5月报送全国与部分主产区预测报告。",
+      "S03记载以投入占用产出技术为核心的系统综合因素预测法。",
+      "S03声明为中央及省级部门的粮棉油进出口、收购、储存、农业生产计划与调度提供参考。"
+    ],
+    "conditional_start": "若已有一个在决策前可取得的产量预测，且明确其对象、时间窗及不确定性。",
+    "no_empirical_deployment_claim": true,
+    "next_queue_item_started": false,
+    "adopted_external_articles": 1
+  },
+  "frozen_input": {
+    "collection_manifest_sha256": "1835a90332f0f9c7eba5d63ca5435c09f51d0fbf11a50306b990a762c65ec824",
+    "collection_manifest_bytes": 3824,
+    "collector_run": "collect-BV16NQZBdE2M-20261025",
+    "author_run": "author-BV16NQZBdE2M-20261025",
+    "recovery_manifest_sha256": "4b6e1560ac30fcca8eeaee966e91ee78adb50bc7db3217a11ae36839e00af511",
+    "recovery_manifest_bytes": 1646,
+    "recovery_run": "collect-recovery-S02-20261025",
+    "cloud_manifest_sha256": "9c6c55fa195066d1edafb92fed3cca06028a679891d43a979a1c9c8202ff8054",
+    "cloud_manifest_bytes": 699
+  },
+  "analytical_use": {
+    "video_signal": "V01仅用于定位预测进入决策的研究视角，不独立验证官方报告。",
+    "conditional_chain": "数据质量→建模检验与风险情景→领域约束下比较方案→执行记录与复盘；是分析任务拆解。",
+    "training_proposal": "受监督的假设项目，不表示已有院校供给、实际部署、新增职业或招聘增长。",
+    "research_questions": [
+      "决策时点能取得哪些粒度和版本的数据？",
+      "使用者是否据预测改变方案、执行与结果？",
+      "目标毕业年有哪些真实新人任务及受监督训练入口？"
+    ],
+    "official_anchor": "S03 institution retrospective submission, method-category and reference-use statements support the decision-service interface. Operational benefits and career implications remain conditional."
+  },
+  "revision": {
+    "date": "2026-10-25",
+    "reason": "Additional parent cloud official-original reading handoff and operation details received after provisional v1.",
+    "changed": "Factual anchor and source/readme acquisition status only; conditional task and training chain retained.",
+    "prior_author_manifest_sha256": "fab54b51ff69a1a5a13c7d744f5d81d8c56af9301966889501b4d04026849a91"
+  }
+}

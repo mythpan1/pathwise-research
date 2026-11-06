@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "task_ref": "LOCAL-pediatric-anesthesia-choices-20261103",
+  "baseline_commit": "aae2dfa91e8b7590a5e89cea98bb57afdaa49a48",
+  "checked_on": "2026-11-03",
+  "input_freeze_sha256": "6987b2d2f21ca48488749d1ce6e7c5ca8555c1a3cfc412cbe2e3bd0575ab6abc",
+  "scope": "Same university, two existing historical target majors; three training pages, two supplied policy URLs, one formal recruitment table and its applicable announcement/guide. No new admissions collection.",
+  "historical_sources": [
+    {
+      "id": "BASE-jiangsu-2025-imaging-pair",
+      "repo_path": "research/admissions/jiangsu-2025-imaging-pair.md",
+      "commit": "aae2dfa91e8b7590a5e89cea98bb57afdaa49a48",
+      "sha256": "c184e3e2c66e901ed5122b96917b9c4f35f982899e471a3ce5f06fe5ccfe30db",
+      "bytes": 42941,
+      "locators": [
+        "原表与全部已列成员；接受、专业分配与退档；必要事实桥"
+      ],
+      "supported_uses": [
+        "One 2025 Guangdong Medical University group and five displayed majors; record identifiers and historical counts/ranks only.",
+        "Guangdong allocation-rule body remains unverified; Jiangsu 2026 withdrawal rule is inherited reference, not 2027 verification.",
+        "P0/Q are old study assumptions, not user preferences."
+      ],
+      "reverification": "Fixed repository bytes read this run; underlying old external pages not re-opened this run."
+    },
+    {
+      "id": "BASE-clinical-medicine-careers",
+      "repo_path": "research/admissions/clinical-medicine-careers.md",
+      "commit": "aae2dfa91e8b7590a5e89cea98bb57afdaa49a48",
+      "sha256": "e8f76acc30a78862fdb0298ab12689c4b1ff3fca8c2d4c018fac22688ba085f0",
+      "bytes": 3773,
+      "locators": [
+        "培养与资格；2037年条件情景"
+      ],
+      "supported_uses": [
+        "Separate undergraduate education, physician exam eligibility, registration, residency and employment; no mechanical duplication of professional-masters and residency years."
+      ],
+      "reverification": "Fixed repository bytes read this run; underlying old external pages not re-opened this run."
+    },
+    {
+      "id": "BASE-demography-education-health-2037-choices",
+      "repo_path": "research/industry/demography-education-health-2037-choices.md",
+      "commit": "aae2dfa91e8b7590a5e89cea98bb57afdaa49a48",
+      "sha256": "f8f1fe9599f93967db2d89c226706048022267299ddfa6c3319b3421b458ad84",
+      "bytes": 10209,
+      "locators": [
+        "两条人口机制；同一R下的相对方向"
+      ],
+      "supported_uses": [
+        "Conditional demand/payment/organization/newcomer mechanism reused without adopting new local population figures."
+      ],
+      "reverification": "Fixed repository bytes read this run; underlying old external pages not re-opened this run."
+    },
+    {
+      "id": "BASE-service-organization-2037-choices",
+      "repo_path": "research/industry/service-organization-2037-choices.md",
+      "commit": "aae2dfa91e8b7590a5e89cea98bb57afdaa49a48",
+      "sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+      "bytes": 9963,
+      "locators": [
+        "固定同一任务；待遇风险"
+      ],
+      "supported_uses": [
+        "Conditional organization/productivity and actual employer/payment-chain comparison; no direct transfer of its industry samples into clinical jobs."
+      ],
+      "reverification": "Fixed repository bytes read this run; underlying old external pages not re-opened this run."
+    }
+  ],
+  "official_sources": [
+    {
+      "id": "TRN-GDMU-PED",
+      "title": "儿科学专业",
+      "url": "https://www.gdmu.edu.cn/info/1521/13027.htm",
+      "publisher": "广东医科大学",
+      "date": "2022-09-09",
+      "date_kind": "page_displayed_time",
+      "retrieved_on": "2026-11-03",
+      "scope": "广东医科大学五年本科学制学位",
+      "status": "rendered_original_site_content_verified",
+      "representation": "Browser rendered DOM serialization and visible text, not raw HTTP response bytes.",
+      "http_status": null,
+      "locators": [
+        "三、培养规格",
+        "能力要求（1）（2）（6）（10）；素质要求（4）"
+      ],
+      "evidence": [
+        {
+          "id": "TRN-GDMU-PED:dom.html",
+          "sha256": "ec14d52e0efc8a17c85508d220bf0018db020ef734a259fd86de77a03dd7d82f",
+          "bytes": 53569,
+          "representation": "rendered_DOM_serialization_not_HTTP_bytes"
+        },
+        {
+          "id": "TRN-GDMU-PED:visible.txt",
+          "sha256": "bcb73dfc59f80f769b5b3f80d793ed749beba0be3f755d22f20adbcb64c34e23",
+          "bytes": 8194,
+          "representation": "browser_document_body_innerText"
+        }
+      ],
+      "verified_uses": [
+        "Five-year program and medical bachelors degree in the school page; page date 2022-09-09, 2018 is program addition year.",
+        "Child-specific assessment/emergency-care and child/family communication are training objectives, not verified graduate competencies."
+      ],
+      "limits": [
+        "未来入学及毕业适用规则",
+        "完整医师资格和注册法律条件"
+      ]
+    },
+    {
+      "id": "TRN-GDMU-ANE",
+      "title": "专业设置",
+      "url": "https://dylcyxy.gdmu.edu.cn/jyjx/zysz.htm",
+      "publisher": "广东医科大学第一临床医学院",
+      "date": null,
+      "date_kind": "not_displayed",
+      "retrieved_on": "2026-11-03",
+      "scope": "广东医科大学五年本科学制学位",
+      "status": "rendered_original_site_content_verified",
+      "representation": "Browser rendered DOM serialization and visible text, not raw HTTP response bytes.",
+      "http_status": null,
+      "locators": [
+        "第2项麻醉学：学制、学位、培养目标"
+      ],
+      "evidence": [
+        {
+          "id": "TRN-GDMU-ANE:dom.html",
+          "sha256": "e3d72acff1413d626b22fd3039f5c2fe7b50ed1fabd0ecf27a4aa21bde91728b",
+          "bytes": 53112,
+          "representation": "rendered_DOM_serialization_not_HTTP_bytes"
+        },
+        {
+          "id": "TRN-GDMU-ANE:visible.txt",
+          "sha256": "6d167df477d574ff70be6303552fbfd01d1f21b5abece45a12e6342d0760e849",
+          "bytes": 5677,
+          "representation": "browser_document_body_innerText"
+        }
+      ],
+      "verified_uses": [
+        "Five years, undergraduate graduation certificate and medical bachelors degree.",
+        "Clinical anesthesia, pain care, critical illness and resuscitation are training-objective directions; not automatic job or practice authorization."
+      ],
+      "limits": [
+        "未来入学及毕业适用规则",
+        "完整医师资格和注册法律条件"
+      ]
+    },
+    {
+      "id": "TRN-SB-2026",
+      "title": "苏北人民医院 2026年度社会化和委培住院医师规范化培训招生简章",
+      "url": "https://www.yzsbh.com/Html/News/Articles/8178.html",
+      "publisher": "江苏省苏北人民医院",
+      "date": "2026-05-08",
+      "date_kind": "document_signature_date_not_verified_web_publication_date",
+      "retrieved_on": "2026-11-03",
+      "scope": "江苏扬州苏北人民医院2026社会化/委培住培学员",
+      "status": "rendered_original_site_content_verified",
+      "representation": "Browser rendered DOM serialization and visible text, not raw HTTP response bytes.",
+      "http_status": null,
+      "locators": [
+        "一、招收条件",
+        "五、培训年限及要求",
+        "六2、3、6、7、9、10、11",
+        "附表儿科、麻醉科行"
+      ],
+      "evidence": [
+        {
+          "id": "TRN-SB-2026:dom.html",
+          "sha256": "821b9eea2baf825ae5f27fcf8cf3122a282479cb0e2b9388131206d91bbb6bd7",
+          "bytes": 176643,
+          "representation": "rendered_DOM_serialization_not_HTTP_bytes"
+        },
+        {
+          "id": "TRN-SB-2026:visible.txt",
+          "sha256": "c3ec6f50088f314b7b24185693fb5225532963b6c9d95e22fc5a5a925d7e865b",
+          "bytes": 11258,
+          "representation": "browser_document_body_innerText"
+        }
+      ],
+      "verified_uses": [
+        "Pediatrics: three training places, bachelors or above, clinical medicine or pediatric-related background.",
+        "Anesthesiology: fifteen including directed trainees; non-directed count unknown, bachelors or above, clinical medicine or anesthesia-related background.",
+        "General duration three years with completion assessment; training contract terminates, retention only selective.",
+        "Both directions receive the stated additional CNY500/month shortage-training supplement; not a relative pay advantage or permanent salary.",
+        "Specific two-equal-treatment provisions are conditional; no automatic masters degree or indefinite new-graduate status."
+      ],
+      "limits": [
+        "独立网页发布时间",
+        "具体年龄放宽上限",
+        "15中定向/非定向人数",
+        "具体本科学历逐一资格审核结果",
+        "正式岗位职务/编制/留用率/长期收入",
+        "2032/2037规则",
+        "专硕衔接具体认定"
+      ]
+    },
+    {
+      "id": "PA-POLICY-CHILD-01",
+      "title": null,
+      "url": "https://www.nhc.gov.cn/yzygj/c100068/202504/57e9fc983bd74e7cb388af9d2557ecc9.shtml",
+      "publisher": null,
+      "publication_date": null,
+      "document_date": null,
+      "document_nature": null,
+      "retrieved_on": "2026-11-03",
+      "status": "access_condition_rejection_stopped",
+      "http_status_reported": 412,
+      "evidence": {
+        "id": "policy-nhc-412-web-text",
+        "sha256": "a0c8c33f49171d160620946a9f41b22f82d7514fa6ebd442504e0af493e2a59f",
+        "representation": "UTF-8 excerpt of the returned tool text; not raw HTML and not an origin HTTP response"
+      },
+      "verified_uses": [],
+      "limits": [
+        "Title, issuing body, issue/publication dates, validity, document nature and all substantive pediatric-policy content. URL path date is not verified publication metadata."
+      ],
+      "stop_reason": "Treat 412 precondition failure as access-condition denial; no retry, search, mirror, cache, other channel or bypass used.",
+      "retry_count": 0
+    },
+    {
+      "id": "PA-POLICY-ANES-02",
+      "title": "照顾“老的”，价格政策促进提升适老化医疗服务供给和质量",
+      "url": "https://www.nhsa.gov.cn/art/2026/4/22/art_14_20285.html",
+      "publisher": "国家医疗保障局网站／医保动态栏目",
+      "publication_date": "2026-04-22",
+      "document_date": null,
+      "document_nature": "Official website explanatory/news article summarizing price-project guidance; not the formal anesthesia guideline or local price schedule.",
+      "retrieved_on": "2026-11-03",
+      "status": "readable_rendered_official_page",
+      "http_status_reported": null,
+      "evidence": {
+        "id": "policy-nhsa-rendered-web-text",
+        "sha256": "4ec1bff5b2ffe59859c7b5671d3de1e0282c776042870e73fb722a7ae53ff309",
+        "representation": "UTF-8 web.run rendered page text with returned line labels; not raw HTML, not a PDF, no response headers"
+      },
+      "locators": {
+        "title_publication": "L7–L9",
+        "anesthesia_tasks_and_age_addon": "L21–L23",
+        "pain_examples_other_guidelines": "L24"
+      },
+      "verified_uses": [
+        "文章称麻醉类立项指南设80周岁及以上患者加收项，并以高龄患者术中生命体征监测、突发风险应对说明劳动和技术价值。",
+        "疼痛例子分属神经系统、骨骼肌肉和中医指南，不能自动归为麻醉医师的手术外任务。"
+      ],
+      "limits": [
+        "Exact formal guideline title, issue date, nationwide uniform amount or rate, effective date, local implementation, insurance reimbursement coverage or rate, personal salary, institutional net profit, staffing or hiring commitment.",
+        "The retrieved page provides no pediatric policy, population stock, regional pediatric capacity or fiscal-budget evidence."
+      ]
+    },
+    {
+      "id": "SB-2026-ANN",
+      "title": "江苏省苏北人民医院2026年公开招聘备案制工作人员公告",
+      "url": "https://www.yzsbh.com/Html/News/Articles/7942.html",
+      "publisher": "江苏省苏北人民医院",
+      "retrieved_on": "2026-11-03",
+      "region": "江苏省扬州市",
+      "standalone_issue_date": "2026-01-30",
+      "associated_announcement_date": "2026-01-30",
+      "evidence": {
+        "id": "SB-2026-ANN-original",
+        "sha256": "fd9f42cb1cc7d9bc5d2b4b26b24d9dab9e85515a7c3d648249c2ee188a1bc192",
+        "representation": "Original hospital HTML, HTTP 200"
+      },
+      "locators": [
+        "一（五）—（七）",
+        "二（一）报名时间",
+        "五、公示与聘用"
+      ],
+      "limits": [
+        "No separate publication time",
+        "No exact campus per post"
+      ],
+      "verified_uses": [
+        "Formal record-filing employment, signed appointment contract at reporting and reference to same-post public-establishment treatment; not public-establishment status.",
+        "Announcement I(6) offers distinct current-year status and undergraduate qualified-resident equivalent-treatment clauses; matching training specialty and all job requirements still matter.",
+        "I(7) prior-work clause is conditional for 2026 graduate researchers, not a universal minimum experience demand; individual equivalent-treatment application remains for eligibility review."
+      ]
+    },
+    {
+      "id": "SB-2026-POSTS",
+      "title": "江苏省苏北人民医院2026年公开招聘备案制工作人员岗位条件简介表",
+      "url": "https://www.yzsbh.com/Sites/Uploaded/File/2026/01/306390539557789635146185744.xlsx",
+      "publisher": "江苏省苏北人民医院",
+      "retrieved_on": "2026-11-03",
+      "region": "江苏省扬州市",
+      "standalone_issue_date": null,
+      "associated_announcement_date": "2026-01-30",
+      "evidence": {
+        "id": "SB-2026-POSTS-original",
+        "sha256": "014eb8769f661e49d1d5ceb74dc0b82faa3579c8f024e03faa2c6521e60a9022",
+        "representation": "Original hospital XLSX attachment, HTTP 200; read-only ZIP/XML extraction; no overwrite"
+      },
+      "locators": [
+        "备案制!A2:H2 headers",
+        "备案制!A9:H9 anesthesia row",
+        "备案制!A3:H19 full 17-post search for pediatric row"
+      ],
+      "limits": [
+        "No pediatric post in this table, not a zero regional vacancy count",
+        "Recruitment numbers are original plan, not current vacancies or actual hires"
+      ],
+      "sheet": "备案制",
+      "row": {
+        "range": "A9:H9",
+        "A_招聘代码": "07",
+        "B_招聘岗位": "麻醉科",
+        "C_专业要求": "麻醉学、临床医学（麻醉学方向）",
+        "D_招聘人数": 3,
+        "E_学历要求": "硕士研究生及以上",
+        "F_其他招聘条件": "2026年毕业生，取得相应学位，取得大学英语六级证书，取得相应专业住院医师规范化培训合格证书",
+        "G_笔试科目": "麻醉学",
+        "H_备注": null
+      },
+      "pediatric_row": null,
+      "plan_not_current_vacancy": true
+    },
+    {
+      "id": "SB-2026-GUIDE",
+      "title": "江苏省苏北人民医院2026年公开招聘备案制工作人员报考指南",
+      "url": "https://www.yzsbh.com/Sites/Uploaded/File/2026/01/306390539557791412955763874.doc",
+      "publisher": "江苏省苏北人民医院",
+      "retrieved_on": "2026-11-03",
+      "region": "江苏省扬州市",
+      "standalone_issue_date": null,
+      "associated_announcement_date": "2026-01-30",
+      "evidence": {
+        "id": "SB-2026-GUIDE-original",
+        "sha256": "045103011ffc9bd95bc33885414200ac699c45729d243a03c3a0ba3333c2bbaa",
+        "representation": "Original hospital DOC attachment, HTTP 200; converted locally to TXT and PDF for read-only inspection"
+      },
+      "locators": [
+        "一（二）证件截止时点，转PDF第1—2页，TXT行9—16",
+        "三：2026年毕业生，转PDF第2—3页，TXT行25—26",
+        "四：英语等级证书，转PDF第3页，TXT行27—29",
+        "五：专业审核，转PDF第3—4页，TXT行30—31"
+      ],
+      "limits": [
+        "PDF is local conversion, not official original PDF",
+        "No individual eligibility adjudication",
+        "Qualification certificate is not proof of current physician registration"
+      ],
+      "verified_uses": [
+        "Guide I(2): designated 2026 graduates/residency completers may obtain matching residency certificate by 2026-12-31; physician qualification certificate at application.",
+        "General 2026-graduate/no-employer interpretation must be read with special social-residency treatment.",
+        "Guide IV English equivalents and V employer/authority specialty review remain applicable; no blanket pediatric-to-anesthesia substitution."
+      ],
+      "derivative_evidence": {
+        "id": "SB-2026-GUIDE-local-rendered-PDF",
+        "sha256": "54bb0b51194ced5e3868dc3f7844f8150e9bbba5f0a9da747cf77a8413384564",
+        "representation": "Local conversion from official DOC; not official-source PDF",
+        "collector_visually_checked_pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "SB-2026-INDEX",
+      "title": "招聘计划与动态",
+      "url": "https://www.yzsbh.com/Html/News/Columns/16/Index.html",
+      "publisher": "江苏省苏北人民医院",
+      "retrieved_on": "2026-11-03",
+      "region": "江苏省扬州市",
+      "standalone_issue_date": null,
+      "associated_announcement_date": "2026-01-30",
+      "evidence": {
+        "id": "SB-2026-INDEX-original",
+        "sha256": "c7c2651a0a774fe694ab524ac85346875ccd765f4d558998e568833f6d3b71f9",
+        "representation": "Original hospital HTML, HTTP 200; publication-date corroboration only"
+      },
+      "locators": [
+        "2026-01-30公告条目"
+      ],
+      "limits": [],
+      "date_use": "Listing corroborates announcement publication date; index page issue date is unknown."
+    }
+  ],
+  "claim_map": {
+    "historical_group_and_two_targets": [
+      "BASE-jiangsu-2025-imaging-pair"
+    ],
+    "five_year_2032_conditional_bridge": [
+      "TRN-GDMU-PED",
+      "TRN-GDMU-ANE",
+      "BASE-clinical-medicine-careers"
+    ],
+    "training_not_employment": [
+      "TRN-SB-2026",
+      "SB-2026-ANN",
+      "SB-2026-POSTS",
+      "SB-2026-GUIDE"
+    ],
+    "equivalent_treatment_is_conditional": [
+      "SB-2026-ANN",
+      "SB-2026-GUIDE",
+      "TRN-SB-2026"
+    ],
+    "pediatric_policy_no_claim": [
+      "PA-POLICY-CHILD-01"
+    ],
+    "narrow_older_anesthesia_price_explanation": [
+      "PA-POLICY-ANES-02"
+    ],
+    "population_to_2037_comparison": {
+      "type": "author_conditional_inference",
+      "conditions": "Same actual destination, age cohorts/migration and service use, payment/budget, organization, qualified supply and newcomer acceptance; no local quantified forecast."
+    }
+  },
+  "limits": [
+    "No student rank, task acceptance, whole-group acceptance, destination or financial capacity supplied.",
+    "NHC source body is unavailable after access-condition denial; no substantive policy claim adopted.",
+    "Training admission is distinct from formal employment. Two-equal-treatment clauses require exact recruitment conditions and do not grant a masters degree.",
+    "Current source facts do not confirm 2027 admissions eligibility, 2032 physician qualification or 2037 jobs.",
+    "Originals, complete rendered pages, screenshots, response headers, full tool returns and personal contacts are not repository artifacts."
+  ]
+}

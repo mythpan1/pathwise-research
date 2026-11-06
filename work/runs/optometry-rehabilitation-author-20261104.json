@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "eye-rehab-author-20261104-r1",
+  "actor_id": "eye-rehab-author",
+  "role": "independent research author; not reviewer or publisher",
+  "task_ref": "LOCAL-EYE-REHAB-CHOICES-20261104",
+  "parent_run_id": null,
+  "client": "native assistant subagent",
+  "transport": "native",
+  "tools": [
+    "functions.exec",
+    "exec_command",
+    "skills.read",
+    "collaboration.send_message"
+  ],
+  "model": {
+    "requested": "gpt-6-astra",
+    "reported": null,
+    "source": "Delegated task specifies requested model. No independent runtime report is exposed to this author.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": "ultra",
+    "reported": null,
+    "source": "Delegated task specifies requested effort. No independent runtime report is exposed to this author.",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-04T00:26:12.347312+00:00",
+  "recorded_by_run_id": "eye-rehab-author-20261104-r1",
+  "read_rules_ref": {
+    "commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "reviews/README.md",
+      "templates/agent-run.json",
+      "templates/work-step.json"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "78802d133dac074e0c8749b6e291e62e5afaf8f98c7be674222c10abca19d4c8",
+      "docs/agent-workflow.md": "2b43a96549c40f5678d5f98c3d25596ba7b337df4ab84979dc092b330ecc25f1",
+      "docs/agent-provenance.md": "f1cee3073c12c7f6246277e620d13393d94252293a69e50edbfd8297b75ab88f",
+      "docs/experiment-protocol.md": "4d160949e5689c0e5f771cd036cb36f5ddabef055aea0aa6ef0081c9d82c14f6",
+      "reviews/README.md": "8d26b4e9d7b836e2a52c4b73eea777dba6c71d600a49aba2b33690e6a6850f92",
+      "templates/agent-run.json": "be096acf9585b4a5c75c85bacc80edc4006960972ab83db5913beb6d1685a501",
+      "templates/work-step.json": "c75a64dc701e964558a7f7e26423e964ed6caac089bda163d3a156e723c9ed6b"
+    }
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-optometry-rehabilitation-choices.md",
+    "research/admissions/jiangsu-optometry-rehabilitation-choices-sources.json",
+    "research/admissions/science-health-career-pathways.md",
+    "work/runs/optometry-rehabilitation-author-20261104.json"
+  ],
+  "note": "Original author record, updated by the same author after receiving frozen inputs. Requested configuration is not backend certification; parent run ID not supplied. Research and author self-check only, no independent review, publishing, GitHub writes, new search, CSV read or 2026 admissions collection. New evidence is retained tool text rather than original HTML/PDF bytes; policy visual table review incomplete. No self-hash or future publication claim.",
+  "input_snapshot_sha256": "0d134b786a312bbde320776fb92dcf133d06c47069bacf435bc6f3e10d2031d7",
+  "source_evidence_sha256": "1839fed9cd896ba4cc58fd870c01edf5e68c15fabac85fdc9a87e90586c71d25",
+  "source_index_sha256": "015b2e9760bb4af3d4866bec343e72c248c8c899ec87723a73952060d83e6061",
+  "updated_at": "2026-11-04T00:33:00.785343+00:00"
+}

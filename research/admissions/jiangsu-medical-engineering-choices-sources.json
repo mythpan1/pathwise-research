@@ -1,0 +1,532 @@
+{
+  "schema": "bounded-medical-engineering-choice-sources-v1",
+  "research_date": "2026-11-04",
+  "base_commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+  "task_ref": "LOCAL-medical-engineering-choices-20261104",
+  "report_path": "research/admissions/jiangsu-medical-engineering-choices.md",
+  "scope": {
+    "admissions": "Only previously adopted 2025 Jiangsu physics NJMU group 05 summaries; no CSV read and no new 2026 admissions collection.",
+    "career": "Two independent employer evidence families plus two school identity/time bridges. Historical advertisements, not hiring outcomes or 2031 promises.",
+    "research_assumptions": "P is non-user engineering-task comparison; shared acceptable-city set and finite total money/time budget. No inherited personal rank, old P0/Q or assumed Nanjing-only preference.",
+    "school_use": "Only 2024 standard four-year duration and engineering degree; no course-to-skill or course-to-employer equivalence."
+  },
+  "privacy": "Only this bounded source index, the report, the exact navigation append and the author record are candidate publication files. No source PDF/PNG, converted full text, contacts, raw tool returns, local absolute paths, CSV or internal logs.",
+  "author_verification": {
+    "frozen_input_manifest_sha256": "bc37156d971bfc6014bcbbcb7298735859bfab07545d81af6c59899aa992bb60",
+    "input_files_checked": 38,
+    "input_sha256_and_bytes_match": true,
+    "repository_git_blobs_recomputed": 25,
+    "repository_git_blobs_match": true,
+    "original_web_pages_revisited_by_author": false,
+    "pdf_original_bytes_hashed": true,
+    "pdf_page_3_render_personally_inspected": true,
+    "pdf_visual_result": "Rows 099 and 092 were independently read across all seven columns; no field transplantation.",
+    "level": "Author input and artifact self-check only; no independent review, CI or real-world outcome verification."
+  },
+  "historical_data": {
+    "source_id": "C1",
+    "year": 2025,
+    "origin_province": "江苏",
+    "category": "物理",
+    "school": "南京医科大学",
+    "group": "05",
+    "group_record": 10125,
+    "group_min_score": 561,
+    "group_max_score": 612,
+    "group_min_rank": 77094,
+    "group_admitted_count": 859,
+    "group_subject_field": "物+化",
+    "targets": [
+      {
+        "label": "A",
+        "major": "生物医学工程",
+        "record": 10146,
+        "min_score": 571,
+        "min_rank": 64678,
+        "admitted_count": 66
+      },
+      {
+        "label": "B",
+        "major": "智能医学工程",
+        "record": 10148,
+        "min_score": 570,
+        "min_rank": 65872,
+        "admitted_count": 36
+      }
+    ],
+    "difference_in_old_target_min_rank": 1194,
+    "displayed_members": 11,
+    "boundaries": [
+      "Admitted count is not a plan or allocation weight.",
+      "Displayed member total reconciles to 859; official completeness not established.",
+      "Both targets are in one historical group, not two parallel fallback groups.",
+      "Old rank differences are not user rank, probability, target-year boundary or safety margin.",
+      "Other nine members remain explicit in the report and retain separate unknown acceptance.",
+      "2026 allocation/withdrawal references are reused only for their applicable year; no current-year admissions re-collection."
+    ]
+  },
+  "new_sources": [
+    {
+      "id": "J1",
+      "title": "麦科田医疗2026届春季校园招聘",
+      "publisher": "河北工业大学就业网承载雇主简章",
+      "url": "https://career.hebut.edu.cn/correcruit/content/id/76798.html",
+      "published": "2026-03-06",
+      "collected_on": "2026-11-04",
+      "representation": "Selected readable conversion of the university-hosted employer advertisement; not original HTML. L numbers locate the frozen conversion, not permanent website lines.",
+      "employer_count": 1,
+      "locations": [
+        "岗位14 整机测试；转换L437–457",
+        "岗位22 国内用户服务；转换L619–640",
+        "岗位9 Java后端；转换L331–348",
+        "岗位2 图像/信号/控制算法；转换L142–169",
+        "岗位19 产品营销；转换L550–570",
+        "转换L94及L107 公司名称差异"
+      ],
+      "bounded_facts": [
+        {
+          "role": "整机测试工程师",
+          "location": "深圳",
+          "degree": "本科及以上",
+          "precise_target_major": "生物医学工程",
+          "task_summary": "产品功能性能验证、测试方案和报告、故障反馈跟踪/评审、标准验证及注册检测相关工作。",
+          "conditions": "软件硬件基础、动手实践、实验室仪器知识和沟通等；未认定所有职责由新人独立完成。"
+        },
+        {
+          "role": "用户服务工程师（国内）",
+          "location": [
+            "杭州",
+            "成都",
+            "深圳",
+            "北京",
+            "济南"
+          ],
+          "degree": "本科及以上",
+          "precise_target_major": "生物医学工程",
+          "task_summary": "安装维护维修、回访、客户/代理商培训、信息反馈与营销协作。",
+          "conditions": "CET-4及以上、英语能力及高频出差；不把差旅条件移到测试或Java。"
+        },
+        {
+          "role": "Java后端工程师",
+          "location": "南京",
+          "degree": "本科及以上",
+          "precise_target_major": "生物医学工程",
+          "task_summary": "后端代码、系统或模块开发、性能优化和跨岗位协作。",
+          "conditions": "该岗本身列生物医学工程、计算机等相关专业；面向对象及操作系统/数据库/网络知识另成立。"
+        },
+        {
+          "role": "算法工程师（图像/信号/控制）",
+          "location": "深圳",
+          "degree": "硕士及以上",
+          "precise_target_major": "生物医学工程",
+          "task_summary": "医疗产品算法研发、实验验证、需求与临床应用支持等。",
+          "conditions": "数学、C/C++及项目条件；仅该细岗硕士门槛，不是全国算法规则或B的专属出口。"
+        },
+        {
+          "role": "产品营销工程师",
+          "location": "全国",
+          "degree": "本科及以上",
+          "major_requirement": "专业不限",
+          "task_summary": "销售/市场目标、客户维护、产品方案、售后支持和会展。",
+          "conditions": "就专业门槛两目标共享，但任务、城市和用工须另接受；生医优先缩写不展开。"
+        }
+      ],
+      "cannot_support": [
+        "B未被上述技术岗精确列名不等永久拒收；相关专业需雇主决定。",
+        "学校课程/主干不能代替精确专业接收或实际训练。",
+        "同一广告多岗不构成多独立雇主；页头工资/60总人数不分配到细岗或2031。",
+        "未核合同、试用、薪资兑现、带教、实录、现金流、订单及AI部署；不称仍在招聘。"
+      ],
+      "conflict": "名片称深圳麦科田生物医疗技术有限公司，正文简介称股份有限公司；签约法人未知。",
+      "captures": [
+        {
+          "kind": "selected_converted_web_text",
+          "sha256": "194755bc347b7f9028c09eb6e6b487992f681ca1cb51191b2e7697315bb5fee3",
+          "bytes": 9374,
+          "published": false
+        }
+      ]
+    },
+    {
+      "id": "H1",
+      "title": "河北医科大学第四医院2025年公开招聘工作人员公告及附件1",
+      "publisher": "河北医科大学第四医院/河北省肿瘤医院官网",
+      "url": "https://www.hbydsy.com/info/1013/8558.htm",
+      "attachment_url": "https://www.hbydsy.com/system/_content/download.jsp?owner=1576669181&urltype=news.DownloadAttachUrl&wbfileid=2154444",
+      "published": "2025-11-18",
+      "collected_on": "2026-11-04",
+      "representation": "Main announcement is a selected readable web conversion. Attachment 1 is original PDF bytes obtained by the collector; text conversion and page 3 PNG are distinct derivatives. Author hashed all and visually read the PNG.",
+      "employer_count": 1,
+      "locations": [
+        "附件1第3页099与092完整行",
+        "正文 四/五 招聘对象、条件；转换L86、L89–101、L118–141",
+        "正文 招聘考试、体检、公示、聘用和待遇；转换L192–211"
+      ],
+      "rows": [
+        {
+          "row": "099",
+          "category": "C类",
+          "department": "病理科",
+          "major": "智能医学工程",
+          "advertised_count": 1,
+          "position": "工程师",
+          "degree": "本科"
+        },
+        {
+          "row": "092",
+          "category": "B类",
+          "department": "CT磁共振科",
+          "major": [
+            "应用统计",
+            "生物医学工程"
+          ],
+          "advertised_count": 1,
+          "position": "工程师",
+          "degree": [
+            "博士研究生",
+            "硕士研究生"
+          ]
+        }
+      ],
+      "applicable_conditions": {
+        "population": "主要面向2024、2025年国家统招全日制普通高校非定向毕业生及按规定完成学历学位认证的留学回国人员；一般、岗位条件同时适用。",
+        "C_class_2024": "2000年1月1日之后出生；2024年7月31日前取得学历、学位证书或相应认证。",
+        "C_class_2025": "2001年1月1日之后出生；2025年7月31日前取得上述证书或认证。",
+        "C_class_exam_score": "高考成绩不低于480分，只是该雇主历史条件，不能由江苏旧专业最低分推个人或2031资格。",
+        "B_class": "另有初始全日制本科学历及各毕业年度的年龄、取证日期等限制；不借C类条件覆盖092。",
+        "selection": "B/C笔试、面试；笔试按同类前2/3确定合格线，再按岗1:3进面试，人数不足或末位并列按原文；面试、体检、公示及聘用另成立。公告人数不是录用结果，可少于公告数。",
+        "employment": "按程序聘用并实行试用期，试用期计入聘用合同期限，期满考核合格正式聘用、不合格取消；编制和具体合同期限未列。"
+      },
+      "cannot_support": [
+        "099职责、工具、带教、班次、具体院区和精确待遇未列。",
+        "不能命名数字病理实施、AI算法、病理诊断或技师工作；工程师是岗位名，不认定已获职称、编制、医师或签发权限。",
+        "099和092属于同一医院，不能计作两个雇主；均非2031承诺或正在招聘事实。",
+        "医院位于石家庄，不作为南京或其他城市招聘实况。",
+        "未取任何资格通过或录用名单；未列条件不等免条件。"
+      ],
+      "captures": [
+        {
+          "kind": "selected_converted_web_text",
+          "sha256": "0c53aa7f2572a3081b806d051c64f126f431481f71845e28b23a97e4940372c9",
+          "bytes": 5189,
+          "published": false
+        },
+        {
+          "kind": "original_pdf_bytes",
+          "sha256": "61967e3c0674c8b168b2713adba5646cf678e87ebdcf789cf1ad474d64922f74",
+          "bytes": 109361,
+          "published": false
+        },
+        {
+          "kind": "pdftotext_derivative",
+          "sha256": "e3c66a08a556db0b3a2053dd1682fae2a019ef88db7e95990fa612fcdc6ea23d",
+          "bytes": 11746,
+          "published": false
+        },
+        {
+          "kind": "page_3_png_derivative",
+          "sha256": "23ace1dcd44d5a4e8151347113816c2fffb69ddbf3a97a470ece1f7ae9f8deb4",
+          "bytes": 352347,
+          "published": false
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "title": "生物医学工程",
+      "publisher": "南京医科大学生物医学工程与信息学院",
+      "url": "https://bmei.njmu.edu.cn/2024/0202/c10262a254985/page.htm",
+      "published": "2024-02-02",
+      "collected_on": "2026-11-04",
+      "representation": "Selected readable web conversion; not original HTML.",
+      "locations": [
+        "一、基本信息；转换L59–65"
+      ],
+      "bounded_facts": [
+        "2024校方页列标准四年制、授工学。"
+      ],
+      "cannot_support": [
+        "不证明2027培养承诺、实际能力、课程质量、雇主接收或医学执业资格；不采用课程名和就业宣传。"
+      ],
+      "captures": [
+        {
+          "kind": "selected_converted_web_text",
+          "sha256": "b2189bdb165542a25b86f22b60ab5a37859682aac66bb765541a7ea04383980a",
+          "bytes": 1596,
+          "published": false
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "智能医学工程",
+      "publisher": "南京医科大学生物医学工程与信息学院",
+      "url": "https://bmei.njmu.edu.cn/2024/0202/c10262a254988/page.htm",
+      "published": "2024-02-02",
+      "collected_on": "2026-11-04",
+      "representation": "Selected readable web conversion; not original HTML.",
+      "locations": [
+        "一、基本信息；转换L60–66"
+      ],
+      "bounded_facts": [
+        "2024校方页列标准四年制、授工学。"
+      ],
+      "cannot_support": [
+        "不因医学名称、计算机主干或课程把该学历视为医师资格或计算机专业，不代雇主认可；不采用课程名和就业宣传。"
+      ],
+      "captures": [
+        {
+          "kind": "selected_converted_web_text",
+          "sha256": "4bbdd6e1c223b444429c99e871ee35a19c8d0aa77c5ad8a9e5dedee5c1042be5",
+          "bytes": 1877,
+          "published": false
+        }
+      ]
+    }
+  ],
+  "fixed_reuse": [
+    {
+      "id": "C1",
+      "path": "research/admissions/jiangsu-2025-imaging-pair.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/jiangsu-2025-imaging-pair.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "133df5f31f719c674c5f8da026e921858c3e9465",
+      "sha256": "c184e3e2c66e901ed5122b96917b9c4f35f982899e471a3ce5f06fe5ccfe30db",
+      "bytes": 42941,
+      "locations": [
+        "开头历史组/全部成员、接受/分配退档及南京机制段"
+      ],
+      "use": "旧2025南医05完整11显示成员与组/目标字段；2026规则仅按适用年复用，不继承旧P0/Q或54120。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C2",
+      "path": "research/admissions/jiangsu-54120-care-imaging-software.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/jiangsu-54120-care-imaging-software.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "bb35b909f8b948aff44da50630c590b801172198",
+      "sha256": "1a84c92f2276a336b9f884517395b369bfce9b4b83614ab00c4cab6a7aab1711",
+      "bytes": 23251,
+      "locations": [
+        "第二节E2、第三至五节"
+      ],
+      "use": "已采用数字运维采购支点与付款/组织机制；不替两医工认资格。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C2-index",
+      "path": "research/admissions/jiangsu-54120-care-imaging-software-sources.json",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/jiangsu-54120-care-imaging-software-sources.json",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "1430976f783f42c12578b0661e83ae09e672eb07",
+      "sha256": "b5f2dca52f691dfd30964be1e13b5840eff421537708cd509f7b0e4a8ba7d167",
+      "bytes": 26952,
+      "locations": [
+        "sources[id=E2]"
+      ],
+      "use": "旧采购元数据及边界；非本轮原站重访。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C3",
+      "path": "research/admissions/pharma-device-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/pharma-device-careers.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "56137bc78a5b841e1529bd3ca77b336e5cf22e1b",
+      "sha256": "8adc98eff01bf6ac2d2ced91db45dcc14ec4945638d63b607df5b9355884d109",
+      "bytes": 3317,
+      "locations": [
+        "专业与岗位、2037条件情景"
+      ],
+      "use": "前篇泛器械/药企框架与本轮导航承接；不借药企列表认工程单岗。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C4",
+      "path": "research/admissions/njmu-pharma-statistics-2037.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/njmu-pharma-statistics-2037.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "1bb4c971640aefccfb932c3813174d539e004f60",
+      "sha256": "d20acaac041428b634f8933d0bbe4ddb44e8c7e0023e28d1c7161e667f7b4b77",
+      "bytes": 16117,
+      "locations": [
+        "本文开头与付款链、2031/2037段"
+      ],
+      "use": "区分生产/研究资金与人才入口；不借CRO或QA认两医工。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C5",
+      "path": "research/admissions/jiangsu-optometry-rehabilitation-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/jiangsu-optometry-rehabilitation-choices.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "932e81a0678436fd542cfbe88f3d80cc21625d48",
+      "sha256": "cfe7068c5773b59f2bc493f7a1906728e63493c56a64033943ea4a81e6a018ff",
+      "bytes": 18657,
+      "locations": [
+        "事实层、付款/任务与2037段"
+      ],
+      "use": "划清临床服务、岗位与工程职责，不复制资格或重写服务卡。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C6",
+      "path": "research/admissions/jiangsu-lab-testing-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/jiangsu-lab-testing-choices.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "4a9bf7a0a69bee2d0a7ae4d0e522b6b71a2943ce",
+      "sha256": "d35df91954e54b3956a57ddbddbd409feea7ddd8856614c857bc801a254232eb",
+      "bytes": 24760,
+      "locations": [
+        "事实层、P及分工反转、2037段"
+      ],
+      "use": "实验质量不等整机验证，借用共同资源/任务反馈比较方法而非复用接收结论。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C7",
+      "path": "research/admissions/software-career-pathways.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/admissions/software-career-pathways.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "556ed6d00edf361a3c39bf2ff123fd67d1f0794c",
+      "sha256": "2f14e9d0acc9a39be35f9672dcebc685315a75ca01cbe1aa350153e82b5532ec",
+      "bytes": 7937,
+      "locations": [
+        "2031能否进入与2037能否延续"
+      ],
+      "use": "多客户与软件任务迁移机制，不把B当计算机，不借其他雇主证明本轮技术接受。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C8",
+      "path": "research/industry/demography-education-health-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/industry/demography-education-health-2037-choices.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "1b7c51dc0501ab5bf0c7dad8fbac3946f1892b57",
+      "sha256": "f8f1fe9599f93967db2d89c226706048022267299ddfa6c3319b3421b458ad84",
+      "bytes": 10209,
+      "locations": [
+        "两条人口机制、同一R下方向"
+      ],
+      "use": "人口需要经实际使用/支付与组织到新人；无新人口数字。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    },
+    {
+      "id": "C9",
+      "path": "research/industry/service-organization-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/fd640406b2fa6230b77799a75652432cc0683f95/research/industry/service-organization-2037-choices.md",
+      "commit": "fd640406b2fa6230b77799a75652432cc0683f95",
+      "git_blob": "62964bce584061e66a93b131ecec683a69fd2778",
+      "sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+      "bytes": 9963,
+      "locations": [
+        "固定同一任务、组织变化与待遇风险"
+      ],
+      "use": "工具/熟手集中及反馈任务的条件机制，不证两雇主已外包或裁撤。",
+      "author_verification": "Frozen repository UTF-8 content read; bytes/SHA-256 and computed Git blob checked. Referenced original external pages not newly revisited."
+    }
+  ],
+  "reused_original_pointer": {
+    "id": "P-existing",
+    "via": [
+      "C2",
+      "C2-index"
+    ],
+    "title": "南京市江宁医院数据中心设备维保及运维技术支撑服务项目采购公告",
+    "publisher": "中国政府采购网；采购人南京市江宁医院",
+    "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202606/t20260630_26841815.htm",
+    "published": "2026-06-30",
+    "previous_capture_date": "2026-11-03",
+    "author_revisited": false,
+    "locations": [
+      "C2第二节E2与第三节医院IT行",
+      "C2-index sources[id=E2]，旧转换L48–56"
+    ],
+    "supports": "医院曾采购数据中心维保/运维技术支撑，自合同生效一年；只作数字服务客户机制支点。",
+    "cannot_support": "不证硬件器械订单、采购附件、成交、验收、回款、资金来源、开发/接口职责、雇佣或本科新人；不证麦科田是供应商、河北四院预算或共同冲击已发生。",
+    "previous_capture_sha256": "2906a7ab3b132a40fb37afd9c69928f992cc7e05c6638de03388419daca40956",
+    "hash_scope": "Prior adopted index reports a line-extract hash, not original HTML; that extract was not newly retrieved or independently rehashed in this author run."
+  },
+  "claim_map": [
+    {
+      "claim": "F1 两真实目标与完整11显示成员、同组边界",
+      "evidence": [
+        "C1"
+      ],
+      "status": "Reused historical summary, not official original admissions verification."
+    },
+    {
+      "claim": "F2 A有本科测试/用户服务/Java与硕士特定算法多入口",
+      "evidence": [
+        "J1"
+      ],
+      "status": "Advertisement requirements and described tasks only; no hiring outcomes."
+    },
+    {
+      "claim": "F3 B存在本科医院工程招聘口径；092另为硕博",
+      "evidence": [
+        "H1"
+      ],
+      "status": "PDF rows visually checked together with announcement; actual 099 tasks unknown."
+    },
+    {
+      "claim": "F4 四年工学与条件2031时间桥",
+      "evidence": [
+        "T1",
+        "T2"
+      ],
+      "status": "2024 school identity only; target cohort continuity and completion are assumptions."
+    },
+    {
+      "claim": "I1 医院支出、供应商资金和新人分工须逐段连接",
+      "evidence": [
+        "C1",
+        "C2",
+        "P-existing",
+        "C8",
+        "C9",
+        "J1",
+        "H1"
+      ],
+      "status": "Conditional mechanism, not measured employer financial or staffing facts."
+    },
+    {
+      "claim": "D1 宽P下两本科目标并列，明确测试/代码时A暂前",
+      "evidence": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "status": "Author bounded recommendation under explicit non-user task, city and total-resource assumptions; no general ranking."
+    },
+    {
+      "claim": "D2 S1/S2在同P/R/资源下按新人反馈与补差改判",
+      "evidence": [
+        "I1",
+        "F2",
+        "F3"
+      ],
+      "status": "Conditional scenarios; hospital feedback duties are not asserted to be row 099 duties."
+    },
+    {
+      "claim": "D3 到2037按实际经验与新岗接收，不自然升级",
+      "evidence": [
+        "C7",
+        "C8",
+        "C9",
+        "F2",
+        "F3"
+      ],
+      "status": "Conditional continuity and conversion analysis, not outcome prediction."
+    }
+  ],
+  "unresolved": [
+    "Real user rank, cohort, tasks, acceptable cities, travel, marketing, hospital work and postgraduate choice.",
+    "Official target-year full group, eligibility, health conditions, duration and allocation rules.",
+    "Actual hospital 099 duties, authorizations, contract status, specific term and training.",
+    "Whether B is accepted by the cited supplier technical roles or comparable specific roles.",
+    "Actual school training access and each path total time/money cost under the same resource constraint.",
+    "Employer actual junior work, feedback, funding, revenue or cash collection and tool deployment.",
+    "Comparable recruitment and qualified applicant supply, wages, actual hires, 2031 jobs and 2037 outcomes."
+  ]
+}

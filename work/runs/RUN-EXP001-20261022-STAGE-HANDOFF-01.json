@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "RUN-EXP001-20261022-STAGE-HANDOFF-01",
+  "actor_id": "Chat-stage-executor",
+  "role": "bounded executor; author, self-check and PR handoff; not independent reviewer or merger",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/12",
+  "parent_run_id": null,
+  "client": "ChatGPT",
+  "transport": "native delegated agent",
+  "tools": [
+    "GitHub connector",
+    "RDC read-only file tools",
+    "cloud local file tools"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable runtime invocation metadata provided for this run.",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "No verifiable runtime invocation metadata provided for this run.",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-10-22T09:20:36.903082+00:00",
+  "recorded_by_run_id": "RUN-EXP001-20261022-STAGE-HANDOFF-01",
+  "read_rules_ref": {
+    "commit": "5bcae8944ad4a985a2c29f25f1ad31efae150ed1",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/research-architecture.md",
+      "docs/research-methods.md",
+      "docs/experiment-protocol.md",
+      "docs/agent-provenance.md",
+      "reviews/README.md"
+    ],
+    "sha256_by_path": {
+      "AGENTS.md": "9c27223b142431dfec029944fd3dc4d3712c3b63f3133153f7a59045d6b296b1",
+      "docs/agent-workflow.md": "37c3dd2b30e22f953b79707ee7e7e5ab9fc9dd11c68695e49d29693ea920870d",
+      "docs/research-architecture.md": "7c6b5ca5e12b0896f9078088a36907d9497671fd6191cae9a1ad5f3c676dd784",
+      "docs/research-methods.md": "93e83483e069bbb0cc8362f9f3734fe2a5b41104f2f893e44946916bdd94d82e",
+      "docs/experiment-protocol.md": "a6976a1d826e2251fa4aa494345fd23edefc63c1b9b36f448abbc201a3c3a57c",
+      "docs/agent-provenance.md": "5c3cd807445b84447e06593bea675df925434ae4c153a893cf6c62329837bd42",
+      "reviews/README.md": "e306842160af48f2034338a9a7d88594893c70becdbeac1ac71e7ac9899e4e21"
+    }
+  },
+  "owned_paths": [
+    "research/experiments/EXP-001-demography-education/stages/20261022-existing-evidence/REPORT.md",
+    "research/experiments/EXP-001-demography-education/stages/20261022-existing-evidence/sources.json",
+    "research/experiments/EXP-001-demography-education/README.md",
+    "research/experiments/EXP-001-demography-education/HANDOFF.md",
+    "work/runs/RUN-EXP001-20261022-STAGE-HANDOFF-01.json",
+    "work/steps/RUN-EXP001-20261022-STAGE-HANDOFF-01.jsonl"
+  ],
+  "note": "Parent Chat dispatch authorized this one consolidation unit. Parent run ID not supplied; do not infer it. Raw inputs and logs stay local; this is a selected provenance summary. User authorized starting one small task after workflow pause. Dot review and merge remain pending; no ACP or new factual web research."
+}

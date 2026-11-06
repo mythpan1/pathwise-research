@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "record_type": "work_step",
+  "is_template": false,
+  "step_id": "STEP-EXP001-G01-TABLE-CHECK-COMPLETE",
+  "action_id": "ACT-EXP001-G01-TABLE-CHECK",
+  "run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "recorded_by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/8",
+  "parent_step_ids": [
+    "STEP-EXP001-G01-SOURCE-COLLECTION-COMPLETE",
+    "STEP-EXP001-G01-S06-DELEGATION-INTERRUPTED"
+  ],
+  "retry_of": null,
+  "phase": "completed",
+  "recorded_at": "2026-10-22T14:49:22.485113+08:00",
+  "action": "Check yearbook TOCs, normalized text, page counts and target-table images",
+  "inputs": [
+    {
+      "source_id": "G01-S05",
+      "sha256": "65052c202656fae79eb4f26559c8cf8a8413ff8b15c139361498ab74ebd4739c",
+      "url": "https://www.shanzhou.gov.cn/group1/M00/06/B7/CqDI22oVU9OAaFYFAEEs-jhe-vk662.pdf"
+    },
+    {
+      "source_id": "G01-S06",
+      "sha256": "8a196679193a79c80c1fa0d32fd77dc70e183d681dd9d369e3dfbcc23f1132f4",
+      "url": "https://www.shanzhou.gov.cn/group1/M00/05/6E/CqDIKWgJ8_6AO8HOAFXhYONFNfA899.pdf"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/experiments/EXP-001-demography-education/evidence/G01-20261022/REPORT.md",
+      "sha256": "75067104a12fb1c0d27ed8a2333f26c03a03fdcdc5a11c5ca0a9a9fbe27f6494"
+    }
+  ],
+  "result": "Coordinator verified S05: 450 pages, physical 411–413 / printed 399–401. S06: 530 pages, physical 483–485 / printed 471–473. All six target-table pages viewed; no preschool column. S06 displays unit 万元 on three pages; not silently corrected or used as headcount. Both next pages start health tables. The child S06 attempt supplied no verified findings.",
+  "verification": {
+    "status": "verified",
+    "by_run_id": "RUN-EXP001-20261022-CHAT-G01-PUBLISH-01",
+    "evidence": [
+      "Coordinator checked actual tool outputs and specified source locations"
+    ]
+  },
+  "experiment_ref": {
+    "experiment_id": "EXP-001-demography-education",
+    "evidence_unit": "G01-20261022"
+  },
+  "unresolved": [
+    "No page-by-page review or full OCR of every yearbook page",
+    "No external validation of official statistics production"
+  ]
+}

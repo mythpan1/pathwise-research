@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "task_ref": "LOCAL-japanese-english-choices-20261104",
+  "research_date": "2026-11-04",
+  "research_base": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+  "scope": "2025江苏历史南农01日语/英语旧目标；2031/2037条件职业比较，不采新招生数据",
+  "source_policy": "仅发布脱敏定位、有限概述、适用边界和转换文本哈希；片段、完整返回、联系人和内部日志不上传。转换行只定位本次留存文本，不是网页固定原行。",
+  "new_sources": [
+    {
+      "id": "J1",
+      "title": "TCL中环领先2026届全球校园招聘简章",
+      "publisher": "TCL中环领先雇主简章，吉林大学就业网承载；单位名片为内蒙古中环领先半导体材料有限公司",
+      "url": "https://jdjyw.jlu.edu.cn/portal/recruit/details?id=8db0363b5cb14d2db661d4eac9201801",
+      "locations": [
+        "L41–50身份/日期",
+        "L195–214市场营销职责/条件",
+        "L237–239全页地点"
+      ],
+      "excerpt_sha256": "36a6fb8de3af1ff07f79db6fbfd118893d5d39922d859e78befb1f2bfd74e2d7",
+      "excerpt_bytes": 1720,
+      "representation": "高校就业网页工具可读转换文本的有限选段，非raw HTML或网页原字节；原片段受控留存，不上传",
+      "access_date": "2026-11-04",
+      "author_verification": "作者读取冻结转换片段并核SHA-256，未重访原页",
+      "published_or_updated": "2025-09-22 13:25:27",
+      "applies_to": "2026应届，市场营销类，本科及以上；全页工作地集合天津/宜兴/呼和浩特，未逐岗分配",
+      "bounded_summary": "日语专业优先；营销工作连接市场研究、产品推广及客户验证/验收/回款协作。单位名片为半导体材料公司。",
+      "limits": [
+        "优先非必须/录用，不明确英语专业接收",
+        "未写日本客户、日语强度或N级，不借其他岗位语言条件",
+        "职责不等付款实绩；未核合同、新人预算或未来岗位",
+        "不从品牌推消费电子/光伏/日本订单"
+      ]
+    },
+    {
+      "id": "J2",
+      "title": "三井物产2027校园招聘",
+      "publisher": "对外经济贸易大学就业网承载；招聘单位栏英创人才服务（上海）有限公司北京分公司",
+      "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2097602712752406529",
+      "locations": [
+        "L32–46标题/更新/代理发布/岗位/北京",
+        "L52–59职能OJT与营业职责",
+        "L63–67学历/语言/专业",
+        "L81当次截止"
+      ],
+      "excerpt_sha256": "2aab12a51797341855233b0f08f6e3d38f5496c48982df739645d02f90265bc6",
+      "excerpt_bytes": 1555,
+      "representation": "高校就业网页工具可读转换文本的有限选段，非raw HTML或网页原字节；原片段受控留存，不上传",
+      "access_date": "2026-11-04",
+      "author_verification": "作者读取冻结转换片段并核SHA-256，未重访原页",
+      "published_or_updated": "2026-09-09",
+      "applies_to": "2027国内外应届本科及以上，北京贸易相关营业担当",
+      "bounded_summary": "专业不限，列日语/英语等；TOEIC800分水平或日语N1为该岗择一条件。职能OJT最长两年后配属营业，连接客户与日本总部及全球分支协作。",
+      "limits": [
+        "择一不等考试等价或语言学位自动达标",
+        "代理发布，实际合同雇主/派遣未知",
+        "最长两年不等人人两年或晋升保证",
+        "未核工资、实录、付款和未来人员预算"
+      ]
+    },
+    {
+      "id": "J3",
+      "title": "汉得数智化咨询顾问对日方向",
+      "publisher": "上海汉得信息技术股份有限公司雇主职位，河南工业大学就业网承载",
+      "url": "https://job.haut.edu.cn/module/position_details/id-470580/nid-8957",
+      "locations": [
+        "L85–92岗位/页头薪资/学历/校招/发布日期",
+        "L98–108结构化字段",
+        "L112–121正文职责/条件/专业"
+      ],
+      "excerpt_sha256": "75ef24cd43b44df2d0d8cea7f5e65f8cb9f42072c448285a356df547d61658cb",
+      "excerpt_bytes": 1751,
+      "representation": "高校就业网页工具可读转换文本的有限选段，非raw HTML或网页原字节；原片段受控留存，不上传",
+      "access_date": "2026-11-04",
+      "author_verification": "作者读取冻结转换片段并核SHA-256，未重访原页",
+      "published_or_updated": "2026-08-26",
+      "applies_to": "校招本科，日本项目实施；具体毕业届别未写；页头上海、正文上海/大连/日本",
+      "bounded_summary": "客户沟通、文档与系统测试。正文日语专业，日英双语及N1/CET6并列，财务或计算机背景优先；结构专业字段为无，冲突保留。",
+      "limits": [
+        "不得自动判A已合、B已合或B绝对不合",
+        "海内外出差要求与优秀者签约汉得九州常驻日本分开，不替用户接受",
+        "8K—10K为公告月薪，10人为公告人数，非税后/实录/未来数",
+        "不确认为制造业项目，不串成TCL客户链",
+        "国内合同细节、未来付款/新人预算未知"
+      ]
+    }
+  ],
+  "frozen_reuse": [
+    {
+      "id": "C4",
+      "repo_path": "research/admissions/foreign-language-careers.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/foreign-language-careers.md",
+      "sha256": "66e3697c8a6cfddef4af5191c065453c1ed185a6f5e61df78cf76811237c0790",
+      "git_blob": "90a21f574eef8ca6274fb51b07b84acf08a3e145",
+      "use": "AI与语言/业务复合路径的已存机制；导航原字节保留，末尾加两行",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C2",
+      "repo_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/jiangsu-history-trade-english-order.md",
+      "sha256": "531fff068190db35307590f2db6fd5e3013a0010344f14c640d2ca641ba17fc7",
+      "git_blob": "d525bb3f6f99146211cb57e0753b4513c92926cf",
+      "use": "英语旧标签、南农英语系2022介绍旧核记录、南京苏美达轻纺入口、政策/订单/利润与回款/新人组织机制；本轮未重访原页",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C3",
+      "repo_path": "research/admissions/jiangsu-history-heritage-english-choices.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/jiangsu-history-heritage-english-choices.md",
+      "sha256": "fd5d8013de77b32e3e83d74563b2910e023b78fd163ec22f1c53e44c89f4d3d0",
+      "git_blob": "656b345246865931ba775026a8230b6d1270a50f",
+      "use": "用于确认本轮增量不是文博/英语重复；不借其P或地区接受",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C6",
+      "repo_path": "research/admissions/jiangsu-history-6527-decision-slice.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/jiangsu-history-6527-decision-slice.md",
+      "sha256": "c4cbafca2979235bde37e64e8b7b85618fa4a9b44e9c9762991116c0af541791",
+      "git_blob": "db3285278c9a81a18394b30d698c50b17e989a16",
+      "use": "机会账、接受账及任务偏好分开；不继承6527为用户位次或P",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C7",
+      "repo_path": "research/admissions/jiangsu-history-reference.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/jiangsu-history-reference.md",
+      "sha256": "189b824c7fbf8524acf13f19a436f6c176d308f8959328a1614d5c7d125cf182",
+      "git_blob": "de3bcdc51e1fa5fdaa2f519c9fde49a0ae5b1cd8",
+      "use": "旧汇集资料、同分区间与投档字段的口径提醒；本轮不访问其内部原件定位",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C1",
+      "repo_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "git_blob": "4cc6769702b08ed61db73b0453ad9aba04fcd3be",
+      "use": "12条显示成员、组及A/B旧字段；旧章程/调剂限制沿用，未读CSV或重取官方录取原件",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    },
+    {
+      "id": "C5",
+      "repo_path": "research/admissions/english-development-pathways.md",
+      "commit": "7b2f81dd0a49e3c693c0df1091b736cf40a167b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7b2f81dd0a49e3c693c0df1091b736cf40a167b5/research/admissions/english-development-pathways.md",
+      "sha256": "1c85cae38929e5cc6d6f308d3b08d0b12005e79084918bec1b5c1064d018bd94",
+      "git_blob": "a7d34429ef30e79ed8f97f33db7aa5d3f9266872",
+      "use": "学位、工作语言与考试门槛分开；不跨考试等效",
+      "verification": "本轮核对冻结UTF-8字节、SHA256和Git blob；未重访文内外部来源"
+    }
+  ],
+  "excluded_source": {
+    "title": "东航职位页",
+    "url": "https://job.ceair.com/JobDetail.html?cateId=NDAwMA%3D%3D&positionId=NTYwMw%3D%3D",
+    "outcome": "仅加载壳，无可读岗位正文",
+    "use": "不采检索摘要，不计有效入口；作者未重试"
+  },
+  "claim_mapping": [
+    {
+      "report_sections": [
+        "1",
+        "6"
+      ],
+      "sources": [
+        "C1",
+        "C2",
+        "C7"
+      ],
+      "status": "旧字段和规则复用；目标年机会/完整性未知"
+    },
+    {
+      "report_sections": [
+        "2"
+      ],
+      "sources": [
+        "J1",
+        "J2",
+        "J3"
+      ],
+      "status": "冻结来源陈述；具体个人资格未成立"
+    },
+    {
+      "report_sections": [
+        "3",
+        "5"
+      ],
+      "sources": [
+        "J1",
+        "J2",
+        "J3",
+        "C2",
+        "C5"
+      ],
+      "status": "P/R保持不变；宽S0并列，SA/SB以相对任务/反馈或总补差分支给先后；未证前提不冒充来源事实或录用排名"
+    },
+    {
+      "report_sections": [
+        "4",
+        "5"
+      ],
+      "sources": [
+        "C2",
+        "C4"
+      ],
+      "status": "既有机制复用及未来组织分工推演；三家财务/AI部署/净替代率未核"
+    }
+  ],
+  "not_established": [
+    "真实用户年份、位次、语种水平、城市/成本/任务/全组接受",
+    "2027正式组、招生资格、学制费用和两专业可得训练",
+    "2031/2037招聘量、录用概率、薪资和连续就业/晋升",
+    "三家实际AI部署、净替代率、日本客户比例、客户付款和新人预算",
+    "J1逐岗城市/语言使用、J2合同、J3专业冲突/具体届别"
+  ],
+  "revision_note": {
+    "version": "v3",
+    "prior_author_version": "v2",
+    "prior_independent_review": "首次独立R1结论需修改；B1要求补足相对比较条件。本版待复核，不声称通过。",
+    "change": "宽S0改为并列；A/B前置分别限定于同P/R、同资源约束下，覆盖B自然英语产品/订单路线的相对任务或总补差优势。事实来源、引用和哈希不变。"
+  }
+}

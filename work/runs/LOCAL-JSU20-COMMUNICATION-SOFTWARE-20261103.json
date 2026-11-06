@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "record_type": "agent_run",
+  "is_template": false,
+  "run_id": "LOCAL-JSU20-COMMUNICATION-SOFTWARE-20261103-AUTHOR-PUBLISH",
+  "actor_id": "advance_existing_career_paths",
+  "role": "本地研究作者及获授权机械发布者；不承担独立审核",
+  "task_ref": "LOCAL-JSU20-COMMUNICATION-SOFTWARE-20261103",
+  "parent_run_id": null,
+  "client": "delegated cloud task",
+  "transport": "native tools and GitHub connector",
+  "tools": [
+    "public official source reads",
+    "local filesystem",
+    "GitHub connector"
+  ],
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "本阶段未暴露可核启动/实际运行元数据，不以仓库角色请求代替运行报告",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "同上，实际运行元数据未知",
+    "verification": "unknown"
+  },
+  "recorded_at": "2026-11-03T00:46:02.171679+00:00",
+  "recorded_by_run_id": "LOCAL-JSU20-COMMUNICATION-SOFTWARE-20261103-AUTHOR-PUBLISH",
+  "read_rules_ref": {
+    "commit": "fb1f38b4dd720d659b5a65d5961a3f3a06599edd",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/experiment-protocol.md",
+      "docs/agent-provenance.md",
+      "reviews/README.md"
+    ],
+    "git_blob_sha_by_path": {
+      "AGENTS.md": "e32e3f832f4d1ebc82800fdbb714ecbeb660fb57",
+      "docs/agent-workflow.md": "bd9b169b9914302fe76e7fab97e5f1713fc0df4a",
+      "docs/experiment-protocol.md": "b9c9be5958b403806e256d84a08417f242e0aed1",
+      "docs/agent-provenance.md": "faf55b827696116a96709f9aae04508ead9995fa",
+      "reviews/README.md": "1e3b7294cb2d84b2be405728748c0629e3bde52d"
+    }
+  },
+  "owned_paths": [
+    "research/admissions/jiangsu-27151-jsu20-buffer.md",
+    "research/admissions/jiangsu-jsu20-communication-software-sources.json",
+    "research/admissions/jiangsu-jsu20-communication-software.md"
+  ],
+  "note": "同一作者运行做机械发布，不声称换模型或独立作者/发布者；独立内容审核来自不同的review_mechanical_path_card运行。",
+  "input_versions": {
+    "local_final_report_sha256": "6f03d2cff2b4ccf37622ea3daedf5de02dc3bd193d7eea3545952b75d5af10fa",
+    "local_final_source_ledger_sha256": "2c702582891fdb6d4a44390ddc39848c54adbf7869a72bfdbba664918984cd7d"
+  },
+  "review_history": [
+    {
+      "version": "初稿",
+      "report_sha256": "cdaa2605ef72f96778c291ea80a39b7e7a8ca59b1564d4a73e75e3e31c38fba5",
+      "source_ledger_sha256": "8e93c00a56eac38812358b7e1d63ba8c5f80e903f4f836a47a7424237d68110b",
+      "outcome": "独立初审需R1：136号适用范围遗漏"
+    },
+    {
+      "version": "中间账本",
+      "source_ledger_sha256": "2684e4725a078e15fccfd0d600b1d7c86029c3fc47f9d2d1918bda083685bd8f",
+      "outcome": "仅P1标题准确化；不能称初读账本"
+    },
+    {
+      "version": "必要R1修订",
+      "report_sha256": "a649a35fd1010de4f507d0e6b2bd966a5d06b513352287c55a05d0e46701db35",
+      "source_ledger_sha256": "768bd93f5db405345a5b7b1ff8f984bd04a30b8710049cd16143cfba7779b264",
+      "outcome": "独立窄复核关闭R1，无实质阻断"
+    },
+    {
+      "version": "精度修订",
+      "report_sha256": "6f03d2cff2b4ccf37622ea3daedf5de02dc3bd193d7eea3545952b75d5af10fa",
+      "source_ledger_sha256": "2c702582891fdb6d4a44390ddc39848c54adbf7869a72bfdbba664918984cd7d",
+      "outcome": "逐项核验能力而非简介缺项判缺课；P1补第一项。独立窄复核通过，无剩余阻断。尚不替代PR精确H审核。"
+    }
+  ],
+  "publication_preparation": {
+    "phase": "started",
+    "issue_ref": null,
+    "issue_status": "新建Issue操作被明确拒绝，未创建且未重试；继续已独立授权的成果PR，不模拟Issue对象",
+    "local_path_basis": "现行workflow允许稳定LOCAL；当前基线已采用前序LOCAL-jsu20-buffer归档，明示Issue未建立",
+    "checks": "作者本地一致性25/25；非独立审核/非平台CI",
+    "originals_uploaded": false,
+    "github_head": null,
+    "status": "准备候选发布；成果H待实际提交后在PR交接绑定"
+  }
+}

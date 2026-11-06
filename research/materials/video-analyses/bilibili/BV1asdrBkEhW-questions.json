@@ -1,0 +1,63 @@
+{
+  "status": "non_evidentiary_questions_only",
+  "fact_evidence_adopted": 0,
+  "new_external_evidence": 0,
+  "video": {
+    "platform": "bilibili",
+    "video_id": "BV1asdrBkEhW",
+    "url": "https://www.bilibili.com/video/BV1asdrBkEhW/",
+    "title": "百公里能省百多块，但为啥跑长途的司机不敢买电动重卡？",
+    "author": "院里新来了个杨主任",
+    "author_uid": "1121263766",
+    "publication_date": "2026-04-20",
+    "duration": "6:20",
+    "metadata_attribution": "母任务交接，未独立核验"
+  },
+  "record_date": "2026-10-24",
+  "sampling": "复用云端字幕、关键帧及少量评论抽读交接；非完整音轨；本篇作者未观看；采样执行者、实际读取日、覆盖与间隙未知",
+  "non_evidentiary_inspiration": {
+    "warning": "不得用作论证证据",
+    "exclusion_reason": "交接将后半观点描述为博主整理与两个AI的讨论，本轮不作采访或实测证据。",
+    "ai_discussion_approximate_anchors": [
+      "03:13",
+      "03:15",
+      "03:20",
+      "05:14"
+    ],
+    "anchor_limit": "全部定位来自交接，未经回看，仅定位问题启发，不构成事实核验。",
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "判断某一长途线路的补能可用性、等待与异常处置时，应核对哪些运行记录？",
+        "approximate_video_anchors": [
+          "05:01–05:09"
+        ],
+        "status": "未调查、未回答；不预设电网或线路条件"
+      },
+      {
+        "id": "Q2",
+        "question": "判断某一车电分离方案的资产责任、费用与风险分配时，应核对哪些合同条款和履约记录？",
+        "approximate_video_anchors": [
+          "03:31",
+          "03:45",
+          "05:27–05:35"
+        ],
+        "status": "未调查、未回答；不预设资产关系或收入变化"
+      }
+    ]
+  },
+  "prohibited_uses": [
+    "将未经核实的讨论作为产业或职业推论的实证支点或已确认事实",
+    "用于证明电网条件、资产关系或收入变化",
+    "采用标题及其他数字、建站说法、资产案例或匿名评论作为事实",
+    "将问题当作现实断言、调查计划、专业或购车建议"
+  ],
+  "permitted_future_use": "可从所列问题或重新核读的实际讨论重建明示前提的条件推导，标明作者补充，结合可核实的来源校准；本条不声称该推导已经完成。",
+  "controlled_input_hashes": {
+    "purpose": "仅固定交接文件版本，不证明内容真实性，也不是事实证据索引。",
+    "collection_manifest_sha256": "ec2ebefcda065cc722935f0fe031a4ce1873143518270e911ea7fd3f08547e13",
+    "facts_sha256": "55746ae5c1dd479a04221968f46fb0008b12330d18cc7e0c54b73e381450b30e",
+    "questions_sha256": "35fdf581e6bf6812efb67d26650ce8e4bef43abeab986520b1e58e1210e287e1",
+    "sources_sha256": "dc02904c813f1c8274dac484bd4d97ae3c090b592042064b58f35e89bc59f86a"
+  }
+}
