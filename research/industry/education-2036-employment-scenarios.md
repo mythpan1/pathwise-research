@@ -1,6 +1,6 @@
 # 人口与教育资源调整：面向 2036 的教育职业情景
 
-研究修订：2026-11-07。以 `8195e9a6db4be10633cc8b95625e90fe36219191` 为基线的publication revision。本次全国修订登记为publication revision，关联Issue #405 (https://github.com/mythpan1/pathwise-research/issues/405)与PR #406 (https://github.com/mythpan1/pathwise-research/pull/406)，基线 8195e9a6db4be10633cc8b95625e90fe36219191。首次发布head 4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa是历史输入，不代表当前候选head。R3独立内容审核建议采用但仅覆盖冻结本地R3；当前候选的发布元数据及归属整合尚无精确新head审核。审核/采用/合并状态以PR、Issue和正式记录为准。全国证据见[来源索引](national-education-cohort-2037-sources.json)，事实、预测和选择影响见[主张清单](national-education-cohort-2037-claims.json)。
+研究修订：2026-11-07。以 `8195e9a6db4be10633cc8b95625e90fe36219191` 为基线的publication revision。本次全国修订关联[Issue #405](https://github.com/mythpan1/pathwise-research/issues/405)，已随[PR #406](https://github.com/mythpan1/pathwise-research/pull/406)于2026-11-07合入main，合并提交 `56def2b594411e466b3e5a0e8935320a131ceeba`。发布版[独审建议采用](https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414)仅覆盖 `d30ced5d446aab187696f0b6c64235e5a2560d39`；最终head `569ed401a24cea6f051e498fee676793c054b09c`仅追加真实审核归档，见[最终差异核验](https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706212418)。首次发布head `4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa`及本地R3审核保留为历史记录。上述独审不自动覆盖本次合并后状态修正或后续变更。全国证据见[来源索引](national-education-cohort-2037-sources.json)，事实、预测和选择影响见[主张清单](national-education-cohort-2037-claims.json)。
 
 ## 规划判断：中小学也进入峰后风险基线
 

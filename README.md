@@ -95,7 +95,7 @@
 
 这些样本是试水，不是项目的全部研究范围。现已据此形成完整框架；后续应使用并修正框架，而不是不断重做试水来推迟正式填充。样本采用和纸面检验也不证明现实预测已经成立。
 
-近期事实校准示例：[全国基础教育与2031/2034入口](research/industry/education-2036-employment-scenarios.md)将中学峰后压力转为当前教师路径降权及2034等待成本；旧T/L的P0下L由弱优先升为默认主比较、T条件第二，同R按已有付款/新人任务给出医疗或技术的部分顺序。[南京地方校正](research/industry/nanjing-education-cohort-timing-2037-choices.md)及真实本科入口保留，不把可行性当风险未变。本次全国修订登记为publication revision，关联Issue #405 (https://github.com/mythpan1/pathwise-research/issues/405)与PR #406 (https://github.com/mythpan1/pathwise-research/pull/406)，基线 8195e9a6db4be10633cc8b95625e90fe36219191。首次发布head 4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa是历史输入，不代表当前候选head。R3独立内容审核建议采用但仅覆盖冻结本地R3；当前候选的发布元数据及归属整合尚无精确新head审核。审核/采用/合并状态以PR、Issue和正式记录为准。
+近期事实校准示例：[全国基础教育与2031/2034入口](research/industry/education-2036-employment-scenarios.md)将中学峰后压力转为当前教师路径降权及2034等待成本；旧T/L的P0下L由弱优先升为默认主比较、T条件第二，同R按已有付款/新人任务给出医疗或技术的部分顺序。[南京地方校正](research/industry/nanjing-education-cohort-timing-2037-choices.md)及真实本科入口保留，不把可行性当风险未变。本次全国修订关联[Issue #405](https://github.com/mythpan1/pathwise-research/issues/405)，已随[PR #406](https://github.com/mythpan1/pathwise-research/pull/406)于2026-11-07合入main，合并提交 `56def2b594411e466b3e5a0e8935320a131ceeba`。发布版[独审建议采用](https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414)仅覆盖 `d30ced5d446aab187696f0b6c64235e5a2560d39`；最终head `569ed401a24cea6f051e498fee676793c054b09c`仅追加真实审核归档，见[最终差异核验](https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706212418)。首次发布head `4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa`及本地R3审核保留为历史记录。上述独审不自动覆盖本次合并后状态修正或后续变更。
 
 ## 五、怎样让研究连续，而不是越做越碎
 

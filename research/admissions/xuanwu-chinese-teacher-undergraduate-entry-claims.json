@@ -3,7 +3,7 @@
   "task_id": "LOCAL-XUANWU-TEACHER-ENTRY-20261106",
   "baseline_commit": "41af04451871850ffd1e5a3662ee2913741e07b0",
   "author_run_id": "xuanwu-teacher-entry-author-20261106",
-  "status": "publication_revision",
+  "status": "merged",
   "source_policy": "Fixed input only; S ids are external sources, B ids frozen prior bodies; claim ids in source_ids are explicit logical dependencies, not new observations.",
   "source_map": {
     "S1": {
@@ -519,7 +519,18 @@
       "issue": 405,
       "pr": 406,
       "base_sha": "8195e9a6db4be10633cc8b95625e90fe36219191",
-      "R3_content_review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320"
+      "R3_content_review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+      "merged_publication": {
+        "status": "merged",
+        "reviewed_head_sha": "d30ced5d446aab187696f0b6c64235e5a2560d39",
+        "independent_review_url": "https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414",
+        "final_head_sha": "569ed401a24cea6f051e498fee676793c054b09c",
+        "final_head_delta": "added only reviews/405-r3.md; research content unchanged",
+        "final_verification_url": "https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706212418",
+        "merge_commit_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
+        "merged_at": "2026-11-07T11:25:44Z",
+        "boundary": "Records PR #406 history only; does not approve this post-merge correction or later changes."
+      }
     }
   },
   "review_status_by_stage": {
@@ -534,10 +545,18 @@
       "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
       "scope": "frozen local candidate-r3 content only; not this prepared publication package or a new remote head"
     },
-    "publication_package_review": {
+    "remote_adoption_state": "merged; see national_revision.publication_mapping.merged_publication",
+    "prepared_r5_package_review_snapshot": {
       "status": "not_yet_reviewed_for_prepared_r5_or_a_new_head",
       "verdict": null
     },
-    "remote_adoption_state": "not_asserted; see Issue #405 and PR #406"
+    "publication_package_review": {
+      "status": "completed",
+      "verdict": "建议采用",
+      "reviewed_head_sha": "d30ced5d446aab187696f0b6c64235e5a2560d39",
+      "reviewer_run_id": "RUN-ISSUE-405-INDEPENDENT-PUBLICATION-REVIEW-20261107-R3",
+      "source_comment_url": "https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414",
+      "scope": "exact reviewed head only; not this post-merge status correction or later changes; not GitHub APPROVE"
+    }
   }
 }

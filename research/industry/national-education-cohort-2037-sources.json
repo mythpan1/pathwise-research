@@ -2,7 +2,7 @@
   "schema_version": 1,
   "research_id": "LOCAL-NATIONAL-EDUCATION-REASSESSMENT-20261107",
   "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
-  "status": "publication_revision",
+  "status": "merged",
   "freeze_date": "2026-11-07",
   "scope": "全国学龄规模型需求至基础教育教师入口；地方选择需独立校正，不扩至所有教育服务",
   "sources": [
@@ -146,10 +146,10 @@
     "李新翠、张现苓《基于学龄人口新格局的基础教育师资调配机制优化》（中国教育科学研究院2025-01-06转载，https://www.cnaes.edu.cn/post/30158）的具体师资配置/退休补员预测；本轮不以该文补2036/37数字"
   ],
   "inherited_fact_boundary": "原文保留的2025出生792万及旧招生、资格、玄武拟聘等沿固定基线，不视为本轮重新核证",
-  "review_boundary": "冻结本地R3内容审核建议采用（仅限manifest 5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a）；发布包/新head尚未独立审核。当前审核及采用状态见Issue #405/PR #406和正式记录。",
+  "review_boundary": "冻结本地R3内容审核仅限manifest 5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a；发布版独审建议采用仅覆盖 d30ced5d446aab187696f0b6c64235e5a2560d39，原评论：https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414。最终head 569ed401a24cea6f051e498fee676793c054b09c仅增真实审核归档；PR #406已合并为 56def2b594411e466b3e5a0e8935320a131ceeba。上述审核不自动覆盖本次合并后状态修正或后续变更。",
   "publication_mapping": {
     "initial_published_head_sha": "4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa",
-    "head_role": "historical initial published head and input to R3 revision; not current prepared candidate head",
+    "head_role": "historical initial published head and input to R3 revision; not final merged head",
     "issue": 405,
     "issue_url": "https://github.com/mythpan1/pathwise-research/issues/405",
     "pr": 406,
@@ -161,6 +161,17 @@
       "verdict": "建议采用",
       "scope": "frozen local candidate-r3 content only"
     },
-    "current_prepared_candidate_status": "locally prepared; status/attribution packaging changes await exact package/head review; no remote adoption/merge asserted"
+    "prepared_candidate_status_snapshot": "locally prepared; status/attribution packaging changes await exact package/head review; no remote adoption/merge asserted",
+    "merged_publication": {
+      "status": "merged",
+      "reviewed_head_sha": "d30ced5d446aab187696f0b6c64235e5a2560d39",
+      "independent_review_url": "https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706152414",
+      "final_head_sha": "569ed401a24cea6f051e498fee676793c054b09c",
+      "final_head_delta": "added only reviews/405-r3.md; research content unchanged",
+      "final_verification_url": "https://github.com/mythpan1/pathwise-research/pull/406#issuecomment-6706212418",
+      "merge_commit_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
+      "merged_at": "2026-11-07T11:25:44Z",
+      "boundary": "Records PR #406 history only; does not approve this post-merge correction or later changes."
+    }
   }
 }
