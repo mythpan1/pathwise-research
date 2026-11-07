@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "research_id": "LOCAL-NATIONAL-EDUCATION-REASSESSMENT-20261107",
+  "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+  "status": "publication_revision",
+  "source_index": "national-education-cohort-2037-sources.json",
+  "claims": [
+    {
+      "claim_id": "NF01",
+      "type": "official_reported_forecast",
+      "statement": "N1于2026-03-06公开使用全国初中2026、高中2029、高等教育2032学龄人口达峰的前瞻判断。",
+      "sources": [
+        "N1"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "非完整年度实绩，未披露底层模型；本轮不据高教峰推高校招聘。"
+      ]
+    },
+    {
+      "claim_id": "NF02",
+      "type": "research_model_definition",
+      "statement": "N2/N3使用七普2020基年、队列要素及城乡模型，初中12—14、高中15—17岁，预测期2021—2035。",
+      "sources": [
+        "N2",
+        "N3"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "N2/N3同研究谱系非两次独立验证，N1模型关系不明；不把各文城乡数表拼接。"
+      ]
+    },
+    {
+      "claim_id": "NF03",
+      "type": "research_forecast",
+      "statement": "N3全国初中2026峰5586万、2031为4794万、2035为3173万；高中2029峰5583万、2031为5287万、2035为4146万；2031—2035均下降。",
+      "sources": [
+        "N3",
+        "NF02"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "年龄组预测不是在校/招生/外招；高中十五五有波动，不说逐年严格单调；2034不插值，2036/37不补精确值。"
+      ]
+    },
+    {
+      "claim_id": "NF04",
+      "type": "research_assumption",
+      "statement": "N3高中在校测算另设2035毛入学率97%、普职6:4；N2在原自然减员、配置标准调整等假设下，预测十六五初中配置由不足转过剩、高中师资有冗余风险，同时小学重新配置不足。",
+      "sources": [
+        "N2",
+        "N3"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "仅采用N2中学定性模型结果，不是新增独立验证或按现行退休安排重算；不将设定当当前实测普高份额，不采用精确缺口/冗余量或招聘配额，不推广所有学段过剩。"
+      ]
+    },
+    {
+      "claim_id": "NF05",
+      "type": "observed_statistics",
+      "statement": "2024/2025全国初中与普高招生、在校、专任教师存量增长；学前在园、小学在校及相应教师存量下降。",
+      "sources": [
+        "N4",
+        "N5"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "全国不含港澳台；普高非全部高中阶段，人口/招生/在校/教师不同；增长不延长为2031/2034外招趋势。"
+      ],
+      "values": {
+        "junior_admissions": [
+          1848.75,
+          1852.81
+        ],
+        "junior_students": [
+          5386.16,
+          5509.34
+        ],
+        "junior_teachers": [
+          414.88,
+          423.95
+        ],
+        "general_senior_admissions": [
+          1036.2,
+          1074.93
+        ],
+        "general_senior_students": [
+          2922.28,
+          3039.5
+        ],
+        "general_senior_teachers": [
+          230.18,
+          237.2
+        ],
+        "preschool_children": [
+          3583.99,
+          3225.52
+        ],
+        "preschool_teachers": [
+          283.19,
+          261.26
+        ],
+        "primary_students": [
+          10584.37,
+          10178.29
+        ],
+        "primary_teachers": [
+          659.01,
+          645.82
+        ]
+      },
+      "unit": "万人，数组依次2024/2025"
+    },
+    {
+      "claim_id": "NF06",
+      "type": "policy_deployment",
+      "statement": "N6部署普高学位和县中师资、净流入及薄弱地区供给、校舍跨学段调整、师资统筹和小班化。",
+      "sources": [
+        "N6"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "规划非执行或新增外招；可能缓冲的因素不能当已经足以抵消。"
+      ]
+    },
+    {
+      "claim_id": "NC01",
+      "type": "arithmetic",
+      "statement": "初中招生/在校/教师2025同比0.22%/2.29%/2.19%，普高3.74%/4.01%/3.05%；按N3预测，初中2031/2035较峰值少14.2%/43.2%，高中少5.3%/25.7%。",
+      "sources": [
+        "NF05",
+        "NF03"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "实际同比为(2025/2024−1)×100%，保留两位；预测峰后变化为(当年预测/预测峰值−1)×100%，保留一位；是作者算术，不是招聘降幅或新增预测。"
+      ]
+    },
+    {
+      "claim_id": "NI01",
+      "type": "conditional_inference",
+      "statement": "全国2031/2034基础教育教师新人入口承压应作规划基准，当前下调依赖单地单学段新增岗的路径；2025增长或南京较晚入学峰不能抵消全国年龄组下降的新信息。",
+      "sources": [
+        "NF01",
+        "NF02",
+        "NF03",
+        "NF05",
+        "NF04",
+        "NF06"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "全国人口侧方向较强；新人入口承压是有机制的方向推断，不量化地方外招和个人录用率，不扩至所有教育服务。",
+        "参与、普高份额、服务标准可改变路径；须与持续预算及可执行外部招补形成有力度组合才反转，不与基准等权。未来逐环实绩不是给当前建议的先决条件。"
+      ],
+      "decision_impact": "降低单城单学段教师方案的排序与准备投入；已有历史本科入口仅保留可行性，不使相对吸引力不变。",
+      "premises": [
+        "采用本轮全国预测为基准，尚无足够强的地方反向证据；不假定所有地方没有迁入、扩容或补员。"
+      ]
+    },
+    {
+      "claim_id": "NI02",
+      "type": "mechanism",
+      "statement": "学生下降削弱扩班净增，学校可通过减招、退休不补和内部调配消化存量，外部新人入口可能先承压；教师总量不同比下降不是减轻新人风险的理由。",
+      "sources": [
+        "NF04",
+        "NF05",
+        "NF06"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "退休不等补员，教师配置/在岗/净增/外招分开，生源增长也可能少外招。"
+      ],
+      "decision_impact": "不等未来招聘下降已经实现才降权；地方工作量、持续预算与外部招补安排的有力组合可上调。缺分母限制胜率量化，不阻止方向判断。"
+    },
+    {
+      "claim_id": "NI03",
+      "type": "conditional_timing",
+      "statement": "2031两中学年龄组已过峰；2034处更深下降段，人口侧压力较2031更大，无增益延迟首次申请更不利；2036/37仅为延续情景。",
+      "sources": [
+        "NF03",
+        "NI01",
+        "NI02"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "2034不插值，不保证2031南京录用率更高；B1硬资格或B2难替代、雇主认可的训练收益可补偿延迟与总成本。"
+      ],
+      "decision_impact": "本科入口与训练可行时，2031直申优先于无具体收益延到2034；新预测增加等待成本，不只是撤回等峰收益。",
+      "premises": [
+        "2036/37推演须到2035队列和组织调整延续；原模型不覆盖这些年。"
+      ]
+    },
+    {
+      "claim_id": "NI04",
+      "type": "conditional_comparison",
+      "statement": "旧T/L卡P0下，法律支付与本科混合任务延续时，L由弱前置升为默认第一比较，T为需专门理由才前置的第二方案；T端负向新信息无需L新增利好即可改变相对吸引力。",
+      "sources": [
+        "NI01",
+        "NI02",
+        "NI03"
+      ],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "P0不是用户偏好；法律端延续是有历史入口支点的情景前提，非2031已实现；不宣称法律/医疗/技术全面胜出或就业率差。"
+      ],
+      "decision_impact": "先核L完整组/任务/成本，T按教学偏好或足够强的地方工作量—预算—外招组合升回。同R中，持续支付与合资格医疗新人入口成立则医疗优先于单学段教育；医疗支付受限而技术采购/本地本科任务成立则技术优先。"
+    },
+    {
+      "claim_id": "NU01",
+      "type": "unknown",
+      "statement": "未取得全国分省/分学科外招、南京完整模型及区级表、同岗申请分母、目标年预算训练和未来完整招生条件。",
+      "sources": [],
+      "scope": "全国基础教育教师入口的行业基线；非地方外招预测",
+      "limits": [
+        "不恢复2026录取采集；未来预测准确性与就业结果未验证。"
+      ],
+      "decision_impact": "未知项用于校正强度或检验换挡，不暂停已有方向：先下调教师新增岗押注，按P0和已有支付/入口支点形成主线与备选，再核最能改变顺序的事项。"
+    }
+  ],
+  "publication_mapping": {
+    "initial_published_head_sha": "4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa",
+    "head_role": "historical initial published head and input to R3 revision; not current prepared candidate head",
+    "issue": 405,
+    "issue_url": "https://github.com/mythpan1/pathwise-research/issues/405",
+    "pr": 406,
+    "pr_url": "https://github.com/mythpan1/pathwise-research/pull/406",
+    "base_sha": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "content_review": {
+      "manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+      "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+      "verdict": "建议采用",
+      "scope": "frozen local candidate-r3 content only"
+    },
+    "current_prepared_candidate_status": "locally prepared; status/attribution packaging changes await exact package/head review; no remote adoption/merge asserted"
+  },
+  "review_status_by_stage": {
+    "prior_R2_review": {
+      "status": "historical; does not cover R3"
+    },
+    "local_R3_content_review": {
+      "status": "completed",
+      "verdict": "建议采用",
+      "blocking_issues": 0,
+      "input_manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+      "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+      "scope": "frozen local candidate-r3 content only; not this prepared publication package or a new remote head"
+    },
+    "publication_package_review": {
+      "status": "not_yet_reviewed_for_prepared_r5_or_a_new_head",
+      "verdict": null
+    },
+    "remote_adoption_state": "not_asserted; see Issue #405 and PR #406"
+  }
+}

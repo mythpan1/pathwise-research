@@ -8,6 +8,8 @@
 
 下方保留2026-11-01接口采用节点及10月历史组织、状态，不把旧候选状态或当时计划改写为今天全部完成。
 
+本次全国修订登记为publication revision，关联Issue #405 (https://github.com/mythpan1/pathwise-research/issues/405)与PR #406 (https://github.com/mythpan1/pathwise-research/pull/406)，基线 8195e9a6db4be10633cc8b95625e90fe36219191。首次发布head 4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa是历史输入，不代表当前候选head。R3独立内容审核建议采用但仅覆盖冻结本地R3；当前候选的发布元数据及归属整合尚无精确新head审核。审核/采用/合并状态以PR、Issue和正式记录为准。
+
 ## 规划框架入口（2026-11-01）
 
 [高考总入口](../docs/gaokao-planning-core.md) → [知识单元与组合契约](../docs/planning-knowledge-contract.md) → [已有方法与覆盖缺口](coverage.md) → [有界建设计划](../docs/roadmap.md)。[扩展模板](../templates/planning-knowledge-unit.md)和[合成验收](admissions/planning-framework-acceptance.md)用于约束组合，不另建资料库；个人接受度、受限成员 CSV 及其未获准派生物留受控位置。以下 2026-10-26/25 各节是保留的历史框架与状态，现行执行按 AGENTS.md 和协作主流程的当前说明。
@@ -63,7 +65,9 @@
 
 [机器人与制造业 2036 就业情景](industry/robotics-2036-employment-scenarios.md)：结合已核政策、产业与人口事实和条件推导，连接培养和职业入口。
 
-[人口与教育资源调整的 2036 职业情景](industry/education-2036-employment-scenarios.md)：以已核人口、教育统计和政策为起点，分别推导学段、岗位及培养选择。
+[人口与教育资源调整的 2036 职业情景](industry/education-2036-employment-scenarios.md)：2026-11-07本地修订以全国初中2026、高中2029学龄人口预测峰及到2035的路径，实质下调仅据年龄组继续扩张或当前短期增长给2031/2034中学新人岗位托底的预期，不只提示学前风险；2036/37为条件延伸。招生、在校、教师配置与外招分列，见[全国来源](industry/national-education-cohort-2037-sources.json)和[主张](industry/national-education-cohort-2037-claims.json)。
+
+[南京队列与师范/法学地方校正](industry/nanjing-education-cohort-timing-2037-choices.md)：南京2029初中/2032高中入学预测与全国年龄组总量不同口径；保留玄武真实本科先例，不将其升级为全国就业择时或专业排序。新全国基准同步传至[同一R教医技术比较](industry/demography-education-health-2037-choices.md)及[培养职业桥](admissions/education-career-bridge.md)，不是全国分省岗位或全部教育服务覆盖。 本轮将峰后压力实质转为教师方案降位、2034等待成本及P0下L默认主比较，不因两端都有历史入口维持等权；地方例外需有工作量、持续预算与外部招补的有力组合。
 
 
 [上电普通能动与自动化本科训练连接](admissions/suep-thermal-control-training.md)：补充课程计划与具体训练活动之间的有限校方证据；区分能动与自动化方向必修，并保留课程映射、方向分流和个人实际获得未知。

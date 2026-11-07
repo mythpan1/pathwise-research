@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "research_id": "LOCAL-NATIONAL-EDUCATION-REASSESSMENT-20261107",
+  "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+  "status": "publication_revision",
+  "freeze_date": "2026-11-07",
+  "scope": "全国学龄规模型需求至基础教育教师入口；地方选择需独立校正，不扩至所有教育服务",
+  "sources": [
+    {
+      "source_id": "N1",
+      "title": "郑栅洁主任在十四届全国人大四次会议经济主题记者会上答记者问",
+      "publisher": "国家数据局，来源标为国家发展改革委",
+      "publication_date": "2026-03-06",
+      "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0306/20260306222350429116656_pc.html",
+      "access_date": "2026-11-07",
+      "section": "答新华社记者，第一项承前启后段",
+      "kind": "official_reported_forecast",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "全国学段学龄人口峰年；今年由页面日期对应2026"
+      ],
+      "limits": [
+        "页面未给年龄定义、基年或底层模型；不证明峰值已实现，不自动认证与N2/N3独立或同源"
+      ],
+      "excerpt": "我国初中、高中、高等教育三个阶段的学龄人口将分别在今年、2029年、2032年达峰",
+      "excerpt_sha256": "a1c565f244865814441eff775a0cbf9f31db764055826a6648d6ba0df5fb5381",
+      "model_relationship": "undisclosed; not asserted as either derivative or independent validation of N2/N3"
+    },
+    {
+      "source_id": "N2",
+      "title": "教育适应中国人口结构发展趋势研究",
+      "publisher": "全国教育科学规划领导小组办公室",
+      "publication_date": "2023-04-06",
+      "url": "https://onsgep.moe.edu.cn/post/view/1385",
+      "access_date": "2026-11-07",
+      "section": "一（二）1，二（一）1、4、5",
+      "kind": "research_forecast_summary",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "七普2020基年、2021—2035范围和年龄口径；全国初中2026、高中2029峰",
+        "二（一）4、5在原自然减员与配置标准等假设下给出十六五初中配置过剩、高中师资冗余风险的定性结果；同文小学十六五重新不足，不推广全部学段。"
+      ],
+      "limits": [
+        "与N3同课题VGA190003/作者链；仅采用中学定性模型方向，不是按现行退休安排重算；不混拼城乡参数，不采用精确师资短缺/冗余量或年度招聘配额。"
+      ],
+      "excerpt": "初中、高中、高等教育的学龄分别为12—14周岁、15—17周岁、18—22周岁",
+      "excerpt_sha256": "6d1587b6c2aa3b5f4cd12b7234221162d7324bc4b469754810c8783d5a67eae0",
+      "evidence_family": "VGA190003_related_research_not_independent_replication"
+    },
+    {
+      "source_id": "N3",
+      "title": "2021—2035年城乡学龄人口变化趋势与特征——基于第七次全国人口普查数据的预测",
+      "publisher": "张立龙、史毅、胡咏梅；西南大学公开转载《教育研究》",
+      "publication_date": "2022年第12期",
+      "url": "https://epc.swu.edu.cn/info/1243/4935.htm",
+      "access_date": "2026-11-07",
+      "section": "二（二）、三；初中学龄人口规模与结构、高中阶段学龄人口总规模及在校生段落",
+      "kind": "research_forecast_article",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "初中12—14/高中15—17岁总量预测、2031/2035数值；高中在校另设毛入学率97%及普职6:4",
+        "作者按已列预测值计算2031/2035较峰值变化，标为派生算术，不当招聘降幅或新模型结果。"
+      ],
+      "limits": [
+        "非2026现况或外招；预测止于2035，2034不插值；未取得可复算数据/完整图表，未复现模型；与N2同课题链，小学峰值摘要/正文差异不采其精确小学峰年"
+      ],
+      "excerpt": "2026年达到峰值5586万后快速下降至2035年的3173万",
+      "excerpt_sha256": "3119da131769419ee65b2026c722e24ac24b21de9eae1cb02de15be249753e84",
+      "evidence_family": "VGA190003_related_research_not_independent_replication"
+    },
+    {
+      "source_id": "N4",
+      "title": "2024年全国教育事业发展统计公报",
+      "publisher": "教育部",
+      "publication_date": "2025-06-11",
+      "url": "https://hudong.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202506/t20250611_1193760.html",
+      "access_date": "2026-11-07",
+      "section": "二、三（一）（二）、五（一）；注1、5、7、8、11、12、15、16、20—24",
+      "kind": "observed_education_statistics",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "2024全国招生流量、在校及专任教师存量；学前小学实际量"
+      ],
+      "limits": [
+        "全国不含港澳台；普高非全部高中阶段，存量非新招；官方/转载同一公报不计独立观察"
+      ],
+      "excerpt": "全国初中招生1848.75万人，在校生5386.16万人，毕业生1698.24万人",
+      "excerpt_sha256": "dcf043a8dcf76c551fd825146c339011e183f3678d1e62fb6058a6ac3851b8cf"
+    },
+    {
+      "source_id": "N5",
+      "title": "2025年全国教育事业发展统计公报",
+      "publisher": "教育部",
+      "publication_date": "2026-07-06",
+      "url": "https://hudong.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202607/t20260706_1442870.html",
+      "access_date": "2026-11-07",
+      "section": "二、三（一）（二）、五（一）；注1、5、7、8、11、12、15、16、20—24",
+      "kind": "observed_education_statistics",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "2025全国招生流量、在校及专任教师存量；学前小学实际量"
+      ],
+      "limits": [
+        "全国不含港澳台；不能将普高在校除高中阶段毛入学率反推年龄组，也不把存量差当年度外招"
+      ],
+      "excerpt": "全国初中阶段教育招生1852.81万人，在校生5509.34万人，毕业生1723.74万人",
+      "excerpt_sha256": "2a38df00ebe3bd8cf03bed711575469af663489d3fcad748349667af340460ae"
+    },
+    {
+      "source_id": "N6",
+      "title": "教育发展“十五五”规划",
+      "publisher": "国务院印发；国家发展改革委公开删减版",
+      "publication_date": "2026-09-28",
+      "url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjjzxgh/202609/t20260928_1407868.html",
+      "access_date": "2026-11-07",
+      "section": "第二部分第14项；第三部分（一）",
+      "kind": "policy_plan",
+      "geography": "全国（具体统计范围按原文）",
+      "representation": "saved_webpage_extracted_text_not_original_HTML_or_PDF",
+      "verification": "Author read the saved source text; no fresh online retrieval by this author, no model reproduction",
+      "supports": [
+        "2026-06-22印发；普高学位、县中师资、净流入和薄弱地区供给、跨学段校舍与师资统筹"
+      ],
+      "limits": [
+        "规划非执行、财政到账或招聘兑现；小班化不保证抵消人口下降"
+      ],
+      "excerpt": "推动师资合理流动和余缺调配。结合实际有序推进小班化教学",
+      "excerpt_sha256": "dc9b3a028b4ce11c435371f618ace6617fd12dd5a400c579d6f70eecc5376592",
+      "issued_date": "2026-06-22"
+    }
+  ],
+  "non_independence": "N2/N3同课题/作者链；N1底层模型关系未披露，不按三份独立验证计数",
+  "not_adopted": [
+    "N2/N3精确师资缺口或冗余数量、年度外招和2036/37精确值；R3仅新增采用N2原假设下中学十六五定性方向，不把它当现行精确师资预测",
+    "N3小学精确峰年及不同文献城乡预测拼接",
+    "李新翠、张现苓《基于学龄人口新格局的基础教育师资调配机制优化》（中国教育科学研究院2025-01-06转载，https://www.cnaes.edu.cn/post/30158）的具体师资配置/退休补员预测；本轮不以该文补2036/37数字"
+  ],
+  "inherited_fact_boundary": "原文保留的2025出生792万及旧招生、资格、玄武拟聘等沿固定基线，不视为本轮重新核证",
+  "review_boundary": "冻结本地R3内容审核建议采用（仅限manifest 5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a）；发布包/新head尚未独立审核。当前审核及采用状态见Issue #405/PR #406和正式记录。",
+  "publication_mapping": {
+    "initial_published_head_sha": "4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa",
+    "head_role": "historical initial published head and input to R3 revision; not current prepared candidate head",
+    "issue": 405,
+    "issue_url": "https://github.com/mythpan1/pathwise-research/issues/405",
+    "pr": 406,
+    "pr_url": "https://github.com/mythpan1/pathwise-research/pull/406",
+    "base_sha": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "content_review": {
+      "manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+      "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+      "verdict": "建议采用",
+      "scope": "frozen local candidate-r3 content only"
+    },
+    "current_prepared_candidate_status": "locally prepared; status/attribution packaging changes await exact package/head review; no remote adoption/merge asserted"
+  }
+}

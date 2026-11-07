@@ -3,7 +3,7 @@
   "task_id": "LOCAL-XUANWU-TEACHER-ENTRY-20261106",
   "baseline_commit": "41af04451871850ffd1e5a3662ee2913741e07b0",
   "author_run_id": "xuanwu-teacher-entry-author-20261106",
-  "status": "author_draft_not_independently_reviewed",
+  "status": "publication_revision",
   "source_policy": "Fixed input only; S ids are external sources, B ids frozen prior bodies; claim ids in source_ids are explicit logical dependencies, not new observations.",
   "source_map": {
     "S1": {
@@ -59,6 +59,13 @@
       "location": "一、三、四、六节",
       "source_kind": "fixed_baseline_reuse",
       "representation": "Read fixed baseline body; no source recollection or upgrade of prior verification."
+    },
+    "NAT": {
+      "path": "../industry/national-education-cohort-2037-sources.json",
+      "claims_path": "../industry/national-education-cohort-2037-claims.json",
+      "source_kind": "current_revision_source_index",
+      "location": "N1—N6；NF01—NF06及NI01—NI04",
+      "representation": "本轮保存网页提取文本核读，非HTML/PDF原字节；原模型不覆盖2036/37"
     }
   },
   "claims": [
@@ -324,53 +331,56 @@
     {
       "id": "I04",
       "kind": "conditional_inference",
-      "claim": "较小队列只有经班级/学科工作量、财政编制与内部承接/外招分配才影响新人入口；读研改变申请窗口，不保证避险也不证明2034更差。",
+      "claim": "全国峰后压力支持当前下调单学段教师新人路径；2034相对2031人口侧压力更大，优先本科直申而不无增益等三年；B1/B2收益足够时可改变总选择。",
       "source_ids": [
         "F09",
         "F10",
         "F11",
         "F03",
-        "B3"
+        "B3",
+        "NF13"
       ],
       "report_location": "五、1—3",
       "scope": "约2031/2034进入市场及2037接续情景",
       "premises": [
         "简化时钟为约6岁入小学、六年小学制；2025出生约2031小学/2037初中。",
-        "若迁入和有经费小班化不足抵消较小队列、可接受外招收缩且合资格供给未同步降，入口趋紧。"
+        "采用全国下降为起始基准，尚无有力度地方反证；扩班净增减弱与存量通过减招、不补、调配消化支持新人承压，不要求未来每环已实测。",
+        "南京地方峰年保留为不同口径校正；2036/37仅条件延伸。"
       ],
       "limits": [
-        "无目标年本地队列、预算、承接、学历分母。",
+        "无目标年南京完整队列、预算、外招及学历分母；已有南京地方峰年披露，不再称全无本地预测。",
         "盐城不自动成为南京；退休不等于补位；三条公示不说明缺口来源。",
         "名义六年/三年不等于连续在岗或能力差。"
       ],
-      "decision_impact": "不把读研当自动等三年避开竞争；保留分年度复核。",
+      "decision_impact": "本科训练与入口可行时先准备2031直申，深造需足以补偿延迟与成本的资格/训练收益；录用率未识别不抹掉人口时点信息。",
       "reversal_observation": [
-        "本地迁入/班额与预算支持外招、合资格供给收缩更快，或本科/硕士接收规则改变。"
+        "目标工作量、持续预算及内部调整后外部招补形成强组合，或B1硬资格/B2真实训练增益足够补偿延迟；供给更快收缩的证据可减轻竞争压力。"
       ]
     },
     {
       "id": "I05",
       "kind": "conditional_inference",
-      "claim": "师范与法务须分别核付款、实际新人分工和训练；教师端拟聘与法务端广告的证据不对称不能制造专业胜率或稳定性排序。",
+      "claim": "教师拟聘与法务广告不能比较成功率，但T新增人口负向信息可在L端不变时强化相对选择；P0及法律端延续下L默认优先，T保留可行性。",
       "source_ids": [
         "F03",
         "F12",
         "B1",
-        "B2"
+        "B2",
+        "NF13"
       ],
       "report_location": "一、五、4",
       "scope": "南京两类具体任务的条件比较",
       "premises": [
-        "教育预算与企业现金流不同但可能受共同经营财政冲击。",
-        "法务任务可被资深团队、外包或工具重组，新人接收须核实。"
+        "教育财政与企业现金流不同但可能受共同冲击。",
+        "旧卡P0为明示情景而非用户；法律支付与可接受本科混合任务延续有历史入口支点，不是2031已实现事实。"
       ],
       "limits": [
         "三条公示与一条广告数量不可作供需比。",
         "两职业名称不自动构成个人风险对冲。"
       ],
-      "decision_impact": "旧L弱前置只有在明确任务接受和相对新人分工条件下保留；不能继承P0。",
+      "decision_impact": "L由弱前置升为默认第一比较，T需教学偏好或更强地方入口组合才前置，不因两边都有入口维持等权。",
       "reversal_observation": [
-        "教学实际外招、训练兑现而法务付款/新人分工弱，T前置；反向则可L弱前置。"
+        "T工作量、预算、内部调整后对外本科招补与训练组合足够强，或L支付/任务转弱而T保持；偏好改变另作分支。"
       ]
     },
     {
@@ -422,15 +432,17 @@
     {
       "id": "R02",
       "kind": "recommendation",
-      "claim": "若两任务都接受、教育外招弱而法务付款和新人分工兑现且接受混合任务，L可弱前置；反向T前置。",
+      "claim": "P0下以全国教师新人压力为基准、法律支付与可接受本科任务延续时，L默认第一、T第二；无需等南京未来缩招已验证。",
       "source_ids": [
         "I05",
-        "F12"
+        "F12",
+        "NF13"
       ],
       "report_location": "六、2",
       "scope": "江苏历史旧候选T/L条件比较",
       "limits": [
-        "不因退休、学历或法律面广自行前置。"
+        "非用户画像、个人最终志愿或行业全面胜负；具体法律端前提失效则撤回。",
+        "全国基准是前瞻方向，不是南京实测缩招或就业率差；缺分母不阻止当前降权。"
       ],
       "reversal_observation": [
         "法务只剩不接受的综合工作或熟手分工，而教学实际外招与训练兑现。"
@@ -439,7 +451,7 @@
     {
       "id": "R03",
       "kind": "recommendation",
-      "claim": "两边同强不强造总序，同弱可无已确认主方案；改地区、学段、学历或职业须明示新条件，不能把名单学校升级为招生保底。",
+      "claim": "两边有历史入口不足以同强；P0下按L优先，强地方反证或偏好改变可重排；两端失效则先扩可接受任务/地区并核已有入口，不以不选或读研替代策略。",
       "source_ids": [
         "F08",
         "I03",
@@ -471,14 +483,61 @@
         "有学历比例仍不足单独作因果结论。"
       ],
       "decision_impact": "区分A持续、B1硬门槛、B2训练增量或C共同失效。"
+    },
+    {
+      "id": "NF13",
+      "kind": "reported_forecast",
+      "claim": "当前官方预测全国初中2026、高中2029学龄人口峰；相关研究年龄组12—14/15—17岁，2031—2035下降，原研究止于2035。",
+      "source_ids": [
+        "NAT"
+      ],
+      "report_location": "一、五1",
+      "scope": "全国基础教育行业基线，不是南京流量/外招预测",
+      "premises": [],
+      "limits": [
+        "N2/N3同谱系，N1模型关系未披露；时点支持人口侧压力比较，不保证两年录用率。"
+      ],
+      "decision_impact": "既有本科拟聘保留可行性，新增下降预测实质下调T相对优先级，并提高2034无增益等待的成本；可信的工作量—预算—外部招补组合可校正，不能用空泛可能抵消。",
+      "reversal_observation": [
+        "新的同口径预测和实绩改变全国基准。"
+      ]
     }
   ],
   "not_collected": [
     "2026 college admissions data",
     "new schools",
-    "new sources",
     "applicant personal identifiers",
     "target-year employment or training verification"
   ],
-  "independent_review_performed": false
+  "national_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "author_run_id": "national-education-basis-author-20261107-r3",
+    "prior_review": "旧原稿审核历史保留，不覆盖本轮全国事实与推论更新",
+    "publication_mapping": {
+      "initial_published_head_sha": "4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa",
+      "issue": 405,
+      "pr": 406,
+      "base_sha": "8195e9a6db4be10633cc8b95625e90fe36219191",
+      "R3_content_review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320"
+    }
+  },
+  "review_status_by_stage": {
+    "prior_R2_review": {
+      "status": "historical; does not cover R3"
+    },
+    "local_R3_content_review": {
+      "status": "completed",
+      "verdict": "建议采用",
+      "blocking_issues": 0,
+      "input_manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+      "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+      "scope": "frozen local candidate-r3 content only; not this prepared publication package or a new remote head"
+    },
+    "publication_package_review": {
+      "status": "not_yet_reviewed_for_prepared_r5_or_a_new_head",
+      "verdict": null
+    },
+    "remote_adoption_state": "not_asserted; see Issue #405 and PR #406"
+  }
 }
