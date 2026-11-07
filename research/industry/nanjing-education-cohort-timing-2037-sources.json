@@ -421,7 +421,7 @@
       "publisher": "本轮来源索引及分析，非新增独立外部预测",
       "path": "national-education-cohort-2037-sources.json",
       "claims_path": "national-education-cohort-2037-claims.json",
-      "representation": "current_local_candidate_source_index",
+      "representation": "repository_source_index_summary",
       "sections": [
         "N1—N6",
         "NF01—NF06、NI01—NI04"
@@ -433,7 +433,7 @@
         "N2/N3同谱系，N1底层关系未披露；2036/37不在模型内。",
         "本轮源文为保存网页提取文本，非原HTML/PDF；未证南京模型、地方外招或T/L胜率。"
       ],
-      "content_sha256": "8f009440bef88a27231a90f0f97db25796dba9ca1aa487c40e4cd9d8f3f74e3d"
+      "content_sha256": "ea102432abd07a36c5b8ebb0e7c706b4929304a215d54286b825c31619e2c0cd"
     }
   ],
   "scope_revision": {
@@ -441,12 +441,48 @@
     "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
     "status": "local_candidate_not_published",
     "application_boundary": "南京为条件就业地，江苏历史类仅为招生接口；地方事实和预测不得直接迁移为江苏全省或全国峰值、2031/2034就业优劣或T/L排序。改就业地须另核同口径队列、准入、预算外招、训练及本人接受。",
-    "representation_boundary": "本次新增核对为公开网页可读文本与研究成果摘要，不是原HTML/PDF字节或预测模型复现。原研究证据引用及哈希保留原身份。"
+    "representation_boundary": "本次新增核对为公开网页可读文本与研究成果摘要，不是原HTML/PDF字节或预测模型复现。原研究证据引用及哈希保留原身份。",
+    "snapshot": true,
+    "snapshot_role": "historical snapshot of the prior local scope-only revision; not current national publication state"
   },
   "national_revision": {
     "date": "2026-11-07",
     "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
-    "status": "local_candidate_not_published",
-    "prior_scope_review": "原R2只覆盖七文件地域修正，不批准本轮全国整合"
+    "status": "publication_revision",
+    "prior_scope_review": "原R2只覆盖七文件地域修正，不批准本轮全国整合",
+    "publication_mapping": {
+      "initial_published_head_sha": "4c05e12a4aa5504302f8bd56cfbb5f1d7b8362aa",
+      "head_role": "historical initial published head and input to R3 revision; not current prepared candidate head",
+      "issue": 405,
+      "issue_url": "https://github.com/mythpan1/pathwise-research/issues/405",
+      "pr": 406,
+      "pr_url": "https://github.com/mythpan1/pathwise-research/pull/406",
+      "base_sha": "8195e9a6db4be10633cc8b95625e90fe36219191",
+      "content_review": {
+        "manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+        "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+        "verdict": "建议采用",
+        "scope": "frozen local candidate-r3 content only"
+      },
+      "current_prepared_candidate_status": "locally prepared; status/attribution packaging changes await exact package/head review; no remote adoption/merge asserted"
+    },
+    "review_status_by_stage": {
+      "prior_R2_review": {
+        "status": "historical; does not cover R3"
+      },
+      "local_R3_content_review": {
+        "status": "completed",
+        "verdict": "建议采用",
+        "blocking_issues": 0,
+        "input_manifest_sha256": "5bf45299a3fbfe67cd1ff859d373e48b61a6ec7bea213617fa2554b58c84791a",
+        "review_sha256": "6a63e08c81bc5437a7cb3582c47e8ec74bd7d695ebb85b0c4c5104187c5cd320",
+        "scope": "frozen local candidate-r3 content only; not this prepared publication package or a new remote head"
+      },
+      "publication_package_review": {
+        "status": "not_yet_reviewed_for_prepared_r5_or_a_new_head",
+        "verdict": null
+      },
+      "remote_adoption_state": "not_asserted; see Issue #405 and PR #406"
+    }
   }
 }
