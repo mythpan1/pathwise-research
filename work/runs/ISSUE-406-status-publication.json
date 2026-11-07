@@ -1,0 +1,21 @@
+{
+  "run_id": "RUN-ISSUE-406-STATUS-PUBLICATION-20261107",
+  "task_id": "LOCAL-ISSUE-406-POSTMERGE-STATUS-20261107",
+  "role": "mechanical publisher",
+  "model": {
+    "requested": null,
+    "reported": null,
+    "source": "runtime metadata unavailable",
+    "verification": "unknown"
+  },
+  "reasoning": {
+    "requested": null,
+    "reported": null,
+    "source": "runtime metadata unavailable",
+    "verification": "unknown"
+  },
+  "base_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
+  "manifest_sha256": "9715fd5a4921f39b8263aebaea398a8a4d19683b397cc4153a323ca80b3411c7",
+  "patch_sha256": "b12d3f4d05d93afe5774e355bccf4f78bfdecd219e99fa204c036aff3d327fe8",
+  "scope": "Publish only 12 manifest files and minimal redacted records; no research content changes; no self-review or merge."
+}
