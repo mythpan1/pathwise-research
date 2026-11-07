@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "task_id": "LOCAL-js-renewable-settlement-choice-20261107",
+  "research_date": "2026-11-07",
+  "fixed_main": "e65091e99711d32081d7e55fa404cfdedf5d776f",
+  "use": "江苏风光发电业务子情景的责任/条件辨析，不是2031规则、企业收益或岗位预测",
+  "documents": [
+    {
+      "id": "S1",
+      "title": "江苏省深化新能源上网电价市场化改革 促进新能源高质量发展实施方案及附件1",
+      "issuer": "江苏省发展改革委",
+      "document_number": "苏发改规发〔2025〕5号",
+      "document_date": "2025-10-15",
+      "page_date": "2025-10-21",
+      "effective_from_as_written": "2026-01-01",
+      "effective_to_as_written": "2030-12-31",
+      "url": "https://fzggw.jiangsu.gov.cn/art/2025/10/21/art_51007_11659583.html",
+      "representation": "正式页工具转换文字；本次返回L0—L195，含所用附件1相关完整条款；非原始HTML字节",
+      "converted_text_sha256": "a20992f6c93e0ad5db005da400bf70c3a3347fdc2ae9c73b902fa41de6c0171d",
+      "original_bytes_obtained": false,
+      "direct_raw_retrieval_result": "HTTP 403；停止，未绕行重试",
+      "visual_verification": "没有PDF图像；采用HTML正文转换中的文本公式，不声明原网页视觉核验",
+      "locators": [
+        {
+          "claim_ids": [
+            "F01"
+          ],
+          "locator": "方案第一节、四末尾及附件1第2—4、14、26条；转换L25—27、L74、L94—97、L123、L149",
+          "supports": "直接/聚合/默认受价方式，机制适用与排除、协议和所载期限"
+        },
+        {
+          "claim_ids": [
+            "F02"
+          ],
+          "locator": "附件1第23—24条，转换L142—143；默认受价见方案第一节L27",
+          "supports": "补差采用同类均价，区分整月现货/未整月阶段；补差和市场电费分算合账；默认受价市场收入另有口径"
+        },
+        {
+          "claim_ids": [
+            "F03"
+          ],
+          "locator": "附件1第5—8、11—16条；转换L100—109、L118—128",
+          "supports": "存量比例、实际上网量、增量年度上限和不跨年补足、价与期限须具体确定"
+        }
+      ],
+      "limits": [
+        "未取得具体项目协议、竞价参数、结算账单或后续修订全序列",
+        "确认文件载明执行区间，不证明截至2026-11-07无后续修订",
+        "当前实际是否整月/正式结算运行未核，不择定某阶段公式当实况",
+        "2030有效期不能直接外推2031/2037，也不证明届时存续项目协议一律终止"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "江苏省电力中长期市场实施细则（2026版）通知及附件",
+      "issuer": "国家能源局江苏监管办公室、江苏省发展改革委员会",
+      "document_number": "苏监能市场〔2026〕14号",
+      "document_date": "2026-02-28",
+      "page_date": "2026-03-06",
+      "url": "https://jsb.nea.gov.cn/dtyw/tz/202603/t20260306_297521.html",
+      "pdf_url": "https://jsb.nea.gov.cn/dtyw/tz/202603/P020260306620943462050.pdf",
+      "effective_from_notice": "2026-03-01",
+      "effective_from_attachment_139": "自发布之日起施行",
+      "date_discrepancy": "通知与附则措辞差异保留，不自行合并；附则同时指向后续新政策",
+      "representation": "原PDF 44页，596270字节；全文pdftotext -layout表示并作者定向读回，纸面37—39页局部视觉核验",
+      "pdf_bytes": 596270,
+      "pdf_sha256": "b6d78a873d5e0d862adb373f3002d16abd3abfd4a27097aaea90c4a1a56e93e6",
+      "converted_text_sha256": "fb4981271491d85e0226f516b8a1de3bad845892c6e3b098480cac5af37ee267",
+      "notice_converted_text_sha256": "96b35b2b4597c79ef347c1d37e19a29289627c38e51afe8849e018b88727ae09",
+      "visual_check": {
+        "printed_pages": [
+          37,
+          38,
+          39
+        ],
+        "zero_based_pages": [
+          36,
+          37,
+          38
+        ],
+        "scope": "第113条合约项、115—119条偏差与返还依赖、121条聚合账本；作者实际查看渲染图，其余段落按原PDF转换文字定向核读",
+        "image_sha256": [
+          {
+            "printed_page": 37,
+            "sha256": "0a22a3deaceca0a4eb6e37c8432801d7a0821f95ed2a49cf0e2d38345f1512d9"
+          },
+          {
+            "printed_page": 38,
+            "sha256": "1e67b72a440e360dd2225937e29b79e691f4bedb5e2e9fc2981cfe8a82bd67c6"
+          },
+          {
+            "printed_page": 39,
+            "sha256": "0a77f130562e26ea977759ea1a6d84ca021e42cbd11d55d13e459cb1ce256405"
+          }
+        ],
+        "not_claimed": "全PDF逐页视觉核验"
+      },
+      "metadata_warning": "PDF Title有无关旧标题残留，识别依据正文通知与细则标题，不以元数据作文件名称",
+      "locators": [
+        {
+          "claim_ids": [
+            "F04"
+          ],
+          "locator": "第111—119条，纸面/PDF36—38页",
+          "supports": "中长期参考点、合约项与现货项分开；合同电能量照付不议、偏差另结；无中长期合同已入市量按偏差；部分返还原则另定"
+        },
+        {
+          "claim_ids": [
+            "F05"
+          ],
+          "locator": "第121、127条，39、40页",
+          "supports": "资源按聚合合同价，电源聚合商批发参照发电企业；合同形成资源侧结算依据"
+        },
+        {
+          "claim_ids": [
+            "F06"
+          ],
+          "locator": "第14、43、45—46、65、71、74条，6、19、21、26、27页；紧急调度第103条34页",
+          "supports": "预测等信息义务、合约协商转让调整与能力边界；紧急安全调度不等本轮取得补偿/免责公式"
+        },
+        {
+          "claim_ids": [
+            "F07"
+          ],
+          "locator": "通知纸面2页及第139条42页",
+          "supports": "日期差异与新政策衔接，未证明无后续修订"
+        }
+      ],
+      "limits": [
+        "适用江苏已注册中长期市场参与者，不可套全部默认受价项目",
+        "中长期合约项不是完整现货或项目总收入公式",
+        "未取得匹配2026主体/阶段的现货偏差价格、预测考核及设备/调度豁免",
+        "未取得实际聚合合同、公司损益及本科任务/招聘",
+        "对2026-11-07最新实际运行阶段及后续修订无穷尽证明"
+      ]
+    }
+  ],
+  "inherited_repository_refs": [
+    {
+      "id": "R1",
+      "path": "research/admissions/jiangsu-power-market-math-choices.md",
+      "commit": "e65091e99711d32081d7e55fa404cfdedf5d776f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/e65091e99711d32081d7e55fa404cfdedf5d776f/research/admissions/jiangsu-power-market-math-choices.md",
+      "git_blob_sha": "6b6b4d060c40037a7d19c0b700d17a12c9206ec9",
+      "sha256": "8bcb32187cbf8f652bd2e2ad3aec944e5644260ad5cbdc80a343b3923eb889e3",
+      "use": "继承历史坐标、原P、最新条件顺序和旧入口边界；未重取这些稿件的外部来源，核验等级不提升"
+    },
+    {
+      "id": "R2",
+      "path": "research/admissions/energy-internet-undergraduate-entry-addendum.md",
+      "commit": "e65091e99711d32081d7e55fa404cfdedf5d776f",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/e65091e99711d32081d7e55fa404cfdedf5d776f/research/admissions/energy-internet-undergraduate-entry-addendum.md",
+      "git_blob_sha": "d333b6780e87d15927c870f3422a42da06148d66",
+      "sha256": "6b14323258d37131fa1a3b7be0cb5dd09cbc09f77bdd7d623b513b5316a5ed3c",
+      "use": "继承历史坐标、原P、最新条件顺序和旧入口边界；未重取这些稿件的外部来源，核验等级不提升"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "X1",
+      "title": "江苏省电力现货市场运营规则（V1.0版）",
+      "url": "https://fzggw.jiangsu.gov.cn/attach/0/3fa35212455a48cea2781639eb202cc4.pdf",
+      "reason": "未确认与2026主体及执行阶段匹配，故排除；不以其旧公式补F2",
+      "used_for_claims": false
+    }
+  ],
+  "evidence_counting": "采用两份正式文件；同一通知页、PDF、附件、转换文本与渲染图不重复计独立来源。S1所载附件属于同一文件。",
+  "unknowns": [
+    "实际项目参与方式与服务合同风险传递",
+    "具体实际现金、执行成本及获益",
+    "当前新版现货偏差和考核的完整适配条款",
+    "实际本科任务、精确专业接收、相对训练和岗位质量",
+    "2031/2037有效规则与入口"
+  ],
+  "sharing_boundary": "仅公开来源定位、必要概述和哈希；不含原件、完整工具返回、本地绝对路径、搜索日志或个人资料"
+}
