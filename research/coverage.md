@@ -132,3 +132,8 @@
 [来源索引](admissions/changshu-lab-undergraduate-entry-sources.json)保存官方原HTML与原XLSX的定位、表示和哈希；XLSX核表头、岗位行及合并范围，未做Excel视觉核验。所有新增材料属常熟卫健委同一来源家族，不按公告、附件、公示重复计独立样本；不上传原件及拟聘者姓名、出生等资料。旧学校、国家政策、录取和企业／CDC证据仅沿固定摘要，不提升等级。
 
 回传[县域专题](industry/county-lab-network-2037-choices.md)、[培养职业桥](admissions/education-career-bridge.md)与[职业路由](admissions/major-career-routing.md)：L仍医检暂前置且整体中等偏弱，P并列、C卫检暂前置不变。合同、资格期限只属2025批次；最终接收、真实质控反馈及轮岗、2031持续入口和2037成长仍未知，南医05组11成员接受和2027完整规则也未闭合。不新增历史组／成员计数、个人志愿方案或F1—F6完成声明，2026录取采集继续暂停。
+
+
+## 2026-11-06 玄武初中语文本科拟聘公示
+
+[玄武同批初中语文研究](admissions/xuanwu-chinese-teacher-undergraduate-entry.md)只增补一个既有招聘批次的三条本科拟聘公示记录，保留公示非最终到岗、来源转换及同源转载限制；不推2026应届、无经验、扬大输送、学历胜率或未来岗位数，不改变旧候选组/人数。A/B1/B2为沿用的条件框架，2026录取资料采集继续暂停。
