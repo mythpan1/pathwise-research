@@ -164,3 +164,5 @@ L仍复用南京天华院2027校招实例：法学相关本科及以上，合同
 - **B3**：[高教供给与本科/读研比较，固定提交](../industry/higher-education-supply-entry-2037.md)。定位：第一、三、四、六节。其[教育强国纲要](http://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202501/t20250119_1176193.html)、[2025教育统计公报](http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/202607/t20260706_1442870.html)、[研究生分类发展意见](http://www.moe.gov.cn/srcsite/A22/moe_826/202312/t20231218_1095043.html)只保留旧事实与制度边界，不认定本题硕士项目已落实。
 
 主张、条件与反转的机器可读映射见[主张清单](xuanwu-chinese-teacher-undergraduate-entry-claims.json)。作者原始运行元数据受控留存，未上传运行日志或内部提示。完成写作不等于现实结果已验证。
+
+同候选的最新人口队列时钟与比较更新见[南京生源队列与2031/2034路径](../industry/nanjing-cohort-timing-2037-choices.md)：2029/2032为入学峰值预测而非招聘峰值；小班小学不推出初中增编；T本科直申与T/L排序分开。

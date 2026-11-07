@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "research_id": "LOCAL-nanjing-cohort-timing-20261107",
+  "baseline_commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9",
+  "claims": [
+    {
+      "claim_id": "E01",
+      "type": "evidence_boundary",
+      "statement": "新源为官方URL转换；旧招聘及培养等仅复用固定正文，不把转载/重复打开或仓库采用计为独立现实验证。",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "directly_checkable_representation_boundary",
+      "limits": [
+        "未取得原HTML字节或完整人口预测模型。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二"
+    },
+    {
+      "claim_id": "F01",
+      "type": "reported_fact",
+      "statement": "S1报道2018—2023高中布局方案与2025—2027接续建设计划，包含建设、调剂、教师编制动态核定及向高中倾斜。",
+      "sources": [
+        "S1"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "officially_republished_reporting",
+      "limits": [
+        "不是这些计划原文或执行审计。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二、四"
+    },
+    {
+      "claim_id": "F02",
+      "type": "reported_forecast",
+      "statement": "S1披露小学2023入学达峰，初中预计2029、高中2032入学高峰；同时报道判断未来十年高低学段供需错配持续。",
+      "sources": [
+        "S1"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "named_department_forecast_disclosed_in_report",
+      "limits": [
+        "预测非实现人数；峰值及十年判断均非岗位承诺。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二"
+    },
+    {
+      "claim_id": "F03",
+      "type": "reported_fact",
+      "statement": "S2为小学小班制实验与6校空间技术改造，试点生源方向不一，跨班组织等要求持续训练。",
+      "sources": [
+        "S2"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "official_portal_case_reporting",
+      "limits": [
+        "不支持初中语文减额、增班、工资或增招数字。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二、四、六"
+    },
+    {
+      "claim_id": "F04",
+      "type": "current_rule",
+      "statement": "S3在岗职称程序对本区县组织需要跨学段人事调动设教资、新岗一年考核及新成果等条件，并保留按岗推荐和跨系列转评条件。",
+      "sources": [
+        "S3"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "notice_body_direct",
+      "limits": [
+        "非自动调岗权、调动统计、新人准入或2037保证。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二、四"
+    },
+    {
+      "claim_id": "F05",
+      "type": "reported_fact",
+      "statement": "S4记载栖霞编制动态调整试点以及跨校、学段、学科交流推进。",
+      "sources": [
+        "S4"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "one_district_official_work_report",
+      "limits": [
+        "不代表玄武执行量、净挤出外招或全部交流者都跨学段。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二、四"
+    },
+    {
+      "claim_id": "F06",
+      "type": "statistical_fact",
+      "statement": "2024/2023南京小学招生94199/109394人，初中85111/74946人。",
+      "sources": [
+        "S5"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "table_re_read",
+      "limits": [
+        "入学流量非岗位；两年不独证完整历史峰值。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "三"
+    },
+    {
+      "claim_id": "F07",
+      "type": "current_rule",
+      "statement": "2026南京小学入学满6周岁，按2019-09-01至2020-08-31出生窗。",
+      "sources": [
+        "S6"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "official_question5",
+      "limits": [
+        "日历出生年不能与入学队列逐人等同；非未来规则保证。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "三"
+    },
+    {
+      "claim_id": "F08",
+      "type": "inherited_reported_fact",
+      "statement": "玄武同批初中语文允许合资格师范本科，并已有三条本科、汉语言文学师范拟聘公示记录。",
+      "sources": [
+        "B3"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "prior_bounded_evidence_reused",
+      "limits": [
+        "不是最终到岗、当届无经验、扬大输送或学历成功率。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "一、五"
+    },
+    {
+      "claim_id": "F09",
+      "type": "inherited_historical_fact",
+      "statement": "T为扬大2025江苏历史06汉语言文学师范旧6766；L为07法学旧6527；各1显示成员，T旧培养方案含四年中学语文培养连接。",
+      "sources": [
+        "B1",
+        "B3"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "fixed_main_body_reuse",
+      "limits": [
+        "非用户位次、目标年资格或全组完整；空值不补，法学四年仍为假设。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "一、五、六"
+    },
+    {
+      "claim_id": "F10",
+      "type": "inherited_reported_fact",
+      "statement": "南京天华院旧2027校招法务要求法学相关本科及以上，法律职业资格优先，职责包含合同/招投标/纠纷协助与综合事务。",
+      "sources": [
+        "B1",
+        "B3"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "old_job_post_reuse",
+      "limits": [
+        "非纯法务承诺，非实际聘用、人数、薪资、带教证据。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五"
+    },
+    {
+      "claim_id": "H01",
+      "type": "assumption",
+      "statement": "江苏历史类2027入学、南京就业，四年本科2031、再实际三年硕士2034、2037观察；仅研究设定，不继承P0。",
+      "sources": [],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": null,
+      "limits": [
+        "不是用户接受；延迟毕业、求职和工作中断改变时钟。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "一、四"
+    },
+    {
+      "claim_id": "H02",
+      "type": "assumption",
+      "statement": "按秋季学年、六年小学、三年初中及三年普高连续正常就读；升入普高者为初中队列的条件子集。",
+      "sources": [
+        "S6",
+        "B1"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": null,
+      "limits": [
+        "出生窗、迁移、分流、休学与招生规则会改变人数和时点；不假设全员升普高。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "三"
+    },
+    {
+      "claim_id": "H03",
+      "type": "scenario_assumption",
+      "statement": "A的本科路径条件需本人接受教学和分配、训练教资可得，目标年真实接收匹配本科且具经费和反馈；这些条件只支持T的本科直申准备，不单独决定T/L排序。",
+      "sources": [],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": null,
+      "limits": [
+        "本轮未证明2031全部条件成立。",
+        "T相对L前置还须D01的比较前提；两边同强且无任务/成本排序时回到D04。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五A"
+    },
+    {
+      "claim_id": "H04",
+      "type": "scenario_assumption",
+      "statement": "B成立需教师可接受外招确实偏弱，同时企业有付款、真实本科法律工作和反馈且综合任务可接受。",
+      "sources": [],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": null,
+      "limits": [
+        "不是未来基准发生概率或用户风险偏好。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五B"
+    },
+    {
+      "claim_id": "H05",
+      "type": "scenario_assumption",
+      "statement": "B1为具体目标匹配硕士硬门槛；B2为本科可入目标下硕士有难替代且雇主认可的训练增量，两者均需成本/完成可行。",
+      "sources": [
+        "B3"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": null,
+      "limits": [
+        "本包未核任何实际硕士项目满足。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五C"
+    },
+    {
+      "claim_id": "I01",
+      "type": "inference",
+      "statement": "依本轮证据不应仅为等待峰值或学历焦虑延后三年；A成立时本科直申为条件准备主线。",
+      "sources": [
+        "F08",
+        "F09",
+        "F02",
+        "B3"
+      ],
+      "assumptions": [
+        "H01",
+        "H03"
+      ],
+      "reason": "本科路径已有有限结果支点，入学峰值未识别2031/2034外招收益差，不能给等待本身计入已证实收益。",
+      "support_strength": "strong_against_automatic_delay_not_for_hiring_probability",
+      "limits": [
+        "不证明本科更易录用或所有硕士无价值。"
+      ],
+      "revision_conditions": [
+        "明确硕士硬门槛或经核验的训练增量，转B1/B2。"
+      ],
+      "analysis_section": "一、三"
+    },
+    {
+      "claim_id": "I02",
+      "type": "conditional_timing_inference",
+      "statement": "2023小学入学队列2031秋可处初三，其中2032升普高且持续就读者2034秋可处高三；这不是在校总量或外招峰值。",
+      "sources": [
+        "F02",
+        "F06",
+        "F07"
+      ],
+      "assumptions": [
+        "H02"
+      ],
+      "reason": "按正常学制平移队列而保留分流、多个年级存量与招聘安排之间的差别。",
+      "support_strength": "strong_arithmetic_conditional_timing_weak_labor_market_ranking",
+      "limits": [
+        "不得称2034已全体高中毕业；不得推2031/2034招聘峰值或谁更好。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "一、三"
+    },
+    {
+      "claim_id": "I03",
+      "type": "inference",
+      "statement": "入学流量过峰仍可有存量、区域及服务标准缺口；有经费班级/课时与真实外招可让T在较小队列下仍成立。",
+      "sources": [
+        "F01",
+        "F02",
+        "F03",
+        "F06"
+      ],
+      "assumptions": [],
+      "reason": "流量、存量、区域和服务标准不一一对应；S1高学段持续紧张报道限制简单全城收缩叙事。",
+      "support_strength": "mechanism_supported_magnitude_unknown",
+      "limits": [
+        "不把迁入或小班化当必然足额抵消。"
+      ],
+      "revision_conditions": [
+        "同地区班级/课程、持续经费与真实承接显示方向改变。"
+      ],
+      "analysis_section": "二、四、五A"
+    },
+    {
+      "claim_id": "I04",
+      "type": "inference",
+      "statement": "两种学历和两个职业的竞争供给都须按同地区、资格、阶段统计，不能由当前出生或公告条数推就业胜率。",
+      "sources": [
+        "B2",
+        "B3",
+        "F08",
+        "F10"
+      ],
+      "assumptions": [],
+      "reason": "高教培养、往届和迁移不同于学生需求队列，教师公示与法务广告证据阶段不等。",
+      "support_strength": "strong_scope_constraint",
+      "limits": [
+        "无同口径分母，不量化竞争强度。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "三"
+    },
+    {
+      "claim_id": "I05",
+      "type": "inference",
+      "statement": "内部调配可以接住教学任务而抑制相应外招，但也可能留下原岗缺口；南京制度/一区实践提高机制相关性，不识别净挤出。",
+      "sources": [
+        "F01",
+        "F04",
+        "F05",
+        "B2"
+      ],
+      "assumptions": [],
+      "reason": "岗位工作量与承接者分配分账；流动人数不是新人岗位减少人数。",
+      "support_strength": "moderate_local_mechanism_support_no_effect_size",
+      "limits": [
+        "不证明全市或玄武优先顺序；不能叠加退休返聘交流抵扣外招。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "一、四"
+    },
+    {
+      "claim_id": "I06",
+      "type": "inference",
+      "statement": "若实际入岗并积累有效任务和反馈，到2037组织移动可形成有条件接续；相同调配机制对新人入口和在岗适应可能方向不同。",
+      "sources": [
+        "F04",
+        "F05",
+        "B3"
+      ],
+      "assumptions": [
+        "H01"
+      ],
+      "reason": "现职成果的条件认可显示当前接续机制，但要有新岗接收、资格与成果，不从资格推出调岗权。",
+      "support_strength": "conditional_supported_mechanism_future_rule_unverified",
+      "limits": [
+        "不是先占编制；名义六年/三年不等实际年资或能力。"
+      ],
+      "revision_conditions": [
+        "未来调动/职称规则、新单位接收或实际训练失效。"
+      ],
+      "analysis_section": "四、六"
+    },
+    {
+      "claim_id": "I07",
+      "type": "inference",
+      "statement": "小班教学方式与人数标准、建设投资与持续人力须分账；可据小学案例条件检验教学组织训练，不据此计初中增招。",
+      "sources": [
+        "F01",
+        "F03",
+        "B4"
+      ],
+      "assumptions": [],
+      "reason": "空间技术改变任务组织，只有经费和岗位安排另行落实才改变人力接收。",
+      "support_strength": "strong_distinction_conditional_training_extension",
+      "limits": [
+        "不证明扬大实际提供训练或小学模式必复制中学。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "四、六"
+    },
+    {
+      "claim_id": "I08",
+      "type": "inference",
+      "statement": "L需经营付款、真实新人任务和反馈才能相对前置，教育与企业不同支付主体也可能承受相关冲击。",
+      "sources": [
+        "F10",
+        "B1",
+        "B3"
+      ],
+      "assumptions": [
+        "H04"
+      ],
+      "reason": "业务需要可能由资深/外包/工具承接，跨行业名称不自动给个人分散风险。",
+      "support_strength": "conditional_only_no_new_law_evidence",
+      "limits": [
+        "无新增法务就业结果，不因教育弱点直接判L稳赢。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五B"
+    },
+    {
+      "claim_id": "D01",
+      "type": "conditional_recommendation",
+      "statement": "H03成立支持T的2031本科直申准备，有经费小班和外招可维持该路径依据；T相对L前置还需本人明确更接受教学任务及其成本，或T的可接受新人接收、反馈兑现而L相对较弱。",
+      "sources": [
+        "I01",
+        "I03",
+        "F08",
+        "F09"
+      ],
+      "assumptions": [
+        "H03"
+      ],
+      "reason": null,
+      "support_strength": "moderate_path_support_conditional_order",
+      "limits": [
+        "比较前提不是用户已有偏好或未来事实。",
+        "两边同强且无任务/成本排序时回到D04；T入口可行但较弱、法律端兑现时按D02比较，不由H03单独强制T优先。"
+      ],
+      "revision_conditions": [
+        "目标不接受、资格训练不兑现或真实外招被内部承接而不足时撤销相应本科路径依据；相对比较前提失效时撤销T前置；高中扩容不得替代具体准入。"
+      ],
+      "analysis_section": "五A"
+    },
+    {
+      "claim_id": "D02",
+      "type": "conditional_recommendation",
+      "statement": "H04同时成立时L弱前置；企业任务不接受或无新人训练而教师兑现时转T。",
+      "sources": [
+        "I05",
+        "I08",
+        "F10"
+      ],
+      "assumptions": [
+        "H04"
+      ],
+      "reason": null,
+      "support_strength": "weak_conditional_order",
+      "limits": [
+        "不是就业率、工资、稳定性排名。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五B"
+    },
+    {
+      "claim_id": "D03",
+      "type": "conditional_recommendation",
+      "statement": "只在具体B1或B2及成本可行时前置匹配硕士；B1不要求独特训练，B2等效可得则撤销增量理由。",
+      "sources": [
+        "B3",
+        "I01",
+        "I02"
+      ],
+      "assumptions": [
+        "H05"
+      ],
+      "reason": null,
+      "support_strength": "strong_comparison_rule_no_program_endorsement",
+      "limits": [
+        "机会成本只算实际可得工作；同样约束L深造。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五C"
+    },
+    {
+      "claim_id": "D04",
+      "type": "conditional_recommendation",
+      "statement": "两边同强按真实接受和成本比较；同弱可无已确认主方案，不靠另一专业、学位或未经核实出口充当保底。",
+      "sources": [
+        "B1",
+        "B3",
+        "I04",
+        "I08"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "conditional_choice_boundary",
+      "limits": [
+        "不新增院校组；管理、教材、培训和跨职业转岗未获新增确定入口。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "五D、六"
+    },
+    {
+      "claim_id": "D05",
+      "type": "conditional_recommendation",
+      "statement": "后续优先对齐目标学段班级/课程、持续经费、内部承接与外招工作包；培养围绕任务反馈，法务前置也要核付款和新人任务。",
+      "sources": [
+        "I03",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "assumptions": [],
+      "reason": "这些连接分别检验T本科直申的路径支点、B的教育端与法务端条件、B1/B2和共同失效；T/L排序仍须比较前提，两边同强且无任务/成本排序时回到D04。单条招聘或名单继续增加不能替代这些连接。",
+      "support_strength": "high_decision_relevance",
+      "limits": [
+        "不启动监测、扩采、上传或下一批；2030为建议复核节点不是自动任务。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "六"
+    }
+  ]
+}

@@ -253,3 +253,5 @@
 ## 2026-11-06 玄武同批初中语文入口补证
 
 [玄武同批初中语文研究](xuanwu-chinese-teacher-undergraduate-entry.md)提供一条有限历史路径：公告和目录允许符合条件的师范本科申请，本批名单转换文本显示三条汉语言文学（师范）本科拟聘公示记录。公示不是最终到岗或未来岗位数；来源表示限制见其[脱敏来源索引](xuanwu-chinese-teacher-undergraduate-entry-sources.json)。该增量增强有条件的本科直申准备，不证明扬大训练或就业胜率，不自动追加硕士，也不改变A/B1/B2条件框架。2026录取采集继续暂停。
+
+南京人口时钟与培养、职业接口见[南京生源队列与2031/2034路径](../industry/nanjing-education-cohort-timing-2037-choices.md)；峰值预测不等于招聘峰值，小学小班实验不推出初中增编，T直申和T/L排序分别论证。
