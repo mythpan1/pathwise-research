@@ -1,0 +1,18 @@
+Exact reviewed head: 94ae3867ad21b3141c3676f454afccab85c67746
+Original review comment: https://github.com/mythpan1/pathwise-research/pull/407#issuecomment-6714398379
+Source report SHA-256: a5b757f43c41511d88bbd336a5f0560e6831a9981f8c40c422e64080e1cb18ff
+This archive preserves the source report text exactly and does not extend the review scope.
+
+Independent review | head: 94ae3867ad21b3141c3676f454afccab85c67746 | reviewer run: LOCAL-POSTMERGE-406-STATUS-INDEPENDENT-REVIEW-20261107 | verdict: 建议采用
+
+基线 main：56def2b594411e466b3e5a0e8935320a131ceeba；前一发布head：64d208619a86e0b87ccb54d7f75edea6497be596。本人未参与候选编写、打包或发布；这是同一独立审核任务的PB1差分复核。本结论仅覆盖上述精确H2，不是GitHub APPROVE，不表示已合并或全部平台门禁已满足，PR #406的旧独审不批准本次修正。
+
+已亲核实时PR/main/H2、H1→H2比较、两棵完整tree及两份远端记录的实际字节。H1→H2仅修改work/runs/ISSUE-406-status-publication.json与work/steps/ISSUE-406-status-publication.jsonl；12个状态/依赖文件的blob全部未变，仍与已独审本地R2逐字一致。固定manifest SHA-256为9715fd5a4921f39b8263aebaea398a8a4d19683b397cc4153a323ca80b3411c7，patch SHA-256为b12d3f4d05d93afe5774e355bccf4f78bfdecd219e99fa204c036aff3d327fe8，本地R2审核报告SHA-256为677d13b72eeb8107319a582813988aca6f6765df4fde5ed9f477e7e5a8ce2bcd。复用已核未变内容，不重抓研究原文；全国sources与南京B5的绑定、旧scope_revision、本地R3边界及旧reviews/work归档均未改变。
+
+PB1已关闭：原run字段和值、steps S1—S5原文完整保留，追加六条明确posthoc记录；实际作者、本地R2独审、H1远端需修改审核和发布职责分别关联。所读规则绑定完整main与五个实际路径，作者源记录、HANDOFF、本地R2报告和原PB1评论的SHA-256均与可见受控材料相符。补录使用真实recorded_at，过去事件时间未知保留null及原因，没有倒填started；操作完成与verification、发布者亲核与引用独审、requested与reported/unknown分别说明。本地原件不上传的边界保留，Issue被拒且未重试、失败后再发布、H1交审和H1检查历史已接续记录。部分历史编码重试细节属于发布者事后声明，未宣称本审核者独立目睹或复现每次原始调用。
+
+两份新记录远端字节均与冻结prepared-r2一致：run SHA-256 ea87ffbab320ed21ae9291e80932eb9ef6cc178e6f7d81d7cc85ddb5b545518d，Git blob abb7d899436b63230bb88679ba8b5c3bcfeafc83；steps SHA-256 3a5b370f23909b250ab80a0d12d3fd9c93add3ce36a6e9609a4b208149add460，Git blob 5490090725b2bf68059b2b2ee79488b3b21d0fc0。JSON/JSONL、前序引用、历史保留及版本检查通过，本轮独立差分核验48项通过、0失败，无剩余内容或发布完整性阻断。
+
+我本轮独立读取H2的指定 .github/workflows/validation.yml run 42424577478与validate check-run 128560011771，均为completed/success且head_sha为H2；annotations_count=2，详情未读，不声称零告警，也未沿用H1的检查。当前PR为open、非draft、未合并，Ready交审标记绑定H2。可见讨论只有原PB1评论，正式reviews为空；原PB1由本次精确版本复核关闭。
+
+未复现人口模型、验证未来招聘结果或核完分支保护、所需独立账户批准及全部合并条件。后续仅追加本审核真实归档时，须核归档忠实与最终差异；正文、基线或其他文件再变化须复核受影响部分。合并者仍须核最新精确head检查及平台门禁，不得绕过。请求配置由协调者提供为gpt-6-astra/ultra，后端实际元数据不可核，reported unknown。
