@@ -17,5 +17,103 @@
   "base_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
   "manifest_sha256": "9715fd5a4921f39b8263aebaea398a8a4d19683b397cc4153a323ca80b3411c7",
   "patch_sha256": "b12d3f4d05d93afe5774e355bccf4f78bfdecd219e99fa204c036aff3d327fe8",
-  "scope": "Publish only 12 manifest files and minimal redacted records; no research content changes; no self-review or merge."
+  "scope": "Publish only 12 manifest files and minimal redacted records; no research content changes; no self-review or merge.",
+  "read_rules_ref": {
+    "base_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
+    "paths": [
+      "AGENTS.md",
+      "docs/agent-workflow.md",
+      "docs/agent-provenance.md",
+      "docs/experiment-protocol.md",
+      "reviews/README.md"
+    ]
+  },
+  "local_materials": {
+    "not_uploaded": true,
+    "items": [
+      "candidate package and patch",
+      "manifest and review report",
+      "local publication event logs"
+    ]
+  },
+  "run_associations": {
+    "task_refs": [
+      "LOCAL-POSTMERGE-406-STATUS-20261107",
+      "Issue #405",
+      "PR #407"
+    ],
+    "original_author": {
+      "run_id": "LOCAL-POSTMERGE-406-STATUS-20261107",
+      "role": "mechanical-status-correction",
+      "source": "postmerge-status-406-20261107/run.json",
+      "source_sha256": "263073d6385334f24c44bc006de1ca4f8ac8678f2640acb42a62c54e79c189a6",
+      "requested_model": null,
+      "reported_model": null,
+      "requested_reasoning": null,
+      "reported_reasoning": null,
+      "verification": "unknown per original local run record"
+    },
+    "independent_local_r2_review": {
+      "run_id": "LOCAL-POSTMERGE-406-STATUS-INDEPENDENT-REVIEW-20261107",
+      "parent_run_id": "LOCAL-POSTMERGE-406-STATUS-20261107",
+      "role": "independent-local-status-correction-review",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "ultra",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "source": "review/run.json plus parent-provided launch parameters; actual backend unverified",
+      "input_manifest_sha256": "9715fd5a4921f39b8263aebaea398a8a4d19683b397cc4153a323ca80b3411c7",
+      "report_sha256": "677d13b72eeb8107319a582813988aca6f6765df4fde5ed9f477e7e5a8ce2bcd",
+      "verdict": "建议采用",
+      "scope": "frozen local R2 package only"
+    },
+    "independent_remote_pb1_review": {
+      "run_id": "LOCAL-POSTMERGE-406-STATUS-INDEPENDENT-REVIEW-20261107",
+      "role": "independent review of H",
+      "head_sha": "64d208619a86e0b87ccb54d7f75edea6497be596",
+      "verdict": "需修改",
+      "comment_url": "https://github.com/mythpan1/pathwise-research/pull/407#issuecomment-6714262195",
+      "report_sha256": "bb5d261beeec97097cdf4f036803b175ed4d813501065334c87ec290fbb6e56b",
+      "source": "parent-provided verified report location/hash"
+    },
+    "publisher": {
+      "run_id": "RUN-ISSUE-406-STATUS-PUBLICATION-20261107",
+      "parent_run_id": "POSTMERGE-406-PUBLICATION-COORDINATOR-20261107",
+      "role": "mechanical publisher",
+      "requested_model": "gpt-6-luna",
+      "requested_reasoning": "high",
+      "reported_model": null,
+      "reported_reasoning": null,
+      "source": "parent spawn call; runtime backend metadata unavailable"
+    },
+    "read_rules_ref": {
+      "base_sha": "56def2b594411e466b3e5a0e8935320a131ceeba",
+      "paths": [
+        "AGENTS.md",
+        "docs/agent-workflow.md",
+        "docs/agent-provenance.md",
+        "docs/experiment-protocol.md",
+        "reviews/README.md"
+      ]
+    },
+    "local_handoff": {
+      "path": "HANDOFF.md",
+      "sha256": "b3697d6855bc78990ceae46ce226b9a0353858b0843b6f758140958fa0be3c8f",
+      "status": "local-only; not present at stated main base and not uploaded"
+    },
+    "local_materials": {
+      "status": "not uploaded",
+      "items": [
+        "candidate package and patch",
+        "manifest and R2 report",
+        "local publication logs"
+      ]
+    }
+  },
+  "local_handoff": {
+    "path": "HANDOFF.md",
+    "sha256": "b3697d6855bc78990ceae46ce226b9a0353858b0843b6f758140958fa0be3c8f",
+    "status": "local-only; not part of stated main base; not uploaded"
+  },
+  "review_report_sha256": "677d13b72eeb8107319a582813988aca6f6765df4fde5ed9f477e7e5a8ce2bcd"
 }
