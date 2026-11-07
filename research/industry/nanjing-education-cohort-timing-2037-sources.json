@@ -25,7 +25,7 @@
       ],
       "representation": "official_url_readable_conversion",
       "supports": [
-        "市教育部门在报道中披露小学2023年入学达峰、初中预计2029年和高中2032年入学高峰。",
+        "南京市教育部门在报道中披露当地小学2023年入学达峰、初中预计2029年和高中2032年入学高峰。",
         "报道把2018—2023高中布局方案与2025—2027接续计划并列，记载建设/调剂、编制动态核定和高中倾斜。",
         "L98还判断未来十年低学段资源富余、高学段供给紧张格局持续，须作为反向约束。"
       ],
@@ -33,7 +33,9 @@
         "官方平台采访报道，不是所述规划的原文、人口模型或区级预测表。",
         "高中入学预测不能转作全体初中队列进入普高，不能推出在校存量、语文工作量或外招招聘峰值。",
         "建设项目资金不能作为教师经常性工资。",
-        "报道的未来十年判断不是事实兑现或岗位承诺。"
+        "报道的未来十年判断不是事实兑现或岗位承诺。",
+        "南京地方预测不得迁移为江苏全省或全国峰值；原文高中不能改写为普高专属预测。",
+        "与全国高中阶段适龄人口不同地域和指标，南京报道未披露预测基期；本次对照不证明南京预测正确或错误。"
       ],
       "relation_to_prior_evidence": "newly_read_for_this_unit",
       "evidence_reference": [
@@ -41,7 +43,18 @@
           "evidence_id": "S1-E1",
           "content_sha256": "8f45e5350e25124d07c625ef70eb251fac16caeeead1f0279ee2cfa875ebcc98"
         }
-      ]
+      ],
+      "same_source_publication": {
+        "url": "http://mrdx.cn/h5/mrdx/content/20260831/Articel07002NR.htm",
+        "title": "察生源走势 育均衡之优——南京动态调整教育供给，探索教育优质均衡新路径",
+        "publisher": "新华每日电讯",
+        "date": "2026-08-31",
+        "authors": [
+          "蒋芳",
+          "牟书瑶"
+        ],
+        "relationship": "同一报道原刊与南京转载，非第二项独立人口预测；本次核读可读文本中的峰值段落。"
+      }
     },
     {
       "source_id": "S2",
@@ -211,6 +224,77 @@
       ]
     },
     {
+      "source_id": "S7",
+      "title": "为万千学子办好县中",
+      "publisher": "教育部网站转载《中国教育报》评论",
+      "author": "杨三喜",
+      "url": "https://www.moe.gov.cn/jyb_xwfb/s5148/202510/t20251014_1416690.html",
+      "dates": {
+        "page_published": "2025-10-10",
+        "url_path_date": "2025-10-14",
+        "date_note": "署期与URL日期分记。"
+      },
+      "sections": [
+        "正文第三段：我国高中阶段适龄人口预计2029年达到峰值"
+      ],
+      "representation": "official_portal_readable_text_excerpt",
+      "supports": [
+        "评论明确将全国高中阶段适龄人口峰值预期置于2029年。"
+      ],
+      "limits": [
+        "不是南京预测或高中年度新生、在校生及外招人数。",
+        "文章未给出完整模型或直接研究来源；官方转载不等于预测结果已验证。",
+        "不能用于判断2031/2034个人录用或替换南京峰值。"
+      ],
+      "same_source_publication": {
+        "url": "http://www.jyb.cn/rmtzgjyb/202510/t20251010_2111399094.html",
+        "publisher": "中国教育新闻网 / 中国教育报",
+        "date": "2025-10-10",
+        "edition": "第02版",
+        "relationship": "同文原刊与教育部转载，非两项独立预测。"
+      },
+      "relation_to_prior_evidence": "new_metric_scope_comparison_not_new_local_prediction",
+      "evidence_reference": [
+        {
+          "evidence_id": "S7-E1",
+          "content_sha256": "74c7a35722f2237add7a63394f905abc6a7cff45869ad8af1b062c6f1dfb08c4",
+          "representation": "short_verbatim_excerpt_not_source_html"
+        }
+      ]
+    },
+    {
+      "source_id": "S8",
+      "title": "教育适应中国人口结构发展趋势研究",
+      "publisher": "全国教育科学规划领导小组办公室",
+      "url": "https://onsgep.moe.edu.cn/post/view/1385",
+      "dates": {
+        "page_published": "2023-04-06",
+        "model_base_year": "2020",
+        "forecast_period": "2021—2035"
+      },
+      "sections": [
+        "一、内容与方法：（二）研究方法1，基年数据、年龄设定和人口预测方法",
+        "二、结论与对策：（一）主要研究结论1，高中学龄人口总规模2029年峰值"
+      ],
+      "representation": "official_research_summary_readable_text_excerpt",
+      "supports": [
+        "成果摘要明确高中学龄为15—17岁，以七普等数据采用队列要素法等预测，预计全国高中学龄人口总规模2029年达到峰值。"
+      ],
+      "limits": [
+        "公开成果摘要不是本次独立复现或实际结果验证。",
+        "未确认是S7评论直接来源，不能作为另一项独立准确性验证。",
+        "全国年龄组总规模不等于南京或江苏高中年度入学及教师招聘；本次不采用摘要的其他师资数量预测。"
+      ],
+      "relation_to_prior_evidence": "national_definition_and_method_cross_check_only",
+      "evidence_reference": [
+        {
+          "evidence_id": "S8-E1",
+          "content_sha256": "922c5f4676e22dbd0c948fd833925e3a9eff3599b304dcd2ff04d5bb9a27d5d8",
+          "representation": "short_verbatim_excerpt_not_source_html"
+        }
+      ]
+    },
+    {
       "source_id": "B1",
       "title": "同校相邻历史组：语文师范还是法学，连接南京2031入口与2037情景",
       "publisher": "mythpan1/pathwise-research 固定main正文（非独立外部事实源）",
@@ -321,7 +405,7 @@
         "学段错峰、持续经费、内部调配和小班化的条件机制；技术不直接对应师资人数。"
       ],
       "limits": [
-        "旧国家统计和规划本轮未重取，不用全国出生或教师存量推南京岗位；2036旧情景非2037事实。"
+        "此B4仅指旧固定正文和旧核验边界；本轮全国统计、预测及规划新增核读另见B5，旧2036情景非2037事实，不由全国数推南京岗位。"
       ],
       "relation_to_prior_evidence": "inherited_prior_analysis_not_reverified_external_source",
       "evidence_reference": [
@@ -330,6 +414,39 @@
           "content_sha256": "99670e229fcfbd87df8afa3fc688747ee08b561545f245b2225db3fd1640dbb0"
         }
       ]
+    },
+    {
+      "source_id": "B5",
+      "title": "全国基础教育事实底座与2031/2034/2036—37条件推论",
+      "publisher": "本轮来源索引及分析，非新增独立外部预测",
+      "path": "national-education-cohort-2037-sources.json",
+      "claims_path": "national-education-cohort-2037-claims.json",
+      "representation": "current_local_candidate_source_index",
+      "sections": [
+        "N1—N6",
+        "NF01—NF06、NI01—NI04"
+      ],
+      "supports": [
+        "当前官方全国峰年、研究年龄组与到2035路径、2024/2025实绩和政策分层；全国行业基线与南京地方校正分开。"
+      ],
+      "limits": [
+        "N2/N3同谱系，N1底层关系未披露；2036/37不在模型内。",
+        "本轮源文为保存网页提取文本，非原HTML/PDF；未证南京模型、地方外招或T/L胜率。"
+      ],
+      "content_sha256": "8f009440bef88a27231a90f0f97db25796dba9ca1aa487c40e4cd9d8f3f74e3d"
     }
-  ]
+  ],
+  "scope_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "status": "local_candidate_not_published",
+    "application_boundary": "南京为条件就业地，江苏历史类仅为招生接口；地方事实和预测不得直接迁移为江苏全省或全国峰值、2031/2034就业优劣或T/L排序。改就业地须另核同口径队列、准入、预算外招、训练及本人接受。",
+    "representation_boundary": "本次新增核对为公开网页可读文本与研究成果摘要，不是原HTML/PDF字节或预测模型复现。原研究证据引用及哈希保留原身份。"
+  },
+  "national_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "status": "local_candidate_not_published",
+    "prior_scope_review": "原R2只覆盖七文件地域修正，不批准本轮全国整合"
+  }
 }

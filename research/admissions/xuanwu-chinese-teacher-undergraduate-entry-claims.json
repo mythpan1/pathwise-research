@@ -3,7 +3,7 @@
   "task_id": "LOCAL-XUANWU-TEACHER-ENTRY-20261106",
   "baseline_commit": "41af04451871850ffd1e5a3662ee2913741e07b0",
   "author_run_id": "xuanwu-teacher-entry-author-20261106",
-  "status": "author_draft_not_independently_reviewed",
+  "status": "local_candidate_not_published",
   "source_policy": "Fixed input only; S ids are external sources, B ids frozen prior bodies; claim ids in source_ids are explicit logical dependencies, not new observations.",
   "source_map": {
     "S1": {
@@ -59,6 +59,13 @@
       "location": "一、三、四、六节",
       "source_kind": "fixed_baseline_reuse",
       "representation": "Read fixed baseline body; no source recollection or upgrade of prior verification."
+    },
+    "NAT": {
+      "path": "../industry/national-education-cohort-2037-sources.json",
+      "claims_path": "../industry/national-education-cohort-2037-claims.json",
+      "source_kind": "current_revision_source_index",
+      "location": "N1—N6；NF01—NF06及NI01—NI04",
+      "representation": "本轮保存网页提取文本核读，非HTML/PDF原字节；原模型不覆盖2036/37"
     }
   },
   "claims": [
@@ -324,22 +331,24 @@
     {
       "id": "I04",
       "kind": "conditional_inference",
-      "claim": "较小队列只有经班级/学科工作量、财政编制与内部承接/外招分配才影响新人入口；读研改变申请窗口，不保证避险也不证明2034更差。",
+      "claim": "全国2031/2034申请期已须纳入中学峰后压力，不只等2037；南京较晚地方入学预测保留，仍须经班级/学科工作量、预算和内部承接/外招传导。读研不保证避险，也不证明2034必差。",
       "source_ids": [
         "F09",
         "F10",
         "F11",
         "F03",
-        "B3"
+        "B3",
+        "NF13"
       ],
       "report_location": "五、1—3",
       "scope": "约2031/2034进入市场及2037接续情景",
       "premises": [
         "简化时钟为约6岁入小学、六年小学制；2025出生约2031小学/2037初中。",
-        "若迁入和有经费小班化不足抵消较小队列、可接受外招收缩且合资格供给未同步降，入口趋紧。"
+        "若迁入和有经费小班化不足抵消较小队列、可接受外招收缩且合资格供给未同步降，入口趋紧。",
+        "全国作为行业基准，南京峰年报道不提供完整目标年分学段外招表；2036/37仅为条件延伸。"
       ],
       "limits": [
-        "无目标年本地队列、预算、承接、学历分母。",
+        "无目标年南京完整队列、预算、外招及学历分母；已有南京地方峰年披露，不再称全无本地预测。",
         "盐城不自动成为南京；退休不等于补位；三条公示不说明缺口来源。",
         "名义六年/三年不等于连续在岗或能力差。"
       ],
@@ -425,12 +434,14 @@
       "claim": "若两任务都接受、教育外招弱而法务付款和新人分工兑现且接受混合任务，L可弱前置；反向T前置。",
       "source_ids": [
         "I05",
-        "F12"
+        "F12",
+        "NF13"
       ],
       "report_location": "六、2",
       "scope": "江苏历史旧候选T/L条件比较",
       "limits": [
-        "不因退休、学历或法律面广自行前置。"
+        "不因退休、学历或法律面广自行前置。",
+        "全国峰后压力只加强教育侧风险理由，不替南京外招弱、法务付款/接收或本人接受补证。"
       ],
       "reversal_observation": [
         "法务只剩不接受的综合工作或熟手分工，而教学实际外招与训练兑现。"
@@ -471,14 +482,37 @@
         "有学历比例仍不足单独作因果结论。"
       ],
       "decision_impact": "区分A持续、B1硬门槛、B2训练增量或C共同失效。"
+    },
+    {
+      "id": "NF13",
+      "kind": "reported_forecast",
+      "claim": "当前官方预测全国初中2026、高中2029学龄人口峰；相关研究年龄组12—14/15—17岁，2031—2035下降，原研究止于2035。",
+      "source_ids": [
+        "NAT"
+      ],
+      "report_location": "一、五1",
+      "scope": "全国基础教育行业基线，不是南京流量/外招预测",
+      "premises": [],
+      "limits": [
+        "N2/N3同谱系，N1未披露模型关系；不据峰值判2031/2034录用孰优。"
+      ],
+      "decision_impact": "本科历史拟聘先例保留，但未来不能仅凭全国相应年龄组继续扩张或当前短期在校增长托底；其他扩容路径须按同口径规模、预算、实际外招及合资格供给另核。",
+      "reversal_observation": [
+        "新的同口径预测和实绩改变全国基准。"
+      ]
     }
   ],
   "not_collected": [
     "2026 college admissions data",
     "new schools",
-    "new sources",
     "applicant personal identifiers",
     "target-year employment or training verification"
   ],
-  "independent_review_performed": false
+  "independent_review_performed": false,
+  "national_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "author_run_id": "national-education-basis-author-20261107",
+    "prior_review": "旧原稿审核历史保留，不覆盖本轮全国事实与推论更新"
+  }
 }

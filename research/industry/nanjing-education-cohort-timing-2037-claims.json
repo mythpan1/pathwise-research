@@ -6,7 +6,7 @@
     {
       "claim_id": "E01",
       "type": "evidence_boundary",
-      "statement": "新源为官方URL转换；旧招聘及培养等仅复用固定正文，不把转载/重复打开或仓库采用计为独立现实验证。",
+      "statement": "原研究新源为官方URL转换；本次补全国评论S7、研究成果摘要S8及同文原刊链对照。旧招聘及培养等仅复用固定正文，不把转载、重复打开或仓库采用计为独立现实验证。 本轮另以B5接入全国N1—N6原文与实质行业判断；不继承旧审核。",
       "sources": [
         "S1",
         "S2",
@@ -17,13 +17,17 @@
         "B1",
         "B2",
         "B3",
-        "B4"
+        "B4",
+        "S7",
+        "S8",
+        "B5"
       ],
       "assumptions": [],
       "reason": null,
       "support_strength": "directly_checkable_representation_boundary",
       "limits": [
-        "未取得原HTML字节或完整人口预测模型。"
+        "未取得原HTML字节或完整人口预测模型。",
+        "本次只核读公开文本及摘要，未验证南京完整预测模型，未复现S8模型，也未确认S7直接引自S8。"
       ],
       "revision_conditions": [],
       "analysis_section": "二"
@@ -31,7 +35,7 @@
     {
       "claim_id": "F01",
       "type": "reported_fact",
-      "statement": "S1报道2018—2023高中布局方案与2025—2027接续建设计划，包含建设、调剂、教师编制动态核定及向高中倾斜。",
+      "statement": "S1南京报道当地2018—2023高中布局方案与2025—2027接续建设计划，包含建设、调剂、教师编制动态核定及向高中倾斜。",
       "sources": [
         "S1"
       ],
@@ -47,7 +51,7 @@
     {
       "claim_id": "F02",
       "type": "reported_forecast",
-      "statement": "S1披露小学2023入学达峰，初中预计2029、高中2032入学高峰；同时报道判断未来十年高低学段供需错配持续。",
+      "statement": "S1南京报道披露当地小学2023年入学达峰、初中预计2029年及高中2032年入学高峰，同时报道判断当地未来十年高低学段供需错配持续。",
       "sources": [
         "S1"
       ],
@@ -55,7 +59,10 @@
       "reason": null,
       "support_strength": "named_department_forecast_disclosed_in_report",
       "limits": [
-        "预测非实现人数；峰值及十年判断均非岗位承诺。"
+        "预测非实现人数；峰值及十年判断均非岗位承诺。",
+        "仅南京报道的地方预测，不是江苏全省或全国预测；原文高中不改写成普高专属预测。",
+        "与S7全国高中阶段适龄人口、S8全国15—17岁总规模不同口径，不能互换或仅凭年份差判真伪。",
+        "报道存在已核，不代表预测准确性已获独立验证。"
       ],
       "revision_conditions": [],
       "analysis_section": "二"
@@ -63,7 +70,7 @@
     {
       "claim_id": "F03",
       "type": "reported_fact",
-      "statement": "S2为小学小班制实验与6校空间技术改造，试点生源方向不一，跨班组织等要求持续训练。",
+      "statement": "S2报道南京小学小班制实验与6校空间技术改造，试点生源方向不一，跨班组织等要求持续训练。",
       "sources": [
         "S2"
       ],
@@ -79,7 +86,7 @@
     {
       "claim_id": "F04",
       "type": "current_rule",
-      "statement": "S3在岗职称程序对本区县组织需要跨学段人事调动设教资、新岗一年考核及新成果等条件，并保留按岗推荐和跨系列转评条件。",
+      "statement": "S3为南京市2026年度教师高级职称评审通知，对本区县内因组织需要并经主管部门书面认定的跨学段人事调动，设相应教资、新岗满一年且考核合格及新岗代表成果等条件，并保留原成果认可、按岗推荐和跨系列转评条件。",
       "sources": [
         "S3"
       ],
@@ -87,7 +94,8 @@
       "reason": null,
       "support_strength": "notice_body_direct",
       "limits": [
-        "非自动调岗权、调动统计、新人准入或2037保证。"
+        "非自动调岗权、调动统计、新人准入或2037保证。",
+        "适用范围为南京2026年度该通知，不据此认定其他地区或以后年度沿用。"
       ],
       "revision_conditions": [],
       "analysis_section": "二、四"
@@ -95,7 +103,7 @@
     {
       "claim_id": "F05",
       "type": "reported_fact",
-      "statement": "S4记载栖霞编制动态调整试点以及跨校、学段、学科交流推进。",
+      "statement": "S4记载南京市栖霞区编制动态调整试点以及跨校、学段、学科交流推进。",
       "sources": [
         "S4"
       ],
@@ -143,7 +151,7 @@
     {
       "claim_id": "F08",
       "type": "inherited_reported_fact",
-      "statement": "玄武同批初中语文允许合资格师范本科，并已有三条本科、汉语言文学师范拟聘公示记录。",
+      "statement": "南京市玄武区同批初中语文允许合资格师范本科，并已有三条本科、汉语言文学师范拟聘公示记录。",
       "sources": [
         "B3"
       ],
@@ -191,6 +199,41 @@
       "analysis_section": "五"
     },
     {
+      "claim_id": "F11",
+      "type": "reported_national_forecast",
+      "statement": "教育部网站转载的《中国教育报》评论署期2025-10-10，称我国高中阶段适龄人口预计2029年达到峰值。",
+      "sources": [
+        "S7"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "published_national_forecast_statement_not_model_verification",
+      "limits": [
+        "对象是全国高中阶段适龄人口，非南京高中入学流量、江苏同口径预测或教师招聘。",
+        "文章未列预测模型或直接研究来源；不能将教育部网站转载当成完整模型披露。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二"
+    },
+    {
+      "claim_id": "F12",
+      "type": "research_forecast_summary",
+      "statement": "全国教育科学规划领导小组办公室2023-04-06成果摘要介绍以2020年七普等数据预测2021—2035年全国学龄人口，假定高中学龄15—17岁，并预测其总规模2029年达峰。",
+      "sources": [
+        "S8"
+      ],
+      "assumptions": [],
+      "reason": null,
+      "support_strength": "research_summary_with_population_definition_and_method",
+      "limits": [
+        "研究预测并非实现人数，本次未复现完整模型。",
+        "未证明S8为S7直接数据来源，不把两者当两项独立准确性验证。",
+        "不能迁移为南京或江苏入学、外招及个人录用峰值。"
+      ],
+      "revision_conditions": [],
+      "analysis_section": "二"
+    },
+    {
       "claim_id": "H01",
       "type": "assumption",
       "statement": "江苏历史类2027入学、南京就业，四年本科2031、再实际三年硕士2034、2037观察；仅研究设定，不继承P0。",
@@ -199,7 +242,8 @@
       "reason": null,
       "support_strength": null,
       "limits": [
-        "不是用户接受；延迟毕业、求职和工作中断改变时钟。"
+        "不是用户接受；延迟毕业、求职和工作中断改变时钟。",
+        "南京为条件就业地，江苏历史类仅为招生接口；地方事实和预测不得直接迁移为江苏全省或全国峰值、2031/2034就业优劣或T/L排序。改就业地须另核同口径队列、准入、预算外招、训练及本人接受。"
       ],
       "revision_conditions": [],
       "analysis_section": "一、四"
@@ -269,21 +313,22 @@
     {
       "claim_id": "I01",
       "type": "inference",
-      "statement": "依本轮证据不应仅为等待峰值或学历焦虑延后三年；A成立时本科直申为条件准备主线。",
+      "statement": "在南京目标、H03及成本条件成立时保留本科直申准备，其正向依据是具体本科入口与培养路径；南京及全国人口峰值都不为直申或延迟三年新增择时支持。",
       "sources": [
         "F08",
         "F09",
-        "F02",
         "B3"
       ],
       "assumptions": [
         "H01",
         "H03"
       ],
-      "reason": "本科路径已有有限结果支点，入学峰值未识别2031/2034外招收益差，不能给等待本身计入已证实收益。",
+      "reason": "具体本科准入、有限拟聘先例与培养路径支持条件准备，但人口峰值不识别2031/2034招聘收益差；不能给等待本身计入已证实收益。",
       "support_strength": "strong_against_automatic_delay_not_for_hiring_probability",
       "limits": [
-        "不证明本科更易录用或所有硕士无价值。"
+        "不证明本科更易录用或所有硕士无价值。",
+        "不得作为江苏全省或全国直申优于读研的结论；现有证据未识别2031与2034谁更易录用。",
+        "不以S7全国2029替换南京2032来形成另一套就业择时。"
       ],
       "revision_conditions": [
         "明确硕士硬门槛或经核验的训练增量，转B1/B2。"
@@ -293,7 +338,7 @@
     {
       "claim_id": "I02",
       "type": "conditional_timing_inference",
-      "statement": "2023小学入学队列2031秋可处初三，其中2032升普高且持续就读者2034秋可处高三；这不是在校总量或外招峰值。",
+      "statement": "南京案例中，2023小学入学队列在正常连续就读假设下2031秋可处初三，其中2032升普高且持续就读者2034秋可处高三；仅为队列算术，不验证当地峰值，也不是在校总量或外招峰值。",
       "sources": [
         "F02",
         "F06",
@@ -305,7 +350,9 @@
       "reason": "按正常学制平移队列而保留分流、多个年级存量与招聘安排之间的差别。",
       "support_strength": "strong_arithmetic_conditional_timing_weak_labor_market_ranking",
       "limits": [
-        "不得称2034已全体高中毕业；不得推2031/2034招聘峰值或谁更好。"
+        "不得称2034已全体高中毕业；不得推2031/2034招聘峰值或谁更好。",
+        "地域仅南京案例；不能平移为全国或江苏峰值。",
+        "该算术不要求南京达峰预测准确，不因S7/S8的全国2029判断而被证伪，也不能用学制简单解释两预测的全部差异。"
       ],
       "revision_conditions": [],
       "analysis_section": "一、三"
@@ -313,7 +360,7 @@
     {
       "claim_id": "I03",
       "type": "inference",
-      "statement": "入学流量过峰仍可有存量、区域及服务标准缺口；有经费班级/课时与真实外招可让T在较小队列下仍成立。",
+      "statement": "南京条件情景中，入学流量过峰仍可有在校存量、区域及服务标准缺口；有经费班级/课时与真实外招可让T在较小队列下仍成立。",
       "sources": [
         "F01",
         "F02",
@@ -324,7 +371,8 @@
       "reason": "流量、存量、区域和服务标准不一一对应；S1高学段持续紧张报道限制简单全城收缩叙事。",
       "support_strength": "mechanism_supported_magnitude_unknown",
       "limits": [
-        "不把迁入或小班化当必然足额抵消。"
+        "不把迁入或小班化当必然足额抵消。",
+        "南京报道不构成江苏全省或全国预测；S7/S8不能补足地方班级、预算、外招和录用数据。"
       ],
       "revision_conditions": [
         "同地区班级/课程、持续经费与真实承接显示方向改变。"
@@ -446,7 +494,8 @@
       "support_strength": "moderate_path_support_conditional_order",
       "limits": [
         "比较前提不是用户已有偏好或未来事实。",
-        "两边同强且无任务/成本排序时回到D04；T入口可行但较弱、法律端兑现时按D02比较，不由H03单独强制T优先。"
+        "两边同强且无任务/成本排序时回到D04；T入口可行但较弱、法律端兑现时按D02比较，不由H03单独强制T优先。",
+        "仅限南京目标就业地与相应具体入口，不能上提为江苏或全国师范前置。"
       ],
       "revision_conditions": [
         "目标不接受、资格训练不兑现或真实外招被内部承接而不足时撤销相应本科路径依据；相对比较前提失效时撤销T前置；高中扩容不得替代具体准入。"
@@ -460,7 +509,8 @@
       "sources": [
         "I05",
         "I08",
-        "F10"
+        "F10",
+        "I09"
       ],
       "assumptions": [
         "H04"
@@ -468,7 +518,8 @@
       "reason": null,
       "support_strength": "weak_conditional_order",
       "limits": [
-        "不是就业率、工资、稳定性排名。"
+        "不是就业率、工资、稳定性排名。",
+        "仅限南京条件比较；当地教师机制不支持江苏或全国法学前置。"
       ],
       "revision_conditions": [],
       "analysis_section": "五B"
@@ -488,7 +539,8 @@
       "reason": null,
       "support_strength": "strong_comparison_rule_no_program_endorsement",
       "limits": [
-        "机会成本只算实际可得工作；同样约束L深造。"
+        "机会成本只算实际可得工作；同样约束L深造。",
+        "这是资格、训练及成本比较规则，不是由南京或全国人口峰值推出的读研时点优劣。"
       ],
       "revision_conditions": [],
       "analysis_section": "五C"
@@ -535,6 +587,60 @@
       ],
       "revision_conditions": [],
       "analysis_section": "六"
+    },
+    {
+      "claim_id": "F13",
+      "type": "reported_forecast",
+      "statement": "全国当前官方预测初中2026、高中2029学龄人口峰；N2/N3研究为12—14/15—17岁总量，2031—2035下降，模型只到2035。",
+      "sources": [
+        "B5"
+      ],
+      "assumptions": [],
+      "reason": "全国事实底座实质修订并保留地方作用",
+      "support_strength": "source-supported national baseline; conditional local application",
+      "limits": [
+        "不是南京入学流量或外招预测，N2/N3同谱系，N1模型关系不明。"
+      ],
+      "revision_conditions": [
+        "同口径新预测/实绩、南京班级预算和真实外招、法律新人任务及本人接受改变"
+      ],
+      "analysis_section": "一、二、五"
+    },
+    {
+      "claim_id": "I09",
+      "type": "conditional_inference",
+      "statement": "2031/2034不能再仅凭全国相应年龄组继续扩张、当前短期在校增长或南京较晚入学峰给新人岗位托底；南京局部缺口保留作地方校正，P0与法律端成立时加强弱L的教育侧理由。",
+      "sources": [
+        "F13",
+        "F02",
+        "I03",
+        "I08",
+        "B5"
+      ],
+      "assumptions": [],
+      "reason": "全国事实底座实质修订并保留地方作用",
+      "support_strength": "source-supported national baseline; conditional local application",
+      "limits": [
+        "不继承P0为本人偏好，不把全国预测当南京外招受限事实；不证明提前三年转差、2031优于2034或L必胜。",
+        "参与率、普高份额、服务标准与持续投入可支持后续扩容，但须核同口径规模、预算、实际外招及合资格供给；不能预先认定这些途径已兑现或已足额抵消。"
+      ],
+      "revision_conditions": [
+        "同口径新预测/实绩、南京班级预算和真实外招、法律新人任务及本人接受改变"
+      ],
+      "analysis_section": "一、二、五"
     }
-  ]
+  ],
+  "scope_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "status": "local_candidate_not_published",
+    "application_boundary": "南京为条件就业地，江苏历史类仅为招生接口；地方事实和预测不得直接迁移为江苏全省或全国峰值、2031/2034就业优劣或T/L排序。改就业地须另核同口径队列、准入、预算外招、训练及本人接受。",
+    "historical_review_boundary": "原研究及审核历史保留；本次修订不继承旧审核。"
+  },
+  "national_revision": {
+    "date": "2026-11-07",
+    "baseline_commit": "8195e9a6db4be10633cc8b95625e90fe36219191",
+    "status": "local_candidate_not_published",
+    "scope": "全国基准不是南京预测；本次实质整合不继承旧R2批准"
+  }
 }
