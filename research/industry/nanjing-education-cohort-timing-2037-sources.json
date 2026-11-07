@@ -6,7 +6,7 @@
     "commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9"
   },
   "freeze_date": "2026-11-07",
-  "retrieval_boundary": "Author read frozen local JSON representations only. Official-page text contains converter line numbers and source metadata; raw HTML/PDF bytes, full prediction model and district tables are not claimed. Relative crawled labels are not exact access timestamps. No fresh web search or 2026 admissions collection.",
+  "retrieval_boundary": "The cited public materials support only the bounded statements identified in this index. Original HTML/PDF bytes, the full prediction model and district-level tables have not been independently verified. Relative time labels are not exact access dates. No 2026 admissions data collection was conducted.",
   "sources": [
     {
       "source_id": "S1",
