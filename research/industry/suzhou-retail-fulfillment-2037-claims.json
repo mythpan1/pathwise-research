@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "research_unit": "suzhou-retail-fulfillment-2037-choices",
+  "version": "2026-11-07-v2",
+  "source_index": "suzhou-retail-fulfillment-2037-sources.json",
+  "claims": [
+    {
+      "id": "C01",
+      "kind": "fact_to_limited_comparison",
+      "statement": "2026届管理方向同一行列本科、专业不限、城市含苏州。物流/信管/计算机在本条专业申请门槛上同层。",
+      "source_ids": [
+        "S3"
+      ],
+      "body_locator": "当前取舍；§1；§4-A",
+      "limits_or_conditions": "不证明具体双学士/基地项目已获雇主认可、同等训练或录用。岗位含多城市不保证可自行选择苏州。"
+    },
+    {
+      "id": "C02",
+      "kind": "fact",
+      "statement": "集团以商品销售主要责任人身份承担履约与库存风险，并有定价裁量。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§1第一段",
+      "limits_or_conditions": "集团商业责任不是苏州单个法人持货核验，更不是站长持货、个人赔损或定价权限。"
+    },
+    {
+      "id": "C03",
+      "kind": "fact",
+      "statement": "区域中心—前置仓—配送链与系统分单、拣配指令和配送匹配并存。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§1第二段",
+      "limits_or_conditions": "是该期集团模式自述；不据此确认每个苏州岗位具体职责。"
+    },
+    {
+      "id": "C04",
+      "kind": "fact_with_tension_preserved",
+      "statement": "Smart Inventory Management同段写机器学习/分析支持替代补货周转人工决策，同时写每站按订单及其他变量适配商品、补货和人员。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§1第二段",
+      "limits_or_conditions": "二者一起使用；人工覆盖、复核、异常上报权限未知，不推站长自主采购或人工全部消失。"
+    },
+    {
+      "id": "C05",
+      "kind": "fact",
+      "statement": "姑苏吴门桥有实际前置仓运作报道，文中为最快30分钟及站点用工困难、社区发布招聘。",
+      "source_ids": [
+        "S2"
+      ],
+      "body_locator": "§1第三段；§3末段",
+      "limits_or_conditions": "不是全单服务承诺、本科短缺、全市缺工或技术扩招数据；不保留无关儿童信息。"
+    },
+    {
+      "id": "C06",
+      "kind": "fact",
+      "statement": "同一2026届表的上海算法/数据分析岗为硕士及以上；管理项目公布入职第1年员工学习业务的成长规划。",
+      "source_ids": [
+        "S3"
+      ],
+      "body_locator": "§1末段；§4-B/C",
+      "limits_or_conditions": "不迁移上海岗位或专业条件到苏州；规划不是全员实际执行、录用或按期晋升保证。苏州岗位没有逐岗库存异常职责。"
+    },
+    {
+      "id": "C07",
+      "kind": "fact_exclusion",
+      "statement": "深圳招聘文本有基层轮岗、据数据发现问题及业务协调；工作地点明确深圳。",
+      "source_ids": [
+        "S4"
+      ],
+      "body_locator": "§4-B",
+      "limits_or_conditions": "仅证明不能将该职责补作苏州事实，不扩为同一法人、同届或本地权限。"
+    },
+    {
+      "id": "C08",
+      "kind": "fact",
+      "statement": "库存预测偏差可带来腐损、减值、降价或缺货；某些类型的存货采购可能需要较长提前期和预付款，且可能无法退回。典型仓半径1–3公里，选址含家庭与订单/利用率/成本变量。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§2第二段；§3第一段",
+      "limits_or_conditions": "公司风险披露和模式描述，不是实际损失率或本地因果估计；每仓不保证完全同样。"
+    },
+    {
+      "id": "C09",
+      "kind": "fact",
+      "statement": "公司披露苏州等重点区网络已密，并在2025总体对部分低单量或慢周转站点合并产能。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§3第一段",
+      "limits_or_conditions": "不能把总体合并记为苏州实际关仓，未核逐站容量或当地新增招聘。"
+    },
+    {
+      "id": "C10",
+      "kind": "conditional_inference",
+      "statement": "小单/短时需求若转成可持续经营订单，会加强库存位置、损耗与服务时限取舍；任务必要性不等本科岗位增加。",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "body_locator": "§2",
+      "limits_or_conditions": "未实证测得苏州家庭小型化、频次上升、每单成本或未来订单。需付费、预算、分工和实际接收成立。"
+    },
+    {
+      "id": "C11",
+      "kind": "conditional_inference",
+      "statement": "家庭购物/储存和价格接受通过服务区、时段的有效订单作用于库存与人员，城市人口密度不能替代订单密度。",
+      "source_ids": [
+        "S1"
+      ],
+      "body_locator": "§3",
+      "limits_or_conditions": "家庭结构变化为明示假设，不是苏州人口预测；不从用工困难或少子化推出本科供需利好。"
+    },
+    {
+      "id": "C12",
+      "kind": "limited_directional_recommendation",
+      "statement": "同时愿开发和经营、重改选空间时，维持江大17与南邮信管的苏州开发同层主比较；零售管理为三路径共同待核支路，不给物流独占第二出口。",
+      "source_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "S3"
+      ],
+      "body_locator": "当前取舍；§4-C",
+      "limits_or_conditions": "并非以学历专业名强排教学或收入。科达未明列专业仍可能凭项目申请；不是零售系统岗或叮咚供应商。物流开发训练另核。"
+    },
+    {
+      "id": "C13",
+      "kind": "conditional_recommendation",
+      "statement": "愿现场经营时三路径同层比较相应训练；拒绝现场执行者不可把职责未知的管理岗计为已确认备选，连基层起步都拒绝则撤该成长路线。",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "body_locator": "§4-A/B",
+      "limits_or_conditions": "现场轮岗接受为研究设定，不是苏州已证轮岗职责。只拒特定任务时保留条件未知，不认全员拣配。"
+    },
+    {
+      "id": "C14",
+      "kind": "conditional_reversal",
+      "statement": "同城本科实际有异常处置反馈，且物流路径对应实践比另两候选更可得/补训少时，物流目标可前置；任一环不成立不能据热度前置。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "B1",
+        "B2"
+      ],
+      "body_locator": "§5首段",
+      "limits_or_conditions": "相对训练和苏州任务权限尚未证实，非本批强排序；保持地区、目标偏好、可达与成本接受不变。"
+    },
+    {
+      "id": "C15",
+      "kind": "bounded_reuse_and_time_assumption",
+      "statement": "南邮05两项目和江大17一个显示成员仅为2025旧坐标；实际四年且2027入学才2031本科，2037是后续观察。",
+      "source_ids": [
+        "B1"
+      ],
+      "body_locator": "当前取舍；§5末段",
+      "limits_or_conditions": "非本人位次/接受或2027可报名单。基地与普通20不混，历史录取数不作计划，全组接受/退档规则不由职业优势覆盖。"
+    },
+    {
+      "id": "C16",
+      "kind": "conditional_risk_and_backup",
+      "statement": "已核开发、制造计划可作为任务分别核验的历史支点，零售与制造不天然分散；2037按实际异常/交付能力迁移，不自动晋升或读研。",
+      "source_ids": [
+        "S1",
+        "S3",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "body_locator": "§5",
+      "limits_or_conditions": "永联双地点不保苏州，历史招聘不保2031。未来付款、训练、权限、合同与工作条件均须重核。"
+    },
+    {
+      "id": "C17",
+      "kind": "research_scope",
+      "statement": "新增在本地库存节点、集中规则与本科任务的分离；旧平台/库存协同通用机制不重复视为新发现。",
+      "source_ids": [
+        "B4",
+        "B2"
+      ],
+      "body_locator": "证据与范围边界",
+      "limits_or_conditions": "不称全行业或全库覆盖；食品安全/质量为待核经营条件，未独立核法条。"
+    }
+  ],
+  "unknowns": [
+    "Suzhou job-specific replenishment, inventory and exception duties",
+    "Manual override, reporting and review authority",
+    "Actual training/placement/retention outcomes",
+    "Comparable training accessibility for NJUPT dual-degree projects and JSU17 base program",
+    "Future-year rules, full groups and actual user acceptance"
+  ]
+}

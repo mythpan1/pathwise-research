@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "research_unit": "suzhou-retail-fulfillment-2037-choices",
+  "version": "2026-11-07-v2",
+  "fixed_repository_base": "6eb911123d5b13b88b754ce4a3f3fee77389bd28",
+  "fixed_collection_manifest_sha256": "4ce1d4e746d903fa6f26263a999bae5298e74c7903c2e047cc8d5c0666ed06b6",
+  "scope": "One Dingdong self-operated Suzhou network; 2025 company disclosure, 2025 local report, and 2026-graduate historical role table.",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Dingdong 2025 Form 20-F",
+      "publisher": "Dingdong (Cayman) Limited; hosted by US SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1854545/000119312526174971/ddl-20251231.htm",
+      "published_at": null,
+      "scope": "Company-wide self-operated fresh-grocery retail model; fiscal 2025. Explicit Suzhou density statement, not Suzhou-specific job authority.",
+      "locators": [
+        "Item3.D Inventory risk pp17–18",
+        "Item4.B Procurement and Reliable On-Demand Fulfillment pp55–56",
+        "Item4.B Frontline Fulfillment Stations pp57–58",
+        "Item5 Revenue Recognition pp91–92",
+        "Notes to consolidated financial statements, Inventories and Product Sales"
+      ],
+      "limits": [
+        "No employee-level override/ordering authority or Suzhou local legal-entity stock ownership proven",
+        "Group revenue principal/inventory risk is distinct from local employee accountability",
+        "Company self-report and risk disclosure, not independent operational audit"
+      ],
+      "access_date": "2026-11-07",
+      "version_date": "2026-04-24",
+      "version_date_basis": "signature on report p136, not separately verified filing timestamp",
+      "representation": "Original HTTP HTML saved; text conversion used for locating and checked against original HTML. No visual webpage rendering claimed.",
+      "snapshot_hashes": [
+        {
+          "kind": "original_html",
+          "sha256": "e7cd90352ca349bd8da17e415cfdcd493080ef8c4748924687806f58b686cf70",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        },
+        {
+          "kind": "converted_text",
+          "sha256": "c573437d55e4a32e4dc7d6626475ee9876b751e432d323d3aaa5cf8073e05719",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        },
+        {
+          "kind": "context_excerpt",
+          "sha256": "36395d63e2a92e4dc502777f2c327c8522caace1ba18976829c47177e0f4d7c0",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        }
+      ],
+      "author_readback": "Original HTML: Smart Inventory Management and adjacent paragraphs; principal/inventory risk; fulfillment chain; household radius and site-selection context.",
+      "use": "Fact anchors and mechanism limits"
+    },
+    {
+      "id": "S2",
+      "title": "姑苏区吴门桥街道暖“新”服务进社区",
+      "publisher": "苏州市姑苏区人民政府；来源标姑苏区委宣传部，正文注明摘自新华日报",
+      "url": "https://www.gusu.gov.cn/gsq/fhgs/202503/d30e3c9cc77641babdf8fda370b4bbe1.shtml",
+      "published_at": "2025-02-21T16:30:00+08:00",
+      "scope": "苏州姑苏区吴门桥街道新城二社区辖区叮咚前置仓，2025-02",
+      "locators": [
+        "article body paragraphs1,2,4"
+      ],
+      "limits": [
+        "Government-hosted reported visit, not detailed staffing audit",
+        "No本科/专业/库存权限 information",
+        "Do not use incidental named minors or family visit count as demographic demand evidence"
+      ],
+      "access_date": "2026-11-07",
+      "representation": "Original HTTP HTML saved; text conversion used for locating and checked against original HTML. No visual webpage rendering claimed.",
+      "snapshot_hashes": [
+        {
+          "kind": "original_html",
+          "sha256": "232e7114dd8b14d85f1e8edb4b8347d5a572ddf6fd98757f4727531f006bfe20",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        },
+        {
+          "kind": "converted_text",
+          "sha256": "d0c4b548c09ea972b7702acddf7a58d6611a09f3a966df2733eb936e6ed74c13",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        }
+      ],
+      "author_readback": "Original HTML article body: local warehouse operations, fastest-delivery wording, and community staffing assistance. Incidental names and visit counts excluded.",
+      "use": "Fact anchors and mechanism limits"
+    },
+    {
+      "id": "S3",
+      "title": "【叮咚买菜】上海壹佰米网络科技有限公司招聘信息",
+      "publisher": "西北农林科技大学葡萄酒学院，就业信息；employer recruitment text",
+      "url": "https://wine.nwafu.edu.cn/xsgz/jygz/jyxx/b6e72bc6e0024a9984f6b0168f9fb0ab.htm",
+      "published_at": "2025-10-13",
+      "scope": "2026届秋招，毕业25/09–26/08。逐岗位表格中的管理方向城市含苏州；非当前仍开放的保证。",
+      "locators": [
+        "招聘岗位表：“咚力生（管理方向）”行的岗位学历、专业要求和工作城市列；同一行的工作城市包括苏州",
+        "招聘岗位表：“算法工程师”和“数据分析师”行的岗位学历及工作城市列；“商品开发岗”行的工作城市列",
+        "招聘对象：2026届及毕业时间窗口；成长规划：“入职第1年，员工，学习业务扎实基本功”"
+      ],
+      "limits": [
+        "No job-specific stock/replenishment/exception duty statement",
+        "Training/promotion plan is aspiration, not guaranteed progression or admission/hiring outcome",
+        "Cannot infer all Suzhou analyst jobs absent from a single posting"
+      ],
+      "access_date": "2026-11-07",
+      "representation": "Original HTTP HTML saved; text conversion used for locating and checked against original HTML. No visual webpage rendering claimed.",
+      "snapshot_hashes": [
+        {
+          "kind": "original_html",
+          "sha256": "eea7cf755e9b048c6fdddf33d41b643f5cecc172de6f154aeb1005f915de8395",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        },
+        {
+          "kind": "converted_text",
+          "sha256": "8e2518ca9a63fc4e5e7a0725d1bff1c5bf36fb2a561540801e0d955c08553494",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        }
+      ],
+      "author_readback": "Original HTML table cells independently parsed: management, product development, algorithm and data-analysis rows; graduation window and growth-plan paragraph.",
+      "use": "Fact anchors and mechanism limits"
+    },
+    {
+      "id": "S4",
+      "title": "柿柿顺(深圳)电子商务有限公司招聘简章",
+      "publisher": "广州理工学院就业网，employer recruitment text",
+      "url": "https://jyb.gzist.edu.cn/info/2022/3559.htm",
+      "published_at": "2024-11-19",
+      "scope": "2025届门店管培生/储备店长/咚力生，深圳福田区工作地址",
+      "locators": [
+        "岗位职责 item2–3, 工作地点"
+      ],
+      "limits": [
+        "Only evidence of same-mode management trainee tasks in Shenzhen; NEVER fill the Suzhou duty gap with it",
+        "No explicit stock-order override/exception loop authority",
+        "Do not treat salary offered or posting as hiring outcome"
+      ],
+      "access_date": "2026-11-07",
+      "representation": "Original HTTP HTML saved; text conversion used for locating and checked against original HTML. No visual webpage rendering claimed.",
+      "snapshot_hashes": [
+        {
+          "kind": "original_html",
+          "sha256": "a988b430355c08258e5a66c61b606b057e8a9572a30d05b0cc16c26011101a80",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        },
+        {
+          "kind": "converted_text",
+          "sha256": "dd3e3d3b3d8aea0fab498bd9f8e15d9a59cb85e6081af4ac64da067a15fd2bb3",
+          "availability": "Controlled local evidence; not included in publication candidate"
+        }
+      ],
+      "author_readback": "Original HTML duties and explicit Shenzhen work-location paragraph; used only to prevent geographic borrowing.",
+      "use": "Exclusion comparator only; never supports Suzhou duties"
+    }
+  ],
+  "reused_baselines": [
+    {
+      "id": "B1",
+      "path": "research/admissions/jiangsu-27000-decision-slice.md",
+      "commit": "6eb911123d5b13b88b754ce4a3f3fee77389bd28",
+      "git_blob": "aad5fb7dc04002ed2bf7057d28c36fb9836b5f65",
+      "sha256": "188bcca080147546f2ad2ae9a9c3f69e7611381fc409abe1ea61bdc0c0a654cf",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6eb911123d5b13b88b754ce4a3f3fee77389bd28/research/admissions/jiangsu-27000-decision-slice.md",
+      "uses": [
+        "2025 Jiangsu historical NJUPT05 and JSU17 coordinates and acceptance boundaries",
+        "Suzhou Kedacom application-development shared entry for computer science and information management; other strong-project backgrounds allowed",
+        "P/P_R/P_S are distinct research assumptions, not user facts"
+      ],
+      "limits": "Existing adopted research reused at fixed version. Underlying old sources and admissions CSV not re-read in this batch; no upgrade of original verification level."
+    },
+    {
+      "id": "B2",
+      "path": "research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+      "commit": "6eb911123d5b13b88b754ce4a3f3fee77389bd28",
+      "git_blob": "5e3f005f3ecd408b7cb8aeaa51b1c57af2c94ef2",
+      "sha256": "75ae5627a541a093738e1ba341a6c779408f53da449ec8e2ad08d764e1f43ace",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6eb911123d5b13b88b754ce4a3f3fee77389bd28/research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+      "uses": [
+        "Yonglian manufacturing planning/material role and Suzhou/Nantong ambiguity",
+        "Kedacom shared entry; manufacturing/retail task transfer requires separate evidence"
+      ],
+      "limits": "Existing adopted research reused at fixed version. Underlying old sources and admissions CSV not re-read in this batch; no upgrade of original verification level."
+    },
+    {
+      "id": "B3",
+      "path": "research/admissions/jiangsu-suzhou-manufacturing-cross-choice-sources.json",
+      "commit": "6eb911123d5b13b88b754ce4a3f3fee77389bd28",
+      "git_blob": "f4962df2c55878a4a4c9660e8a87f1a2400a8d47",
+      "sha256": "809d27a51ef55efbbf5daf4fda48cbbbc35b810eaad85ba0ba199d1ff7c9ebe3",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6eb911123d5b13b88b754ce4a3f3fee77389bd28/research/admissions/jiangsu-suzhou-manufacturing-cross-choice-sources.json",
+      "uses": [
+        "Limits and inherited representation of K1 and W1/W2 sources; not re-fetched in this batch"
+      ],
+      "limits": "Existing adopted research reused at fixed version. Underlying old sources and admissions CSV not re-read in this batch; no upgrade of original verification level."
+    },
+    {
+      "id": "B4",
+      "path": "research/admissions/jiangsu-history-landscape-brand-choices.md",
+      "commit": "6eb911123d5b13b88b754ce4a3f3fee77389bd28",
+      "git_blob": "cdcc44117ddeae3579b98c59874de9cc5e06be83",
+      "sha256": "ea771bc1a0807aedf266fccc72950bb6272defd787429c384c757119f2b1624d",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/6eb911123d5b13b88b754ce4a3f3fee77389bd28/research/admissions/jiangsu-history-landscape-brand-choices.md",
+      "uses": [
+        "Deduplication only: domestic store inventory coordination, gross merchandise value versus operating resources, and platform consolidation already covered"
+      ],
+      "limits": "Existing adopted research reused at fixed version. Underlying old sources and admissions CSV not re-read in this batch; no upgrade of original verification level."
+    }
+  ],
+  "excluded_leads": [
+    "Other-brand or separate city/role lists not used as Suzhou role evidence.",
+    "Shenzhen duties do not fill Suzhou duty gap."
+  ],
+  "source_independence": "SEC report is company disclosure, the university page carries employer recruitment, and the government page carries a reported local visit. These are not three independent audits of work quality, outcomes, or causal employment effects."
+}
