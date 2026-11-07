@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-07",
+  "baseline_commit": "745c1a3329f1a64ecdff5bed5480f5dee343c428",
+  "scope": "江苏既有金融与财会本科候选；沿金融卡P0及南京岗位R，2031入口/2037条件观察",
+  "evidence_texts_used": 3,
+  "sources": [
+    {
+      "id": "F1",
+      "title": "中国注册会计师独立性准则第1号——财务报表审计和审阅业务对独立性的要求",
+      "publisher": "财政部；中注协现行准则体系提供附件",
+      "attachment_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyddsz/zyddsz_6676/202603/W020260304414814961249.pdf",
+      "current_index_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyddsz/zyddsz_6676/",
+      "acquisition_date_utc": "2026-11-07",
+      "document_number": "财会〔2024〕29号",
+      "promulgated": "2024-12-31",
+      "notice_web_publication": "2025-01-20",
+      "notice_url": "https://kjs.mof.gov.cn/zhengcefabu/202501/t20250120_3952051.htm",
+      "effective": "2025-07-01",
+      "transition_deadline": "2026-07-01",
+      "locator": [
+        "第2、11—14、24—37条，印刷第1、3—9页",
+        "第96—111条，印刷第28—33页",
+        "第150—152条，印刷第43页"
+      ],
+      "representation": "官方文档经连接器提供的可读转换文本；非服务器原始HTML/PDF字节，未做PDF页面目视核验",
+      "controlled_evidence_id": "audit-boundaries-F1-20261107",
+      "representation_sha256": "6986161838d90196ca11e218b5f10c9996e5cebb5e863ccd49b4448b40745558",
+      "raw_document_sha256": null,
+      "limits": [
+        "全国制度条文；不证明南京执行、学校训练、本科岗位或未来沿用",
+        "客户/网络/职责按具体条款认定，不能泛化职业不能迁移或专业独占",
+        "第152条一般非鉴证服务过渡截止已过；第106条客户类别变化另按条件处理"
+      ],
+      "coverage": {
+        "visible_numbered_lines": 873,
+        "total_numbered_lines": 898,
+        "missing_numbered_lines": [
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503
+        ],
+        "used_ranges_complete": [
+          [
+            0,
+            184
+          ],
+          [
+            575,
+            681
+          ],
+          [
+            888,
+            897
+          ]
+        ],
+        "boundary": "仅核本文引用及相关限定；不声称全文齐全或不存在其他独立性限制"
+      }
+    },
+    {
+      "id": "F2a",
+      "title": "中国注册会计师审计准则第1241号——对被审计单位使用服务机构的考虑",
+      "publisher": "财政部准则；中注协现行准则体系提供附件",
+      "attachment_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/202105/P020240412543060732483.pdf",
+      "current_index_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/index_1.html",
+      "acquisition_date_utc": "2026-11-07",
+      "notice_web_publication": null,
+      "revised": "2022-12-22",
+      "effective": "2023-07-01",
+      "locator": [
+        "第3—7条，第1—3页",
+        "第11—14条，第3—4页",
+        "第16—30条，第4—9页"
+      ],
+      "representation": "官方文档经连接器提供的可读转换文本；非服务器原始HTML/PDF字节，未做PDF页面目视核验",
+      "controlled_evidence_id": "audit-boundaries-F2a-20261107",
+      "representation_sha256": "fda840d908e8920ffcbbfa60567522b69fd4698aa71a51f1b592b27caa6fd0aa",
+      "raw_document_sha256": null,
+      "limits": [
+        "全国制度条文；不证明南京执行、学校训练、本科岗位或未来沿用",
+        "只按第3—7条适用范围处理第三方服务机构，不能直接套内部共享中心"
+      ],
+      "coverage": {
+        "visible_numbered_lines": 189,
+        "body_visible_in_full": true,
+        "raw_pdf_or_visual_verified": false
+      },
+      "metadata_note": "连接器标题误标，正文和现行目录一致确认准则编号及2022-12-22修订版"
+    },
+    {
+      "id": "F2b",
+      "title": "中国注册会计师审计准则第1301号——审计证据",
+      "publisher": "财政部准则；中注协现行准则体系提供附件",
+      "attachment_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/202105/P020240412542695263912.pdf",
+      "current_index_url": "https://www.cicpa.org.cn/ztzl1/Professional_standards/xxzztx/zyzz/sjzz/index_1.html",
+      "acquisition_date_utc": "2026-11-07",
+      "notice_web_publication": null,
+      "revised": "2022-12-22",
+      "effective": null,
+      "locator": [
+        "第3—7条，第1—3页",
+        "第9—15条，第3—5页"
+      ],
+      "representation": "官方文档经连接器提供的可读转换文本；非服务器原始HTML/PDF字节，未做PDF页面目视核验",
+      "controlled_evidence_id": "audit-boundaries-F2b-20261107",
+      "representation_sha256": "69cfdfe4e6d1f7259aea7624332473a291a2ea315c7434ac9689df79aebb4f6a",
+      "raw_document_sha256": null,
+      "limits": [
+        "全国制度条文；不证明南京执行、学校训练、本科岗位或未来沿用",
+        "明确施行日及原发布通知未核，不沿用1241的施行日期"
+      ],
+      "coverage": {
+        "visible_numbered_lines": 86,
+        "body_visible_in_full": true,
+        "raw_pdf_or_visual_verified": false
+      },
+      "metadata_note": "连接器标题误标，正文和现行目录一致确认准则编号及2022-12-22修订版"
+    }
+  ],
+  "inherited_baselines": [
+    {
+      "path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "745c1a3329f1a64ecdff5bed5480f5dee343c428",
+      "sha256": "b4d04299062aec2d51924405e38049f3753a66d467ed7804dac9558c61ef0a6b",
+      "use": "P0/R、候选与接受边界、B弱前置及既有当期招聘；外部原源本轮未重取"
+    },
+    {
+      "path": "research/industry/service-organization-2037-choices.md",
+      "commit": "745c1a3329f1a64ecdff5bed5480f5dee343c428",
+      "sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+      "use": "已有电子凭证与外包/新人分工机制；本轮不将其列为新事实"
+    }
+  ],
+  "interpretation": "制度事实、作者条件推断和未来改判条件分列；不新增招生、招聘或培养事实"
+}
