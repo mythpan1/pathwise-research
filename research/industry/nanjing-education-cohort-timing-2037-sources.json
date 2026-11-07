@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "research_id": "LOCAL-nanjing-cohort-timing-20261107",
+  "baseline": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9"
+  },
+  "freeze_date": "2026-11-07",
+  "retrieval_boundary": "The cited public materials support only the bounded statements identified in this index. Original HTML/PDF bytes, the full prediction model and district-level tables have not been independently verified. Relative time labels are not exact access dates. No 2026 admissions data collection was conducted.",
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "走好教育优质均衡之路，南京给出方案",
+      "publisher": "南京市教育局转载《新华每日电讯》",
+      "url": "https://edu.nanjing.gov.cn/xwdt/yw/202608/t20260831_5902273.html",
+      "dates": {
+        "page_published": "2026-08-31 14:31",
+        "underlying_report_date": "2026-08-31"
+      },
+      "sections": [
+        "L31—33 来源与日期",
+        "L54、L96 入学峰值预测",
+        "L63—79 规划接续与动态资源调配",
+        "L98—105 高低学段错配及未来判断"
+      ],
+      "representation": "official_url_readable_conversion",
+      "supports": [
+        "市教育部门在报道中披露小学2023年入学达峰、初中预计2029年和高中2032年入学高峰。",
+        "报道把2018—2023高中布局方案与2025—2027接续计划并列，记载建设/调剂、编制动态核定和高中倾斜。",
+        "L98还判断未来十年低学段资源富余、高学段供给紧张格局持续，须作为反向约束。"
+      ],
+      "limits": [
+        "官方平台采访报道，不是所述规划的原文、人口模型或区级预测表。",
+        "高中入学预测不能转作全体初中队列进入普高，不能推出在校存量、语文工作量或外招招聘峰值。",
+        "建设项目资金不能作为教师经常性工资。",
+        "报道的未来十年判断不是事实兑现或岗位承诺。"
+      ],
+      "relation_to_prior_evidence": "newly_read_for_this_unit",
+      "evidence_reference": [
+        {
+          "evidence_id": "S1-E1",
+          "content_sha256": "8f45e5350e25124d07c625ef70eb251fac16caeeead1f0279ee2cfa875ebcc98"
+        }
+      ]
+    },
+    {
+      "source_id": "S2",
+      "title": "南京推进优质小班制教学实验",
+      "publisher": "南京市政府门户网站",
+      "url": "https://www.nanjing.gov.cn/njxx/202610/t20261022_6023311.html",
+      "dates": {
+        "page_published": "2026-10-22 09:02",
+        "reported_experiment_start": "2025-06",
+        "reported_space_technology_project_start": "2025年底"
+      },
+      "sections": [
+        "L45 日期",
+        "L48 全市小学实验及6所改造试点",
+        "L51、L61、L63 共享空间/AI及生源差异",
+        "L68—84 教学组织及持续研修要求"
+      ],
+      "representation": "official_url_readable_conversion",
+      "supports": [
+        "报道全市小学参与新型优质小班制实验；6所试点既有生源下降，也有持平或上升。",
+        "共享空间、跨班协作和AI平台使用属于教学组织改变，报道提出教师持续训练要求。"
+      ],
+      "limits": [
+        "小学报道，不是初中语文班额减少、增班、增编、外招或工资预算证据。",
+        "两个打开片段属于同一报道，不构成独立重复样本。",
+        "技术使用不证明师资净增减、教学效果已识别或扬大培养已落实。"
+      ],
+      "relation_to_prior_evidence": "newly_read_for_this_unit",
+      "evidence_reference": [
+        {
+          "evidence_id": "S2-E1",
+          "content_sha256": "cfd381fd3463f2372bee880eefd82e2b4dcbcfab8b40dc5c8828d20a59fc2e8f"
+        },
+        {
+          "evidence_id": "S2-E2",
+          "content_sha256": "8f45e5350e25124d07c625ef70eb251fac16caeeead1f0279ee2cfa875ebcc98"
+        }
+      ]
+    },
+    {
+      "source_id": "S3",
+      "title": "关于做好2026年度南京市中小学、幼儿园教师高级职称评审工作的通知（宁教函〔2026〕43号）",
+      "publisher": "南京市教育局、南京市人力资源和社会保障局",
+      "url": "https://edu.nanjing.gov.cn/njsjyj/202606/t20260618_5862774.html",
+      "dates": {
+        "signed": "2026-06-16",
+        "page_generated": "2026-06-18",
+        "applicable_round": "2026年度职称评审"
+      },
+      "sections": [
+        "L29、L32、L87—88 日期、文号、签发者",
+        "一（二）L47 按岗推荐，无岗不得推荐",
+        "四（二）L64 组织需要下本区县跨学段调动后的申报条件",
+        "四（六）L69 跨系列同级转评另行规定"
+      ],
+      "representation": "official_notice_body_readable_conversion",
+      "supports": [
+        "具组织需要、主管部门书面认定、本区县内跨学段人事关系调动、相应教资、新岗位满一年考核合格等条件后，可申报高一级职称；认可原成果但需新岗代表成果。",
+        "推荐仍按岗位设置；跨系列转评需按另列条件和程序处理。"
+      ],
+      "limits": [
+        "在岗职称程序，不是个人自动调岗权、实际调动流量、应届招聘准入或申报必获评。",
+        "未打开所附doc，也未将所引省级文件当已逐条读取。",
+        "不保证2037继续适用。"
+      ],
+      "relation_to_prior_evidence": "newly_read_for_this_unit",
+      "evidence_reference": [
+        {
+          "evidence_id": "S3-E1",
+          "content_sha256": "86140bf947c1964f2791ed3e42f6f9cac34f1ee0eaf91298f76f9f5569171cd2"
+        }
+      ]
+    },
+    {
+      "source_id": "S4",
+      "title": "栖霞：乘势而上，建设现代化教育强区",
+      "publisher": "南京市栖霞区人民政府门户网站",
+      "url": "https://www.njqxq.gov.cn/qxzx/gzdt/202609/t20260911_5909281.html",
+      "dates": {
+        "page_published": "2026-09-10 15:15",
+        "url_path_date": "2026-09-11",
+        "date_note": "页面时间与URL日期分别记录，不静默改成同日。"
+      },
+      "sections": [
+        "L22 页面时间",
+        "L73 动态编制试点与跨校/跨学段/跨学科交流",
+        "L38、L75 交流人数口径限制"
+      ],
+      "representation": "official_url_readable_conversion",
+      "supports": [
+        "报道称栖霞被列为编制动态调整改革试点，跨校、跨学段、跨学科交流稳妥推进。"
+      ],
+      "limits": [
+        "一个区的工作报道，不代表玄武实施规模或全市各区同一规则。",
+        "329位教师与193位骨干口径未去重，不相加；329不等于跨学段人数。正文不使用这些数字。",
+        "不能从交流总量计算净挤出外招或2031/2037替代率。"
+      ],
+      "relation_to_prior_evidence": "newly_read_for_this_unit",
+      "evidence_reference": [
+        {
+          "evidence_id": "S4-E1",
+          "content_sha256": "86140bf947c1964f2791ed3e42f6f9cac34f1ee0eaf91298f76f9f5569171cd2"
+        }
+      ]
+    },
+    {
+      "source_id": "S5",
+      "title": "南京统计年鉴2025 表13-6 各类教育事业基本情况",
+      "publisher": "南京市统计局；表注除技工学校外数据由南京市教育局提供",
+      "url": "https://tjj.nanjing.gov.cn/material/njnj_2025/keji/13-6.html",
+      "dates": {
+        "edition": "2025",
+        "observations": [
+          "2024",
+          "2023"
+        ],
+        "exact_publication_date": null,
+        "date_note": "提供的页面转换未显示精确发布日期。"
+      },
+      "sections": [
+        "L46 数据提供者",
+        "L147—151 单位、人、列顺序、四招生数",
+        "L182—190 初中与小学招生"
+      ],
+      "representation": "official_url_readable_conversion",
+      "supports": [
+        "2024/2023小学招生94199/109394人，初中85111/74946人。"
+      ],
+      "limits": [
+        "学生招生流量，不是出生、在校总量、班级或教师岗位数。",
+        "两年数据本身不能证明完整历史峰值位置。"
+      ],
+      "relation_to_prior_evidence": "prior_evidence_re_read_from_frozen_official_conversion_not_new_independent_dataset",
+      "evidence_reference": [
+        {
+          "evidence_id": "S5-E1",
+          "content_sha256": "cfd381fd3463f2372bee880eefd82e2b4dcbcfab8b40dc5c8828d20a59fc2e8f"
+        }
+      ]
+    },
+    {
+      "source_id": "S6",
+      "title": "2026年全市义务教育招生入学工作问答",
+      "publisher": "南京市教育局",
+      "url": "https://edu.nanjing.gov.cn/njsjyj/202604/t20260429_5832026.html",
+      "dates": {
+        "page_generated": "2026-04-29",
+        "applicable_year": "2026"
+      },
+      "sections": [
+        "问题5，L57—58"
+      ],
+      "representation": "official_url_readable_conversion",
+      "supports": [
+        "2026小学入学需满6周岁，出生窗为2019-09-01至2020-08-31，并规定延期入学申请。"
+      ],
+      "limits": [
+        "只校验日历出生年与入学队列不完全同口径，不把2026规则保证到2031。",
+        "不涉及重新采集2026高考录取资料。"
+      ],
+      "relation_to_prior_evidence": "newly_read_for_this_unit",
+      "evidence_reference": [
+        {
+          "evidence_id": "S6-E1",
+          "content_sha256": "8f45e5350e25124d07c625ef70eb251fac16caeeead1f0279ee2cfa875ebcc98"
+        }
+      ]
+    },
+    {
+      "source_id": "B1",
+      "title": "同校相邻历史组：语文师范还是法学，连接南京2031入口与2037情景",
+      "publisher": "mythpan1/pathwise-research 固定main正文（非独立外部事实源）",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/acd0b02ea9fc84137cf8ef8107974c12fe28abe9/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "dates": {
+        "snapshot_commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9",
+        "author_read_date": "2026-11-07"
+      },
+      "sections": [
+        "当前判断与研究设定（P0只作旧情景）",
+        "下端历史候选",
+        "中间只核决定入口的事实",
+        "可执行的基准、反转及备选"
+      ],
+      "representation": "fixed_repository_body_json_content",
+      "supports": [
+        "旧T/L数据、培养方案与专业准入、南京综合法务实例、招生与备选边界。"
+      ],
+      "limits": [
+        "旧P0不继承为用户偏好，外部原件本轮未重取；早年组号不作目标年身份。"
+      ],
+      "relation_to_prior_evidence": "inherited_prior_analysis_not_reverified_external_source",
+      "evidence_reference": [
+        {
+          "evidence_id": "B1-E1",
+          "content_sha256": "038a6bb33f414e1e3aec0f02ff51012453b2c691cedd2218e79e23d10d1f349c"
+        }
+      ]
+    },
+    {
+      "source_id": "B2",
+      "title": "退休、跨学段调配与毕业供给：怎样改判师范、法学和普通会计",
+      "publisher": "mythpan1/pathwise-research 固定main正文（非独立外部事实源）",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/acd0b02ea9fc84137cf8ef8107974c12fe28abe9/research/admissions/jiangsu-history-cohort-retirement-choices.md",
+      "dates": {
+        "snapshot_commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9",
+        "author_read_date": "2026-11-07"
+      },
+      "sections": [
+        "2031入口的关键变化",
+        "怎样改变当前选择"
+      ],
+      "representation": "fixed_repository_body_json_content",
+      "supports": [
+        "内部承接、退休与返聘分账，需求和合资格供给分开，双职业条件比较。"
+      ],
+      "limits": [
+        "盐城实例不转为南京实际量；本轮只保留T/L，不引入会计或其他组。"
+      ],
+      "relation_to_prior_evidence": "inherited_prior_analysis_not_reverified_external_source",
+      "evidence_reference": [
+        {
+          "evidence_id": "B2-E1",
+          "content_sha256": "622c78b510ee443cd3387d42085f761c64d646ddb63e09ece6c82cbec7ec512d"
+        }
+      ]
+    },
+    {
+      "source_id": "B3",
+      "title": "从本科可报到本科拟聘：玄武同批初中语文如何修订师范—法学及读研选择",
+      "publisher": "mythpan1/pathwise-research 固定main正文（非独立外部事实源）",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/acd0b02ea9fc84137cf8ef8107974c12fe28abe9/research/admissions/xuanwu-chinese-teacher-undergraduate-entry.md",
+      "dates": {
+        "snapshot_commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9",
+        "author_read_date": "2026-11-07"
+      },
+      "sections": [
+        "一 当前方向",
+        "二 范围与证据身份",
+        "三 F01—F05",
+        "四 I03 A/B1/B2/C",
+        "五 人口、组织、支付与供给",
+        "六—七 条件选择与未知"
+      ],
+      "representation": "fixed_repository_body_json_content",
+      "supports": [
+        "玄武同批三条本科汉语言文学师范拟聘公示；非最终入职、非扬大输送。",
+        "本科直申与B1硬硕士、B2训练增量、C共同失效比较规则。"
+      ],
+      "limits": [
+        "本轮仅复用固定正文；原PDF字节缺口、官方转换/第三方同源图像校对身份保留。",
+        "三条公示不证明当届、无经验或学历成功率；未取得任何目标硕士项目兑现证据。"
+      ],
+      "relation_to_prior_evidence": "inherited_prior_analysis_not_reverified_external_source",
+      "evidence_reference": [
+        {
+          "evidence_id": "B3-E1",
+          "content_sha256": "bcaa10cc66e8c27d5d0eb180bdfc51d72070dac5d950ab317f0fded9d55a582d"
+        }
+      ]
+    },
+    {
+      "source_id": "B4",
+      "title": "人口与教育资源调整：面向2036的教育职业情景",
+      "publisher": "mythpan1/pathwise-research 固定main正文（非独立外部事实源）",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/acd0b02ea9fc84137cf8ef8107974c12fe28abe9/research/industry/education-2036-employment-scenarios.md",
+      "dates": {
+        "snapshot_commit": "acd0b02ea9fc84137cf8ef8107974c12fe28abe9",
+        "author_read_date": "2026-11-07"
+      },
+      "sections": [
+        "推导链",
+        "到2036年的三个情景",
+        "接到高考专业与培养"
+      ],
+      "representation": "fixed_repository_body_json_content",
+      "supports": [
+        "学段错峰、持续经费、内部调配和小班化的条件机制；技术不直接对应师资人数。"
+      ],
+      "limits": [
+        "旧国家统计和规划本轮未重取，不用全国出生或教师存量推南京岗位；2036旧情景非2037事实。"
+      ],
+      "relation_to_prior_evidence": "inherited_prior_analysis_not_reverified_external_source",
+      "evidence_reference": [
+        {
+          "evidence_id": "B4-E1",
+          "content_sha256": "99670e229fcfbd87df8afa3fc688747ee08b561545f245b2225db3fd1640dbb0"
+        }
+      ]
+    }
+  ]
+}
