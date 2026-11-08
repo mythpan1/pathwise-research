@@ -5,7 +5,7 @@
   "baseline_commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
   "retrieved_on": "2026-11-08",
   "source_handoff_sha256": "801c51fa6adb82aa00387805bcc37fda2a080d9b6cd002776fc8203f4e59675a",
-  "source_scope": "三项南京招聘加资格/实习/执业链四个主锚点，共六份转换正文；既有企业原岗、采购及高教背景仅复用固定研究。 R3新增修正决定、2026全文、主席令及两份南京办事线索，旧Q2保留为历史对照。 v5定点新增江苏公司律师2021办法与司法部2018办法官方转载，补身份取得、离职转换及任职计年；不是新增招聘样本或全库研究。",
+  "source_scope": "三项南京招聘加资格/实习/执业链四个主锚点，共六份转换正文；既有企业原岗、采购及高教背景仅复用固定研究。",
   "privacy": "只提交来源定位、必要事实边界和哈希；不含联系人、电话、邮箱、个人资料、机器路径、完整回执或正文原件。",
   "sources": [
     {
@@ -87,9 +87,7 @@
         "行业规范要求不等于样本雇主已履行。",
         "指导人数限制仅适用于规则下实习，不得当所有普通助理数量限制。",
         "未逐项核地方实施要求、个人资格与目标年适用版本。",
-        "集中培训是实习期间安排，不无依据在一年外另加一个月。",
-        "所核2026修正与所引登记、训练、带教、报酬及考核环节未发现直接矛盾或明确废止项；这不是全部后续与地方规则已穷尽的证明。",
-        "第7条全程实习承诺及特殊兼职材料，不构成普通企业任职者可并行完成专职实习的一般许可。"
+        "集中培训是实习期间安排，不无依据在一年外另加一个月。"
       ],
       "source_type": "publisher_page_converted_text",
       "url": "https://www.acla.org.cn/info/1a19899a34c9496e9f3d7b04dad6b071",
@@ -98,8 +96,7 @@
       "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
       "content_sha256": "d049418764c1a4ed2d26a63cf3ab55a01a64ca2d602c16a1ca5a032eb6a3c322",
       "receipt_sha256": "d70a1958ca7457670996f43bf30714b475d0fd4175897c9096a4342164d23b2b",
-      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。",
-      "status": "verified_2021_rule_version_not_complete_current_local_rules"
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
     },
     {
       "source_id": "Q2",
@@ -108,12 +105,11 @@
       "published_on": "2021-01-06",
       "text_version": "2017年修正文本",
       "location": "第2、5、6、13、25条",
-      "used_for": "仅作2017修正历史条文对照；不再单独支撑2026-11-08当前执业规则。",
+      "used_for": "法律资格、实习、考核材料、接收、行政许可与执业证分开；律所统一接案收费。",
       "limitations": [
         "页面发布时间不是修法年份。",
         "本文普通新生路径，不认定特殊资格或个人执业条件。",
-        "不保证2031适用规则不变。",
-        "R3已核2026-09-01施行的修正；旧来源原件与哈希保留，实质未变不等于版本未过时。"
+        "不保证2031适用规则不变。"
       ],
       "source_type": "publisher_page_converted_text",
       "url": "https://xzfy.moj.gov.cn/c/2021-01-06/487877.shtml",
@@ -122,13 +118,7 @@
       "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
       "content_sha256": "ff5688f192b7b99b8b25f25c15dd4414f61aa866b9b807d98b92641e109f14e3",
       "receipt_sha256": "dac8f1c7994683bba3bb48daffa259e8c2063c0f6a321793a74aeea5cf58ee7d",
-      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。",
-      "status": "historical_comparison_only",
-      "superseded_for_current_law_by": [
-        "Q2R1",
-        "Q2R2",
-        "Q2R3"
-      ]
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
     },
     {
       "source_id": "Q3",
@@ -207,187 +197,13 @@
       ],
       "content_sha256_scope": "固定commit的精确仓库文件字节；通过GitHub base64读取解码，并以Git blob SHA复核，未追加末尾换行。",
       "git_blob_sha": "d0d70629f407ed0bb19fa2b28abae9755c11651b"
-    },
-    {
-      "evidence_id": "Q2R1-amendment-decision",
-      "title": "全国人民代表大会常务委员会关于修改《中华人民共和国律师法》的决定",
-      "publisher": "全国人大常委会决定；司法部智慧普法平台转载新华网",
-      "url": "https://legalinfo.moj.gov.cn/pub/sfbzhfx/zhfxfzzx/fzzxyw/202609/t20260920_539939.html",
-      "published_on": "2026-09-20",
-      "legal_dates": {
-        "adopted": "2026-08-28",
-        "effective": "2026-09-01"
-      },
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的正文Markdown转换表示，非原始HTML/PDF",
-      "content_sha256": "b185f43f5977cfff562628a127229fa7f1c57eafa75f1cfa3392328a1a8091f6",
-      "locations": "决定第六项及最后两段；其余修正项目用于检验是否改变本科普通路径",
-      "limitations": [
-        "确认法名、通过/施行日期和实际修正内容，不把网页刊载日当通过日"
-      ],
-      "source_id": "Q2R1",
-      "source_type": "publisher_page_converted_text",
-      "receipt_sha256": "b43db054db949656316a6bfbd0386fcda2675d9cac4a2ce1674f5e6c4b828f31",
-      "verification": "独立收集者保存转换正文与完整回执；作者核读指定原文、核对交接及正文/回执哈希，并与历史条文对照；非源站原始HTML/PDF。",
-      "used_for": "2026法律版本、施行日期与本题直接适用条文的差异及保留项。"
-    },
-    {
-      "evidence_id": "Q2R2-law-2026-beijing",
-      "title": "中华人民共和国律师法（2026年第四次修正刊载文本）",
-      "publisher": "北京市司法局",
-      "url": "https://sfj.beijing.gov.cn/sfj/zwgk/2024zcwj/744120751/fl91/744123073/index.html",
-      "published_on": "2026-09-14",
-      "legal_dates": {
-        "fourth_amendment": "2026-08-28"
-      },
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的正文Markdown转换表示，非原始HTML/PDF",
-      "content_sha256": "8781686a87e2528678ed10b8c0de7be01b7e5fd98bc823d0b79ead56bbf561d5",
-      "locations": "第2、8、9、14—16、28、50条",
-      "limitations": [
-        "正文第15等条保留旧内部交叉条号，未私自改写；只采用与修正决定及旧文实质比对一致的有关段落。末条2008原施行日不替代本次修正决定的2026-09-01施行日"
-      ],
-      "source_id": "Q2R2",
-      "source_type": "publisher_page_converted_text",
-      "receipt_sha256": "b43db054db949656316a6bfbd0386fcda2675d9cac4a2ce1674f5e6c4b828f31",
-      "verification": "独立收集者保存转换正文与完整回执；作者核读指定原文、核对交接及正文/回执哈希，并与历史条文对照；非源站原始HTML/PDF。",
-      "used_for": "2026法律版本、施行日期与本题直接适用条文的差异及保留项。"
-    },
-    {
-      "evidence_id": "Q2R3-promulgation-decree",
-      "title": "受权发布丨中华人民共和国主席令（第八十四号）",
-      "publisher": "最高人民法院转载新华网",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/510011.html",
-      "published_on": "2026-08-28",
-      "legal_dates": {
-        "promulgated": "2026-08-28",
-        "effective": "2026-09-01"
-      },
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的正文Markdown转换表示，非原始HTML/PDF",
-      "content_sha256": "a79060a93e2db18dbe2a7fe0dadf910c479551be592a83bc8092631bec2af09a",
-      "locations": "主席令全文",
-      "limitations": [
-        "独立于摘要核读，和决定日期交叉一致；不再为日期追加检索"
-      ],
-      "source_id": "Q2R3",
-      "source_type": "publisher_page_converted_text",
-      "receipt_sha256": "b3a3391c220a6a23a6acaba0741ebf68bf238d8977556cce9c6646e01c0d6b7b",
-      "verification": "独立收集者保存转换正文与完整回执；作者核读指定原文、核对交接及正文/回执哈希，并与历史条文对照；非源站原始HTML/PDF。",
-      "used_for": "2026法律版本、施行日期与本题直接适用条文的差异及保留项。"
-    },
-    {
-      "evidence_id": "N1-nanjing-registration",
-      "title": "实习人员申请登记说明",
-      "publisher": "南京市律师综合管理信息系统/南京市律师协会",
-      "url": "https://mc.njslawyers.org/trainee/registertrainee-quick.jsp",
-      "published_on": null,
-      "legal_dates": {},
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的正文Markdown转换表示，非原始HTML/PDF",
-      "content_sha256": "d617427131a44684ef22abda9ca8007a8a6d5c18af14711d984b3a89a2ec634d",
-      "locations": "材料列表：无其他职业证明、最近离职单位离职证明、律所为专职实习者缴社保证明、资格/学历/协议/指导材料",
-      "limitations": [
-        "无可见发布或更新日。版权2012不是材料版本日；页面正在可读不等于现行完整资格已核。仅只读第一页，未填表、注册或提交"
-      ],
-      "source_id": "N1",
-      "source_type": "publisher_page_converted_text",
-      "receipt_sha256": "b43db054db949656316a6bfbd0386fcda2675d9cac4a2ce1674f5e6c4b828f31",
-      "verification": "独立收集者保存转换正文与完整回执；作者核读指定原文、核对交接及正文/回执哈希，并与历史条文对照；非源站原始HTML/PDF。",
-      "used_for": "当前可见但无更新日的办理提示，只用于转换前核验事项，不当现行完整资格。"
-    },
-    {
-      "evidence_id": "N2-nanjing-directory-2018",
-      "title": "申请律师执业的实习人员办理实习证递交材料目录",
-      "publisher": "南京市律师协会",
-      "url": "https://www.njslawyers.org/info/aa47223f5b6e4ceda5814af5cec6788f",
-      "published_on": "2018-01-18",
-      "legal_dates": {},
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的正文Markdown转换表示，非原始HTML/PDF",
-      "content_sha256": "b44e0515fcae45c15beb8760665a3ee7f5b6afbe0ba4ca91c97e67ee5000f853",
-      "locations": "第8、9、15、17项及所链接材料",
-      "limitations": [
-        "明确旧日期，无可见更新日。仅作地方历史办理线索，不以无学位证也可、A证或研三提前实习等旧条目替代2026或未来完整条件"
-      ],
-      "source_id": "N2",
-      "source_type": "publisher_page_converted_text",
-      "receipt_sha256": "b43db054db949656316a6bfbd0386fcda2675d9cac4a2ce1674f5e6c4b828f31",
-      "verification": "独立收集者保存转换正文与完整回执；作者核读指定原文、核对交接及正文/回执哈希，并与历史条文对照；非源站原始HTML/PDF。",
-      "used_for": "2018地方历史材料线索，不作为2026或未来现行条件。",
-      "status": "historical_administration_clue_only"
-    },
-    {
-      "evidence_id": "CL1",
-      "title": "江苏省司法厅关于印发《江苏省公职律师管理实施办法》《江苏省公司律师管理实施办法》的通知",
-      "publisher": "江苏省司法厅；江苏省政府公报刊载",
-      "document_number": "苏司规字〔2021〕2号",
-      "issued_on": "2021-12-02",
-      "web_published_on": "2022-01-09",
-      "effective_on": "2022-01-10",
-      "url": "https://www.js.gov.cn/art/2022/1/9/art_64797_10311471.html",
-      "content_sha256": "dd85df8abbcf52dbfcf2f4c6941e5765d728e95b7f0c4d73f53b6105c8447903",
-      "company_section_sha256": "ed538467915b522c00e1a426f1986530a5c69fe8ea9acbfc41df37117dd6eaf6",
-      "exact_excerpt_sha256": "b5e653bd103a238f524c2412a4984a7f6f208ffcddf164a875388342e5b30290",
-      "locations": [
-        "公司部分第3、5—11、13—16、18、21—23、27、32、34条；不使用前半公职律师同号条文"
-      ],
-      "status_limit": "已核公开发布版本与施行日；有界检索未取得针对该文的改废文件或完整现行目录确认。不能由未找到改废断言截至2026-11-08绝对仍有效，更不保证2031/2037规则。",
-      "scope_limit": "第32条明确企业含国有、民营；仍须满足江苏注册、获准开展公司律师工作、具体颁证等条件，不能泛化全部企业法务。",
-      "source_id": "CL1",
-      "source_type": "publisher_page_converted_text",
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的完整通知正文Markdown转换表示，非原始HTML/PDF；公司部分及精确摘录另按子串哈希定位，不混公职部分。",
-      "receipt_sha256": "91bac23e8824380d133feddfe4b95adc801b46de5942620334085a1fb6cc6723",
-      "verification": "独立收集者冻结转换正文、回执与索引；作者核读公司部分和通知元数据，核对正文/回执/子串哈希及14条摘录。非原始网页字节，不升级为完整现行性或个人办理确认。",
-      "used_for": "经批准企业、身份取得、离职转换免律所实习、任职年限认可及条件性2031/2037时间账。",
-      "limitations": [
-        "已核公开发布版本与施行日；有界检索未取得针对该文的改废文件或完整现行目录确认。不能由未找到改废断言截至2026-11-08绝对仍有效，更不保证2031/2037规则。",
-        "第32条明确企业含国有、民营；仍须满足江苏注册、获准开展公司律师工作、具体颁证等条件，不能泛化全部企业法务。",
-        "制度条件不是企业实际批准、个人颁证、有效训练、考核许可或未来工作的结果。"
-      ]
-    },
-    {
-      "evidence_id": "CL2",
-      "title": "司法部关于印发《公职律师管理办法》《公司律师管理办法》的通知",
-      "publisher": "司法部；北京市政府官方转载",
-      "document_number": "司发通〔2018〕131号",
-      "issued_on": "2018-12-13",
-      "effective_on": "2019-01-01",
-      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201908/t20190816_781336.html",
-      "content_sha256": "18ed9eaf006e3c7d39b27e951b3ff0618ec40019f40945bcabcecd97f1b7eb85",
-      "company_section_sha256": "af9f698c4d8b84aa4af1f219be0ae0a4ec4948687c013b151b4c08c7b71de0d9",
-      "locations": [
-        "公司办法第2、5、8—11、14、24、25、27条"
-      ],
-      "observed_metadata": "北京官方页面显示[有效性]是；这是该转载页面的元数据，不是江苏2021文件的单独现行性认证。",
-      "scope_limit": "国家文本第2/5条以国有企业为基本范围，第24条明文规定探索开展民营企业公司律师试点的参照适用，第25条授权省级司法行政机关制定具体实施办法。江苏文本第32条含国有和民营仍须按地方条件；不能把任一企业法务自动纳入。",
-      "status_limit": "司法部原页面转换超时，改读官方政府转载完整正文；不把超时记成原文不存在。",
-      "source_id": "CL2",
-      "source_type": "publisher_page_converted_text",
-      "retrieved_on": "2026-11-08",
-      "representation": "工具返回的完整通知正文Markdown转换表示，非原始HTML/PDF；公司部分及精确摘录另按子串哈希定位，不混公职部分。",
-      "receipt_sha256": "3e0624d0f23ed4b9f3d227372947d8871af2b08ec93d6221aabfa8636bc70560",
-      "verification": "独立收集者冻结CL2完整转换正文、回执与公司部分子串；作者核读公司部分和通知元数据，核对正文/回执/子串哈希。源包14条精确摘录仅对应CL1，CL2未另存14条摘录。非原始网页字节，不升级为完整现行性或个人办理确认。",
-      "used_for": "公司身份定义与转换条款的国家办法支撑；明确民营试点和地方实施接口、元数据的有限意义。",
-      "limitations": [
-        "司法部原页面转换超时，改读官方政府转载完整正文；不把超时记成原文不存在。",
-        "国家文本第2/5条以国有企业为基本范围，第24条明文规定探索开展民营企业公司律师试点的参照适用，第25条授权省级司法行政机关制定具体实施办法。江苏文本第32条含国有和民营仍须按地方条件；不能把任一企业法务自动纳入。",
-        "制度条件不是企业实际批准、个人颁证、有效训练、考核许可或未来工作的结果。",
-        "北京官方页面显示[有效性]是；这是该转载页面的元数据，不是江苏2021文件的单独现行性认证。"
-      ]
     }
   ],
   "unresolved": [
     "南京样本实际报酬/补助金额、支付及用工合同未核。",
     "三家招聘对具体本科应届的完整接收、合格指导余量、实习登记与后续执业未核。",
     "任务工时、工具采用、熟手覆盖变化及同岗供需未核。",
-    "未核任何硕士项目满足B1/B2。",
-    "江苏2024新版实习管理办法的官方正文及现行修订/执行口径未取得；未采信转载或检索摘要为条文事实",
-    "南京登记页面材料完整性、更新日、例外与具体个人是否适用未核",
-    "公司律师转换已核文件条件，但未获得江苏完整现行清理目录、针对性效力确认或最新完整转任考核细则；不保证2031/2037规则。",
-    "天华院或其他招聘企业是否获准开展公司律师工作、是否支持新人取得身份、混合法务经历认可、实际颁证与任职起算/连续性及转换许可均未核。",
-    "公司律师法定计入社会律师执业年限不证明实际训练、客户来源、收入或个案资格；其他未纳入的特殊身份转换仍未核。"
+    "未核任何硕士项目满足B1/B2。"
   ],
   "not_collected": [
     "旧库CSV",
@@ -396,16 +212,6 @@
   ],
   "not_actions": [
     "未联系雇主或个人",
-    "作者未写GitHub、创建PR或发布审核",
-    "R3只本地修订，未创建PR或改变远端成果及旧审核。",
-    "v5作者仅本地修订三文件并冻结；未写GitHub、创建PR或联系企业/个人。"
-  ],
-  "revision_id": "R5",
-  "revision_basis_commit": "6b6f5fb43ce2ce1768f82357aae40615a0d6dfa8",
-  "revision_handoffs": {
-    "impact_table_sha256": "16b6ff29eab35a44515af5cd983100e0b5c01c2ec119d43d75248b73069c8611",
-    "sanitized_source_index_sha256": "a80c320c0ff68caec964d4ebb9bb7311456d2d68796c6ed6e3d0bb4479e94b64",
-    "company_lawyer_impact_sha256": "93347fcb97802818420cb4c87b06050e29090c6b00333ca4aefde5aab4e756c1",
-    "company_source_index_sha256": "b024749b77e8e9172415f2ac7a8adb5c3eb64f3965cf8acd18cb666706160068"
-  }
+    "作者未写GitHub、创建PR或发布审核"
+  ]
 }
