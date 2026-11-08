@@ -2,10 +2,10 @@
   "schema_version": 1,
   "topic": "儿童队列下降、政策覆盖与既有医生重排对儿科—麻醉当前条件顺序的影响",
   "updated_on": "2026-11-08",
-  "baseline_commit": "39a1d0414ad4b60be586a128a0a2247556ae0de4",
-  "new_source_count": 6,
+  "baseline_commit": "a59dcdb66c96ab8275b4a68b41ac463617b21b49",
+  "new_source_count": 4,
   "scope": {
-    "population": "全国公布统计口径",
+    "population": "全国公布统计口径（继承）；扬州2024单年年龄标签/分娩口径（新增），无可比地方下降序列",
     "local_scenario": "扬州医疗机构就业市场R；研究设定，非用户声明",
     "cohort": "2027五年本科约2032；假设随后三年住培约2035；2037观察",
     "excluded": [
@@ -14,7 +14,8 @@
       "旧412受限资源重新获取",
       "广东实例外推扬州",
       "未来儿童总量或岗位数量预测"
-    ]
+    ],
+    "local_calibration": "扬州服务组织、一般财政人事支持及麻醉评估流程的第一方报告；非儿科净招聘或A已满足"
   },
   "sources": [
     {
@@ -235,6 +236,184 @@
         "联盟年转运未给具体年度/全部目的地；不等全到广妇儿",
         "无集中度时间序列、岗位增量或扬州校正；非全国儿科诊疗/医师/床位序列"
       ]
+    },
+    {
+      "source_id": "YZ-D24",
+      "title": "2024年度扬州市儿童健康状况数据发布",
+      "publisher": "江苏省人民政府网；正文来源：扬州市政府办公室",
+      "url": "https://www.jiangsu.gov.cn/art/2025/6/3/art_84324_11579328.html",
+      "publication_date": "2025-06-03",
+      "scope": {
+        "statistics_year": 2024,
+        "reference_time": null,
+        "geography": "扬州市全市；视力筛查中学生子项为市直",
+        "age_labels": [
+          "3岁以下",
+          "7岁以下",
+          "0~6岁（孤独症项目）"
+        ],
+        "resident_or_registered_or_managed": null,
+        "denominator_definition": null,
+        "birth_measure": "全市共分娩新生儿；不是已核常住人口出生"
+      },
+      "original_locators": "正文第1—6段；人口及基层门诊第2段，专项服务第4—6段",
+      "supports": [
+        "2024全市3岁以下4.7万余、7岁以下14.7万余；共分娩新生儿1.5万余、同期增约7.1%",
+        "基层儿童保健门诊84个；早期发展基地；筛查/诊断/康复闭环实际组织与项目使用",
+        "协助27名苯丙酮尿症患儿申请医保报销及另行补助27名患儿的窄项目报告"
+      ],
+      "limits": [
+        "未明确年末/年中时点、常住/户籍/管理对象、流动儿童纳入或去重",
+        "7岁以下不等全儿科接诊范围；不能据全国0—15岁标签替换",
+        "分娩新生儿未明确定义机构归属和母亲常住地，不作常住出生或自然增长",
+        "原文为同期增约7.1%，不改写成已核同口径常住出生同比",
+        "84、8、81不能机械相加；等级可能重叠，正文未解释",
+        "筛查/管理使用不是疾病诊疗量或新付费工时，无儿科净岗位与长效儿科支付"
+      ],
+      "retrieved_on": "2026-11-08",
+      "saved_representation_locators": [
+        "L11–L21"
+      ],
+      "controlled_evidence": {
+        "id": "YZ-D24-body",
+        "sha256": "b4cf9243da136c641523a0989712d9f9a9f0719759d89999d94930d989646adc",
+        "bytes": 3084,
+        "representation": "Exa clean Markdown conversion of first-party URL body; not raw HTML, PDF or fresh HTTP bytes",
+        "excerpt_id": "YZ-D24-excerpts",
+        "excerpt_sha256": "edc482c7fe222bfc045618b18beecb8e9cbc440487c9df61ef8b3f45df3bae37"
+      },
+      "verification": "Current author personally read the fixed body or complete Yangzhou key segments and checked local hashes; self-check, not independent review. Collector retrieval was on 2026-11-08; no fresh origin HTTP verification.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null
+    },
+    {
+      "source_id": "YZ-S25",
+      "title": "国家卫生健康委员会2025年11月13日新闻发布会文字实录",
+      "publisher": "国家卫生健康委员会宣传司；扬州事实为市长郑海涛发言",
+      "url": "https://www.nhc.gov.cn/xcs/c100122/202511/277253b337dd41b4b2dd4d98ad92c023.shtml",
+      "publication_date": "2025-11-13",
+      "scope": {
+        "geography": "扬州市发言段；省级及苏州/南京/滨海发言不外推扬州",
+        "time": "截至2025-11-13发言；含2024年度、十四五以来、2023年以来、2025前三季度各自口径",
+        "ages": "扬州基层/医院指标一般为全人群，只有20所重点卫生院可提供儿科这一服务标签明确",
+        "institution_set": "20家重点中心乡镇卫生院、10个紧密型医联体、全市公立医疗机构等，不同分母分列"
+      },
+      "original_locators": "郑海涛答扬子晚报、中国网、扬州日报记者",
+      "supports": [
+        "20家重点中心乡镇卫生院均能提供儿科/急诊/康复；不是20家新增医院或新儿科岗位",
+        "10个紧密型医联体、基层全部纳入，牵头医院派驻至少1名/重点卫生院3名主治以上医师；县管乡用和岗位固定人员流动",
+        "2024基层诊疗量占64.8%、较示范前增7.7个百分点；2025前三季度医保异地转诊住院同比降8.1%，均非儿科专属",
+        "扬州公立医院财政投入、财政补助收入、1+N薪酬与500编制周转池/18294编制和备案制的报告",
+        "苏北人民医院日间手术管理中心集中入院检查麻醉评估，术前必要检查纳入住院报销的组织报告"
+      ],
+      "limits": [
+        "发言报告，不等独立审计/预算决算/实际雇佣台账",
+        "派驻者不是全部儿科医师；未明确新增人数、派驻时长、全职当量或是否取代招聘",
+        "全人群基层占比/异地住院下降不能改写儿科诊疗增长、儿童外来净转诊增长或区域集中度趋势",
+        "累计投入150亿与2023以来45亿不相加；财政补助收入不是儿科专项可支配工资",
+        "500为周转池、18294为编制及备案总数，不是当年空缺、新人录用或2035接续",
+        "2300多为累计定向培养输送医学人才，不是普通儿科/麻醉应届入口",
+        "日间手术及麻醉评估不提供年龄结构、麻醉工时/岗位/持续预算，不能满足A全部条件"
+      ],
+      "retrieved_on": "2026-11-08",
+      "saved_representation_locators": [
+        "L69–L83",
+        "L165–L179",
+        "L219–L229"
+      ],
+      "controlled_evidence": {
+        "id": "YZ-S25-body",
+        "sha256": "3614bae953367ea03bb046909b9c4ccacc35c316f7e47d425bdfdf0792bf7db8",
+        "bytes": 33134,
+        "representation": "Exa clean Markdown conversion of first-party URL body; not raw HTML, PDF or fresh HTTP bytes",
+        "excerpt_id": "YZ-S25-excerpts",
+        "excerpt_sha256": "8b1bb211bda42d74062d079368bb24636b57154dae862884cd30a2da10ff173a"
+      },
+      "verification": "Current author personally read the fixed body or complete Yangzhou key segments and checked local hashes; self-check, not independent review. Collector retrieval was on 2026-11-08; no fresh origin HTTP verification.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "date_resolution": "正文发布时间与会议时间均2025-11-13；Exa前置Published为11-14，保留差异，以正文标注为发布日。"
+    },
+    {
+      "source_id": "YZ-HF",
+      "title": "医院概况：扬州市妇女儿童医院",
+      "publisher": "扬州市妇女儿童医院（扬州市妇幼保健院）",
+      "url": "https://www.yzfybj.com/Home/about",
+      "publication_date": null,
+      "scope": {
+        "geography": "院方称承担扬州及周边地区；非全市服务总量",
+        "time": "无发布日期；2024年业务指标有年度，现有职工/床位的时点未知",
+        "age": "妇女与儿童综合全院数字，不是儿科年龄专属"
+      },
+      "original_locators": "医院简介第1—5段",
+      "supports": [
+        "儿童医院/妇幼等合并的三级甲等机构及扬州周边服务职能",
+        "A地块2024年11月全面投入使用；页面设置床位500、实际开放380",
+        "2024全院门急诊51.35万人次、出院1.78万人次、手术7604台次；全院现有804职工",
+        "危重新生儿/儿童保健等区域中心与儿科联盟、苏北紧密医疗集团枢纽"
+      ],
+      "limits": [
+        "全院包括妇产及其他科，不能把全院手术/门诊/床位/职工记为儿科或麻醉",
+        "设置/开放不同，页面无现有值的确切时点或历史同口径对照",
+        "周边服务职能及合作协议不等实际外来病例份额或净转诊增量",
+        "教学/实习及合作不等住培/正式新人接收资格和数量",
+        "补充材料1，针对实际机构、已用容量与任务边界；不触发招聘/课程采集"
+      ],
+      "retrieved_on": "2026-11-08",
+      "saved_representation_locators": [
+        "L25–L33"
+      ],
+      "controlled_evidence": {
+        "id": "YZ-HF-body",
+        "sha256": "fb117aa88801136f8d873ab720c3de2667ea25f81e6bddf59b0a06114f84e85b",
+        "bytes": 4112,
+        "representation": "Exa clean Markdown conversion of first-party URL body; not raw HTML, PDF or fresh HTTP bytes",
+        "excerpt_id": "YZ-HF-excerpts",
+        "excerpt_sha256": "19039d6302375dc6504ddffa5853f54aba59dd06eaeb672a1bf03676a7fff443"
+      },
+      "verification": "Current author personally read the fixed body or complete Yangzhou key segments and checked local hashes; self-check, not independent review. Collector retrieval was on 2026-11-08; no fresh origin HTTP verification.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null
+    },
+    {
+      "source_id": "YZ-HA",
+      "title": "扬州大学附属医院官网儿内科介绍（所在专家页）",
+      "publisher": "扬州大学附属医院（扬州市第一人民医院）",
+      "url": "https://yangzhouyiyuan.com/expertInfo/65",
+      "publication_date": null,
+      "scope": {
+        "geography": "院内儿内科/儿童医学中心；不等扬州全市",
+        "time": "2023区域中心认定有年份；现有床位与年门急诊/出院指标没有统计年度或更新时间",
+        "age": "称儿童，未给儿科接诊年龄上限"
+      },
+      "original_locators": "儿内科栏三段",
+      "supports": [
+        "2023评为扬州儿科区域医疗中心，院方自述国家级住培基地",
+        "页面称开放132床、年门急诊约40万人次、年出院6000余；未注明统计年度",
+        "PICU、发育行为/儿保及多专科；亚专科/夜间/MDT门诊服务结构"
+      ],
+      "limits": [
+        "无统计年度，不可当2024或2025实绩，不是同比序列",
+        "年门急诊为人次不是独立儿童人数、净新增使用或收入",
+        "132床不是净增床位，不与全院或其他医院机械加总",
+        "住培基地称谓不证明2027招生/2032培训/2035正式岗位",
+        "补充材料2，针对儿科实际任务结构与使用量口径；不扩招聘/课程"
+      ],
+      "retrieved_on": "2026-11-08",
+      "saved_representation_locators": [
+        "L24–L28"
+      ],
+      "controlled_evidence": {
+        "id": "YZ-HA-body",
+        "sha256": "206b4e30a0fc3f914f7a3d81626edbe5a86adb4e06d093eb5bdc0e402e3544de",
+        "bytes": 2304,
+        "representation": "Exa clean Markdown conversion of first-party URL body; not raw HTML, PDF or fresh HTTP bytes",
+        "excerpt_id": "YZ-HA-excerpts",
+        "excerpt_sha256": "1f78cbbcd00137ea88fe5472abae57bc4e4e52e83fe59c6a67c840e5ac2ebd0e"
+      },
+      "verification": "Current author personally read the fixed body or complete Yangzhou key segments and checked local hashes; self-check, not independent review. Collector retrieval was on 2026-11-08; no fresh origin HTTP verification.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null
     }
   ],
   "inherited_repository_evidence": [
@@ -275,11 +454,53 @@
       ]
     }
   ],
-  "publication_boundary": "Only this sanitized index, claims, study and necessary navigation are publishable. Source bodies, excerpts, complete tool results and internal work records remain controlled; evidence IDs and hashes do not establish authenticity, freshness or universal access.",
+  "publication_boundary": "This local revision has no publication authorization. Only the sanitized index, claims, study and necessary navigation are candidate research changes. Source bodies, excerpts, complete tool results and internal work records remain controlled; evidence IDs and hashes do not establish authenticity, freshness or universal access.",
   "known_gaps": [
-    "扬州年龄结构、迁移、年龄别诊疗与外来转诊净量",
-    "全国及扬州同口径儿科医师/床位存量变化",
-    "实际持续支付与预算、新人接续和申请供给",
-    "本轮未新核麻醉或手术量；未测未来净岗位或录用概率"
-  ]
+    "扬州同口径儿童年度序列、居民/户籍/管理对象和精确统计时点；2021原件未取得，2025约13万线索未核，均不作为事实",
+    "年龄别使用强度、儿童外来净转诊和儿科医师/床位存量变化；全人群与全院指标不替代",
+    "扬州已有一般财政、人事和服务网络报告；儿科专属持续支付、现有人员调整后的新人接续仍未知",
+    "日间手术麻醉评估与检查报销仅是流程支点；跨年龄麻醉实际工时、持续科室预算、匹配带教/正式入口仍未核",
+    "旧来源仅继承既有核验历史；旧412资源未重新获取，未测未来净岗位或录用概率"
+  ],
+  "inherited_primary_source_count": 6,
+  "indexed_primary_source_count": 10,
+  "revision_history": [
+    {
+      "revision": "national-cohort-and-supply-reordering",
+      "adopted_input_commit": "a59dcdb66c96ab8275b4a68b41ac463617b21b49",
+      "baseline_commit": "39a1d0414ad4b60be586a128a0a2247556ae0de4",
+      "new_source_count": 6,
+      "verification_scope": "The original six source records and B-PA retain prior verification statements and retrieval history; those statements describe the previous author run, not new verification in this round."
+    },
+    {
+      "revision": "yangzhou-local-calibration",
+      "baseline_commit": "a59dcdb66c96ab8275b4a68b41ac463617b21b49",
+      "new_source_count": 4,
+      "new_source_ids": [
+        "YZ-D24",
+        "YZ-S25",
+        "YZ-HF",
+        "YZ-HA"
+      ],
+      "inherited_source_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "P01",
+        "P02",
+        "R01",
+        "B-PA"
+      ],
+      "verification_scope": "Current author read the four fixed first-party text representations or complete key segments and verified collection hashes. No current original-source read or new retrieval of inherited sources; no fresh origin access."
+    }
+  ],
+  "current_input": {
+    "commit": "a59dcdb66c96ab8275b4a68b41ac463617b21b49",
+    "source_index_sha256": "ff2134278e1d27d3a0b110a4d80dd585faa5a5d8f94f0fadc4799f3ad044a41c",
+    "collection_evidence_id": "YZ-COLLECTION-20261108",
+    "collection_manifest_sha256": "d6bd0c485291b075d06db60b0c5bbc6a5124956e16462fba2dde9459c5bfb44c",
+    "comparison_card_sha256": "0bfd226117b11604ee8df4c1222c2a8dbeb50e14d04559947b541c216e343c35",
+    "comparison_index_sha256": "1328e57867f1c4b50d40343841046f733567dcdd6b4dcf45472cc0f4ccd1ac89",
+    "note": "B-PA preserves the earlier evidence-chain input, not the immediate baseline for this revision."
+  }
 }
