@@ -90,6 +90,8 @@ AI 应用、数据与算法入口见[AI 与数据职业路径](ai-data-careers.m
 
 低空经济研发、作业与准入见[无人机职业路径](low-altitude-careers.md)。
 
+飞机、发动机和航天制造见[航空航天与电磁弹射本科比较](../industry/aerospace-undergraduate-2037-choices.md)：上飞装备本科工装／工艺同时接收机械与飞行器制造，航天厂电子装联本科入口不代表所有工艺或电机／控制研发岗。电磁方向比较电气、自动化的实际训练与民用迁移条件，不把飞行器动力等同电驱，也不凭产业进展生成录取名单。
+
 储能与氢能的专业及岗位入口见[储能氢能职业路径](storage-hydrogen-careers.md)。
 
 视觉、交互与数字内容入口见[数字创意职业路径](digital-creative-careers.md)。
