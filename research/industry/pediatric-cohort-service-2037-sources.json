@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "topic": "儿童队列下降、政策覆盖与既有医生重排对儿科—麻醉当前条件顺序的影响",
+  "updated_on": "2026-11-08",
+  "baseline_commit": "39a1d0414ad4b60be586a128a0a2247556ae0de4",
+  "new_source_count": 6,
+  "scope": {
+    "population": "全国公布统计口径",
+    "local_scenario": "扬州医疗机构就业市场R；研究设定，非用户声明",
+    "cohort": "2027五年本科约2032；假设随后三年住培约2035；2037观察",
+    "excluded": [
+      "2026招生采集",
+      "新学校/招聘/课程",
+      "旧412受限资源重新获取",
+      "广东实例外推扬州",
+      "未来儿童总量或岗位数量预测"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "D01",
+      "title": "中华人民共和国2016年国民经济和社会发展统计公报",
+      "publisher": "国家统计局",
+      "publication_date": "2017-02-28",
+      "document_date": "2017-02-28",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "retrieved_on": "2026-11-08",
+      "scope": "全国大陆，2016年度出生/年末0—15及0—14岁",
+      "original_locators": "一、综合/表1/注[1][6]",
+      "saved_representation_locators": [
+        "L25",
+        "L65–L69",
+        "L1975",
+        "L1985"
+      ],
+      "controlled_evidence": {
+        "id": "PC-D01-body",
+        "sha256": "f180c5226d626c2099ca4bf4db00edc52ad1a8d342cece780b78fd86b74ee36a",
+        "bytes": 103238,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-D01-excerpts",
+        "excerpt_sha256": "0960679bd9a6166671975fe9e068a84fd35ee72dad40ae3d75edadaf98c5f0e7"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "2016公布出生1786万、年末0—15岁24438万；0—14岁23008万用于防口径混淆",
+        "原公报注[1]初步统计数"
+      ],
+      "limits": [
+        "当时公布版本；未与后来回溯修订序列对齐",
+        "只作较大出生队列历史锚点，不计算2016—2025精确同版本降幅"
+      ]
+    },
+    {
+      "source_id": "D02",
+      "title": "中华人民共和国2025年国民经济和社会发展统计公报",
+      "publisher": "国家统计局",
+      "publication_date": "2026-02-28",
+      "document_date": "2026-02-28",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html",
+      "retrieved_on": "2026-11-08",
+      "scope": "全国大陆，2025年度出生/年末0—15及0—14岁",
+      "original_locators": "一、综合/表1/注[1][5][6]",
+      "saved_representation_locators": [
+        "L23",
+        "L63–L67",
+        "L1907",
+        "L1915–L1917"
+      ],
+      "controlled_evidence": {
+        "id": "PC-D02-body",
+        "sha256": "d30b36e83878965902e51c33a0a82a41b03b91a7ed9308de2812a43434137df4",
+        "bytes": 124523,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-D02-excerpts",
+        "excerpt_sha256": "6b108683931572a4b37011e44569ff91aad4004c9eec178129011953fff4da5c"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "2025出生792万、年末0—15岁23015万；0—14岁21276万用于防口径混淆",
+        "全国人口定义与初步数限定"
+      ],
+      "limits": [
+        "0—15岁不是儿科统一年龄；出生与存量不等诊疗量",
+        "公布数，不是未来预测或扬州数据"
+      ]
+    },
+    {
+      "source_id": "D03",
+      "title": "王萍萍：人口总量保持增长 城镇化水平稳步提升",
+      "publisher": "国家统计局",
+      "publication_date": null,
+      "document_date": null,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202201/t20220118_1826609.html",
+      "retrieved_on": "2026-11-08",
+      "scope": "全国，2021年度出生及年末0—15岁，含2020比较差值",
+      "original_locators": "一/二",
+      "saved_representation_locators": [
+        "L12",
+        "L20"
+      ],
+      "controlled_evidence": {
+        "id": "PC-D03-body",
+        "sha256": "d9a12297a44368856103fae9547617a53b8dc1caeaa3cbcf381822caf3032791",
+        "bytes": 3700,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-D03-excerpts",
+        "excerpt_sha256": "95ca2007c9c7d35caf0e2ed25249dce2d6910e2e2d6b155768a3465189906a05"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "2021出生1062万、年末0—15岁26302万；各比2020减少140万、528万",
+        "由差值反算该文隐含2020比较基数为1202万、26830万，仅为作者算术"
+      ],
+      "limits": [
+        "保存表示未显示发布日期，URL含日期不据此填日期",
+        "2020反算不是普查时点数；未核完整回溯修订链，不把2016到2021存量差称真实自然增长"
+      ]
+    },
+    {
+      "source_id": "P01",
+      "title": "关于实施2025年卫生健康系统为民服务实事项目的通知",
+      "publisher": "国家卫生健康委、国家中医药局、国家疾控局",
+      "publication_date": "2025-02-13",
+      "document_date": "2025-02-13",
+      "url": "https://www.nhc.gov.cn/bgt/c100023/202502/e730c90e23a24e419bc0509632f62bad.shtml",
+      "retrieved_on": "2026-11-08",
+      "scope": "全国，2025年二三级公立综合医院覆盖目标，非实际支付/岗位",
+      "original_locators": "二（一）措施1—3；三（二）",
+      "saved_representation_locators": [
+        "L23–L29",
+        "L79"
+      ],
+      "controlled_evidence": {
+        "id": "PC-P01-body",
+        "sha256": "c9bf067eea2e7f68fd198541a18cc4e7be11eacec1e652066228d209bd303a3d",
+        "bytes": 15437,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-P01-excerpts",
+        "excerpt_sha256": "e9a6e0a8c186abd7e259621edc93a1184e31551292af3f64edbad873584097a1"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "2025二三级公立综合医院儿科覆盖目标及人员、设备、门急诊/病房工具",
+        "下沉、对口帮扶、远程协作与有条件全科/内科医师转岗",
+        "薪酬分配改革和统筹政策、资金等一般保障要求"
+      ],
+      "limits": [
+        "目标与组织工具，不是完成数、专项到账或新人净岗位",
+        "转岗须考核、符合条件并按规定增加执业范围，不自动跨科",
+        "独立新文件，不是恢复旧412受限来源"
+      ]
+    },
+    {
+      "source_id": "P02",
+      "title": "关于实施2026年卫生健康系统为民服务实事项目的通知",
+      "publisher": "国家卫生健康委、国家中医药局、国家疾控局",
+      "publication_date": "2026-02-10",
+      "document_date": "2026-02-05",
+      "url": "https://www.nhc.gov.cn/bgt/c100023/202602/73b8afd52eff4be4980ac5431cefa190.shtml",
+      "retrieved_on": "2026-11-08",
+      "scope": "全国，2026年11月底基层机构服务新增覆盖目标，非完成数",
+      "original_locators": "一（一）措施1—2；二（二）",
+      "saved_representation_locators": [
+        "L19–L23",
+        "L87–L91"
+      ],
+      "controlled_evidence": {
+        "id": "PC-P02-body",
+        "sha256": "bd48418f5dcf50a4f3dc47dbc71c63138fb45259864a66c4035f5cabe896591d",
+        "bytes": 15092,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-P02-excerpts",
+        "excerpt_sha256": "b81f84793cea2a7bbfca985952230d90c6050fe5f02b0a206691261b3cd24f18"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "到2026年11月底新增1000家乡镇卫生院/社区中心提供儿童常见病、多发病诊疗的覆盖目标",
+        "已提供机构扩服务，相关人员培训/进修及二三级医生下沉派驻",
+        "一般资源统筹、医疗、医保、医药协同与长效机制要求"
+      ],
+      "limits": [
+        "1000不是新建机构、医生或招聘人数；2026-11-08尚未到目标期限",
+        "未取得执行验收、儿科专项预算或实际结算",
+        "独立新文件，不是恢复旧412受限来源"
+      ]
+    },
+    {
+      "source_id": "R01",
+      "title": "国家卫生健康委员会2025年7月18日新闻发布会文字实录",
+      "publisher": "国家卫生健康委宣传司",
+      "publication_date": "2025-07-18",
+      "document_date": "2025-07-18",
+      "url": "https://www.nhc.gov.cn/xcs/c100122/202507/4819417642d4432fb9f227e1e10ca616.shtml",
+      "retrieved_on": "2026-11-08",
+      "scope": "2025年中国供给横截面；广州增城/广妇儿及转运联盟局部服务实情",
+      "original_locators": "李大川首答/儿科体系答；余纳季节服务/区域中心答",
+      "saved_representation_locators": [
+        "L39",
+        "L47",
+        "L89",
+        "L97"
+      ],
+      "controlled_evidence": {
+        "id": "PC-R01-body",
+        "sha256": "ed2de95b0dfe5cd196e5e39d65a86e82feb884c48126aa0e936a6ce8dafde7c8",
+        "bytes": 26036,
+        "representation": "Exa clean Markdown conversion of official source body; not raw HTML/PDF/HTTP bytes",
+        "excerpt_id": "PC-R01-excerpts",
+        "excerpt_sha256": "17e729299e510903324031c530e045cb559b4e786366ca4b351328c32e42b564"
+      },
+      "verification": "Author personally read saved body or key source excerpts; package hashes verified. No fresh network retrieval by author.",
+      "fresh_origin_http_status": null,
+      "original_crawl_time": null,
+      "supports": [
+        "截至2025年6月底1877所三级、2936所二级公立综合医院能够提供儿科",
+        "近8000家综合医院、98%县医院、超过80%基层机构为不同分母横截面",
+        "增城预留20%号源、基层首诊/疑难上转，上半年480余人次；跨区联盟年转运1000余人次",
+        "可及性与分层转诊/复杂服务有现实组织支点"
+      ],
+      "limits": [
+        "来源为发布会发言者报告，不等独立审计",
+        "覆盖分母不同，不能合计、相除或视为净增",
+        "33%较前增量缺基期，不用于同比或全国趋势",
+        "联盟年转运未给具体年度/全部目的地；不等全到广妇儿",
+        "无集中度时间序列、岗位增量或扬州校正；非全国儿科诊疗/医师/床位序列"
+      ]
+    }
+  ],
+  "inherited_repository_evidence": [
+    {
+      "source_id": "B-PA",
+      "title": "固定儿科—麻醉比较卡及既有脱敏来源索引",
+      "repository_paths": [
+        "research/admissions/jiangsu-pediatric-anesthesia-2037-choices.md",
+        "research/admissions/jiangsu-pediatric-anesthesia-2037-sources.json"
+      ],
+      "commit": "39a1d0414ad4b60be586a128a0a2247556ae0de4",
+      "input_card_sha256": "183d8b2b6b7d5c52345eaa57716fdc840eef268f7a84f75841b2a5bb9b33ab83",
+      "input_index_sha256": "aefb2045fbfa707e5db881100d0989e5616d0011fb358d195d1fea093fdfae83",
+      "referenced_source_ids": [
+        "TRN-GDMU-PED",
+        "TRN-GDMU-ANE",
+        "TRN-SB-2026",
+        "SB-2026-ANN",
+        "SB-2026-POSTS",
+        "SB-2026-GUIDE",
+        "PA-POLICY-ANES-02"
+      ],
+      "locators": [
+        "比较卡一：旧五显示成员与机会/偏好/整组三账",
+        "比较卡二：两方向五年本科及资格分账",
+        "比较卡三：住培与正式岗位、同等对待限制",
+        "比较卡四：80岁以上麻醉价格说明的窄支持"
+      ],
+      "supports": [
+        "仅继承既有历史招生、培养、资格/训练和招聘条件",
+        "麻醉跨年龄任务与高龄麻醉价格识别的机制支点，不证明未来用工"
+      ],
+      "limits": [
+        "本轮只读固定仓库文本，未重新取回旧原件；旧核对日2026-11-03",
+        "原件表示及受控哈希详见原索引，不提升核验层级",
+        "3/15为训练名额，单表无儿科行不是零岗位",
+        "旧412来源仍未读，不作为任何本轮新事实依据"
+      ]
+    }
+  ],
+  "publication_boundary": "Only this sanitized index, claims, study and necessary navigation are publishable. Source bodies, excerpts, complete tool results and internal work records remain controlled; evidence IDs and hashes do not establish authenticity, freshness or universal access.",
+  "known_gaps": [
+    "扬州年龄结构、迁移、年龄别诊疗与外来转诊净量",
+    "全国及扬州同口径儿科医师/床位存量变化",
+    "实际持续支付与预算、新人接续和申请供给",
+    "本轮未新核麻醉或手术量；未测未来净岗位或录用概率"
+  ]
+}
