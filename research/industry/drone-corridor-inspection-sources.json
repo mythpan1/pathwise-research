@@ -1,0 +1,201 @@
+{
+  "schema": "bounded-research-source-index/v1",
+  "issue": 418,
+  "research_date": "2026-11-08",
+  "base": "de0a5b35af4a1c74c73a82263a9e655e6907555f",
+  "notice": "Only sanitized source metadata and claim boundaries are shared. Original files, contact information and tool-return snapshots remain local; no source originals are included. Content hashes bind the fixed representation, not the publisher’s entire live site.",
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "云南电网物资有限公司／南方电网供应链统一服务平台",
+      "title": "云南电网有限责任公司2022—2024年输电专业服务类框招采购开标前澄清汇总回复",
+      "published_date": "2022-04-02",
+      "url": "https://www.bidding.csg.cn/zbhxrgs/1200307860.jhtml",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "云南；2022—2024框架采购",
+      "locator": "澄清项1、8、9、10、19及最后报价答复",
+      "supports": "单公里综合报价；全部规划航线飞行验证、委托方认可；数据处理配套软件持续可用。",
+      "limitations": "采购要求非履约；投标人问题引述附件低于亲见附件。完整成果阈值、跨期指标、返工费用未取得；不是江苏同R。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "9cfe38e447be946db8ef21bea8f73ab12eb734d6101032bf3e0e97277c75d818",
+          "bytes": 18618,
+          "original_bytes": false
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "publisher": "中国航空器拥有者及驾驶员协会；全国团体标准信息平台承载",
+      "title": "T/AOPA 0055—2023 架空输电线路使用多旋翼无人机三维激光建模及自动巡检全流程技术规范",
+      "published_date": "2023-12-19",
+      "url": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsOTgzOTU(eq)",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "团体技术标准；本稿仅取通道／树障相关流程",
+      "locator": "4.1.4.2.3–4.1.4.3（p6–7）；4.1.6–4.2.4（p8–11）；5.1.7.3、5.1.8.2、5.2、5.3.2、5.3.3.2、5.4.4、5.5.5（p12–16）",
+      "supports": "数据检查／解算、分类与危险点复核；点云纠偏／重采；合格点云用于航线；人工航线审核；照片不合格重执行。",
+      "limitations": "仅原站转换文本，未取得PDF原字节或图表视觉核验；页码为转换保留印刷页码。不是普遍强制法律，未核S01/S03引用；数值不移植为江苏合同；不证明返工主因、费用或工时。起草者与S01存在谱系交叠。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "45a4a461c498fe5d6da0cea64d10cabb950e15a01a14475dd83d9dcefb7d0dc3",
+          "bytes": 81606,
+          "original_bytes": false
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "publisher": "中煤招标平台；采购人上海大屯能源股份有限公司江苏分公司",
+      "title": "大屯电网无人机电力巡检建设项目【重新招标】CCTC11260310",
+      "published_date": "2026-04-14",
+      "url": "https://www.zmzb.com/cms/channel/ywgg1hw/58852.htm",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "江苏徐州沛县；系统建设采购",
+      "locator": "2.1采购范围、2.3交付期、2.5最高限价、3供应商资格、4获取文件",
+      "supports": "机巢、点云扫描重建、自主航线规划验证组合采购；系统集成商资格。",
+      "limitations": "截至2026-11-08未核履约；2026-11-30为要求验收日；限价非实付；不是持续成果服务合同。详细技术书需注册／资料审核／付费，未取得。",
+      "representations": [
+        {
+          "format": "original_html",
+          "sha256": "e473ba3ff453ac89e13e7e1fa514bb8f41ccd2263996eb04d77b56541a2eb7ba",
+          "bytes": 74268,
+          "original_bytes": true
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "publisher": "天津工业大学就业网；雇主中航通创新（天津）科技发展有限公司",
+      "title": "无人机调试飞手",
+      "published_date": "2026-05-15",
+      "url": "https://job.tiangong.edu.cn/correcruit/content/id/55001.html",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "天津；本科在学、专业不限",
+      "locator": "岗位头栏、专业要求、岗位职责1–5、岗位要求1–5",
+      "supports": "在学本科接收；航电集成、参数调试、整机工况测试、飞行测试数据记录／故障分析；需既有调试经验。",
+      "limitations": "合同类型未明，不认证实习；不是毕业全职、零经验、自动化专属或江苏输电接收；计划招聘不等录用。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "997f3d1f2ac6e2cc1fd8f94acc5ce1222c99b2f8efcb8935c4da4c7ef56d0b22",
+          "bytes": 1740,
+          "original_bytes": false
+        },
+        {
+          "format": "original_html",
+          "sha256": "924dbd39386f0d759712e3e6251e69cc799f4966972959c9681f729254f3abd6",
+          "bytes": 18643,
+          "original_bytes": true
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "publisher": "上海交通大学电子信息与电气工程学院本科教务办",
+      "title": "《倒立摆系统课程设计》AU325教学大纲",
+      "published_date": "2017-12-26",
+      "url": "https://bjwb.seiee.sjtu.edu.cn/bkjwb/info/13365.htm",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "上海交大自动化历史课程；内载大纲2014.7",
+      "locator": "基本信息、课程培养目标、实验和数据分析、教学方法、考核",
+      "supports": "控制建模／仿真／实物调试／参数整定；要求对照仿真与实测解释差异，含验证答辩和报告。",
+      "limitations": "仅转换正文，直取原HTML失败；课程设计非无人机机巢项目，不证明2027课程资源、学生实际取得或就业效果。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "012472d236a0e47b572a1f3f039fa10260d2d7eaeca113341927bf2e079abbe4",
+          "bytes": 5803,
+          "original_bytes": false
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "publisher": "武汉大学测绘学院",
+      "title": "测绘学院2020级测绘工程本科生赴英山县开展专业实习（二）",
+      "published_date": "2023-06-24",
+      "url": "https://www.sgg.whu.edu.cn/info/1365/5309.htm",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "湖北；2020级本科活动2023-06-19—22",
+      "locator": "正文第1、3、4及末段",
+      "supports": "工程建筑物踏勘、方案、轮换采集、点云初拼、教师质量反馈、缺失／问题数据补采。",
+      "limitations": "仅转换正文，原HTML403后未绕过；非输电净空；报道中后续校内处理是计划；不等未来所有学生必得训练或职业资格。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "544a76f4fc24df4b7ff8ad923ff5f70bfcbf7ee65d502c4363a0378d90b7331d",
+          "bytes": 2890,
+          "original_bytes": false
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "publisher": "山东科技大学测绘与空间信息学院；雇主山东海慧勘察测绘有限公司",
+      "title": "校园招聘（二十六）——山东海慧勘察测绘有限公司招聘简章",
+      "published_date": "2020-10-21",
+      "url": "https://gc.sdust.edu.cn/info/1032/2051.htm",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "山东威海／济南；历史招聘",
+      "locator": "原转换L153–170技术人员；L172–195内业数据处理；L197–206公司待遇",
+      "supports": "技术人员岗本科及以上；含质量监督、影像正确性和成果检查报告的内业数据处理岗明确硕士及以上。",
+      "limitations": "排除把本科总栏／另一岗移给QC岗；不证明所有质量岗须硕士。非江苏同R，招聘非录用；仅原站转换正文。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "ce759ba6f6a365c98c2f2113beb98daaa8b34c678b233737c826cc7c3121c92c",
+          "bytes": 13051,
+          "original_bytes": false
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "publisher": "交通运输部",
+      "title": "民用无人驾驶航空器运行安全管理规则（交通运输部令2024年第1号）",
+      "published_date": "2024-01-03",
+      "url": "https://xxgk.mot.gov.cn/jigou/fgs/202401/t20240103_3980642.html",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "2024-01-01公布文本；适用性依机型与运行类别核实",
+      "locator": "92.615运行控制；92.619持续适航／维修；92.633超视距",
+      "supports": "运行人承担运行控制及持续适航相应责任；相关人员训练／单位要求；超视距自动模式操控员须能随时超控。",
+      "limitations": "未完成截至研究日全部修订审查或未来预测；不证明某机巢批准、不规定空间成果验收、不授权本科新人独立维修。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "067d090d8423438eb44715c289e2ebabee3a25c0d2c0324cc04613f5a8c867f9",
+          "bytes": 124638,
+          "original_bytes": false
+        },
+        {
+          "format": "original_html",
+          "sha256": "85619beebd592308a32b86d2b1aa98aaf2fb277869e32534f7f8d37bb88c7775",
+          "bytes": 205468,
+          "original_bytes": true
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "publisher": "三峡大学就业平台；雇主北京数字绿土科技股份有限公司",
+      "title": "北京数字绿土2025届校园招聘“用点云探索地球”",
+      "published_date": "2024-09-13",
+      "url": "https://ctgu.91wllm.cn/campus/view/id/959465",
+      "accessed_date_utc": "2026-11-08",
+      "scope": "职位07标题北京／武汉；表格统一地域北京市海淀区",
+      "locator": "职位列表07及页面过期标记",
+      "supports": "数据处理工程师全职、本科、测绘类；过期日期2024-12-31。",
+      "limitations": "列表明确已过期；冻结详情页工具返回只有URL／总行数等定位，未保存可核职责正文，不采用无法定位的具体失败引文。不能补入未核QC职责；地区粒度不同照录。非江苏同R；其他大学相同岗位ID转载不算独立招聘。",
+      "representations": [
+        {
+          "format": "primary_site_converted_text",
+          "sha256": "57a891d5b74352f175de3f39fce39bc1afdaae0d055556e62dfd1b54eaa6b105",
+          "bytes": 2291,
+          "original_bytes": false
+        }
+      ]
+    }
+  ]
+}
