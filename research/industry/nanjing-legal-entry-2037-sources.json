@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/408",
+  "research_document": "nanjing-legal-entry-2037-choices.md",
+  "baseline_commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
+  "retrieved_on": "2026-11-08",
+  "source_handoff_sha256": "801c51fa6adb82aa00387805bcc37fda2a080d9b6cd002776fc8203f4e59675a",
+  "source_scope": "三项南京招聘加资格/实习/执业链四个主锚点，共六份转换正文；既有企业原岗、采购及高教背景仅复用固定研究。",
+  "privacy": "只提交来源定位、必要事实边界和哈希；不含联系人、电话、邮箱、个人资料、机器路径、完整回执或正文原件。",
+  "sources": [
+    {
+      "source_id": "L1",
+      "publisher": "安理律师事务所",
+      "title": "金秋启程 与你共绘职业新篇",
+      "published_on": "2026-10-13",
+      "location": "南｜京｜办｜公｜室：一、法务秘书；二、实习律师",
+      "used_for": "同一南京办公室区分秘书与实习律师工作包和筛选。",
+      "limitations": [
+        "不得跨办公室借用报酬、人数或带教。",
+        "知名法学院校未与扬大匹配核验；法考与驾驶优先表述须完整保留。",
+        "未核薪酬金额、实际录用、指导律师或登记。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://www.anlilaw.com/100030/3883",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "L1-anli-nanjing",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "a9564ddd04c254eeaa2c0ab431c459d355d6443f8b5f73ca5858d601a96f9116",
+      "receipt_sha256": "dff96f66127bf218b0d1f1e1a637ec633a02b9631d7c53b0f35f7b3fde3a017b",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "L2",
+      "publisher": "南京市律师协会；招聘发布单位为汇业（南京）律师事务所",
+      "title": "实习人员招聘详细信息",
+      "published_on": null,
+      "published_date_note": "详情未明发布日期；不将主页列表显示日当原岗发布日期。",
+      "valid_until": "2026-11-30",
+      "location": "招聘详细信息：学历、专业、工作经验、工作内容、工资支付",
+      "used_for": "具体本科层级法律辅助任务与招聘支付条件仍未闭合。",
+      "limitations": [
+        "原文学历为本科以上；未明应届身份，经验不限不等于已核应届录用。",
+        "工资面议；没有实际付款、法考与登记、合格带教余量证明。",
+        "有效期不是仍有空缺或2031续招保证。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://www.njslawyers.org/info/b2c6a77439924984b786c3c50b2c24db",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "L2-huiye-nanjing",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "af0be5da98eca6d20cf99bd99482536d7fdb9f0f6c78e02434bb2d679e71e9ff",
+      "receipt_sha256": "dff96f66127bf218b0d1f1e1a637ec633a02b9631d7c53b0f35f7b3fde3a017b",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "L3",
+      "publisher": "南京市律师协会；招聘发布单位为江苏共盈律师事务所",
+      "title": "实习人员（速招） 执业律师（高提成 无管理费）",
+      "published_on": null,
+      "published_date_note": "详情未明发布日期；不将主页列表显示日当原岗发布日期。",
+      "valid_until": "2026-12-31",
+      "location": "招聘详细信息：年龄、要求专业、学历、经验、工作内容、工资支付",
+      "used_for": "经验不限与年龄/A证条件并存；有案件研讨等训练任务意图。",
+      "limitations": [
+        "年龄原文25以上，要求专业栏原文通过国家司法考试A证；不适用于所有本科应届。",
+        "标题合列实习与执业，不拆成两个已核岗位数。",
+        "面议与高提成不构成实习底薪或实际支付证明；未核具名带教和登记。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://www.njslawyers.org/info/d74b70c6cd5c472b99b3b674754b7d26",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "L3-gongying-nanjing",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "123cb0feb7ee270095d86a5141e62fad01b6a17431a62509c7291d1d43541888",
+      "receipt_sha256": "dff96f66127bf218b0d1f1e1a637ec633a02b9631d7c53b0f35f7b3fde3a017b",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "Q1",
+      "publisher": "中华全国律师协会",
+      "title": "申请律师执业人员实习管理规则",
+      "published_on": "2021-04-09",
+      "effective_on": "2021-05-01",
+      "location": "第2、4、5、7—13、15、19—23、29、33、37、45、49条",
+      "used_for": "登记实习起算、接收与指导、报酬保障、训练和考核边界。",
+      "limitations": [
+        "行业规范要求不等于样本雇主已履行。",
+        "指导人数限制仅适用于规则下实习，不得当所有普通助理数量限制。",
+        "未逐项核地方实施要求、个人资格与目标年适用版本。",
+        "集中培训是实习期间安排，不无依据在一年外另加一个月。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://www.acla.org.cn/info/1a19899a34c9496e9f3d7b04dad6b071",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "Q1-acla-internship-rule",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "d049418764c1a4ed2d26a63cf3ab55a01a64ca2d602c16a1ca5a032eb6a3c322",
+      "receipt_sha256": "d70a1958ca7457670996f43bf30714b475d0fd4175897c9096a4342164d23b2b",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "Q2",
+      "publisher": "司法部行政复议与应诉平台",
+      "title": "中华人民共和国律师法",
+      "published_on": "2021-01-06",
+      "text_version": "2017年修正文本",
+      "location": "第2、5、6、13、25条",
+      "used_for": "法律资格、实习、考核材料、接收、行政许可与执业证分开；律所统一接案收费。",
+      "limitations": [
+        "页面发布时间不是修法年份。",
+        "本文普通新生路径，不认定特殊资格或个人执业条件。",
+        "不保证2031适用规则不变。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://xzfy.moj.gov.cn/c/2021-01-06/487877.shtml",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "Q2-lawyer-law-moj",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "ff5688f192b7b99b8b25f25c15dd4414f61aa866b9b807d98b92641e109f14e3",
+      "receipt_sha256": "dac8f1c7994683bba3bb48daffa259e8c2063c0f6a321793a74aeea5cf58ee7d",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "Q3",
+      "publisher": "南京市司法局",
+      "title": "南京市司法局关于2026年国家统一法律职业资格考试有关事项的公告",
+      "published_on": "2026-06-07",
+      "location": "一（一）5、一（三）",
+      "used_for": "当地2026公布的法学本科及其他学历路径与应届定义。",
+      "limitations": [
+        "2027应届为毕业生，不是2027入学；不能预套2018前过渡。",
+        "报考条件、成绩、取得资格和雇主录用分开。",
+        "只核2026公布口径，不保证2031规则。"
+      ],
+      "source_type": "publisher_page_converted_text",
+      "url": "https://sfj.nanjing.gov.cn/njssfj/202606/t20260607_5853231.html",
+      "retrieved_on": "2026-11-08",
+      "evidence_id": "Q3-nanjing-legal-exam-2026",
+      "representation": "Exa返回的清洁Markdown正文表示；非源站原始HTML/PDF字节，不能证明动态字段或全部附件完整保全。",
+      "content_sha256": "fc4bbdc7465750ae8b2c89915844108eb0ea03b42187de35669d500c68fe2b7d",
+      "receipt_sha256": "d70a1958ca7457670996f43bf30714b475d0fd4175897c9096a4342164d23b2b",
+      "verification": "独立收集者取得转换正文；作者核读指定段落并核对本地正文与完整工具回执哈希。原始响应不上传。"
+    },
+    {
+      "source_id": "B01",
+      "source_type": "fixed_repository_reuse",
+      "publisher": "Pathwise Research",
+      "title": "同校相邻历史组：语文师范还是法学，连接南京2031入口与2037情景",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a5d39ef67a960d66dbc0b6b5e20b94de26a9b158/research/admissions/jiangsu-history-teacher-law-pair.md",
+      "repository_path": "research/admissions/jiangsu-history-teacher-law-pair.md",
+      "commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
+      "content_sha256": "2236984224a23a46c8137029ae73755c4cc41e193bd3bebe9cfaeaa9f6f0bcc1",
+      "location": "当前判断与研究设定；中间只核决定入口的事实；可执行的基准、反转及备选",
+      "used_for": "旧T/L的P0、L默认主比较及天华院南京本科混合法务实例",
+      "verification": "本轮只读固定研究正文；未重新核底层外部原件，不提高原核验等级",
+      "limitations": [
+        "已采用或既有审核不证明未来预测已验证。",
+        "原稿保留的来源表示、资格、地域及时间边界继续适用。"
+      ],
+      "content_sha256_scope": "固定commit的精确仓库文件字节；通过GitHub base64读取解码，并以Git blob SHA复核，未追加末尾换行。",
+      "git_blob_sha": "678a484cff4fde2ad7f4a35468abe30531b81fee"
+    },
+    {
+      "source_id": "B02",
+      "source_type": "fixed_repository_reuse",
+      "publisher": "Pathwise Research",
+      "title": "江苏历史类真实候选：同599分的法学与财会怎样取舍",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a5d39ef67a960d66dbc0b6b5e20b94de26a9b158/research/admissions/jiangsu-2025-history-law-accounting-pair.md",
+      "repository_path": "research/admissions/jiangsu-2025-history-law-accounting-pair.md",
+      "commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
+      "content_sha256": "41b61afda607ffb9ff5249ef1bffdb12298e6f155e9ba276dfbebf474858b88b",
+      "location": "本科入口与资格；南京岗位市场",
+      "used_for": "法考学历路径、南京资深团队采购、法律任务变化与转财会边界",
+      "verification": "本轮只读固定研究正文；未重新核底层外部原件，不提高原核验等级",
+      "limitations": [
+        "已采用或既有审核不证明未来预测已验证。",
+        "原稿保留的来源表示、资格、地域及时间边界继续适用。"
+      ],
+      "content_sha256_scope": "固定commit的精确仓库文件字节；通过GitHub base64读取解码，并以Git blob SHA复核，未追加末尾换行。",
+      "git_blob_sha": "70589867b1abe769c11cc651c3de7e120e923af1"
+    },
+    {
+      "source_id": "B03",
+      "source_type": "fixed_repository_reuse",
+      "publisher": "Pathwise Research",
+      "title": "高教供给结构重排：2031本科入口与后续读研怎样比较",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a5d39ef67a960d66dbc0b6b5e20b94de26a9b158/research/industry/higher-education-supply-entry-2037.md",
+      "repository_path": "research/industry/higher-education-supply-entry-2037.md",
+      "commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
+      "content_sha256": "c9f2e83cdaf6a637df3c42d8567c73df24c8b6eadfbf8d4523ec933d70d23ab4",
+      "location": "第一至四节",
+      "used_for": "全国高教供给背景及A/B1/B2深造分支",
+      "verification": "本轮只读固定研究正文；未重新核底层外部原件，不提高原核验等级",
+      "limitations": [
+        "已采用或既有审核不证明未来预测已验证。",
+        "原稿保留的来源表示、资格、地域及时间边界继续适用。"
+      ],
+      "content_sha256_scope": "固定commit的精确仓库文件字节；通过GitHub base64读取解码，并以Git blob SHA复核，未追加末尾换行。",
+      "git_blob_sha": "d0d70629f407ed0bb19fa2b28abae9755c11651b"
+    }
+  ],
+  "unresolved": [
+    "南京样本实际报酬/补助金额、支付及用工合同未核。",
+    "三家招聘对具体本科应届的完整接收、合格指导余量、实习登记与后续执业未核。",
+    "任务工时、工具采用、熟手覆盖变化及同岗供需未核。",
+    "未核任何硕士项目满足B1/B2。"
+  ],
+  "not_collected": [
+    "旧库CSV",
+    "2026招生数据",
+    "求职者个人资料"
+  ],
+  "not_actions": [
+    "未联系雇主或个人",
+    "作者未写GitHub、创建PR或发布审核"
+  ]
+}

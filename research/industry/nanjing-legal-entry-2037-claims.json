@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/408",
+  "baseline_commit": "a5d39ef67a960d66dbc0b6b5e20b94de26a9b158",
+  "research_document": "nanjing-legal-entry-2037-choices.md",
+  "source_index": "nanjing-legal-entry-2037-sources.json",
+  "scope": {
+    "region": "南京岗位所在地；非用户已选择地区",
+    "population": "江苏生源、2027入学法学本科候选，P0非用户画像",
+    "time": "若四年本科则2031；随后若三年硕士则2034；2037按实际任务观察"
+  },
+  "facts_inferences_recommendations_separated": true,
+  "claims": [
+    {
+      "claim_id": "C01",
+      "type": "recommendation",
+      "statement": "保留原P0下L默认第一、T条件第二；不赋予L稳定溢价。",
+      "section": "一；六",
+      "sources": [
+        "B01"
+      ],
+      "basis": "继承固定基线中全国教育峰后压力对原T/L的比较影响；本轮新法律锚点不证明L绝对改善。",
+      "assumptions": [
+        "P0任务接受与本科优先不变。",
+        "L仍有可接受的支付、新人接收与训练。"
+      ],
+      "strength": "有依据的默认规划顺序，不是压倒性胜负。",
+      "revision_signal": "L两入口共同失效；明确教学偏好或有力T接收组合成立。"
+    },
+    {
+      "claim_id": "C02",
+      "type": "recommendation",
+      "statement": "企业混合岗先核是旧P0的对齐顺序；同样接受、报酬任务反馈相当的律所助理放同一本科入口层。",
+      "section": "一；六",
+      "sources": [
+        "B01",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "assumptions": [
+        "具体工作包与报酬/反馈可比，而非仅学历或岗位名称相同。"
+      ],
+      "strength": "弱操作顺序；不构成企业或律所市场总优势。",
+      "revision_signal": "任务接受、真实接收与训练的相对组合改变。"
+    },
+    {
+      "claim_id": "C03",
+      "type": "source_fact",
+      "statement": "安理南京分列法务秘书和实习律师，两岗任务与要求不同；法考/驾驶为完整优先表述。",
+      "section": "二",
+      "sources": [
+        "L1"
+      ],
+      "locations": [
+        "南京办公室两岗"
+      ],
+      "limitations": [
+        "知名法学院校未与扬大核配。",
+        "未核薪酬、实际录用或实习登记；不跨城市借条件。"
+      ]
+    },
+    {
+      "claim_id": "C04",
+      "type": "source_fact",
+      "statement": "汇业和共盈有具体辅助/法律任务，但经验不限不消除应届未明、年龄或A证等条件，工资均面议。",
+      "section": "二",
+      "sources": [
+        "L2",
+        "L3"
+      ],
+      "locations": [
+        "招聘详情条件、工作内容及工资支付"
+      ],
+      "limitations": [
+        "未证明实际录用、付款或带教兑现；不作个人当前保底。",
+        "本轮只按招聘原文层级和条件表述，不作本人资格认定。"
+      ]
+    },
+    {
+      "claim_id": "C05",
+      "type": "source_fact",
+      "statement": "南京2026法考公告列全日制普通高校法学类本科及学位等路径，报考、取得资格、招聘录用分开。",
+      "section": "四第一段",
+      "sources": [
+        "Q3",
+        "B02"
+      ],
+      "locations": [
+        "Q3一（一）5、一（三）"
+      ],
+      "limitations": [
+        "2027应届指毕业生。",
+        "不预套2018前过渡或保证2031规则。"
+      ]
+    },
+    {
+      "claim_id": "C06",
+      "type": "source_fact",
+      "statement": "申请执业实习需规定资格、律所接收与登记，一年从实习证签发起算；指导资质与同时至多2人有独立条件。",
+      "section": "四第二段",
+      "sources": [
+        "Q1"
+      ],
+      "locations": [
+        "第4、5、7—13条"
+      ],
+      "limitations": [
+        "司法部另有规定从其规定；地方实施与个人完整条件另核。",
+        "不能以律所总律师数乘2估算容量，也不能限制所有普通助理人数。"
+      ]
+    },
+    {
+      "claim_id": "C07",
+      "type": "source_fact",
+      "statement": "实习协议须约定不低于所在地最低工资的劳动报酬或生活补助且不得转嫁；规则禁止收费/创收考核，规定集中培训和实务训练。",
+      "section": "四第三段",
+      "sources": [
+        "Q1"
+      ],
+      "locations": [
+        "第11、15、19—23、37条"
+      ],
+      "limitations": [
+        "规范义务不是实际支付与训练兑现。",
+        "未核南京金额，不判定具体待遇可承担；至少一月培训不是自动在一年之外累加。"
+      ]
+    },
+    {
+      "claim_id": "C08",
+      "type": "source_fact",
+      "statement": "实习期满须经相关考核、再申请行政许可；实习和普通助理不自行取得律师执业身份。",
+      "section": "四第四段",
+      "sources": [
+        "Q1",
+        "Q2"
+      ],
+      "locations": [
+        "Q1第23、29、33条；Q2第2、5、6、13条"
+      ],
+      "limitations": [
+        "普通新生路径，不替特殊资格或个人作认定。"
+      ]
+    },
+    {
+      "claim_id": "C09",
+      "type": "conditional_inference",
+      "statement": "内部法务与外部律所可承接相同客户任务，需求或采购可被熟手、合岗和外包消化，不直接增加本科新人。",
+      "section": "三",
+      "sources": [
+        "B01",
+        "B02",
+        "Q2"
+      ],
+      "assumptions": [
+        "客户可调整内部与外聘预算及任务分工。"
+      ],
+      "strength": "机制有原岗和采购支点；未测总体净就业。",
+      "revision_signal": "真实付费任务、招聘与带教持续扩张。"
+    },
+    {
+      "claim_id": "C10",
+      "type": "conditional_inference",
+      "statement": "工具若集中基础检索/初稿工时，新人学习台阶可能收缩；法律责任持续不保证本科岗位。",
+      "section": "三",
+      "sources": [
+        "B01",
+        "B02",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "assumptions": [
+        "工具可靠采用且改变熟手覆盖工时。",
+        "新增业务不一定完全吸收节约工时。"
+      ],
+      "strength": "明确前提的方向性风险，未证明南京已发生。",
+      "limitations": [
+        "未核AI使用、工时构成、因果裁员或净招聘。"
+      ],
+      "revision_signal": "采用工具后新增可付费任务和受监督新人训练抵消或超过基础工时压缩。"
+    },
+    {
+      "claim_id": "C11",
+      "type": "conditional_inference",
+      "statement": "高教供给会响应，合资格申请与带教可不同步；不能从全国增长推南京法学过剩，不能由近期少子化推2031竞争减压。",
+      "section": "五",
+      "sources": [
+        "B03",
+        "Q1",
+        "Q2"
+      ],
+      "assumptions": [
+        "相应培养队列最终完成并愿意申请同一工作包时才构成有效供给。",
+        "登记实习需合格指导和支付资源。"
+      ],
+      "strength": "供给非静态的制度/历史支持较强；具体南京挤出或带教短缺未证。",
+      "revision_signal": "同R同任务的申请者、学历认可、录用与带教变化。"
+    },
+    {
+      "claim_id": "C12",
+      "type": "recommendation",
+      "statement": "本科A、硕士B1硬门槛/B2难替代训练独立触发；学位不替代执业链。",
+      "section": "五",
+      "sources": [
+        "B03",
+        "Q1",
+        "Q2"
+      ],
+      "assumptions": [
+        "具体项目认可、训练匹配、兑现、进入完成与总成本成立。"
+      ],
+      "limitations": [
+        "未核特定硕士项目已满足B1/B2。",
+        "仅B2训练增量理由可因本科/可得工作训练等效而撤销，不能据此恢复B1硬资格。"
+      ]
+    },
+    {
+      "claim_id": "C13",
+      "type": "recommendation",
+      "statement": "2037按实际任务、监督反馈、资格与业务迁移比较，不按毕业年限自动计有效经验；两法律入口共同失效不自动转T或读研。",
+      "section": "五；六",
+      "sources": [
+        "B01",
+        "B02",
+        "B03",
+        "Q1"
+      ],
+      "assumptions": [
+        "同一P0与有限候选集合。"
+      ],
+      "revision_signal": "真实独立付款、接收和本人接受使另一方案成立。",
+      "limitations": [
+        "不预测晋升、工资或个人录用概率。"
+      ]
+    }
+  ],
+  "scope_impact": {
+    "admissions_group_count_change": 0,
+    "admissions_member_count_change": 0,
+    "old_findings_replaced": false,
+    "backlinks_only": [
+      "research/admissions/jiangsu-history-teacher-law-pair.md",
+      "research/admissions/education-career-bridge.md"
+    ]
+  },
+  "verification_note": "作者来源核读与自检不是独立审核；来源表示及实际履行限制见索引。"
+}
