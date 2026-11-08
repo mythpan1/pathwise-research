@@ -62,6 +62,8 @@
 
 医学检验技术与卫生检验与检疫的具名入口见[两种检验本科比较](jiangsu-lab-testing-choices.md)、[疾控分支](jiangsu-lab-cdc-branch.md)和[常熟临床本科补证](changshu-lab-undergraduate-entry.md)，网络分工见[县域检验专题](../industry/county-lab-network-2037-choices.md)。P企业分子／食品QC并列、C公共卫生卫检暂前置、L县域临床医检暂前置，各守研究假设。常熟为单地单检验所的本科可报与录用前公示支点，非南医输送或最终到岗、训练证明。
 
+医学检验技术与医学影像技术的同县域比较见[共享诊断服务与本科换序](../industry/county-diagnostics-lab-imaging-2037-choices.md)：在新增非用户P_D及假设江苏县域R中，比较样本上送后的检测／反馈，与患者现场采集及图像质量训练；窄基层检验对照下影技可弱前置，检验闭环兑现且影技入口／训练较弱时可反转。2027入学若四年则2031入口、2037观察；影技不是诊断医师，常熟与深圳只是各自历史支点，不是R或全省岗位，旧P/C/L不变。
+
 护理本科与专科、考试注册及岗位比较见[护理职业路径](nursing-careers.md)。
 
 口腔本科、专科与资格路径见[口腔医学职业路径](dentistry-careers.md)。
