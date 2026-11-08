@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "document": "aerospace-undergraduate-2037-choices.md",
+  "task_ref": "https://github.com/mythpan1/pathwise-research/issues/420",
+  "research_date": "2026-11-08",
+  "baseline_commit": "74c088181f08029d26d36df422f51cf0f322cc75",
+  "frozen_input_index_sha256": "39d59129d7c93f729ffcb86b52702e7ad9ffaaf799788c22b6cfbd4e4e427180",
+  "evidence_boundary": {
+    "source_kind": "原站工具可读表示或片段，非原始HTML/PDF响应字节；哈希仅绑定保存的表示。",
+    "author_check": "作者亲核正文使用的关键摘录及上下文；不是独立内容审核，也未重新访问原站。",
+    "public_payload": "仅必要来源信息、定位、表示哈希、使用限制与主张映射；不上传原始快照、完整工具返回、联系信息或运行日志。",
+    "negative_claims": "未核实或本批未取得只描述固定材料覆盖，不等于现实不存在。",
+    "school_scope": "新增校方页面仅作培养对照，不代表2027培养承诺、2025江苏招生桥或个人录取可行性。",
+    "military_scope": "仅公开用途、产业与教育就业；不提供系统设计、参数、操作或性能优化。"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "上海飞机制造有限公司：发展历程",
+      "url": "https://samc.comac.cc/gywm/fzlc/",
+      "publisher": "上海飞机制造有限公司",
+      "publication_date": null,
+      "accessed_at": "2026-11-08T11:50:51.868950+00:00",
+      "geographic_scope": "上海；民机制造",
+      "locator": "L78–140",
+      "limitations": "企业自述历史节点，非年度交付总表，不据此估算产能、订单兑现率或故障率。",
+      "representation": {
+        "controlled_evidence_id": "S01-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "ab2088aadd99e082754f7dc42cd91c966ae02dd747e994413de2f1b9e58f66dc",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F02"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "东北局完成2025年上半年中国商飞C919供应商沈飞民机审查",
+      "url": "https://www.caac.gov.cn/local/DBGLJ/DB_DQYW/202505/t20250509_227437.html",
+      "publisher": "中国民航局东北地区管理局",
+      "publication_date": "2025-04-23",
+      "accessed_at": "2026-11-08T11:50:43.005064+00:00",
+      "geographic_scope": "沈阳（外地供应商样本）；C919供应链",
+      "locator": "L21–29",
+      "limitations": "一个具名供应商的检查，不能外推全行业质量水平；不把沈阳岗位拼入长三角就业市场。",
+      "representation": {
+        "controlled_evidence_id": "S02-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "82e2005472668010707f9689e55fb8ec10cf9cf84c7e5ecef6eebb92be7e535f",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F04"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "民用航空产品和零部件合格审定规定（2024修正）",
+      "url": "https://xxgk.mot.gov.cn/gz/202403/t20240312_4053238.html",
+      "publisher": "交通运输部",
+      "publication_date": "2024-03-12",
+      "accessed_at": "2026-11-08T11:51:25.418074+00:00",
+      "geographic_scope": "全国民用航空产品/零部件",
+      "locator": "第21.131、21.135、21.137条；表示L942–1011",
+      "limitations": "保存条款可读片段，不是完整法规HTML/PDF字节；适用民用航空，不直接套用军品/航天。",
+      "representation": {
+        "controlled_evidence_id": "S03-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "3e5f50e4f48f62ca754c22074964f1b9fb98c6f496d12439ddd8d3393d889a1d",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F03"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "航空发动机适航规定（CCAR-33）",
+      "url": "https://xxgk.mot.gov.cn/gz/202112/t20211227_3633414.html",
+      "publisher": "交通运输部",
+      "publication_date": "2016-03-17",
+      "accessed_at": "2026-11-08T11:52:14.994300+00:00",
+      "geographic_scope": "全国民用航空发动机型号合格审定",
+      "locator": "第33.85、33.87、33.90、33.91、33.93条（补充片段见同源文件）",
+      "limitations": "最低法定持久试验不是研发总时长、寿命、放量速度或军用发动机周期；当前依据为交通部规章库现行有效栏目。2024审定AC附件超时，未假称已核PDF。",
+      "representation": {
+        "controlled_evidence_id": "S04-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "c379a7a496b7e1198e0a896eb9fb6aaa921588adbac80c02ab5b91238d95e2cd",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F06"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "我国首次成功实施重复使用运载火箭陆地回收",
+      "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c10768762/content.html",
+      "publisher": "国家航天局；来源署名蓝箭航天",
+      "publication_date": "2026-08-19",
+      "accessed_at": "2026-11-08T11:50:43.005064+00:00",
+      "geographic_scope": "具名商业火箭项目；发射/回收试验",
+      "locator": "L4–15",
+      "limitations": "可证明该次试验节点，不证明回收后重复使用次数、常态商业收入、单位成本或本科岗位增量；不采技术设计参数。",
+      "representation": {
+        "controlled_evidence_id": "S05-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "85302c4e564d5053dbdaedc53d0cb442e26098bed9939ee5d2cfc8f1c2d9c669",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F09"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "上海上飞飞机装备制造股份有限公司招聘简章",
+      "url": "https://zhjyb.zua.edu.cn/module/position_brief_detail/id-112596/nid-5121",
+      "publisher": "郑州航空工业管理学院就业网；招聘单位上飞装备",
+      "publication_date": "2026-05-26",
+      "accessed_at": "2026-11-08T11:50:51.868950+00:00",
+      "geographic_scope": "上海浦东；航空工装/部件",
+      "locator": "L60–108",
+      "limitations": "具名配套企业而非商飞主机厂；招聘广告不是录用结果，薪资不作为2031预测。",
+      "representation": {
+        "controlled_evidence_id": "S06-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "1b9c3b9fce40d8e778fade0c398a17e40d2bad4f31ab967f25d046b1e6b21fe1",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F05"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "中国航发轻动2023届校园招聘",
+      "url": "https://jjxy.hfut.edu.cn/2022/1026/c13070a285493/page.htm",
+      "publisher": "合肥工业大学经济学院；中国航发南京轻型航空动力有限公司",
+      "publication_date": "2022-10-31",
+      "accessed_at": "2026-11-08T11:54:01.291907+00:00",
+      "geographic_scope": "南京江宁及常州新北通讯地址，岗位未逐一分配城市",
+      "locator": "L65–90、L110–114",
+      "limitations": "历史学历分工样本，不是2026在招承诺；未列工艺岗逐项职责，不能从企业试车/修理业务直接推为本科岗位任务；地区不能强行只归南京。",
+      "representation": {
+        "controlled_evidence_id": "S07-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "57c1ffc857ca3fbbde8983d2f8e5568564bf3138bd8d659380b6cb977d4057c7",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F07",
+        "F08"
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "上海航天设备制造总厂2026届校园招聘（岗位更新）",
+      "url": "https://job.hust.edu.cn/zpinfo1/2381383.htm",
+      "publisher": "华中科技大学就业网；上海航天设备制造总厂有限公司",
+      "publication_date": "2026-02-27",
+      "accessed_at": "2026-11-08T11:54:01.291907+00:00",
+      "geographic_scope": "上海闵行（单位地址）；航天制造",
+      "locator": "L38–52；L74–84控制系统/电机设计师；L110–139工艺系列与电子装联/总体装配；L146–156机加工与力学试验；同页单位地址",
+      "limitations": "本科口径只对应列明电子装联岗位，不泛化所有工艺/试验岗；单位地址不等于每个项目实际驻地；广告包括军民多业务，本批不分析武器设计。 作者另核L74–84：控制系统、电机设计师要求博士/硕士；该单位与岗位不被认定为电磁弹射直接入口。",
+      "representation": {
+        "controlled_evidence_id": "S08-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "86115898efdadd32deb693bdbf07f03596aaf74d6a81e0655bf623f5c6f66d52",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F10",
+        "F14",
+        "F18"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "南京航空航天大学：一流专业——飞行器制造工程",
+      "url": "https://shpg.nuaa.edu.cn/2024/0508/c18900a338542/page.htm",
+      "publisher": "南京航空航天大学本科教育教学审核评估网站",
+      "publication_date": "2024-05-08",
+      "accessed_at": "2026-11-08T11:51:36.030509+00:00",
+      "geographic_scope": "南京；本科训练",
+      "locator": "L30–47，尤其L37具名实践、L40制造方向、L44培养组织",
+      "limitations": "学校建设介绍不是逐门学分培养方案；平台存在不等于每个本科生得到同等项目或就业机会；2027届方案需届时核。",
+      "representation": {
+        "controlled_evidence_id": "S09-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "24b499d6210102641de1fd3b55061b1a00ec0e390bab515911366f0a4666f6f4",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F15"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "南京航空航天大学：飞行器动力工程",
+      "url": "https://cepe.nuaa.edu.cn/2019/0912/c17629a176470/page.htm",
+      "publisher": "南京航空航天大学能源与动力学院",
+      "publication_date": "2023-05-31；页面标注2024-03更新",
+      "accessed_at": "2026-11-08T11:54:01.291907+00:00",
+      "geographic_scope": "南京；本科训练",
+      "locator": "L147–172、L200–204；另有Exa完整可读表示",
+      "limitations": "不能仅因专业名含动力就把电机/电力电子训练等同电气本科；为介绍而非当前完整学分表。",
+      "representation": {
+        "controlled_evidence_id": "S10-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "7d7ce466248fee377e5ce66f7097d96eb69e361cc0d1ddcd978825c5906a0bf1",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F17"
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "江苏大学：机械设计制造及其自动化专业介绍",
+      "url": "https://sme.ujs.edu.cn/bkjx/zyjs/jxsjzzjqzdh.htm",
+      "publisher": "江苏大学机械工程学院",
+      "publication_date": null,
+      "accessed_at": "2026-11-08T11:51:36.030509+00:00",
+      "geographic_scope": "镇江；本科训练",
+      "locator": "L104–105的Q3课程、Q8培养目标；不采用Q4/Q11无明确届别的统计",
+      "limitations": "页面无明确更新日，课程可作结构对照，不使用未注明届别的就业率/地区占比/评估名次作为当前事实；未核链接PDF。",
+      "representation": {
+        "controlled_evidence_id": "S11-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "b39f37c49536969c99dd993c60f158f53b69b9d26c4860b3a62c74eee9dca938",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F16"
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "福建舰入列授旗仪式（新华社现场图文）",
+      "url": "https://www.xinhuanet.com/photo/20251107/26185c6ddec04daa84cf49cc0745f244/c.html",
+      "publisher": "新华网/新华社现场图文",
+      "publication_date": "2025-11-07",
+      "accessed_at": "2026-11-08T11:53:50.805272+00:00",
+      "geographic_scope": "公开军事装备发展阶段；不作地区就业样本",
+      "locator": "L10–29",
+      "limitations": "仅确认公开用途与发展阶段，不提供系统设计、参数或训练操作；不从入列推设备数量、生产节奏、民用外溢或岗位增长。国防部原站读取超时，未将其搜索摘要升级为已核原文。",
+      "representation": {
+        "controlled_evidence_id": "S12-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "21b62d075eb3b1c0b2390338f5f56a08806997c7b674da315e4605efdd017ef1",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F01"
+      ]
+    },
+    {
+      "id": "S13",
+      "title": "金陵科技学院：电气工程及其自动化",
+      "url": "https://zsb.jit.edu.cn/c51/20250418/i1107.phtml",
+      "publisher": "金陵科技学院招生与就业指导处",
+      "publication_date": "2026-04-23（页面显示）",
+      "accessed_at": "2026-11-08T11:52:14.994300+00:00",
+      "geographic_scope": "南京；本科专业训练（非招生计划/录取数据）",
+      "locator": "L19–34",
+      "limitations": "URL含20250418但页面实际显示2026-04-23，保留这一差异；只是专业培养介绍，不恢复2026招生数据采集，不据此确认招生专业组/名额。",
+      "representation": {
+        "controlled_evidence_id": "S13-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "79684aa944619704c80e31d7848d461e16b9993a588b4c246488725c9c04a9ba",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F11"
+      ]
+    },
+    {
+      "id": "S14",
+      "title": "东南大学电气工程学院就业页：苏州汇川联合动力",
+      "url": "https://ee.seu.edu.cn/2025/0504/c25267a526853/pagem.htm",
+      "publisher": "东南大学电气工程学院；苏州汇川联合动力系统股份有限公司",
+      "publication_date": "2025-04-28；岗位列表显示2025-04-29",
+      "accessed_at": "2026-11-08T11:53:10.919460+00:00",
+      "geographic_scope": "江苏苏州吴中；民用电驱/控制岗位样本",
+      "locator": "L70–83",
+      "limitations": "精确岗位详情91JOB仅返回JS壳；同名海事大学页已过期。此来源不支持岗位具体专业、职责或无经验要求；不能推它为电磁弹射供应商/直接入口，也不应把广告薪酬作为可得待遇。 同页企业介绍含2020年经营与人员数字，本篇未用作当前规模或增长证据。",
+      "representation": {
+        "controlled_evidence_id": "S14-readable",
+        "type": "tool_extracted_readable_text_or_excerpt",
+        "sha256": "06b25f1b723d9cca8ca7044bf10749956b3de87cc93eab55c4a3640f4fd6c80d",
+        "original_bytes_obtained": false,
+        "method": "chat_search_web_run.open/find; selected sources also Exa web_fetch_exa"
+      },
+      "author_read_status": "key_passages_and_context_rechecked_in_frozen_representation",
+      "used_for_claims": [
+        "F13"
+      ]
+    }
+  ],
+  "baseline_reuse": [
+    {
+      "id": "R01",
+      "title": "上电能动与自动化：从课程安排走到可练习任务，选择改变在哪里",
+      "commit": "74c088181f08029d26d36df422f51cf0f322cc75",
+      "repository_path": "research/admissions/suep-thermal-control-training.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/74c088181f08029d26d36df422f51cf0f322cc75/research/admissions/suep-thermal-control-training.md",
+      "locator": "§四、§五、§六",
+      "local_baseline_representation_sha256": "e418f8b164e2525597a9f64b8a2b914b37be025150bbe294e34a8b5f83f1149f",
+      "verification_level": "fixed_baseline_text_reuse_not_fresh_primary_source_verification",
+      "limitations": "只复用固定基线已采用正文；2025级普通自动化方向安排不保证2027适用；方向分流、名额和个人获取未知；电站方向智能产线不能迁给所有自动化学生。未重新核其原PDF/表格/网页。",
+      "used_for_claims": [
+        "F12"
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "江苏专业组接受度如何接到入学大类分流：矿大机械类历史案例",
+      "commit": "74c088181f08029d26d36df422f51cf0f322cc75",
+      "repository_path": "research/admissions/cumt-mechanical-class-pathways.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/74c088181f08029d26d36df422f51cf0f322cc75/research/admissions/cumt-mechanical-class-pathways.md",
+      "locator": "三个阶段、四种对象；已核校方事实；分到机械工程后",
+      "local_baseline_representation_sha256": "4889ac90c096add5346acb7b70ea1a9f85e9df536a5717c2dc0347106494fdcf",
+      "verification_level": "fixed_baseline_text_reuse_not_fresh_primary_source_verification",
+      "limitations": "只复用固定基线已采用正文；高考专业组、大类分流、专业、模块分别判断；历史分流年份、原核验层级与组边界不变。未重新核其原招生/培养来源。",
+      "used_for_claims": [
+        "F19"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "F01",
+      "type": "source_fact",
+      "main_locator": "§一：新华社现场图文确认",
+      "claim": "福建舰2025年11月5日入列授旗，公开称电磁弹射型航母。",
+      "source_ids": [
+        "S12"
+      ],
+      "source_locator": "L14、L23、L29",
+      "boundary": "仅公开用途与阶段。"
+    },
+    {
+      "id": "F02",
+      "type": "source_fact",
+      "main_locator": "§二/飞机：上飞公司历程列出",
+      "claim": "C919在2022年取型号证、生产许可并首次交付，2024年向国航南航同步交付。",
+      "source_ids": [
+        "S01"
+      ],
+      "source_locator": "L102、L115、L119、L121",
+      "boundary": "不推年交付、订单、现金流与就业。"
+    },
+    {
+      "id": "F03",
+      "type": "source_fact",
+      "main_locator": "§二/飞机：CCAR-21要求",
+      "claim": "民机生产质量系统覆盖资料、供应商、制造、检验、校准及不合格品。",
+      "source_ids": [
+        "S03"
+      ],
+      "source_locator": "第21.131、21.135、21.137条；L944–1011",
+      "boundary": "只限民航规则适用对象。"
+    },
+    {
+      "id": "F04",
+      "type": "source_fact",
+      "main_locator": "§二/飞机：2025年沈飞民机",
+      "claim": "沈阳供应商生产证后审查实际覆盖工艺文件、过程和记录等。",
+      "source_ids": [
+        "S02"
+      ],
+      "source_locator": "L21–29",
+      "boundary": "不推全行业质量或长三角岗位。"
+    },
+    {
+      "id": "F05",
+      "type": "source_fact",
+      "main_locator": "§二/飞机：上海浦东的上飞装备",
+      "claim": "工装设计/部件工艺面向应届/实习，本科及以上，列机械设计制造/飞行器制造相关专业及任务。",
+      "source_ids": [
+        "S06"
+      ],
+      "source_locator": "L60–65、L71–73、L81–108",
+      "boundary": "配套企业广告，不是主机厂或个人录用；完整职责不等于新人独担。"
+    },
+    {
+      "id": "F06",
+      "type": "source_fact",
+      "main_locator": "§二/发动机：CCAR-33涉及",
+      "claim": "规则列校准、持久、附加系统/部件试验、试后检查与初始维修检查。",
+      "source_ids": [
+        "S04"
+      ],
+      "source_locator": "第33.85、33.87、33.90、33.91、33.93条",
+      "boundary": "不把最低试验时数当研发总周期，不套军品。"
+    },
+    {
+      "id": "F07",
+      "type": "source_fact",
+      "main_locator": "§二/发动机：南京轻动2023届",
+      "claim": "历史简章设计岗硕士及以上，工艺岗本科及以上，列相关专业。",
+      "source_ids": [
+        "S07"
+      ],
+      "source_locator": "L75–90",
+      "boundary": "不证明现行招聘、试车等本科具体任务或行业统一门槛。"
+    },
+    {
+      "id": "F08",
+      "type": "source_fact",
+      "main_locator": "§二/发动机与§五地域：南京／常州",
+      "claim": "S07有南京江宁及常州新北地址，未逐岗对应。",
+      "source_ids": [
+        "S07"
+      ],
+      "source_locator": "L65、L110–114",
+      "boundary": "不能只归南京或保证所有岗位两地任选。"
+    },
+    {
+      "id": "F09",
+      "type": "source_fact",
+      "main_locator": "§二/航天：国家航天局2026年8月",
+      "claim": "报告朱雀三号遥二陆地可控回收，并提出继续推进工程化应用。",
+      "source_ids": [
+        "S05"
+      ],
+      "source_locator": "L4、L12、L15",
+      "boundary": "不采用技术参数；不推重复使用商业收入/成本/岗位增量。"
+    },
+    {
+      "id": "F10",
+      "type": "source_fact",
+      "main_locator": "§二/航天：电子装联工艺研发岗",
+      "claim": "S08电子装联工艺接受本科/硕士；总体装配、机加工工艺、力学试验要求硕士。",
+      "source_ids": [
+        "S08"
+      ],
+      "source_locator": "L129–139、L146–156",
+      "boundary": "本科资格只限列明岗位；与S05不是同项目因果链。"
+    },
+    {
+      "id": "F11",
+      "type": "source_fact",
+      "main_locator": "§三：金陵科技学院培养页",
+      "claim": "列电路、电力电子、电机拖动、测量、控制、PLC及实验/项目教学。",
+      "source_ids": [
+        "S13"
+      ],
+      "source_locator": "L19–34",
+      "boundary": "URL与页内日期有差异；仅培养介绍，非招生采集或个人能力保证。"
+    },
+    {
+      "id": "F12",
+      "type": "baseline_reuse_fact",
+      "main_locator": "§三：固定基线的上电培养卡",
+      "claim": "普通自动化两方向的必修控制/实践不同；自动化方向有电机拖动运动控制及实验。",
+      "source_ids": [
+        "R01"
+      ],
+      "source_locator": "§四",
+      "boundary": "不把电站智能产线合并到全部自动化，不承诺分流。"
+    },
+    {
+      "id": "F13",
+      "type": "source_fact",
+      "main_locator": "§三：东南大学就业页",
+      "claim": "苏州汇川联合动力列表控制/功率硬件、电机控制算法等岗位标本科、苏州吴中。",
+      "source_ids": [
+        "S14"
+      ],
+      "source_locator": "L74–83",
+      "boundary": "只有标题/学历/地点；具体专业职责经验未核，不认定弹射供应商。"
+    },
+    {
+      "id": "F14",
+      "type": "source_fact",
+      "main_locator": "§三：专门研发的门槛",
+      "claim": "S08控制系统设计师、电机设计师要求博士/硕士。",
+      "source_ids": [
+        "S08"
+      ],
+      "source_locator": "L74–84",
+      "boundary": "一般航天雇主岗位反例，不是直接弹射招聘或行业统一门槛。"
+    },
+    {
+      "id": "F15",
+      "type": "source_fact",
+      "main_locator": "§四：南航飞行器制造介绍",
+      "claim": "飞机装配、钣金、复材、数字制造方向、2+2与具名企业实践。",
+      "source_ids": [
+        "S09"
+      ],
+      "source_locator": "L30、L37、L40、L44–47",
+      "boundary": "学校介绍而非届别学分表、实际获训/录用。"
+    },
+    {
+      "id": "F16",
+      "type": "source_fact",
+      "main_locator": "§四：江苏大学机械介绍",
+      "claim": "列制造、控制、单片机、机电传动、测试、数控及质量等课程。",
+      "source_ids": [
+        "S11"
+      ],
+      "source_locator": "L105 Q3",
+      "boundary": "无更新时间；不使用就业率、地区占比、师资数量等陈旧统计。"
+    },
+    {
+      "id": "F17",
+      "type": "source_fact",
+      "main_locator": "§四：南航课程以热力",
+      "claim": "飞行器动力有热力流体传热、机械强度振动与发动机课程及四种侧重。",
+      "source_ids": [
+        "S10"
+      ],
+      "source_locator": "L159–172、L200–204",
+      "boundary": "不等同电气本科；专业介绍不是2027学分表。"
+    },
+    {
+      "id": "F18",
+      "type": "source_fact",
+      "main_locator": "§五地域：上海闵行",
+      "claim": "S08单位地址在上海闵行。",
+      "source_ids": [
+        "S08"
+      ],
+      "source_locator": "同页联系方式的单位地址",
+      "boundary": "不是逐岗/逐项目驻地。"
+    },
+    {
+      "id": "F19",
+      "type": "baseline_reuse_fact",
+      "main_locator": "§六：矿大机械类卡",
+      "claim": "固定卡区分专业组、大类分流、专业与课程模块，不把模块等同录取专业。",
+      "source_ids": [
+        "R02"
+      ],
+      "source_locator": "三个阶段、四种对象；S2专业设置段",
+      "boundary": "历史规则不升级为本轮新核2025/2027招生。"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A01",
+      "type": "research_assumption_not_user_profile",
+      "main_locator": "导言、§一P",
+      "statement": "江苏生源；2027入学且适用届四年则2031毕业；三年硕士仅条件分支，2037观察。全国可选就读地不等于全国就业均接受。"
+    },
+    {
+      "id": "A02",
+      "type": "comparison_assumption_not_user_preference",
+      "main_locator": "§一P",
+      "statement": "两类工程任务都可接受，优先保留本科就业，长三角及必要现场实践可接受，费用/地区/入学可行性相当；实际训练有差异。"
+    },
+    {
+      "id": "A03",
+      "type": "scenario_assumption",
+      "main_locator": "§二连续机制、§五反转",
+      "statement": "订单落实为采购排产及回款或项目资金持续，雇主保留受监督、有反馈的本科任务；不把这些条件当已核事实。"
+    },
+    {
+      "id": "A04",
+      "type": "remote_scenario_not_baseline",
+      "main_locator": "§一远期用途",
+      "statement": "地面辅助起飞、空间发射辅助等仅作未来设想，本批未核部署/成本/招聘，不计入2031本科需求。"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "I01",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§一、§三",
+      "conclusion": "电磁线索先提高电气/硬件型自动化训练比较权重，而非仅因飞行器应用选择航空专门专业。",
+      "fact_claim_ids": [
+        "F01",
+        "F11",
+        "F12",
+        "F17"
+      ],
+      "assumption_ids": [
+        "A02"
+      ],
+      "boundary": "比较主能力与训练可迁移性，不等同岗位增量。",
+      "change_condition": "若航空制造本科任务和可得训练更强，转制造主比较；若直接专门入口证成，再提高专门投入。"
+    },
+    {
+      "id": "I02",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§一扩散与人才阶段",
+      "conclusion": "既有装备化用途仍可进入新的扩散与人才培养阶段；后续采购应用持续时，可靠交付/保障训练价值可能提高。",
+      "fact_claim_ids": [
+        "F01"
+      ],
+      "assumption_ids": [
+        "A03"
+      ],
+      "boundary": "属于条件机制，未证该阶段已大规模展开。",
+      "change_condition": "采购/应用不扩散或任务集中到熟手时，不上调本科入口。"
+    },
+    {
+      "id": "I03",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§二/飞机",
+      "conclusion": "重复交付约束把制造一致性、工艺和质量变为持续责任；本科制造准备有具体支点。",
+      "fact_claim_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "assumption_ids": [
+        "A03"
+      ],
+      "boundary": "产量不等于人数；广告不证明最终录用和新人独立负责。",
+      "change_condition": "标准化、外包或熟手吸收任务时降低入口权重。"
+    },
+    {
+      "id": "I04",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§二/发动机",
+      "conclusion": "新型号验证可使批量收入与本科入口晚于技术需求；现有制造修理另分支。",
+      "fact_claim_ids": [
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "assumption_ids": [
+        "A03"
+      ],
+      "boundary": "不是研发时长或投产年份预测。",
+      "change_condition": "具体岗位/项目过关并持续接收本科时提高对应工艺路线；专门设计门槛另算。"
+    },
+    {
+      "id": "I05",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§二/航天",
+      "conclusion": "回收验证与稳定重复商业收入之间仍有工程/客户/成本环节，工艺学历不能概括。",
+      "fact_claim_ids": [
+        "F09",
+        "F10"
+      ],
+      "assumption_ids": [
+        "A03"
+      ],
+      "boundary": "S05与S08非同一主体或项目闭环。",
+      "change_condition": "持续交付与具体本科任务证成再增加该分支权重。"
+    },
+    {
+      "id": "I06",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§三电气/自动化反转",
+      "conclusion": "同一目标下可得硬件/驱动项目更完整的自动化可超过偏电网训练的电气。",
+      "fact_claim_ids": [
+        "F11",
+        "F12"
+      ],
+      "assumption_ids": [
+        "A02"
+      ],
+      "boundary": "对具体方案作条件比较，未给学校总排名。",
+      "change_condition": "目标任务回到电能转换而电气实践更完整时反转；双方均弱不强选。"
+    },
+    {
+      "id": "I07",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§三民用与研发",
+      "conclusion": "民用电驱可作为迁移待核出口；专门研发可能需要硕士，但不统一追加学历。",
+      "fact_claim_ids": [
+        "F13",
+        "F14"
+      ],
+      "assumption_ids": [
+        "A02"
+      ],
+      "boundary": "S14只证明列表字段；非弹射产业链、非就业兜底。",
+      "change_condition": "具体岗位资格/训练/成本能够补偿延期时才读研。"
+    },
+    {
+      "id": "I08",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§四制造与机械",
+      "conclusion": "同入口接收两专业时，航空全流程个人实践可使制造前置；实践不可得而机械闭环强则反转。",
+      "fact_claim_ids": [
+        "F05",
+        "F15",
+        "F16"
+      ],
+      "assumption_ids": [
+        "A02",
+        "A03"
+      ],
+      "boundary": "公开介绍不代表实际质量，通用转航空仍有补训。",
+      "change_condition": "两方可得训练近似时并列；任务/预算共同失效可无主案。"
+    },
+    {
+      "id": "I09",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§四动力与设计",
+      "conclusion": "发动机对象及热流/结构深度匹配时可前置飞行器动力；设计因缺培养/本科招聘证据保留专门分支。",
+      "fact_claim_ids": [
+        "F07",
+        "F17"
+      ],
+      "assumption_ids": [
+        "A02"
+      ],
+      "boundary": "不把动力等同电驱，也不把制造证据借给总体设计。",
+      "change_condition": "目标转为电驱或所需深造不可承担时降低专门路径；设计另核后可改判。"
+    },
+    {
+      "id": "I10",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§五投入/地区/时间",
+      "conclusion": "本科先形成一条主能力；2031看反馈工作包，2034硕士须有门槛或难替代训练收益，2037看可迁移责任。",
+      "fact_claim_ids": [
+        "F05",
+        "F07",
+        "F08",
+        "F10",
+        "F12",
+        "F13",
+        "F14",
+        "F18"
+      ],
+      "assumption_ids": [
+        "A01",
+        "A02"
+      ],
+      "boundary": "建议而非个人承诺；未估工资/补贴/净增员。",
+      "change_condition": "实际资格、任务、地区、训练或费用改变时更新；六年工龄不保证积累。"
+    },
+    {
+      "id": "I11",
+      "type": "conditional_inference_or_recommendation",
+      "main_locator": "§六志愿入口",
+      "conclusion": "复用上电/矿大历史培养条件，不新增学校组计数；当前只排序下一步训练核问。",
+      "fact_claim_ids": [
+        "F12",
+        "F19"
+      ],
+      "assumption_ids": [
+        "A01"
+      ],
+      "boundary": "未新核2025招生桥，保留原组接受和核验层级。",
+      "change_condition": "有实际用户位次/接受与目标年度正式条件后再生成个人名单。"
+    }
+  ],
+  "open_decision_gaps": [
+    {
+      "id": "G01",
+      "gap": "直接电磁弹射岗位、专门单位入口、专业与学历、增量未核。",
+      "effect": "不宣称直接产业链就业或扩大专门投入；保留通用电气/控制准备价值。"
+    },
+    {
+      "id": "G02",
+      "gap": "飞机年度交付/订单现金流、发动机未来投产表和同口径职位系列未核。",
+      "effect": "只做阶段与任务传导，不估增速、净招聘或2031个人机会。"
+    },
+    {
+      "id": "G03",
+      "gap": "S14岗位详情未取得。",
+      "effect": "仅用本科、地区与标题；不填写专业、职责、经验或录用条件。"
+    },
+    {
+      "id": "G04",
+      "gap": "飞行器设计培养与对应本科招聘未固定。",
+      "effect": "保留专门目标分支，不借制造/动力证据为其前置。"
+    },
+    {
+      "id": "G05",
+      "gap": "新增2025江苏航空招生桥未取得，用户位次、选科与接受条件未知。",
+      "effect": "不新增学校/组/计数或个人冲稳保，不恢复2026招生采集。"
+    },
+    {
+      "id": "G06",
+      "gap": "学校普通学生实践可获得性、目标届方案和方向分流未逐一核实。",
+      "effect": "训练优势是有条件的；不按宣传平台保证个人能力。"
+    }
+  ]
+}
