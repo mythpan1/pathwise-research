@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "task_ref": "LOCAL-20261109-HVACPATH",
+  "research_date": "2026-11-09",
+  "base_commit": "d7bff506410b1f9894c2c0a175dc7a7c8afd9001",
+  "scope": {
+    "student_origin": "江苏",
+    "entry_year": 2027,
+    "bachelor_graduation_if_four_years": 2031,
+    "optional_master_graduation_if_three_years": 2034,
+    "career_observation_year": 2037,
+    "purpose": "建环与能动在建筑使用侧、冷热源设备侧及重叠岗位上的条件比较",
+    "not_covered": [
+      "2026招生录取采集",
+      "2027确定录取或个人志愿表",
+      "苏大实际训练排名",
+      "净就业数量或工资预测"
+    ]
+  },
+  "sources": [
+    {
+      "id": "A01",
+      "title": "苏州大学2025江苏报考指南",
+      "url": "https://zsb.suda.edu.cn/system_dntb/upload/苏州大学2025年报考指南（江苏版）.pdf",
+      "publisher": "苏州大学本科招生部门",
+      "publication_date": "2025",
+      "region": "江苏生源招生计划",
+      "locator": "PDF第8页 / 印刷页13，院校专业组31（物理+化学）两目标行",
+      "supports": [
+        "能源与动力工程：四年、计划27、能源学院；建筑环境与能源应用工程：四年、计划34、轨道交通学院",
+        "两目标位于同一2025江苏历史专业组"
+      ],
+      "limits": [
+        "计划不是实际录取、专业分数或位次",
+        "不从同册2024分数页构造2025录取",
+        "目标年2027组别、资格、计划、个人位次及完整接受未知，不改变既有候选计数"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "raw_pdf",
+      "source_sha256": "026f84f4e9a2d6411b49a2cec906c48a75cd5c8465fa9cdd4d940fb88e7c93b8",
+      "evidence_key": "A01",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "T01",
+      "title": "同济建环完整培养方案",
+      "url": "https://mefaculty.tongji.edu.cn/__local/F/A8/76/CD65952179C5B7E8E84E14A92C0_0BE46273_850BA.pdf",
+      "publisher": "同济大学",
+      "publication_date": null,
+      "region": "同济大学，适用届别未明",
+      "locator": "PDF第1页；第4页有关说明第5条；第7页课程模块；第8页实践环节",
+      "supports": [
+        "四年工学学士；建筑环境学专业必修",
+        "专业选修要求A暖通或B燃气模块以及特色选修，不能全算必修",
+        "建筑环境学实验、暖通空调及燃气实验、建环课程设计和专业实践列于实践必修",
+        "课程号040532系统测试，2.5学分、51学时"
+      ],
+      "limits": [
+        "文件未明示适用届别，不证明2027适用或开课",
+        "暖通/燃气分模块，不将全部选修计入每人已获训练",
+        "课程与学分不能证明个人实践质量，不填苏大训练空白"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "raw_pdf",
+      "source_sha256": "4eb66fe627cfdf5f338263b2f49500bc2b0d069a8c1d68abe4ff3b08fa9c5bb8",
+      "evidence_key": "T01",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "T02",
+      "title": "同济能动完整培养方案",
+      "url": "https://hece.tongji.edu.cn/_upload/article/files/47/e3/7d1b94e2407fa730ec5b69aeafac/410fc774-9620-4ee8-8f67-8b1473b82909.pdf",
+      "publisher": "同济大学",
+      "publication_date": null,
+      "region": "同济大学，适用届别未明",
+      "locator": "PDF第1页；第10页专业必修/选修；第11页选修与实践",
+      "supports": [
+        "四年工学学士，历史热能与制冷方向在2012合并",
+        "燃烧、换热器、制冷列专业必修；冷热源与换热器设计/实验列实践必修",
+        "课程号040532系统测试与T01同名同课号同学分/学时",
+        "空调、制冷、供热、通风工程B列选修"
+      ],
+      "limits": [
+        "PDF创建/修改元数据2019-12-25不是官方版本年",
+        "不能称与T01同届可比，不证明现行院系或2027培养",
+        "不以必修结构推工业岗位专业接收或全部选修可取得"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "raw_pdf",
+      "source_sha256": "5a22730356ceab9ef8710e8198fb5e5a597f662c39f218bf7943a6db89733e12",
+      "evidence_key": "T02",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "T03",
+      "title": "天津理工2023级能动方案",
+      "url": "https://me.tjut.edu.cn/info/1115/2713.htm",
+      "publisher": "天津理工大学机械工程学院",
+      "publication_date": "2023-09-13",
+      "region": "天津理工大学2023级",
+      "locator": "专业简介；五、课程设置与学分分布，专业课必修/选修与集中性实践教学环节",
+      "supports": [
+        "能动必修包含锅炉、换热器、空气调节、供热与制冷",
+        "集中必修实践包含换热器课程设计、制冷课程设计、专业设计和实习",
+        "汽轮机、热力发电厂、热泵技术列选修"
+      ],
+      "limits": [
+        "跨校明确届别反例，不填同济或苏大培养空白",
+        "未核该校2025江苏入口",
+        "学校培养目标/列举去向不是就业结果"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "raw_html",
+      "source_sha256": "7581a23235bdb96d0a33cd0da677c12aa64eefc646d30e2f68c05840759893d6",
+      "evidence_key": "T03",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "J01",
+      "title": "中电二2027届校园招聘",
+      "url": "https://career.hebut.edu.cn/home/correcruit/content/id/79660.html",
+      "publisher": "中国电子系统工程第二建设有限公司，河北工业大学就业平台刊载",
+      "publication_date": "2026-09-24",
+      "region": "页面工作地域北京、天津、江苏、山东、陕西",
+      "locator": "招聘需求表：建造岗暖通工程师/设计岗暖通动力设计师；招聘对象；培养发展；福利待遇",
+      "supports": [
+        "2027届本科暖通建造岗25人，建环与能动共同接收",
+        "硕士暖通动力设计师另列10人并接受两专业",
+        "对象为2027年1月1日至12月31日全日制本科/硕士毕业生",
+        "项目岗集中休假与食宿安排；培养体系为雇主声明"
+      ],
+      "limits": [
+        "本科同岗接收不证明录用、相同胜率或2031持续招聘",
+        "多地含江苏不保证江苏分配，不以无锡地址替工作地",
+        "单岗任务拆分及经验年限未详列，不能写经验不限",
+        "不是已证公共建筑托管同团队招聘；培养安排不证效果",
+        "页头100与正文270口径不同，本篇只使用明确单岗25/10"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "raw_html",
+      "source_sha256": "638bddc27c098786e025d1f4be3ae9efdf65dbcf28a3eb93c5ec0801731b0f96",
+      "evidence_key": "J01",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "J02",
+      "title": "拓米洛校园栏环境箱产品平台部",
+      "url": "https://www.tomilo.com.cn/xyzp",
+      "publisher": "江苏拓米洛高端装备股份有限公司",
+      "publication_date": null,
+      "region": "苏州市",
+      "locator": "校园招聘页：环境箱产品平台部，工作职责与任职资格",
+      "supports": [
+        "硕士及以上；能动（偏制冷）、建环共同接收",
+        "按订单设计制冷系统，提供方案/图纸与资料，制冷配件选型验收"
+      ],
+      "limits": [
+        "原工具可读网页表示，不是取得原HTML；页面日期和届别未明",
+        "仅单个设备制冷设计岗位，非本科入口或全行业硕士门槛",
+        "不借邻岗学历、售后经历条件或校园栏名补应届资格",
+        "不连成江苏公共建筑托管客户的招聘链"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "original_tool_readable_representation",
+      "source_sha256": "6e0ee307ae7414f7a3933b479f8b822a5978fdc736533f80b7f851928ca7ea25",
+      "evidence_key": "J02",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "P01",
+      "title": "上海公共机构合同能源管理办法",
+      "url": "https://www.shanghai.gov.cn/nw12344/20230727/e8eff156796545d8be1c6374d0151587.html",
+      "publisher": "上海市人民政府办公厅",
+      "publication_date": "2023-07-27",
+      "issued_date": "2023-06-29",
+      "effective_from": "2023-07-01",
+      "effective_until": "2028-06-30",
+      "document_number": "沪府办规〔2023〕18号",
+      "region": "上海市公共机构",
+      "locator": "第四、五、九、十一、十四、十五、二十、二十二、二十八条",
+      "supports": [
+        "预算、全周期成本、基准、服务绩效、支付、验收与运维责任机制",
+        "节能比较须考虑工况、人数、业务和气候；重大变化可按合同调整核定",
+        "能源托管一般5—10年；客观不具备条件可暂缓；期满费用另协商"
+      ],
+      "limits": [
+        "上海正式规则不是江苏法规，不外推为2031/2037现行制度",
+        "未取得具体项目合同、支付结果或招聘链",
+        "原工具可读表示成功后原字节403停止；不称原HTML"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "original_tool_readable_representation",
+      "source_sha256": "f464ca5e9b1701095d1c286179f3a33712dca1047887b4f55abfe6baf6132d7a",
+      "evidence_key": "P01",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    },
+    {
+      "id": "B01",
+      "title": "江苏整区能源费用托管现场采访",
+      "url": "https://www.jiangsu.gov.cn/art/2025/11/24/art_90953_11679680.html",
+      "publisher": "新华日报报道，江苏省人民政府网站转载",
+      "publication_date": "2025-11-24",
+      "region": "江苏多地公共机构试点的一手受访叙述",
+      "locator": "宜兴旧中央空调及办公楼打包段；大丰一期10年托管段；企业打包/持续优化段；硬件、协调和资金阻力段",
+      "supports": [
+        "受访者述宜兴旧中央空调更换与后续打包，大丰一期10年托管及冷热系统改造",
+        "企业述设备先期投入、持续优化、集中平台服务",
+        "张家港部分项目初测10年难回本，武进/邗江能源审计预算缺口，投资及天气约束"
+      ],
+      "limits": [
+        "报道不是实际合同、审计或净就业统计",
+        "当事人预计及全省预期不当已实现；不使用总额/比例推岗位",
+        "不与上海规则拼成统一制度，不与J01/J02拼同团队因果链",
+        "原工具可读表示成功后原字节403停止；不称原HTML"
+      ],
+      "access_date": "2026-11-09",
+      "representation": "original_tool_readable_representation",
+      "source_sha256": "9b2219192a8d91c2b556e9a8b245c366c1d997374e8b715bb1d5cd98067ff205",
+      "evidence_key": "B01",
+      "author_read": "直接原件/原工具表示；A01/T01/T02关键表格另亲看PDF渲染",
+      "independent_review": false
+    }
+  ],
+  "fixed_reuse": [
+    {
+      "id": "R01",
+      "type": "fixed_repository_reuse",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "d7bff506410b1f9894c2c0a175dc7a7c8afd9001",
+      "path": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/d7bff506410b1f9894c2c0a175dc7a7c8afd9001/research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "git_blob_sha": "594a5fc579df1121ba32ce247038967c5b8d3016",
+      "content_sha256": "4b1018ad24e997d38034d366ae09a3ff89cf3993fa8a1af6a8551b7724c3bc43",
+      "use": "上电热工与控制比较：已覆盖热泵政策、热工性能与控制联调、交叉本科入口",
+      "limit": "本轮亲读固定ref正文，不重取其外部证据；仅识别复用与增量，不把旧卡当新增原始事实。"
+    },
+    {
+      "id": "R02",
+      "type": "fixed_repository_reuse",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "d7bff506410b1f9894c2c0a175dc7a7c8afd9001",
+      "path": "research/admissions/suep-thermal-control-training.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/d7bff506410b1f9894c2c0a175dc7a7c8afd9001/research/admissions/suep-thermal-control-training.md",
+      "git_blob_sha": "765c81ff6909860def9336e6b75506869cd6af8b",
+      "content_sha256": "d024039e00b011a9f2b5f88e335f92e6a1a21d54ca1067cb7c4f3e2079f7c86f",
+      "use": "上电训练：已覆盖能动实验和自动化方向的计划、实践与效果边界",
+      "limit": "本轮亲读固定ref正文，不重取其外部证据；仅识别复用与增量，不把旧卡当新增原始事实。"
+    },
+    {
+      "id": "R03",
+      "type": "fixed_repository_reuse",
+      "repository": "mythpan1/pathwise-research",
+      "commit": "d7bff506410b1f9894c2c0a175dc7a7c8afd9001",
+      "path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/d7bff506410b1f9894c2c0a175dc7a7c8afd9001/research/industry/investment-retrofit-operations-2037-choices.md",
+      "git_blob_sha": "c4cc1ad86c8e3dba8c6091934a2d254b4620b94b",
+      "content_sha256": "f6b5416602ab46ac8af4458f7a97ca27e7e5d59d39d7155188361876608efa33",
+      "use": "新增、改造与运行共存：已覆盖付费、回款和集中服务的一般机制",
+      "limit": "本轮亲读固定ref正文，不重取其外部证据；仅识别复用与增量，不把旧卡当新增原始事实。"
+    }
+  ],
+  "claim_map": [
+    {
+      "id": "C01",
+      "sections": [
+        "1"
+      ],
+      "type": "source_fact",
+      "evidence": [
+        "A01"
+      ],
+      "statement": "两专业为苏大2025江苏31组同组四年计划27/34，不构成目标年录取或两独立保底"
+    },
+    {
+      "id": "C02",
+      "sections": [
+        "2"
+      ],
+      "type": "source_fact_and_bounded_comparison",
+      "evidence": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "statement": "公开训练结构显示暖通/燃气模块、设备热工课程与共同系统测试；届别限制与跨校限制不消失"
+    },
+    {
+      "id": "C03",
+      "sections": [
+        "3.1"
+      ],
+      "type": "source_fact",
+      "evidence": [
+        "P01",
+        "B01"
+      ],
+      "statement": "正式上海制度与江苏采访分层支持预算、基准、验收及长期责任；不合并地区/体裁"
+    },
+    {
+      "id": "C04",
+      "sections": [
+        "4"
+      ],
+      "type": "source_fact",
+      "evidence": [
+        "J01",
+        "J02"
+      ],
+      "statement": "同暖通建造岗本科共同接收与两个硕士设计层级分别保留，不推胜率或行业门槛"
+    },
+    {
+      "id": "D01",
+      "sections": [
+        "当前取舍",
+        "3.2",
+        "6.U"
+      ],
+      "type": "conditional_inference",
+      "evidence": [
+        "T01",
+        "T02",
+        "P01",
+        "B01",
+        "J01"
+      ],
+      "assumptions": [
+        "项目持续使用且能付费",
+        "主要责任在使用侧负荷/末端/环境和运行",
+        "相应训练可得，实际雇主向本科开放"
+      ],
+      "statement": "建环暖通弱前置，不排斥能动；实际能动训练/入口更强可反转",
+      "unknowns": [
+        "具体学校当前训练",
+        "同一托管团队本科任务与接收"
+      ]
+    },
+    {
+      "id": "D02",
+      "sections": [
+        "当前取舍",
+        "3.2",
+        "6.E"
+      ],
+      "type": "conditional_inference",
+      "evidence": [
+        "T02",
+        "T03",
+        "J02"
+      ],
+      "assumptions": [
+        "使用边界已明确，主要差距在循环/设备/工况",
+        "相关能动训练可得，本科任务与专业筛选另成立"
+      ],
+      "statement": "相关能动培养方向弱前置；J02只作硕士设备制冷反例，不填本科入口",
+      "unknowns": [
+        "具体目标校训练",
+        "设备/工业热工的2031本科实岗"
+      ]
+    },
+    {
+      "id": "D03",
+      "sections": [
+        "当前取舍",
+        "6.S"
+      ],
+      "type": "conditional_inference",
+      "evidence": [
+        "T01",
+        "T02",
+        "J01"
+      ],
+      "assumptions": [
+        "任务与训练近似，成本和劳动接受条件相当"
+      ],
+      "statement": "同暖通或冷热源任务暂并列；依真实训练闭环、进入成本和岗位任务破平局"
+    },
+    {
+      "id": "D04",
+      "sections": [
+        "3.3",
+        "6.F"
+      ],
+      "type": "conditional_inference",
+      "evidence": [
+        "P01",
+        "B01"
+      ],
+      "assumptions": [
+        "投资预算或收益回收失败，或熟手/平台吸收新人任务"
+      ],
+      "statement": "两专业同时下调；服务规模不等于岗位增量，换供应商不必然分散客户风险"
+    },
+    {
+      "id": "D05",
+      "sections": [
+        "5"
+      ],
+      "type": "population_scenario_not_population_forecast",
+      "evidence": [
+        "P01",
+        "B01"
+      ],
+      "assumptions": [
+        "迁移/机构整合/服务变化改变使用区域、时段或使用寿命"
+      ],
+      "statement": "人口经使用边界和付款影响任务；关停可使两方向收缩，不推本科供给或补员数量"
+    },
+    {
+      "id": "D06",
+      "sections": [
+        "7"
+      ],
+      "type": "path_recommendation",
+      "evidence": [
+        "J01",
+        "J02"
+      ],
+      "assumptions": [
+        "2027四年本科，硕士如选择且按三年完成"
+      ],
+      "statement": "2031直接就业与2034硕士独立比较，2037约六年/三年经历非职级保证"
+    }
+  ],
+  "evidence_limits": [
+    "8项冻结原始来源；不新增检索",
+    "原PDF/HTML、完整工具表示和运行日志仅本地留存，可通过evidence_key与source_sha256核对",
+    "作者自检不构成独立审核，事实支点不构成2031/2037预测已验证"
+  ]
+}
