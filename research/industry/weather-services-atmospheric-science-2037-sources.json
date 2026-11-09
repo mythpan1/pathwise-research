@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "research_title": "大气科学还是应用气象学：预报、行业服务与本科入口",
+  "research_date": "2026-11-09",
+  "scope": {
+    "student_origin": "江苏",
+    "undergraduate_entry_year": 2027,
+    "conditional_undergraduate_completion_year": 2031,
+    "career_observation_year": 2037,
+    "geography": "江苏职业样本为主，培养及企业样本按各自地区使用"
+  },
+  "evidence_policy": "事实对应下列原始公开文件或已说明的转换文本；推断、情景和建议不作为独立事实。仅提交衍生研究和公开索引，不含原始文件或完整摘录。",
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "南京信息工程大学大气科学专业介绍",
+      "publisher": "南京信息工程大学大气科学学院",
+      "published_at": null,
+      "scope": "未标教学版本的本科专业介绍",
+      "resources": [
+        {
+          "url": "https://cas.nuist.edu.cn/bkjy/zysz.htm",
+          "representation": "原始文件完整字节",
+          "sha256": "403cd06aeffae6dd487d63520ed7efc4814c689c6685a84eb8b19bcef4de8a51",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "“大气科学专业”之主要课程、主要实践性教学环节、主要专业实践"
+      ],
+      "supported_claims": [
+        "介绍列天气、动力、数值与模拟训练"
+      ],
+      "limitations": [
+        "未给逐门必修学分或2027适用届别；不扩大为大气科学类全部专业承诺"
+      ]
+    },
+    {
+      "source_id": "S02",
+      "title": "南京信息工程大学应用气象学培养页及2026版运行表",
+      "publisher": "南京信息工程大学生态与应用气象学院",
+      "published_at": "2024-08-27",
+      "scope": "附件标注2026—2027级适用；附件发布日未知",
+      "resources": [
+        {
+          "url": "https://webs.nuist.edu.cn/_s144/2024/0827/c7488a257155/page.psp",
+          "representation": "原始文件完整字节",
+          "sha256": "299a80fd3d4f4fc29a83a8b5a4862f15da00dd3bc1c9cfeabc62f8b79b76c558",
+          "retrieved_date": "2026-11-09"
+        },
+        {
+          "url": "https://webs.nuist.edu.cn/_upload/article/files/f0/3e/f327b4ca4ecea230fe9b8a7376df/737cedf2-fd8a-4d60-8b9d-c06f7c7a62e8.pdf",
+          "representation": "原始文件完整字节",
+          "sha256": "a073582815c8a534e8140eeb15fff39c5b3016d16d9366b645e0721ed06b74ad",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "运行表PDF第2页：数理、学科基础和专业主干必修",
+        "第3页：主干必修及至少12学分的专业选修池",
+        "第4页：综合实践必修、选修、先修和155毕业学分"
+      ],
+      "supported_claims": [
+        "农业气象及天气预报综合实习均必修；动力、数值、能源与机器学习属选修"
+      ],
+      "limitations": [
+        "网页初始日期不等于附件更新日；实际开课、名额及学生所得未核；不以旧介绍叠加必修"
+      ]
+    },
+    {
+      "source_id": "S03",
+      "title": "江苏省气象部门2026年高校毕业生招聘公告、岗位表及专业目录",
+      "publisher": "江苏省气象局；江苏省高校招生就业指导服务中心受托平台",
+      "published_at": "2025-11-03",
+      "scope": "2026毕业生事业招聘；平台发布2025-11-06；目录2026版",
+      "resources": [
+        {
+          "url": "https://zkfw.91job.org.cn/home/exam-notice/view.html?notice_id=346",
+          "representation": "原始文件完整字节",
+          "sha256": "3d9042735e8ecb4a6e361db6d2dce4af1bba5ff202debfce0a4762b7399dc7ee",
+          "retrieved_date": "2026-11-09"
+        },
+        {
+          "url": "http://zp.cmatec.cn/cms/medialibrary/attachment/download.do?ID=34238",
+          "representation": "原始文件完整字节",
+          "sha256": "af748799cf0562edef74f37ea3569ddac04e5d70de2a3711daa844be778b7417",
+          "retrieved_date": "2026-11-09"
+        },
+        {
+          "url": "http://zp.cmatec.cn/cms/medialibrary/attachment/download.do?ID=34236",
+          "representation": "原始文件完整字节",
+          "sha256": "273cadfbfa641f0158b6d0a0bcf9cdc95c40c39aec3a51cd90087eb8a76f603e",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "公告二、三第5项、七第5项",
+        "岗位表工作表“ 明细表（气象系统编制国、地编）”，原Excel第5、19、20、29、30、35、36、46行",
+        "专业目录“气象类”本科条目"
+      ],
+      "supported_claims": [
+        "同表本科、硕士和博士入口及专业精确清单不同；本公告全部岗位最低服务5年含试用期"
+      ],
+      "limitations": [
+        "不是行政公务员招录；目录资格不等于录用；本科学科目录不扩张博士精确清单；不推2031或其他雇主"
+      ]
+    },
+    {
+      "source_id": "S04",
+      "title": "国航股份运行签派类岗位2027届高校毕业生校园招聘简章",
+      "publisher": "中国国际航空股份有限公司",
+      "published_at": null,
+      "scope": "2027届企业本科及以上招聘",
+      "resources": [
+        {
+          "url": "https://zhaopin.airchina.com.cn/campus/jobs/2026/10/185662.shtml",
+          "representation": "原始文件完整字节",
+          "sha256": "d77d48f1fa2ea4d035ce95ede420d9fd33a4e48d56c779cf00a89c0b83359856",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "二（一）气象分析职责、二（二）总招聘数量、二（三）工作地",
+        "三（一）至（四）学历、专业、外语与首次就业条件"
+      ],
+      "supported_claims": [
+        "气象分析为签派及机组提供服务；专业列大气科学及相近专业"
+      ],
+      "limitations": [
+        "31人是类别合计，工作地点也未按气象岗细分；应用气象相近专业认定、班表及合同细节未核；URL年月不作为发布日期"
+      ]
+    },
+    {
+      "source_id": "S05",
+      "title": "杭州浅海科技气象技术工程师招聘",
+      "publisher": "杭州浅海科技有限责任公司（中国民航飞行学院就业平台承载）",
+      "published_at": "2026-10-22",
+      "scope": "杭州滨江；企业全职、本科及以上",
+      "resources": [
+        {
+          "url": "https://jy.cafuc.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh5eN-KqLKvsoizpsp5u9GGrZ6ujs6WZMKGcdKLoJDStXqn1ZDPqaE",
+          "representation": "原始文件完整字节",
+          "sha256": "e511b62aa1e94ba72f90bad963278ec3039ec09affb1f8016547ba557e37ed9a",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "职位抬头、专业标签、职责描述、任职要求及工作地址"
+      ],
+      "supported_claims": [
+        "标签列两专业，正文宽至理工科；2人；安装调试验收培训售后任务且经常出差"
+      ],
+      "limitations": [
+        "不是数值模式研发或气象事业编；薪酬广告不当行业统计；公司宣传不当独立验证",
+        "页面未单列应届身份或工作经验要求，不当作专门校招或应届录用结果。"
+      ]
+    },
+    {
+      "source_id": "S06",
+      "title": "江苏省“十五五”气象发展规划",
+      "publisher": "江苏省人民政府办公厅、中国气象局办公室",
+      "published_at": "2026-08-18",
+      "scope": "江苏2026—2030；公报发布2026-09-15；苏政办发〔2026〕37号",
+      "resources": [
+        {
+          "url": "https://www.js.gov.cn/art/2026/9/15/art_64797_11830148.html",
+          "representation": "原始文件完整字节",
+          "sha256": "6f10284d7c8afb62dfa39a89f9fbc16844f7e5191c836b5776c7fd7c658779cf",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "第四章（一）至（六）：观测、预报、服务、平台及基层转型",
+        "第五章（一）、（五）：农业和能源服务",
+        "第六章（三）：基本公共服务与政府购买目录",
+        "第九章（二）、（三）：财政与项目经费"
+      ],
+      "supported_claims": [
+        "任务、财政责任、平台与AI重构并存；可支撑条件机制"
+      ],
+      "limitations": [
+        "规划不是执行、付款或招聘结果；人口、退休缺口和2037岗位数未核"
+      ]
+    },
+    {
+      "source_id": "S07",
+      "title": "江苏省气象信息中心短临预报云平台算力及存储扩充中标公告",
+      "publisher": "中国政府采购网、中央国家机关政府采购中心",
+      "published_at": "2026-11-04",
+      "scope": "江苏；GC-HGX261049",
+      "resources": [
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261104_27619924.htm",
+          "representation": "网页转换全文，非完整HTML字节",
+          "sha256": "6d0739ef317e206867af1e06ed64f7e9d4b11df539bb798893d2204c605eb839",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "公告概要及一至三项：采购单位、中标金额、供应商、主要标的"
+      ],
+      "supported_claims": [
+        "中标639.0054万元，供应商中国电信江苏分公司，主要标的含机架式服务器"
+      ],
+      "limitations": [
+        "只核取得的网页转换全文，未取得完整HTML字节；不是验收付款或新增气象本科岗位"
+      ]
+    },
+    {
+      "source_id": "S09",
+      "title": "人工智能气象应用服务办法",
+      "publisher": "中国气象局、国家互联网信息办公室",
+      "published_at": "2025-04-23",
+      "scope": "中国气象局、国家网信办第45号令；2025-06-01施行；页面发布2025-04-30",
+      "resources": [
+        {
+          "url": "https://www.cac.gov.cn/2025-04/30/c_1747718893685033.htm",
+          "representation": "原始文件完整字节",
+          "sha256": "8e8b2899c09fc75501893ebb0bf2133c09f8f7e6be6648d56cb2a0162d4b07fb",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "第7、9、14条：AI与质量评估",
+        "第15—19条：备案、合法数据、安全、公众预报及警报发布界限",
+        "第29条：施行日期"
+      ],
+      "supported_claims": [
+        "支持AI应用与发布责任限制同时存在"
+      ],
+      "limitations": [
+        "不解释为全部行业定制服务被禁止，亦不解释为企业可以无边界发布公众预警；没有岗位替代统计"
+      ]
+    },
+    {
+      "source_id": "S10",
+      "title": "南京信息工程大学2025年普通本科招生章程",
+      "publisher": "南京信息工程大学",
+      "published_at": "2025-07-01",
+      "scope": "2025历史章程",
+      "resources": [
+        {
+          "url": "https://xxgk.nuist.edu.cn/2025/0519/c2915a287226/pagem.htm",
+          "representation": "原始文件完整字节",
+          "sha256": "769adc9b0dabe759016f2462da59abf15908d73ef50de79c1b7c2e67066a660d",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "第三条第（七）项：学制四年",
+        "第十二条：部分专业大类录取后分流"
+      ],
+      "supported_claims": [
+        "四年制历史支点及大类与具体专业的区别"
+      ],
+      "limitations": [
+        "不证明2027招生；未核本题2025江苏专业计划行、组号、数值与位次；不推分流保证"
+      ]
+    },
+    {
+      "source_id": "S11",
+      "title": "维天信2024年报及母公司2026半年报问询回复",
+      "publisher": "中科星图维天信科技股份有限公司；中科星图股份有限公司",
+      "published_at": [
+        "2025-03-03",
+        "2026-10-28"
+      ],
+      "scope": "2024年度公司及控股子公司；2026回复讨论半年报期，范围未逐一对齐",
+      "resources": [
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202503031644006294_1.pdf?1741025385000.pdf=",
+          "representation": "原始披露PDF的财经站镜像文件",
+          "sha256": "b45cebea1dceacf0baabc11dbb210a24f8520889e2145b4f15181e31e9817a8e",
+          "retrieved_date": "2026-11-09"
+        },
+        {
+          "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-28/12668848.PDF",
+          "representation": "原始披露PDF的财经站镜像文件",
+          "sha256": "537fc61e482f0c7702e343357692ce6105e7cd8552cbc898b412a9660a339d22",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "2024年报PDF第6页（印刷5）：商业模式；第7—8页（印刷6—7）：收入及现金流",
+        "PDF第12页（印刷11）：经营现金流解释；第16页（印刷15）：应收风险；第31页（印刷30）：员工口径",
+        "2026回复PDF第38页（印刷38）：星图维天信经营、订单周期及主动缩人"
+      ],
+      "supported_claims": [
+        "2024收入增长和现金流下降并存；2026公司明确主动压缩人员规模"
+      ],
+      "limitations": [
+        "公司披露PDF来自财经站镜像，未另从交易所认证；单公司原因自述不当行业因果；不跨未对齐口径计算裁员率；学历存量不是应届气象专业录用数"
+      ]
+    },
+    {
+      "source_id": "S12",
+      "title": "成都信息工程大学大气科学与应用气象学专业介绍",
+      "publisher": "成都信息工程大学大气科学学院",
+      "published_at": "2022-07-27",
+      "scope": "同校同日历史本科介绍；070601/070602",
+      "resources": [
+        {
+          "url": "https://cas.cuit.edu.cn/info/1048/1743.htm",
+          "representation": "原始文件完整字节",
+          "sha256": "8b333223c2f59b628fa7955c159af06b1d3bdb8d3d76d285e21160e319f788b4",
+          "retrieved_date": "2026-11-09"
+        },
+        {
+          "url": "https://cas.cuit.edu.cn/info/1048/1742.htm",
+          "representation": "原始文件完整字节",
+          "sha256": "975e1cec21ffe25f2195784c6ce210971e2d721e7d85326e49121935496216e7",
+          "retrieved_date": "2026-11-09"
+        }
+      ],
+      "locators": [
+        "两文第一节：标准四年、学习年限3—6年",
+        "第四节：各自九门核心课程；模块学分仅为总量",
+        "第七节多元发展建议：大气科学英才方向的数值天气预报选修建议"
+      ],
+      "supported_claims": [
+        "两专业核心名单均列动力气象学及数值天气预报"
+      ],
+      "limitations": [
+        "核心名单不是逐门必修表；教学进程附表未核；不是2027适用方案或已核江苏招生入口；不能覆盖南信大选修属性"
+      ]
+    }
+  ]
+}
