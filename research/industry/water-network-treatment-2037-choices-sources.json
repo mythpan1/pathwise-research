@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "unit_id": "LOCAL-20261109-WATERPATH",
+  "title": "厂网一体之后：给排水与环境工程怎样选择",
+  "revision_date": "2026-11-09",
+  "base_commit": "d97bf34fba6f05841d5ed789270ede6916206fbb",
+  "scope": {
+    "student_origin": "江苏",
+    "entry_year": 2027,
+    "bachelor_entry_year": 2031,
+    "optional_master_entry_year": 2034,
+    "career_observation_year": 2037,
+    "primary_decision_region": "江苏具体求职城市；已有地方政策仅无锡、企业个案江阴",
+    "external_job_example": "广东江门2025制供水；不并入江苏污水劳动力市场"
+  },
+  "evidence_freeze": {
+    "manifest_sha256": "6f81b44590d3fe688baf7bc2eb40e9ac68232d0f99e6eafe96d4fc823a4a082a",
+    "evidence_index_sha256": "ba5aef1a0dea51b570d9bae52f5af9c26f27b6da01896e2ed8f2dc6005a9f188",
+    "record_count": 8
+  },
+  "representation_note": "作者亲读固定选段及对应原工具表示。保存的是转换文本/可见DOM，非原HTML/PDF字节；未作PDF像素核验。哈希标识固定表示，不证明原站真实性或当前仍有效。原件与运行日志不随正文上传。",
+  "source_records": [
+    {
+      "id": "P01",
+      "title": "关于加强城市生活污水管网建设和运行维护的通知",
+      "publisher": "住建部、生态环境部、发改委、财政部、市场监管总局",
+      "publication_date": "2024-03-08; published 2024-03-18",
+      "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2024/art_17339_777112.html",
+      "locator": "二（一）L45；四（八）（九）L61–62；五（十一）（十二）L68–69；2027目标L42",
+      "accessed_at": [
+        "2026-11-09T04:05:50.668Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "a93c409363976e61813687abdbb4f090cc9240d9b9fb41b3948454d8b8605a34",
+      "tool_representation_sha256": [
+        "b70efaf124b57775649105161f5bf98c7ee395371b4d9c95772a53eca8fe8caf"
+      ],
+      "supports": "国家通知规定滚动排查、低浓度问题排查、厂网一体、按效付费和费用/融资保障工具。",
+      "limits": [
+        "政策目标/工具不是地方实际完成、合同执行、回款或本科岗位。",
+        "不可把2027目标当2031持续执行保证。"
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "无锡市城乡雨污水治理攻坚行动方案（2024—2027年）",
+      "publisher": "无锡市人民政府办公室",
+      "publication_date": "2024-08-19; published 2024-10-25",
+      "url": "https://www.wuxi.gov.cn/doc/2024/10/25/4418152.shtml",
+      "locator": "二2与4：L65、69；二12与14：L82、85；三（三）：L97；主体范围与分区安排均在二2",
+      "accessed_at": [
+        "2026-11-09T04:05:50.668Z",
+        "2026-11-09T04:06:04.305Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "33c44a3655ac786157e99669c433d959c29d95e771c19c012c9d984f0f4b0485",
+      "tool_representation_sha256": [
+        "b70efaf124b57775649105161f5bf98c7ee395371b4d9c95772a53eca8fe8caf",
+        "866f8365e2fe9fc8f8813c3cda6bd3c98a8c409b22a304a3e87ae73f93271e2c"
+      ],
+      "supports": "无锡方案对公共管网、厂泵站整合及小区延伸作区分，规定效能评价、工业废水分类和费用保障。",
+      "limits": [
+        "这是行动方案，未核全部项目实际建设/付费/验收结果。",
+        "无锡全市政策不等于单一江阴企业所有业务均按本政策合同实施。",
+        "不同人口/工业分布及管网遗存的情景可由作者推演，未取得2037人口预测。"
+      ]
+    },
+    {
+      "id": "I01",
+      "title": "江苏江南水务股份有限公司2025年年度报告",
+      "publisher": "江苏江南水务股份有限公司；巨潮资讯披露",
+      "publication_date": "2026-04-24 disclosure; 2025 reporting year",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225158960.PDF",
+      "locator": "报告纸页20–21：PDF零基P19 L657–678（工程、处理、服务业务）；纸页23：P22 L852–856（折旧说明）",
+      "accessed_at": [
+        "2026-11-09T04:08:21.384Z",
+        "2026-11-09T04:08:35.283Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "c5d4f8e29b4cb760b2ed2990e437df868a03d6a85f7050d5ef76b88e693a6370",
+      "tool_representation_sha256": [
+        "3d6da88590a28adb417d0d228c60a91e2f3e52cd85476e62bdc92333f3c0af18",
+        "0537880a926fcbf0b4c754fba3d9cc5df6c988e40df520a92783099531ca9322"
+      ],
+      "supports": "江南水务2025工程安装收入同比-15.72%；污水处理收入+5.64%、成本+23.55%、毛利率0.55%；服务业收入+9.01%，公司说明其增长主要来自污水厂委托运行；南闸厂改扩建后折旧是成本增长解释。",
+      "limits": [
+        "企业自报并审计年度口径，不是全行业因果估计。",
+        "没有取得业务分部新人净招聘、同岗录用率或目标年需求。",
+        "报告仅取得部分分页转换文本，未保存PDF字节/未做像素目视核验。"
+      ]
+    },
+    {
+      "id": "A01",
+      "title": "苏州科技大学2025年江苏普高本科招生计划目标两行",
+      "publisher": "苏州科技大学本科招生办公室",
+      "publication_date": "2025 plan; page has no visible publication date",
+      "url": "https://zsb.usts.edu.cn/news/zsjh.asp",
+      "locator": "官方页面UI筛选2025、普高、江苏；iframe re.asp?sYear=2025&sStyle=普高&sZone=江苏；第44、45行",
+      "accessed_at": [
+        "2026-11-09T04:12:12.859Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "36229d8c79253ac5e416131ea1e79f463d2a1a2c9f3a67994b9e72b85c3f2d1f",
+      "tool_representation_sha256": [
+        "cec596782a10d1507aeb1d4753d5e77ac05e030bc531bdac569930a1cbff4a9f"
+      ],
+      "supports": "2025苏科大江苏普高计划环境工程107、给排水87，均物理类、再选化学、四年、6380元/年；仅历史计划。",
+      "limits": [
+        "这是历史计划，不是实际录取分数、位次或录取人数。",
+        "正式专业组号、完整成员、轮次和组级保底没有核验，不能由第三方补齐。",
+        "2027计划、选科、费用、资格及校区须目标年重核。",
+        "页面可读DOM表示，不是原始HTML；未保存目标行页面截图。"
+      ]
+    },
+    {
+      "id": "T01",
+      "title": "苏州科技大学环境学院公开本科教育介绍",
+      "publisher": "苏州科技大学环境科学与工程学院",
+      "publication_date": null,
+      "url": "https://ese.usts.edu.cn/rcpy/bksjy.htm",
+      "locator": "环境工程L71–77，主要课程L73；给排水L86–95，主要课程L91；L78–84环境科学段未用于环境工程事实",
+      "accessed_at": [
+        "2026-11-09T04:06:43.407Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "16d5d8b11c1fa39e68d938653440e8145d65a3733f00a749b7cd4fa18411233a",
+      "tool_representation_sha256": [
+        "adb7eabcbbd899c36a57a758dfd37f7780dbdf266839344848d22d8aa72f217a"
+      ],
+      "supports": "苏科大公开课程介绍支持两方向水处理交集、给排水水力/管网支点、环境工程分析/多介质支点；不是完整适用届别培养方案。",
+      "limits": [
+        "页面未注明适用届别，四专业总述与网站其他新版内容可能有时效差异。",
+        "不是2025/2027完整培养方案；无法证明必选修、实践学分、设备容量、学生取得和考核标准。",
+        "紧随环境工程的环境科学描述不可混入环境工程。",
+        "院系宣称的就业方向不是雇主接收证据。"
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "南京工业大学给排水科学与工程2021级培养方案",
+      "publisher": "南京工业大学城市建设学院",
+      "publication_date": "2021 cohort",
+      "url": "https://csjsxy.njtech.edu.cn/__local/2/9D/C4/B9012614D1E01B4F0B0896BF7F4_DA288CB2_BDB7F.pdf",
+      "locator": "七、专业核心课程；八、主要实践性教学环节：管道工程实训、泵站/管道/水质课程设计、生产实习",
+      "accessed_at": [
+        "2026-11-09T04:07:32.709Z"
+      ],
+      "representation": "Exa cleaned partial PDF text, maxCharacters 18000; not full PDF, raw bytes, or visual verification.",
+      "selected_extract_sha256": "13a58dbb596eabad64e97c51c79d78ed8c45b1830df31c9906efcb101ee91d01",
+      "tool_representation_sha256": [
+        "cb8063f941825e4b581aeb09fc6bfbd09e799908b92bd391ce3abfa52133d75c"
+      ],
+      "supports": "南京工业大学2021给排水历史方案有管网、泵站、水质课程设计及实训实习形态；仅跨校核查参照。",
+      "limits": [
+        "仅跨校历史训练参考，绝不赋给苏科大训练优势。",
+        "2021方案，不代表2025或2027沿用；表格转换有重行/列错位，建议仅采用多处一致、条目清楚的定性事实。",
+        "没有取得PDF原始字节或页码/像素认证，不宜用精确学分合计评分。"
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "南京工业大学本科教育：环境工程介绍",
+      "publisher": "南京工业大学环境科学与工程学院",
+      "publication_date": "2018-12-05; updated 2022-05-07",
+      "url": "https://hj.njtech.edu.cn/info/1041/1551.htm",
+      "locator": "本科教育中环境工程段L90–101；L82发布日期及更新日",
+      "accessed_at": [
+        "2026-11-09T04:09:05.492Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "79c2ceb35de1c611907ee4b3e31cb03d78b21b5010267b51c600bbd2707339bf",
+      "tool_representation_sha256": [
+        "6b47da3a59e878ff8ffd00886b3349ba7e062b9bf5ac2b1f9fd20c892aafbc1f"
+      ],
+      "supports": "南京工业大学环境工程公开介绍强调化工相关污染防治，列分析与水/气课程设计；仅跨校历史参照。",
+      "limits": [
+        "跨校参考，不是苏科大2025方案或其学生取得。",
+        "培养目标、毕业五年目标不是实际结果；不可把研发宣传当本科雇主入口。"
+      ]
+    },
+    {
+      "id": "J01",
+      "title": "江门公用水务环境股份有限公司招聘简章",
+      "publisher": "江门市国资委发布雇主招聘",
+      "publication_date": "2025-04-22",
+      "url": "https://www.jiangmen.gov.cn/jmgzw/gkmlpt/content/3/3286/post_3286523.html",
+      "locator": "岗位（五）L202–233（人数、职责、学历/专业及优先条件）；四L344–349（录用）；五（三）L357（调配）",
+      "accessed_at": [
+        "2026-11-09T04:09:05.492Z"
+      ],
+      "representation": "Tool-readable transformed publication text or observed visible DOM. Not original HTML/PDF bytes.",
+      "selected_extract_sha256": "07a42041069fb6369ca733b99962e744be250642720f9fa26375b20afb6802d8",
+      "tool_representation_sha256": [
+        "6b47da3a59e878ff8ffd00886b3349ba7e062b9bf5ac2b1f9fd20c892aafbc1f"
+      ],
+      "supports": "江门2025制供水技术管理岗1名，要求全日制本科及以上、30周岁及以下，有两类专业共同接收表述，同时有学校类别优先、技能及录用条件；不是江苏污水岗位或实际到岗证明。",
+      "limits": [
+        "只证明江门2025当批允许申请，不是无锡或苏州岗位，更不保证2031接收。",
+        "环境科学与工程类是专业类表达，未核校方具体毕业专业被雇主认定。",
+        "同岗共列不代表两专业同胜率或相同训练。"
+      ]
+    }
+  ],
+  "analysis_claims": [
+    {
+      "id": "D01",
+      "type": "conditional_inference_and_recommendation",
+      "statement": "江苏公共管网诊断、改造和厂网接口目标下，给排水弱前置；实际训练反差或进入成本差异可反转。",
+      "sources": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "assumptions": [
+        "目标是公共网络与工程接口；实际求职城市另核",
+        "两方向学校、进入成本和可取得实践大体相近",
+        "任务有支付、承接主体和本科带教入口"
+      ],
+      "unverified_connections": [
+        "江苏具体新人岗位及同岗相对录用机会",
+        "苏科大2027实际训练与考核"
+      ],
+      "reversal": "环境工程实际网络工程训练明显更强、或目标转为工业污染任务、或入学成本不再相近时重排。"
+    },
+    {
+      "id": "D02",
+      "type": "conditional_inference",
+      "statement": "城镇污水工艺/运行目标下暂并列，不能按专业名切开工程与运营。",
+      "sources": [
+        "T01"
+      ],
+      "assumptions": [
+        "目标岗位均接收两方向",
+        "水处理实践质量、取得机会与成本相近"
+      ],
+      "unverified_connections": [
+        "尚无江苏精确污水岗位共同接收证据",
+        "课程交集不证明同岗同胜率"
+      ],
+      "reversal": "若一方向实践、岗位接收或带教条件明显更好，按其排序。"
+    },
+    {
+      "id": "D03",
+      "type": "conditional_inference",
+      "statement": "工业废水分析试验与多介质治理目标，且对应实践及雇主接收兑现时环境工程可弱前置。",
+      "sources": [
+        "P02",
+        "T01"
+      ],
+      "assumptions": [
+        "目标确为工业来水及多介质问题而非公共网络工程",
+        "取得分析、试验和工程应用闭环"
+      ],
+      "unverified_connections": [
+        "目标城市工业用工需求及具体专业接收",
+        "苏科大实际训练、毕业生取得率"
+      ],
+      "reversal": "真实工作回到公共网络或环境训练泛化无项目时撤回；T03仅帮助提出训练核查问题，不证明本判断的苏科大实践前提。"
+    },
+    {
+      "id": "D04",
+      "type": "mechanism_hypothesis_and_counterexample",
+      "statement": "按效付费落实时可增加网络、工艺与验收的接口价值，但可能由存量整合、外包或少数骨干完成，不推出同比例新增本科岗位。",
+      "sources": [
+        "P01",
+        "P02",
+        "I01"
+      ],
+      "assumptions": [
+        "合同执行、计量可靠、资金可兑现",
+        "承接主体能组织诊断、工程和运行反馈"
+      ],
+      "unverified_connections": [
+        "无锡合同执行和回款",
+        "江南水务业务变化与政策的合同对应或因果",
+        "业务分部新人净招聘"
+      ],
+      "counterexample": "工程安装下降、处理增收低毛利、服务业增长同时存在，收窄从政策/收入直接推用工的判断；毛利不是工资或现金流。"
+    },
+    {
+      "id": "D05",
+      "type": "training_and_timing_recommendation",
+      "statement": "以可取得且考核的任务产物比较训练，本科就业与三年硕士分别比较时间、现金成本、项目经验与目标资格。",
+      "sources": [
+        "T01",
+        "T02",
+        "T03",
+        "J01"
+      ],
+      "assumptions": [
+        "2027四年本科；如选择硕士则2031起三年，实际学制另核",
+        "建议训练不代表学校已提供或岗位已招聘"
+      ],
+      "unverified_connections": [
+        "2027课程实践与设备/带教容量",
+        "硕士项目质量、费用奖助和目标岗位门槛"
+      ],
+      "reversal": "没有适配项目或已有较好的本科带教岗位时，不默认读研；学历本身不保证岗位或成长。"
+    },
+    {
+      "id": "D06",
+      "type": "bounded_eligibility_inference",
+      "statement": "江门历史制供水本科共同接收反驳专业/学历绝对排斥，但不支持江苏污水入口、苏科大输送或同胜率。",
+      "sources": [
+        "J01"
+      ],
+      "assumptions": [],
+      "unverified_connections": [
+        "具体环境工程毕业专业的雇主认定",
+        "实际录用、岗位分工及新人带教",
+        "江苏目标年份对应接收"
+      ],
+      "reversal": "具体求职时按当批雇主认定、技能、学校优先与选拔重新判断。"
+    },
+    {
+      "id": "D07",
+      "type": "explicit_population_and_space_scenarios",
+      "statement": "服务人口、工业负荷、资产寿命、支付组织与求职供给分时钟推演；不把出生下降直接变成2031竞争缓解。",
+      "sources": [
+        "P01",
+        "P02"
+      ],
+      "assumptions": [
+        "人口收缩/流入、工业迁移、收费受限、组织整合均为可替换情景而非已核地方预测",
+        "2031毕业供给经过既有队列、招生、毕业升学与迁移"
+      ],
+      "unverified_connections": [
+        "江苏各市2037人口工业负荷",
+        "水务从业者年龄结构与真实补员",
+        "两专业目标市场求职人数"
+      ],
+      "reversal": "据实际服务空间、负荷、支付和新招岗位重排；不以刚需或退休总量承诺入口。"
+    }
+  ],
+  "admissions_boundary": "历史计划不等于录取或专业组核验；不构成2027正式可报表，不新增已核候选，不改变既有9组48成员等计数。",
+  "review_boundary": "作者自检不等于独立内容审核；此来源索引不声明PR、平台检查或合并完成。"
+}
