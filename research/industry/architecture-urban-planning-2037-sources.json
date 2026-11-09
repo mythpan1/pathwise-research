@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "topic": "建筑学与城乡规划的本科选择及约2037职业条件",
+  "revision_date": "2026-11-09",
+  "scope": {
+    "student_origin": "江苏",
+    "entry_year_assumption": 2027,
+    "career_horizon": 2037,
+    "admissions_reference": "仅苏州大学2025江苏历史计划",
+    "curriculum_reference": "哈尔滨工业大学本部2024级同校同版"
+  },
+  "evidence_note": "9来源，其中7项原字节、2项仅网页工具转换；事实支点与作者条件推断分开。未取得内容不补写；不含原件、个人联系资料或内部日志。",
+  "sources": [
+    {
+      "id": "U-hit-arch2024",
+      "title": "建筑学专业本科生培养方案（2024级执行）",
+      "publisher": "哈尔滨工业大学建筑与设计学院",
+      "publication_date": "2026-06-30",
+      "version": "2024级执行；官网发布2026-06-30",
+      "effective_cohort": "2024",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/50/b8/37f5238d41a0af9b97c010d87d7d/81a5beba-af29-4ca6-a14a-9449d7fc2004.pdf",
+      "retrieved_at_utc": "2026-11-09T22:29:21.179503+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "fc3c8586c8c71da4b00c26949c3ab18d2e9d5d6f8ad61ac529be5ec6ea37ddfa",
+        "conversion_sha256": "22b2e97d2d334441b307db5f0f6325d7325930fa0fc35ffb982c818bc9541f30",
+        "completeness": "PDF原字节及全文提取"
+      },
+      "locators": [
+        "第1页版本；第2页修业年限/学位/学分",
+        "第5—6页专业核心和专业限选分类",
+        "第6—8页选修规则与轨道",
+        "第12—13页集中设计、实践和毕业设计"
+      ],
+      "verified_facts": [
+        "五年；建筑学学士；至少200学分。",
+        "核心75.5学分；专业方向选修19.5学分，其中限选10.5、专业选修9。具体核心表包含建筑设计2—6和建筑技术课程；建议限选表不可整表视为必修。",
+        "第四年有集中设计与校企联合课；第五年秋业务实践8周加4周、春毕业设计16周。"
+      ],
+      "decision_uses": [
+        "学制时间轴",
+        "单体/技术训练匹配",
+        "作品与实践投入"
+      ],
+      "limitations": [
+        "2024级方案，2026发布不等于2026级或2027适用；未核实际教学、带教与就业成效。",
+        "专业限选与选修的选择要求不能改写为所有列课必修；学位不证明注册或独立签章权限。",
+        "哈工大样本不可嫁接苏州大学招生入口。"
+      ],
+      "publication_metadata": {
+        "host_page_url": "https://arch.hit.edu.cn/2026/0630/c12219a395517/pagem.htm",
+        "locator": "官网发布页：标题适用于2024级学生；时间2026-06-30；两对应附件名称",
+        "form": "已保存官方发布页工具转换；附件PDF有原字节"
+      }
+    },
+    {
+      "id": "U-hit-plan2024",
+      "title": "城乡规划专业本科生培养方案（2024级执行）",
+      "publisher": "哈尔滨工业大学建筑与设计学院",
+      "publication_date": "2026-06-30",
+      "version": "2024级执行；与建筑学同校同版",
+      "effective_cohort": "2024",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/50/b8/37f5238d41a0af9b97c010d87d7d/7ec9883b-1827-4fae-a278-1066a5f0e9d2.pdf",
+      "retrieved_at_utc": "2026-11-09T22:29:26.263529+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "7948197aa4c24632497b85cfec4e6989137087f8630909ab862735f5dc20ff32",
+        "conversion_sha256": "7137cd6a56277243c7346deadb04976d42f48e030c4843406895b937c59ec555",
+        "completeness": "PDF原字节及全文提取"
+      },
+      "locators": [
+        "第1页版本；第2页修业年限/学位/学分",
+        "第5—6页专业核心和限选分类",
+        "第7—8页专业选修轨道（含AI课程）",
+        "第12—14页调查实践、设计进程和毕业设计"
+      ],
+      "verified_facts": [
+        "五年；工学学士；至少200学分。",
+        "核心77学分；专业方向选修18学分，其中限选10.5、专业选修7.5。核心含建筑设计2、场地/规划设计、城市综合调研、GIS、法规与国土空间规划等。",
+        "AI大模型与城市规划、城市规划大语言模型应用属于专业选修；第五年秋业务实践12周、春毕业设计16周。"
+      ],
+      "decision_uses": [
+        "学制时间轴",
+        "多尺度/调查/规则训练匹配",
+        "设计与AI课程分类"
+      ],
+      "limitations": [
+        "2027适用与实际教学落实未知；AI专业选修不代表人人必修。",
+        "四轨道不是四个独立专业；课程中的管理法规不授予行政审批权。",
+        "第12页城市认识的表格所在学期与备注授课学期表述不一致，本文只使用2周，不据此确定具体学期。"
+      ],
+      "publication_metadata": {
+        "host_page_url": "https://arch.hit.edu.cn/2026/0630/c12219a395517/pagem.htm",
+        "locator": "官网发布页：标题适用于2024级学生；时间2026-06-30；两对应附件名称",
+        "form": "已保存官方发布页工具转换；附件PDF有原字节"
+      }
+    },
+    {
+      "id": "U-change",
+      "title": "我校新增3个本科专业",
+      "publisher": "南京工业大学教务处",
+      "publication_date": "2026-05-08",
+      "version": "2025年度专业备案审批结果的2026公告",
+      "effective_cohort": null,
+      "url": "https://jwc.njtech.edu.cn/info/1069/6703.htm",
+      "retrieved_at_utc": "2026-11-09T22:26:17.607954+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "11e219002111415e755730858ddd4cd29fdac06eeae1b7081141d0a123b55f28",
+        "conversion_sha256": "ef0a9e5f5bfb4f719788620843345d06d82316499af94c125eced3e097e282d3",
+        "completeness": "HTML原字节及重新提取正文"
+      },
+      "locators": [
+        "正文首段：城乡规划学制五年调整为四年；全文未指明适用届别"
+      ],
+      "verified_facts": [
+        "2026年公告明确城乡规划由五年调整为四年。"
+      ],
+      "decision_uses": [
+        "四年路径必须条件化",
+        "最值得复核的适用届别"
+      ],
+      "limitations": [
+        "公告未指明适用入学届别。",
+        "培养附件遇验证码而停止，四年完整课程与学位未取得；不能拼接哈工大五年方案。"
+      ]
+    },
+    {
+      "id": "A-suda2025",
+      "title": "苏州大学2025年报考指南（江苏版）",
+      "publisher": "苏州大学本科招生办公室",
+      "publication_date": null,
+      "version": "2025江苏版；HTTP Last-Modified 2025-06-19不是发布日期",
+      "effective_cohort": "2025 admissions Jiangsu",
+      "url": "https://zsb.suda.edu.cn/system_dntb/upload/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A62025%E5%B9%B4%E6%8A%A5%E8%80%83%E6%8C%87%E5%8D%97%EF%BC%88%E6%B1%9F%E8%8B%8F%E7%89%88%EF%BC%89.pdf",
+      "retrieved_at_utc": "2026-11-09T22:29:56.694264+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "026f84f4e9a2d6411b49a2cec906c48a75cd5c8465fa9cdd4d940fb88e7c93b8",
+        "conversion_sha256": "f10bbd1ca43143da45f8c2d66804f7c9c825932c22c05266e0cbeb066cdd1002",
+        "completeness": "PDF原字节及全文提取"
+      },
+      "locators": [
+        "PDF第8物理页，印刷第13页左上院校专业组29表（2025年江苏招生计划）"
+      ],
+      "verified_facts": [
+        "2025江苏物理+不限29组：建筑学五年38、城乡规划五年16、风景园林四年23、历史建筑保护工程四年13。",
+        "这是同组具名专业计划，不是录取结果或2027计划。"
+      ],
+      "decision_uses": [
+        "江苏历史组入口及其他成员接受条件"
+      ],
+      "limitations": [
+        "发布日未知，HTTP Last-Modified不作为发布日期。",
+        "只用2025计划表；不构成2027资格、组内录取机会或全组接受证明。",
+        "未核苏大完整培养、当年绘画要求与专业分配规则，不以其他学校课程替代。"
+      ]
+    },
+    {
+      "id": "J-gad",
+      "title": "gad杰地设计2026–2027校园招聘",
+      "publisher": "杰地设计集团有限公司；浙江大学就业平台承载",
+      "publication_date": "2026-10-21",
+      "version": "单页多职位历史广告",
+      "effective_cohort": null,
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5E2A0DA975B3E9A0E0653A68DD0E9B18",
+      "retrieved_at_utc": "2026-11-09T22:27:55.594790+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "5ee3c23335645e4d0c7445d676c0e3892bd6e6ac21c1f31590c1789b082c4e4f",
+        "conversion_sha256": "27af92be641ea8c14c171f6577440b00cbaecfb45862e9e65f69896ed2f14027",
+        "completeness": "HTML原字节及重新提取正文"
+      },
+      "locators": [
+        "应聘材料要求一：设计师简历与作品集",
+        "岗位描述一、设计：建筑设计；城市/规划设计",
+        "岗位描述六、实习生：建筑设计实习生"
+      ],
+      "verified_facts": [
+        "建筑设计单岗要求建筑学全日制本科及以上；城市/规划设计单岗兼收城市设计、城乡规划、建筑学等本科。",
+        "建筑设计地点列杭州/青岛/上海/厦门/重庆/成都；城市/规划列杭州/重庆。",
+        "设计师要求简历与作品集合并PDF；建筑设计实习生为另列入口，大四及以上、连续至少两个月。"
+      ],
+      "decision_uses": [
+        "同雇主入口不对称与弱顺序",
+        "共同设计岗暂不按专业名排序",
+        "实习分列"
+      ],
+      "limitations": [
+        "单页为多岗广告，总栏人数/地点/全职实习不可套给每个职位。",
+        "单岗精确毕业届、经验豁免、实际录用、薪资和劳动合同未核；历史广告不保证2032可用。",
+        "同岗专业开放不证明录用概率相同；未确认江苏岗位。"
+      ]
+    },
+    {
+      "id": "J-guangzhou",
+      "title": "广州市城市规划设计有限公司2025年校园招聘简章",
+      "publisher": "广州市城市规划设计有限公司；华中科技大学就业平台承载",
+      "publication_date": "2024-12-16",
+      "version": "面向2025届；发布2024-12-16",
+      "effective_cohort": null,
+      "url": "https://job.hust.edu.cn/zpinfo1/2174230.htm",
+      "retrieved_at_utc": null,
+      "retrieval_time_note": "web original read occurred before403; exact actual UTC not recorded; posthoc known only, no fabricated timestamp",
+      "acquisition": {
+        "form": "tool_converted_page_only",
+        "original_bytes_obtained": false,
+        "original_sha256": null,
+        "conversion_sha256": "04981f7872096e918d9e248563634a42b62f296b653b061427f336f198589a30",
+        "completeness": "157行完整工具转换，非原HTML"
+      },
+      "locators": [
+        "网页转换L38—67：发布日期、招聘对象",
+        "L82：作品集如有",
+        "L88—132：岗位学历、设计助理职责及人数表"
+      ],
+      "verified_facts": [
+        "本科设计助理13人广告接收城乡规划、建筑学等；同页助理规划师为硕士、规划师为博士。",
+        "设计助理只列知识/软件/学习沟通条件，作品集如有；没有具体交付与单岗地点。"
+      ],
+      "decision_uses": [
+        "本科入口存在但职级分层",
+        "不默认读研或全国硕士门槛"
+      ],
+      "limitations": [
+        "仅完整157行网页工具转换；后来原HTML请求403，已停止，原字节未取得。",
+        "广告人数不是实际录用或净增；公司业务范围不等于单岗工作地点。",
+        "职级学历门槛只属于该广告，不外推全行业。"
+      ]
+    },
+    {
+      "id": "P-update",
+      "title": "关于持续推进城市更新行动的意见",
+      "publisher": "中共中央办公厅、国务院办公厅；生态环境部转载",
+      "publication_date": "2025-05-16",
+      "version": "文件落款2025-05-02，转载2025-05-16",
+      "effective_cohort": null,
+      "url": "https://www.mee.gov.cn/zcwj/zyygwj/202505/t20250516_1119546.shtml",
+      "retrieved_at_utc": "2026-11-09T22:27:35.647938+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "b43bfc36b5bb3f016e121d3300fca6227de1becdcac6b28ae341cee3a058d4e9",
+        "conversion_sha256": "21f5180e9c3e767c7e5b8dcff08dd10ee98b050fe26a46565ada86d2ee578ec8",
+        "completeness": "HTML原字节及重新提取正文"
+      },
+      "locators": [
+        "一、总体要求：2030目标",
+        "二（一）至（五）：建筑、小区、社区、街区及城市功能",
+        "三（一）：城市体检与专项规划—片区策划—项目实施方案",
+        "三（四）：有条件的投融资渠道"
+      ],
+      "verified_facts": [
+        "2030是阶段目标；城市体检与不同层次规划实施相衔接。",
+        "支持既有建筑、社区、街区、公共设施等更新；财政和金融支持有适用条件。"
+      ],
+      "decision_uses": [
+        "政策—委托条件链",
+        "2030/2032时间差"
+      ],
+      "limitations": [
+        "政策阶段目标不是合同、到账或岗位；2030早于五年制条件毕业年2032。",
+        "政策不能证明2030之后仍有多少接续委托；不作人口统计来源。"
+      ]
+    },
+    {
+      "id": "B-huayang",
+      "title": "深圳市华阳国际工程设计股份有限公司2025年年度报告全文",
+      "publisher": "深圳市华阳国际工程设计股份有限公司；深交所披露",
+      "publication_date": "2026-04-16",
+      "version": "2025年报；报告期2025-01-01至12-31",
+      "effective_cohort": null,
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-16/94ccaad1-7c31-4948-8ece-dda2b5004171.PDF",
+      "retrieved_at_utc": "2026-11-09T22:27:17.129221+00:00",
+      "retrieval_time_note": "取得时间来自采集记录；不同于服务器Date。",
+      "acquisition": {
+        "form": "downloaded_original_bytes",
+        "original_bytes_obtained": true,
+        "original_sha256": "15b1bd83c1fd8fe5ba1b56a3925f9d75bda37a1e33ecd492365638b3dca15b3c",
+        "conversion_sha256": "c3dd958f1b13b67e044545f13666fe954c676d96d90b9a658d536b7877c86e95",
+        "completeness": "PDF原字节及全文提取"
+      },
+      "locators": [
+        "第11页：设计业务四阶段",
+        "第12、17页：AI等研发应用表述",
+        "第17页：总收入与建筑设计收入",
+        "第32页：应收账款无法收回风险",
+        "第75页：收入确认审计程序中的阶段凭据"
+      ],
+      "verified_facts": [
+        "设计业务分规划及方案、初步设计、施工图、施工配合四阶段。",
+        "2025总收入120315.19万元、同比+3.10%；建筑设计收入81238.87万元、同比-14.49%。",
+        "披露个别客户进度款与胜诉后执行拖延、收款周期延长；收入确认审计核查不同阶段支持材料。",
+        "企业披露AI辅助生成、智能审图等方向，未提供独立可核的减员或工时成效。"
+      ],
+      "decision_uses": [
+        "下调普遍押注建筑设计的强度",
+        "交付/回款节点",
+        "AI组织响应情景"
+      ],
+      "limitations": [
+        "单一多业务企业，不代表全国行业或两专业就业；总收入不能替代设计业务收入。",
+        "收入确认凭据不是所有合同统一验收付款条款。",
+        "不与苏州合同或招聘样本拼成同一企业/项目链；技术研发表述不当作效果实测。"
+      ]
+    },
+    {
+      "id": "C-suzhou",
+      "title": "苏州市城市更新专项规划采购合同/成交/采购公告",
+      "publisher": "苏州市住房和城乡建设局；苏州市政府采购网",
+      "publication_date": "2025-09-05",
+      "version": "合同2025-09-03签订；页面含2025-07-28采购及08-11成交",
+      "effective_cohort": null,
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/027980bb91ad4ab1af2c05938282248c.shtml",
+      "retrieved_at_utc": null,
+      "retrieval_time_note": "Exact web readUTC not captured; posthoc timestamp must not be treated as access time",
+      "acquisition": {
+        "form": "tool_converted_page_only",
+        "original_bytes_obtained": false,
+        "original_sha256": null,
+        "conversion_sha256": "db178c9845d2e7664c670dd364faae1f1045a6902dfc098147ea60271eff344f",
+        "completeness": "L0—402/总489行的部分工具转换，非HTML或合同PDF"
+      },
+      "locators": [
+        "公告转换L93—171：预算、合同主体/金额、签约与公告日期",
+        "L179—196：成交和服务范围/完成编制时间",
+        "L319—369：采购需求及组织资质要求"
+      ],
+      "verified_facts": [
+        "预算371.89万元；合同369.8万元；苏州市住建局采购、江苏省城市规划设计研究院有限公司承接；2025-09-03签订。",
+        "服务规划范围为建成区、研究范围市域；2025-11-30前完成编制，批复时间受评审报批影响。",
+        "采购要求有效城乡规划编制甲级资质。金额是专项规划服务合同，不是更新总投资。"
+      ],
+      "decision_uses": [
+        "真实服务委托与金额口径",
+        "交付/付款未知下的条件传导"
+      ],
+      "limitations": [
+        "仅取得原公告网址工具转换的L0—402/标示489行，非完整HTML，也非合同PDF。",
+        "合同附件未取得，验收、付款及实际回款未知；失败后停止该资源访问。",
+        "签约不证明已完成、已到账或增员；2025项目不保证2032入口。"
+      ]
+    }
+  ]
+}
