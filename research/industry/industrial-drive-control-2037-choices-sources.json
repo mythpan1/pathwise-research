@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-09",
+  "task": "https://github.com/mythpan1/pathwise-research/issues/422",
+  "baseline_commit": "04a9dafec22f09b10944870f130dd02e52abb28a",
+  "scope": "江苏生源2027本科选择；2031本科、可选2034硕士、2037职业早期；工业电驱与运动控制的电气/自动化条件比较。",
+  "evidence_boundary": "原始HTML/PDF字节与可读表示分别冻结。哈希标识内容，不证明来源结论或2031持续性。冻结表示的行/表编号非原站永久编号；原件、联系人和内部记录不随索引发布。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "汇川技术：应用开发工程师（2026届）",
+      "publisher": "南昌大学招生与就业工作处就业网发布企业职位",
+      "url": "https://jy.ncu.edu.cn/detail/job?id=2725785",
+      "publication_date": "2026-04-02",
+      "accessed_at": "2026-11-09T00:07:45.389230+00:00",
+      "source_type": "university_published_employer_recruitment",
+      "geography": "全国，未逐城市分配",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "职位描述：岗位职责及任职资格；冻结HTML文本表示L48—73。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "4d205e0f89e40ccbf7c33d7e30653117e6d81aeebf90e8b619335b8051f0d363",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "977e9ea4f21338605ca23183edae9e73a5196e6274f0eeb557459b1b73c7e11a"
+      },
+      "supports": [
+        "2026届本科或研究生应用开发岗的专业优先项同时列电气、自动化及其他相关专业。",
+        "职责为客户需求、公司平台方案、实施验收、培训文档和现场反馈；要求编程基础，项目/实习经历优先；列一年后销售或技术定岗。"
+      ],
+      "limits": [
+        "地点仅写全国，不可重写为苏州或承诺本地定岗。",
+        "业务介绍并列工业自动化与汽车等多业务，本岗位正文未绑定某一伺服/汽车产品线。",
+        "属客户应用/交付岗位，不是算法或功率硬件研发的直接接收证据。",
+        "薪酬是网页当期区间，不外推2031，本包不据此比较专业收益。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C05"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "苏州弘远电气2027届校园招聘简章",
+      "publisher": "吉林大学就业网发布企业简章",
+      "url": "https://jdjywpt.jlu.edu.cn/mportal/recruit/details?id=4547f177e0ab40cab98735f4736179c8",
+      "publication_date": "2026-09-16",
+      "accessed_at": "2026-11-09T00:08:03.371613+00:00",
+      "source_type": "university_published_employer_recruitment",
+      "geography": "企业苏州总部；岗位驻地未逐项说明",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "二、招聘对象；三、招聘岗位，第二张表硬件、电气、测试、软件和技术支持行；冻结表表示T2 R2、R3、R5、R6、R8。",
+        "公司简介仅用于企业与岗位地点、产品线边界。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "5834fe7a2aec5f21cd4ad1f2f6438c88092196df0a33045dc3cba1ba9c07dbda",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "2f25494b8ccf13a5b80e1be006650c330b8a63ea466cc87047ef1dd7f8587a3f",
+        "table_representation_sha256": "a41cccbc37ae1cfadf72e26c299a292268ec29dad52ea4fa7128aa966d93f34d"
+      },
+      "supports": [
+        "2027应届简章硬件、变频柜电气、研发测试三行的专业栏同时列电气和自动化、学历本科/硕士；资格细项另行保留。",
+        "硬件岗包括协助研发、测试工位、原理图及样机整改；电气岗包括选型、图纸/BOM、交付调试及EMC/接地/散热/保护联锁规范；测试岗包括研发样机白盒/黑盒及器件替代测试。",
+        "电机控制软件岗要求硕士及以上及ARM/DSP的C开发。"
+      ],
+      "limits": [
+        "企业地址为苏州吴江，正文还说无锡分公司及跨区支持团队；岗位表没有上班地点列，不可把全部岗位定为苏州。",
+        "专业表与具体资格文字不完全相同，要同时保留，尤其技术支持资格写自动化类工科。",
+        "介绍并列变频器、伺服、新能源汽车驱动器，未把硬件/测试逐项绑定工业或汽车产品，不得自行归链。",
+        "招聘人数与薪酬均为企业当期计划，不证明实际录用或长期岗位量。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C05"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "伟创电气2027秋季校园招聘简章",
+      "publisher": "天津工业大学就业网发布企业简章",
+      "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56093.html",
+      "publication_date": "2026-09-12",
+      "accessed_at": "2026-11-09T00:07:57.002259+00:00",
+      "source_type": "university_published_employer_recruitment",
+      "geography": "逐岗位列苏州及其他城市",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "三、校招岗位：电机测试、测试、硬件、算法与软件行；冻结表表示T1 R2—4、R6、R10。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "5bce7329df8219391b86b8803235125b6f4f18a548bb6ba1b02acf4c50a8e783",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "0dede8288807af5e101c8895dcc0e0d494e76d9fef564bd4d1cae928e8ca304d",
+        "table_representation_sha256": "ddb40064ad68822400f6f1e1fbbd21bbfca785ebf36642101e4a3cf9e6a3215a"
+      },
+      "supports": [
+        "苏州电机测试岗明确本科/硕士，专业含电气、自动化、测控；另一个测试岗地点苏州/深圳/西安。",
+        "硬件岗本科/硕士，但专业未逐字列自动化；算法与软件岗为硕士/博士。"
+      ],
+      "limits": [
+        "本页只有岗位表，没有测试和拓展的详细职责，不能自行补写测项或把拓展当研发。",
+        "硬件行未明确列自动化本科字样，只列控制工程等，不能借别的岗位扩成全部共同接收。",
+        "企业简介是工业自动化产品矩阵和新兴业务描述，不能据此给全部岗位分产品线。",
+        "地域和学历仅对应当期岗位计划。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C05"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "新代科技/苏州联达2027届校园招聘简章",
+      "publisher": "安徽师范大学就业服务网发布企业简章",
+      "url": "https://career.ahnu.edu.cn/info/1008/37472.htm",
+      "publication_date": "2026-10-29",
+      "accessed_at": "2026-11-09T00:08:10.465884+00:00",
+      "source_type": "university_published_employer_recruitment",
+      "geography": "应用城市清单含苏州；产品苏州园区/广州南沙",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "三、2027年应届生招聘岗位：产品工程师、应用工程师；冻结HTML文本表示L68—94。",
+        "福利与Q&A培训表述、文末泛专业名单只用于解释范围限制。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "6dd868e9ee74463a6e4eb65799ff722dbcc87096ad39e07f8fe906c24bd340b4",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "03f0a9c58951e99ecab046cb87ddc61ba9ec764ca0fbc99a9288451c0a8b313c"
+      },
+      "supports": [
+        "本科应届应用岗逐字列自动化、机电一体化、机器人等，要求PLC基础、适应出差及驾照，城市清单包括苏州。",
+        "应用任务有培训支持、方案资料、需求收集、二次开发及问题处理，也含客户推广活动；产品工程师要求硕士，含应用、开发及跨研发协调。"
+      ],
+      "limits": [
+        "标题为苏州联达，正文以新代集团两家公司联合介绍，不可把每岗直接认定为同一法人。",
+        "应用岗具体资格没有逐字列电气；文末校园大使泛专业名单不能替代岗位资格。",
+        "产品工程师是混合应用/开发任务，不能把硕士要求概括成所有应用岗必需硕士。",
+        "培训时长正文2.5个月与Q&A的0-3个月/前三个月表述有差异，只宜说有集中训练。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C05"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "禾川官网社会招聘：设备调试维护、功率硬件及嵌入式",
+      "publisher": "浙江禾川科技股份有限公司官网",
+      "url": "https://www.hcfa.cn/about/join.html",
+      "publication_date": "2025-12-11",
+      "accessed_at": "2026-11-09T00:07:51.081374+00:00",
+      "source_type": "company_official_recruitment",
+      "geography": "龙游设备维护；苏州功率硬件；杭州嵌入式",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "社会招聘热招职位：助理电气工程师、功率硬件工程师R10031；冻结HTML文本表示L235—248、L315—329。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "439ca1bb4fc895b3d0cdafc01b39d2c2d11ff3b43ea02a63c20141967a299b16",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "99ad46bdc0eab92ba0ce6128a61ceaf559ca5b1803ec37adc80f7634fa655097"
+      },
+      "supports": [
+        "龙游助理电气工程师为设备调试、维护、异常分析改进，学历大专及以上，标签1年经验。",
+        "苏州功率硬件岗标签3—5年，资格正文8年以上量产变频器硬件研发经验，存在未解冲突；不是确认的应届岗位。"
+      ],
+      "limits": [
+        "功率硬件标签写3-5年，资格正文却写8年以上量产变频器硬件研发经验，冲突未解决，不可用较低标签宣称新人入口。",
+        "校园招聘子页为暂无数据，不代表该企业没有任何校招。",
+        "该设备维护工作包与对外产品研发不同；页面未明确具体工厂/客户现场，不能把它充当本科组件研发入口。",
+        "网页发布日期与访问日期分开，不知道岗位是否仍未招满。"
+      ],
+      "used_in_claims": [
+        "C03",
+        "C06"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "上海电机学院：电气工程及其自动化专业培养计划",
+      "publisher": "上海电机学院电气与能源工程学院",
+      "url": "https://dqxy.sdju.edu.cn/2024/0128/c7058a127151/page.htm",
+      "publication_date": "2024-01-28",
+      "accessed_at": "2026-11-09T00:08:29.617274+00:00",
+      "source_type": "university_official_curriculum",
+      "geography": "上海，同校培养对照",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "七、课程计划表：电机、电力电子、PLC、限选及综合实践；冻结表表示T1 R63—80、R82—98、R103、R109—120。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "1f57b6d51b76e8137eecb5e55714f8200632a9c138e10d33a3e56ebf43e7f307",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "d0e1313a2f5883f077bfaf320c3737f3c790cd996e682705a86fe13f888188a8",
+        "table_representation_sha256": "b35f50612ebb9ef1986ff18ad390a2d7c20ec3dabd3c1a84dd505450e33a07fb"
+      },
+      "supports": [
+        "该版电气必修电机学48学时及另设32学时实验，电力电子48学时及另设16学时实验；PLC32学时及另设16学时实验。",
+        "DSP原理与电机控制、开关电源、运动控制系统与继电保护均标限选；系统集成和电气设备运行综合实验各40学时。",
+        "生产实习3学分60学时、毕业设计10学分300学时；另有电力系统基础和高电压技术必修。"
+      ],
+      "limits": [
+        "页面日期不是明确适用年级；未认定为2024届或2027培养方案。",
+        "限选不等于每人必修，不保证某届均开课、能选到或取得同等设备时间。",
+        "课程安排不是个人达到能力的证明，学分高低不能直接当就业胜率。",
+        "只作培养对照，不新增江苏招生候选或认定可报。"
+      ],
+      "used_in_claims": [
+        "C04",
+        "C07"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "上海电机学院：自动化专业培养计划",
+      "publisher": "上海电机学院电气与能源工程学院",
+      "url": "https://dqxy.sdju.edu.cn/2024/0128/c7058a127154/page.htm",
+      "publication_date": "2024-01-28",
+      "accessed_at": "2026-11-09T00:08:19.132597+00:00",
+      "source_type": "university_official_curriculum",
+      "geography": "上海，同校培养对照",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "七、课程计划表：基础、电力电子、电机拖动、PLC与综合实践；冻结表表示T1 R65—79、R87—98、R115—121。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "b32937698a18df10ccfe525af8a82831d1e018ec70a92538b0e8bd5776d57122",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "01acc1b51cb51aa1dca1ffc88f78811a6802f7ea1b01a30684f85340b427b7cb",
+        "table_representation_sha256": "37c1ed44bd82b4ea63634ee92592718c8a54140915fbda97c6135b25beced2b1"
+      },
+      "supports": [
+        "该版自动化必修电机与拖动基础32学时含8实验，电力电子48学时含8实验；工业网络与PLC48学时及另设32学时实验。",
+        "自动化综合和电气技术综合实验各40学时，计算机控制技术与控制系统仿真及CAD设计必修；DSP、机器人控制等为选修。",
+        "生产实习3学分60学时、毕业设计10学分300学时；过程控制系统必修。"
+      ],
+      "limits": [
+        "页面日期不是适用年级；不代表2027方案和个人实际训练量。",
+        "同校两表足以核课程差异，不可代表所有电气/自动化学校的固定优劣。",
+        "没有运动控制系统这一同名课不等于没有任何相关训练，也不能因课程名相似就宣称同深度。",
+        "只作培养对照，不恢复招生采集。"
+      ],
+      "used_in_claims": [
+        "C04",
+        "C07"
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "上海电机学院电气学院实验中心简介",
+      "publisher": "上海电机学院电气与能源工程学院",
+      "url": "https://dqxy.sdju.edu.cn/2025/0702/c7063a142258/page.htm",
+      "publication_date": "2025-07-02",
+      "accessed_at": "2026-11-09T00:10:08.143929+00:00",
+      "source_type": "university_official_teaching_facility",
+      "geography": "上海，服务本学院多个专业",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "正文实验教学服务对象、开放用途与共建平台；冻结HTML文本表示L52—57。"
+      ],
+      "snapshot": {
+        "original_format": "HTML",
+        "original_bytes_sha256": "ff144f0f8098e096433c31d6bef8eeee7f1d3b3e7c8902b2170559d10389825a",
+        "representation_format": "HTML text/table extraction",
+        "representation_sha256": "1771012de379d32bd872afc790465c535480bf386d0ca49c9ca0c95e820436f1"
+      },
+      "supports": [
+        "实验中心服务电气、自动化等专业，面向本院师生开放，支持实习、课程设计、毕设、创新竞赛等；存在企业共建平台。"
+      ],
+      "limits": [
+        "设备/面积统计注明截至2024年3月，不能当成2026实时盘点。",
+        "总规模不是人均可用设备时长；共建平台不保证每位本科生均可进入真实客户项目。",
+        "认证培训基地存在不等于毕业自动取得作业资格或证书。"
+      ],
+      "used_in_claims": [
+        "C04"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "汇川技术2026年半年度报告全文",
+      "publisher": "深圳市汇川技术股份有限公司；巨潮资讯网披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524610.PDF",
+      "publication_date": "2026-08-29",
+      "accessed_at": "2026-11-09T00:08:33.326326+00:00",
+      "source_type": "issuer_filing_on_designated_disclosure_site",
+      "geography": "全国/全球公司业务；非苏州单一岗位市场",
+      "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "locator": [
+        "第三节一，业务与经营模式，印刷及物理页10—12、14—16。",
+        "第三节四，主要经营总结，页21—24；第三节十一，风险，页37—38。",
+        "页22、38另核页面图像；正文中引用的其他章节以PDF文本表示核读。"
+      ],
+      "snapshot": {
+        "original_format": "PDF",
+        "original_bytes_sha256": "9d4e8851dc5129228caaf3fee9febbef9f6cfbd0caeeea922f8d33968462e769",
+        "representation_format": "PDF text extraction",
+        "representation_sha256": "5f04b851fb9809d51a9fb0d4344614f0388aba7cab3302106fd8da35529493d8"
+      },
+      "supports": [
+        "公司分列工业自动化与数字化及新能源汽车动力系统业务，工业自动化/机器人分销为主直销为辅，汽车等以直销为主；供应模式计划准备与订单拉动结合。",
+        "报告页15将标准化平台产品开发与行业客户定制化开发并列；不据此认定已减少新人岗位。",
+        "报告记载部分订单增长、原料涨价及部分产能不足，采用扩产、增班、价格调整和费用管控；披露宏观投资/出口、原料、汽车价格竞争与回款等风险。",
+        "汽车定点与SOP量产交付分别表述，业务收入/订单未提供部门级本科招聘增量。"
+      ],
+      "limits": [
+        "为公司自报经营事实、风险与前瞻叙述，不是独立验证的2031/2037预测。",
+        "报告有引用睿工业等市场数据，本包不把转引数字当独立原始统计，也不以其市场份额推出岗位量。",
+        "报告业务收入、订单/成本不等于招聘新增人数；没有部门级招聘预算。",
+        "这是2026H1经营期，不称截至2026-11最新全部经营信息；未为职业判断追收三季报。",
+        "未取得将人口老龄化/用工短缺直接连到本期具体订单或本科招聘的证据。"
+      ],
+      "used_in_claims": [
+        "C01",
+        "C06"
+      ]
+    }
+  ],
+  "reused_research": [
+    {
+      "id": "R01",
+      "path": "research/industry/aerospace-undergraduate-2037-choices.md",
+      "commit": "04a9dafec22f09b10944870f130dd02e52abb28a",
+      "sha256": "364b9d059800e68655882a551452503ff53e6cb49b63cca818a70d817d56840c",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/04a9dafec22f09b10944870f130dd02e52abb28a/research/industry/aerospace-undergraduate-2037-choices.md",
+      "use": "承接电气/偏硬件自动化比较及此前民用入口只有标题的缺口。",
+      "boundary": "仅复用固定基线已采用正文，不重核其全部外部来源，不作为新增独立事实。"
+    },
+    {
+      "id": "R02",
+      "path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "commit": "04a9dafec22f09b10944870f130dd02e52abb28a",
+      "sha256": "0ba5eccd390e561f8336545c90c2faff8ea6426374d608a434f2f027aa28e81c",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/04a9dafec22f09b10944870f130dd02e52abb28a/research/industry/investment-retrofit-operations-2037-choices.md",
+      "use": "承接付费、新人分工和共同客户风险；不把运行或改造直接当保底。",
+      "boundary": "仅复用固定基线已采用正文，不重核其全部外部来源，不作为新增独立事实。"
+    }
+  ],
+  "claim_map": [
+    {
+      "id": "C01",
+      "section": "二",
+      "kind": "事实与机制推断分层",
+      "claim": "工业与汽车业务、渠道及订单成本约束分开；支付、组织和带教才可能将任务转为本科入口；平台吸收重复工作是条件推断。",
+      "sources": [
+        "S09"
+      ],
+      "limit": "经营事实不证明岗位增量；后半为条件机制，不是企业用工因果实证。"
+    },
+    {
+      "id": "C02",
+      "section": "三",
+      "kind": "当期招聘事实",
+      "claim": "电气与自动化在部分本科工作包共同接收；明确地点、产品、学历和职责不能跨岗拼接。",
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "limit": "S01全国、S02逐岗地点未定、S03苏州但无职责、S04应用未逐字列电气。"
+    },
+    {
+      "id": "C03",
+      "section": "三",
+      "kind": "反例事实",
+      "claim": "本科及以上与应届接收不同，经验功率硬件和设备维护不充作本科校招。",
+      "sources": [
+        "S05"
+      ],
+      "limit": "经验年限冲突保留，不证明企业无其他校招。"
+    },
+    {
+      "id": "C04",
+      "section": "四",
+      "kind": "课程事实与选择推断分层",
+      "claim": "同校该版电机/功率电子、PLC和实践安排有差异；条件选择回到目标任务和可取得训练。",
+      "sources": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "limit": "限选/选修不算必修；无2027适用保证，无个人训练量或就业率比较。"
+    },
+    {
+      "id": "C05",
+      "section": "五",
+      "kind": "样本事实与建议分层",
+      "claim": "保留本科直入，目标岗明确关闭本科且训练收益成立才比较2034硕士分支。",
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "limit": "不推全行业门槛、未来薪酬或硕士必然回报；三年为条件学制。"
+    },
+    {
+      "id": "C06",
+      "section": "六",
+      "kind": "条件机制与限制",
+      "claim": "同一投资客户的跨专业备选仍相关；不同运行支付与新人工位成立才构成较独立备选。",
+      "sources": [
+        "S05",
+        "S09",
+        "R02"
+      ],
+      "limit": "未确认一条本地应届独立保底；不同运行预算分支是待核假设。"
+    },
+    {
+      "id": "C07",
+      "section": "一、四、六",
+      "kind": "条件排序与撤回规则",
+      "claim": "P下电气弱前置；应用目标及相对训练改变时自动化可反转；共同条件失效允许两者均无主方案。",
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S06",
+        "S07",
+        "R01"
+      ],
+      "limit": "非用户画像、非学校榜单、非按学时推出能力优势；没有新增招生候选。"
+    },
+    {
+      "id": "C08",
+      "section": "二",
+      "kind": "明示假设",
+      "claim": "缺工若经可靠性、全成本、采购和新人分工才可能传到入口。",
+      "sources": [],
+      "limit": "未取得人口变化直接连接本地订单或招聘的事实，不参与加分。"
+    }
+  ]
+}
