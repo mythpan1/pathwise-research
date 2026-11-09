@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "title": "江苏生源食品本科方向比较来源索引",
+  "research_date": "2026-11-09",
+  "baseline_commit": "a5f4c6a4dc1ac271f74016087d7407e8d875ff26",
+  "scope": {
+    "population": "拟2027入学的江苏生源研究考生，无个人选科位次",
+    "school_training_reference": "江南大学食品科学与工程、食品质量与安全2024培养介绍",
+    "task_package": "鲜食/冻品从原料到合格成品的工艺验证、生产执行与质量控制",
+    "timeline": "实际四年制且按期完成时2031本科；可选三年硕士分支2034；2037仅观察能力积累",
+    "status": "方向研究，非正式报考清单",
+    "verified_jiangsu_admissions_candidates_added": 0,
+    "existing_group_member_counts_changed": false,
+    "jiangsu_production_quality_paired_jobs_verified": false
+  },
+  "evidence_policy": "原件与运行日志不上传。以下归档哈希识别已保存的原文表示，不是外部网页永久不变的保证。事实、条件推断及建议分开；可读快照不等于当前有效。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "江南大学2025年本科生招生章程",
+      "publisher": "江南大学本科招生办公室",
+      "source_kind": "official university-domain original",
+      "published_date": "2025-05-30",
+      "accessed_date": "2026-11-09",
+      "url": "https://admission.jiangnan.edu.cn/info/1004/2713.htm",
+      "locators": [
+        "第四条招生计划",
+        "第八条录取规则",
+        "存档可读文本第64至65、88至99行"
+      ],
+      "adopted_for": [
+        "省级计划为准；进档分配的一般规则。"
+      ],
+      "limits": [
+        "仅为2025章程，不能代替2027规则。",
+        "一般分配规则不证明目标江苏组成员、专业分流和调剂边界。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-S01-01",
+          "representation": "完整可读章程正文",
+          "sha256": "f349f4f727066f4bf90e0267a8fcfbfb9e7b051578214f60561bba7fde6e4d90",
+          "bytes": 11583
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "江南大学2025年分省招生计划来啦！",
+      "publisher": "江南大学署名（北京号平台）；稿件来源本科招生办公室",
+      "source_kind": "school-attributed original post on third-party publication platform; account verification not independently checked",
+      "published_date": "2025-06-24",
+      "accessed_date": "2026-11-09",
+      "url": "https://xinwen.bjd.com.cn/content/s685ab599d5decae663274b58.html",
+      "locators": [
+        "江苏原图第一张表普通类第2至3行",
+        "图表表头分别标2025计划及2024录取数据",
+        "原稿署名、稿件来源及公开发布者元数据"
+      ],
+      "adopted_for": [
+        "江苏图两个普通专业独立列行：食科28人、食安22人，均为物理+化学。"
+      ],
+      "limits": [
+        "第三方平台托管的学校署名稿；发布账号认证未独立核实。",
+        "图未给目标江苏正式组号、专业代码、完整组成员、学制、校区。",
+        "28与22是2025计划，不是实际录取数；录取三列属于2024年。",
+        "仅作待核历史线索，不计入已核报考候选。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-S02-01",
+          "representation": "平台原稿HTML",
+          "sha256": "020641004771b2d579803e226ca2f8fb990e2d412367d5175dcfa930549585bf",
+          "bytes": 825319
+        },
+        {
+          "evidence_id": "FOOD-S02-02",
+          "representation": "江苏计划原图，已目视核对",
+          "sha256": "b181a041f7cf839fe591d0386113dc6c8f48bccc94998f0e1f8ad49329c99012",
+          "bytes": 1161011
+        }
+      ],
+      "image_url": "https://static.bjd.com.cn/dams-res/mps/image/202506/24/6859db6ed5deb3db836474da.png"
+    },
+    {
+      "id": "SUP-S01",
+      "title": "干净爆了！江南大学2025本科招生专业及分组方案正式发布",
+      "publisher": "教育在线",
+      "source_kind": "third-party republication with explicit original WeChat link; not independently verified official-account original",
+      "published_date": "2025-06-20",
+      "accessed_date": "2026-11-09",
+      "url": "https://www.eol.cn/jiangsu/jsgd/202506/t20250620_2676029.shtml",
+      "locators": [
+        "普通类分组图物理类行2-4和专业组列跨行单元",
+        "正文具体招生专业及分组编号以当地省招生考试机构公布为准",
+        "正文原文请点击微信链接"
+      ],
+      "adopted_for": [
+        "通用图中食科、食安、食品营养与健康共处一个专业组单元；江苏最终映射未知。"
+      ],
+      "limits": [
+        "教育在线署源江南大学的转载；公众号原文及发布账号身份未成功核实。",
+        "未标生源省；原文要求具体招生专业和分组编号以当地考试机构公布为准。",
+        "物理+化学(02)不能写成江苏02组或其他江苏组号；不能将通用分组图与另图计划拼成完整省级表。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-SUP-S01-01",
+          "representation": "转载页HTML",
+          "sha256": "e15f65d5c5c6864e4dd76672468e3353239d46746214c91414e107004108314d",
+          "bytes": 47621
+        },
+        {
+          "evidence_id": "FOOD-SUP-S01-02",
+          "representation": "普通类通用分组原图，已目视核对",
+          "sha256": "78ed1613b089958104193dd7034cef015a4027f427f11298c2fde4fa8ddf9ec4",
+          "bytes": 495015
+        }
+      ],
+      "attributed_source": "江南大学",
+      "original_url": "https://mp.weixin.qq.com/s/AjK9dqyYW0JvwxwdJdFabw",
+      "image_url": "https://static-gkcx.gaokao.cn/upload/image/20250620/1750408753150023"
+    },
+    {
+      "id": "P01",
+      "title": "食品科学与工程：培养未来食品科学家与工程师",
+      "publisher": "江南大学食品学院",
+      "source_kind": "official university training introduction; not full cohort curriculum",
+      "published_date": "2024-06-13",
+      "accessed_date": "2026-11-09",
+      "url": "https://foodsci.jiangnan.edu.cn/info/1172/16818.htm",
+      "locators": [
+        "专业概述／培养目标／主干课程",
+        "存档可读文本第58、62、66行"
+      ],
+      "adopted_for": [
+        "食科简介的共同食品基础及工程设计、设备侧重。"
+      ],
+      "limits": [
+        "不是完整同届培养方案，没有必修选修、学时、实验实习名额及考核。",
+        "未核2027资源及学制；课程标题不证明实际能力，未列课程不等于不教。",
+        "宣传升学率、就业率及岗位比例未用于排序。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-P01-01",
+          "representation": "完整可读培养介绍",
+          "sha256": "b685b7d333f73e333800ce2b705f99eb72a88c1b936821a43b1b36f940079ce1",
+          "bytes": 4373
+        }
+      ],
+      "last_updated_date": "2024-06-13"
+    },
+    {
+      "id": "P02",
+      "title": "食品质量与安全：培养人民食品安全的守护者",
+      "publisher": "江南大学食品学院",
+      "source_kind": "official university training introduction; not full cohort curriculum",
+      "published_date": "2024-06-13",
+      "accessed_date": "2026-11-09",
+      "url": "https://foodsci.jiangnan.edu.cn/info/1172/16819.htm",
+      "locators": [
+        "专业概述／培养目标／主干课程",
+        "存档可读文本第58、62、66行"
+      ],
+      "adopted_for": [
+        "食安简介的共同食品基础及质量控制、毒理、卫生侧重。"
+      ],
+      "limits": [
+        "与P01同日发布，不等于已核相同入学届别或完整培养方案版本。",
+        "没有必修选修、学时、实验实习名额及考核；不能据简介判真实训练优劣。",
+        "未核2027资源及学制；宣传统计未用于排序。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-P02-01",
+          "representation": "完整可读培养介绍",
+          "sha256": "c69b7e4c2e3ad725054a2ce42361c72484ab6d6e6afd0786564fae7aea43d40d",
+          "bytes": 4304
+        }
+      ],
+      "last_updated_date": "2024-06-13"
+    },
+    {
+      "id": "P03",
+      "title": "食品学院2026年就业信息（十二）之利和味道",
+      "publisher": "江苏大学食品科学与工程学院",
+      "source_kind": "complete official university recruitment bulletin preserving employer-attributed job text and employer links; not successfully re-read employer body",
+      "published_date": "2026-05-21",
+      "accessed_date": "2026-11-09",
+      "url": "https://spswxy.ujs.edu.cn/info/2639/79896.htm",
+      "locators": [
+        "第五部分利和味道，招聘岗位1质量、3研发、4生产",
+        "研发栏明确上海武汉；另两岗未列工作地"
+      ],
+      "adopted_for": [
+        "三个本科岗位均明确接收两个目标专业；任务交叉但重点不同。"
+      ],
+      "limits": [
+        "完整职责只在高校保存稿核读。三个雇主职位页仅取得对应标题，未成功复核其正文。",
+        "2026届历史招聘快照，不是当前有效职位、实际录用、学校输送或2031招聘承诺。",
+        "生产与质量未列具体工作地；研发列上海、武汉，不可跨岗位搬用。",
+        "没有可比较的薪酬、招聘人数、实际带教及两专业录用率。未列经验年限不等于任何零经验者都符合。",
+        "只有生产明确倒班或轮岗；其他岗位未写倒班不等于保证不倒班。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-P03-01",
+          "representation": "高校招聘稿完整HTML",
+          "sha256": "6c30f028a6b9fbb1e0c9de6e245589eb68ed02a6d3d08432c4226fa1bb98d843",
+          "bytes": 41842
+        },
+        {
+          "evidence_id": "FOOD-P03-02",
+          "representation": "高校招聘稿可读正文",
+          "sha256": "fbce94f7a366f44c1f18f92a8a82348bafc95f3c7e58961d26a44f13f33bc22c",
+          "bytes": 17706
+        }
+      ],
+      "employer_job_links": [
+        {
+          "role": "质量管培生",
+          "url": "https://kge1kpt9dv.jobs.feishu.cn/038113/position/7621414449736091954/detail"
+        },
+        {
+          "role": "研发管培生",
+          "url": "https://kge1kpt9dv.jobs.feishu.cn/038113/position/7621410482641520915/detail"
+        },
+        {
+          "role": "生产管培生",
+          "url": "https://kge1kpt9dv.jobs.feishu.cn/038113/position/7621406607213824265/detail"
+        }
+      ],
+      "locations": {
+        "quality": null,
+        "production": null,
+        "rd": [
+          "上海",
+          "武汉"
+        ]
+      },
+      "employer_body_verified": false
+    },
+    {
+      "id": "P04",
+      "title": "国家市场监督管理总局关于修改《企业落实食品安全主体责任监督管理规定》的决定及重新公布规定",
+      "publisher": "国家市场监督管理总局",
+      "source_kind": "official national regulation original",
+      "published_date": "2025-03-21",
+      "accessed_date": "2026-11-09",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_6892dba109e54ea894aec4340e8f7427.html",
+      "locators": [
+        "公布及施行日期：存档可读文本第12行",
+        "重新公布规定第三条：第108至109行",
+        "第七条：第128至140行",
+        "第九至十条：第146至176行",
+        "第十一至十六条及第十七条首段：第178至190行"
+      ],
+      "adopted_for": [
+        "主体、总监、安全员的责任和能力边界；质量管培生不可直接等同法定职务。"
+      ],
+      "limits": [
+        "采用重新公布规定的责任条款；仅取得网页可读部分，未取尾部，不声称核读整部全文。",
+        "材料明确支持第三、第七、第九至十六条及第十七条培训记录相关首段；不以全文未取否认已读条款。",
+        "规定不是该雇主实际设岗或履职证据，也不授予食安本科毕业生独占岗位及管理权限。",
+        "未来适用须重核，不从监管频次、培训时间或企业责任推招聘人数。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-P04-01",
+          "representation": "法规可读部分一，含修改决定及重新公布规定至第九条开头",
+          "sha256": "c1c516b1c835d382d09a3c8efb0ee21f6478640f3f3e99b0a759627b1decbbdc",
+          "bytes": 16067
+        },
+        {
+          "evidence_id": "FOOD-P04-02",
+          "representation": "法规可读部分二，完整覆盖本稿采用的第九至十六条；第十七条首段",
+          "sha256": "e9e878424957a08fb9ce9520c535192b8cccb7f2bbdc5da4bc67e90033f81213",
+          "bytes": 9641
+        }
+      ],
+      "promulgated_date": "2025-02-23",
+      "effective_date": "2025-04-15",
+      "full_document_obtained": false
+    }
+  ],
+  "inferences": [
+    {
+      "id": "I01",
+      "claim": "共同本科入口基准并列，不等于同胜率或培养等同",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "condition": "无完整训练比较与实际录用数据，不按名称排他；以可得实践与成本选择。"
+    },
+    {
+      "id": "I02",
+      "claim": "目标与相对实践改变时可把食科或食安前置",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "condition": "目标明确且相应设计、试产或预防控制、偏差调查训练确实可得；课程简介本身不能证明条件已满足。"
+    },
+    {
+      "id": "I03",
+      "claim": "政策责任经组织付费和分工才传到新人岗位",
+      "evidence": [
+        "P03",
+        "P04"
+      ],
+      "condition": "内部预算、外包、既有人力及自动化安排是条件假设，未核本雇主净增员。"
+    },
+    {
+      "id": "I04",
+      "claim": "本科就业为保留的基准，硕士按训练或门槛增益选择",
+      "evidence": [
+        "P03"
+      ],
+      "condition": "三年硕士是假设学制；没有同任务硕士硬门槛证据，亦不保证研究生训练及就业回报。"
+    }
+  ],
+  "not_adopted": [
+    "招生转载副本不另算独立验证；食品AI班的组线不移给普通专业。",
+    "无日期实习基地名单不作为特定届别或个人名额证据。",
+    "油脂/大米及不同工厂年份探索不拼成本任务的配对岗位。",
+    "无决定性人口事实，不添加人口数字或用其排序。",
+    "无同任务硕士硬门槛事实，不把研发一律写成硕士。"
+  ],
+  "remaining_unknowns": [
+    "2027江苏正式计划及招生规则，2025目标江苏最终组关系仍未核",
+    "完整适用届别培养方案、学制、费用与真实实践可得性",
+    "生产和质量岗位具体工作地、实际排班、带教与录用",
+    "雇主完整招聘正文及职位当前状态",
+    "未来净岗位、合资格竞争供给、薪酬与个人发展"
+  ]
+}
