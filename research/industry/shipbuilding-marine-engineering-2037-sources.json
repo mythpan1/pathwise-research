@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-09",
+  "scope": "江苏生源2027本科船舶与海洋工程/轮机工程条件比较；约2031入口与2037路径情景。",
+  "key_source_count": 12,
+  "supplemental_source_count": 1,
+  "representation_note": "公开索引仅含来源、定位、内容哈希与使用限制，不包含原件、完整返回、联系人或机器路径。4份关键材料仅有原文转换表示，9份材料有完整原件（8关键+1补充）。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "江苏科技大学船舶与海洋工程专业介绍",
+      "publisher": "江苏科技大学船舶与海洋工程学院",
+      "url": "https://naoe.just.edu.cn/2026/0426/c9991a372585/page.htm",
+      "published_date": "2026-04-26",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026专业介绍",
+      "locator": "专业介绍：二、核心课程与特色培养，三、升学深造；转换行89–105。",
+      "evidence_representation": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "474919aa6085ad9e896c4122e391405e9214e68b577a49a85d7a614822e0b251",
+        "author_visually_checked_physical_pages": [],
+        "note": "普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "supports": [
+        "C03-training-structure"
+      ],
+      "limits": [
+        "仅为官方专业介绍，不证明本科研究岗位、薪资或2027安排；未取得完整船海培养方案。"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "江苏科技大学轮机工程专业人才培养方案（2022版）",
+      "publisher": "江苏科技大学能源与动力学院",
+      "url": "https://sepe.just.edu.cn/_upload/article/files/fa/0c/4f1f796249649bde7249f588a861/eda52872-d724-48df-9187-15b1438fef8c.pdf",
+      "published_date": "2023-08-18",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2022版；发布日期来自官方发布页",
+      "locator": "2022版PDF物理页1、5–6；原文转换L0–19、L138–158。官方发布页载2023-08-18。",
+      "evidence_representation": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "6a840368bd53b93dda11253afcd073c7af021d38d5219bbb14b5f3da76c73d32",
+        "author_visually_checked_physical_pages": [],
+        "note": "普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "supports": [
+        "C03-training-power",
+        "C08-timeline"
+      ],
+      "limits": [
+        "无PDF页像素核对；非另一份2018简版。",
+        "毕业后五年目标不等于实际达成率；未由本方案证明航海资格认可。"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "武汉理工大学船舶与海洋工程专业2024版本科培养方案",
+      "publisher": "武汉理工大学船海与能源动力工程学院",
+      "url": "https://naoep.whut.edu.cn/rcpy/bks/pyfa/202506/P020250605609769790092.pdf",
+      "published_date": "2025-06-05",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2024版普通专业（非卓越班/学硕班）",
+      "locator": "2024普通专业方案，PDF物理页1、9、16–17；不使用卓越班或学硕班方案。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "fe1633bcb8afb42ce5357e7fe58c86931b3d0d202b81c9d026999377bc9205b2",
+        "converted_passages_sha256": "55c57a85ad8320d7d8c84ee7f586048f335556de49549d76d49b296c41a18c65",
+        "author_visually_checked_physical_pages": [
+          1,
+          9,
+          16,
+          17
+        ],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C03-training-structure",
+        "C08-timeline"
+      ],
+      "limits": [
+        "只适用于武理2024方案，不是江科大或2027培养承诺；选修不等于全体完成。"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "武汉理工大学轮机工程专业2024版本科培养方案",
+      "publisher": "武汉理工大学船海与能源动力工程学院",
+      "url": "https://naoep.whut.edu.cn/rcpy/bks/pyfa/202506/P020250605610462343610.pdf",
+      "published_date": "2025-06-05",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2024版普通专业（非卓越工程师班）",
+      "locator": "2024普通专业方案，PDF物理页1、9、16；不使用卓越工程师班方案。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "0f6e1e0fdd0b523d97613cd9c7c4a24ce6c13e42ea8aee74780f77c48133a662",
+        "converted_passages_sha256": "82639118d50ab59d3f0d3b1ee664224bab789fbc9d8eda2e91ff631aa364fc4a",
+        "author_visually_checked_physical_pages": [
+          1,
+          9,
+          16
+        ],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C03-training-operation",
+        "C08-timeline"
+      ],
+      "limits": [
+        "航海教育背景不等于已取得适任证，具体认可范围和考试见习衔接未核。"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "江苏科技大学2025年江苏省招生计划",
+      "publisher": "江苏科技大学本科招生网",
+      "url": "https://zs.just.edu.cn/_t34/2025/0624/c1602a364354/page.htm",
+      "published_date": "2025-06-23",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2025江苏计划；URL目录2025/0624但页内时间为2025-06-23",
+      "locator": "校方2025江苏分专业表：物理+化学栏目07/09组，合作栏目11组，末尾备注；转换行35–60、89–97。",
+      "evidence_representation": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "3b4d68fceada97c870de37a937c5b708a29ac5eef86fe9a92de216a13d8bd7ef",
+        "author_visually_checked_physical_pages": [],
+        "note": "普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "supports": [
+        "C02-historical-entry"
+      ],
+      "limits": [
+        "只为校方2025历史计划，未由省考试院书册再次核对；不能给2027名额、位次、完整组认证或录取保证。"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "中华人民共和国海船船员适任考试和发证规则（2026修正）及修订决定",
+      "publisher": "中华人民共和国交通运输部",
+      "url": "https://xxgk.mot.gov.cn/jigou/fgs/202607/P020260715362340965926.pdf",
+      "published_date": "2026-07-09",
+      "retrieved_date": "2026-11-09",
+      "version_note": "交通运输部令2026年第16号；网页公开2026-07-15；修订自公布日2026-07-09施行",
+      "locator": "2026年第16号决定及重发规则，PDF物理页1–2；第11/13/18/24/28条，附表物理页28及32表注4。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "caba229cbb728b095b47e057ad893f38afb56d5e64246bc2afb0ef41138f2471",
+        "converted_passages_sha256": "6a3b4a140aaad7f9b21e12f2695358c6303582e57d7153ac9365061ce1edf492",
+        "author_visually_checked_physical_pages": [
+          1,
+          28,
+          32
+        ],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C05-qualification",
+        "C07-population-conditional",
+        "C08-timeline"
+      ],
+      "limits": [
+        "教育路线与一般在岗资历路线不可机械叠加；具体院校二管轮考试认可未核。",
+        "不得用于判断考生健康；2031/2037适用版本需重核。"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "中国船级社大连分社船体验船师（应届生）",
+      "publisher": "中国船级社",
+      "url": "https://www.ccs.org.cn/ccswz/RecruitList?columnid=201912240263169292&detailId=8a818502a1347deb01a15815e1e36e79",
+      "published_date": null,
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026-11-09取得；页面时间字段2026.11.11，含义未明",
+      "locator": "大连分社船体验船师，岗位职责、任职要求和未明语义的时间栏。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "8600df784cce5bb5b487fc4c414396a81fe5d091ec122be9a018eb8d74040c1d",
+        "converted_passages_sha256": "56e16f8ff8a51bda7373de0a56ea2754b06c10bff584f8846b6a24406301b69d",
+        "author_visually_checked_physical_pages": [],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C04-employer-split"
+      ],
+      "limits": [
+        "时间栏2026.11.11晚于2026-11-09取得日，未明语义；不是已核发布日期或仍可投递证明。",
+        "具体专业方向及其他要求须同时满足，不证明净增人数、录用率或驻厂周期。"
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "中国船级社大连分社轮机验船师（应届生）",
+      "publisher": "中国船级社",
+      "url": "https://www.ccs.org.cn/ccswz/RecruitList?columnid=201912240263169292&detailId=8a818502a1347deb01a15816612f6e7a",
+      "published_date": null,
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026-11-09取得；页面时间字段2026.11.11，含义未明",
+      "locator": "大连分社轮机验船师，岗位职责、任职要求和未明语义的时间栏。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "ac07cba45ff9cabe1a5b6b3164503fe4b512f633da1ba1319bc8273760bb5dd7",
+        "converted_passages_sha256": "8761990bae5ed7435ab87249b12519dedff00ff81f64c01c6b91443e18789a62",
+        "author_visually_checked_physical_pages": [],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C04-employer-split"
+      ],
+      "limits": [
+        "时间栏2026.11.11语义未明；仅作2026-11-09可读岗位快照。",
+        "船海（轮机）不等于所有船海结构培养；此岗未列船员证不代表所有岗位免证。"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "中国船级社上海规范所规范科研（温室气体减排及新能源应用，应届生）",
+      "publisher": "中国船级社",
+      "url": "https://www.ccs.org.cn/ccswz/RecruitList?columnid=201912240263169292&detailId=8a818501a134cd1601a15d9e5d2f497a",
+      "published_date": null,
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026-11-09取得；页面时间字段2026.11.11，含义未明",
+      "locator": "上海规范所规范科研（温室气体减排及新能源应用），岗位职责和任职要求。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "103cfb78fc6a22faf441d7715c48a31266e55b5c9ca82b1d49c5d477071cfab7",
+        "converted_passages_sha256": "3b05cf41f7b66bdb708b186dbce179f4a5230f173f80e3d639bb40a7706c1ee2",
+        "author_visually_checked_physical_pages": [],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C04-degree-specific"
+      ],
+      "limits": [
+        "时间栏2026.11.11语义未明；仅作2026-11-09可读岗位快照。",
+        "只证明本项规范科研的学历及出差等条件，不概括所有研发。"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "华海智汇智慧船舶岗位2027届应届生招聘",
+      "publisher": "华海智汇技术有限公司（天津工业大学官方就业平台刊载）",
+      "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56481.html",
+      "published_date": "2026-09-29",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2027届校园职业招聘；非本科招生采集",
+      "locator": "招聘职位表及工作地，原文转换行96–103；船舶设计工程师与新能源动力工程师分行。",
+      "evidence_representation": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "d5af7679a4a55c8ea42cdd093b40dbe2553ac0bbe34f3939e656906688099fc5",
+        "author_visually_checked_physical_pages": [],
+        "note": "普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "supports": [
+        "C04-shared-entry"
+      ],
+      "limits": [
+        "高校官方平台刊载雇主招聘，不等实际录用结果；共同入口仍分任务方向。",
+        "新能源动力岗的台架/出海调试要求不得移到船舶设计岗；薪酬广告不用于行业或2037收入预测。"
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Yangzijiang Shipbuilding 1H2026 Results Presentation",
+      "publisher": "Yangzijiang Shipbuilding (Holdings) Ltd.",
+      "url": "https://yangzijiang-cn.listedcompany.com/newsroom/20260806_172829_BS6_LYJB2HHS6J2D06AP.3.pdf",
+      "published_date": "2026-08-06",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026H1公司自述，订单截至2026-06-30且另列7月新单",
+      "locator": "2026H1公司演示PDF物理页4财务和交付分列；12手持订单与交期；14新单；19航运经营；21各项投资状态。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "43eaeb0c9b9604c493d9aa4eb8b47c446b9e09318e5c099a352686b3b7c2d660",
+        "converted_passages_sha256": "c30eaeeb767550bea0fc250d336088daaf5d9a3b6e44ebe26ef6131bc50d0862",
+        "author_visually_checked_physical_pages": [
+          4,
+          12,
+          14,
+          19,
+          21
+        ],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C06-order-cycle",
+        "C06-fuel-integration",
+        "C06-investment-conditions"
+      ],
+      "limits": [
+        "公司自述，合同额/新单/交付/收入/利润及造船/航运必须分账；不代表全国行业或本科净招聘。",
+        "双燃料用途与气体运输货种分开；修理改造仍开工前规划。",
+        "页4七月新单0.21与页14约0.2十亿美元存在精度差别，本研究不合计七月或计算其增长率。",
+        "未取得人员年龄或退休补员数据，平均船龄不是人员年龄。"
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "IMO Short-term GHG reduction measure",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/ourwork/environment/pages/short-term-ghg-reduction-measure.aspx",
+      "published_date": null,
+      "retrieved_date": "2026-11-09",
+      "version_note": "公开解释页；2026-11-09取得；部分未来回顾措辞可能尚未更新",
+      "locator": "说明页开头、The technical approach、The operational approach和Future developments；未据旧时态推定审查已完成。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "44020274457a50d90ee881fc8c692b52ace76eb37a929bf2ef99b35c0cc1d9bf",
+        "converted_passages_sha256": "90f6c2fae125b8c0bc317c29d413feab528e261377b353457f018d4489097611",
+        "author_visually_checked_physical_pages": [],
+        "note": "完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "supports": [
+        "C06-energy-rules"
+      ],
+      "limits": [
+        "官方解释页不是具体船型适用性审定，须按正式MARPOL范围复核。",
+        "页面旧有2026前审查措辞不证明审查已完成；不能用于断言净零框架已生效或全球收费必然实施。"
+      ]
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "id": "A01",
+      "title": "沪东中华造船2026届校园招聘简章",
+      "publisher": "沪东中华造船（天津大学官方就业平台刊载）",
+      "url": "https://job.tju.edu.cn/recruitment/content/type/2/id/5998.html",
+      "published_date": null,
+      "event_date": "2026-03-19",
+      "retrieved_date": "2026-11-09",
+      "version_note": "2026届职业招聘；宣讲时间不是已核发布日期。",
+      "locator": "五、招聘信息：（一）招聘对象、（二）岗位类别、（三）专业清单。",
+      "evidence_representation": {
+        "kind": "complete_original",
+        "original_sha256": "2d170786aab4201f20cfbe69a02a1bfc5d3319b6052249482c2d9dae3676e8b3",
+        "author_visually_checked_physical_pages": []
+      },
+      "supports": [
+        "C04-overall-employer-entry"
+      ],
+      "limits": [
+        "仅企业总体接收，无本科逐岗表；不证明每个研发岗位接收本科或两专业共享所有岗位。"
+      ]
+    }
+  ]
+}
