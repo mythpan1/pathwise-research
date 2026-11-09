@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "document": "测绘工程与遥感科学与技术：空间质量、影像解释与本科选择",
+  "research_date": "2026-11-09",
+  "base_commit": "ec1d4a0bf575d249b8f01e5885ed6011ab1d4003",
+  "scope": {
+    "student_province": "江苏",
+    "entry_year": 2027,
+    "undergraduate_graduation_year": {
+      "value": 2031,
+      "condition": "已核四年标准学制的培养样本；实际2027候选须核本校学制并顺利完成"
+    },
+    "career_observation_year": 2037,
+    "employment_geography": "可跨地区，江苏采购、济南招聘和企业整体经营不拼成江苏同一岗位链",
+    "admissions_evidence_year": 2025,
+    "admissions_reference_rank_year": 2024,
+    "not_a_confirmed_2027_candidate_list": true
+  },
+  "search_provenance": {
+    "collection_search_batches": 10,
+    "collection_budget_batches": 16,
+    "collection_research_calls": 0,
+    "author_new_search_batches": 0,
+    "author_new_research_calls": 0,
+    "cost_and_provider_usage": null,
+    "note": "固定材料充分，作者未重复外搜；调用数不等计费。"
+  },
+  "source_count": 10,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "安徽理工大学测绘工程专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "published_date": "2025-09-29",
+      "version": "2024版",
+      "url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AM8n1VnRUYn77DomRL4nlUYLm-ZozfN7nRvDLzUaL77iMRC0gihFp2hmCIa0okhfLkhRMYyDnmLZM4LsLlCiLzv4Lz6kozGPL4AfnRUsUmWFoRGsoRUZLRAFUmVRoRlJv2nto4OeosUDgDTJQty0Lz-aokysMzGigtA8pUTcc&e=.pdf&nid=7505&oid=944884314&tid=1208",
+      "accessed_date": "2026-11-09",
+      "source_form": "官方完整PDF，20页；作者重新提取文字并核读关键课表图像。",
+      "locators": [
+        "PDF第1页/印刷1215：专业代码",
+        "第7页/1221：标准学制、学位及摘要总量",
+        "第10–12页/1224–1226：必修、选修及星号",
+        "第14页/1228：实践安排及表末合计",
+        "第15页/1229：学分分配与摘要矛盾"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": "378cf67856e4732cb027df7b8f5c444df88565f0db7c908afde0340a33fadd25",
+        "original_document_pages": 20,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "378cf67856e4732cb027df7b8f5c444df88565f0db7c908afde0340a33fadd25",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "一",
+        "二",
+        "三",
+        "七",
+        "八"
+      ],
+      "limitations": [
+        "培养样本，不证明2025或2027江苏可报；培养目标不是就业结果或职业资格自动授予。",
+        "p7摘要170+6/实践48与p14教学总计172.25+4/实践48.25、p15合计176.25存在内部口径或修订差异；不可拿总量精确横评。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证",
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208",
+      "publication_date_basis": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。"
+    },
+    {
+      "id": "S02",
+      "title": "安徽理工大学遥感科学与技术专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "published_date": "2025-09-29",
+      "version": "2024版",
+      "url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AoRv1Yoz7YL4vDUmlL8olCaM8LDMRLN8oRLZMm9sU878MmC0gihFp2hmCIa0M1ybM1yiokyYM4CiM8M2nl-iMzWRMNU8Uz9DMm7aMzAknlnFU8MVnmffLNMFnlC4nm7Jv2nto4OeosUDgDTJQty0Lz-aokysMzG8gtA8pUTcc&e=.pdf&nid=7504&oid=944884314&tid=1208",
+      "accessed_date": "2026-11-09",
+      "source_form": "官方完整PDF，30页；作者重新提取文字并核读关键课表和两个方向的星号规则。",
+      "locators": [
+        "PDF第1页/1235：专业代码",
+        "第6页/1240：学制及两个方向介绍",
+        "第12–14页/1246–1248：基础/专业必修与遥感方向星号",
+        "第17页/1251：地理空间信息方向星号",
+        "第20–21页/1254–1255：实践",
+        "第22–23页/1256–1257：实践合计与摘要差异"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": "5a2b5303bf501e4363d3ff99ef107e431e618690060aa498f0e4d73097345c4d",
+        "original_document_pages": 30,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "5a2b5303bf501e4363d3ff99ef107e431e618690060aa498f0e4d73097345c4d",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "一",
+        "二",
+        "三",
+        "七",
+        "八"
+      ],
+      "limitations": [
+        "同校同版不等于所有课程可取得或实际开齐。",
+        "遥感方向与地理空间信息方向有各自最低18.5学分及带星必选，不能拼成全体学生必修包。",
+        "p6摘要169+6/实践45与后面表格实践合计等存在内部差异，定量总学分比较不采。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证",
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208",
+      "publication_date_basis": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。"
+    },
+    {
+      "id": "S03",
+      "title": "2025年江苏省分专业分批次招生计划",
+      "publisher": "南京信息工程大学招生网",
+      "published_date": "2025-06-22",
+      "version": "2025江苏历史",
+      "url": "https://zs.nuist.edu.cn/info/1172/2977.htm",
+      "accessed_date": "2026-11-09",
+      "source_form": "后续HTTP403之前成功保存的官方网页正文转换片段，含表头、组行和目标专业行；不是搜索摘要。原始HTML未取得，全文缺格部分不使用。",
+      "locators": [
+        "官方转换L37–42：年度/普通批栏目/2024参考表头",
+        "L75：11专业组物理+化学",
+        "L90：代号92目标专业、12、603、28485、6380"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion_fragment",
+        "primary_representation_sha256": "652bfce43b0859671384572ff6b2abaa2028dc9450a742fb9b51799951c76655",
+        "hash_object_note": "已保存正文转换文本",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "四"
+      ],
+      "limitations": [
+        "确证一条入口：11组物理+化学、代号92遥感科学与技术（中国科学院大学参与教学）。",
+        "2025计划12；603/28485是表头明示的2024参考分/位次，不是2025录取。",
+        "网页表中代号92不是全国专业代码081202；学制不在该行，不能跨校拼接。",
+        "Exa全页转换有缺格；测绘仅见地方专项栏目，未完整核具体行，不报计划/组成员数量，不等于普通批测绘可报。",
+        "后续HTTP403已停止，不切工具/表示/端点继续。仅对应2025历史，不保证2027。",
+        "专业名称精确保留“中国科学院大学参与教学”；不据备注推定联合学位、跨校学籍或已核培养实施。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S04",
+      "title": "招聘岗位（测绘内业、外业及GIS开发岗位）",
+      "publisher": "金田产业发展（山东）集团有限公司",
+      "published_date": null,
+      "version": null,
+      "url": "https://www.sdjintian.com/join.php",
+      "accessed_date": "2026-11-09",
+      "source_form": "雇主官网完整正文转换，作者按各岗位段落核读；后来直接HTTP503，未取得原始HTML。网页无发布日期。",
+      "locators": [
+        "测绘外业工程师：职责与任职资格，转换行7–32",
+        "测绘内业工程师：职责与本科要求，转换行34–50",
+        "GIS开发工程师：应届学历条款，转换行197–211"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "506f17ea7b3217b1d7709fc036cb35409c76c3da280adcd58c3798b177ffa531",
+        "hash_object_note": "已保存正文转换文本",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "一",
+        "五",
+        "七"
+      ],
+      "limitations": [
+        "页面没有发布日期；是雇主公开岗位要求个案，不证明当前仍招、应届名额、就业率或全国需求。",
+        "本科要求明确在测绘内业岗位；外业岗位未写学历，不补成同学历。",
+        "不要把土地设计/规划岗位的短期出差要求挪给测绘内业。",
+        "同页GIS开发应届要求GIS研究生及以上，不外推所有GIS/遥感岗位。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S05",
+      "title": "2025年苏州市实景三维数据采集与更新项目采购公告",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "published_date": "2025-09-22",
+      "version": null,
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004002/20250922/65b30e3b97b34979a6eae51d83900a1c.html",
+      "accessed_date": "2026-11-09",
+      "source_form": "官方采购公告网页正文转换；另有下载HTML外壳，仅含标题、日期和原文链接，不含关键采购正文。正文事实依赖已保存转换，不称全文HTML双重核验。",
+      "locators": [
+        "官方转换L18–27：预算、更新需求、期限",
+        "L50–52：供应商资质",
+        "L54–106：CA采购文件获取边界"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "hash_object_note": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "downloaded_wrapper_sha256": "9e360500cddb752eb859c59f7388f95fcd0825ec7fbb34ccf6eb5a5cbee53a33"
+      },
+      "article_sections": [
+        "五",
+        "六.1"
+      ],
+      "limitations": [
+        "预算与采购需求是委托计划，不是新增员工数、工资预算或完成验收。",
+        "苏采云CA登录获取文件路径未进入；未读采购文件第四章。",
+        "所需测绘资质是供应商组织资质，不是个人学历/注册资格。",
+        "下载HTML仅为公告外壳；关键事实来自已保存官方网页转换。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S06",
+      "title": "2025年苏州市实景三维数据采集与更新项目成交公告采购包1",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "published_date": "2025-10-13",
+      "version": null,
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20251013/d3f54517c0384b14822222290bc8597b.html",
+      "accessed_date": "2026-11-09",
+      "source_form": "官方成交公告网页正文转换；另有下载HTML外壳，仅含标题、日期和原文链接，不含成交详情。正文事实依赖已保存转换。",
+      "locators": [
+        "官方转换L8–19：同一项目编号、成交与服务要求"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "hash_object_note": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "downloaded_wrapper_sha256": "c6ed67524a4224db218926b131eb828d4d19616db6b5594f1693f9c38576aa91"
+      },
+      "article_sections": [
+        "六.1"
+      ],
+      "limitations": [
+        "成交不等于合同履行、到账或人员新增；热线响应是本项目服务承诺，不是每个测绘本科生的工时。",
+        "下载HTML仅为公告外壳；关键事实来自已保存官方网页转换。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S07",
+      "title": "泰州市区实景三维建设项目（包2）技术合同书",
+      "publisher": "泰州市自然资源和规划局；泰州市财政局公开合同",
+      "published_date": null,
+      "version": "合同编号JSZC-321200-HQGC-G2024-0080",
+      "url": "https://czj.taizhou.gov.cn/jirdpub/jird_files/filedata/5f2c27ae01284ca19514b4adf4cb404e/2024/12/18/fc6f96f0d1e64ecf972e814f4ac58379.pdf",
+      "accessed_date": "2026-11-09",
+      "source_form": "泰州市财政局公开托管的原始扫描PDF，8页；文字提取为空，作者直接核读第1–6页本地渲染图像。人工摘录不是原件。",
+      "locators": [
+        "PDF第1页：合同编号、当事方和月份空白",
+        "第2–3页：采集/地面控制、实体、更新、融合、质量与工期",
+        "第4–5页：人员、合同总价、联合体分工和分期付款",
+        "第6页：承接方质量责任、阶段验收终止条款"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": "e200ce5d2c6bbd760dd399f87cf06d640e2e1c7e2e5e5065090d393e7463da53",
+        "original_document_pages": 8,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "e200ce5d2c6bbd760dd399f87cf06d640e2e1c7e2e5e5065090d393e7463da53",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "五",
+        "六.2"
+      ],
+      "limitations": [
+        "首页2024年月份留空，不编签订日；URL2024-12-18是托管路径，不自动作为签订日。",
+        "合同工期/付款安排不证明实际完成与付款。",
+        "仅使用公开合同任务/财务/组织文字；未采集地理坐标、受限地图或底层数据。",
+        "线上截图返回只有占位符，未据此声称视读；视读依据实际本地原始PDF渲染PNG。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S08",
+      "title": "自然资源部例行新闻发布会介绍测绘地理信息工作有关情况（实录）",
+      "publisher": "自然资源部；上海市规划和自然资源局转载",
+      "published_date": "2026-08-28",
+      "version": "2026-08-27发布会／页面发布日期2026-08-28",
+      "url": "https://ghzyj.sh.gov.cn/hyxw/20260902/ea780e9edfbb4b9e8236bef31e60dbbc.html",
+      "accessed_date": "2026-11-09",
+      "source_form": "自然资源部发布会实录的上海政府网站转载；后来HTTP403之前保存的网页正文转换片段，报告总117行，实际保留至L53；采用L25–36，不声称全文取得。",
+      "locators": [
+        "官方转换L0–10：页面与发布会日期",
+        "L29–32：存量更新、遥感统筹、基准、即产即检和数智化"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion_fragment",
+        "primary_representation_sha256": "d997848fdcdbba6a7a651adf60f340f75df5834595723e13ce37ed3a417dbd5c",
+        "hash_object_note": "已保存正文转换文本",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "六.1"
+      ],
+      "limitations": [
+        "是政策工作安排/部门说明，不是预算到账或招聘；不把2026工作说明反填为2024/2025采购原因。",
+        "2026政策材料不属于暂停的2026招生/录取数据。",
+        "后续HTTP403已停止该资源，不继续读取余下全文。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证"
+    },
+    {
+      "id": "S09",
+      "title": "南京市测绘勘察研究院股份有限公司2024年年度报告全文",
+      "publisher": "南京市测绘勘察研究院股份有限公司",
+      "published_date": "2025-04-22",
+      "version": "2024报告期／公告2025-023",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10921915&stockid=300826",
+      "accessed_date": "2026-11-09",
+      "source_form": "发行人编制的2024年报完整PDF，283页，新浪镜像托管；不是发行人或交易所托管副本。作者重新提取文字及核读财务/分产品/风险关键页图像。",
+      "locators": [
+        "PDF第1页：报告期、公告编号2025-023及日期",
+        "第10页：主要会计指标",
+        "第26页：销售、生产及采购模式",
+        "第38页：分产品收入",
+        "第66页：季节性、应收和合同资产、存货风险"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": "44268f723b89547ca609ee5883cd8e459e8143bc2004c60cbf9c4129806eed2b",
+        "original_document_pages": 283,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "44268f723b89547ca609ee5883cd8e459e8143bc2004c60cbf9c4129806eed2b",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "六.3"
+      ],
+      "limitations": [
+        "公司个案，不外推整个产业或专业岗位数量；收入下降不能直接证明裁员。",
+        "经营现金流净额2024同比+25%，不能说所有财务指标恶化。",
+        "应收账款账面余额与账面净额不同；不混用76770.05万元余额与资产负债表净额。",
+        "报告行业总产值引述属协会二手数字，本批不独立采用。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证",
+      "document_url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2025/2025-4/2025-04-22/10921915.PDF"
+    },
+    {
+      "id": "S10",
+      "title": "遥感科学与技术专业本科人才培养方案（2024版）",
+      "publisher": "河海大学地理与遥感学院",
+      "published_date": "2025-01-17",
+      "version": "2024版",
+      "url": "https://dlxy.hhu.edu.cn/2025/0117/c22577a298366/page.htm",
+      "accessed_date": "2026-11-09",
+      "source_form": "河海大学官方附件完整PDF，18页；作者重新提取文字，并自行渲染核读第11–12页。",
+      "locators": [
+        "PDF第1页：代码、4年、工学学士",
+        "第5页：课程框架及无专业方向表述",
+        "第10–12页：必修、限选与选修属性"
+      ],
+      "saved_evidence": {
+        "original_document_sha256": "ea98783c9041a2e23b5fa8b449b168c02c6eef305dfdf546deb8cf2dacf19750",
+        "original_document_pages": 18,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "ea98783c9041a2e23b5fa8b449b168c02c6eef305dfdf546deb8cf2dacf19750",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "article_sections": [
+        "三"
+      ],
+      "limitations": [
+        "辅助显示校际培养差异；不与失败的河海测绘2024方案作完整同版横评。",
+        "河海培养不是南信大2025江苏入口对应培养，不拼校。"
+      ],
+      "verification": "作者对固定原件/网页转换的内容核对；不是独立审核，也不是现实就业结果验证",
+      "document_url": "https://dlxy.hhu.edu.cn/_upload/article/files/2e/1a/5b2909be4e139da178f968e7ce8e/9bdc2a03-fafe-4a09-93c4-8c9798576e3e.pdf",
+      "publication_date_basis": "官方培养方案页面保存的正文转换L77–85给出日期2025-01-17及附件；方案本体为2024版。"
+    }
+  ],
+  "fact_count": 26,
+  "facts": [
+    {
+      "id": "C01",
+      "source_id": "S01",
+      "locator": "PDF p1,p7",
+      "source_fact": "测绘工程专业代码081201；标准4年、弹性3–6年、工学学士。",
+      "boundary": "代码/学制只归属本校本版；不自动获取个人执业资格。"
+    },
+    {
+      "id": "C02",
+      "source_id": "S02",
+      "locator": "PDF p1,p6",
+      "source_fact": "遥感科学与技术代码081202；标准4年、弹性3–6年、工学学士。",
+      "boundary": "同上；2031为2027按标准学制顺利完成的条件时间，不是已发生事实。"
+    },
+    {
+      "id": "C03",
+      "source_id": "S01",
+      "locator": "PDF p11／printed1225",
+      "source_fact": "专业必修明确有大地测量学基础、工程测量学、现代地图制图、GNSS原理及其应用、矿山测量学、摄影测量学。",
+      "boundary": "不能把下方选修栏课程一并说必修。"
+    },
+    {
+      "id": "C04",
+      "source_id": "S01",
+      "locator": "PDF p11上半表；p12／printed1226",
+      "source_fact": "测绘基础课含遥感原理与应用、GIS原理、误差理论与测量平差基础；专业选修至少18.5学分，带星必须选。数字图像处理、Python、精密工程测量为未带星选修；数据结构与测绘软件开发、变形与沉陷工程学、无人机低空摄影测量带星。",
+      "boundary": "考核O/△是考试/考查，不等同必修/选修。"
+    },
+    {
+      "id": "C05",
+      "source_id": "S01",
+      "locator": "PDF p14／printed1228",
+      "source_fact": "实践包括大地测量实习3周、GNSS实习1周、测量程序设计与实践1周、无人机摄影测量实习2周、毕业实习3周。",
+      "boundary": "列的是本版教学安排，不证明每届实际执行或户外工时。"
+    },
+    {
+      "id": "C06",
+      "source_id": "S02",
+      "locator": "PDF p12–14／printed1246–1248",
+      "source_fact": "遥感必修包含数字地形测量学、遥感物理基础、GIS原理、遥感原理与应用、误差处理与测量平差基础、大地测量学基础、摄影测量学、遥感图像解译、GNSS原理及其应用。",
+      "boundary": "共同测量/误差/空间基础不允许把遥感定义成纯内业。"
+    },
+    {
+      "id": "C07",
+      "source_id": "S02",
+      "locator": "PDF p6,p14–17",
+      "source_fact": "遥感方向最低选修18.5学分，数字图像处理（双语）、定量遥感、微波遥感原理与应用、遥感地学分析与应用带星必选；另设地理空间信息方向最低18.5学分，其带星含C#面向对象程序设计、GIS软件应用、空间数据建模与分析、GIS应用开发。",
+      "boundary": "不能将遥感方向必选等同全专业必修；方向准入、实际开课/容量未核。"
+    },
+    {
+      "id": "C08",
+      "source_id": "S02",
+      "locator": "PDF第20–21页/印刷1254–1255",
+      "source_fact": "遥感实践表含数字地形测量、遥感野外综合、RS&GIS开发与实践；数字图像处理实习2周、野外光谱测试与分析实习2周、遥感综合实习3周、毕业实习3周。",
+      "boundary": "非所有遥感毕业岗位都要求这些同等野外条件。"
+    },
+    {
+      "id": "C09",
+      "source_id": [
+        "S01",
+        "S02"
+      ],
+      "locator": "S01 PDF第7、14–15页；S02第6、22–23页",
+      "source_fact": "S01摘要170+6/实践48，与后表172.25+4/实践48.25存在差异；S02摘要实践45与后表实践合计49存在差异。",
+      "boundary": "不解作两专业精确训练强度差，不用总量打分；原件内部差异未解。"
+    },
+    {
+      "id": "C10",
+      "source_id": "S03",
+      "locator": "source L37–42,L75,L90",
+      "source_fact": "2025江苏历史：南信大11组物理+化学，校内表代号92遥感科学与技术（中国科学院大学参与教学），计划12，学费6380；2024参考最低分603/位次28485。",
+      "boundary": "仅此2025普通批历史表行；保持“中国科学院大学参与教学”，不据此推定联合学位、学籍或培养实施；603/28485是2024参考，不是2025录取；92是校内表代号，学制未列；2027和测绘同条件入口未核。"
+    },
+    {
+      "id": "C11",
+      "source_id": "S04",
+      "locator": "conversion lines34–50",
+      "source_fact": "雇主济南测绘内业工程师要求本科及以上，同时接收测绘工程、GIS、遥感科学与技术；职责为数据处理、内业制图、图形编辑、录入、生产质量；软件与数据生产经验优先。",
+      "boundary": "无岗位发布时间、应届名额、薪资、出差明示，不补造。"
+    },
+    {
+      "id": "C12",
+      "source_id": "S04",
+      "locator": "conversion lines7–32",
+      "source_fact": "同雇主外业岗位接受测绘/遥感等，任务包括控制测量、沉降监测、航拍及后处理、管线内外业等，RTK/全站仪及至少两种内业软件要求，外业经验优先。",
+      "boundary": "外业段没有明确本科学历，不能借内业段补。"
+    },
+    {
+      "id": "C13",
+      "source_id": "S04",
+      "locator": "conversion lines197–211",
+      "source_fact": "同页GIS开发岗位对应届生要求GIS研究生及以上。",
+      "boundary": "只对该岗位和雇主成立，不能推出所有GIS/遥感岗位都需硕士。"
+    },
+    {
+      "id": "C14",
+      "source_id": "S05",
+      "locator": "raw/open05.json source L12–27",
+      "source_fact": "苏州2025项目预算/最高限价190万元，2024已完成倾斜摄影及地理实体建设，2025任务转向场景/实体分库动态更新维护，并探索常态监测更新。",
+      "boundary": "这是公告自述建设进度，不是独立验收证明。"
+    },
+    {
+      "id": "C15",
+      "source_id": "S05",
+      "locator": "source L50–52",
+      "source_fact": "供应商测绘资质需同时含测绘航空摄影、摄影测量与遥感、GIS工程。",
+      "boundary": "组织资质，不是专业毕业证或个人注册证。"
+    },
+    {
+      "id": "C16",
+      "source_id": "S06",
+      "locator": "source L15–19",
+      "source_fact": "江苏省测绘工程院成交1823000元；本项目要求7×24免费热线，紧急30分钟/非紧急2小时响应到场，2026-09-30前提交全部成果。",
+      "boundary": "项目服务承诺，不直接等于每人工作制、招聘增量或到账。"
+    },
+    {
+      "id": "C17",
+      "source_id": "S07",
+      "locator": "PDF p2–3",
+      "source_fact": "合同含航摄及地面控制等数据用于生产、实体转换、质量检查、存量更新、融合与平台升级，要求检查图形、属性及空间关系矛盾。",
+      "boundary": "仅公开机制，不获取底层测绘成果。"
+    },
+    {
+      "id": "C18",
+      "source_id": "S07",
+      "locator": "PDF p4–5分工与付款表",
+      "source_fact": "固定总价5498000元；江苏省基础地理信息中心3573700元，南京长天测绘技术有限公司1924300元；后者包括应用、存量更新、成果融合与平台升级。",
+      "boundary": "采购包/联合体组织不等于按专业划分岗位，也不证明劳动合同主体。"
+    },
+    {
+      "id": "C19",
+      "source_id": "S07",
+      "locator": "PDF p5付款条款",
+      "source_fact": "成果通过省有关部门质量检验合格后30日内付30%，满一年后35%，满二年后付清余款，均不计息；发票是付款条件。",
+      "boundary": "不能说已到账；质量检验、最终验收、资金支付分开。"
+    },
+    {
+      "id": "C20",
+      "source_id": "S07",
+      "locator": "PDF p3,p6",
+      "source_fact": "合同要求2025-03-01前建设、2025-07-01前验收归档；承接方质量问题或不达合同质量要求约定20%违约金，阶段质量/技术指标不达要求可终止。",
+      "boundary": "合同期限/责任不是实际完成证明，不转嫁为本科生个人执业责任。"
+    },
+    {
+      "id": "C21",
+      "source_id": "S08",
+      "locator": "source L29–32",
+      "source_fact": "2026部门工作安排强调存量智能化更新、按年增量/按需及时更新、多源影像统筹与共享、几何/辐射基准、智能生产解译分析和即产即检。",
+      "boundary": "政策安排和技术方向，不证明预算、采购、岗位增长。"
+    },
+    {
+      "id": "C22",
+      "source_id": "S09",
+      "locator": "PDF p10表",
+      "source_fact": "2024营业收入662546129.13元，同比-13.50%；归母净利润11247623.84元，同比-74.98%；经营活动现金流净额54968406.32元，同比+25.00%。",
+      "boundary": "单公司单年度，不能直接推出就业数或整个行业衰退；现金流改善必须保留。"
+    },
+    {
+      "id": "C23",
+      "source_id": "S09",
+      "locator": "PDF p38表",
+      "source_fact": "工程测勘技术服务2024收入同比+6.12%，地理信息集成与服务-39.50%，测绘服务-19.04%。",
+      "boundary": "该分产品结构不能硬配本科专业或等同利润/岗位。"
+    },
+    {
+      "id": "C24",
+      "source_id": "S09",
+      "locator": "PDF p26",
+      "source_fact": "通过招投标和商务谈判获取合同，自主定制服务为主，方案设计→外业测勘→内业加工；采购含劳务服务和技术服务。",
+      "boundary": "存在劳务采购不等于所有生产外包，也不能推断本科正式员工占比。"
+    },
+    {
+      "id": "C25",
+      "source_id": "S09",
+      "locator": "PDF p66",
+      "source_fact": "应收和合同资产账面余额分别76770.05万元/7099.41万元；回款受财政预算安排、支付审批和验收周期影响，部分业务周期长；未验收项目成本形成存货，部分项目超过一年。",
+      "boundary": "披露风险不是已违约损失概率；账面余额不可混成净额；可实质限制政策/数据规模→稳定新增本科岗位的判断。"
+    },
+    {
+      "id": "C26",
+      "source_id": "S10",
+      "locator": "PDF p1,p10–12",
+      "source_fact": "河海遥感2024为081202/4年/工学学士；课表有测量、平差、GNSS、大地测量等必修，定量遥感在选修，Python在限选。",
+      "boundary": "显示校际差异，不用河海选修属性覆盖AUST遥感方向属性。"
+    }
+  ],
+  "inference_boundaries": [
+    "课程安排不是实际取得、教学质量或就业率；方向选修不是所有学生累计必修。",
+    "两专业多对多通向任务，培养学校与历史招生入口分开。",
+    "采购预算、成交、合同、检验、验收、到账、任务和本科招聘各自分开。",
+    "2026政策不反填2024/2025合同原因。",
+    "人口只作明示条件，无新增人口、退休、毕业生统计或概率。",
+    "未来每环未取得现实数据不妨碍条件推导；不将推导回填为事实。"
+  ],
+  "access_and_collection_limitations": [
+    "南信大两培养页及2025招生页、上海政策转载、中国矿大2024培养遇403后停止，未换工具/表示/端点/身份续读。",
+    "南工大两个培养附件遇验证码、中国地大招聘遇登录转向后停止。",
+    "河海测绘2024/2020附件404，不与河海遥感拼完整同校横评。",
+    "部分其他转换缺图/课表或缺格，不作为培养及招生关键证据；搜索偶遇2026招生摘要未采为证据。",
+    "下载准备曾因依赖缺失失败；一次原始返回保存失败后另行读取并保存，前次未保留返回不作证据。",
+    "HTTP错误只保留错误状态/字符串，未保留完整远端错误响应；截图占位符不冒充图像视读。",
+    "网页发布日期和可见内容不保证当前仍招或项目已履行；原件/原始返回留受控本地，不随索引上传。"
+  ],
+  "next_discriminating_checks": [
+    "2027江苏正式入口、全组接受与调剂及可比位次。",
+    "候选学校对应届别与方向准入、实际开课、实践及费用。",
+    "目标地区同任务本科真实接收、合同/发薪主体、带教与工作条件。",
+    "更新项目持续付费、验收回款与自动化后新人分工。"
+  ]
+}
