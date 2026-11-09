@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "title": "动物医学与动物科学2037条件选择：脱敏来源索引",
+  "task_ref": "LOCAL-20261109-VETPATH",
+  "research_date": "2026-11-09",
+  "baseline_commit": "43a3803ec0d186595819ca35c37272cf675c4cc0",
+  "scope": "江苏生源2027本科方向研究；历史培养、资格、职业和产业证据，不是2027可报名单或2026本科招生采集。",
+  "count_definition": {
+    "key_logical_sources": 12,
+    "supplemental_documents": 5,
+    "excluded_access_or_unverified_records": 8,
+    "note": "同一法规HTML／PDF、派生文字／表格／像素不算多个来源；失败记录不计事实证据。"
+  },
+  "evidence_boundary": "正文仅引用S01—S12及A01。原件、工具返回、联系人及内部运行日志不随索引发布；保存哈希只界定取得的表示，不证明未来规则、招聘或训练结果。",
+  "primary_sources": [
+    {
+      "source_id": "S01",
+      "title": "动物科学专业2023级人才培养方案",
+      "publisher": "新疆农业大学动物科学学院",
+      "publication_date": "2024-03-18",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://dkxy.xjau.edu.cn/2024/0318/c4657a95208/page.htm"
+      ],
+      "location": "四、学制与学位授予；六、主干课程；七（二）专业教育课程表：营养、育种、饲料安全与营养价值评定、专业综合实习、毕业实习、兽医学及猪生产选修。",
+      "used_for": "支持四年、生产营养育种取向与实际课程／实践设置；条件推演其对相应目标的训练匹配。",
+      "limitations": [
+        "2027方案与江苏可报资格未知。",
+        "课程与计划实践不等实际训练质量；牛羊主干、猪生产选修，不作猪场专项能力保证。",
+        "兽医学选修不等必修，不赋予执兽资格。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "7c88df859a9d453e262775a0c4525a2249556137037b252174b31c5a55e9d48b",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S02",
+      "title": "动物医学专业",
+      "publisher": "新疆农业大学动物医学学院",
+      "publication_date": "2024-04-01",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://dyxy.xjau.edu.cn/2020/0708/c1723a70918/page.htm"
+      ],
+      "location": "五、主干学科与核心课程；六、学制。页面日期2024-04-01，URL中的2020不作为适用届别。",
+      "used_for": "支持同校五年与诊断／防疫／临床课程取向，不作同届课时质量比较。",
+      "limitations": [
+        "是专业介绍，适用届别未标，不是同届完整培养方案。",
+        "缺逐课学时与实践质量；不得借南农资料补入或跨校比较课时。",
+        "学制不外推所有学校或2027届。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "4a6cead428cf0e696ee878518a69ddbcb68e1eabe9a7141ae71f6823b829fcd9",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S03",
+      "title": "南京农业大学2025年本科招生章程",
+      "publisher": "南京农业大学",
+      "publication_date": null,
+      "date_note": "适用2025年；页面精确发布日期未核。",
+      "urls": [
+        "https://zsxx.njau.edu.cn/info/1016/4062.htm"
+      ],
+      "location": "第11条选考要求；第21条动物医学类三成员与分流；第22条转专业申请。",
+      "used_for": "保留大类分流的历史入口警示，不新增已核可报候选或招生计数。",
+      "limitations": [
+        "页面精确发布日期未在本次核定；2025为章程适用年。",
+        "未核江苏两目标正式组、选科、代码、计划、位次及全组；2027未知。",
+        "大类录取不保证分到动医，允许申请转专业不保证转成。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "0f8b06eb5903968e6d68540f7c906f4216698d0c91b85376317bc5490d3124a4",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S04",
+      "title": "全国执业兽医资格考试委员会公告 农医考公告第37号（2026考试）及附件1",
+      "publisher": "全国执业兽医资格考试委员会；中国农业农村信息网原文页面",
+      "publication_date": "2025-12-25",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://www.agri.cn/zx/hxgg/202512/t20251225_8797669.htm"
+      ],
+      "location": "公告第九部分资格授予，成功打开原文L134—137；附件1本科完整16项L213—230，尤其第5项与第8项。",
+      "used_for": "区分本科专业全称、考试年度及在校生合格后发证要求；支撑独立诊疗路径的条件差异。",
+      "limitations": [
+        "证据形式为先前成功取得的原文片段，其中本科目录完整；其后独立GET返回403，未取得完整HTML且未再访问。",
+        "2026考试目录不是永久禁入或2031／2032规则；动物科学与动物医学不可拆成两个独立专业。",
+        "规则另有历史职称和乡村兽医路径，不当2027高中生捷径；以后取得其他合资格学历须另核。"
+      ],
+      "evidence_form": "verified_original_fragment_then_byte_download_denied",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "original_web_fragment",
+          "sha256": "97b1a966c1639da2c79e16cb9fb6f3684171d8c36ddc7343cc1c91cd63491e69",
+          "hash_scope": "已成功取得的原文片段，非完整HTML"
+        }
+      ]
+    },
+    {
+      "source_id": "S05",
+      "title": "执业兽医和乡村兽医管理办法（农业农村部令2022年第6号）",
+      "publisher": "农业农村部",
+      "publication_date": "2022-09-07",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://xmsyj.moa.gov.cn/gzdt/202209/t20220909_6408942.htm",
+        "https://www.moa.gov.cn/gk/nyncbgzk/gzk/202209/P020221118345889873301.pdf"
+      ],
+      "location": "第7、11—12、14、16、18—21、34—35条；对应PDF第3—6及9页。",
+      "used_for": "分开报名、合格资格、聘用备案、诊疗范围、助理／学生监督及场内外边界。",
+      "limitations": [
+        "是2022公布施行文本，本次未作未来时效保证；具体年度和地方程序须重核。",
+        "第35条省级可决定助理在乡村独立诊疗的具体适用未核，不作城区或学生默认通道。",
+        "场内已持证人员备案不等所有生产员工必须有证，也不准对外诊疗。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "e2e7775a02c9f3dc5f5e950c1a42506615cd140d087ce5d01a6e9aa86578e2ad",
+          "hash_scope": "取得的完整文档字节"
+        },
+        {
+          "format": "pdf",
+          "sha256": "9c37fbc9a2c7902b5e268d81693eeb496ed16346175ddf404b8507804fe8720e",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S06",
+      "title": "动物诊疗机构管理办法（农业农村部令2022年第5号）",
+      "publisher": "农业农村部",
+      "publication_date": "2022-09-07",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://xmsyj.moa.gov.cn/gzdt/202209/t20220909_6408940.htm"
+      ],
+      "location": "第5—9条诊疗许可、诊所／医院条件；第19、37条监督实践。",
+      "used_for": "说明个人资格不替代机构许可，宠物助理广告不授权未持证者独立诊疗。",
+      "limitations": [
+        "未核地方具体面积标准、未来修订或具体机构合规状态。",
+        "许可最低配置不证明新增招聘，更不证明经营盈利。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "ab2707b748903f2281345e6a6de651806feacbc399d015ebec2921386822783a",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S07",
+      "title": "巨星农牧有限公司校园招聘",
+      "publisher": "巨星农牧有限公司供稿；西南大学荣昌校区承载",
+      "publication_date": "2026-04-10",
+      "date_note": "按原件页面／文件可核日期；不由URL年份替代。",
+      "urls": [
+        "https://rcxq.swu.edu.cn/info/1142/7353.htm"
+      ],
+      "location": "二、校招岗位第一张表：基地总方向、兽医方向、疾病防控研究、营养与饲养研究、种场／育肥养殖技术员。原表空白及无rowspan分别保留。",
+      "used_for": "共同本科养殖入口与另列硕士技术研究入口；不将共同接收当相同胜率。",
+      "limitations": [
+        "未核精确届别、零经验接收、完整职责、实际录用或封闭周期。",
+        "仅基地总方向行明列四川为主、安徽／贵州等；其他空地点不继承。",
+        "广告培养／晋升时间不当2037职业结果。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "469a208bd012518a4b4f392ecbf9be6822af403dfca970cbec04d10bde1016cd",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S08",
+      "title": "牧原食品股份有限公司招聘职位汇总",
+      "publisher": "四川农业大学研究生院；内容标注牧原或川农就业中心",
+      "publication_date": null,
+      "date_note": "精确网页发布日期未核；四岗有效期单列。",
+      "urls": [
+        "https://yan.sicau.edu.cn/info/1038/14619.htm"
+      ],
+      "location": "营养研发、兽医研发、种猪技术、兽医师四岗的结构化字段、职责和任职要求；四岗有效期2026-03-23至2026-06-23。",
+      "used_for": "辨别营养／兽医研究和场区工作的任务、学历、专业、物种与劳动条件。",
+      "limitations": [
+        "历史广告有效期不代表页面精确发布日期或当前空缺。",
+        "兽医研发详细文字含动科／畜牧，结构化栏较窄，不能自行消除差异或由招聘推临床权限。",
+        "种猪岗硕士门槛有优秀本科例外；场区兽医要求实习／项目，相关专业不自动认证动科。",
+        "地点、出差、一线要求按岗保留，未核封闭隔离周期、届别、录用或薪酬兑现。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "c80d7f02cad867a32fea3fbe9c7d6576d13b5f9e330af0d0b7a0d79347efb985",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S09",
+      "title": "见习兽医师助理/储备医生",
+      "publisher": "新瑞鹏宠物医疗集团；仲恺农业工程学院就业网承载",
+      "publication_date": null,
+      "date_note": "发布日期未核。",
+      "urls": [
+        "https://job.zhku.edu.cn/web/index/job-detail?id=142407"
+      ],
+      "location": "见习兽医师助理／储备医生标题、页面经验栏、岗位职责与任职要求。",
+      "used_for": "说明宠物分支含护理、清洁与客户协作，资格和实习优先不是零经验或独立执业保证。",
+      "limitations": [
+        "页面日期、真实城市、毕业届别、夜班与实际工时未核。",
+        "经验1年以下、资格和实习优先不等任何零经验者可入，不等未持证者可独立诊疗。",
+        "混合岗位标题算一个广告，企业宣传门店数不作未来需求。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "337c15599790dcbcd18151f7e9c1852f91891fe5ed7e4b7e1fc6547287226970",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S10",
+      "title": "国家动物疫病强制免疫指导意见（2022—2025年）",
+      "publisher": "农业农村部",
+      "publication_date": "2022-01-07",
+      "date_note": "网页2022-01-07；通知落款2022-01-04。",
+      "urls": [
+        "https://fgs.moa.gov.cn/flfg/202201/t20220107_6386445.htm"
+      ],
+      "location": "三（一）至（六）免疫组织、购买服务与记录评价；四（一）至（三）责任、组织、经费。",
+      "used_for": "历史责任—组织—服务购买—财政支持的机制支点，不证明目标期执行或新人名额。",
+      "limitations": [
+        "适用2022—2025，发布目标与已执行、预算与到账分开。",
+        "未核2026以后续规或江苏兑现，不把历史政策期限外推2037。",
+        "停止政府招标采购疫苗的目标，不等购买防疫服务消失。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "7872a4cbaad424d82cd57988933067490139a2ee967d9a10636a6556e4ba9aec",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S11",
+      "title": "云南神农农业产业集团股份有限公司2025年年度报告",
+      "publisher": "云南神农农业产业集团股份有限公司；巨潮资讯原始PDF披露",
+      "publication_date": "2026-04-25",
+      "date_note": "2026-04-25披露的2025年度报告。",
+      "urls": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-25/1225184694.PDF"
+      ],
+      "location": "PDF第12页销售组织、内部计划；第22—23页公司年度经营与主营业务毛利；第40—41页风险及公司＋家庭农场结算。页码为报告页码，与本次PDF页序一致。",
+      "used_for": "支撑真实产业组织、结算及降本但利润承压反例；只用公司2025全年口径。",
+      "limitations": [
+        "仅公司全年，不是全行业；主营业务综合毛利率不是净利率。",
+        "企业对效率／防控的描述不是独立因果评估；集团内流转不重复算终端需求。",
+        "风险披露不代表全部风险已发生；收入、现金流下降不证明对应岗位裁撤。",
+        "没有具体岗位付薪预算、应届名额或合同主体数据。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "pdf",
+          "sha256": "8005145ec02801b8f5e5abcc8e6787660c4200749eddc6db4da1a54271d80d6b",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "S12",
+      "title": "兽医博士、硕士专业学位研究生指导性培养方案（2021年10月修订）",
+      "publisher": "全国兽医专业学位研究生教育指导委员会；南农托管",
+      "publication_date": "2021-11-30",
+      "date_note": "页面日期2021-11-30，方案2021年10月修订。",
+      "urls": [
+        "https://vmd.njau.edu.cn/info/1017/1245.htm"
+      ],
+      "location": "标题2021年10月修订与页面2021-11-30；兽医硕士部分二、招生对象，三、基本学制，六（六）、实践。非上半部博士。",
+      "used_for": "避免默认三年兽医硕士、默认动科接入或读研自动补资格；提供历史一般两年的锚点。",
+      "limitations": [
+        "历史指导方案不等目标校2031／2032招生简章、实际学制或录取资格。",
+        "完整招生对象未点名单独动科，不证明所有未来学校永久拒绝任何兽医研究生路径。",
+        "不覆盖全部学术兽医、畜牧、农业硕士入口；录取与新学历能否匹配届时执兽目录另核。",
+        "两年是一般基本学制，不能移用博士四年或博士实践要求。"
+      ],
+      "evidence_form": "verified_primary_original",
+      "author_check": "亲读取得的原件或原文片段；涉及表格核原始HTML单元，S05／S11另核关键PDF单页像素。",
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "af990731bcf2ad5de9fe4129275ffc5f3fdeb3c73c8616c676d4c0394559b396",
+          "hash_scope": "取得的完整文档字节"
+        }
+      ]
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "source_id": "A01",
+      "title": "南农动物医学院专业介绍",
+      "publisher": "南京农业大学动物医学院",
+      "publication_date": null,
+      "urls": [
+        "https://cvm.njau.edu.cn/rcpy/bkjy/zyjs.htm"
+      ],
+      "location": "（一）动物医学专业，3、培养对象与6、主要实践教学环节",
+      "used_for": "正文使用的补充培养介绍；亲读HTML，不与新农大拼学时。",
+      "author_check": "亲读正文所用HTML段落。",
+      "limitations": [
+        "五年及诊疗/防疫实践同向校核；页面无适用届别，历史就业升学百分比口径不用于判断"
+      ],
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "9a108ed7e25974004f32b7e945efedb025f439bf4a0d365d7ba67c839eb12833",
+          "hash_scope": "取得的文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "A02",
+      "title": "南农动物医学历史培养方案",
+      "publisher": "南京农业大学教务部门",
+      "publication_date": null,
+      "urls": [
+        "https://jwc.njau.edu.cn/__local/4/5F/35/36933BD74490B88BD212AC7B699_BBCA1645_292B1.pdf?e=.pdf"
+      ],
+      "location": "历史动物医学培养方案，五年；适用届别未标",
+      "used_for": "收藏补充，不作为正文新事实依据；未据此确认2027方案。",
+      "author_check": "仅核冻存文件完整性和收藏身份，不宣称全文内容已由作者独立核读。",
+      "limitations": [
+        "完整9页；学制五年；方案届别未标，绝非2027方案"
+      ],
+      "original_representations": [
+        {
+          "format": "pdf",
+          "sha256": "ec20e9a9cbe65c925677e38da010b701bae41d600f7c034a98a9d48931c3d9b6",
+          "hash_scope": "取得的文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "A03",
+      "title": "南农动物科学历史培养方案",
+      "publisher": "南京农业大学教务部门",
+      "publication_date": null,
+      "urls": [
+        "https://aao.njau.edu.cn/__local/D/0A/35/4FBC471085DA628E8F50EF528E2_7C111E7B_261B4.pdf?e=.pdf"
+      ],
+      "location": "历史动物科学培养方案；适用届别未核",
+      "used_for": "收藏补充，不作为正文依据；不是验证码附件的替代下载，不填2023附件缺口。",
+      "author_check": "仅核冻存文件完整性和收藏身份，不宣称全文内容已由作者独立核读。",
+      "limitations": [
+        "独立搜索找到的旧方案（非验证码附件替代下载），完整9页；届别未核；保留同校历史对照但不补2023原件缺口"
+      ],
+      "original_representations": [
+        {
+          "format": "pdf",
+          "sha256": "f4e3e3da716f7ae2aba19c7140e4dca306e7b071ca4dceead58a9886c23bb4c4",
+          "hash_scope": "取得的文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "A04",
+      "title": "神农2025半年度报告",
+      "publisher": "云南神农农业产业集团股份有限公司；巨潮资讯",
+      "publication_date": "2025-08-27",
+      "urls": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224577377.PDF"
+      ],
+      "location": "2025半年度报告",
+      "used_for": "本篇采用全年S11；本份不作为第二个独立市场观察，不在正文叠加半年度数字。",
+      "author_check": "仅核冻存文件完整性和收藏身份，不宣称全文内容已由作者独立核读。",
+      "limitations": [
+        "被同公司全年原始报告取代，不计为独立市场观察"
+      ],
+      "original_representations": [
+        {
+          "format": "pdf",
+          "sha256": "026025355e3d85c9beb2daf8f6718604245e5860d41f4153851c373f0c6132aa",
+          "hash_scope": "取得的文档字节"
+        }
+      ]
+    },
+    {
+      "source_id": "A05",
+      "title": "神农2027届校招简章",
+      "publisher": "神农集团；仲恺农业工程学院就业网承载",
+      "publication_date": null,
+      "urls": [
+        "https://job.zhku.edu.cn/web/Index/jobs-brief-detail?id=VAUXSM6"
+      ],
+      "location": "2027届校园招聘简章，招聘计划表",
+      "used_for": "既有农经粮贸单元覆盖同雇主生产入口；本篇不另算新增独立需求。",
+      "author_check": "仅核冻存文件完整性和收藏身份，不宣称全文内容已由作者独立核读。",
+      "limitations": [
+        "正文和表格结构可核；原邻题已覆盖同雇主生产入口；本批不据此重复建立主要证据单元"
+      ],
+      "original_representations": [
+        {
+          "format": "html",
+          "sha256": "54ac87eba1116a589dd537ddec53a475e3e05a2092d34bbef9b927d93a8fb941",
+          "hash_scope": "取得的文档字节"
+        }
+      ]
+    }
+  ],
+  "excluded_records": [
+    {
+      "source_id": "A06",
+      "title": "南农动物科学2023版方案附件",
+      "publisher": "南京农业大学动物科技学院",
+      "publication_date": null,
+      "urls": [
+        "https://dky.njau.edu.cn/system/_content/download.jsp?owner=1440933693&urltype=news.DownloadAttachUrl&wbfileid=14392858"
+      ],
+      "location": null,
+      "status": "captcha_stopped",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "原介绍页https://dky.njau.edu.cn/info/1067/4111.htm成功；附件验证码后立即停，无其他方式下载同一附件"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    },
+    {
+      "source_id": "A07",
+      "title": "南农2025招生专业一览",
+      "publisher": "南京农业大学本科招生网",
+      "publication_date": null,
+      "urls": [
+        "https://zsxx.njau.edu.cn/yxzy.htm"
+      ],
+      "location": null,
+      "status": "image_catalog_not_verified",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "网页图片未逐像素核读，不用来填选科/专业组/计划"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    },
+    {
+      "source_id": "A08",
+      "title": "南农历年分数入口",
+      "publisher": "南京农业大学本科招生系统",
+      "publication_date": null,
+      "urls": [
+        "https://njauzsb.njau.edu.cn/zsw/lnfs.html"
+      ],
+      "location": null,
+      "status": "dynamic_shell_only",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "只得到两标题，不运行默认年份查询，不采2026数据"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    },
+    {
+      "source_id": "A09",
+      "title": "神农动态职位列表",
+      "publisher": "神农招聘站",
+      "publication_date": null,
+      "urls": [
+        "https://ynsnjt.zhiye.com/campus/jobs"
+      ],
+      "location": null,
+      "status": "dynamic_shell_only",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "仅原始空壳，Search摘要中封闭驻场等不升级事实，不追API"
+      ],
+      "original_sha256": "c94fb04329fec27cb02dbddc56e49d8dba832e6f25d46d9a0110391ef3e9faed",
+      "hash_scope": "动态空壳HTML，非完整职位正文。"
+    },
+    {
+      "source_id": "A10",
+      "title": "山西农大牧原职位",
+      "publisher": "山西农业大学就业网",
+      "publication_date": null,
+      "urls": [
+        "https://sxau.bysjy.com.cn/detail/job?career_id=720601&id=2644280"
+      ],
+      "location": null,
+      "status": "dynamic_shell_only",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "只见模板变量；Search所述本科专业交叉不当此岗已核事实"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    },
+    {
+      "source_id": "A11",
+      "title": "巨星动态职位列表",
+      "publisher": "巨星农牧招聘站",
+      "publication_date": null,
+      "urls": [
+        "https://jxnm.zhiye.com/campus/jobs"
+      ],
+      "location": null,
+      "status": "dynamic_shell_only",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "仅空壳；封闭/驻场精确条件仍未原文核，不用摘要替代"
+      ],
+      "original_sha256": "0b22d67c2de65474f883e14581629f4cb9f386bbbfef53ccb24ba3a24de69b5f",
+      "hash_scope": "动态空壳HTML，非完整职位正文。"
+    },
+    {
+      "source_id": "A12",
+      "title": "扬大2025历史计划入口",
+      "publisher": "扬州大学本科招生网",
+      "publication_date": null,
+      "urls": [
+        "https://zhaoban.yzu.edu.cn/info/1016/4451.htm"
+      ],
+      "location": null,
+      "status": "http_412_stopped",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "原文412，停该动作；不改端点/身份/工具重试"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    },
+    {
+      "source_id": "A13",
+      "title": "巨星养殖技术员单岗页",
+      "publisher": "91wllm就业平台",
+      "publication_date": null,
+      "urls": [
+        "https://yjsjob.91wllm.cn/job/view/id/2346018"
+      ],
+      "location": null,
+      "status": "http_404_stopped",
+      "used_for": "仅保留未取得／未核边界，不支持任何正文事实。",
+      "limitations": [
+        "404，不以摘要补职责/劳动条件"
+      ],
+      "original_sha256": null,
+      "hash_scope": "未取得或未核所需原件；不以内部工具返回的哈希冒充原件哈希。"
+    }
+  ],
+  "critical_unknowns": [
+    "本人选科、位次、目标物种、预算和工作条件接受度。",
+    "2027江苏正式组、选科、计划、位次、完整组成员、分流及适用培养方案。",
+    "2031／2032校级硕士入口与实际学制、目标年执兽目录和地方备案细则。",
+    "目标工作实际地点、经验要求、劳动安排、带教、合同付款及新人名额。",
+    "2037产品与服务支付、组织分工、净招聘及竞争；没有本批人口量化预测。"
+  ]
+}
