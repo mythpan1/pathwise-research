@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "research_unit": "LOCAL-20261109-ENVPATH",
+  "updated_at": "2026-11-09",
+  "scope": {
+    "student_origin": "江苏",
+    "entry_year": 2027,
+    "undergraduate_graduation": "约2031，仅标准四年正常完成假设",
+    "career_horizon": 2037,
+    "current_entry_year_admissions_verified": false,
+    "historical_admissions_scope": "仅苏州大学2025江苏环境工程一行计划核实；不增加既有候选计数"
+  },
+  "evidence_use": "事实取原件或明确范围的原网页转换表示；条件推演和建议由正文单独标明。没有以搜索摘要支持事实。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "环境工程专业培养方案（2024版）",
+      "publisher": "山东大学环境科学与工程学院",
+      "url": "https://www.huanke.sdu.edu.cn/info/1250/5909.htm",
+      "publication_date": "2024-10-11",
+      "reference_period": "2024版；不等于2027方案",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始PDF，15个物理页；重点核第1、4、5、7—10页",
+      "locators": [
+        "物理页1：代码、大类招生和大二分流",
+        "物理页4：学制、学位",
+        "物理页7—10：课程类别与单门课程",
+        "物理页5、8：原件内部数值不一致"
+      ],
+      "supports": [
+        "工程训练及监测交叉；核心/限选/任选区分"
+      ],
+      "limitations": [
+        "只代表山东大学2024版，不是2027江苏招生或分流保证。",
+        "第5页汇总、比例及个别实验学时有内部不一致，不据总表作精确负担、实践比例排序。",
+        "课程类别和列名不证明实际开课、个人取得或就业结果；限选不擅改为任选。"
+      ],
+      "content_sha256": "2406f9a4dafad86f306ae53d5abe84b19ba576e7875c7478a32dec7628600442",
+      "hash_scope": "original acquired bytes",
+      "document_url": "https://www.huanke.sdu.edu.cn/__local/8/D7/EF/FD661521008808DA0B748AE0664_4DA0AD85_69E4F.pdf"
+    },
+    {
+      "id": "S02",
+      "title": "环境科学专业培养方案（2024版）",
+      "publisher": "山东大学环境科学与工程学院",
+      "url": "https://www.huanke.sdu.edu.cn/info/1250/5908.htm",
+      "publication_date": null,
+      "reference_period": "2024版；父页发布日期未独立核",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始PDF，13个物理页；重点核第1、4、7—9页",
+      "locators": [
+        "物理页1、4：代码、学位、学制与分流",
+        "物理页7：基础及核心课程、实验与调查",
+        "物理页8—9：设计、实习、限选与任选"
+      ],
+      "supports": [
+        "环境化学/毒理/生态调查训练与工程交叉；并非所有风险/健康任选人人必修"
+      ],
+      "limitations": [
+        "父页发布日期未独立核实，不能以服务器更新时间补填。",
+        "只代表2024版，不是2027江苏入口；任选课程不等人人必修。",
+        "有工程和设计训练；环境风险、暴露等专项不可仅凭专业名称决定强弱。"
+      ],
+      "content_sha256": "8a32a2e3938335cbc666d5b13e17fd655fad9bd4bf8114ee2f2c5a311aba6e8e",
+      "hash_scope": "original acquired bytes",
+      "document_url": "https://www.huanke.sdu.edu.cn/__local/0/CF/28/D2C6814D3208BAAEB29EB433AED_5B2E458E_37A3D.pdf"
+    },
+    {
+      "id": "S03",
+      "title": "生态环境监测条例（展示2026修订文本）",
+      "publisher": "生态环境部（来源中国政府网）",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202610/t20261009_1175940.shtml",
+      "publication_date": "2026-10-09",
+      "reference_period": "2025-10-31公布；2026-08-08决定修订；附则2026-01-01施行",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始HTML；按条文核对",
+      "locators": [
+        "第2、5、6、9条",
+        "第20—26条自行监测",
+        "第27—34条服务机构与平台",
+        "文本题注和第49条"
+      ],
+      "supports": [
+        "预算、自行监测、数据/机构责任、设备与平台任务"
+      ],
+      "limitations": [
+        "公共财政、自行监测与技术服务机构责任分层，不把机构资质认定当个人入职证书。",
+        "法规要求不证明合同、到账、扩招或2037规则不变。"
+      ],
+      "content_sha256": "6aec351857573f23579a4e6cc3987d2d0adda35ad947cfcea6abe5ab5a638158",
+      "hash_scope": "original acquired bytes"
+    },
+    {
+      "id": "S04",
+      "title": "河北先河环保科技股份有限公司2025年年度报告",
+      "publisher": "先河环保，深圳证券交易所披露文件",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-05-08/30f79e06-e7ec-43e8-8054-237a27c8187d.PDF",
+      "publication_date": null,
+      "reference_period": "2025年度；封面署2026年4月；具体公开日期未独立核",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始PDF，170页；重点核第7、11、23、28页及关键表格",
+      "locators": [
+        "物理页7主要财务数据",
+        "物理页11公司产品、自动化方向陈述",
+        "物理页23现金流及变动解释",
+        "物理页28未来展望：回款、组织与技术"
+      ],
+      "supports": [
+        "正净利与负经营现金流共存、回款压力、技术任务重组反例"
+      ],
+      "limitations": [
+        "报告期2025，封面署2026年4月；具体公开日期未独立核实，不从URL或服务器日期补填。",
+        "合并财务不是具体岗位部门经营结果；正净利与负经营现金流分别保留。",
+        "公司自报自动化和大模型方向不是实证部署、替代比例或净就业。",
+        "支付给职工现金减少不等裁员数量。"
+      ],
+      "content_sha256": "7cccc299f4671e373f253aba101e46d76c2ed1c8f35b6a194ce59864cf79ddd5",
+      "hash_scope": "original acquired bytes"
+    },
+    {
+      "id": "S05",
+      "title": "知和环保科技有限公司2026年校园招聘",
+      "publisher": "南开大学就业指导中心代发雇主简章",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/118873.html",
+      "publication_date": "2026-09-15",
+      "reference_period": "2026招聘公告；工作地域总栏河南",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始HTML；总栏及各分岗分别核对",
+      "locators": [
+        "公告总栏及四、五部分",
+        "招聘岗位介绍：环保调试/运营工程师",
+        "招聘岗位介绍：污水处理工程项目经理助理",
+        "招聘岗位介绍：环保研发工程师",
+        "招聘岗位介绍：水质化验员全职及实习"
+      ],
+      "supports": [
+        "两专业本科运营共同接收、工程任务侧重、硕士研发、化验、出差及用工差别"
+      ],
+      "limitations": [
+        "河南地域总栏不等江苏岗位；驻场具体省份未列。",
+        "总栏本科不能覆盖研发分岗硕士门槛；项目助理的等相关不等排除环境科学。",
+        "化验员分岗未列独立专业名单，实习与全职、劳动合同与实习协议分开。",
+        "应届可投及带教陈述不证明实际录用或净增；实习优先进入正式流程不等保证转正。"
+      ],
+      "content_sha256": "b7ae0774f610f43a90245b189ca3220f578403d7ca4497bcb55165dff30bb394",
+      "hash_scope": "original acquired bytes"
+    },
+    {
+      "id": "S06",
+      "title": "资源与环境学院劳动聘用制检测员招聘公告",
+      "publisher": "华中农业大学人力资源部",
+      "url": "https://rsc.hzau.edu.cn/info/1028/6644.htm",
+      "publication_date": "2026-09-18",
+      "reference_period": "2026招聘；武汉",
+      "accessed_date": "2026-11-09",
+      "source_form": "原网页完整转换表示，共199行；未取得原始HTML；使用第94—176行",
+      "locators": [
+        "转换行94—120：日期、职责、学历专业及经验",
+        "转换行157—162：协议工资及劳务派遣"
+      ],
+      "supports": [
+        "两专业本科检测入口、经验优先、质量/仪器/客户任务、劳务派遣"
+      ],
+      "limitations": [
+        "本科两专业共同接收，分析检测经验优先；未明写应届免经验。",
+        "武汉工作地与高校平台不等事业编或监管编制，公告为劳务派遣。",
+        "科研辅助不等独立研究岗位；公告不证明实际录用。"
+      ],
+      "content_sha256": "8e18f1088bd57179d9e4299b3737a73a4048dd290619cfd734cfb616e70dc0e7",
+      "hash_scope": "saved original-webpage converted representation, not full HTML"
+    },
+    {
+      "id": "S07",
+      "title": "安徽庆冠环境工程有限公司招聘",
+      "publisher": "黄山学院就业指导中心",
+      "url": "https://job.hsu.edu.cn/06/5e/c3401a198238/page.htm",
+      "publication_date": "2025-05-07",
+      "reference_period": "2025招聘；合肥",
+      "accessed_date": "2026-11-09",
+      "source_form": "完整原始HTML；职位表、公司简介及招聘对象",
+      "locators": [
+        "职位名、学历要求、工作地点表",
+        "企业简介及薪资待遇段的两专业本科应届表述"
+      ],
+      "supports": [
+        "本科咨询与工程/管理入口存在，环科环工共同接收"
+      ],
+      "limitations": [
+        "本科咨询辅助入口不证明独立主持或签字授权。",
+        "无各分岗完整职责、劳动合同形式与实际录用数据，不推行业总体供需。",
+        "薪资表与底薪加提成表述不作为稳定到手收入或平均薪资。"
+      ],
+      "content_sha256": "e632815fb15a996ea6135d4026ed570b77d96c5805e4e2921d436a8d065d3219",
+      "hash_scope": "original acquired bytes"
+    },
+    {
+      "id": "S08",
+      "title": "相城2026污染源在线监控质量管理及生物多样性站点运维合同聚合页",
+      "publisher": "苏州市政府采购网，相城生态环境局",
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/90f7f9885e5f4dd7b2b4ca19a128fbd0.shtml",
+      "publication_date": null,
+      "reference_period": "各公告分别：2026-07-01合同、2026-10-08标段二变更；签约2026-06-29",
+      "accessed_date": "2026-11-09",
+      "source_form": "原网页转换片段，第0—300行，全页标534行；未取得合同附件或完整原始HTML",
+      "locators": [
+        "转换行119—164：标段二变更、合同与分期付款",
+        "转换行173—212：标段一主体、价格与服务内容"
+      ],
+      "supports": [
+        "AI/手工比对/质控服务任务；不同标段和支付时序/考核约束"
+      ],
+      "limitations": [
+        "标段一乙方苏州科星，163万元，一年，含AI研判、手工比对及质量管理。",
+        "标段二乙方江苏皓安，47.1万元，一年，生物多样性站点运维；分期付款及人工特征只用于该标段。",
+        "2026-06-29签约；标段一2026-07-01公告，标段二2026-09-30变更、2026-10-08公告。",
+        "采购合同安排不证明到账、履约完成、新人名额或监管扩编；未核完整合同附件。"
+      ],
+      "content_sha256": "3320d7c3fbfac12a48dd7671b2d8b0fd7d4e54dcced99f1b5144c49492ef8eec",
+      "hash_scope": "saved original-webpage converted representation, not full HTML"
+    },
+    {
+      "id": "S09",
+      "title": "湖南省2026年度环境影响评价工程师职业资格考试考务通知",
+      "publisher": "湖南省人事考试院",
+      "url": "https://rst.hunan.gov.cn/rst/hnrsksw/c103094/202603/t20260320_33938734.html",
+      "publication_date": "2026-03-20",
+      "reference_period": "2026考试及年限截至2026-12-31",
+      "accessed_date": "2026-11-09",
+      "source_form": "原网页转换表示中的考务正文与相关专业表；未取得完整原始HTML",
+      "locators": [
+        "转换行47—79：属地、报考条件和业务年限",
+        "转换行170—203：相关专业新旧对应表"
+      ],
+      "supports": [
+        "两专业均相关专业；考试年限不是本科入职或实际读研学制"
+      ],
+      "limitations": [
+        "湖南2026通知及专业表把环境科学、环境工程均列相关专业，相关学士均五年环境影响评价工作。",
+        "其他环保工作不自动可计；全日制学习含实习不计，通知年限截止2026-12-31。",
+        "湖南属地规则不是江苏条件已核；不承诺2031或2037规则。",
+        "硕士资格工作年限不等硕士实际学制，不用于自动推算毕业年。"
+      ],
+      "content_sha256": "a6da2a9c75ad358324d3e32fd7c454648a0eebd23e8189a63b29b2a4a3079f22",
+      "hash_scope": "saved original-webpage converted representation, not full HTML"
+    },
+    {
+      "id": "S10",
+      "title": "建设项目环境影响报告书（表）编制监督管理办法",
+      "publisher": "生态环境部规章库",
+      "url": "https://www.mee.gov.cn/gzk/gz/202112/t20211211_963804.shtml",
+      "publication_date": "2019-09-20",
+      "reference_period": "2019-11-01施行的部令9号文本；网页展示截至采集日",
+      "accessed_date": "2026-11-09",
+      "source_form": "原网页转换片段，第0—138行，全页标257行；2019年部令文本",
+      "locators": [
+        "转换行4—5：2019发布日期与施行日",
+        "第5、10条：编制人员与主持人资格区分"
+      ],
+      "supports": [
+        "本科受雇、主要编制与主持资格不同的有日期制度例证"
+      ],
+      "limitations": [
+        "仅作为2019制度区分受雇、编制人员和主持资格的有日期例证。",
+        "未核2026新法与配套新旧衔接，不断言当前或2037具体签字程序。",
+        "不扩展为所有环保报告或工程设计执业规则。"
+      ],
+      "content_sha256": "ca03baad268a811ef64f7f37911551df23d340befb7e0920d4ba749e1ddf9746",
+      "hash_scope": "saved original-webpage converted representation, not full HTML"
+    },
+    {
+      "id": "AD01",
+      "title": "苏州大学2025年江苏招生计划查询结果",
+      "publisher": "苏州大学招生办公室",
+      "url": "https://zsb.suda.edu.cn/search_plan.aspx?dr=1&nf=2025&province=%E6%B1%9F%E8%8B%8F&sf=qt01&yx=-1",
+      "publication_date": null,
+      "reference_period": "2025江苏招生计划；页面发布日期未显示，不推定2027适用",
+      "accessed_date": "2026-11-09",
+      "source_form": "原网页转换片段第0—225行，全页标262行；目标行、标题、表头及注释在取得范围内，未取得完整原始HTML",
+      "locators": [
+        "转换行65：2025江苏标题",
+        "转换行68—72：官方分组示意说明和表头",
+        "转换行183：环境工程普通类物理类本科计划"
+      ],
+      "supports": [
+        "苏州大学2025江苏环境工程：物理+化学、四年、计划15；学校网页32专业组仅示意。"
+      ],
+      "limitations": [
+        "未核省级正式组代号、专业代号及完整正式组关系，不将网页链接编号当专业代码。",
+        "本轮只核环境工程单行，未核环境科学入口、分流、校区、苏大培养方案或录取位次结果。",
+        "山东大学2024培养与大二分流不得嫁接到苏州大学。",
+        "历史计划不保证2027招生规则、计划、录取或培养；不增加既有已核候选统计。"
+      ],
+      "verified_row": {
+        "school": "苏州大学",
+        "year": 2025,
+        "province": "江苏",
+        "major": "环境工程",
+        "subject_category": "物理类",
+        "subject_requirement_display": "物理+化学",
+        "school_group_display": "32专业组",
+        "actual_provincial_group_code": null,
+        "actual_provincial_major_code": null,
+        "program_years": 4,
+        "planned_places": 15,
+        "batch": "普通类本科",
+        "campus": null
+      },
+      "content_sha256": "88a51ae6f52b6dac404288b1122a6a4705aefaa3b4f5248e5ef8652d308152c4",
+      "hash_scope": "saved original-webpage converted representation, not full HTML"
+    }
+  ]
+}
