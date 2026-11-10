@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "title": "采矿工程与矿物加工工程：江苏生源2027本科路径及2037条件观察来源索引",
+  "updated_at": "2026-11-10",
+  "scope": {
+    "student_origin": "江苏",
+    "planned_entry_year": 2027,
+    "conditional_bachelor_graduation_year": 2031,
+    "observation_year": 2037,
+    "sources_count": 11,
+    "school_sample": "安徽理工大学同标称2024版两专业；2027适用待核",
+    "admission_anchor": "同校2025江苏计划，仅两目标专业必要行列，不含2026招生/录取或位次"
+  },
+  "evidence_rules": [
+    "事实、政策目标、法定义务、企业自述、条件推断分别使用。",
+    "11项为关键原始来源；HTML发布页与PDF属于同项来源的不同资产，数量不重复累计。",
+    "原件哈希对下载字节计算；少数HTTP响应保留压缩传输字节，解析使用解压后的派生表示。",
+    "原件、完整工具返回与联系人仅受控保留，不在此索引提供内部路径或复制原件。",
+    "搜索摘要不是事实；受限或验证码资源已停止，本轮无重新获取。",
+    "本轮没有已核同一具体岗位同时接收采矿与矿加；新集为类别总表。",
+    "不同企业用于不同机制支点，不证明彼此已经发生合同。",
+    "作者自检不是独立内容审核，历史招聘不是2031职位承诺。"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "original_source_id": "AUST-MINE-2024",
+      "title": "安徽理工大学采矿工程专业人才培养方案（2024版）-081501",
+      "publisher": "安徽理工大学矿业工程学院",
+      "source_type": "official undergraduate curriculum",
+      "date_information": {
+        "page_published": "2025-10-09",
+        "revision_label": "2024版",
+        "revision_date": null,
+        "applicable_cohorts": null
+      },
+      "document_period": null,
+      "original_url": "https://kygc.aust.edu.cn/virtual_attach_file.vsb?afc=5M4NC8Uz7YozVfLQRQRoRUZnNMkoR6q2MzL4MzCiU4VVM870gihFp2hmCIa0MYyiMYhfLkhfnzlbMmvaMNCbMlUYnlC8oRTkozlDM8LiL4MFUzl4UNlsUmWFU4LsUmCJv2nto4OeoDxbQDL0qIbtpYyPLm9Pg4vsLm9Jqdpnx&oid=1705606419&tid=1281&nid=7728&e=.pdf",
+      "resolved_url": "https://kygc.aust.edu.cn/virtual_attach_file.vsb?afc=5M4NC8Uz7YozVfLQRQRoRUZnNMkoR6q2MzL4MzCiU4VVM870gihFp2hmCIa0MYyiMYhfLkhfnzlbMmvaMNCbMlUYnlC8oRTkozlDM8LiL4MFUzl4UNlsUmWFU4LsUmCJv2nto4OeoDxbQDL0qIbtpYyPLm9Pg4vsLm9Jqdpnx&oid=1705606419&tid=1281&nid=7728&e=.pdf",
+      "accessed_at_utc": "2026-11-10T03:41:02.328182+00:00",
+      "original_bytes": 800694,
+      "original_sha256": "71970e9c3c9cd04f7aaea97da521010b9cc53f2a6119f645a9b985fa8adfec86",
+      "additional_publication_assets": [
+        {
+          "url": "https://kygc.aust.edu.cn/info/1281/7728.htm",
+          "accessed_at_utc": "2026-11-10T03:40:17.807366+00:00",
+          "sha256": "ed7179ed25b019ff5787b336ad0d18b844295c33829755c77f3203f5e79e8542"
+        }
+      ],
+      "facts": [
+        {
+          "locator": "PDF物理p1、5",
+          "fact": "同标称2024版，标准学制4年、工学学士，定位聚焦煤炭安全智能精准绿色开采。p5毕业总176学分，理论126、实践46、课外科技活动4。",
+          "supports": "本校采矿培养主轴与四年路径；不能覆盖全国所有采矿专业。"
+        },
+        {
+          "locator": "PDF物理p12—13、16",
+          "fact": "专业必修含地下工程、采矿学、矿山岩石力学、矿山压力与岩层控制、矿井通风与安全、矿山设计与优化。核心选修带星号必须选修；专业选修开课量42.5，最低16.5学分。",
+          "supports": "开采系统目标的相对训练优势；不以42.5与矿加最低13直接比较毕业负担。"
+        },
+        {
+          "locator": "PDF物理p19",
+          "fact": "生产实习5周、毕业实习3周、毕业设计12周，另列采矿学与通风安全课程设计。",
+          "supports": "存在具体实践安排；不证明实际选课、现场到岗、带教或独立授权。"
+        }
+      ],
+      "limits": [
+        "未查得方案明确适用2027级；2024版标签不是2027届别保证。",
+        "未核精确修订日、选修实际开班、跨方向选课资格或毕业后的个人执业授权。",
+        "不能用本方案填矿大或其他学校培养空白。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S02",
+      "original_source_id": "AUST-PROC-2024",
+      "title": "安徽理工大学矿物加工工程专业2024版本科培养方案-081503",
+      "publisher": "安徽理工大学材料科学与工程学院",
+      "source_type": "official undergraduate curriculum",
+      "date_information": {
+        "page_published": null,
+        "revision_label": "2024版",
+        "revision_date": null,
+        "applicable_cohorts": null,
+        "http_last_modified_not_publication": "Fri, 11 Apr 2025 06:22:14 GMT"
+      },
+      "document_period": null,
+      "original_url": "https://clx.aust.edu.cn/__local/B/FE/18/82D09B5A1BE40A6D04E2FF65D09_524D46FC_A8572.pdf",
+      "resolved_url": "https://clx.aust.edu.cn/__local/B/FE/18/82D09B5A1BE40A6D04E2FF65D09_524D46FC_A8572.pdf",
+      "accessed_at_utc": "2026-11-10T03:40:23.169460+00:00",
+      "original_bytes": 689522,
+      "original_sha256": "e99179fb951d4c52672fafc635ade22ea0b97e69cd68397a64218457e9a0523e",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "PDF物理p1、5—6",
+          "fact": "同标称2024版，煤炭洗选加工为主体，煤炭清洁加工+智能分选特色；标准4年，弹性3—6年，工学学士。",
+          "supports": "本校矿加主轴与有条件四年路径。"
+        },
+        {
+          "locator": "PDF物理p6与p15",
+          "fact": "p6为170+6、理论133.5/实践42.5；p15为理论133.25/实践42.75、最低毕业176。两处总量同为176，分项相差0.25学分；未擅自修正。",
+          "supports": "总量口径及内部差异；不能重复加第二课堂或据分项精排能力。"
+        },
+        {
+          "locator": "PDF物理p10、12",
+          "fact": "专业必修含矿物加工学1/2、试验研究方法、机械、工程设计、智能控制基础、计算机应用、矿物加工过程测试与传感技术。专业选修开课36、最低13学分。",
+          "supports": "原料分选、试验与质量目标的相对训练；选修可达性待核。"
+        },
+        {
+          "locator": "PDF物理p13",
+          "fact": "实践含实验技术1/2、智能控制创新实践2周、生产实习3周、工程设计专题3周、毕业实习3周及毕业设计12周。",
+          "supports": "实践安排可辨；不证明实际岗位授权、工业数据权限或跨矿种能力。"
+        }
+      ],
+      "limits": [
+        "PDF标2024版，但没有取得发布介绍页，实际发布日期、精确修订日期、适用届别均未知；HTTP修改日不是发布日期。",
+        "未证学校允许每个学生进入列出的所有方向或保证所有选修开课。",
+        "课程与任务可比，不可直接把与采矿的总学分相减当就业优劣。",
+        "作者另核PDF物理p15，理论133.25/实践42.75与p6的133.5/42.5有内部差异；不修表，不据差异比较就业能力。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S03",
+      "original_source_id": "AUST-ADMISSION-2025-PDF",
+      "title": "安徽理工大学2025年度招生计划：江苏两专业历史锚点",
+      "publisher": "安徽理工大学本科招生网",
+      "source_type": "official 2025 admission plan",
+      "date_information": {
+        "page_published": "2025-06-13 15:50",
+        "revision_date": null
+      },
+      "document_period": "2025",
+      "original_url": "https://zs.aust.edu.cn/virtual_attach_file.vsb?afc=1LzVmRnmNPLNlsnNRvZLzUbM4n7ozGTsM46fozUDM8-snm70gihFp2hmCIa0LYysM1yDnSyYoll4U8lPnzL4Mm9iL49PLR67nmCbMl-8M7MFozfkMNnVLzrFLlLPnlUJv2nto4OeosUioShXptQ0g47YLRN0MRlsoSbw62t8c&oid=965883137&tid=1209&nid=4579&e=.pdf",
+      "resolved_url": "https://zs.aust.edu.cn/virtual_attach_file.vsb?afc=1LzVmRnmNPLNlsnNRvZLzUbM4n7ozGTsM46fozUDM8-snm70gihFp2hmCIa0LYysM1yDnSyYoll4U8lPnzL4Mm9iL49PLR67nmCbMl-8M7MFozfkMNnVLzrFLlLPnlUJv2nto4OeosUioShXptQ0g47YLRN0MRlsoSbw62t8c&oid=965883137&tid=1209&nid=4579&e=.pdf",
+      "accessed_at_utc": "2026-11-10T03:43:20.481122+00:00",
+      "original_bytes": 115181,
+      "original_sha256": "be5a72d4975039384db1bd3f2e8b763d5bd3d4c3fd95a9f0a8177b7660f2a7f0",
+      "additional_publication_assets": [
+        {
+          "url": "https://zs.aust.edu.cn/old/info/1209/4579.htm",
+          "accessed_at_utc": "2026-11-10T03:42:32.695342+00:00",
+          "sha256": "b068d8e5814ce17230c3f865094bc7d4818c726ed4ffabe3baf637fabe3fdeb6"
+        }
+      ],
+      "facts": [
+        {
+          "locator": "PDF物理p1表头、江苏列及目标两行",
+          "fact": "2025分省分专业计划：江苏采矿工程2人、矿物加工工程5人，均科类理、学制四。",
+          "supports": "同校同省历史入口，不是2027个人可报确认。"
+        },
+        {
+          "locator": "同页表头与两行",
+          "fact": "未载江苏精确选科、院校专业组号、组内规则。",
+          "supports": "不推物化、同组、独立保底或录取概率；本批无录取位次。"
+        }
+      ],
+      "limits": [
+        "不能推定同组、组内调剂规则、独立保底、2027计划或当年录取机会。",
+        "本批没有采录取分数/位次。选科与组号需2027报考时正式核验。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S04",
+      "original_source_id": "TL-CAMPUS-2027",
+      "title": "铜陵化学工业集团有限公司2027届校园招聘启事",
+      "publisher": "铜化集团官方网站",
+      "source_type": "employer original campus recruitment",
+      "date_information": {
+        "page_published": "2026-09-28"
+      },
+      "document_period": null,
+      "original_url": "https://www.tlchem.com/index.php?a=show&c=content&id=2439",
+      "resolved_url": "https://www.tlchem.com/index.php?a=show&c=content&id=2439",
+      "accessed_at_utc": "2026-11-10T03:41:24.710650+00:00",
+      "original_bytes": 85419,
+      "original_sha256": "90d6266ef838c5d2ad7c76be5e1f7361efb5188ffed2b6787505b72bf667e2c8",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "原HTML招聘表第13、14行",
+          "fact": "采矿工程/7人/本科/采矿工程师；矿物加工工程/5人/本科/选矿工程师。",
+          "supports": "同雇主本科分岗，并非同一岗位共同接收。"
+        },
+        {
+          "locator": "二、应聘条件",
+          "fact": "2027届普通高校毕业生，专业对口且符合资格；另含成绩、原则上理工科CET-4、适应岗位等条件。",
+          "supports": "本科应届支点，不是仅凭专业即可入职。"
+        },
+        {
+          "locator": "集团简介、岗位表、福利段",
+          "fact": "集团自述化学矿山采选、硫磷等业务；提供岗前培训等福利表述。两岗没有具体职责、矿种、法人、地点、班次、开采方式或带教细则。",
+          "supports": "化学矿业组织范围；不因铜陵名称推铜矿，不把基地强配到两岗。"
+        }
+      ],
+      "limits": [
+        "两岗位没有逐岗任务说明、矿种、下属用人法人、工作地点、地下/露天、轮班、出差或防护带教详情；均待核。",
+        "不能因铜陵名称推铜矿；不能把集团业务介绍当每岗任务。",
+        "不是实习招聘，但页面未直接展示两岗劳动合同条款，正式合同类型未知。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S05",
+      "original_source_id": "XINJI-CAMPUS-2025",
+      "title": "中煤新集能源股份有限公司2025年校园招聘简章",
+      "publisher": "淮北师范大学就业信息网发布企业招聘简章",
+      "source_type": "university employment platform original campus notice",
+      "date_information": {
+        "page_published": "2024-10-09 16:20:44"
+      },
+      "document_period": null,
+      "original_url": "https://jyzd.chnu.edu.cn/xsfw/gwxx/content_122132",
+      "resolved_url": "https://jyzd.chnu.edu.cn/xsfw/gwxx/content_122132",
+      "accessed_at_utc": "2026-11-10T03:42:12.953741+00:00",
+      "original_bytes": 62083,
+      "original_sha256": "7e1baf954cd04f1d517ff1edcf12948d05a01b29214fccb563449c79de0d7c64",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "二、招聘专业；三、基本条件",
+          "fact": "煤矿主体类专业总表并列采矿与矿物加工；主要面向2025届全日制本科及以上，优秀者可放宽历届。",
+          "supports": "组织类别入口，不是某具体同岗接收。"
+        },
+        {
+          "locator": "四、福利待遇；五、晋升通道",
+          "fact": "与公司签劳动合同、实习期满定岗，有在职培训；煤矿及综合类技术序列从实习技术员起列。",
+          "supports": "本科入职培养可能，不误作独立短期实习；未逐专业绑定全部岗位。"
+        }
+      ],
+      "limits": [
+        "只证明煤矿主体类共同专业入口，不是同一具体岗位同时接收两专业。",
+        "专业总表不能分别强配所有岗位、把两专业理解为无差别替代。",
+        "无逐岗任务、人数、矿井/选厂、轮班、地点、劳动条件；不把在册员工1.73万或产能换成新人名额。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S06",
+      "original_source_id": "SHAANXI-SOCIETY",
+      "title": "陕西有色冶金矿业集团有限公司2026年公开社会招聘公告",
+      "publisher": "陕西有色金属控股集团官方站",
+      "source_type": "employer original experienced recruitment",
+      "date_information": {
+        "notice_signed": "2026-09-18",
+        "page_published": null
+      },
+      "document_period": null,
+      "original_url": "https://www.youser.cc/SubModule/Detail.aspx?channel_id=2&classId=48&id=22872",
+      "resolved_url": "https://www.youser.cc/SubModule/Detail.aspx?channel_id=2&classId=48&id=22872",
+      "accessed_at_utc": "2026-11-10T03:41:06.700092+00:00",
+      "original_bytes": 29371,
+      "original_sha256": "aa702f608d73c71f4b21ae8e6e1ec530c62cd2800d5882942093d739dde2bd4c",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "二、岗位：采矿工程师",
+          "fact": "大专及以上、采矿相关专业、中级及以上职称；5年以上矿山采矿技术管理经验者优先。职责含技术方案设计、采掘计划编制与现场技术指导。",
+          "supports": "经验/职称门槛反例；五年以上不是硬性必需。"
+        },
+        {
+          "locator": "通风技术员、调度员及工作地点段",
+          "fact": "通风岗要求初级及以上职称、3年以上金属矿山通风经验；调度岗要求适应24小时应急值班；工作地陕西镇安县月河镇。",
+          "supports": "不当零经验本科入口、不把调度条件外推全专业，也不把金属矿条件照搬煤矿。"
+        }
+      ],
+      "limits": [
+        "学历下限宽不代表应届可达；职称、经验和具体资格需同时满足。",
+        "不能把某岗值班或其他工种地下条件强配到全部本科技术岗。",
+        "无此公告矿物加工本科应届职位支点，不作此用途。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S07",
+      "original_source_id": "ZHONGMEI-RESEARCH-JOBS",
+      "title": "中煤洗选绿色智能选矿技术研究中心技术人员招聘公告",
+      "publisher": "北京中煤煤炭洗选技术有限公司",
+      "source_type": "employer original organisation and specialist recruitment notice",
+      "date_information": {
+        "notice_signed": "2026-09-16"
+      },
+      "document_period": null,
+      "original_url": "https://zmxx.chinacoal.com/col/col10705/art/2026/art_a3d34f51afdd4d23ac69cd0dbb2f1838.html",
+      "resolved_url": "https://zmxx.chinacoal.com/col/col10705/art/2026/art_a3d34f51afdd4d23ac69cd0dbb2f1838.html",
+      "accessed_at_utc": "2026-11-10T03:41:46.983091+00:00",
+      "original_bytes": 20297,
+      "original_sha256": "9ce8aaf17f29f3de52c0420ace20729f17ee31f417964009bcfc23bbca16e0ff",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "公司简介",
+          "fact": "自述从事选煤厂承包运营、洗选技术开发/咨询/服务，专注大型动力煤和炼焦煤选煤厂整体运营及智能化建设。",
+          "supports": "承接组织多样性；运营能力不是实际洗选量或新人职位。"
+        },
+        {
+          "locator": "三、招聘岗位；六、报名条件及附件说明",
+          "fact": "本次岗位是算法工程师1人，资格细则在未取得的附件1。学历、专业、经验条件未知。",
+          "supports": "不作为矿加本科或应届入口，不以课程智能化名称填资格空白。"
+        }
+      ],
+      "limits": [
+        "岗位学历、专业和经验细则在附件1 xls，本批未取该附件，全部未知；绝不称它招本科矿加或零经验应届。",
+        "年运营能力3亿吨为企业自述能力，不是实际年度洗选量或本科岗位数。",
+        "企业承包运营角色可支撑组织层机制，不能证明与新集/中煤能源/铜化已存在本批核实合同。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S08",
+      "original_source_id": "POLICY-INTELLIGENCE",
+      "title": "关于深入推进矿山智能化建设促进矿山安全发展的指导意见（矿安〔2024〕42号）",
+      "publisher": "国家矿山安全监察局等七部门",
+      "source_type": "formal policy original",
+      "date_information": {
+        "signed": "2024-04-24",
+        "page_published": "2024-04-28 08:29"
+      },
+      "document_period": null,
+      "original_url": "https://www.chinamine-safety.gov.cn/zfxxgk/fdzdgknr/tzgg/202404/t20240428_486312.shtml",
+      "resolved_url": "https://www.chinamine-safety.gov.cn/zfxxgk/fdzdgknr/tzgg/202404/t20240428_486312.shtml",
+      "accessed_at_utc": "2026-11-10T03:40:07.647295+00:00",
+      "original_bytes": 14613,
+      "original_sha256": "201928d9f40746d12cea9d1c762c46ff6c690606041fe624de410770d2da6cd4",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "一、总体要求",
+          "fact": "到2026目标包括全国煤矿智能化产能占比不低于60%、全国矿山井下人员减少10%以上；到2030完善智能化体系、推动少人化无人化。",
+          "supports": "政策目标，不是已达成观测、逐矿裁员义务或招生配额。"
+        },
+        {
+          "locator": "第九、十、十七、十九项",
+          "fact": "提出工艺参数等人工智能应用、危险繁重岗位机器人替代、实事求是不一刀切和一矿一策、职工技能与校企人才培养。",
+          "supports": "任务重组的条件情景；不保证净增本科岗位。"
+        }
+      ],
+      "limits": [
+        "目标不等实际达标观测，不等法定每矿必须裁员比例，也不是2027本科招生配额。",
+        "不能由矿井或工作面数量直接算本科岗位；不提供危险工艺操作指令。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S09",
+      "original_source_id": "CHINACOAL-ANNUAL-2025",
+      "title": "中国中煤能源股份有限公司2025年年度报告",
+      "publisher": "中国中煤能源股份有限公司官方站",
+      "source_type": "company original annual report",
+      "date_information": {
+        "report_year": 2025,
+        "publication_date": null,
+        "http_last_modified_not_publication": "Fri, 27 Mar 2026 13:21:59 GMT"
+      },
+      "document_period": "2025",
+      "original_url": "https://www.chinacoalenergy.com/cms_files/filemanager/50/attach/202510/3874DFC57F39A289DDBC4D49C8B5B912.pdf?fileName=01+%E4%B8%AD%E5%9B%BD%E4%B8%AD%E7%85%A4%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf",
+      "resolved_url": "https://www.chinacoalenergy.com/cms_files/filemanager/50/attach/202510/3874DFC57F39A289DDBC4D49C8B5B912.pdf?fileName=01+%E4%B8%AD%E5%9B%BD%E4%B8%AD%E7%85%A4%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf",
+      "accessed_at_utc": "2026-11-10T03:42:40.945894+00:00",
+      "original_bytes": 4636756,
+      "original_sha256": "3c319d1e4654c4a4d98d92acabab10a2c0c9e2fa60e204c69f7a19ec6dcaa472",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "PDF物理/印刷p7",
+          "fact": "2025收入148056698千元、归母17883577千元、经营现金流29791934千元，同比-21.8%、-7.3%、-12.7%；2024值经追溯调整。",
+          "supports": "量、价、利润和资金约束分开，不能以收入/利润代表回款。"
+        },
+        {
+          "locator": "PDF物理/印刷p13、20",
+          "fact": "商品煤产量13510万吨、-1.8%；蒙陕+2.7%、江苏+0.8%、山西-3.1%、新疆及其他-33.1%。分部间交易前自产商品煤销量-0.9%、价格-13.7%；动力煤/炼焦煤分列。",
+          "supports": "价格冲击和地区/产品分化，不将产量与销售量互换。"
+        },
+        {
+          "locator": "PDF物理/印刷p20",
+          "fact": "煤矿装备分部毛利+4.2%、公司总体毛利-13.6%；分部毛利数据未经分部间交易抵销。",
+          "supports": "反对所有矿业环节同步退出；不当装备本科扩招证据。"
+        },
+        {
+          "locator": "PDF物理/印刷p16、33",
+          "fact": "有煤炭开采、洗选混配、物流、内部煤化工用煤、装备与系统服务；长协基准+浮动和现货市场化定价。资本支出实际199.21亿元，技改更新60.29亿元、科技信息化12.11亿元。",
+          "supports": "经营和组织链；投资额不是工资或校招预算。"
+        },
+        {
+          "locator": "PDF物理/印刷p54",
+          "fact": "员工结构、学历存量、培训和劳务外包工时为存量/投入披露。",
+          "supports": "不将它们折算为新增本科职位；不采用p53分项相加重建总数。"
+        }
+      ],
+      "limits": [
+        "上市中煤能源与中煤集团、中煤新集、中煤洗选不是可互换法人；本批不证明相互合同。",
+        "不得把原煤/商品煤/洗选产量/销量、内外部抵销口径互换；一企一年不是全国2037预测。",
+        "年报中引用的全国行业统计不作为本批独立全国原始统计证据。",
+        "p53母公司/主要子公司行与合计表面相加不一致，本批不使用该分项加总；p54总数及学历/专业结构可直接读表，但若需详细法人范围须另核。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S10",
+      "original_source_id": "POLICY-COAL-SAFETY",
+      "title": "煤矿安全生产条例（监管机关发布全文）",
+      "publisher": "国家矿山安全监察局（发布全文）",
+      "source_type": "administrative regulation original",
+      "date_information": {
+        "page_published": "2024-02-02 18:32:00",
+        "effective": "2024-05-01",
+        "promulgated": null,
+        "promulgation_date_note": "本批取得的原HTML未展示公布日期或令号，不能由收集摘要补为原文事实。"
+      },
+      "document_period": null,
+      "original_url": "https://www.chinamine-safety.gov.cn/xw/mkaqjcxw/202402/t20240202_477091.shtml",
+      "resolved_url": "https://www.chinamine-safety.gov.cn/xw/mkaqjcxw/202402/t20240202_477091.shtml",
+      "accessed_at_utc": "2026-11-10T03:42:47.052049+00:00",
+      "original_bytes": 21651,
+      "original_sha256": "74ba3dfc72f766e000c58be1d47e75a5b1ee331db36b7ed7e8fb16ecb319433c",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "第二、十四、二十、二十一、二十四、七十六条",
+          "fact": "适用煤矿；安全设施设计须相应资质和审查；从业人员经安全教育培训合格方可上岗，特种作业另须专门考核和资格；须提供和监督使用劳动防护用品，煤矿井下岗位不得使用劳务派遣用工；2024-05-01施行。",
+          "supports": "安全培训与用工底线；不能外推全部非煤矿或由文凭/毕业年数推个人权限。"
+        }
+      ],
+      "limits": [
+        "本条例针对煤矿，不机械套全部金属非金属矿。",
+        "本科文凭或毕业六年不自动取得矿长、总工或个人签字权限；本批未做全套资格法规研究。",
+        "劳务外包与劳务派遣不是同一概念，集团披露不能证明煤矿井下派遣合法。",
+        "收集摘要中的公布日及令号未在该原HTML得到确认，作者索引不采用，亦未新增网络来源。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    },
+    {
+      "id": "S11",
+      "original_source_id": "YUNXI-ANNUAL-2025",
+      "title": "云南锡业股份有限公司2025年年度报告全文",
+      "publisher": "云南锡业股份有限公司；巨潮资讯原公告PDF",
+      "source_type": "company original annual report",
+      "date_information": {
+        "report_year": 2025,
+        "publication_date": null,
+        "disclosure_url_date": "2026-03-30"
+      },
+      "document_period": "2025",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225043582.PDF",
+      "resolved_url": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225043582.PDF",
+      "accessed_at_utc": "2026-11-10T03:40:30.163828+00:00",
+      "original_bytes": 5669874,
+      "original_sha256": "7e138d1718b86f51109725f781371a44d59248490b945d9f43dd049a7b02fdb4",
+      "additional_publication_assets": [],
+      "facts": [
+        {
+          "locator": "PDF物理p11/印刷p6",
+          "fact": "2025收入43534580906.65元、归母1966179528.75元、经营现金流1295469193.15元，同比+3.72%、+36.14%、-61.95%。",
+          "supports": "增长与资金压力并存，不以利润增长保证新招。"
+        },
+        {
+          "locator": "PDF物理p20/印刷p15",
+          "fact": "锡/铜/锌精矿既来自下属矿山也外购，自给率28.47%/14.00%/82.75%。按冶炼原料结构要求，在保障回收率前提下调整产品结构、控制杂质，统筹矿山与选厂；存在加工费下行/倒挂压力。",
+          "supports": "另一产品链的回收与品质机制；采矿、选矿、冶炼、深加工分开，不当煤炭或本科招聘事实。"
+        }
+      ],
+      "limits": [
+        "锡/铜/锌精矿选矿与煤炭洗选产品、工艺、回收/杂质要求和区域不同；不能用本企业经营直接替煤炭事实。",
+        "采选、冶炼、深加工及重要参股公司业务应分开；不能因此称矿加等同冶金材料。",
+        "本批云锡校招岗位附件验证码未取，不把搜索摘要的本科分岗纳入事实。",
+        "年报引用ITA等市场统计是二手来源；不采用其数值当本批原始全球需求统计。"
+      ],
+      "verification_basis": "作者核原文或原件派生文本，并对关键PDF表实际视读；HTML核原始字节解析后的正文/表格，不声称取得实时网页截图。"
+    }
+  ]
+}
