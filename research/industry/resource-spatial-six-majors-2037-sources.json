@@ -1,0 +1,1938 @@
+{
+  "schema_version": 1,
+  "title": "资源与空间六专业情景及主备示范：主张与公开来源索引",
+  "document_date": "2026-11-10",
+  "scope": {
+    "student_origin": "江苏",
+    "conditional_entry_year": 2027,
+    "conditional_bachelor_entry_year": 2031,
+    "observation_year": 2037,
+    "boundary": "个人参数未设定；三情景及主备是可替换条件推演，不是概率预测、总体排名或已核2027江苏可报组合。"
+  },
+  "evidence_rules": [
+    "两个正文各自使用T/F/I/A主张ID，必须先按documents中的document_id定位，再查source_keys；源目录使用GEO/MIN/MAP/J命名空间。",
+    "GEO、MIN、MAP继承已公开成对研究及索引的固定版本；本次没有外部搜索或重新访问原站，不添加新的来源访问日期或取得认证。",
+    "J:J01与GEO:S11为同一招聘来源别名；J:J02与J:J03为既有存档的官方报道，记录仅支持有限组织/技能事实，不补本科岗或2031承诺。",
+    "PDF页码、网页定位、发布日期、报告期和版本标签按来源分别保留；未知日期不由URL或HTTP元数据补齐。",
+    "培养、招聘、合同和经营来自不同主体；预算、成交、合同付款安排、收入与经营现金净额不得换算实际到款或新人名额。",
+    "没有新增人口统计；人口、退休、竞争与未来岗位的连接仍是条件机制。",
+    "来源哈希标识既有存档或固定索引字节，不证明现时在招、未来岗位、实际履约或预期能力已实现。"
+  ],
+  "documents": {
+    "six_scenarios": {
+      "repository_path": "research/industry/resource-spatial-six-majors-2037-scenarios.md",
+      "sha256": "45db42a301fa22a6598d424004f6622ea025a336913b2b77bbbcc6b7df38e8f8",
+      "claim_id_scope": "本document内唯一；同名ID不得跨document混用。",
+      "claims": [
+        {
+          "id": "T00",
+          "type": "conditional_time_arithmetic",
+          "summary": "2027入学、顺利四年完成约2031本科毕业，到2037约六年毕业后经历。",
+          "locations": [
+            "G7",
+            "N6",
+            "P1"
+          ],
+          "explicit_assumptions": [
+            "四年顺利完成，不预设继续深造。"
+          ],
+          "reversal_or_decision_impact": [],
+          "boundaries": [
+            "不是六年有效经验、自动晋升、个人签字权或未来岗位承诺。"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S03",
+            "MIN:S01",
+            "MIN:S02",
+            "MAP:S01",
+            "MAP:S02"
+          ]
+        },
+        {
+          "id": "F01",
+          "type": "inherited_source_fact_and_unknown",
+          "summary": "西安科大两地质专业、安徽理工采矿矿加测绘遥感使用2024版样本；2027适用、方向和个人实得训练未确认。",
+          "locations": [
+            "G1",
+            "N1",
+            "P1"
+          ],
+          "explicit_assumptions": [],
+          "reversal_or_decision_impact": [],
+          "boundaries": [
+            "不跨校拼招生培养链，不把选修或两个方向合成每人获得的训练。"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S03",
+            "MIN:S01",
+            "MIN:S02",
+            "MAP:S01",
+            "MAP:S02"
+          ]
+        },
+        {
+          "id": "F02",
+          "type": "inherited_source_facts_with_separate_subjects",
+          "summary": "材料分别支持本科招聘、工程评估中标和空间更新合同；政策责任和目标不是招人命令，具体本科/应届资格仍有缺口。",
+          "locations": [
+            "G2",
+            "G3",
+            "N2",
+            "N3",
+            "P2",
+            "P3"
+          ],
+          "explicit_assumptions": [],
+          "reversal_or_decision_impact": [],
+          "boundaries": [
+            "吴江只是中标，无履约付款或用工；泰州付款仅合同约定；苏州成交不等到款；金田共同本科岗经验优先且页面未署期；地质相关专业接收未逐校确认；当前公告不是2031空缺。",
+            "铜化集团与铜陵有色不可混同；专业列名或单位总表不证明相同任务或录用概率；本轮未将二队学历表交叉补齐。"
+          ],
+          "source_keys": [
+            "GEO:S05",
+            "GEO:S06",
+            "GEO:S07",
+            "GEO:S08",
+            "GEO:S11",
+            "GEO:S13",
+            "MIN:S04",
+            "MIN:S05",
+            "MIN:S08",
+            "MAP:S04",
+            "MAP:S05",
+            "MAP:S06",
+            "MAP:S07",
+            "MAP:S08"
+          ]
+        },
+        {
+          "id": "F03",
+          "type": "inherited_distinct_company_facts",
+          "summary": "中煤2025产销量、价格及现金变化不同；锡业2025利润增现金降；中岩2025收入利润降现金增；测绘股份2024分产品收入升降并存。",
+          "locations": [
+            "N4",
+            "G5",
+            "P3"
+          ],
+          "explicit_assumptions": [],
+          "reversal_or_decision_impact": [],
+          "boundaries": [
+            "不同主体和会计期，不能拼同一资金/用工链或全国趋势；经营现金净额不是单一客户回款；收入/现金变化不是已核招聘变动。"
+          ],
+          "source_keys": [
+            "MIN:S09",
+            "MIN:S11",
+            "GEO:S09",
+            "MAP:S09"
+          ]
+        },
+        {
+          "id": "F04",
+          "type": "inherited_local_report_fact_and_qualification_limit",
+          "summary": "二队2026新职工现场师带徒签约、年度绩效安排及青年竞赛动作有材料，未证实有效带教或特定本科岗。",
+          "locations": [],
+          "explicit_assumptions": [],
+          "reversal_or_decision_impact": [],
+          "boundaries": [
+            "15是总参会人数；青年竞赛不等首年任务书；2027招聘指毕业届；不继续追该岗学历、轮休；仅作有限培养机制支点。"
+          ],
+          "source_keys": [
+            "J:J01",
+            "J:J02",
+            "J:J03"
+          ]
+        },
+        {
+          "id": "I01",
+          "type": "new_conditional_scenario_with_inherited_mechanisms",
+          "summary": "资源生产延续、资金兑现且瓶颈偏品质而非扩产时，矿加为资源端有条件优先；采掘瓶颈转采矿，资源替代调查转资勘。",
+          "locations": [
+            "G1",
+            "G3",
+            "N1",
+            "N2",
+            "N3",
+            "N5",
+            "N6"
+          ],
+          "explicit_assumptions": [
+            "资源保障/使用需求确实形成可回款生产及调查/技改预算。",
+            "主要可改善损失来自原料、回收、品质或供料瓶颈；不是宣布这些因素已全国主导。",
+            "目标组织保留本科可分配任务、合格指导，学校训练可实际取得且地域现场可接受。"
+          ],
+          "reversal_or_decision_impact": [
+            "瓶颈从质量转采掘则采矿反超；投资转调查则资勘前置；设备或熟手全部承接则不提高新人入口判断。"
+          ],
+          "boundaries": [
+            "不同场地业务共存不等同资格与新人岗位；煤系迁矿种有成本；不保证矿加更安全或留城。"
+          ],
+          "source_keys": [
+            "GEO:S03",
+            "GEO:S05",
+            "GEO:S08",
+            "MIN:S01",
+            "MIN:S02",
+            "MIN:S04",
+            "MIN:S05",
+            "MIN:S07",
+            "MIN:S08",
+            "MIN:S09",
+            "MIN:S11"
+          ]
+        },
+        {
+          "id": "I02",
+          "type": "new_conditional_scenario_with_inherited_mechanisms",
+          "summary": "存量设施和空间更新持续付费时，地质工程/测绘作为不同任务的条件并列主比较，专题影像解释兑现时遥感替换测绘。",
+          "locations": [
+            "G1",
+            "G2",
+            "G3",
+            "G6",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ],
+          "explicit_assumptions": [
+            "存量风险或资产用途变化确有委托且资金、验收、支付持续成立。",
+            "在比较具体本科训练而非录用概率；2031有当届本科/应届接收和带教才允许谈实际入场。"
+          ],
+          "reversal_or_decision_impact": [
+            "主要付费目标转影像解释且方向/验证可取得则遥感替换；目标训练更好的一方可改变名称先后；回款和新人任务失效则撤换此基准。"
+          ],
+          "boundaries": [
+            "质量核验和解释的2037能力目标不能倒填成已经承诺的应届工作；辅助任务仅为培养/求职核对目标。",
+            "地质工程和测绘条件并列不表示可互换；同一地方客户链仍共享付款风险；不同项目复用基础需补领域规范和实践。"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S05",
+            "GEO:S07",
+            "GEO:S09",
+            "GEO:S13",
+            "MAP:S01",
+            "MAP:S02",
+            "MAP:S04",
+            "MAP:S05",
+            "MAP:S06",
+            "MAP:S07",
+            "MAP:S08",
+            "MAP:S09"
+          ]
+        },
+        {
+          "id": "I03",
+          "type": "new_cross_scenario_stress_test",
+          "summary": "资金承压并伴标准工序集中时，新人练习/带教可能收缩；实际资金与培养更扎实的资源路径可反转工程/空间基准。",
+          "locations": [
+            "G4",
+            "G5",
+            "N3",
+            "N4",
+            "N5",
+            "P3",
+            "P4"
+          ],
+          "explicit_assumptions": [
+            "目标雇主持续周转承压，而软件、集中处理或外包能承担某些重复工序。",
+            "反转分支另外假定资源组织回款、生产和本科带教实已兑现，工程/空间组织结算拖延；不声称当前样本已符合这组状态。"
+          ],
+          "reversal_or_decision_impact": [
+            "条件反向时工程/空间仍可保留；六路都缺任务和反馈时不以任何专业名强押。"
+          ],
+          "boundaries": [
+            "压力测试没有情景概率或全国净岗位量；质量责任保留不等本科岗位增加；服务商与同一客户共振不算独立避险。"
+          ],
+          "source_keys": [
+            "GEO:S09",
+            "GEO:S10",
+            "MIN:S07",
+            "MIN:S08",
+            "MIN:S09",
+            "MIN:S11",
+            "MAP:S07",
+            "MAP:S08",
+            "MAP:S09"
+          ]
+        },
+        {
+          "id": "I04",
+          "type": "new_cross_scenario_capability_inference",
+          "summary": "2037看实际积累的异常识别、依据解释和质量交付；2031只在准入、受指导任务与反馈成立时形成起步机会。",
+          "locations": [
+            "G7",
+            "N6",
+            "P4",
+            "P5"
+          ],
+          "explicit_assumptions": [
+            "持续获取对应任务、有效纠错反馈和合规授权；日历年数不替代经验。"
+          ],
+          "reversal_or_decision_impact": [
+            "长期重复工单无反馈则下调团队培养价值；跨领域/矿种需要补知识方法和实践；读研只为明确新增资格或训练。"
+          ],
+          "boundaries": [
+            "目标技能不是已核毕业去向、自动晋升或免于自动化承诺。"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S03",
+            "MIN:S01",
+            "MIN:S02",
+            "MAP:S01",
+            "MAP:S02",
+            "MAP:S04",
+            "J:J02",
+            "J:J03"
+          ]
+        },
+        {
+          "id": "I05",
+          "type": "inherited_conditional_population_mechanisms_applied_to_new_scenarios",
+          "summary": "人口/产业集中可经消费地与资源地分离影响地区选择；迁移年龄资产用途可改变存量需要；退休与竞争要经过组织替代和合资格供给。",
+          "locations": [
+            "G6",
+            "N5",
+            "P4"
+          ],
+          "explicit_assumptions": [
+            "各情景分别假定具体人口与组织条件，不编实际迁移、退休和毕业生人数。"
+          ],
+          "reversal_or_decision_impact": [
+            "任务、资金、导师不保留时退休不形成新人名额；求职者向少数承接方集中时竞争可加剧。"
+          ],
+          "boundaries": [
+            "无新人口统计；不将今天出生变化直接换成2031本科竞争下降；人口收缩或集聚不是岗位直接函数。"
+          ],
+          "source_keys": [
+            "GEO:S07"
+          ]
+        },
+        {
+          "id": "A01",
+          "type": "new_provisional_cross_group_decision_rule",
+          "summary": "以持续付费存量任务作为可替换规划基准，条件并列地质工程与测绘；不是已知的个人偏好或六专业默认排名。",
+          "locations": [
+            "G1",
+            "G3",
+            "P1",
+            "P3"
+          ],
+          "explicit_assumptions": [
+            "明确采用情景二作为本轮桌面规划基准；不赋予概率最高地位。",
+            "具体可报性、成本、工作条件和实得训练尚未核，正式个人选择不能直接照抄。"
+          ],
+          "reversal_or_decision_impact": [
+            "影像付费任务及训练落实时遥感替换；资源端兑现而工程/空间端拖款是最强反例，撤换该基准。"
+          ],
+          "boundaries": [
+            "证据只支持两条不同训练/任务路径的条件并列，不支持因跨行业或不锁矿种推得总体优势；也非两专业互换。"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S05",
+            "GEO:S13",
+            "MAP:S01",
+            "MAP:S02",
+            "MAP:S04",
+            "MAP:S05",
+            "MAP:S06",
+            "MAP:S07"
+          ]
+        },
+        {
+          "id": "A02",
+          "type": "new_scenario_contingent_alternative",
+          "summary": "资源目标及地域现场接受条件明确且真实训练/本科带教更好时，采矿矿加进入主比较；调查投资主导时资勘前置。",
+          "locations": [
+            "G1",
+            "G2",
+            "G6",
+            "N1",
+            "N2",
+            "N5",
+            "P4"
+          ],
+          "explicit_assumptions": [
+            "资金、新人任务、训练同时成立，不以政策/价格/签约单项替代。"
+          ],
+          "reversal_or_decision_impact": [
+            "固定江苏城市或拒野外是条件分支，先剔除明确冲突；任何路径没有匹配证据均不称留城保底。"
+          ],
+          "boundaries": [
+            "不代填个人偏好；江苏生源不等江苏就业。"
+          ],
+          "source_keys": [
+            "GEO:S03",
+            "GEO:S05",
+            "GEO:S11",
+            "MIN:S01",
+            "MIN:S02",
+            "MIN:S04",
+            "MIN:S05"
+          ]
+        },
+        {
+          "id": "A03",
+          "type": "scope_and_path_comparison_recommendation",
+          "summary": "用现有材料做一主一备对照，不新增专业院校，不给录取概率；本科就业与深造分开。",
+          "locations": [
+            "G7",
+            "N6",
+            "P4",
+            "P5"
+          ],
+          "explicit_assumptions": [
+            "个人参数未设定；使用现有固定材料进行条件比较。"
+          ],
+          "reversal_or_decision_impact": [
+            "明确资格增益或不可得训练才单独比较深造时间与成本。"
+          ],
+          "boundaries": [
+            "本轮未更新招生数据，不构成2027江苏可报组合；正式可报性及个人资格、成本另须核验。"
+          ],
+          "source_keys": []
+        }
+      ],
+      "evidence_locations": {
+        "G1": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L9-L43",
+          "line_range": [
+            9,
+            43
+          ],
+          "section": "一、现在先怎样选；二、同校同标称2024版",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G2": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L55-L81",
+          "line_range": [
+            55,
+            81
+          ],
+          "section": "三、同岗接收、方向限制和新增毕业招聘",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G3": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L87-L115",
+          "line_range": [
+            87,
+            115
+          ],
+          "section": "四、工程风险与资源调查资金/任务链",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G4": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L117-L123",
+          "line_range": [
+            117,
+            123
+          ],
+          "section": "四、数字化任务归属",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G5": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L125-L144",
+          "line_range": [
+            125,
+            144
+          ],
+          "section": "五、中岩经营反证",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G6": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L146-L156",
+          "line_range": [
+            146,
+            156
+          ],
+          "section": "六、人口与地区条件",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "G7": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L158-L179",
+          "line_range": [
+            158,
+            179
+          ],
+          "section": "七、本科/读研时间与培养条件",
+          "sha256": "2e7f993cce522425fda8b6dd9ea3aca7ecc215f45237989aeb1d667228a0f58a"
+        },
+        "N1": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L7-L43",
+          "line_range": [
+            7,
+            43
+          ],
+          "section": "一、采矿/矿加条件排序；二、训练样本",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "N2": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L53-L61",
+          "line_range": [
+            53,
+            61
+          ],
+          "section": "三、三类招聘证据分别使用",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "N3": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L63-L93",
+          "line_range": [
+            63,
+            93
+          ],
+          "section": "四、煤炭资金、组织与智能化",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "N4": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L95-L115",
+          "line_range": [
+            95,
+            115
+          ],
+          "section": "五、中煤与锡业分开使用",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "N5": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L117-L127",
+          "line_range": [
+            117,
+            127
+          ],
+          "section": "六、三种条件情景与人口",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "N6": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L142-L155",
+          "line_range": [
+            142,
+            155
+          ],
+          "section": "七、经验与备选迁移代价",
+          "sha256": "da990ff22dfa5afde73fa77cbad9cbb8f4bde77a99878e0e867efc5286a42efc"
+        },
+        "P1": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L5-L41",
+          "line_range": [
+            5,
+            41
+          ],
+          "section": "一、弱排序与共同入口；三、方向训练",
+          "sha256": "78752fd37ca828009f586966c7e5454002c1793d7c72dd84a56cf65a9b929004"
+        },
+        "P2": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L56-L68",
+          "line_range": [
+            56,
+            68
+          ],
+          "section": "五、共同本科任务个案及资格边界",
+          "sha256": "78752fd37ca828009f586966c7e5454002c1793d7c72dd84a56cf65a9b929004"
+        },
+        "P3": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L70-L96",
+          "line_range": [
+            70,
+            96
+          ],
+          "section": "六、更新委托、付款、组织及经营",
+          "sha256": "78752fd37ca828009f586966c7e5454002c1793d7c72dd84a56cf65a9b929004"
+        },
+        "P4": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L98-L115",
+          "line_range": [
+            98,
+            115
+          ],
+          "section": "六、人口；七、不同条件与深造",
+          "sha256": "78752fd37ca828009f586966c7e5454002c1793d7c72dd84a56cf65a9b929004"
+        },
+        "P5": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L117-L125",
+          "line_range": [
+            117,
+            125
+          ],
+          "section": "八、分阶段培养与入场核对",
+          "sha256": "78752fd37ca828009f586966c7e5454002c1793d7c72dd84a56cf65a9b929004"
+        }
+      }
+    },
+    "main_backup": {
+      "repository_path": "research/industry/surveying-mineral-processing-main-backup-2037-example.md",
+      "sha256": "24afd2c3f3c1d07c09929557e64c61df3a849df1f28e057dc1431b536f4ebb70",
+      "claim_id_scope": "本document内唯一；同名ID不得跨document混用。",
+      "claims": [
+        {
+          "id": "T01",
+          "type": "conditional_time_arithmetic",
+          "summary": "2027入学、四年顺利完成才约2031本科求职，2037约六年毕业后经历。",
+          "locations": [
+            "MAP-FUTURE",
+            "MIN-FUTURE"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02"
+          ],
+          "boundary": "不是六年有效经验、晋升或签字权。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "T00"
+            }
+          ]
+        },
+        {
+          "id": "F01",
+          "type": "inherited_fact_and_unknown",
+          "summary": "安徽理工测绘/矿加2024版分别有测量平差链与分选试验链；方案安排不是实得训练。",
+          "locations": [
+            "MAP-CUR",
+            "MIN-CUR",
+            "MAP-PAY",
+            "MIN-QUALITY"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02",
+            "MAP:S07",
+            "MIN:S11"
+          ],
+          "boundary": "同校同版本不说明同成本、同质量或2027适用；课程、招聘、任务来源不是同一输送链。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "F01"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "F02"
+            }
+          ]
+        },
+        {
+          "id": "F02",
+          "type": "inherited_recruitment_facts",
+          "summary": "金田济南内业岗本科及以上且经验优先；铜化2027毕业届校招分列矿加本科选矿工程师且另有应聘条件。",
+          "locations": [
+            "MAP-ENTRY",
+            "MIN-ENTRY"
+          ],
+          "source_keys": [
+            "MAP:S04",
+            "MIN:S04"
+          ],
+          "boundary": "金田无发布日期且不证明当前在招；铜化任务/地点/带教未知；两例不是同岗、2031承诺或已核学校输送。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "F02"
+            }
+          ]
+        },
+        {
+          "id": "I01",
+          "type": "explicit_replaceable_planning_assumptions",
+          "summary": "先准备持续付费的空间测量质量任务；资源备选假设瓶颈在分选质量；两路必须分别满足本科/训练/带教/成本/现场门槛。",
+          "locations": [
+            "SIX-DECISION",
+            "MAP-PAY",
+            "MIN-CONDITION"
+          ],
+          "source_keys": [
+            "MAP:S07",
+            "MIN:S11"
+          ],
+          "boundary": "所有条件是示范设定，不是全国趋势、已兑现目标雇主状态、概率排序或已知的个人偏好。",
+          "new_reasoning": "从上轮并列主比较里只选空间质量任务；不是以更多行业或更好前景作为强排依据。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I01"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I02"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A01"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A02"
+            }
+          ]
+        },
+        {
+          "id": "I02",
+          "type": "new_common_scale_and_artifact_proposal",
+          "summary": "以四年投入能否形成可复核质量交付作同尺度；提出两套有输入、结果、复核和反馈的作品。",
+          "locations": [
+            "MAP-CUR",
+            "MAP-FUTURE",
+            "MIN-CUR",
+            "MIN-FUTURE"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02"
+          ],
+          "boundary": "作品是培养目标，不是已取得成果；不按课数学分或实习周数打分。",
+          "new_reasoning": "同一比较尺度是培养投入—可分配起步任务—反馈—问题处理积累，产品与资格不互换。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I04"
+            }
+          ]
+        },
+        {
+          "id": "I03",
+          "type": "conditional_entry_task_proposal",
+          "summary": "测绘受指导复测、矿加试验记录/质量数据核对是准备目标；明确岗位职责与作者建议层分开。",
+          "locations": [
+            "MAP-ENTRY",
+            "MAP-FUTURE",
+            "MIN-CUR",
+            "MIN-ENTRY"
+          ],
+          "source_keys": [
+            "MAP:S04",
+            "MIN:S02",
+            "MIN:S04"
+          ],
+          "boundary": "只有当届本科/应届接收和真实分配带教成立才进入岗位，不能反填成公告承诺。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I04"
+            }
+          ]
+        },
+        {
+          "id": "I04",
+          "type": "conditional_capability_and_transfer_inference",
+          "summary": "2037积累异常解释与交付依据；测绘换领域补规范实践，矿加跨矿种补知识试验标准。",
+          "locations": [
+            "MAP-FUTURE",
+            "MIN-FUTURE"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02"
+          ],
+          "boundary": "日历不替经验；质量把关非当然应届岗或自动授权，不免于自动化，不支持跨到冶炼。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I04"
+            }
+          ]
+        },
+        {
+          "id": "I05",
+          "type": "cost_and_site_screening_recommendation",
+          "summary": "两路全程核学费生活、异地实践迁移、补课时间；深造另算净支出及机会成本，现场条件独立核。",
+          "locations": [
+            "MAP-CUR",
+            "MIN-CONDITION",
+            "MIN-FUTURE"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02"
+          ],
+          "boundary": "无已核金额、薪资或回报；矿加风险清单不是所有岗位既成情况，内业不保证固定城市。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A02"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A03"
+            }
+          ]
+        },
+        {
+          "id": "A01",
+          "type": "new_provisional_primary_backup_choice",
+          "summary": "在所选空间更新目标下测绘为主，矿加为分选任务目标改变时可升主的入学前培养备选。",
+          "locations": [
+            "MAP-CUR",
+            "MIN-CUR",
+            "MIN-ENTRY",
+            "SIX-DECISION"
+          ],
+          "source_keys": [
+            "MAP:S01",
+            "MIN:S02",
+            "MIN:S04"
+          ],
+          "boundary": "没有该目标假设就不足强排；不是个人志愿顺序、总体优势、同资格换岗或毕业后自由转行。",
+          "new_reasoning": "选择这对是为了对照空间成果与分选产品的质量证据链，二者都有清楚训练支点，矿加有独立本科分岗支点；证据未证明主路录用更容易。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A01"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A02"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A03"
+            }
+          ]
+        },
+        {
+          "id": "A02",
+          "type": "new_switch_and_joint_exit_rule",
+          "summary": "空间拖款/带教失败而资源回款、分选任务、本科接收/训练兑现时换序；两路均不过硬门槛或仅无反馈重复任务时退出该组。",
+          "locations": [
+            "SIX-REVERSE",
+            "MAP-PAY",
+            "MAP-FUTURE",
+            "MIN-CONDITION"
+          ],
+          "source_keys": [
+            "MAP:S07",
+            "MIN:S11"
+          ],
+          "boundary": "仅政策涨价签约不触发；另一条不自动修补个人地域/现场底线；不同风险未测相关性，不是对冲或安全保底。",
+          "new_reasoning": "换序同时改变资金与新人培养条件，不能只把变化归因于行业标签。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I03"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A02"
+            }
+          ]
+        },
+        {
+          "id": "A03",
+          "type": "short_task_condition_substitution_branches",
+          "summary": "工程响应换地工；付费影像解释且方向可得换遥感；采掘瓶颈换采矿；有资金调查换资勘。",
+          "locations": [
+            "GEO-ALT",
+            "MAP-ALT",
+            "MIN-MINE"
+          ],
+          "source_keys": [
+            "GEO:S02",
+            "GEO:S03",
+            "MAP:S02",
+            "MIN:S01"
+          ],
+          "boundary": "只是任务改变后的替换门槛，不增专业学校或免除资格、资金、现场筛选。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I01"
+            },
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "I02"
+            }
+          ]
+        },
+        {
+          "id": "A04",
+          "type": "scope_and_next_step_recommendation",
+          "summary": "可用于志愿前路径取舍，不是2027江苏专业组或冲稳保；备选另过同样检查，可先用现有材料并排比较作品、反馈与退出条件。",
+          "locations": [
+            "SIX-DECISION",
+            "NAV-MAP",
+            "NAV-MIN",
+            "NAV-GEO"
+          ],
+          "source_keys": [],
+          "boundary": "不跨校拼招生培养、不以历史入口代当年核验；本轮未更新招生数据，不构成2027江苏可报组合。",
+          "related_claims": [
+            {
+              "document_id": "six_scenarios",
+              "claim_id": "A03"
+            }
+          ]
+        }
+      ],
+      "evidence_locations": {
+        "MAP-CUR": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L23-L41",
+          "line_range": [
+            23,
+            41
+          ],
+          "section_excerpt_sha256": "a981fd0dc4f51eddaff0ab7596e8e7ac75938a2729b5a26f64c307e4a0b11b9d"
+        },
+        "MAP-ENTRY": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L56-L68",
+          "line_range": [
+            56,
+            68
+          ],
+          "section_excerpt_sha256": "3f2272be5676b3db43da13c864f2f228adb50415be3e50b5c0afbecb8ba5c36d"
+        },
+        "MAP-PAY": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L74-L88",
+          "line_range": [
+            74,
+            88
+          ],
+          "section_excerpt_sha256": "a9e39ded40153a97c4a1e2f7068f8c568d728a75ab85c88d1ef67e58f835c7c0"
+        },
+        "MAP-FUTURE": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L104-L125",
+          "line_range": [
+            104,
+            125
+          ],
+          "section_excerpt_sha256": "d1cf2fda6ace3e197fa7d9f10b130c27e2c948defdcb76cfa12da1cd4f1b60be"
+        },
+        "MIN-CUR": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L31-L43",
+          "line_range": [
+            31,
+            43
+          ],
+          "section_excerpt_sha256": "7e2c4aef3d1a72fc4a836ec085c7caa45e02ee8f7de3dd8ea2dc20711e373a5f"
+        },
+        "MIN-ENTRY": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L53-L61",
+          "line_range": [
+            53,
+            61
+          ],
+          "section_excerpt_sha256": "644ac78cdcf34f1432094a94297bade55ca5edeabd2a4ab8629dec014e3f89d8"
+        },
+        "MIN-QUALITY": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L107-L115",
+          "line_range": [
+            107,
+            115
+          ],
+          "section_excerpt_sha256": "1bf0e5dd85cdb3800df314f976d0eb688c0b7e8b38f771b8979781c43261f0a7"
+        },
+        "MIN-CONDITION": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L121-L140",
+          "line_range": [
+            121,
+            140
+          ],
+          "section_excerpt_sha256": "5c2a1a4faea7138e70eb4c528ef46509711f403f0042d3b4beb7260a17e76d5f"
+        },
+        "MIN-FUTURE": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L142-L163",
+          "line_range": [
+            142,
+            163
+          ],
+          "section_excerpt_sha256": "a6eb5c2925b6974d23924232e7996f22da3026ade5c82af7c1bda22081d547a2"
+        },
+        "MIN-MINE": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-choices.md#L7-L18",
+          "line_range": [
+            7,
+            18
+          ],
+          "section_excerpt_sha256": "4260f1e85bcfc3614070073eb9b2c2a2c176eae1d6641b1ee045be72cb9a4667"
+        },
+        "GEO-ALT": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-choices.md#L7-L24",
+          "line_range": [
+            7,
+            24
+          ],
+          "section_excerpt_sha256": "fb002494a2cf47ac9e99f9de372d022dfd52643488463ec972f0ebce8911a7d8"
+        },
+        "MAP-ALT": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-choices.md#L5-L13",
+          "line_range": [
+            5,
+            13
+          ],
+          "section_excerpt_sha256": "e18f0328745934621727be1db6d0a7f1a17af223b9109e54e5d4c55c7d9d108d"
+        },
+        "SIX-DECISION": {
+          "document_id": "six_scenarios",
+          "repository_path": "research/industry/resource-spatial-six-majors-2037-scenarios.md",
+          "section": "当前采用的取舍",
+          "claim_ids": [
+            "A01",
+            "A02",
+            "A03"
+          ],
+          "sha256": "45db42a301fa22a6598d424004f6622ea025a336913b2b77bbbcc6b7df38e8f8"
+        },
+        "SIX-REVERSE": {
+          "document_id": "six_scenarios",
+          "repository_path": "research/industry/resource-spatial-six-majors-2037-scenarios.md",
+          "section": "情景三：价格或回款承压，标准工序集中承接",
+          "claim_ids": [
+            "F03",
+            "I03",
+            "I04"
+          ],
+          "sha256": "45db42a301fa22a6598d424004f6622ea025a336913b2b77bbbcc6b7df38e8f8"
+        },
+        "NAV-MAP": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/admissions/major-career-routing.md#L55-L55",
+          "line_range": [
+            55,
+            55
+          ],
+          "section_excerpt_sha256": "cbd390fb10eb969e2df6f8b96c54c5b6dac206927162e467701a1cfecafe2b72"
+        },
+        "NAV-MIN": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/admissions/major-career-routing.md#L195-L195",
+          "line_range": [
+            195,
+            195
+          ],
+          "section_excerpt_sha256": "1c29a81345d72f803b0d1f8be92c33b0ba5702ee24d9e9fa657cd52277627eac"
+        },
+        "NAV-GEO": {
+          "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/admissions/major-career-routing.md#L197-L197",
+          "line_range": [
+            197,
+            197
+          ],
+          "section_excerpt_sha256": "f7efe870ce24e0ed69e71d7e1b1b52cd86ce3fb1855d046887912d85e25d1c39"
+        }
+      }
+    }
+  },
+  "source_catalog": {
+    "GEO:S02": {
+      "title": "2024版地质工程专业人才培养方案",
+      "publisher": "西安科技大学",
+      "original_url": "https://dhxy.xust.edu.cn/system/_content/download.jsp?owner=831877718&urltype=news.DownloadAttachUrl&wbfileid=14816245",
+      "date_information": {
+        "publication_date": null,
+        "version": null,
+        "date_and_version_boundary": "同校目录标称2024版；目录网页显示2026-04-07不代表PDF发布日期或精确修订日；PDF日期及适用入学届别仍未知，不由HTTP元数据推定。"
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": "PDF p1培养特色与目标，p4毕业条件/学制学位，p9–11课程性质、脚注和实践；同一目录普通方案附件14816245。",
+      "limitations": [
+        "这是普通地质工程附件，不是另列的卓越工程师方案。",
+        "若干增补选修行的总学分/总学时空白，学期栏有值；不得自行修表或保证全部开课。",
+        "培养目标的毕业五年预期不是已核实际职业许可、职称或晋升结果。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/1",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "ad500d415d81b548eeca63dd25818d2eb2f545374745e05cf0ea665daaf1b882",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S03": {
+      "title": "2024版资源勘查工程专业人才培养方案",
+      "publisher": "西安科技大学",
+      "original_url": "https://dhxy.xust.edu.cn/system/_content/download.jsp?owner=831877718&urltype=news.DownloadAttachUrl&wbfileid=14816249",
+      "date_information": {
+        "publication_date": null,
+        "version": null,
+        "date_and_version_boundary": "同校目录标称2024版；目录网页显示2026-04-07不代表PDF发布日期或精确修订日；PDF日期及适用入学届别仍未知，不由HTTP元数据推定。"
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": "PDF p1–2煤炭地质特色/培养目标及学制学位，p8–10必修选修、脚注和实践；同一目录附件14816249。",
+      "limitations": [
+        "多处选修数量脚注与实际增补行数不一致；科技论文写作与训练行学分/学时空白。",
+        "水文地质学基础位于专业基础选修区；实践表另有水文地质学基础课程设计，保留原件差异，不凭课名把理论课改成必修。",
+        "分流、选修实际供给、跨矿种补课成本没有逐项实施证据。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/2",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "4730a2659a0370147e8f630a736cb0e972f9493e5a465e9a0dfcabde6fbbbd10",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S05": {
+      "title": "辽宁建材总队2026年春季校园招聘",
+      "publisher": "吉林大学地球科学学院就业平台（雇主招聘原文）",
+      "original_url": "https://geo.jlu.edu.cn/info/1655/15650.htm",
+      "date_information": {
+        "publication_date": "2026-03-18",
+        "version": null,
+        "date_and_version_boundary": "面向社会及2025、2026届应届毕业生；历史招聘，不保证未来空缺"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "招聘计划表岗位2、3、5、6、8、10；招聘对象与福利段",
+      "limitations": [
+        "单位总部介绍与部分锦州院岗位不是所有项目实际工作地点。",
+        "样品加工员明确劳务派遣；其他技术岗未逐岗给出编制/合同类型，不因单位差额拨款事业性质推为事业编。",
+        "没有承诺所有地质工程方向均被地质勘查岗接受。",
+        "公告福利不等于实际已兑现；相关专业口径不证明任意学校或培养方向自动合格。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/4",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "9ec5749155420ce08dce111fd2245711daa6f5f63c89a1237ce6e2d1a457bc21",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S06": {
+      "title": "山东省地矿第三勘察院2025年秋季校园招聘",
+      "publisher": "吉林大学地球科学学院就业平台（雇主招聘原文）",
+      "original_url": "https://geo.jlu.edu.cn/info/1655/15651.htm",
+      "date_information": {
+        "publication_date": "2025-11-12",
+        "version": null,
+        "date_and_version_boundary": "2026年度拟招聘13名专业技术人才，均为事业编制；不是最终招录结果"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "招聘计划岗位1–5；单位简介",
+      "limitations": [
+        "校园招聘标题不证明所有岗位仅应届；正文写面向社会，缺最终公开招聘简章及具体应届限制。",
+        "驻地烟台不等于所有项目地点；表中岗位职责、外派周期和职业健康保障细则缺失。",
+        "岗位名探矿工程不能无据改成地灾设计岗；不能把专业总表强配全部岗位。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/5",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "7b65d12a7764f97767837c1ab112be8d426b234783a66dbb3cde66e4f2e64a31",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S07": {
+      "title": "地质灾害防治单位资质管理办法",
+      "publisher": "自然资源部；中国地质调查局转载正式全文",
+      "original_url": "https://www.cgs.gov.cn/zcwj/202211/t20221114_820761.html",
+      "date_information": {
+        "publication_date": "2022-11-08",
+        "version": null,
+        "date_and_version_boundary": "2023-01-01施行；地调局页面发布时间2022-11-11"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "公布/施行信息；第2条适用活动，第5条资质类别，第7条人员设备和安全质量条件，第25条质量安全职责。",
+      "limitations": [
+        "这是组织资质法规，不是本科个人注册/签字授权；不能由毕业学位推得技术负责人资格。",
+        "最低人员条件、退休人员比例不能折算新增本科岗位；现行修订状态未另作实时法规沿革核查。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/6",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "0255981475d962bc9cb16044c6156bb483f1c0fef490cef8deeddd5def6c46b1",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S08": {
+      "title": "中华人民共和国矿产资源法（2024修订）",
+      "publisher": "全国人大常委会制定；商务部法规库转载（标注来源中国政府网）",
+      "original_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=102538",
+      "date_information": {
+        "publication_date": "2024-11-08",
+        "version": null,
+        "date_and_version_boundary": "2025-07-01施行"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "主席令第36号及施行日；第5、7、30–31、40、42、49、80条；页面转载免责声明。",
+      "limitations": [
+        "取得的是商务部官方法规库转载全文，不是全国人大签发原件；网页明示转载准确性/时效免责声明。",
+        "原研究不据此宣称全国岗位增长、财政到位或项目已执行；未来实际使用时需核适用法规。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/7",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "4a323227660bac6e01b29bf7ce76e7157a7a47cc966c2d6e4d14fd439b6fbbb2",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S09": {
+      "title": "北京中岩大地科技股份有限公司2025年年度报告全文",
+      "publisher": "北京中岩大地科技股份有限公司；巨潮资讯披露",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225133591.PDF",
+      "date_information": {
+        "publication_date": "2026-04-21",
+        "version": null,
+        "date_and_version_boundary": "2025年度经营及2024可比数；封面2026年4月，公告编号2026-011"
+      },
+      "source_form": "此前保存的发行人年报PDF原件，巨潮资讯披露。",
+      "original_locator": "PDF物理页10、19–20、25；页13经营业务说明",
+      "limitations": [
+        "单企业反证不能代表全国或资源勘查行业；经营现金流改善不能解释成招聘增加。",
+        "完工项目汇总是报告披露口径，不能把506项目、合同额/累计收入直接当年度新增业务或岗位。",
+        "年报所列核电等工程不与地调项目/招聘单位拼成已核合同关系。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/8",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "75bb70b5f004c7cbba938f4e8c726c5e4ce389905f885af57d32e8fcc029666d",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S10": {
+      "title": "示范区多元数据融合与三维地质建模模块测试竞争性磋商公告",
+      "publisher": "中国地质调查局油气资源调查中心",
+      "original_url": "https://www.cgs.gov.cn/tzgg/zfcg_5637/zabxx/202512/t20251225_855626.html",
+      "date_information": {
+        "publication_date": "2025-12-24",
+        "version": null,
+        "date_and_version_boundary": "采购项目公告；拟自签约至2027年12月完成；并非授标或验收结果"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "项目编号0733-25176211；项目基本情况、采购需求1–3、合同履行期限及申请人资格要求第2项。",
+      "limitations": [
+        "预算不是成交额、到账或岗位数；没有中标人、合同支付条款、实际验收/回款证据。",
+        "公告主体名称含油气，不足以把含矿体品位测试的全部内容强称油气生产岗位；信息技术供应商可能承接，不证明地学本科独占。",
+        "本项目与本索引其他企业或招聘单位之间没有已核合同关系。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/9",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "329d81d163a6d76794597e3c0d25bd8a60c93dbcf71daa26586921dbbe42cb93",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S11": {
+      "title": "江苏煤炭地质勘探二队2027年度高校毕业生招聘公告（含地质类 水文类）",
+      "publisher": "安徽理工大学地球与环境学院（发布平台）；江苏煤炭地质勘探二队（招聘内容主体）",
+      "original_url": "https://dhxy.aust.edu.cn/info/1358/9389.htm",
+      "date_information": {
+        "publication_date": "2026-11-09",
+        "version": null,
+        "date_and_version_boundary": "平台发布时间与雇主人力资源部落款署期分开；面向2027年度应届高校毕业生，非2027入学届，不保证2031仍招聘。",
+        "visible_publication_time": "18:41，时区未明示",
+        "original_announcement_date": "2026-10-19"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "网页发布时间；正文招聘对象、报名条件第2项、应届毕业生招聘计划表、招聘岗位计划表及末尾署期。",
+      "limitations": [
+        "平台资料来源栏空白，不确认雇主官网首发；福利及业务范围是公告自述，非实施核验。",
+        "不能以两表总数相合推地质技术员4个本科名额，不能给各专业分配名额或修造单岗学历交叉表。",
+        "单位驻地不等于项目地；未逐岗明确合同/编制、轮换、工时、保障、带教和实际任务。",
+        "原HTML首表保留硕士1、大专2；全文提取曾遗漏，不能用提取文本替代原表。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/10",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "d944e7d2f48a833d82459576fac7a7b0a1f05455ad65ad0e5466d0699f596468",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "GEO:S13": {
+      "title": "关于平望镇2026年度收储地块地质灾害危险性评估及压覆矿查询的中标公告",
+      "publisher": "苏州市吴江区人民政府（发布站）；吴江区平望镇（页面来源）；中拓工程咨询（苏州）有限责任公司（正文落款）",
+      "original_url": "https://www.wujiang.gov.cn/zgwj/xezbxx/202606/f2c5d95b46004cedb2d6b57ab93a5220.shtml",
+      "date_information": {
+        "publication_date": "2026-06-29",
+        "version": null,
+        "date_and_version_boundary": "可见发布时间15:58与HTML元数据16:38:39不同，保留原值；这是中标公告，不是签约、履约、验收或付款结果；2026年度不代替服务期限。",
+        "visible_publication_time": "15:58，时区未明示",
+        "html_meta_pubdate": "2026-06-29 16:38:39"
+      },
+      "source_form": "此前保存的官方网页HTML原件；发布者及转载层级按本条来源记录。",
+      "original_locator": "项目名称及编号SZZT2026-S-G-005-A；开标信息；中标信息；采购单位；正文落款。",
+      "limitations": [
+        "未列个的计价对象定义、数量、地块清单/面积、总合同额或单价含税范围；19600元不是已核总合同价。",
+        "本页未列服务期限，不写成一年或截至2026年年底；未核签约、履约、验收、结算及付款。",
+        "无个人岗位、专业、学历、招聘人数或带教资料；项目及开标地点不等于岗位地点。",
+        "不证明该事件由某项政策单独促成；不能把该中标单位与S11、S12雇主拼为同一合同链。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/geological-engineering-resource-exploration-2037-sources.json",
+        "json_pointer": "/sources/12",
+        "sha256": "6ac1b1ba0dae6cef77eeb6ad28f3d6b8d75e58a54ee5a3de235cbcc85a112b34"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "71d23c919c709f570bf2338345baeed2b2d4eefe3679e821f47592f237316482",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S01": {
+      "title": "安徽理工大学采矿工程专业人才培养方案（2024版）-081501",
+      "publisher": "安徽理工大学矿业工程学院",
+      "original_url": "https://kygc.aust.edu.cn/virtual_attach_file.vsb?afc=5M4NC8Uz7YozVfLQRQRoRUZnNMkoR6q2MzL4MzCiU4VVM870gihFp2hmCIa0MYyiMYhfLkhfnzlbMmvaMNCbMlUYnlC8oRTkozlDM8LiL4MFUzl4UNlsUmWFU4LsUmCJv2nto4OeoDxbQDL0qIbtpYyPLm9Pg4vsLm9Jqdpnx&oid=1705606419&tid=1281&nid=7728&e=.pdf",
+      "date_information": {
+        "page_published": "2025-10-09",
+        "revision_label": "2024版",
+        "revision_date": null,
+        "applicable_cohorts": null
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": [
+        "PDF物理p1、5",
+        "PDF物理p12—13、16",
+        "PDF物理p19"
+      ],
+      "limitations": [
+        "未查得方案明确适用2027级；2024版标签不是2027届别保证。",
+        "未核精确修订日、选修实际开班、跨方向选课资格或毕业后的个人执业授权。",
+        "不能用本方案填矿大或其他学校培养空白。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/0",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "71970e9c3c9cd04f7aaea97da521010b9cc53f2a6119f645a9b985fa8adfec86",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S02": {
+      "title": "安徽理工大学矿物加工工程专业2024版本科培养方案-081503",
+      "publisher": "安徽理工大学材料科学与工程学院",
+      "original_url": "https://clx.aust.edu.cn/__local/B/FE/18/82D09B5A1BE40A6D04E2FF65D09_524D46FC_A8572.pdf",
+      "date_information": {
+        "page_published": null,
+        "revision_label": "2024版",
+        "revision_date": null,
+        "applicable_cohorts": null,
+        "http_last_modified_not_publication": "Fri, 11 Apr 2025 06:22:14 GMT"
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": [
+        "PDF物理p1、5—6",
+        "PDF物理p6与p15",
+        "PDF物理p10、12",
+        "PDF物理p13"
+      ],
+      "limitations": [
+        "PDF标2024版，但没有取得发布介绍页，实际发布日期、精确修订日期、适用届别均未知；HTTP修改日不是发布日期。",
+        "未证学校允许每个学生进入列出的所有方向或保证所有选修开课。",
+        "课程与任务可比，不可直接把与采矿的总学分相减当就业优劣。",
+        "原研究另核PDF物理p15，理论133.25/实践42.75与p6的133.5/42.5有内部差异；不修表，不据差异比较就业能力。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/1",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "e99179fb951d4c52672fafc635ade22ea0b97e69cd68397a64218457e9a0523e",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S04": {
+      "title": "铜陵化学工业集团有限公司2027届校园招聘启事",
+      "publisher": "铜化集团官方网站",
+      "original_url": "https://www.tlchem.com/index.php?a=show&c=content&id=2439",
+      "date_information": {
+        "page_published": "2026-09-28"
+      },
+      "source_form": "此前保存的官方网页原始响应；哈希沿用原索引，少数响应保留压缩传输字节，解析表示与传输字节不混同。",
+      "original_locator": [
+        "原HTML招聘表第13、14行",
+        "二、应聘条件",
+        "集团简介、岗位表、福利段"
+      ],
+      "limitations": [
+        "两岗位没有逐岗任务说明、矿种、下属用人法人、工作地点、地下/露天、轮班、出差或防护带教详情；均待核。",
+        "不能因铜陵名称推铜矿；不能把集团业务介绍当每岗任务。",
+        "不是实习招聘，但页面未直接展示两岗劳动合同条款，正式合同类型未知。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/3",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "90d6266ef838c5d2ad7c76be5e1f7361efb5188ffed2b6787505b72bf667e2c8",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S05": {
+      "title": "中煤新集能源股份有限公司2025年校园招聘简章",
+      "publisher": "淮北师范大学就业信息网发布企业招聘简章",
+      "original_url": "https://jyzd.chnu.edu.cn/xsfw/gwxx/content_122132",
+      "date_information": {
+        "page_published": "2024-10-09 16:20:44"
+      },
+      "source_form": "此前保存的官方网页原始响应；哈希沿用原索引，少数响应保留压缩传输字节，解析表示与传输字节不混同。",
+      "original_locator": [
+        "二、招聘专业；三、基本条件",
+        "四、福利待遇；五、晋升通道"
+      ],
+      "limitations": [
+        "只证明煤矿主体类共同专业入口，不是同一具体岗位同时接收两专业。",
+        "专业总表不能分别强配所有岗位、把两专业理解为无差别替代。",
+        "无逐岗任务、人数、矿井/选厂、轮班、地点、劳动条件；不把在册员工1.73万或产能换成新人名额。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/4",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "7e1baf954cd04f1d517ff1edcf12948d05a01b29214fccb563449c79de0d7c64",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S07": {
+      "title": "中煤洗选绿色智能选矿技术研究中心技术人员招聘公告",
+      "publisher": "北京中煤煤炭洗选技术有限公司",
+      "original_url": "https://zmxx.chinacoal.com/col/col10705/art/2026/art_a3d34f51afdd4d23ac69cd0dbb2f1838.html",
+      "date_information": {
+        "notice_signed": "2026-09-16"
+      },
+      "source_form": "此前保存的官方网页原始响应；哈希沿用原索引，少数响应保留压缩传输字节，解析表示与传输字节不混同。",
+      "original_locator": [
+        "公司简介",
+        "三、招聘岗位；六、报名条件及附件说明"
+      ],
+      "limitations": [
+        "岗位学历、专业和经验细则在附件1 xls，原研究未取该附件，全部未知；绝不称它招本科矿加或零经验应届。",
+        "年运营能力3亿吨为企业自述能力，不是实际年度洗选量或本科岗位数。",
+        "企业承包运营角色可支撑组织层机制，不能证明与新集/中煤能源/铜化已存在原研究核实合同。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/6",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "9ce8aaf17f29f3de52c0420ace20729f17ee31f417964009bcfc23bbca16e0ff",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S08": {
+      "title": "关于深入推进矿山智能化建设促进矿山安全发展的指导意见（矿安〔2024〕42号）",
+      "publisher": "国家矿山安全监察局等七部门",
+      "original_url": "https://www.chinamine-safety.gov.cn/zfxxgk/fdzdgknr/tzgg/202404/t20240428_486312.shtml",
+      "date_information": {
+        "signed": "2024-04-24",
+        "page_published": "2024-04-28 08:29"
+      },
+      "source_form": "此前保存的官方网页原始响应；哈希沿用原索引，少数响应保留压缩传输字节，解析表示与传输字节不混同。",
+      "original_locator": [
+        "一、总体要求",
+        "第九、十、十七、十九项"
+      ],
+      "limitations": [
+        "目标不等实际达标观测，不等法定每矿必须裁员比例，也不是2027本科招生配额。",
+        "不能由矿井或工作面数量直接算本科岗位；不提供危险工艺操作指令。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/7",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "201928d9f40746d12cea9d1c762c46ff6c690606041fe624de410770d2da6cd4",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S09": {
+      "title": "中国中煤能源股份有限公司2025年年度报告",
+      "publisher": "中国中煤能源股份有限公司官方站",
+      "original_url": "https://www.chinacoalenergy.com/cms_files/filemanager/50/attach/202510/3874DFC57F39A289DDBC4D49C8B5B912.pdf?fileName=01+%E4%B8%AD%E5%9B%BD%E4%B8%AD%E7%85%A4%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf",
+      "date_information": {
+        "report_year": 2025,
+        "publication_date": null,
+        "http_last_modified_not_publication": "Fri, 27 Mar 2026 13:21:59 GMT"
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": [
+        "PDF物理/印刷p7",
+        "PDF物理/印刷p13、20",
+        "PDF物理/印刷p20",
+        "PDF物理/印刷p16、33",
+        "PDF物理/印刷p54"
+      ],
+      "limitations": [
+        "上市中煤能源与中煤集团、中煤新集、中煤洗选不是可互换法人；原研究不证明相互合同。",
+        "不得把原煤/商品煤/洗选产量/销量、内外部抵销口径互换；一企一年不是全国2037预测。",
+        "年报中引用的全国行业统计不作为原研究独立全国原始统计证据。",
+        "p53母公司/主要子公司行与合计表面相加不一致，原研究不使用该分项加总；p54总数及学历/专业结构可直接读表，但若需详细法人范围须另核。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/8",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "3c319d1e4654c4a4d98d92acabab10a2c0c9e2fa60e204c69f7a19ec6dcaa472",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MIN:S11": {
+      "title": "云南锡业股份有限公司2025年年度报告全文",
+      "publisher": "云南锡业股份有限公司；巨潮资讯原公告PDF",
+      "original_url": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225043582.PDF",
+      "date_information": {
+        "report_year": 2025,
+        "publication_date": null,
+        "disclosure_url_date": "2026-03-30"
+      },
+      "source_form": "此前保存的官方PDF原件。",
+      "original_locator": [
+        "PDF物理p11/印刷p6",
+        "PDF物理p20/印刷p15"
+      ],
+      "limitations": [
+        "锡/铜/锌精矿选矿与煤炭洗选产品、工艺、回收/杂质要求和区域不同；不能用本企业经营直接替煤炭事实。",
+        "采选、冶炼、深加工及重要参股公司业务应分开；不能因此称矿加等同冶金材料。",
+        "原研究云锡校招岗位附件验证码未取，不把搜索摘要的本科分岗纳入事实。",
+        "年报引用ITA等市场统计是二手来源；不采用其数值当原研究原始全球需求统计。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/mining-mineral-processing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/mining-mineral-processing-2037-sources.json",
+        "json_pointer": "/sources/10",
+        "sha256": "b6e39a44298bca31424997f4f71b87fe488886943f0972296b5b819344130e43"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "7e138d1718b86f51109725f781371a44d59248490b945d9f43dd049a7b02fdb4",
+        "hash_boundary": "沿用原索引的既有存档字节标识；不是本次下载、当前在招或现实履约证明。"
+      }
+    },
+    "MAP:S01": {
+      "title": "安徽理工大学测绘工程专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "original_url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AM8n1VnRUYn77DomRL4nlUYLm-ZozfN7nRvDLzUaL77iMRC0gihFp2hmCIa0okhfLkhRMYyDnmLZM4LsLlCiLzv4Lz6kozGPL4AfnRUsUmWFoRGsoRUZLRAFUmVRoRlJv2nto4OeosUDgDTJQty0Lz-aokysMzGigtA8pUTcc&e=.pdf&nid=7505&oid=944884314&tid=1208",
+      "date_information": {
+        "publication_date": "2025-09-29",
+        "version": "2024版",
+        "date_and_version_boundary": null,
+        "publication_date_basis": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。"
+      },
+      "source_form": "此前保存的官方完整PDF，20页；原研究核对了关键课表。",
+      "original_locator": [
+        "PDF第1页/印刷1215：专业代码",
+        "第7页/1221：标准学制、学位及摘要总量",
+        "第10–12页/1224–1226：必修、选修及星号",
+        "第14页/1228：实践安排及表末合计",
+        "第15页/1229：学分分配与摘要矛盾"
+      ],
+      "limitations": [
+        "培养样本，不证明2025或2027江苏可报；培养目标不是就业结果或职业资格自动授予。",
+        "p7摘要170+6/实践48与p14教学总计172.25+4/实践48.25、p15合计176.25存在内部口径或修订差异；不可拿总量精确横评。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/0",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": "378cf67856e4732cb027df7b8f5c444df88565f0db7c908afde0340a33fadd25",
+        "original_document_pages": 20,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "378cf67856e4732cb027df7b8f5c444df88565f0db7c908afde0340a33fadd25",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208"
+    },
+    "MAP:S02": {
+      "title": "安徽理工大学遥感科学与技术专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "original_url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AoRv1Yoz7YL4vDUmlL8olCaM8LDMRLN8oRLZMm9sU878MmC0gihFp2hmCIa0M1ybM1yiokyYM4CiM8M2nl-iMzWRMNU8Uz9DMm7aMzAknlnFU8MVnmffLNMFnlC4nm7Jv2nto4OeosUDgDTJQty0Lz-aokysMzG8gtA8pUTcc&e=.pdf&nid=7504&oid=944884314&tid=1208",
+      "date_information": {
+        "publication_date": "2025-09-29",
+        "version": "2024版",
+        "date_and_version_boundary": null,
+        "publication_date_basis": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。"
+      },
+      "source_form": "此前保存的官方完整PDF，30页；原研究核对了关键课表及两方向的星号规则。",
+      "original_locator": [
+        "PDF第1页/1235：专业代码",
+        "第6页/1240：学制及两个方向介绍",
+        "第12–14页/1246–1248：基础/专业必修与遥感方向星号",
+        "第17页/1251：地理空间信息方向星号",
+        "第20–21页/1254–1255：实践",
+        "第22–23页/1256–1257：实践合计与摘要差异"
+      ],
+      "limitations": [
+        "同校同版不等于所有课程可取得或实际开齐。",
+        "遥感方向与地理空间信息方向有各自最低18.5学分及带星必选，不能拼成全体学生必修包。",
+        "p6摘要169+6/实践45与后面表格实践合计等存在内部差异，定量总学分比较不采。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/1",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": "5a2b5303bf501e4363d3ff99ef107e431e618690060aa498f0e4d73097345c4d",
+        "original_document_pages": 30,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "5a2b5303bf501e4363d3ff99ef107e431e618690060aa498f0e4d73097345c4d",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208"
+    },
+    "MAP:S04": {
+      "title": "招聘岗位（测绘内业、外业及GIS开发岗位）",
+      "publisher": "金田产业发展（山东）集团有限公司",
+      "original_url": "https://www.sdjintian.com/join.php",
+      "date_information": {
+        "publication_date": null,
+        "version": null,
+        "date_and_version_boundary": null
+      },
+      "source_form": "此前保存的雇主官网正文转换；后续HTTP503，未取得原始HTML；网页无发布日期。",
+      "original_locator": [
+        "测绘外业工程师：职责与任职资格，转换行7–32",
+        "测绘内业工程师：职责与本科要求，转换行34–50",
+        "GIS开发工程师：应届学历条款，转换行197–211"
+      ],
+      "limitations": [
+        "页面没有发布日期；是雇主公开岗位要求个案，不证明当前仍招、应届名额、就业率或全国需求。",
+        "本科要求明确在测绘内业岗位；外业岗位未写学历，不补成同学历。",
+        "不要把土地设计/规划岗位的短期出差要求挪给测绘内业。",
+        "同页GIS开发应届要求GIS研究生及以上，不外推所有GIS/遥感岗位。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/3",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "506f17ea7b3217b1d7709fc036cb35409c76c3da280adcd58c3798b177ffa531",
+        "hash_object_note": "已保存正文转换文本",
+        "downloaded_wrapper_sha256": null
+      }
+    },
+    "MAP:S05": {
+      "title": "2025年苏州市实景三维数据采集与更新项目采购公告",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "original_url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004002/20250922/65b30e3b97b34979a6eae51d83900a1c.html",
+      "date_information": {
+        "publication_date": "2025-09-22",
+        "version": null,
+        "date_and_version_boundary": null
+      },
+      "source_form": "此前保存的官方采购公告正文转换；另存HTML仅为标题、日期与原文链接外壳，不含关键采购正文。",
+      "original_locator": [
+        "官方转换L18–27：预算、更新需求、期限",
+        "L50–52：供应商资质",
+        "L54–106：CA采购文件获取边界"
+      ],
+      "limitations": [
+        "预算与采购需求是委托计划，不是新增员工数、工资预算或完成验收。",
+        "苏采云CA登录获取文件路径未进入；未读采购文件第四章。",
+        "所需测绘资质是供应商组织资质，不是个人学历/注册资格。",
+        "下载HTML仅为公告外壳；关键事实来自已保存官方网页转换。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/4",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "hash_object_note": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "downloaded_wrapper_sha256": "9e360500cddb752eb859c59f7388f95fcd0825ec7fbb34ccf6eb5a5cbee53a33"
+      }
+    },
+    "MAP:S06": {
+      "title": "2025年苏州市实景三维数据采集与更新项目成交公告采购包1",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "original_url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20251013/d3f54517c0384b14822222290bc8597b.html",
+      "date_information": {
+        "publication_date": "2025-10-13",
+        "version": null,
+        "date_and_version_boundary": null
+      },
+      "source_form": "此前保存的官方成交公告正文转换；另存HTML仅为标题、日期与原文链接外壳，不含成交详情。",
+      "original_locator": [
+        "官方转换L8–19：同一项目编号、成交与服务要求"
+      ],
+      "limitations": [
+        "成交不等于合同履行、到账或人员新增；热线响应是本项目服务承诺，不是每个测绘本科生的工时。",
+        "下载HTML仅为公告外壳；关键事实来自已保存官方网页转换。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/5",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion",
+        "primary_representation_sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "hash_object_note": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "downloaded_wrapper_sha256": "c6ed67524a4224db218926b131eb828d4d19616db6b5594f1693f9c38576aa91"
+      }
+    },
+    "MAP:S07": {
+      "title": "泰州市区实景三维建设项目（包2）技术合同书",
+      "publisher": "泰州市自然资源和规划局；泰州市财政局公开合同",
+      "original_url": "https://czj.taizhou.gov.cn/jirdpub/jird_files/filedata/5f2c27ae01284ca19514b4adf4cb404e/2024/12/18/fc6f96f0d1e64ecf972e814f4ac58379.pdf",
+      "date_information": {
+        "publication_date": null,
+        "version": "合同编号JSZC-321200-HQGC-G2024-0080",
+        "date_and_version_boundary": null
+      },
+      "source_form": "此前保存的官方托管原始扫描PDF，8页；文字提取为空，原研究视读第1–6页，人工摘录不是原件。",
+      "original_locator": [
+        "PDF第1页：合同编号、当事方和月份空白",
+        "第2–3页：采集/地面控制、实体、更新、融合、质量与工期",
+        "第4–5页：人员、合同总价、联合体分工和分期付款",
+        "第6页：承接方质量责任、阶段验收终止条款"
+      ],
+      "limitations": [
+        "首页2024年月份留空，不编签订日；URL2024-12-18是托管路径，不自动作为签订日。",
+        "合同工期/付款安排不证明实际完成与付款。",
+        "仅使用公开合同任务/财务/组织文字；未采集地理坐标、受限地图或底层数据。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/6",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": "e200ce5d2c6bbd760dd399f87cf06d640e2e1c7e2e5e5065090d393e7463da53",
+        "original_document_pages": 8,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "e200ce5d2c6bbd760dd399f87cf06d640e2e1c7e2e5e5065090d393e7463da53",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      }
+    },
+    "MAP:S08": {
+      "title": "自然资源部例行新闻发布会介绍测绘地理信息工作有关情况（实录）",
+      "publisher": "自然资源部；上海市规划和自然资源局转载",
+      "original_url": "https://ghzyj.sh.gov.cn/hyxw/20260902/ea780e9edfbb4b9e8236bef31e60dbbc.html",
+      "date_information": {
+        "publication_date": "2026-08-28",
+        "version": "2026-08-27发布会／页面发布日期2026-08-28",
+        "date_and_version_boundary": null
+      },
+      "source_form": "自然资源部发布会实录的政府网站转载；此前保存的正文转换片段，报告总117行、实际保留至L53，采用L25–36，不声称全文取得；后续HTTP403。",
+      "original_locator": [
+        "官方转换L0–10：页面与发布会日期",
+        "L29–32：存量更新、遥感统筹、基准、即产即检和数智化"
+      ],
+      "limitations": [
+        "是政策工作安排/部门说明，不是预算到账或招聘；不把2026工作说明反填为2024/2025采购原因。",
+        "后续HTTP403已停止该资源，不继续读取余下全文。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/7",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": null,
+        "original_document_pages": null,
+        "primary_saved_representation": "official_webpage_conversion_fragment",
+        "primary_representation_sha256": "d997848fdcdbba6a7a651adf60f340f75df5834595723e13ce37ed3a417dbd5c",
+        "hash_object_note": "已保存正文转换文本",
+        "downloaded_wrapper_sha256": null
+      }
+    },
+    "MAP:S09": {
+      "title": "南京市测绘勘察研究院股份有限公司2024年年度报告全文",
+      "publisher": "南京市测绘勘察研究院股份有限公司",
+      "original_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10921915&stockid=300826",
+      "date_information": {
+        "publication_date": "2025-04-22",
+        "version": "2024报告期／公告2025-023",
+        "date_and_version_boundary": null
+      },
+      "source_form": "此前保存的发行人2024年报完整PDF，283页，新浪镜像托管，非发行人或交易所托管副本。",
+      "original_locator": [
+        "PDF第1页：报告期、公告编号2025-023及日期",
+        "第10页：主要会计指标",
+        "第26页：销售、生产及采购模式",
+        "第38页：分产品收入",
+        "第66页：季节性、应收和合同资产、存货风险"
+      ],
+      "limitations": [
+        "公司个案，不外推整个产业或专业岗位数量；收入下降不能直接证明裁员。",
+        "经营现金流净额2024同比+25%，不能说所有财务指标恶化。",
+        "应收账款账面余额与账面净额不同；不混用76770.05万元余额与资产负债表净额。",
+        "报告行业总产值引述属协会二手数字，原研究不独立采用。"
+      ],
+      "inherited_index": {
+        "repository_path": "research/industry/surveying-remote-sensing-2037-sources.json",
+        "fixed_version_url": "https://github.com/mythpan1/pathwise-research/blob/e589617041b38f9c93eed58cac21d1f53bb31741/research/industry/surveying-remote-sensing-2037-sources.json",
+        "json_pointer": "/sources/8",
+        "sha256": "366dfdbbcbf6933b488affe68536327f3130b200dbe346b35ff9671a03e15001"
+      },
+      "verification_boundary": "继承固定公开研究与来源索引；本次未重新访问原站，未把既有取得过程认证为本次新核验。",
+      "preserved_artifact_identity": {
+        "original_document_sha256": "44268f723b89547ca609ee5883cd8e459e8143bc2004c60cbf9c4129806eed2b",
+        "original_document_pages": 283,
+        "primary_saved_representation": "original_pdf",
+        "primary_representation_sha256": "44268f723b89547ca609ee5883cd8e459e8143bc2004c60cbf9c4129806eed2b",
+        "hash_object_note": "PDF完整字节",
+        "downloaded_wrapper_sha256": null
+      },
+      "document_url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2025/2025-4/2025-04-22/10921915.PDF"
+    },
+    "J:J01": {
+      "alias_of": "GEO:S11",
+      "title": "江苏煤炭地质勘探二队2027年度高校毕业生招聘公告（含地质类 水文类）",
+      "publisher": "安徽理工大学地球与环境学院（发布平台）；江苏煤炭地质勘探二队人力资源部（正文落款）",
+      "original_url": "https://dhxy.aust.edu.cn/info/1358/9389.htm",
+      "date_information": {
+        "publication_date": "2026-11-09 18:41; timezone unspecified",
+        "original_announcement_date": "2026-10-19",
+        "cohort": "2027年度应届高校毕业生，非2027入学届"
+      },
+      "source_form": "同一招聘网页的既有HTML存档，与GEO:S11为同一来源，不重复计为独立证据。",
+      "original_locator": "招聘条件；应届毕业生招聘计划表、招聘岗位计划表及正文落款。",
+      "limitations": [
+        "两表未交叉对应岗位和学历，不能拼成4个本科地质技术员名额。",
+        "徐州驻地不等于岗位固定在江苏或徐州市内，招聘条件要求长期野外。",
+        "2027毕业届招聘不承诺2031岗位。"
+      ],
+      "preserved_artifact_identity": {
+        "original_bytes_sha256": "d944e7d2f48a833d82459576fac7a7b0a1f05455ad65ad0e5466d0699f596468"
+      }
+    },
+    "J:J02": {
+      "title": "薪火相传铸“铁军” 青春聚力启新程——二队扎实开展2026年新职工入职培训暨“师带徒”签约活动",
+      "publisher": "江苏煤炭地质勘探二队官网",
+      "original_url": "https://www.jsdked.com/index/14/2563.html",
+      "date_information": {
+        "publication_date": "2026-09-28 14:00:17; timezone unspecified",
+        "event_date": "2026-09-23",
+        "cohort": "2026年新入职职工，具体专业、岗位和新职工人数未列"
+      },
+      "source_form": "既有研究保存的官方网页HTML及派生正文；本次仅本地复核现有存档，未重新访问原站。",
+      "original_locator": [
+        "标题与发布日期",
+        "导语：2026新职工培训及安徽口孜东项目现场签约",
+        "“野外一线‘结师徒’”段：协议与年度绩效考核"
+      ],
+      "supports": [
+        "2026新职工在项目现场进行师带徒签约；报道说明将成效纳入年度绩效考核。"
+      ],
+      "limitations": [
+        "未知：2027地质技术员是否同样安排。",
+        "未知：协议全文、带教时长、导师资质/比例、考核细则、实际效果。",
+        "未知：轮休和请假制度具体条款。",
+        "不能推定：参会15人等于新职工15人。",
+        "不能推定：2027每岗或2031毕业生均有同样导师承诺。",
+        "组织报道中的安排与效果表述不证明带教实际有效；不是特定本科岗承诺。"
+      ],
+      "preserved_artifact_identity": {
+        "original_html_sha256": "01bd5ece05f9f02ea60ad42c1074f770a05873cb0cb38dfda9fa67dad48db301",
+        "hash_boundary": "标识既有存档HTML字节，不证明当前网页未变；原HTML不随本文分发。"
+      }
+    },
+    "J:J03": {
+      "title": "砺技筑基竞风采 青绽地勘育英才——二队第二届青年技术人员综合素养竞赛圆满举办",
+      "publisher": "江苏煤炭地质勘探二队官网",
+      "original_url": "http://www.jsdked.com/index/14/2566.html",
+      "date_information": {
+        "publication_date": "2026-09-29 14:18:50; timezone unspecified",
+        "event_date": "2026-09-22",
+        "cohort": "青年技术人员，工龄/专业/参赛规模未列"
+      },
+      "source_form": "既有研究保存的官方网页HTML及派生正文；本次仅本地复核现有存档，未重新访问原站。",
+      "original_locator": [
+        "标题与发布日期",
+        "导语：2026年9月22日青年技术人员竞赛",
+        "实操考试段：记录数据、核对编录及原始台账",
+        "PPT汇报段：本人参与项目及答辩"
+      ],
+      "supports": [
+        "青年竞赛包括数据记录、编录核对和本人参与项目的汇报答辩，支持具体技能要求的辨识。"
+      ],
+      "limitations": [
+        "未知：2027新人日常具体分工。",
+        "未知：每项任务工时占比、入职独立操作时间、签字责任和复核链。",
+        "未知：竞赛表现是否等于全部员工合格、未来自动化替代程度。",
+        "不能推定：所有地质技术员每天承担全部任务。",
+        "不能推定：参加者全部为新毕业本科生。",
+        "不能推定：竞赛任务等于已验证的2037岗位结构。",
+        "竞赛表现与技能要求不是日常岗位说明、首年任务书或有效带教的结果证明。"
+      ],
+      "preserved_artifact_identity": {
+        "original_html_sha256": "73e3e9677c35fe663f4868b42f9492caf640977cedc88da0627d7fc7ebe04eee",
+        "hash_boundary": "标识既有存档HTML字节，不证明当前网页未变；原HTML不随本文分发。"
+      }
+    }
+  }
+}
