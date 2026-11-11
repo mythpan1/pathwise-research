@@ -1,0 +1,1096 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-11",
+  "editorial_date": "2026-11-11",
+  "article": {
+    "repository_path": "research/industry/utility-newcomer-degree-2037-choices.md",
+    "sha256": "b413ddad9b98a156e9d97dc68420ca1200e08e371871829eca6b1afd8af7975f"
+  },
+  "baseline_commit": "8c0fa955626e644ed64671ab4c5f19779a9db883",
+  "scope": {
+    "population": "江苏生源的本科培养与职业准备条件比较，不是个人报考方案",
+    "cases": "南京历史背景、常州2026已截止硕士岗及无锡名义企业智联公开本科新人资格例；不代表江苏全省岗位市场",
+    "conditional_time_axis": "假设2027入读四年本科，2031本科毕业，三年硕士约2034毕业，2037比较毕业后经历；不保证连续就业"
+  },
+  "evidence_boundary": "N01/N02/N05为本次研究核对的固定公开网页原件；L03仅为旧转载版本线索。其余来源从固定研究及登记继承，未重新取得原件，不提高核验层级。资格例、招聘职责、个人训练成效和实际录用分别判断；条件推演不是已验证预测。",
+  "reference_conventions": {
+    "C01-C14": "本篇14条主张；kind区分来源事实、假设、推断和建议。",
+    "source_locators": "N01/N02/N05/L03以公开页面章节、DOM节点和短摘录定位，不要求读者取得私有表示文件。页面日后变化时，哈希仅标识本次取得的版本，不保证当前页面相同。",
+    "repository_artifacts": "固定提交、仓库相对路径、内容哈希及章节；继承资料保持原固定提交，BASE-INDEX在本篇B中承接其身份与限制。",
+    "original_hashes": "原件字节的版本标识，不认证原文真实性、当前可访问性、作者身份或未来持续性。",
+    "upstream_locators": "工业旧登记的表/行号是旧研究表示编号，不是原站永久行号；优先使用原文语义章节。PDF物理页从1计数。",
+    "SUEP-C": "聚合两份不同原件，原DOC/XLS身份、日期、URL及哈希分别保留；不把2025制定月份或级别标签推成2027适用。",
+    "null": "材料未确认，不用推测补值。"
+  },
+  "repository_artifacts": [
+    {
+      "id": "BASE-CHAPTER",
+      "title": "水务历史入口与工业应用/测试的条件比较",
+      "repository_path": "research/industry/utility-operations-industrial-control-2037-choices.md",
+      "commit": "8c0fa955626e644ed64671ab4c5f19779a9db883",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/8c0fa955626e644ed64671ab4c5f19779a9db883/research/industry/utility-operations-industrial-control-2037-choices.md",
+      "sha256": "3c9b067dc65329d34094c8774e995fe570a99a41f9140b84ab0fd04a12f74075",
+      "git_blob_sha1": "f446b19e9c39284afa767351e4690c849aa7c7b6",
+      "sections_used": [
+        "D01—D14；尤其本科入口、支付链、训练与历史录取边界"
+      ]
+    },
+    {
+      "id": "BASE-INDEX",
+      "title": "水务与工业背景：来源及主张索引",
+      "repository_path": "research/industry/utility-operations-industrial-control-2037-sources.json",
+      "commit": "8c0fa955626e644ed64671ab4c5f19779a9db883",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/8c0fa955626e644ed64671ab4c5f19779a9db883/research/industry/utility-operations-industrial-control-2037-sources.json",
+      "sha256": "92078cec20b6aa744e322bd9bbd292db4cc237aa1934155848c60d20109320d4",
+      "git_blob_sha1": "c8c32bd7cb5ebf11100dcc56ca752a0760d45a9b",
+      "sections_used": [
+        "sources；repository_artifacts；D01—D14"
+      ]
+    },
+    {
+      "id": "IND-CHAPTER",
+      "title": "工业电驱与运动控制：电气和自动化何时换序",
+      "repository_path": "research/industry/industrial-drive-control-2037-choices.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/industry/industrial-drive-control-2037-choices.md",
+      "sha256": "c5c48aff296f19b31f866c704f7918a26d8fa9f7232835501de7d708e91c2003",
+      "git_blob_sha1": "6d99fa8f4aa7714dd0be00b8c4b7041569f5dd55",
+      "sections_used": [
+        "一、先给方向",
+        "二、企业为什么付钱",
+        "三、本科入口",
+        "四、同校培养对照",
+        "五、2031就业还是2034读研",
+        "六、备选怎样才真的分散"
+      ]
+    },
+    {
+      "id": "IND-INDEX",
+      "title": "工业电驱与运动控制：来源与主张索引",
+      "repository_path": "research/industry/industrial-drive-control-2037-choices-sources.json",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/industry/industrial-drive-control-2037-choices-sources.json",
+      "sha256": "ea43618beed29263c11391adebc245f0ffad8cd9a7fd578024e7c88733dddcbf",
+      "git_blob_sha1": "416873d1d2600e3bf08a45c36f7080c9ac0eec04",
+      "sections_used": [
+        "sources S01—S09；claim_map C01—C08"
+      ]
+    },
+    {
+      "id": "SUEP-CHAPTER",
+      "title": "上电能动与自动化：从课程安排走到可练习任务，选择改变在哪里",
+      "repository_path": "research/admissions/suep-thermal-control-training.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/admissions/suep-thermal-control-training.md",
+      "sha256": "d024039e00b011a9f2b5f88e335f92e6a1a21d54ca1067cb7c4f3e2079f7c86f",
+      "git_blob_sha1": "765c81ff6909860def9336e6b75506869cd6af8b",
+      "sections_used": [
+        "四、C：同一专业有两套方向门槛",
+        "五、更新H/C顺序"
+      ]
+    },
+    {
+      "id": "JS-CHAPTER",
+      "title": "物理27151观察尺：同一苏州目标下的软件、测试与工业控制五组取舍",
+      "repository_path": "research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "sha256": "68109695c5b950c9d3591b03deed5289badea831510c68fbb8970136c94c9fe7",
+      "git_blob_sha1": "75293c1bd537b833341752f6a410419549c2c616",
+      "sections_used": [
+        "同一个P_S、R与毕业时钟",
+        "下端：5组22显示成员，不用组线代替专业线"
+      ]
+    },
+    {
+      "id": "B-INV",
+      "title": "新增、改造与运行共存时：四类本科方向的条件取舍",
+      "repository_path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/industry/investment-retrofit-operations-2037-choices.md",
+      "sha256": "f6b5416602ab46ac8af4458f7a97ca27e7e5d59d39d7155188361876608efa33",
+      "git_blob_sha1": "c4cc1ad86c8e3dba8c6091934a2d254b4620b94b",
+      "sections_used": [
+        "上端先分承接者，再反查可报方向",
+        "同一R、同一2031入口下的部分排序与反转"
+      ]
+    },
+    {
+      "id": "CORE",
+      "title": "高考志愿与未来职业规划：项目总入口",
+      "repository_path": "docs/gaokao-planning-core.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/docs/gaokao-planning-core.md",
+      "sha256": "5b041401c7bc96c3e7e1b834a7ee3eb40e41a562466071de82608c02df1ea077",
+      "git_blob_sha1": "740f0e6469d53d4c3984c2b683b9729f52d42f1d",
+      "sections_used": [
+        "时间轴",
+        "下端：从考生条件到志愿方案",
+        "两端汇合：专业不是职业的唯一标签"
+      ]
+    },
+    {
+      "id": "SUEP-INDEX",
+      "title": "五份校方原文的证据登记",
+      "repository_path": "research/admissions/suep-thermal-control-training-sources.md",
+      "commit": "7bb5115acfc6c338b0708170deadfbfee4285939",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/7bb5115acfc6c338b0708170deadfbfee4285939/research/admissions/suep-thermal-control-training-sources.md",
+      "sha256": "6c322c155b22ae67a8bd4008c086b6ed6cfec9fab035304884f137dc1f1d1c22",
+      "git_blob_sha1": "c3e9aaeec8f0721167b1dc9af44559c11c0775de",
+      "sections_used": [
+        "C01：2025普通自动化专业培养方案",
+        "C02：普通自动化2025级课程设置与教学进程"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "N01",
+      "title": "2026年常州通用自来水有限公司公开招聘专业人才简章（已截止）",
+      "publisher": "常州通用自来水有限公司官网",
+      "source_family": "operator_official_recruitment_original",
+      "evidence_layer": "new_original_public_fields",
+      "evidence_grade": "A: direct employer-hosted original HTML; table checked from raw HTML",
+      "url": "https://www.czcgewater.com/p/4380",
+      "publication_date": "2026-03-18",
+      "date_basis": "N02 official index links same URL and prints date; N01 body has no standalone publication timestamp",
+      "accessed_at": "2026-11-11T01:25:28.119212+00:00",
+      "original_format": "HTML",
+      "original_bytes_sha256": "06422484dc95c6ab9c1ba5fe70d0b4f95e94f781a46c642a6c919f7ad871d399",
+      "verification_level": "fixed_original_public_fields_checked_for_this_research",
+      "locators": [
+        {
+          "id": "N01-L1",
+          "section": "一、招聘岗位需求表，岗位代码01“综合管理（电气）”行；专业、学历、招聘对象和其他要求列",
+          "html_locator": "正文第一个 table 的第二个 tr（表头计第1行）。该行最后3个 td 各有 rowspan=\"2\"，分别为学历、招聘对象、其他要求，覆盖两岗位。",
+          "short_excerpt": "电气工程、自动化及相关专业；硕士研究生及以上；2026年应届高校毕业生；需取得相应学历和学位",
+          "supports": "电气岗明确含自动化等相关专业，但无本科例外。"
+        },
+        {
+          "id": "N01-L2",
+          "section": "三、报名条件，第（二）（三）项及第（五）项第1条",
+          "short_excerpt": "2026年7月31日……前毕业并取得学历学位证书，且仍无工作单位",
+          "supports": "2026应届及学历学位、无工作单位条件；非2026普通在校生排除项。"
+        },
+        {
+          "id": "N01-L3",
+          "section": "二、福利待遇，“成长空间”句",
+          "short_excerpt": "双通道（技术+管理）培训成才计划",
+          "supports": "企业一般培训表述，未给本岗新人任务、导师、时长或实施成果。"
+        },
+        {
+          "id": "N01-L4",
+          "section": "标题“已截止”；四、报名程序和办法→（一）报名时间与报名方式→第1项",
+          "short_excerpt": "自公告发布之日起至2026年4月1日16:00",
+          "supports": "该招聘已截止，不能用作当前可报名入口。"
+        }
+      ],
+      "limits": [
+        "本2026电气岗硕士及以上、2026应届条件来自同一原表合并格，不存在据空格推定的本科例外；不代表该公司所有岗位或全部水务岗位排除本科。",
+        "简章已截止；不作为当前报名岗位、实际录用或未来持续入口的证明。",
+        "技术/管理双通道是一般福利表述，不是逐岗带教、个人可取得训练或实际成果，不能移植给无锡。",
+        "电气工程、自动化及相关专业按原词记录，不归一为穷尽专业代码；水厂工艺/水质检测岗的内容不移给电气岗。",
+        "2025本科/双一流条件仅为未核线索，不采为本篇事实。",
+        "正文内嵌岗位表与N01同一原件，不重复计独立来源；附件1为报名表，未读取，不将其当另一个岗位表。"
+      ],
+      "used_in_claims": [
+        "C04",
+        "C05",
+        "C10",
+        "C11",
+        "C12"
+      ]
+    },
+    {
+      "id": "N02",
+      "title": "网上公告目录第一页",
+      "publisher": "常州通用自来水有限公司官网",
+      "source_family": "operator_official_index_original",
+      "evidence_layer": "new_original_public_fields",
+      "evidence_grade": "A for index entries; not job conditions",
+      "url": "https://www.czcgewater.com/c/33",
+      "publication_date": null,
+      "date_basis": null,
+      "accessed_at": "2026-11-11T01:27:08.394289+00:00",
+      "original_format": "HTML",
+      "original_bytes_sha256": "9cea9baf43808b4f6b1d248d4839735a20d1292ebefaafac082b6116dec7119f",
+      "verification_level": "fixed_original_public_fields_checked_for_this_research",
+      "locators": [
+        {
+          "id": "N02-L1",
+          "section": "网上公告目录第一页，链接至 https://www.czcgewater.com/p/4380 的招聘简章条目",
+          "html_locator": "a.list 内 div.list-left 为2026招聘简章（已截止），相邻 div.list-right 为2026-03-18。",
+          "short_excerpt": "2026年常州通用自来水有限公司公开招聘专业人才简章（已截止）；2026-03-18",
+          "supports": "提供同一简章的官方目录发布日期；不是额外岗位条件。"
+        }
+      ],
+      "limits": [
+        "仅用于目录同链接日期，不替代简章资格正文。",
+        "仅查目录第一页；不能以未列2025招聘断言公司2025未招聘。",
+        "目录中的拟录用公示未读取，本篇不采实际录用或个人名单。"
+      ],
+      "used_in_claims": [
+        "C04"
+      ]
+    },
+    {
+      "id": "N05",
+      "title": "设备管理招聘_无锡市水务集团有限公司招聘 - 智联招聘",
+      "publisher": "智联招聘公开岗位页；页面名义招聘企业无锡市水务集团有限公司",
+      "source_family": "named_employer_platform_vacancy_original",
+      "evidence_layer": "new_original_public_fields",
+      "evidence_grade": "B: retrieved original platform vacancy page with named company and 已审核 label; not employer-domain publication or independent author-identity verification",
+      "url": "https://www.zhaopin.com/jobdetail/CC245429530J40827279605.htm?refcode=student_24365&srccode=student_24365",
+      "publication_date": null,
+      "date_basis": "公开JSON-LD和bytedance:published_time的共同日历日期；非独立确认的企业发布日期、有效报名期或毕业届别。",
+      "accessed_at": "2026-11-11T01:29:28.211822+00:00",
+      "original_format": "HTML",
+      "original_bytes_sha256": "1b97609030e9973271750f563c64b92053602e761c5c244a720ac8c3a6252f94",
+      "verification_level": "fixed_original_public_fields_checked_for_this_research",
+      "locators": [
+        {
+          "id": "N05-L1",
+          "section": "页面“设备管理”标题下的职位摘要",
+          "html_locator": "class 为 summary-planes__info 的节点中 li 标签列出的公开资格与招聘类型。",
+          "short_excerpt": "经验不限；本科；校园",
+          "supports": "同一岗位页公开联结本科和新人招聘标签，不证明精确届别或录用。"
+        },
+        {
+          "id": "N05-L2",
+          "section": "职位描述→二、招聘需求→（一）招聘专业、（二）素质要求第1项及（三）工作地点",
+          "html_locator": "公开响应HTML的 div.describtion-card__detail-content.describtion-card__detail-content--guest-clamp 描述节点。仅据该节点文字，不声称未登录视口完全展开，不采用隐藏状态或登录后字段。",
+          "short_excerpt": "电气、机械、计算机等其他相关专业；本科及以上学历毕业生",
+          "supports": "正文专业与学历；地点允许集团或下属子公司经营业务所在地，未写精确毕业届别、逐岗诊断任务或带教模块。"
+        },
+        {
+          "id": "N05-L3",
+          "section": "公开页面元数据，不是招生届别或招聘有效期",
+          "html_locator": "JSON-LD 的 pubDate、upDate 与 meta[property=\"bytedance:published_time\"]。仅取各表示共同的日历日期2026-10-27，时钟表达不同不合并精确时刻。",
+          "short_excerpt": "2026-10-27",
+          "supports": "页面元数据日期；不能据此补为2026届或确认当前可报名。"
+        },
+        {
+          "id": "N05-L4",
+          "section": "职位描述尾部的“登录查看完整内容”提示；下方工作地点遮蔽展示；公司名义标签",
+          "supports": "存在登录提示及遮蔽厂址，不采用隐藏地址、状态或登录后字段；平台“已审核”不独立认证发布者身份、签约法人或实际录用。"
+        }
+      ],
+      "page_metadata_date": "2026-10-27",
+      "limits": [
+        "B级平台原岗位页，非企业官网；页面名义招聘企业和“已审核”标识不独立认证发帖身份、签约法人或实际录用。",
+        "仅“校园、经验不限、本科”与公开正文联结；精确毕业届别、是否仍可报名、持续到2031均未确认。",
+        "正文“电气”及页面标签“电气及其自动化”按原词保留；独立自动化专业接收未知，不改写为官方专业代码清单。",
+        "公开描述未列具体维护、诊断、改造验证职责或带教模块，不证明实际工作不存在这些内容。",
+        "无锡滨湖区为摘要地区；正文允许集团或子公司业务所在地。具体厂址、部门、劳动合同法人、班制和现场安排未知。",
+        "有登录提示和遮蔽厂址；只采用公开描述节点及普通公开日期元数据，不采用隐藏状态、地址或登录后字段；不声称未登录视口完全展开。",
+        "不根据静态界面状态推断当前开放、关闭原因或已申请；未确认实际录用。",
+        "L03旧转载中的2026应届不补入现页，版本差异未解决。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C03",
+        "C05",
+        "C06",
+        "C10",
+        "C11",
+        "C13",
+        "C14"
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "无锡市水务集团有限公司_2026校园招聘最新信息 - 鼠鼠求职",
+      "publisher": "鼠鼠求职",
+      "source_family": "third_party_aggregation_lead",
+      "evidence_layer": "lead_only_version_contrast",
+      "evidence_grade": "L: lead-only, not qualification fact evidence",
+      "url": "https://www.shushuqiuzhi.com/article/152290",
+      "publication_date": null,
+      "date_basis": null,
+      "accessed_at": "2026-11-11T01:27:34.297138+00:00",
+      "original_format": "HTML",
+      "original_bytes_sha256": "258de0b3998015fa040184f6dafd27df366dadb000979cf79674fe16accfd8c4",
+      "verification_level": "version_contrast_only_not_qualification_evidence",
+      "locators": [
+        {
+          "id": "L03-L1",
+          "section": "页面顶端更新日期；“设备管理”条目的岗位描述→二、招聘需求→（二）素质要求第1项",
+          "short_excerpt": "2025-11-19 更新；2026年应届本科及以上学历毕业生",
+          "supports": "仅显示旧转载版本与N05现页不同，不能把旧届别补进现页或据此核定资格。"
+        }
+      ],
+      "limits": [
+        "L级线索，仅用于说明同一岗位链接的版本差异，不作当前资格事实。",
+        "旧转载更新日和2026应届字样不替代N05现页，不据旧版本认定毕业届别、当前开放或实际录用。"
+      ],
+      "used_in_claims": [
+        "C03"
+      ]
+    },
+    {
+      "id": "E01",
+      "title": "南京水务集团有限公司招聘简章",
+      "publisher": "盐城工学院土木工程学院（发布企业招聘简章）",
+      "source_family": "university_published_employer_recruitment",
+      "publication_date": "2022-11-09",
+      "url": "https://tmxy.ycit.edu.cn/info/1126/3123.htm",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "HTML",
+      "original_bytes_sha256": "b35adac27cf61c6c7ec1b3601e884377bbc96405ab1a899d4924aa3163a22cb3",
+      "geography_and_period": "南京企业2022招聘快照；不是江苏全省或当前招聘统计",
+      "locators": [
+        {
+          "id": "E01-L1",
+          "section": "标题、发布日期；一、公司简介",
+          "supports": "企业简章身份及供排水设施投资、建设、运营、管理的集团职能。"
+        },
+        {
+          "id": "E01-L2",
+          "section": "二、招聘职位，电气操作岗行，岗位需求／专业／学历／数量四列",
+          "short_excerpt": "电气操作岗／电气工程及其自动化专业／二本／若干",
+          "supports": "历史电气本科层级招聘连接；专业全称保留。"
+        },
+        {
+          "id": "E01-L3",
+          "section": "招聘表后“要求”；三、主要福利待遇；文末公司地址栏",
+          "supports": "一般要求与“双休”措辞；公司地址栏不等于具体岗位厂址。"
+        }
+      ],
+      "limits": [
+        "未列明确毕业届别、应届/往届规则、经验条款、详细任务、签约法人、具体厂址或班制；未写不等于不存在要求。",
+        "“二本”保留原词，不自动归一为当年江苏资格或任何学校均可进入。",
+        "本岗未单列独立自动化专业，不能替其填资格，也不代表集团所有岗位排除自动化。",
+        "集团介绍与地址不能定位签约单位或岗位厂址；“双休”不保证无轮班。",
+        "招聘意向不等实际录用、带教、当前开放职位或2031承诺。"
+      ],
+      "used_in_claims": [
+        "C02"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "original_read_for_2026_11_10_research",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=E01]"
+      },
+      "inherited_from": [
+        "BASE-CHAPTER",
+        "BASE-INDEX"
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "2024年度南京市城市建设投资控股（集团）有限责任公司信用评级报告",
+      "publisher": "中诚信国际信用评级有限责任公司",
+      "host": "中国货币网",
+      "source_family": "rating_agency_original_report_using_company_provided_data",
+      "publication_date": "2024-10-14",
+      "host_publication_date": null,
+      "report_number": "CCXI-20243637M-01",
+      "url": "https://www.chinamoney.com.cn/dqs/cm-s-notice-query/fileDownLoad.do?contentId=2977039&mode=open&priority=0",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "PDF",
+      "original_bytes_sha256": "4c5a5f507edd59bdc6235ca97cef53b28ca525b6c61fa6c6084d628e1d005c2e",
+      "page_count": 26,
+      "geography_and_period": "南京城建及相关运营实体，2024评级报告中的历史经营口径；水务主要细项截至2024年3月",
+      "locators": [
+        {
+          "id": "E07-L1",
+          "physical_pages": [
+            2
+          ],
+          "section": "声明首两项、评级有效期、签署日期",
+          "supports": "委托评级，依据对象提供或已公开信息，对底层信息真实性、完整性等不作保证；报告日期为2024-10-14。"
+        },
+        {
+          "id": "E07-L2",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "section": "第9页“水务板块”运营主体及定价/抄表段，接第10页首行银行代收说明",
+          "supports": "南京水务经营自来水销售，江苏金陵环境经营污水处理；政府部门定价，居民双月、工业月度抄表确认收入，银行代收水费。"
+        },
+        {
+          "id": "E07-L3",
+          "physical_pages": [
+            10
+          ],
+          "section": "表5后以“2023年随着八卦洲水源切换”开头的段落；表6前成本说明",
+          "supports": "2023在运营水厂8座变7座而产销量扩张；经营收入含历史清欠影响，成本包括人工等。"
+        },
+        {
+          "id": "E07-L4",
+          "physical_pages": [
+            11
+          ],
+          "section": "“污水处理业务方面”段及表8后的污水费计费、上缴和划拨段",
+          "supports": "金陵环境运营污水处理；水务代收污水费后上缴南京市财政专户，再由财政统一划拨金陵环境。"
+        },
+        {
+          "id": "E07-L5",
+          "physical_pages": [
+            3,
+            9
+          ],
+          "section": "第3页“关注”项的子公司管控；第9页表4",
+          "supports": "水务独立经营与集团合并口径提示，集团收入不能替代单岗账户。"
+        }
+      ],
+      "limits": [
+        "这是评级机构原报告，不是运营商审计年报；评级或公司提供的经营信息不能认证未来岗位、稳定工资或及时支付。",
+        "自来水与污水运营主体、代收资金与自身收入必须区分；财政划拨流程不证明资金均已按时到位。",
+        "收入或人工成本不是某岗位招聘、带教预算；没有本科新人分配、实际用工或合同主体证据。",
+        "厂数与产销量反向只反驳机械同向关系，不能推出裁员或招聘数量，也不与2022集团简介厂数拼连续序列。",
+        "第10页2024调价内容为当时方案及条件，不当作已实施现行水价。"
+      ],
+      "used_in_claims": [
+        "C09",
+        "C10"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "original_read_for_2026_11_10_research",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=E07]"
+      },
+      "inherited_from": [
+        "BASE-CHAPTER",
+        "BASE-INDEX"
+      ]
+    },
+    {
+      "id": "IND-S02",
+      "title": "苏州弘远电气2027届校园招聘简章",
+      "publisher": "吉林大学就业网发布企业简章",
+      "source_family": "university_published_employer_recruitment",
+      "publication_date": "2026-09-16",
+      "url": "https://jdjywpt.jlu.edu.cn/mportal/recruit/details?id=4547f177e0ab40cab98735f4736179c8",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "HTML",
+      "original_bytes_sha256": "5834fe7a2aec5f21cd4ad1f2f6438c88092196df0a33045dc3cba1ba9c07dbda",
+      "hash_provenance": "IND-INDEX sources[S02].snapshot.original_bytes_sha256；本篇未重新取得原件。",
+      "geography_and_period": "企业苏州总部；岗位驻地未逐项说明；所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "inherited_from": [
+        "IND-CHAPTER",
+        "IND-INDEX"
+      ],
+      "upstream_source_id": "S02",
+      "upstream_original_locators": [
+        "二、招聘对象；三、招聘岗位，第二张表硬件、电气、测试、软件和技术支持行；冻结表表示T2 R2、R3、R5、R6、R8。",
+        "公司简介仅用于企业与岗位地点、产品线边界。"
+      ],
+      "supports_in_inherited_record": [
+        "2027应届简章硬件、变频柜电气、研发测试三行的专业栏同时列电气和自动化、学历本科/硕士；资格细项另行保留。",
+        "硬件岗包括协助研发、测试工位、原理图及样机整改；电气岗包括选型、图纸/BOM、交付调试及EMC/接地/散热/保护联锁规范；测试岗包括研发样机白盒/黑盒及器件替代测试。",
+        "电机控制软件岗要求硕士及以上及ARM/DSP的C开发。"
+      ],
+      "limits": [
+        "企业地址为苏州吴江，正文还说无锡分公司及跨区支持团队；岗位表没有上班地点列，不可把全部岗位定为苏州。",
+        "专业表与具体资格文字不完全相同，要同时保留，尤其技术支持资格写自动化类工科。",
+        "介绍并列变频器、伺服、新能源汽车驱动器，未把硬件/测试逐项绑定工业或汽车产品，不得自行归链。",
+        "招聘人数与薪酬均为企业当期计划，不证明实际录用或长期岗位量。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C06",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=IND-S02]"
+      }
+    },
+    {
+      "id": "IND-S03",
+      "title": "伟创电气2027秋季校园招聘简章",
+      "publisher": "天津工业大学就业网发布企业简章",
+      "source_family": "university_published_employer_recruitment",
+      "publication_date": "2026-09-12",
+      "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56093.html",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "HTML",
+      "original_bytes_sha256": "5bce7329df8219391b86b8803235125b6f4f18a548bb6ba1b02acf4c50a8e783",
+      "hash_provenance": "IND-INDEX sources[S03].snapshot.original_bytes_sha256；本篇未重新取得原件。",
+      "geography_and_period": "逐岗位列苏州及其他城市；所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "inherited_from": [
+        "IND-CHAPTER",
+        "IND-INDEX"
+      ],
+      "upstream_source_id": "S03",
+      "upstream_original_locators": [
+        "三、校招岗位：电机测试、测试、硬件、算法与软件行；冻结表表示T1 R2—4、R6、R10。"
+      ],
+      "supports_in_inherited_record": [
+        "苏州电机测试岗明确本科/硕士，专业含电气、自动化、测控；另一个测试岗地点苏州/深圳/西安。",
+        "硬件岗本科/硕士，但专业未逐字列自动化；算法与软件岗为硕士/博士。"
+      ],
+      "limits": [
+        "本页只有岗位表，没有测试和拓展的详细职责，不能自行补写测项或把拓展当研发。",
+        "硬件行未明确列自动化本科字样，只列控制工程等，不能借别的岗位扩成全部共同接收。",
+        "企业简介是工业自动化产品矩阵和新兴业务描述，不能据此给全部岗位分产品线。",
+        "地域和学历仅对应当期岗位计划。"
+      ],
+      "used_in_claims": [
+        "C11",
+        "C13"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=IND-S03]"
+      }
+    },
+    {
+      "id": "IND-S06",
+      "title": "上海电机学院：电气工程及其自动化专业培养计划",
+      "publisher": "上海电机学院电气与能源工程学院",
+      "source_family": "university_official_curriculum",
+      "publication_date": "2024-01-28",
+      "url": "https://dqxy.sdju.edu.cn/2024/0128/c7058a127151/page.htm",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "HTML",
+      "original_bytes_sha256": "1f57b6d51b76e8137eecb5e55714f8200632a9c138e10d33a3e56ebf43e7f307",
+      "hash_provenance": "IND-INDEX sources[S06].snapshot.original_bytes_sha256；本篇未重新取得原件。",
+      "geography_and_period": "上海，同校培养对照；所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "inherited_from": [
+        "IND-CHAPTER",
+        "IND-INDEX"
+      ],
+      "upstream_source_id": "S06",
+      "upstream_original_locators": [
+        "七、课程计划表：电机、电力电子、PLC、限选及综合实践；冻结表表示T1 R63—80、R82—98、R103、R109—120。"
+      ],
+      "supports_in_inherited_record": [
+        "该版电气必修电机学48学时及另设32学时实验，电力电子48学时及另设16学时实验；PLC32学时及另设16学时实验。",
+        "DSP原理与电机控制、开关电源、运动控制系统与继电保护均标限选；系统集成和电气设备运行综合实验各40学时。",
+        "生产实习3学分60学时、毕业设计10学分300学时；另有电力系统基础和高电压技术必修。"
+      ],
+      "limits": [
+        "页面日期不是明确适用年级；未认定为2024届或2027培养方案。",
+        "限选不等于每人必修，不保证某届均开课、能选到或取得同等设备时间。",
+        "课程安排不是个人达到能力的证明，学分高低不能直接当就业胜率。",
+        "只作培养对照，不新增江苏招生候选或认定可报。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C06",
+        "C07",
+        "C14"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=IND-S06]"
+      }
+    },
+    {
+      "id": "IND-S07",
+      "title": "上海电机学院：自动化专业培养计划",
+      "publisher": "上海电机学院电气与能源工程学院",
+      "source_family": "university_official_curriculum",
+      "publication_date": "2024-01-28",
+      "url": "https://dqxy.sdju.edu.cn/2024/0128/c7058a127154/page.htm",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "HTML",
+      "original_bytes_sha256": "b32937698a18df10ccfe525af8a82831d1e018ec70a92538b0e8bd5776d57122",
+      "hash_provenance": "IND-INDEX sources[S07].snapshot.original_bytes_sha256；本篇未重新取得原件。",
+      "geography_and_period": "上海，同校培养对照；所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "inherited_from": [
+        "IND-CHAPTER",
+        "IND-INDEX"
+      ],
+      "upstream_source_id": "S07",
+      "upstream_original_locators": [
+        "七、课程计划表：基础、电力电子、电机拖动、PLC与综合实践；冻结表表示T1 R65—79、R87—98、R115—121。"
+      ],
+      "supports_in_inherited_record": [
+        "该版自动化必修电机与拖动基础32学时含8实验，电力电子48学时含8实验；工业网络与PLC48学时及另设32学时实验。",
+        "自动化综合和电气技术综合实验各40学时，计算机控制技术与控制系统仿真及CAD设计必修；DSP、机器人控制等为选修。",
+        "生产实习3学分60学时、毕业设计10学分300学时；过程控制系统必修。"
+      ],
+      "limits": [
+        "页面日期不是适用年级；不代表2027方案和个人实际训练量。",
+        "同校两表足以核课程差异，不可代表所有电气/自动化学校的固定优劣。",
+        "没有运动控制系统这一同名课不等于没有任何相关训练，也不能因课程名相似就宣称同深度。",
+        "只作培养对照，不确认目标年可报性。"
+      ],
+      "used_in_claims": [
+        "C02",
+        "C06",
+        "C07",
+        "C14"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=IND-S07]"
+      }
+    },
+    {
+      "id": "IND-S09",
+      "title": "汇川技术2026年半年度报告全文",
+      "publisher": "深圳市汇川技术股份有限公司；巨潮资讯网披露",
+      "source_family": "issuer_filing_on_designated_disclosure_site",
+      "publication_date": "2026-08-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524610.PDF",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "original_format": "PDF",
+      "original_bytes_sha256": "9d4e8851dc5129228caaf3fee9febbef9f6cfbd0caeeea922f8d33968462e769",
+      "hash_provenance": "IND-INDEX sources[S09].snapshot.original_bytes_sha256；本篇未重新取得原件。",
+      "geography_and_period": "全国/全球公司业务；非苏州单一岗位市场；所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+      "inherited_from": [
+        "IND-CHAPTER",
+        "IND-INDEX"
+      ],
+      "upstream_source_id": "S09",
+      "upstream_original_locators": [
+        "第三节一，业务与经营模式，印刷及物理页10—12、14—16。",
+        "第三节四，主要经营总结，页21—24；第三节十一，风险，页37—38。",
+        "页22、38另核页面图像；正文中引用的其他章节以PDF文本表示核读。"
+      ],
+      "supports_in_inherited_record": [
+        "公司分列工业自动化与数字化及新能源汽车动力系统业务，工业自动化/机器人分销为主直销为辅，汽车等以直销为主；供应模式计划准备与订单拉动结合。",
+        "报告页15将标准化平台产品开发与行业客户定制化开发并列；不据此认定已减少新人岗位。",
+        "报告记载部分订单增长、原料涨价及部分产能不足，采用扩产、增班、价格调整和费用管控；披露宏观投资/出口、原料、汽车价格竞争与回款等风险。",
+        "汽车定点与SOP量产交付分别表述，业务收入/订单未提供部门级本科招聘增量。"
+      ],
+      "limits": [
+        "为公司自报经营事实、风险与前瞻叙述，不是独立验证的2031/2037预测。",
+        "报告有引用睿工业等市场数据，本篇不把转引数字当独立原始统计，也不以其市场份额推出岗位量。",
+        "报告业务收入、订单/成本不等于招聘新增人数；没有部门级招聘预算。",
+        "这是2026H1经营期，不称截至2026-11最新全部经营信息；未为职业判断追收三季报。",
+        "未取得将人口老龄化/用工短缺直接连到本期具体订单或本科招聘的证据。"
+      ],
+      "used_in_claims": [
+        "C09",
+        "C10"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=IND-S09]"
+      }
+    },
+    {
+      "id": "SUEP-C",
+      "title": "上海电力大学普通自动化培养方案与2025级课程安排（C01/C02）",
+      "publisher": "上海电力大学人工智能学部；原始资料身份沿用SUEP-INDEX",
+      "source_family": "university_curriculum_inherited_via_research_chapter",
+      "publication_date": null,
+      "version_description": "C01正文制定于2025年6月，独立网页发布日期未见；C02附件标2025级，未见独立制定或发布日期，不套用C01日期。",
+      "url": null,
+      "original_bytes_sha256": null,
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "inherited_from": [
+        "SUEP-CHAPTER",
+        "SUEP-INDEX"
+      ],
+      "locators": [
+        {
+          "section": "四、C：同一专业有两套方向门槛",
+          "repository_line_range": "L40-L55",
+          "upstream_identity": "C01 §1—7；C02表1 B45:B54、B64:B85、B96:B102，表2 B5:N5",
+          "supports": "普通自动化的自动化/电站方向、必修与选修差别；智能产线实训仅电站方向必修。"
+        },
+        {
+          "section": "五、更新H/C顺序",
+          "repository_line_range": "L57-L71",
+          "supports": "训练不可取得不自动证明另一专业更好；反转需任务和可取得训练共同成立。"
+        }
+      ],
+      "limits": [
+        "本篇核验止于固定章节与来源登记；DOC/XLS原件未重新取得或独立复核，继承的原件哈希仅作版本标识。",
+        "非上海电机学院，不移植两校课程；2027适用、方向分流和个人实得训练未证。",
+        "课程安排与教学任务不是个人能力或就业成效证明。"
+      ],
+      "used_in_claims": [
+        "C07",
+        "C14"
+      ],
+      "url_note": "C01/C02为两件不同原件，分别列在upstream_originals；聚合条目不填写单一原件URL或哈希。",
+      "upstream_originals": [
+        {
+          "id": "C01",
+          "title": "2025普通自动化专业培养方案",
+          "publisher": "上海电力大学人工智能学部培养方案目录",
+          "url": "https://fai.shiep.edu.cn/_upload/article/files/01/dd/9a59243d48048502b9762667e191/8d5a88f3-7998-42e6-8d77-f87d46154a47.doc",
+          "directory_url": "https://fai.shiep.edu.cn/pyfa/list.htm",
+          "original_format": "DOC",
+          "original_bytes_sha256": "d0df7ae3f611c1293379fd12f740810cd19a2e4ae359e5755fbf4039931f09e7",
+          "formulated_month": "2025-06",
+          "publication_date": null,
+          "date_note": "正文制定月份；目录列2025自动化专业培养方案.doc，与卓越计划附件分列，独立网页发布日期未见。",
+          "locators": [
+            "首部制定日期及一、专业说明；二、培养目标；三、毕业要求；四、主干学科至八、学制。",
+            "按原DOC章节定位，不使用转换PDF页码作为原件固定分页。"
+          ],
+          "limits": [
+            "普通方案与卓越计划分开；培养及五年目标非能力或就业结果。",
+            "方向课程归属据C02；没有自由分流、容量或任意跨方向修读保证。"
+          ],
+          "metadata_provenance": "SUEP-INDEX §C01；仅继承该登记，不宣称本篇重新核读DOC。"
+        },
+        {
+          "id": "C02",
+          "title": "自动化专业2025级课程设置及教学进程",
+          "publisher": "上海电力大学人工智能学部同一培养方案目录",
+          "url": "https://fai.shiep.edu.cn/_upload/article/files/01/dd/9a59243d48048502b9762667e191/6dc23799-5a46-40d8-8ed9-b807f625627a.xls",
+          "directory_url": "https://fai.shiep.edu.cn/pyfa/list.htm",
+          "original_format": "XLS",
+          "original_bytes_sha256": "1e45d38cd8c4ab8d8ecbe41ff972d709f33719af389048db7652844399905d49",
+          "cohort_label": 2025,
+          "formulated_month": null,
+          "publication_date": null,
+          "date_note": "附件名标2025级；未见独立制定或发布日期，不能将C01的2025年6月套给工作簿。",
+          "locators": [
+            "表1：B45:B50公共必修；D45:J50对应课程与学时。",
+            "表1：B51:B52电站方向必修、B53:B54自动化方向必修；B64:B74与B75:B85为各方向选修块。",
+            "表1：B96:B99电站方向实践必修，智能产线为第99行；B100:B102自动化方向实践必修。",
+            "表2：B5:N5对应智能产线课程，L5为七站及设计/组态/调试任务，K5/N5为参与考核等安排。"
+          ],
+          "coordinate_convention": "Excel可见的一基行号与字母列，须同时读取工作表和合并格；空格非0。",
+          "limits": [
+            "课程任务与合作安排不是生产验收、企业授课时数或个人能力成效；G5:I5空值不填0。",
+            "方向分流、容量、选修开设及个人完成未知；限选不等于全员必修。"
+          ],
+          "metadata_provenance": "SUEP-INDEX §C02；仅继承该登记，不宣称本篇重新核读XLS。"
+        }
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_chapter_and_index_not_original_reverification",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=SUEP-C]"
+      }
+    },
+    {
+      "id": "JS2025-D",
+      "title": "2025江苏物理类上海电力大学02组及16个显示成员",
+      "publisher": "知途研究既有历史录取比较；上游为历史CSV记录及原卡摘要",
+      "source_family": "historical_admissions_data_inherited_via_research_chapter",
+      "publication_date": null,
+      "data_year": 2025,
+      "url": null,
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "inherited_from": [
+        "JS-CHAPTER"
+      ],
+      "historical_csv_sha256": "c434b75ea891070dc87ac5d472653f1c4d6aa86833a6ebe676f590fe5ca83c2b",
+      "locators": [
+        {
+          "section": "下端：5组22显示成员，不用组线代替专业线",
+          "repository_line_range": "L19-L50",
+          "upstream_records": "组19509；成员19517—19532，记录号含表头",
+          "supports": "上电02组16个显示成员；组位次27151，电气21044、自动化23948。"
+        },
+        {
+          "section": "同一个P_S、R与毕业时钟",
+          "repository_line_range": "L11-L17",
+          "supports": "P_S是合成比较设定，其接受与拒绝不属于真实考生或本文P0。"
+        }
+      ],
+      "limits": [
+        "历史材料有不同核验层级；本篇未重新读取原表或逐项核对官方录取，不能提高为本篇全表复核。",
+        "16仅为显示成员完整性，不是目标年正式全组保证；组线不保证目标专业。",
+        "27151、21044、23948为2025历史显示位次，不是2027线或个人分数位次。",
+        "历史CSV来源原URL与内容发布者未由本篇确认；保留固定章节与数据哈希，不替换成官方统计。"
+      ],
+      "used_in_claims": [
+        "C08",
+        "C14"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "inherited_historical_chapter_only",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=JS2025-D]"
+      }
+    },
+    {
+      "id": "B-INV",
+      "title": "新增、改造与运行共存时：四类本科方向的条件取舍",
+      "publisher": "知途研究",
+      "source_family": "inherited_conditional_analysis",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "inherited_from": [
+        "B-INV"
+      ],
+      "locators": [
+        {
+          "section": "上端先分承接者，再反查可报方向；下端多对多但资格不互认；同一R情景S2/S4",
+          "supports": "支付、承接组织、新人分工与跨方向资格的机制边界。"
+        }
+      ],
+      "limits": [
+        "仅复用条件机制，不将能源、水利或其他地区事实移植到南京水务。"
+      ],
+      "used_in_claims": [
+        "C10",
+        "C13",
+        "C14"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "fixed_chapter_read_not_new_external_fact",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=B-INV]"
+      }
+    },
+    {
+      "id": "CORE",
+      "title": "高考志愿与未来职业规划：项目总入口",
+      "publisher": "知途研究",
+      "source_family": "planning_method",
+      "verification_level": "fixed_research_and_registered_source_only_not_new_original_reverification",
+      "inherited_from": [
+        "CORE"
+      ],
+      "locators": [
+        {
+          "section": "时间轴；下端；两端汇合",
+          "supports": "条件毕业年份、多对多培养/职业连接、正式志愿前的资格与完整组约束。"
+        }
+      ],
+      "limits": [
+        "方法与假设，不是任何考生的个人资料、偏好或录取事实。"
+      ],
+      "used_in_claims": [
+        "C01",
+        "C12"
+      ],
+      "evidence_layer": "inherited_fixed_research",
+      "prior_verification_level": "fixed_method_chapter",
+      "inherited_via": {
+        "artifact": "BASE-INDEX",
+        "entry": "sources[id=CORE]"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "kind": "assumption",
+      "claim": "江苏生源、P0及2027→2031/2034→2037是比较设定，不是个人事实。",
+      "source_ids": [
+        "CORE"
+      ],
+      "locator": "CORE：时间轴、下端、两端汇合；BASE-CHAPTER D01/D02。",
+      "assumptions": [
+        "假设四年本科和可选三年硕士；未提供真实位次或偏好。"
+      ],
+      "limits": "假设改变则重算，不据学制承诺连续就业。"
+    },
+    {
+      "id": "C02",
+      "kind": "conditional_recommendation",
+      "claim": "水务升级为有公开本科新人资格例的条件备选，工业主线与电气弱前置不变。",
+      "source_ids": [
+        "E01",
+        "N05",
+        "IND-S02",
+        "IND-S06",
+        "IND-S07"
+      ],
+      "locator": "N05-L1/L2；E01-L2（历史对照）；IND-CHAPTER 第一、三、四节；BASE-CHAPTER D01/D07/D14为旧比较背景。",
+      "assumptions": [
+        "P0成立；证据强度只说明公开资格例，不说明未来招聘概率。"
+      ],
+      "limits": "资格存在提升不等于技术成长兑现；公开详略不足以评全行业。"
+    },
+    {
+      "id": "C03",
+      "kind": "source_fact_and_version_limit",
+      "claim": "N05同页公开本科、校园、经验不限和电气等相关专业；元数据日不等届别。",
+      "source_ids": [
+        "N05",
+        "L03"
+      ],
+      "locator": "N05-L1/L2/L3/L4；L03-L1仅作旧转载版本对照。资格据公开HTML描述节点，不依赖私有抽取文件，不声称未登录视口完全展开。",
+      "assumptions": [],
+      "limits": "B级平台原页非官方域名、作者身份/实际录用认证；不拼接L03旧届别。"
+    },
+    {
+      "id": "C04",
+      "kind": "source_fact_and_inference",
+      "claim": "N01是2026硕士应届电气岗，自动化列明；学历合并格不产生本科例外。",
+      "source_ids": [
+        "N01",
+        "N02"
+      ],
+      "locator": "N01-L1/L2/L3/L4；N02-L1。原表三列rowspan=2覆盖两岗位；不据空格构造本科例外。",
+      "assumptions": [],
+      "limits": "已截止；一般培训非逐岗安排；不跨单位借带教，2025本科/双一流仅未核线索。"
+    },
+    {
+      "id": "C05",
+      "kind": "bounded_unknown_and_branch",
+      "claim": "资格到实际任务未连通；设备管理可能含文书协调或技术反馈，不能按名称认定职责。",
+      "source_ids": [
+        "N05",
+        "N01"
+      ],
+      "locator": "N05-L2/L4及N01-L3；公开职位描述的二、招聘需求、三、薪酬福利与登录/地点遮蔽提示。",
+      "assumptions": [
+        "文书/技术分支仅是可区分机制，不是岗位事实。"
+      ],
+      "limits": "独立自动化、导师、具体任务、厂址、签约、班制未知；没有公开描述不证明不存在。"
+    },
+    {
+      "id": "C06",
+      "kind": "inherited_fact_and_conditional_recommendation",
+      "claim": "P0电气弱前置来自硬件训练目标，不来自无锡未列自动化。",
+      "source_ids": [
+        "IND-S06",
+        "IND-S07",
+        "IND-S02",
+        "N05"
+      ],
+      "locator": "IND-CHAPTER 第四节；IND-S06/IND-S07“七、课程计划表”；IND-S02“二、招聘对象、三、招聘岗位”；N05-L2仅用于专业未核边界。",
+      "assumptions": [
+        "实得训练、费用、入学机会相近。"
+      ],
+      "limits": "同校样本不可概括所有学校；课程安排非实效；专业表不等实际录用。"
+    },
+    {
+      "id": "C07",
+      "kind": "conditional_reversal_with_inherited_fact",
+      "claim": "实得异常/复验训练可使自动化反转；上电训练不能跨方向拼接。",
+      "source_ids": [
+        "IND-S06",
+        "IND-S07",
+        "SUEP-C"
+      ],
+      "locator": "IND-CHAPTER 第四节；SUEP-CHAPTER 第四、五节；SUEP-INDEX C02表1 B51:B54、B96:B102及表2 B5:N5。",
+      "assumptions": [
+        "目标入口接收、本人可取得训练和成本可接受。"
+      ],
+      "limits": "上电不是上海电机；方向未获不自动使另一专业获胜。"
+    },
+    {
+      "id": "C08",
+      "kind": "inherited_historical_fact_and_conditional_opportunity",
+      "claim": "2025上电02组27151、电气21044、自动化23948仅历史说明；机会差可超过弱偏好。",
+      "source_ids": [
+        "JS2025-D"
+      ],
+      "locator": "JS-CHAPTER“下端：5组22显示成员，不用组线代替专业线”中D上电02组行及16显示成员表；历史记录号19509、19517—19532为继承定位，不表示本次重读原表。",
+      "assumptions": [
+        "只有规则、计划、分布可比较时才能推条件机会。"
+      ],
+      "limits": "不是2027线/用户位次；组线非专业保证；不移植他校培养；P_S不是本P0。"
+    },
+    {
+      "id": "C09",
+      "kind": "inherited_fact_and_mechanism",
+      "claim": "南京支付链区别代收与收入；工业客户支付产品、交付和改造。",
+      "source_ids": [
+        "E07",
+        "IND-S09"
+      ],
+      "locator": "E07-L2/L4（原报告物理页9—11）；IND-CHAPTER 第二节与IND-S09第三节一/四/十一（页10—16、21—24、37—38）；BASE-CHAPTER D03/D04。",
+      "assumptions": [],
+      "limits": "评级非审计年报；不证明新运营商同一支付链、及时拨款或岗位预算。"
+    },
+    {
+      "id": "C10",
+      "kind": "conditional_inference",
+      "claim": "服务持续可能支撑运行任务，但集中/外包/熟手和竞争影响新人入口。",
+      "source_ids": [
+        "E07",
+        "IND-S09",
+        "B-INV",
+        "N05",
+        "N01"
+      ],
+      "locator": "BASE-CHAPTER D05/D06；B-INV“上端先分承接者，再反查可报方向”；N01-L1、N05-L1/L2只支持入口异质性，不证明当地实际组织模式。",
+      "assumptions": [
+        "服务责任与资金覆盖成立；组织选择可变。"
+      ],
+      "limits": "不是三地已核外包/集中现状；未推退休补招率、人数或长期岗位量。"
+    },
+    {
+      "id": "C11",
+      "kind": "inherited_fact_and_recommendation",
+      "claim": "已有工业本科具体任务和新水务资格例支持继续本科基准。",
+      "source_ids": [
+        "IND-S02",
+        "IND-S03",
+        "N05",
+        "N01"
+      ],
+      "locator": "IND-CHAPTER 第三、五节；IND-S02/IND-S03招聘岗位表；N05-L1/L2；N01-L1/L4。",
+      "assumptions": [
+        "P0接受相关任务；未来入口另核。"
+      ],
+      "limits": "不能把详细职责当初入职实际承担，更不能把常州硕士门槛泛化。"
+    },
+    {
+      "id": "C12",
+      "kind": "conditional_duration_comparison",
+      "claim": "资格增益或难替代的相关训练增益分别可成为硕士前置理由，但都须真实可取得，并有足以补偿三年成本的增量收益依据。",
+      "source_ids": [
+        "CORE",
+        "IND-S02",
+        "N01"
+      ],
+      "locator": "CORE“时间轴”；IND-CHAPTER 第五节（训练/资格及成本框架）；N01-L1/L4仅为一批已截止硕士门槛。两条收益路径及共同成本约束为本篇明示条件推演。",
+      "assumptions": [
+        "共同前提：本人能进入该硕士并完成相应培养；比较学费、额外生活支出、可取得资助、延后收入及三年可能的工业工程经历，不预设金额。",
+        "资格增益分支：可接受地区目标工作的学历门槛具有持续性，且该硕士可使本人取得所需资格；不以单份已截止公告认定。",
+        "训练增益分支：即使目标岗位接受本科，相关硕士项目、资源及本人参与机会确可取得，且本科与直接工作的替代训练较难提供相同增益；不能仅凭课程或项目名称认定。"
+      ],
+      "limits": "保留本科直入基准；两分支均为待检验条件，不是本轮已证实的读研收益，不因水务或单份已截止公告自动增加学制。三年是示范，不估工资或收益概率；2034毕业、2037约三年硕士毕业后经历不保证连续就业，学历不替实际经验。"
+    },
+    {
+      "id": "C13",
+      "kind": "conditional_growth_comparison",
+      "claim": "运行连续资产反馈与工业跨对象验证可各有积累；文书/例行任务均可能无成长溢价。",
+      "source_ids": [
+        "N05",
+        "IND-S02",
+        "IND-S03",
+        "B-INV"
+      ],
+      "locator": "IND-CHAPTER 第三、五、六节；IND-S02分岗职责与IND-S03仅岗位表的边界；N05-L2并未提供逐岗技术任务；B-INV运营组织机制；BASE-CHAPTER D13。",
+      "assumptions": [
+        "参与数据、诊断/测试设计、整改、复验和反馈；迁移补领域规范。"
+      ],
+      "limits": "所有运行技术工作均是假设；弘远职责不移给伟创、不等个人实际分工。"
+    },
+    {
+      "id": "C14",
+      "kind": "action_and_reversal",
+      "claim": "主案工业、备选水务；只核可得专业/训练/本科任务，触发升位、换序或双退。",
+      "source_ids": [
+        "N05",
+        "IND-S02",
+        "IND-S06",
+        "IND-S07",
+        "SUEP-C",
+        "JS2025-D",
+        "B-INV"
+      ],
+      "locator": "本篇C01—C13的条件合成；N05-L1/L2/L4；IND-CHAPTER 第四、六节；SUEP-CHAPTER 第四、五节；JS-CHAPTER下端历史机会；B-INV条件反转。BASE-CHAPTER D11—D14为旧比较背景，非新增事实。",
+      "assumptions": [
+        "P0成立；工作地点/签约/班制及费用必须可接受。"
+      ],
+      "limits": "这些是改变当前准备的核实条件，不是已完成的核验；不新增已核招生候选、组或成员计数，不构成目标年可提交志愿方案。"
+    }
+  ],
+  "limits": [
+    "无锡公开本科/校园/经验不限只提升资格例证，当前可报名、实际录用、精确届别、独立自动化接收、逐岗技术任务与带教仍未确认。",
+    "常州硕士门槛仅属一份已截止公告，不泛化到行业，也不自动要求延长三年学制。",
+    "P0及时间轴是比较设定，不是用户画像或现实就业承诺；实得训练、入学机会或目标改变可反转。",
+    "历史录取不当作目标年线或个人位次，组线不保证目标专业；不增加已核招生候选或成员计数。",
+    "只发布必要引用、短摘录、版本标识与主张映射，不附原HTML/PDF或完整私人研究材料。"
+  ]
+}
