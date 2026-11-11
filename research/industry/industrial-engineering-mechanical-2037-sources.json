@@ -1,0 +1,1320 @@
+{
+  "schema_version": "1.0",
+  "title": "工业工程与机械本科条件比较：来源、32条主张与边界",
+  "research_date": "2026-11-11",
+  "baseline_repository_commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+  "scope": "江苏生源、2027入学、实际四年则2031本科入口、2037观察的条件比较；不是用户画像、正式志愿表或未来岗位预测。",
+  "source_reference_base": "本文件sources[].id为来源主键；claims[].source_refs[].source_id引用它。repository_path从仓库根解析，url为发布方公开地址或固定提交的仓库页面；不依赖本地目录。",
+  "locator_convention": "PDF页码为物理页，具体表格/段落优先。L行号是研究所存原件的辅助编号表示，网页变化或另行提取可能不同；原件哈希、原文标题/表格/条目共同定位。固定原件和提取文本不随本索引发布。",
+  "evidence_boundary": [
+    "来源取得、原研究核读与本次公开整理分开。公开整理不新增来源，不冒称重读原件；继承研究不冒充本次外部原始证据。",
+    "claims中的本作者、本轮、本批和本包均指相应原研究阶段及其证据范围，不代表公开整理另做一次实证核验。",
+    "事实15条、研究设定3条、机制推断7条、条件建议7条，保留32条原主张及前提、依赖、限制、反证和改判条件。",
+    "招聘广告不是实际录用、即时空缺或2031/2037岗位证明；培养计划不是2027适用、真实训练兑现或个人能力证据。",
+    "本题未核IE具体江苏历史招生接口，不新增学校候选、组号、位次或计数，不恢复招生数据采集。"
+  ],
+  "sources": [
+    {
+      "id": "E02",
+      "title": "精益工程师（2027届校招）",
+      "publisher": "无锡先导智能装备股份有限公司；四川大学就业指导中心发布",
+      "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WKk7a6yobddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "publication_date": "2026-09-23",
+      "retrieved_at": "2026-11-11T04:31:39.382382+00:00",
+      "source_type": "university_employer_posting",
+      "source_level": "B+",
+      "geography": "江苏无锡；不外推其他城市或未来岗位",
+      "applies_to": "2026-09-23刊载的2027毕业届精益工程师广告；非2027入学届，非即时空缺或实际录用证明。",
+      "use_tier": "原研究作者核读固定原始字节及相关表示；公开整理沿用该核对与独立审核，不冒称本次新联网取得或重新实质审读原件。",
+      "original": {
+        "format": "HTML",
+        "bytes": 78562,
+        "sha256": "821ee7f348c05be27676b490d232d9f7378b340a96f059c02bbad196569144ca",
+        "public_locator": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WKk7a6yobddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+        "availability": "公开URL指向发布方页面或附件；固定原件留存但不随本索引发布。原件哈希标识研究所用版本，不保证在线内容仍未变化。"
+      },
+      "locators": [
+        "原始HTML职位标题与职位信息：发布时间、届别、最低学历、专业模板和工作地址；保存版本编号文本L42—68。",
+        "原始HTML岗位职责1—7、任职要求1—7；保存版本编号文本L79—95。"
+      ],
+      "checked_facts": [
+        "标题明确2027届校招；最低学历本科；正文本科及以上、工业工程等相关背景；江苏无锡",
+        "参与标准工时与非标工时分析，协助装配节拍优化及工序平衡，分析异常工时，IE手法改善、生产数据分析、SLP布局与精益物流，逐步参与六西格玛认证推进",
+        "要求IE/统计/成本基础、CAD/SLP、沟通及适应阶段性加班；CET4优先"
+      ],
+      "limits": [
+        "平台专业栏写不限而任职正文指定IE等相关背景，两者保留，不以模板扩大资格",
+        "未逐字列机械设计制造及其自动化为同岗接收，不擅自补进；不证明IE独占所有改善岗",
+        "职位有效期写2027-08-30不等于已确认即时可申请；企业旧版简介与当期岗位职责分开，不采企业规模宣传",
+        "招聘人数、薪酬、岗位职责不是实际录用、新人首日独立承担或净扩招证据"
+      ],
+      "inheritance": {
+        "tier": "本题收集阶段取得的固定原件，研究阶段核对；公开整理继承。"
+      },
+      "representations": [
+        {
+          "format": "HTML正文提取文本",
+          "bytes": 8794,
+          "sha256": "f53e90f5612e41c2d7710dc34b9cba9447e3cd8703a73309ca2c6e0455be8501",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        },
+        {
+          "format": "编号文本",
+          "bytes": 10763,
+          "sha256": "6686dd8e63e0d9f2b77e783bc42fa228b7569179f4d68497516641246a779825",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        }
+      ],
+      "used_in_claims": [
+        "F01",
+        "F02",
+        "F03",
+        "F06",
+        "I02",
+        "I05",
+        "I07",
+        "R01",
+        "R06"
+      ]
+    },
+    {
+      "id": "H01",
+      "title": "苏州弘远电气2027届校园招聘简章",
+      "publisher": "吉林大学就业网发布企业简章",
+      "url": "https://jdjywpt.jlu.edu.cn/mportal/recruit/details?id=4547f177e0ab40cab98735f4736179c8",
+      "publication_date": "2026-09-16",
+      "retrieved_at": "2026-11-09T00:08:03.371613+00:00",
+      "source_type": "inherited_university_employer_posting",
+      "source_level": "B+",
+      "geography": "苏州为企业总部；逐岗地点未知",
+      "applies_to": "2026-09-16刊载的2027应届招聘简章；项目管理与结构工程师分行核对。",
+      "use_tier": "原研究作者核读固定原始字节及相关表示；公开整理沿用该核对与独立审核，不冒称本次新联网取得或重新实质审读原件。",
+      "original": {
+        "format": "HTML",
+        "bytes": 44167,
+        "sha256": "5834fe7a2aec5f21cd4ad1f2f6438c88092196df0a33045dc3cba1ba9c07dbda",
+        "public_locator": "https://jdjywpt.jlu.edu.cn/mportal/recruit/details?id=4547f177e0ab40cab98735f4736179c8",
+        "availability": "公开URL指向发布方页面或附件；固定原件留存但不随本索引发布。原件哈希标识研究所用版本，不保证在线内容仍未变化。"
+      },
+      "locators": [
+        "原始HTML第二表，表头计为第1行；第7行为项目管理（列2/4/5/7/8），保存版本编号文本L194—214。",
+        "原始HTML第二表第4行为结构工程师，保存版本编号文本L129—154；企业总部信息L65。"
+      ],
+      "checked_facts": [
+        "对象2027应届本科及以上；项目管理行学历本科/硕士，专业表列电气/自动化/电力电子，具体任职要求列理工科、机械设计/工业工程/自动化优先，不能抹平这项表内差异",
+        "项目管理职责为研发中心体系流程、ISO/IPD质量体系、研发全流程节点质量管控与持续改进、文档控制；不是已核产线节拍IE岗",
+        "同简章结构工程师列本科/硕士、机械工程相关，结构需求/方案、详细设计与样机优化、可制造性/可维护性、部分生产装备开发"
+      ],
+      "limits": [
+        "项目管理是公告职名，不改名为研发质量岗；可描述研发质量任务",
+        "企业苏州总部不能保证逐岗驻地；不把项目管理与结构岗拼成一人训练",
+        "专业表与任职正文冲突未解，仅支持两种文字同时存在，不宣称IE已通过所有网申筛选"
+      ],
+      "inheritance": {
+        "tier": "此前研究已取得的同一原始HTML，在本题收集及研究阶段重新核对；不是只从摘要继承。",
+        "original_retrieved_at": "2026-11-09T00:08:03.371613+00:00",
+        "locally_reverified_at": "2026-11-11T04:35:26.076972+00:00",
+        "original_bytes_sha256": "5834fe7a2aec5f21cd4ad1f2f6438c88092196df0a33045dc3cba1ba9c07dbda"
+      },
+      "representations": [
+        {
+          "format": "编号文本",
+          "bytes": 11250,
+          "sha256": "eb1328b590cd3d1c87f0339a7236caf0203400b74b7b844ede9d5dd808df401b",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        }
+      ],
+      "used_in_claims": [
+        "F04",
+        "F05",
+        "F06",
+        "I03",
+        "I05",
+        "I07",
+        "R02",
+        "R04"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "机械设计制造及其自动化专业2023级本科培养方案",
+      "publisher": "南京农业大学工学院",
+      "url": "https://coe.njau.edu.cn/__local/8/74/55/2213FA0885CBBFDBC3655BB0EDA_8AF37CFA_9736D.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-11-11T04:30:50.855366+00:00",
+      "source_type": "university_curriculum",
+      "source_level": "A",
+      "geography": "南京农业大学工学院培养样本；学校所在地不决定就业地",
+      "applies_to": "标称2023级机械设计制造及其自动化本科方案；非2027执行或实际训练兑现证明。",
+      "use_tier": "原研究作者核读固定原始字节及相关表示；公开整理沿用该核对与独立审核，不冒称本次新联网取得或重新实质审读原件。",
+      "original": {
+        "format": "PDF",
+        "bytes": 619373,
+        "sha256": "7d41da8d51ed754b6b86cc0cce2ff420d2888391bd2055c55ead0867862aa286",
+        "public_locator": "https://coe.njau.edu.cn/__local/8/74/55/2213FA0885CBBFDBC3655BB0EDA_8AF37CFA_9736D.pdf",
+        "availability": "公开URL指向发布方页面或附件；固定原件留存但不随本索引发布。原件哈希标识研究所用版本，不保证在线内容仍未变化。"
+      },
+      "locators": [
+        "PDF物理页6学制学位；11—12必修、选修与p12★注释；13—14方向模块及集中实践。",
+        "选修总额与四组最低额：p12 L39—42，p13 L4—5、L29—30、L51—52；行号来自固定原件的分页编号文本。"
+      ],
+      "checked_facts": [
+        "必修含力学、机械原理、机械设计A、工程材料成型、测试、制造工艺与数控；控制工程基础等★课虽在选修结构内但注释要求修读并通过",
+        "集中实践29.5学分含金工、机构/机械设计、工艺、机电综合与数控实践",
+        "与C04同校同为2023级标称培养，可用来对照课程安排，不用另校课程拼接"
+      ],
+      "limits": [
+        "专业不是“机械工程”新名，保持本件全称，不将2025-2026新方案混入2023比较",
+        "不据课程多寡或实践学分算能力/就业率；模块所有课不能叠为全员必修",
+        "本件未取得独立页面发布日期；HTTP Last-Modified 2023-12-29仅服务器元数据"
+      ],
+      "inheritance": {
+        "tier": "本题收集阶段取得的固定原件，研究阶段核对；公开整理继承。"
+      },
+      "server_last_modified": {
+        "reported_date": "2023-12-29",
+        "meaning": "原收集阶段服务器HTTP响应的Last-Modified字段；不是独立内容修订史，也不确定适用届别。"
+      },
+      "prior_visual_check_pages": [
+        12,
+        14
+      ],
+      "representations": [
+        {
+          "format": "PDF按版面提取文本",
+          "bytes": 52926,
+          "sha256": "c2e259137fe196ee194d3308f8c7fe75bf14830770a9ea706423d29744d4dc62",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        },
+        {
+          "format": "分页编号文本",
+          "bytes": 29892,
+          "sha256": "0cddccf76e5f9479b610cc75e589e07313614b5140d74fcfefd4d9d792674cfe",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        }
+      ],
+      "used_in_claims": [
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "I01",
+        "R02",
+        "R03",
+        "R04",
+        "R06"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "信息管理学院2023级本科专业人才培养方案和培养计划",
+      "publisher": "南京农业大学信息管理学院",
+      "url": "https://info.njau.edu.cn/info/1007/3321.htm",
+      "publication_date": "2024-05-09",
+      "retrieved_at": "2026-11-11T04:31:34.679996+00:00",
+      "source_type": "navigation",
+      "source_level": "navigation_only",
+      "geography": "南京农业大学信息管理学院",
+      "applies_to": "2024-05-09发布的标称2023级培养导航页，定位C04；页面时间不等附件修订时间。",
+      "use_tier": "原研究作者核读固定原始字节及相关表示；公开整理沿用该核对与独立审核，不冒称本次新联网取得或重新实质审读原件。",
+      "original": {
+        "format": "HTML",
+        "bytes": 22923,
+        "sha256": "8331869f8d8ba5baa6f8c9760a6059afaf7ae7ec43358d4f0a2228453149dbf7",
+        "public_locator": "https://info.njau.edu.cn/info/1007/3321.htm",
+        "availability": "公开URL指向发布方页面或附件；固定原件留存但不随本索引发布。原件哈希标识研究所用版本，不保证在线内容仍未变化。"
+      },
+      "locators": [
+        "原始HTML页面标题、2024-05-09发布时间；showVsbpdfIframe嵌入本索引C04所列PDF URL。"
+      ],
+      "checked_facts": [
+        "页面标题标称2023级，页面发布日期2024-05-09，当前嵌入件为C04"
+      ],
+      "limits": [
+        "页面时间不保证附件自2024未修改：C04 HTTP Last-Modified为2025-06-24，属服务器报告非独立版本史"
+      ],
+      "inheritance": {
+        "tier": "本题收集阶段取得的固定原件，研究阶段核对；公开整理继承。"
+      },
+      "used_in_claims": [
+        "F13"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "2023级信息管理学院本科专业人才培养方案和培养计划：工业工程部分",
+      "publisher": "南京农业大学信息管理学院",
+      "url": "https://info.njau.edu.cn/__local/0/2E/21/700EBD1AA7639BFD8EF3AE1E316_AC3F573E_D7387.pdf",
+      "publication_date": null,
+      "retrieved_at": "2026-11-11T04:32:14.361369+00:00",
+      "source_type": "university_curriculum",
+      "source_level": "A",
+      "geography": "南京农业大学信息管理学院培养样本；学校所在地不决定就业地",
+      "applies_to": "标称2023级工业工程本科培养计划；非2027执行、实际开课、实习分配或个人能力证明。",
+      "use_tier": "原研究作者核读固定原始字节及相关表示；公开整理沿用该核对与独立审核，不冒称本次新联网取得或重新实质审读原件。",
+      "original": {
+        "format": "PDF",
+        "bytes": 881543,
+        "sha256": "107bab517d8195355325137cba67a512c15e507775a08de0a931d4f55d893f20",
+        "public_locator": "https://info.njau.edu.cn/__local/0/2E/21/700EBD1AA7639BFD8EF3AE1E316_AC3F573E_D7387.pdf",
+        "availability": "公开URL指向发布方页面或附件；固定原件留存但不随本索引发布。原件哈希标识研究所用版本，不保证在线内容仍未变化。"
+      },
+      "locators": [
+        "PDF物理页21—38为工业工程；24—25学制学位；28—30课程结构；34—38教学计划。",
+        "p28必修基础与IE核心、p29必修/选修、p30课程组及集中实践；具体行号见各条claims.source_refs。"
+      ],
+      "checked_facts": [
+        "四年、工学学士；必修既有工程制图/机械设计基础/机械制造基础，也有运筹、精益、工业工程、人因、质量、计划控制和生产系统仿真",
+        "精益生产为项目引导式课程；集中实践20学分含多个IE课程设计及生产实习",
+        "设施规划与物流分析为选修，不是全员必修；企业数字化、智慧物流、农业运营三课程组各有≥4学分要求；☆课限选须修"
+      ],
+      "limits": [
+        "只核当前保存2023标称计划，不证明2027执行、课表实际开设、实习分配或学生能力",
+        "主要课程清单与实际必修/选修不同，以课程设置/教学计划核对；不把机器学习选修当算法岗训练已足"
+      ],
+      "inheritance": {
+        "tier": "本题收集阶段取得的固定原件，研究阶段核对；公开整理继承。"
+      },
+      "server_last_modified": {
+        "reported_date": "2025-06-24",
+        "meaning": "原收集阶段服务器HTTP响应的Last-Modified字段；不是独立内容修订史，也不确定适用届别。"
+      },
+      "prior_visual_check_pages": [
+        28,
+        29,
+        30
+      ],
+      "representations": [
+        {
+          "format": "PDF按版面提取文本",
+          "bytes": 339645,
+          "sha256": "928e8760f12dab42eda37052d588ec1c78eb99979364a989d2dc746ee5287f70",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        },
+        {
+          "format": "分页编号文本",
+          "bytes": 53046,
+          "sha256": "2541a7870007e475541fa01dab55bc3f1239daad99e63e440562660f75c76f87",
+          "availability": "仅作原件辅助定位，未随本索引发布；不替代原始HTML/PDF。"
+        }
+      ],
+      "used_in_claims": [
+        "F07",
+        "F08",
+        "F09",
+        "F13",
+        "I01",
+        "R01",
+        "R03",
+        "R04",
+        "R06"
+      ]
+    },
+    {
+      "id": "B-MECH",
+      "title": "机械制造与自动化：专业、任务和职业入口",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_research",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/admissions/mechanical-automation-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/admissions/mechanical-automation-careers.md",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 3422,
+      "sha256": "5839df67149f56fcac07c34ef7fb259514dc9d07fcdc81b141167418a9e7e77f",
+      "applies_to": "既有机械制造与自动化研究；仅继承其任务、培养和2027—2037本科/硕士条件分支，不新增本题准确专业接收事实。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "“2027到2037：如何选择”；未给本题具体江苏组",
+        "“2027到2037”",
+        "“2027到2037”硕士分支"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "used_in_claims": [
+        "F15",
+        "I07",
+        "R05"
+      ]
+    },
+    {
+      "id": "B-CUMT",
+      "title": "江苏专业组接受度如何接到入学大类分流：矿大机械类历史案例",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_research",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/admissions/cumt-mechanical-class-pathways.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/admissions/cumt-mechanical-class-pathways.md",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 12178,
+      "sha256": "8f2e78614dcb4752da427d9b4bb939a660d7bb5b294551e7d2f668d07f647ce9",
+      "applies_to": "2024/2025级矿大机械类校内分流历史研究；不能替代南农招生、江苏高考计划或机械设计制造及其自动化同名入口。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "“三个阶段、四种对象不能混同”；“已核校方事实”；2024/2025级范围",
+        "“分到机械工程后，两条…出口”",
+        "“把高考接受度与分流后果合成一次决策”"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "used_in_claims": [
+        "F15",
+        "I03",
+        "R07"
+      ]
+    },
+    {
+      "id": "B-CROSS",
+      "title": "苏州制造客户情景：计软、信管物流与自动化怎样横向选",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_research",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/admissions/jiangsu-suzhou-manufacturing-cross-choice.md",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 12385,
+      "sha256": "1382882874e5471f5ae5c13b262c5673d1c3071a7a55bbf9df3915925f7cbcc5",
+      "applies_to": "江苏生源、2027入学/2031本科/2037观察的苏州制造客户条件比较；只继承付费和任务链及接口覆盖边界，不把其历史组变成本批新增候选。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "“下端只沿三个真实历史组”，不含IE项目",
+        "“同一制造客户，四段不同的付款和任务链”生产计划/供应链一行",
+        "“下端只沿三个真实历史组”边界"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "related_source_index": {
+        "repository_path": "research/admissions/jiangsu-suzhou-manufacturing-cross-choice-sources.json",
+        "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/admissions/jiangsu-suzhou-manufacturing-cross-choice-sources.json",
+        "sha256": "809d27a51ef55efbbf5daf4fda48cbbbc35b810eaad85ba0ba199d1ff7c9ebe3",
+        "use": "沿既有索引追溯原件；本题不新核其外部证据。"
+      },
+      "used_in_claims": [
+        "F15",
+        "I02",
+        "R07"
+      ]
+    },
+    {
+      "id": "B-DRIVE",
+      "title": "工业电驱与运动控制：电气和自动化何时换序",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_research",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/industry/industrial-drive-control-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/industry/industrial-drive-control-2037-choices.md",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 18079,
+      "sha256": "c5c48aff296f19b31f866c704f7918a26d8fa9f7232835501de7d708e91c2003",
+      "applies_to": "既有工业电驱研究的企业支付、任务、组织与成长机制；经营例为汇川2026H1，不是本题IE/机械未来招聘事实。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "§二“企业为什么付钱”，来源事实及边界段",
+        "§二条件机制与基准推断；非本题事实预测",
+        "§二订单/利润/带教连接",
+        "§二标准平台与定制并存/熟手覆盖条件推断",
+        "§二人口机制明示假设",
+        "§五工龄与真实反馈区别",
+        "§五以目标门槛而非热度深造"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "used_in_claims": [
+        "F14",
+        "A03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "R05"
+      ]
+    },
+    {
+      "id": "B-DRIVE-SOURCES",
+      "title": "工业电驱与运动控制：来源与主张索引",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_source_index",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/industry/industrial-drive-control-2037-choices-sources.json",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/industry/industrial-drive-control-2037-choices-sources.json",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 23890,
+      "sha256": "ea43618beed29263c11391adebc245f0ffad8cd9a7fd578024e7c88733dddcbf",
+      "applies_to": "既有工业电驱来源索引；本题F14只经其S09限定继承汇川2026H1经营例，未重核财报原件。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "sources[id=S09]；原报告第三节页10—16、21—24、37—38"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "inherited_evidence": [
+        {
+          "id": "S09",
+          "title": "汇川技术2026年半年度报告全文",
+          "publisher": "深圳市汇川技术股份有限公司；巨潮资讯网披露",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524610.PDF",
+          "publication_date": "2026-08-29",
+          "accessed_at": "2026-11-09T00:08:33.326326+00:00",
+          "source_type": "issuer_filing_on_designated_disclosure_site",
+          "geography": "全国/全球公司业务；非苏州单一岗位市场",
+          "applies_to": "所列招聘届次或页面版本；不是2027招生/培养或2031岗位保证。",
+          "locator": [
+            "第三节一，业务与经营模式，印刷及物理页10—12、14—16。",
+            "第三节四，主要经营总结，页21—24；第三节十一，风险，页37—38。",
+            "页22、38另核页面图像；正文中引用的其他章节以PDF文本表示核读。"
+          ],
+          "snapshot": {
+            "original_format": "PDF",
+            "original_bytes_sha256": "9d4e8851dc5129228caaf3fee9febbef9f6cfbd0caeeea922f8d33968462e769",
+            "representation_format": "PDF text extraction",
+            "representation_sha256": "5f04b851fb9809d51a9fb0d4344614f0388aba7cab3302106fd8da35529493d8"
+          },
+          "supports": [
+            "公司分列工业自动化与数字化及新能源汽车动力系统业务，工业自动化/机器人分销为主直销为辅，汽车等以直销为主；供应模式计划准备与订单拉动结合。",
+            "报告页15将标准化平台产品开发与行业客户定制化开发并列；不据此认定已减少新人岗位。",
+            "报告记载部分订单增长、原料涨价及部分产能不足，采用扩产、增班、价格调整和费用管控；披露宏观投资/出口、原料、汽车价格竞争与回款等风险。",
+            "汽车定点与SOP量产交付分别表述，业务收入/订单未提供部门级本科招聘增量。"
+          ],
+          "limits": [
+            "为公司自报经营事实、风险与前瞻叙述，不是独立验证的2031/2037预测。",
+            "报告有引用睿工业等市场数据，本包不把转引数字当独立原始统计，也不以其市场份额推出岗位量。",
+            "报告业务收入、订单/成本不等于招聘新增人数；没有部门级招聘预算。",
+            "这是2026H1经营期，不称截至2026-11最新全部经营信息；未为职业判断追收三季报。",
+            "未取得将人口老龄化/用工短缺直接连到本期具体订单或本科招聘的证据。"
+          ],
+          "inheritance_note": "此条为固定公开索引S09原有记录的限定转录；原件hash、URL、页码及核读描述均属于原研究记录，本公开整理与本题分析均未重读财报。"
+        }
+      ],
+      "used_in_claims": [
+        "F14"
+      ]
+    },
+    {
+      "id": "B-INV",
+      "title": "新增、改造与运行共存时：四类本科方向的条件取舍",
+      "publisher": "知途研究 · Pathwise Research，既有已采用研究",
+      "source_type": "inherited_repository_research",
+      "source_level": "既有研究/来源索引继承，不标为本轮外部原件核读",
+      "repository_path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/a82e5060d6df38336f119379dfdcfe28e3ccf7d9/research/industry/investment-retrofit-operations-2037-choices.md",
+      "commit": "a82e5060d6df38336f119379dfdcfe28e3ccf7d9",
+      "bytes": 10817,
+      "sha256": "f6b5416602ab46ac8af4458f7a97ca27e7e5d59d39d7155188361876608efa33",
+      "applies_to": "既有新增投资、存量改造与运营研究；继承付款方、工作包和预算关联机制，非本题目标企业预算认证。",
+      "use_tier": "固定已采用研究/源索引继承；本轮未重核所引外部原件；事实与既有分析分开",
+      "locators": [
+        "“上端先分承接者”，新增/改造/运营区分",
+        "新增投资/存量改造/运营三段",
+        "“收益和付费”及S4",
+        "“收益和付费”及“复用事实…不直接等于新人招聘”"
+      ],
+      "limits": [
+        "仅按本题对应主张引用，未把所引外部原件当成本次重新核读；既有研究中的事实、推断与情景仍须分开。"
+      ],
+      "used_in_claims": [
+        "A03",
+        "I03",
+        "I04",
+        "I06"
+      ]
+    }
+  ],
+  "claim_kinds": {
+    "fact": "来源可核事实/明确限定的证据覆盖事实；继承层级单列",
+    "assumption": "研究设定不是用户偏好或观察结果",
+    "inference": "基于来源和前提的机制判断",
+    "recommendation": "有条件的当前行动及换序规则"
+  },
+  "claims": [
+    {
+      "id": "F01",
+      "kind": "fact",
+      "statement": "先导2027届精益工程师广告于2026-09-23刊载；工作地址江苏无锡，最低本科；2027指毕业届。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "原始HTML职位标题/信息；保存版本的编号文本 L42—68"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "高校就业网承载企业招聘B+；广告非录用、非即时空缺认证、非2031接收。",
+      "counterevidence_or_competing_explanation": "有效期2027-08-30不能证明现在仍接收。",
+      "change_or_withdraw_when": "实际投递前以届别、岗位和有效申请状态更新，不能沿用2026广告。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F02",
+      "kind": "fact",
+      "statement": "该岗职责包含标准/非标工时、节拍与工序平衡、异常工时、IE改善、生产数据、SLP布局和精益物流；要求统计/成本、CAD/SLP等，CET4优先，阶段性加班适应。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "原始HTML岗位职责1—7、任职要求2—7；保存版本的编号文本 L79—95"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "完整职责不是新人首日独立工作；CET4为优先，不改写成硬门槛。",
+      "counterevidence_or_competing_explanation": "参与、协助、支持、逐步参与与其他负责文字并存，不能合成已实施的新人训练计划。",
+      "change_or_withdraw_when": "新人实际仅报表或无改善反馈时，撤回据此推定的成长优势。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F03",
+      "kind": "fact",
+      "statement": "平台专业栏“不限”，任职正文本科及以上、工业工程等相关专业背景；机械设计制造及其自动化未逐字共同列出。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "保存版本的编号文本 L65—66、L88—95；原HTML对应表及正文"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "不把不限覆盖正文，不把等相关推定某具体机械本科已符合，也不宣称永久排除。",
+      "counterevidence_or_competing_explanation": "泛专业栏更宽但不是正文资格澄清。",
+      "change_or_withdraw_when": "雇主当期正式资格清单或明确答复消除冲突后，才扩大共同接收结论。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F04",
+      "kind": "fact",
+      "statement": "弘远第二表第7行职名为项目管理，本科/硕士；专业栏电气/自动化/电力电子，任职文字却优先机械设计/工业工程/自动化；任务是研发ISO/IPD体系、研发项目节点质量和文档控制。",
+      "source_refs": [
+        {
+          "source_id": "H01",
+          "locator": "原HTML table 2 row 7，列2/4/5/7/8；保存版本的编号文本 L194—214"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "两栏冲突未解。不是产线工时/节拍IE岗，不承认IE或准确机械专业通过全部筛选。",
+      "counterevidence_or_competing_explanation": "正文的优先项不能消除专业表窄口径；职名不能改作独立研发质量工程师。",
+      "change_or_withdraw_when": "只有正式澄清专业资格或新的当期岗位才能解除对应未知。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F05",
+      "kind": "fact",
+      "statement": "弘远第二表第4行结构工程师为机械相关本科/硕士，职责含结构需求方案、详细设计、样机优化、可制造性/可维护性及部分生产装备开发。",
+      "source_refs": [
+        {
+          "source_id": "H01",
+          "locator": "原HTML table 2 row 4；保存版本的编号文本 L129—154；企业总部L65"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "机械相关不等准确专业已逐字通过；苏州总部非逐岗地点；不能把结构和项目管理职责拼成一人训练。",
+      "counterevidence_or_competing_explanation": "有设计工作不证明新人独立承担全部设计责任，也未取得实际带教。",
+      "change_or_withdraw_when": "工作地点、专业细项、届次或新人模块不匹配时收窄本地本科路径。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F06",
+      "kind": "fact",
+      "statement": "在本批已冻结招聘证据中，没有无冲突、逐字确认工业工程与机械设计制造及其自动化同岗共同接收的样本。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "L65—95"
+        },
+        {
+          "source_id": "H01",
+          "locator": "table 2 row 4、row 7"
+        }
+      ],
+      "depends_on": [
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "premises": [],
+      "scope_and_limit": "仅为本包证据覆盖结论，不是全市场不存在共同接收；不是匹配招聘实验。",
+      "counterevidence_or_competing_explanation": "弘远有宽泛机械设计/IE正文，但表内冲突且非准确专业共列。",
+      "change_or_withdraw_when": "取得明确同岗共同接收后可比较入口；仍不自动证明学校训练或录用结果相同。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F07",
+      "kind": "fact",
+      "statement": "南农标称2023级IE为四年工学学士；必修有工程制图、AutoCAD、机械设计基础3、机械制造基础2、电工电子B2学分。",
+      "source_refs": [
+        {
+          "source_id": "C04",
+          "locator": "物理p24 L48—49、p25 L2—3；p28 L22—33、L60—70；原PDF及p28页图"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "学院名不定义有无工程训练；本计划不证明2027适用或个人能力。",
+      "counterevidence_or_competing_explanation": "工程基础存在不等同机械专业完整力学/设计制造链。",
+      "change_or_withdraw_when": "适用届方案或实际训练不同则重新比较。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F08",
+      "kind": "fact",
+      "statement": "IE必修包含运筹I、管理统计、精益生产与基础IE、人因、质量可靠性、计划控制、系统仿真；精益为项目引导；实践20学分含多项IE课程设计、生产实习1、毕设/实习8。",
+      "source_refs": [
+        {
+          "source_id": "C04",
+          "locator": "p28 L51—75；p29 L2—21；p30 L30—70；原PDF及p28—30页图"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "培养安排非训练效果，不把论文/实习8全部看成企业实习；课程设计非真实企业项目保证。",
+      "counterevidence_or_competing_explanation": "“主要课程”清单不能代替性质表；有计划不证明项目分配和反馈。",
+      "change_or_withdraw_when": "实际课程、项目参与和考核不能支持改动复验时降低训练优势。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F09",
+      "kind": "fact",
+      "statement": "IE设施规划与物流分析为选修；企业数字化、智慧物流、农业生产运营管理各印刷要求≥4学分；☆限选必须修读。",
+      "source_refs": [
+        {
+          "source_id": "C04",
+          "locator": "p29 L23、L40—79；p30 L7—28；原PDF及页图"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "各组最低量不等所有课必修；不把设施规划课程预先配给每名学生。",
+      "counterevidence_or_competing_explanation": "SLP招聘要求比一张含选修课程的培养表更具体，训练连接尚有缺口。",
+      "change_or_withdraw_when": "实际课程选取/开设及项目证实后，才对具体学生补齐SLP连接。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F10",
+      "kind": "fact",
+      "statement": "南农标称2023级机械设计制造及其自动化必修含理论/材料力学、机械原理、机械设计A、材料成型、测试、制造工艺和数控；控制工程基础与机电一体化A列选修结构但带★，必须修读通过。",
+      "source_refs": [
+        {
+          "source_id": "C02",
+          "locator": "p11 L37—56；p12 L11—62；原PDF及p12页图；学制学位p6 L25—29"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "不把选修栏等同可不修；没有把2025/2026机械工程方案混入。",
+      "counterevidence_or_competing_explanation": "★规则证明修读要求，不证明实际控制项目深度。",
+      "change_or_withdraw_when": "适用届规则改变或实际课程不兑现时重比。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F11",
+      "kind": "fact",
+      "statement": "该机械方案集中实践29.5学分，含金工AI/AII各2、机械设计课程设计2、制造工艺课程设计2、机电综合2、数控实践2、生产实习2、毕设/实习8。",
+      "source_refs": [
+        {
+          "source_id": "C02",
+          "locator": "p14集中实践表，原PDF及p14页图；保存版本的分页编号文本 p14 L17—61"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "只比任务结构，不算29.5/20能力比，不把总学分等同实际设备时间。",
+      "counterevidence_or_competing_explanation": "实践可为受限或模板式，尚无实际项目分配与个人完成证据。",
+      "change_or_withdraw_when": "若机械训练仅模板、IE有实际工程反馈，不能继续用学分维持机械优先。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F12",
+      "kind": "fact",
+      "statement": "机械PDF选修总额18学分，而学术/综合/机器人/智能制造分组所印最低额7、2、6、6直接相加为21；所读页没有消解组合规则。",
+      "source_refs": [
+        {
+          "source_id": "C02",
+          "locator": "p12 L39—42；p13 L4—5、L29—30、L51—52；原PDF"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "21为明确条件的算术核对，不是新毕业要求；不推定全部同修，也不推定已证二选一。",
+      "counterevidence_or_competing_explanation": "可能存在未呈现在所读页的模块选择规则或内部口径差异，原因未知。",
+      "change_or_withdraw_when": "正式组合说明或适用新方案消解后修订对应模块判断；不撤销明确必修事实。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F13",
+      "kind": "fact",
+      "statement": "两培养原件同校同标称2023级，但IE页日期2024-05-09，当前PDF Last-Modified服务器报告2025-06-24；不能据此证明同一修订时点或2027适用。",
+      "source_refs": [
+        {
+          "source_id": "C03",
+          "locator": "原HTML页面标题、发布时间与嵌入C04链接"
+        },
+        {
+          "source_id": "C04",
+          "locator": "原PDFIE部分；收集时服务器 HTTP Last-Modified 报告，见本索引 C04 的 server_last_modified"
+        },
+        {
+          "source_id": "C02",
+          "locator": "原PDF页眉；收集时服务器 HTTP Last-Modified 报告，见本索引 C02 的 server_last_modified"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "页面发布、服务器修改报告、适用届别分别记录。",
+      "counterevidence_or_competing_explanation": "Last-Modified不是内容修订史；同标称届别不足以证明同版次完全同期。",
+      "change_or_withdraw_when": "有明确适用届的版本说明、执行与分配规则时更新，不自动否定当前结构比较。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F14",
+      "kind": "fact",
+      "statement": "固定工业电驱研究继承的汇川2026H1报告记录部分订单增长、扩产、增班、费用管控及回款等风险并存。",
+      "source_refs": [
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§二“企业为什么付钱”，来源事实及边界段"
+        },
+        {
+          "source_id": "B-DRIVE-SOURCES",
+          "locator": "sources[id=S09]；原报告第三节页10—16、21—24、37—38"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "继承既有原件核验；本作者未读该报告原件。公司经营期样本，不是截至现在最新经营、不推IE/机械招聘趋势。",
+      "counterevidence_or_competing_explanation": "增班和费用管控是不能把订单增长直接视为新增招聘的实在应对方式，不是反证所有新人停止招聘。",
+      "change_or_withdraw_when": "真正比较2031路径需届时目标主体预算、招聘与带教，不能沿本样本锁定市场方向。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "F15",
+      "kind": "fact",
+      "statement": "当前固定输入没有已核工业工程具体江苏历史招生接口；CUMT材料仅为机械类到机械工程/智能制造的历史分流研究。",
+      "source_refs": [
+        {
+          "source_id": "B-CUMT",
+          "locator": "“三个阶段、四种对象不能混同”；“已核校方事实”；2024/2025级范围"
+        },
+        {
+          "source_id": "B-CROSS",
+          "locator": "“下端只沿三个真实历史组”，不含IE项目"
+        },
+        {
+          "source_id": "B-MECH",
+          "locator": "“2027到2037：如何选择”；未给本题具体江苏组"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "本包覆盖边界。CUMT机械工程不等南农机械设计制造及其自动化；校内分流非高考招生计划；不承认南农2027可报。",
+      "counterevidence_or_competing_explanation": "存在专业设置或培养PDF并不满足江苏当年招生接口；未核不等专业不在江苏招生。",
+      "change_or_withdraw_when": "获准后取得真实适用年招生项目/选科/完整组及分流条件，可转为具体候选比较。",
+      "strength": "局部来源可核；不外推",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "A01",
+      "kind": "assumption",
+      "statement": "江苏生源，假设2027入学且实际四年则2031本科入口，2037约六年毕业后观察；以江苏制造业市场为主观察但就业可按真实可接受地区调整。",
+      "source_refs": [],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "研究坐标，不是用户的入学年、地区偏好或连续就业事实。",
+      "counterevidence_or_competing_explanation": "学制、升学、地区选择可不同。",
+      "change_or_withdraw_when": "实际入学/学制/地区明确后替换，重算相应就业时点。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "A02",
+      "kind": "assumption",
+      "statement": "条件排序以本人接受相应任务/现场条件、可进入培养路径、成本可承受、实际训练和本科新人模块成立为前提；未定任务时的机械弱前置另要求希望保留设备对象深入空间。",
+      "source_refs": [],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "用于相对比较的条件，不宣称用户已接受，也不以高校所在地替就业地。",
+      "counterevidence_or_competing_explanation": "若只愿纯文职或不接受现场，所列生产方向不自动适用。",
+      "change_or_withdraw_when": "任一前提不成立则移出比较或重定目标，而非保留总排名。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "A03",
+      "kind": "assumption",
+      "statement": "2031—2037基准：制造需求与在产交付仍存在，质量成本压力持续，设备新增投入更有选择性，自动化和数据系统继续吸收常规作业。",
+      "source_refs": [
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§二条件机制与基准推断；非本题事实预测"
+        },
+        {
+          "source_id": "B-INV",
+          "locator": "“上端先分承接者”，新增/改造/运营区分"
+        }
+      ],
+      "depends_on": [],
+      "premises": [],
+      "scope_and_limit": "合理分析起点，无概率、量级、宏观趋势认证；不声称南农毕业生对应全部任务。",
+      "counterevidence_or_competing_explanation": "若特定市场发生强扩产、深度收缩或部署停滞，基准需换分支。",
+      "change_or_withdraw_when": "目标市场付费订单、改善预算与新人任务的实质变化触发修订。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I01",
+      "kind": "inference",
+      "statement": "明确课程结构使IE更直接连接统计/系统模型和生产约束，机械更集中连接力学/结构/工艺/实物验证；跨向对方重心都有补训成本。",
+      "source_refs": [
+        {
+          "source_id": "C04",
+          "locator": "p28—30"
+        },
+        {
+          "source_id": "C02",
+          "locator": "p11—14"
+        }
+      ],
+      "depends_on": [
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "premises": [
+        "教学实施有基本质量；目标任务确依赖对应基础"
+      ],
+      "scope_and_limit": "是机制相对判断而非能力实测；没有把选修模块全叠。",
+      "counterevidence_or_competing_explanation": "机械实际项目也可包含改善；IE实际工程项目也可更强，课程名称不能覆盖项目差异。",
+      "change_or_withdraw_when": "可得训练质量与目标模块反向时反转，不以专业名坚持。",
+      "strength": "在所核课程版本和相应任务目标下，有明确方向；具体学校结果仍条件化",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I02",
+      "kind": "inference",
+      "statement": "在产订单和改善预算保留时，即使暂不扩产，等待、返工、缺料、换线与工序失衡仍可形成有支付依据的改善工作；流程目标下IE前置有理由。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "L81—87生产改善职责"
+        },
+        {
+          "source_id": "B-CROSS",
+          "locator": "“同一制造客户，四段不同的付款和任务链”生产计划/供应链一行"
+        }
+      ],
+      "depends_on": [
+        "A03",
+        "F02",
+        "I01"
+      ],
+      "premises": [
+        "仍有合格交付需求",
+        "改善收益值得实施且获授权",
+        "对本科新人保留有限分析和复验任务"
+      ],
+      "scope_and_limit": "具体机制推演，不称先导未来预算已核；永联计划任务不作为IE特定岗位。",
+      "counterevidence_or_competing_explanation": "有任务可由熟手/内部调配完成，停止招聘不会被“在产”自动否定。",
+      "change_or_withdraw_when": "订单/改善预算消失或新人无反馈模块时撤回相对优势。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I03",
+      "kind": "inference",
+      "statement": "设备订单旺且可回款和带教时，机械设计制造模块相对扩展；新增投资弱但在产改善保留时，IE相对只押新设备设计的支撑较强，机械仍可接已付费工艺/改造。",
+      "source_refs": [
+        {
+          "source_id": "H01",
+          "locator": "row4"
+        },
+        {
+          "source_id": "B-CUMT",
+          "locator": "“分到机械工程后，两条…出口”"
+        },
+        {
+          "source_id": "B-INV",
+          "locator": "新增投资/存量改造/运营三段"
+        }
+      ],
+      "depends_on": [
+        "A03",
+        "F05",
+        "I01"
+      ],
+      "premises": [
+        "不是只按产量推岗位",
+        "实际工作地点和本科资格满足"
+      ],
+      "scope_and_limit": "相对工作位置变化，不称机械总需求下降或IE必增；未将两雇主当同一预算。",
+      "counterevidence_or_competing_explanation": "改造也可能需要机械且两方共用投资预算；不能按专业名把机械全部归新增投资。",
+      "change_or_withdraw_when": "目标机会集中于设备验证且机械训练更强时机械升位；只招熟手时两方同时降。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I04",
+      "kind": "inference",
+      "statement": "利润/现金与组织应对决定任务能否成为新人岗位；同客户预算恶化会令IE与机械共同承压，换雇主不自动分散。",
+      "source_refs": [
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§二订单/利润/带教连接"
+        },
+        {
+          "source_id": "B-INV",
+          "locator": "“收益和付费”及S4"
+        }
+      ],
+      "depends_on": [
+        "F14",
+        "A03"
+      ],
+      "premises": [
+        "新聘与训练需要可持续资源",
+        "备选仍共享主要终端风险时"
+      ],
+      "scope_and_limit": "未证明本包先导与弘远共享客户或合同；不是两家真实财务判断。",
+      "counterevidence_or_competing_explanation": "确有不同付款方和稳定在产预算可产生有条件分散。",
+      "change_or_withdraw_when": "实际独立预算、回款及新人开放得到确认后上调备选分散价值。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I05",
+      "kind": "inference",
+      "statement": "数据系统/标准化工具可能吸收报表、常规排程和重复制图；新人价值更依赖量测口径、异常解释、试验复验。任务可集中给中央团队、设备商/集成商而非随部署量同比增人。",
+      "source_refs": [
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§二标准平台与定制并存/熟手覆盖条件推断"
+        },
+        {
+          "source_id": "E02",
+          "locator": "L81—87"
+        },
+        {
+          "source_id": "H01",
+          "locator": "row4及row7职责"
+        }
+      ],
+      "depends_on": [
+        "A03",
+        "F02",
+        "F05"
+      ],
+      "premises": [
+        "常规任务确可可靠标准化",
+        "异常和实施责任仍需组织承接"
+      ],
+      "scope_and_limit": "未来任务重组推断，无替代率或已实施裁员事实；不说工具消灭整个专业。",
+      "counterevidence_or_competing_explanation": "新系统初期也可增加数据治理/联调工作，只有工作包和新人分工成立才改变方向。",
+      "change_or_withdraw_when": "实际新人仍获得完整解释/验证责任则保留成长价值；仅重复操作则撤回溢价。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I06",
+      "kind": "inference",
+      "statement": "政策经成本、实际采购和验收，人口经具体难补岗位、全成本和可靠替代，才可能改变生产组织和本科任务；当前不加政策/人口就业红利。",
+      "source_refs": [
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§二人口机制明示假设"
+        },
+        {
+          "source_id": "B-INV",
+          "locator": "“收益和付费”及“复用事实…不直接等于新人招聘”"
+        }
+      ],
+      "depends_on": [
+        "A03"
+      ],
+      "premises": [
+        "政策实际兑现或劳动力约束确与对象相关"
+      ],
+      "scope_and_limit": "没有新增政策/人口事实，未查当地缺工；少子化不直接推出2031合格供给。",
+      "counterevidence_or_competing_explanation": "加班、外包或缩产可代替设备采购；政策目标非兑现。",
+      "change_or_withdraw_when": "取得对象明确的执行/预算、人员约束及新人模块证据后再加权，不必每环先做实证才作条件推演。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "I07",
+      "kind": "inference",
+      "statement": "2031宜争取有监督的量测/分析/改动复验小模块；2037价值取决于是否积累原因解释与后果责任，IE偏系统改善持续性，机械偏设计工艺验证，不由工龄自动升级。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "参与/协助/逐步参与职责L81—87"
+        },
+        {
+          "source_id": "H01",
+          "locator": "row4设计/样机/制造维护责任"
+        },
+        {
+          "source_id": "B-MECH",
+          "locator": "“2027到2037”"
+        },
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§五工龄与真实反馈区别"
+        }
+      ],
+      "depends_on": [
+        "A01",
+        "F02",
+        "F05",
+        "I01"
+      ],
+      "premises": [
+        "实际入岗并有带教/反馈和项目机会"
+      ],
+      "scope_and_limit": "提出入岗与成长评估标准，不证明已存在对应新人训练；六年不是连续就业保证。",
+      "counterevidence_or_competing_explanation": "只做报表、催节点、改图会积累执行熟练而未必形成诊断能力。",
+      "change_or_withdraw_when": "连续缺少原因分析/复验/责任反馈且无法转向时撤回技术成长预期。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R01",
+      "kind": "recommendation",
+      "statement": "流程、质量波动及资源配置改善是主要目标且训练/新人模块成立时，先核IE；机械为有资格与补训条件的备选。",
+      "source_refs": [
+        {
+          "source_id": "E02",
+          "locator": "L79—95"
+        },
+        {
+          "source_id": "C04",
+          "locator": "p28—30"
+        }
+      ],
+      "depends_on": [
+        "A02",
+        "I01",
+        "I02"
+      ],
+      "premises": [],
+      "scope_and_limit": "方向核查优先非正式志愿排序；IE不独占改善岗位。",
+      "counterevidence_or_competing_explanation": "本包机械没有已证同岗接收；其潜在备选必须另核资格。",
+      "change_or_withdraw_when": "IE不可入或缺实际改善训练，而机械有真实工艺改善反馈及本科接收时反转。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R02",
+      "kind": "recommendation",
+      "statement": "结构、工艺、设备设计与实物验证为主要目标时机械前置。",
+      "source_refs": [
+        {
+          "source_id": "C02",
+          "locator": "p11—14"
+        },
+        {
+          "source_id": "H01",
+          "locator": "row4"
+        }
+      ],
+      "depends_on": [
+        "A02",
+        "I01",
+        "I03"
+      ],
+      "premises": [],
+      "scope_and_limit": "机械相关广告非准确专业保证，仍核具体接受；不是机械总就业更优。",
+      "counterevidence_or_competing_explanation": "如果实际机械训练仅模板而另一IE路径可得相关工程项目，弱化或反转。",
+      "change_or_withdraw_when": "目标转流程/资源配置或对象训练不可得时重排。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R03",
+      "kind": "recommendation",
+      "statement": "两类工作均接受、目标未定但希望保留设备对象深入空间，且入学/成本/训练相近时机械弱前置。",
+      "source_refs": [
+        {
+          "source_id": "C02",
+          "locator": "必修力学/设计/制造/测试及实践"
+        },
+        {
+          "source_id": "C04",
+          "locator": "工程基础与IE核心区分"
+        }
+      ],
+      "depends_on": [
+        "A02",
+        "I01"
+      ],
+      "premises": [
+        "保留设备深入空间是本比较的明确设定而非用户偏好"
+      ],
+      "scope_and_limit": "相对补训成本的作者判断，不是专业就业率、薪资或普遍难度事实。",
+      "counterevidence_or_competing_explanation": "纯流程目标或IE实际完整工程项目可取消该前置；不认为管理/系统方法容易。",
+      "change_or_withdraw_when": "目标转向资源配置、IE实际反馈更好或机械不可进入时反转/撤回。",
+      "strength": "弱前置，条件敏感",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R04",
+      "kind": "recommendation",
+      "statement": "共同质量/项目任务按对象区分：系统波动/资源协调先比IE训练，材料/尺寸/结构失效/设计变更先比机械；纯文控协调不因专业名强排。",
+      "source_refs": [
+        {
+          "source_id": "H01",
+          "locator": "row7与row4分别定位"
+        },
+        {
+          "source_id": "C04",
+          "locator": "质量/计划/系统课程"
+        },
+        {
+          "source_id": "C02",
+          "locator": "测试/材料/设计/工艺课程"
+        }
+      ],
+      "depends_on": [
+        "F04",
+        "F06",
+        "I01",
+        "I07"
+      ],
+      "premises": [],
+      "scope_and_limit": "不宣称两准确专业同岗已通过全部资格；训练比较先于广告标签判断。",
+      "counterevidence_or_competing_explanation": "质量/项目同名可对应不同对象与深度，职名不能代表技术责任。",
+      "change_or_withdraw_when": "具体资格、工作内容与本人可得训练一致性更强的一方升位；相近则按进入机会/费用比较。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R05",
+      "kind": "recommendation",
+      "statement": "保留本科主比较。目标资格增益与本科及直接工作较难替代的相关优化研究/设计验证训练增益是两条分别核实的读研比较理由，不要求同时成立；两条均核真实性、培养路径可进入性以及相对本科直入的预期增量收益和成本。比较不等于前置，只有有依据的预期增量收益足以补偿学费、额外生活支出、延后收入及工程经历机会成本时才前置读研。三年制假设则2034毕业，到2037约三年硕士毕业后经历。",
+      "source_refs": [
+        {
+          "source_id": "B-MECH",
+          "locator": "“2027到2037”硕士分支"
+        },
+        {
+          "source_id": "B-DRIVE",
+          "locator": "§五以目标门槛而非热度深造"
+        }
+      ],
+      "depends_on": [
+        "A01",
+        "I07"
+      ],
+      "premises": [
+        "资格分支：目标学历门槛与可取得学位匹配，培养路径可进入，并有依据确认其增加目标资格；不以特定研究训练增益作为额外通用门槛。",
+        "训练分支：培养路径可进入，相关优化研究或设计验证训练确可获得，且相较本科及直接工作较难替代；目标岗仍接收本科不排除此分支。",
+        "两分支分别与本科直入核预期增量收益及总成本；发现比较理由不等于已证明收益足以补偿成本。"
+      ],
+      "scope_and_limit": "没有已核本题IE/机械目标岗的统一硕士门槛或具体硕士项目，不借电驱算法门槛推广；两条为条件判断而非新增资格/培养事实，仍保留本科主线。",
+      "counterevidence_or_competing_explanation": "本科已有合适验证/改善任务时，仅学历标签不能证明增益；若相关训练在本科或直接工作中已有同等可得机会，难替代训练理由减弱，但本科岗位开放本身不排除真实训练增益。",
+      "change_or_withdraw_when": "资格分支核门槛与可取得学位匹配、路径可进入和增益真实性后纳入比较，不须再证明特定研究训练增益；训练分支核路径可进入、训练实际可得且较本科及直接工作难替代后纳入比较，即使目标岗接收本科亦可。任一分支仅在有依据的预期增量收益足以补偿总成本时前置；对应证据不足、路径不可进入或收益不足以补偿成本时不前置，保留本科主比较。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_revision_r1"
+    },
+    {
+      "id": "R06",
+      "kind": "recommendation",
+      "statement": "以实际反馈反转排序：IE可得真实改善、机械仅模板，则IE升；IE仅报表文控、机械有工艺验证及本科模块，则机械升。",
+      "source_refs": [
+        {
+          "source_id": "C04",
+          "locator": "计划结构不证明兑现"
+        },
+        {
+          "source_id": "C02",
+          "locator": "计划结构不证明兑现"
+        },
+        {
+          "source_id": "E02",
+          "locator": "真实职责范围"
+        }
+      ],
+      "depends_on": [
+        "R01",
+        "R02",
+        "R03",
+        "I07"
+      ],
+      "premises": [],
+      "scope_and_limit": "改判观察标准，不是断言任一学校目前如此。",
+      "counterevidence_or_competing_explanation": "学校项目宣传或企业培训承诺不等普通学生/新人实际获得。",
+      "change_or_withdraw_when": "核课程分配、本人参与、异常解释/复验记录及入口专业后才执行对应换序。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    },
+    {
+      "id": "R07",
+      "kind": "recommendation",
+      "statement": "当前把IE提升为流程目标优先核方向，不新增已可报候选；最先核适用年份对江苏开放的目标项目、选科/渠道、完整组和大类接受度，再合并可比位次风险/计划/成本及训练。",
+      "source_refs": [
+        {
+          "source_id": "B-CUMT",
+          "locator": "“把高考接受度与分流后果合成一次决策”"
+        },
+        {
+          "source_id": "B-CROSS",
+          "locator": "“下端只沿三个真实历史组”边界"
+        }
+      ],
+      "depends_on": [
+        "F15",
+        "A01",
+        "A02",
+        "R01",
+        "R02",
+        "R06"
+      ],
+      "premises": [],
+      "scope_and_limit": "招生暂停是范围边界非故障；本批不补组号/位次，不把CUMT分流嫁接南农。",
+      "counterevidence_or_competing_explanation": "有本科职业出口不能提高投档概率；不能用未来转专业抵消不可接受去向。",
+      "change_or_withdraw_when": "IE无合适真实入口则移出可执行表；入口成立且训练/风险匹配可升主方案；双方无可接受新人模块则同时撤回优先。",
+      "strength": "条件性判断，非统计预测",
+      "author_stage": "research_analysis"
+    }
+  ],
+  "excluded": [
+    "E01原页读取失败，摘要不采信",
+    "薪酬/人数不推未来收益/概率",
+    "未核2027江苏招生不当作不可规划",
+    "不将机械模块全拼或推定二选一"
+  ],
+  "unavailable_originals": [
+    {
+      "id": "E01",
+      "url": "https://job.tju.edu.cn/recruitment/content/type/2/id/6237.html",
+      "attempted_at": "2026-11-11T04:30:58.921871+00:00",
+      "result": "原页因HTTP重定向循环读取失败；仅有线索而未采信，不列为已核来源。"
+    }
+  ],
+  "provenance": {
+    "research_basis": "固定研究修订稿；仅R05读研增益比较在原研究修订阶段实质修改，其余31条承接原分析。公开整理不改变主张。",
+    "memo_sha256_before_public_conversion": "b5b026330abf8f6fab44fba779ff40af7f2de872adfe08bf92423dfc69a6ed3c",
+    "claim_map_sha256_before_public_conversion": "5f8a8ecfd1277ed0ba9e60e40129438d5c62940edf8be5c4b759caa411aaf49a",
+    "author_stages": {
+      "research_analysis": "原研究分析",
+      "research_revision_r1": "读研条件修订"
+    },
+    "publication_conversion": "去除内部状态和本地路径，合并来源定位，保留主张语义及必要脱敏作者阶段；公开版本的独立审核另绑定实际版本。"
+  }
+}
