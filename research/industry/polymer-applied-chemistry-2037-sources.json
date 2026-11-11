@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "title": "高分子材料与工程 vs 应用化学：来源与主张索引",
+  "research_updated_on": "2026-11-11",
+  "base_commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+  "scope": "江苏生源本科方向；示例2027入学/2031本科入口/2037职业观察；事实限定常州大学当前所链2024级方案及两份雇主招聘快照",
+  "body_path": "research/industry/polymer-applied-chemistry-2037-choices.md",
+  "source_policy": "保留公开URL、取得时间、来源快照SHA-256与物理页/网页表格定位。SHA-256标识研究时取得的版本，不证明当前URL字节永远不变。既有公开项目文档锁定提交；未重新读取其所链外部原件。原始文件、完整HTTP响应及运行日志不随本文复制。",
+  "page_number_policy": "PDF物理页为主；U04印刷页=物理页+38。招聘按可见标题、表格行及字段定位，不依赖未公开的提取文本行号。",
+  "source_registry": {
+    "U03": {
+      "kind": "primary_source_snapshot",
+      "publisher": "常州大学教务处",
+      "title": "应用化学2024级培养方案发布页",
+      "url": "https://jwc.cczu.edu.cn/2025/0223/c19320a384063/page.htm",
+      "published_at": "2025-02-23",
+      "publication_date_basis": "HTML visible date only",
+      "retrieved_at": "2026-11-11T10:48:01.033339+00:00",
+      "sha256": "4e9955a8ff7f99aa3e4bba023eef82e7fc5cd5a7035b1dfc6ca717898a1b8d44",
+      "scope": "Publication page label is not proof of attachment last revision or 2027 applicability"
+    },
+    "U04": {
+      "kind": "primary_source_snapshot",
+      "publisher": "常州大学教务处",
+      "title": "应用化学专业本科培养方案（由2024级页链接）",
+      "url": "https://jwc.cczu.edu.cn/_upload/article/files/ac/56/bd4846a9422fbe81e5242462851d/07f61d2b-dff3-47a2-91e8-4b6444f14af3.pdf",
+      "published_at": null,
+      "publication_date_basis": "not displayed/unknown; metadata separately retained",
+      "retrieved_at": "2026-11-11T10:48:29.940612+00:00",
+      "sha256": "06d65e921b4947b9fb763c753b8a0d8e0b4d253d6a96517f6435ca5a380f5d8b",
+      "scope": "Text183 vs table182 credits; compulsory/elective distinctions; no training outcomes"
+    },
+    "U07": {
+      "kind": "primary_source_snapshot",
+      "publisher": "常州大学教务处",
+      "title": "高分子2024级培养方案发布页",
+      "url": "https://jwc.cczu.edu.cn/2025/0223/c19339a384085/page.htm",
+      "published_at": "2025-02-23",
+      "publication_date_basis": "HTML visible date only",
+      "retrieved_at": "2026-11-11T10:49:33.958335+00:00",
+      "sha256": "b5f251d0412a630e9f4a4f6deaf21603274de7e0d23ffead63469fc15a13e107",
+      "scope": "Page date predates current attached PDF metadata; no same-revision claim"
+    },
+    "U08": {
+      "kind": "primary_source_snapshot",
+      "publisher": "常州大学教务处",
+      "title": "高分子材料与工程专业本科培养方案（正文2024级）",
+      "url": "https://jwc.cczu.edu.cn/_upload/article/files/36/92/7089f3364fcd90a7eb85ada10e06/73806643-7eea-4ca5-821d-1e9366312fc3.pdf",
+      "published_at": null,
+      "publication_date_basis": "not displayed/unknown; metadata separately retained",
+      "retrieved_at": "2026-11-11T10:49:54.998381+00:00",
+      "sha256": "773fb837de67ff29467bd094b3f61214caa94aceb38a9397dee816fa7aa2d308",
+      "scope": "PDF title metadata2020 vs body2024; Creation/ModDate2026-10-26; last-modified2026-10-27. Credits contain overlapping practical counts. No 2027 applicability/training outcome"
+    },
+    "E02": {
+      "kind": "primary_source_snapshot",
+      "publisher": "大连理工大学盘锦校区就业信息网（载金发科技公司校招原文）",
+      "title": "金发科技股份有限公司2027届全球校园招聘",
+      "url": "https://pjcareer.dlut.edu.cn/info/1051/45022.htm",
+      "published_at": null,
+      "publication_date_basis": "not displayed/unknown; metadata separately retained",
+      "retrieved_at": "2026-11-11T10:47:55.127392+00:00",
+      "sha256": "a304a4053c7b60564bc96c6c4e508985980d111e52b9a3786b29a9c15de79b83",
+      "scope": "No explicit HTML publication date. Employer claims carried on university site; HTTP last-modified2026-09-08 is not publication certification. Applied Chemistry not exact in focal undergraduate row. No detailed process/customer/order work package"
+    },
+    "E03": {
+      "kind": "primary_source_snapshot",
+      "publisher": "四川大学就业指导中心职位页；页面发布企业卫星化学股份有限公司",
+      "title": "化验工程师",
+      "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y92Ku9SqsmHddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "published_at": "2026-08-27T13:44:13",
+      "publication_date_basis": "HTML visible date only",
+      "retrieved_at": "2026-11-11T10:48:36.283905+00:00",
+      "sha256": "4257db181a5200e97dd7b30b5f1973c952970c5f15483b6d4ec23da6a698e853",
+      "scope": "Applied Chemistry exact in profession field and requirements; polymer not exact. Addresses differ. New-graduate application channel, but exact cohort not listed for position. Related2027 event not a position cohort proof"
+    },
+    "M04": {
+      "kind": "response_metadata_observation",
+      "title": "应用化学PDF的HTTP修改时间观察",
+      "publisher": "常州大学教务处网站（HTTP响应）",
+      "source_id": "U04",
+      "url": "https://jwc.cczu.edu.cn/_upload/article/files/ac/56/bd4846a9422fbe81e5242462851d/07f61d2b-dff3-47a2-91e8-4b6444f14af3.pdf",
+      "retrieved_at": "2026-11-11T10:48:29.940612+00:00",
+      "observations": {
+        "last_modified": "Sun, 23 Feb 2025 05:39:42 GMT"
+      },
+      "scope": "仅记录取得当次的HTTP last-modified字段；不是正式发布日期、生效届别或今后网页状态认证。"
+    },
+    "M08": {
+      "kind": "response_metadata_observation",
+      "title": "高分子PDF的HTTP修改时间观察",
+      "publisher": "常州大学教务处网站（HTTP响应）",
+      "source_id": "U08",
+      "url": "https://jwc.cczu.edu.cn/_upload/article/files/36/92/7089f3364fcd90a7eb85ada10e06/73806643-7eea-4ca5-821d-1e9366312fc3.pdf",
+      "retrieved_at": "2026-11-11T10:49:54.998381+00:00",
+      "observations": {
+        "last_modified": "Tue, 27 Oct 2026 06:56:35 GMT"
+      },
+      "scope": "仅记录取得当次的HTTP last-modified字段；不是正式发布日期、生效届别或今后网页状态认证。"
+    },
+    "B01": {
+      "kind": "fixed_project_document",
+      "title": "材料与化工职业卡",
+      "sha256": "007ebbad84190d99c07e36cbee4ed8afbb71fd815c39bcb7db20942dcef514fd",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "research/admissions/materials-chemical-careers.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/research/admissions/materials-chemical-careers.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "B02": {
+      "kind": "fixed_project_document",
+      "title": "化学工程职业情景",
+      "sha256": "85b14b4d82cf4c3d9df04ca81df5d3d474666f7210794fa70550f2db7fa1689d",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "research/admissions/chemical-engineering-career-scenarios.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/research/admissions/chemical-engineering-career-scenarios.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "B03": {
+      "kind": "fixed_project_document",
+      "title": "储能材料与控制条件比较",
+      "sha256": "b07ffbcffdcb7ce2ddb1fe85f32413e34d71a51b188f3c9526d03194f25aef42",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/research/admissions/jiangsu-27151-energy-capacity-materials-control.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "B04": {
+      "kind": "fixed_project_document",
+      "title": "专业与职业总索引",
+      "sha256": "054283115bfccc61721b98f5813a5f7b3849a40085ea8b269aa5f66fcb619985",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "research/admissions/major-career-routing.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/research/admissions/major-career-routing.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "G01": {
+      "kind": "fixed_project_document",
+      "title": "高考规划入口",
+      "sha256": "5b041401c7bc96c3e7e1b834a7ee3eb40e41a562466071de82608c02df1ea077",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "docs/gaokao-planning-core.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/docs/gaokao-planning-core.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "G02": {
+      "kind": "fixed_project_document",
+      "title": "研究方法",
+      "sha256": "7d4b584b65d05ab6941cdf7ba720ed7000ee77ad33af07ab40c0cde95dd0ce40",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "docs/research-methods.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/docs/research-methods.md",
+      "publisher": "知途研究 · Pathwise Research"
+    },
+    "G03": {
+      "kind": "fixed_project_document",
+      "title": "研究总图",
+      "sha256": "1436c50eccc300e422d117a28de40725dea27f9e9c18153c9f57a4f25a0925bc",
+      "commit": "da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1",
+      "scope": "本批读取固定项目文档；不声称重读该文所链外部原件。",
+      "repository_path": "docs/research-architecture.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/da2e27f1353e3429ab29e8c3227ff29ee6dbf9d1/docs/research-architecture.md",
+      "publisher": "知途研究 · Pathwise Research"
+    }
+  },
+  "claims": [
+    {
+      "id": "F01",
+      "type": "fact",
+      "statement": "常州大学两专业均为四年、工学学士，网页同标2024级；当前高分子PDF正文2024级但Title残留2020级，修订元数据与应化不同。",
+      "sources": [
+        {
+          "source_id": "U03",
+          "locator": "页面标题及发布时间、pdfsrc"
+        },
+        {
+          "source_id": "U07",
+          "locator": "页面标题及发布时间、pdfsrc"
+        },
+        {
+          "source_id": "U04",
+          "locator": "物理16页/印刷54页，十、学制学位"
+        },
+        {
+          "source_id": "U08",
+          "locator": "物理1页正文标题；物理24页十、学制学位；PDF文档信息Title/CreationDate/ModDate"
+        },
+        {
+          "source_id": "M04",
+          "locator": "headers.last-modified=Sun, 23 Feb 2025 05:39:42 GMT"
+        },
+        {
+          "source_id": "M08",
+          "locator": "headers.last-modified=Tue, 27 Oct 2026 06:56:35 GMT"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [
+        "同校同标称届别的当前文本快照"
+      ],
+      "does_not_establish": [
+        "同一修订版本",
+        "2027适用确认",
+        "全国应化均授工学"
+      ],
+      "would_change_or_restrict": [
+        "当学校明确2027适用方案或更正附件时，重比受影响课程。"
+      ]
+    },
+    {
+      "id": "F02",
+      "type": "fact",
+      "statement": "U04正文毕业总183、结构表合计182；U08总181而理论与含课内实验实践不能机械相加，不能据此计算学分/实践比优劣。",
+      "sources": [
+        {
+          "source_id": "U04",
+          "locator": "物理15页/印刷53页，七、毕业学分要求；物理19—21页结构小计"
+        },
+        {
+          "source_id": "U08",
+          "locator": "物理23页，七、毕业学分要求；物理31—32页实践计划总计39.5"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "哪一数字为学校最终执行口径",
+        "哪个专业实际训练更多"
+      ],
+      "would_change_or_restrict": [
+        "学校澄清统一口径后可比较安排量，仍须独立验证训练质量。"
+      ]
+    },
+    {
+      "id": "F03",
+      "type": "fact",
+      "statement": "高分子有高分子化学、物理、材料仪器分析及成型工艺/加工原理/模具/现代测试/聚合物反应原理的必修链，课程描述连接原料配制、加工参数与设备及制品性能。",
+      "sources": [
+        {
+          "source_id": "U08",
+          "locator": "物理28—30页B1与C1；45—46页课程描述"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "毕业生都已会企业配方开发",
+        "课名保证实验操作熟练"
+      ],
+      "would_change_or_restrict": [
+        "适用方案或实际课程执行显著缺失时削弱I06。"
+      ]
+    },
+    {
+      "id": "F04",
+      "type": "fact",
+      "statement": "高分子共混改性、助剂及稳定降解等是C2选修，应修6学分；流变、聚合物合成工艺等列B2，应修2学分。",
+      "sources": [
+        {
+          "source_id": "U08",
+          "locator": "物理29—31页B2/C2；47页流变课程描述"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "所有选项人人修读",
+        "描述中的必须具备等于必修"
+      ],
+      "would_change_or_restrict": [
+        "实际选课开放、时间冲突或届别安排改变时更新个体训练比较。"
+      ]
+    },
+    {
+      "id": "F05",
+      "type": "fact",
+      "statement": "应化必修含仪器分析、工业分析及实验、专业实验、精细工艺、反应工程、分离等，不限于日常化验。",
+      "sources": [
+        {
+          "source_id": "U04",
+          "locator": "物理19—21页/印刷57—59页，B1与C1"
+        },
+        {
+          "source_id": "U04",
+          "locator": "物理1页专业介绍及物理16页就业与发展"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "培养目标就是雇主接收承诺",
+        "实际获得所有仪器的独立使用机会"
+      ],
+      "would_change_or_restrict": [
+        "如果实际方案/训练偏离，对I07和S02重新评价。"
+      ]
+    },
+    {
+      "id": "F06",
+      "type": "fact",
+      "statement": "应化C2两个课程群各选4学分，选项含材料分析技术、合成材料助剂与功能高分子；高分子测试课程亦涉及光谱/色谱等分析。",
+      "sources": [
+        {
+          "source_id": "U04",
+          "locator": "物理4页/印刷42页两个课程群各选4.0；物理21页/印刷59页C2"
+        },
+        {
+          "source_id": "U08",
+          "locator": "物理46页材料现代测试方法描述"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "双方训练完全等价",
+        "应化人人修全材料选项",
+        "高分子没有化学分析"
+      ],
+      "would_change_or_restrict": [
+        "若跨方向选课与实操可达，专业名的单独解释力下降。"
+      ]
+    },
+    {
+      "id": "F07",
+      "type": "fact",
+      "statement": "高分子计划有聚合物实验、生产实习、综合实验、模具设计、毕业环节；应化有仿真实习、化原设计、毕业实习、毕业设计及论文；文件未提供每位学生实践兑现结果。",
+      "sources": [
+        {
+          "source_id": "U08",
+          "locator": "物理31—32页实践计划"
+        },
+        {
+          "source_id": "U04",
+          "locator": "物理22页/印刷60页实践计划"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "校企标记保证企业名额",
+        "周数等于有效训练质量",
+        "计划未列结果说明结果不存在"
+      ],
+      "would_change_or_restrict": [
+        "可核学生项目、操作范围、带教与反馈证明会增强或削弱相应路径。"
+      ]
+    },
+    {
+      "id": "F08",
+      "type": "fact",
+      "statement": "金发2027届表的工艺/生产技术行列硕士/本科并逐字列高分子，地点含昆山/徐州；本科美学色彩/应用行亦逐字列高分子等专业优先。应化在这两行未逐字出现。",
+      "sources": [
+        {
+          "source_id": "E02",
+          "locator": "网页标题；集团各中心/改性塑料/新材料等板块职位表中的“美学色彩/应用工程师”与“工艺工程师/生产技术工程师”完整行（学历、专业、工作地各列）"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "应化明确被拒",
+        "每个地点的名额",
+        "本科独立配方研发",
+        "2031仍招或录用概率"
+      ],
+      "would_change_or_restrict": [
+        "同岗明确专业接收和职责更新可改变资格比较；仅未列名不能判排除。"
+      ]
+    },
+    {
+      "id": "F09",
+      "type": "fact",
+      "statement": "金发同表改性等研发行列博士/硕士，聚合与精细化工研发逐字列应用化学；另有本科研发助理、材料/化学/化工等相关口径。",
+      "sources": [
+        {
+          "source_id": "E02",
+          "locator": "同一职位表中改性新材料、聚合、精细化工研发及应用开发研发对应行，另对照“研发助理”行的学历、专业列"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "所有研发任务只招研究生",
+        "本科研究助理等于独立配方研究",
+        "两准确专业在助理岗均已确认接受"
+      ],
+      "would_change_or_restrict": [
+        "目标研发岗的学历/专业要求及训练任务改变时更新读研比较。"
+      ]
+    },
+    {
+      "id": "F10",
+      "type": "fact",
+      "statement": "卫星化验岗位明列本科应化、仪器操作、质量意识及倒班；职责包括原中成品检验、SOP、复检上报、仪器维护和SOP优化。高分子未逐字列出。",
+      "sources": [
+        {
+          "source_id": "E03",
+          "locator": "职位页面的专业、学历字段；任职要求中的仪器、质量与倒班条款；岗位职责中的检验、SOP、复检和仪器维护条款"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "高分子一定不接收",
+        "应化都在非生产实验室工作",
+        "已承诺方法开发/晋升"
+      ],
+      "would_change_or_restrict": [
+        "准确专业接收、轮班和实际任务变化会影响适用人群及路径。"
+      ]
+    },
+    {
+      "id": "F11",
+      "type": "fact",
+      "statement": "卫星地址栏嘉兴南湖，简介列嘉兴/平湖/连云港；具体分配和岗位精确毕业届别未单列。金发双休说明有部分岗位例外，两公司宣传不保证特定岗位带教。",
+      "sources": [
+        {
+          "source_id": "E03",
+          "locator": "职位页面的工作地址字段、职位简介列出的基地及关联宣讲信息；关联宣讲不认定岗位届别"
+        },
+        {
+          "source_id": "E02",
+          "locator": "招聘福利中双休及部分岗位例外说明；人才培养/培训宣传段"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "10人全部在江苏",
+        "职位精确限定2027届",
+        "工艺绝不倒班",
+        "具体岗位导师已配置"
+      ],
+      "would_change_or_restrict": [
+        "正式岗位分配及届别、轮班、带教证据可解除相应未知。"
+      ]
+    },
+    {
+      "id": "F12",
+      "type": "fact",
+      "statement": "本次固定项目材料没有高分子材料与工程、应用化学两准确专业已核江苏组接口；材料泛类和上电新能源材料不能替代。",
+      "sources": [
+        {
+          "source_id": "B01",
+          "locator": "全篇，材料/化工一般入口与规划"
+        },
+        {
+          "source_id": "B02",
+          "locator": "考生志愿与培养段，为假设A/B校"
+        },
+        {
+          "source_id": "B03",
+          "locator": "两条轴、历史表及来源版本边界，目标为新能源材料与器件"
+        },
+        {
+          "source_id": "B04",
+          "locator": "材料与化工导航及相关方向条目，不含本批两专业确认组"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "现实中不在江苏招生",
+        "整个仓库没有任何其他资料",
+        "可新增已确认候选或改变既有计数"
+      ],
+      "would_change_or_restrict": [
+        "将来取得准确专业及年度组接口后才可进入具体候选比较。"
+      ]
+    },
+    {
+      "id": "F13",
+      "type": "fact",
+      "statement": "固定材料化工卡、化工情景已讨论精细化/数字化/安全化与竞争压力；本批仅复用项目背景，未重读其外部政策原件。",
+      "sources": [
+        {
+          "source_id": "B01",
+          "locator": "产业证据与判断"
+        },
+        {
+          "source_id": "B02",
+          "locator": "产业与政策基线"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [],
+      "does_not_establish": [
+        "本批独立认证政策细节",
+        "政策方向证明2031扩招",
+        "全国行业数字证明具体企业订单"
+      ],
+      "would_change_or_restrict": [
+        "若相关政策实际改变产品成本/准入/责任且有实施材料，再更新对应节点。"
+      ]
+    },
+    {
+      "id": "A01",
+      "type": "assumption",
+      "statement": "比较对象为示例江苏生源，2027入学四年本科2031毕业、2037约六年毕业后观察；R暂包括江苏和考生愿迁居的沪浙基地，两方案成本和训练可比。",
+      "sources": [
+        {
+          "source_id": "G01",
+          "locator": "时间轴、跨路径时间与判断依据及当前数据建设范围"
+        }
+      ],
+      "depends_on": [],
+      "conditions": [
+        "均为明示示例，不是任何具体考生的画像",
+        "实际工作条件必须另确认"
+      ],
+      "does_not_establish": [
+        "六年连续就业",
+        "2037固定职级",
+        "具体考生接受跨省/倒班"
+      ],
+      "would_change_or_restrict": [
+        "真实入学年、学制、地区、费用和工作接受度替换示例时重算。"
+      ]
+    },
+    {
+      "id": "A02",
+      "type": "assumption",
+      "statement": "主场景是客户用达标且综合成本较低的新改性聚合物配方替代原有牌号，供应商有设备/测试/带教，并允许本科参与受控试验；未核某具体产品全链。",
+      "sources": [],
+      "depends_on": [
+        "F03",
+        "F08"
+      ],
+      "conditions": [
+        "替代目标是性能与综合使用成本，不仅树脂单价",
+        "存在实际客户与试验机会"
+      ],
+      "does_not_establish": [
+        "已确认金发某牌号订单或客户认证",
+        "原件缺失等于企业没有业务"
+      ],
+      "would_change_or_restrict": [
+        "实际目标不涉及聚合物加工或缺少客户验证/新人任务，转用S02或S04。"
+      ]
+    },
+    {
+      "id": "I01",
+      "type": "inference",
+      "statement": "改配方影响加工与制品表现；实验样条达标不充分证明客户采用，须比较客户设备工况、重复批次、废品和返工等综合成本。",
+      "sources": [
+        {
+          "source_id": "U08",
+          "locator": "45—46页成型工艺与加工原理描述，仅支持配制—加工—性能连接"
+        }
+      ],
+      "depends_on": [
+        "A02",
+        "F03"
+      ],
+      "conditions": [
+        "客户性能和工艺约束真实存在",
+        "从样条到客户批次有放大/适配阶段"
+      ],
+      "does_not_establish": [
+        "具体认证已经完成",
+        "某配方一定失败或成功"
+      ],
+      "would_change_or_restrict": [
+        "同一客户稳定批次试用与采购数据可判断是技术、成本还是准入瓶颈。"
+      ]
+    },
+    {
+      "id": "I02",
+      "type": "inference",
+      "statement": "规模、销量、利润、回款与新人招聘分开；质量责任落在哪个主体，影响工艺修改、分析测试及本科分工。两专业可在链上互补。",
+      "sources": [
+        {
+          "source_id": "B03",
+          "locator": "从电站获益到本科工作段，仅复用支付与分工的分析方法，不移用储能事实"
+        },
+        {
+          "source_id": "G03",
+          "locator": "把规模、收益与就业拆开"
+        }
+      ],
+      "depends_on": [
+        "A02",
+        "I01",
+        "F05"
+      ],
+      "conditions": [
+        "规模可能改变成本及批次控制难度",
+        "合同/内部职责决定由谁负担验证与培训"
+      ],
+      "does_not_establish": [
+        "采购必然增加雇员",
+        "金发财务已被核实",
+        "质量责任必然独立收费"
+      ],
+      "would_change_or_restrict": [
+        "复购、毛利保留、回款、责任和带教分工的同市场材料可使S01/S04分化。"
+      ]
+    },
+    {
+      "id": "I03",
+      "type": "inference",
+      "statement": "若数据库、自动采样检测与AI辅助推广，重复操作/抄数工时可下降；对照试验、测量可信度、异常复现及变更记录的相对训练价值上升，但任务集中给熟手也可缩窄新人入口。",
+      "sources": [],
+      "depends_on": [
+        "I01",
+        "I02",
+        "F03",
+        "F05"
+      ],
+      "conditions": [
+        "工具部署及稳定运行真正发生",
+        "新人能接触非例行分析和现场反馈时才有互补路径"
+      ],
+      "does_not_establish": [
+        "企业已完成AI部署",
+        "这些工作不可被替代",
+        "工具一定使岗位净增",
+        "课程AI标记证明就业免疫"
+      ],
+      "would_change_or_restrict": [
+        "实际自动化后的人员安排、可分配工作包及新人训练记录改变判断。"
+      ]
+    },
+    {
+      "id": "I04",
+      "type": "inference",
+      "statement": "高分子本科可在受监督记录/制样/复测中起步，获得批次—参数—结果反馈和渐进变更任务后，2037可争取材料或工艺窗口的稳定性及技术沟通责任。",
+      "sources": [],
+      "depends_on": [
+        "A01",
+        "F03",
+        "F07",
+        "F08",
+        "I01",
+        "I02"
+      ],
+      "conditions": [
+        "雇主接收且给予带教、数据和逐步授权",
+        "2031—2033及后续阶段仅为示例",
+        "按企业权限参与，非新人自行放行"
+      ],
+      "does_not_establish": [
+        "已有雇主晋升承诺",
+        "六年等于专家",
+        "本科应用岗即独立配方岗"
+      ],
+      "would_change_or_restrict": [
+        "长期固定执行、无客户反馈或无变更参与时，下调2037积累预期。"
+      ]
+    },
+    {
+      "id": "I05",
+      "type": "inference",
+      "statement": "应化可由SOP检测/记录/维护/复检起步，进一步获得前处理、方法比对和结果溯源训练后，2037可争取某类方法可靠性、方法转移与质量闭环责任。",
+      "sources": [],
+      "depends_on": [
+        "A01",
+        "F05",
+        "F07",
+        "F10",
+        "I02"
+      ],
+      "conditions": [
+        "实际任务逐步扩展",
+        "样品/方法授权和现场反馈可获得"
+      ],
+      "does_not_establish": [
+        "卫星原岗已承诺方法开发",
+        "日常进样年限自动等于研发能力",
+        "自动取得管理权"
+      ],
+      "would_change_or_restrict": [
+        "若长期只进样报数或方法任务集中在其他团队，降低成长估计。"
+      ]
+    },
+    {
+      "id": "I06",
+      "type": "inference",
+      "statement": "在聚合物配料—成型—性能—应用目标下，高分子必修链与本科样本入口使其有条件弱前置。",
+      "sources": [],
+      "depends_on": [
+        "F03",
+        "F04",
+        "F07",
+        "F08",
+        "A02",
+        "I04"
+      ],
+      "conditions": [
+        "对应培养能兑现",
+        "地区/工作/成本可接受",
+        "不是与明显更优应化实际平台比较"
+      ],
+      "does_not_establish": [
+        "全国专业优劣",
+        "更高工资或录用胜率",
+        "招生资格已确定"
+      ],
+      "would_change_or_restrict": [
+        "训练不兑现、任务改为组成/精细过程或对侧项目更可得且补齐加工时反转。"
+      ]
+    },
+    {
+      "id": "I07",
+      "type": "inference",
+      "statement": "以化学组成/杂质分析、分析方法或精细反应分离为主目标且训练和接收成立时，应化前置。",
+      "sources": [],
+      "depends_on": [
+        "F05",
+        "F06",
+        "F07",
+        "F09",
+        "F10",
+        "I05"
+      ],
+      "conditions": [
+        "化学分析/过程而非成型失效为主任务",
+        "精细研发另核岗位学历和专业"
+      ],
+      "does_not_establish": [
+        "化验一个岗位证明所有研发本科接收",
+        "应化独占分析工作",
+        "所有应化都优于高分子"
+      ],
+      "would_change_or_restrict": [
+        "实际任务以聚合物成型/物性为主，或应化训练缺失时降低优先级。"
+      ]
+    },
+    {
+      "id": "I08",
+      "type": "inference",
+      "statement": "共同检验目标先分化学分析与聚合物物性；若同岗确实共同接收且训练相当暂并列，本文未证明共同接收事实。",
+      "sources": [],
+      "depends_on": [
+        "F03",
+        "F05",
+        "F06",
+        "F08",
+        "F10"
+      ],
+      "conditions": [
+        "同一R、同一任务比较",
+        "并列分支须准确专业接收及训练相当"
+      ],
+      "does_not_establish": [
+        "两个异岗招聘是控制实验",
+        "同为检测即技能完全相同"
+      ],
+      "would_change_or_restrict": [
+        "同一岗位明确专业与任务、实操可达性和总成本可改变次序。"
+      ]
+    },
+    {
+      "id": "I09",
+      "type": "inference",
+      "statement": "任务偏好完全未知不设全专业通用排名；可先用物性异常和组成/杂质异常两类实际训练检验选择。",
+      "sources": [],
+      "depends_on": [
+        "I06",
+        "I07",
+        "I08"
+      ],
+      "conditions": [
+        "无已知排他目标或工作约束",
+        "探查项目须可得且费用适当"
+      ],
+      "does_not_establish": [
+        "无限搁置选择",
+        "将示例目标当具体考生偏好"
+      ],
+      "would_change_or_restrict": [
+        "取得真实任务目标、拒绝条件或明显训练差异后立即作有向排序。"
+      ]
+    },
+    {
+      "id": "S01",
+      "type": "inference",
+      "statement": "基准情景为达标替代形成持续采购、责任及新人可学习分工，在聚合物加工应用目标下高分子弱前置。",
+      "sources": [],
+      "depends_on": [
+        "A02",
+        "I01",
+        "I02",
+        "I03",
+        "I06"
+      ],
+      "conditions": [
+        "不是宣称2031已验证未来",
+        "无强证据表明同一R/训练前提失败"
+      ],
+      "does_not_establish": [
+        "材料行业普遍爆发",
+        "岗位数量预测"
+      ],
+      "would_change_or_restrict": [
+        "验证/采购/回款/新人分工任一关键连接失败，缩窄或撤回。"
+      ]
+    },
+    {
+      "id": "S02",
+      "type": "inference",
+      "statement": "当持续付费工作主要落到组成杂质、方法与精细反应分离，且应化训练及本科准确接收落实时，应化前置。",
+      "sources": [],
+      "depends_on": [
+        "I07",
+        "I02",
+        "F09"
+      ],
+      "conditions": [
+        "改变的是任务结构及其训练匹配",
+        "精细研发岗位单独检学历"
+      ],
+      "does_not_establish": [
+        "只改专业名即得到新入口"
+      ],
+      "would_change_or_restrict": [
+        "若付费任务仍主要是成型和应用，目标反转不成立。"
+      ]
+    },
+    {
+      "id": "S03",
+      "type": "inference",
+      "statement": "同为改性料目标也可因学校实际训练而反转：高分子仅纸面，应化有真实材料/助剂项目、补齐成型且雇主确认接收。",
+      "sources": [],
+      "depends_on": [
+        "F04",
+        "F06",
+        "F07",
+        "I06"
+      ],
+      "conditions": [
+        "应化项目与加工补课实际可进入",
+        "雇主专业资格不靠相关类猜测"
+      ],
+      "does_not_establish": [
+        "所有更高学校声誉自动替代专业训练",
+        "应化选项即完整加工链"
+      ],
+      "would_change_or_restrict": [
+        "如果补课不可及或专业不接收，此反转无效。"
+      ]
+    },
+    {
+      "id": "S04",
+      "type": "inference",
+      "statement": "验证、利润/回款或新人分工失败可令两方向同时下调；退休空缺也可能由自动化、调配和外包吸收。",
+      "sources": [
+        {
+          "source_id": "G03",
+          "locator": "把规模、收益与就业拆开；人口研读中的补员方式"
+        }
+      ],
+      "depends_on": [
+        "I01",
+        "I02",
+        "I03"
+      ],
+      "conditions": [
+        "需要具体失败信号而非仅想象的抵消因素",
+        "同一市场共同受冲击时"
+      ],
+      "does_not_establish": [
+        "质量活动必要就新增本科",
+        "全国出生变化直接决定2031竞争"
+      ],
+      "would_change_or_restrict": [
+        "真实独立付款来源、新人接收和训练恢复时可重启对应路径。"
+      ]
+    },
+    {
+      "id": "R01",
+      "type": "recommendation",
+      "statement": "将I06/I07作当前方向规划：目标和实际训练成立后排序，不先生成江苏院校志愿表。",
+      "sources": [],
+      "depends_on": [
+        "I06",
+        "I07",
+        "F12"
+      ],
+      "conditions": [
+        "准确学校训练、工作条件和预算核实"
+      ],
+      "does_not_establish": [],
+      "would_change_or_restrict": [
+        "当招生接口与个人条件完整后，方向偏好和录取风险分轴合成。"
+      ]
+    },
+    {
+      "id": "R02",
+      "type": "recommendation",
+      "statement": "学历资格增益或独立且难替代的训练增益任一可构成读研比较理由；不设双必要门槛，本科可报不自动抹去训练理由。",
+      "sources": [
+        {
+          "source_id": "G01",
+          "locator": "跨路径时间与判断依据、两端汇合"
+        },
+        {
+          "source_id": "E02",
+          "locator": "研发类与本科助理/工艺行"
+        }
+      ],
+      "depends_on": [
+        "F09",
+        "I04",
+        "I05"
+      ],
+      "conditions": [
+        "资格增益对具体目标岗位有效，或训练增益确实难在本科/工作取得",
+        "导师/项目与培养路径可进入"
+      ],
+      "does_not_establish": [
+        "任一理由成立就必须读研",
+        "必须有产业商业化结果才能证明训练价值"
+      ],
+      "would_change_or_restrict": [
+        "若增益不可得或相较工作学习不明显，降低读研优先级。"
+      ]
+    },
+    {
+      "id": "R03",
+      "type": "recommendation",
+      "statement": "三年硕士示例2034毕业、2037约三年毕业后经历，应比较费用、放弃收入、完成可能和工作学习机会后再定前后。",
+      "sources": [],
+      "depends_on": [
+        "A01",
+        "R02"
+      ],
+      "conditions": [
+        "实际学制为三年且无额外中断",
+        "成本按个人实际，不用工资广告作保证"
+      ],
+      "does_not_establish": [
+        "同为2037即工作经历相同",
+        "训练增益自动覆盖成本"
+      ],
+      "would_change_or_restrict": [
+        "学制、资助、可得项目或可用工作机会改变时重算。"
+      ]
+    },
+    {
+      "id": "R04",
+      "type": "recommendation",
+      "statement": "共同失败后，高分子可比较其他产品的聚合物加工/性能质量，应化可比较其他产品工业分析/过程质量；补对侧训练可争取邻近任务，但每条都须核准确接收、规范与付款来源。",
+      "sources": [],
+      "depends_on": [
+        "F03",
+        "F05",
+        "I08",
+        "S04"
+      ],
+      "conditions": [
+        "实际客户/预算成立",
+        "不把相同客户现金流换公司当分散",
+        "地区/安全/轮班可接受"
+      ],
+      "does_not_establish": [
+        "已有新招聘证据",
+        "传统或检测必定稳",
+        "相关类当然录用",
+        "读研自动避险"
+      ],
+      "would_change_or_restrict": [
+        "若同受原失败客户/周期影响或缺准确接收，不能当可落实备选。"
+      ]
+    },
+    {
+      "id": "R05",
+      "type": "recommendation",
+      "statement": "后续有界核查优先任务目标，再核适用届别、实操作品/机会，再核同R准确接收、带教、客户验证后采购/回款，而非继续堆宏观新闻。",
+      "sources": [],
+      "depends_on": [
+        "F07",
+        "F11",
+        "I01",
+        "I02",
+        "I09"
+      ],
+      "conditions": [
+        "这些是未来需要校准的节点，本次没有继续新增采集"
+      ],
+      "does_not_establish": [],
+      "would_change_or_restrict": [
+        "若出现决定性资格或安全不可接受条件，先处理该前置约束。"
+      ]
+    },
+    {
+      "id": "R06",
+      "type": "recommendation",
+      "statement": "逐岗确认化学品接触防护、生产现场、倒班、园区位置和出差接受度；若只接受江苏，卫星分配未明前不把浙江岗位算入本地机会。",
+      "sources": [],
+      "depends_on": [
+        "A01",
+        "F08",
+        "F10",
+        "F11"
+      ],
+      "conditions": [
+        "不从专业名推理工作环境或具体考生偏好"
+      ],
+      "does_not_establish": [
+        "所有同专业都有同一种环境",
+        "金发所有岗位一定倒班/出差"
+      ],
+      "would_change_or_restrict": [
+        "明确岗位地点、工作安排、防护与个人接受度后可保留或排除。"
+      ]
+    },
+    {
+      "id": "R07",
+      "type": "recommendation",
+      "statement": "本次不增加已确认候选或改变既有计数；真实填报时依次确认生源选科资格、当年专业/组全成员计划规则及可比历史机会，与方向偏好分开。",
+      "sources": [
+        {
+          "source_id": "G01",
+          "locator": "下端1—5；两端汇合"
+        }
+      ],
+      "depends_on": [
+        "F12",
+        "R01"
+      ],
+      "conditions": [
+        "本次未新增年度招生原件",
+        "未来复核须在适用时点针对具体年度和专业进行"
+      ],
+      "does_not_establish": [
+        "已确认冲稳保",
+        "用材料大类替代准确专业",
+        "编造分数概率"
+      ],
+      "would_change_or_restrict": [
+        "新的准确招生接口、考生条件与规则才可改变具体可报方案。"
+      ]
+    }
+  ],
+  "claim_types": [
+    "fact",
+    "assumption",
+    "inference",
+    "recommendation"
+  ],
+  "claim_type_legend": {
+    "F": "fact",
+    "A": "assumption",
+    "I": "inference",
+    "S": "inference: scenario",
+    "R": "recommendation"
+  },
+  "open_gaps": [
+    "确切2027培养与真实训练可得性",
+    "同一岗位两专业共同接收",
+    "具体牌号/客户验证/订单/现金全链",
+    "卫星岗位精确届别与地区分配",
+    "两专业准确江苏组接口",
+    "未来2031岗位供给与2037实际责任"
+  ],
+  "review_scope_note": "本索引不将既有来源或条件推演当作未来结果已验证；本文件本身不作独立审核或合并通过声明。"
+}
