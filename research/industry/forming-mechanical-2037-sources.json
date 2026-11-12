@@ -1,0 +1,1101 @@
+{
+  "schema_version": 1,
+  "title": "材料成型及控制工程与机械设计制造及其自动化：来源及条件判断索引",
+  "research_date": "2026-11-12",
+  "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
+  "scope": {
+    "origin": "江苏生源，非用户事实",
+    "education_and_employment_regions": "全国可比较，具体限制待个人输入",
+    "assumed_entry_year": 2027,
+    "assumed_bachelor_employment_year_if_four_years": 2031,
+    "development_horizon": 2037,
+    "admissions_collection": "2026录取及当前组调查暂停；无本题两准确专业已核江苏配对",
+    "coverage": "一所同校培养样本、同一集团雇主多个历史版本、一个上市法人产品/经营样本及一份铸锻政策；非市场代表样本"
+  },
+  "evidence_rules": [
+    "Source facts, author assumptions, conditional inferences, gaps and recommendations are separately typed.",
+    "Historical qualification is not current availability, actual employment, or a future probability.",
+    "No salaries, job-count forecasts, employment win rates or admission probabilities are estimated.",
+    "Source I01 is not inference N01; source and claim IDs are distinct.",
+    "Repository sources B01-B03 preserve prior pairwise premises; no transitive major ranking."
+  ],
+  "sources": [
+    {
+      "id": "C01",
+      "title": "机械设计制造及其自动化专业培养方案（2023版）",
+      "publisher": "安徽工业大学教务处",
+      "url": "https://jwc.ahut.edu.cn/info/1278/4495.htm",
+      "published_date": "2024-05-03",
+      "acquired_at": "2026-11-12",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "original_acquired_this_batch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://jwc.ahut.edu.cn/info/1278/4495.htm",
+          "sha256": "baa92c50ea21fc58735f202e97b0853a9d0ae519b0084705a2bddfdefa9e5911",
+          "bytes": 18624
+        },
+        {
+          "representation": "original_pdf_bytes",
+          "url": "https://jwc.ahut.edu.cn/__local/8/CD/AD/C38B682EBC3D1A09AF50C4D4066_101569AD_15500D.pdf",
+          "sha256": "87d4b64d5f410e970cbaf76723292f03f8b7fe4a0a28f036b54eb735328867cb",
+          "bytes": 1396749
+        }
+      ],
+      "locators": [
+        "PDF页从1计；机械PDF第10页印刷页码变为1，此后PDF与印刷页码不一致。",
+        "机械：PDF4方向核心课，5毕业汇总/必修表开头，7共通/方向课程，8方向/实践，9选修，10汇总。"
+      ],
+      "supports": [
+        "080202，四年，修业3~6年，工学学士；仅2023版，未见明确适用入学级。",
+        "共同专业基础有理论力学A3.5、材料力学A3.5；共同专业课有机械原理3、机械设计3、互换性测量技术基础1.5、工程材料及成型技术2.5、控制工程基础2.5、液压与气压传动2.5、机械制造技术基础A3.5、机械工程测试技术2。",
+        "机械电子工程、机械制造、液压传动与控制三方向各7学分模块，备注为本方向指定选修、其他方向任选，不能合并成所有人都修。制造方向为机床电器与PLC控制2.5、机械制造装备2.5、数控技术2。",
+        "集中实践35.5学分：工程训练A4、机械设计课程设计3、生产实习3/3周/第7学期、制造技术基础课程设计3、按专业方向修读的综合实践2、毕业设计10。",
+        "UG/Solidworks/PROE三维设计指定选修三选一；专业选修池含有限单元法及应用（ANSYS）、机械设备监测与故障诊断等，不是人人全修。"
+      ],
+      "limits": [
+        "培养安排不是实际开放、学生掌握、实习质量或录用结果。",
+        "同校同标称2023版、同网页发布日期，不能证明同次修订或2027适用；也不是江苏招生入口。",
+        "学分/学时/比例不可直接换成能力或就业优势。"
+      ],
+      "conflicts": [],
+      "verification": "Author read PDF page extracts and visually inspected pages 7 and 8; collector separately inspected other key tables. No observed student performance."
+    },
+    {
+      "id": "C02",
+      "title": "材料成型及控制工程专业培养方案（2023年版）",
+      "publisher": "安徽工业大学教务处",
+      "url": "https://jwc.ahut.edu.cn/info/1275/4807.htm",
+      "published_date": "2024-05-03",
+      "acquired_at": "2026-11-12",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "original_acquired_this_batch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://jwc.ahut.edu.cn/info/1275/4807.htm",
+          "sha256": "f40ded4cc65fdf28d69f39643588e671b65eecd577569bc2b5821bd6e8e776b1",
+          "bytes": 18291
+        },
+        {
+          "representation": "original_pdf_bytes",
+          "url": "https://jwc.ahut.edu.cn/__local/E/4C/69/12551CD7B896AF16C471815710F_EB336A30_43F43.pdf",
+          "sha256": "3faa26a0fce7c2ad576f2f25f222eb28c3ad50d04cccfbfc8d00899e48251257",
+          "bytes": 278339
+        }
+      ],
+      "locators": [
+        "PDF页码与印刷页码一致。",
+        "材成：PDF4方向核心课/汇总，5必修表标题，6共同基础，7方向课程及实践，8选修及汇总，9冲突统计表/辅修。"
+      ],
+      "supports": [
+        "080203，四年，修业3~6年，工学学士；仅2023年版，未见明确适用入学级。",
+        "共同基础必修含理论力学B2、材料力学B[型]2.5、金属学与热处理A1/A2共4.5、机械设计及制造基础3.5、塑性加工力学2、材料成形物理冶金学原理2、控制工程基础2、材料加工冶金传输原理2、测控技术与过程控制2、塑性加工原理2、塑性成形计算机模拟1.5、塑性加工设备2；没有把该校材成概括成普遍铸锻焊。",
+        "方向I材料成形工艺与过程控制：轧制工艺学2、孔型设计与优化2、压力加工车间设计1.5；方向II数字化材料成形：塑性成形工艺与模具设计2、模具CAD/CAM2、模具制造技术1.5。每方向5.5，本方向必修/另一方向可选且计专业选修，不是两方向必修相加。",
+        "实践表35学分：机械设计及制造基础课程设计A2、材料成型基础/创新实验1/1.5、综合实验I/II按方向、轧制过程/精密成型仿真实训按方向各2、课程设计3、生产实习与科学实践3/3周/第6学期、毕业设计10/16周。",
+        "专业选修≥5.5学分池含增材制造、加热工艺设备、模具材料及表面强化、板形尺寸精度等，不是全体必修。"
+      ],
+      "limits": [
+        "培养安排不是实际开放、学生掌握、实习质量或录用结果。",
+        "同校同标称2023版、同网页发布日期，不能证明同次修订或2027适用；也不是江苏招生入口。",
+        "学分/学时/比例不可直接换成能力或就业优势。"
+      ],
+      "conflicts": [
+        "PDF4实践教学50/28.65%、选修12/6.88%，PDF9为实践57/33.53%、选修11.5/6.76%；总学分170但前者比例亦非相应除数。不能选一组当已解决。",
+        "PDF7专业基础小计46.5；学科平台+专业基础合计“学分73”与“应修72.5”不一致，不据此比较精确小时/比例。",
+        "搜索结果索引的旧PDF URL（__local/F/26/38/0E7644B9652B3FAD4A0DF5AE85E_2A76668E_2493D.pdf）与本轮页面嵌入PDF不同。旧文件未读未采信，当前文件有红色修订痕迹但未给修订日，不能把搜索旧摘要替代当前原件。"
+      ],
+      "verification": "Author read PDF page extracts and visually inspected page 7; collector separately inspected other key tables. Conflicting summaries unresolved."
+    },
+    {
+      "id": "I01",
+      "title": "山东豪迈机械科技股份有限公司2025年年度报告全文",
+      "publisher": "山东豪迈机械科技股份有限公司；深圳证券交易所披露",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-31/f7cd4d49-df50-4486-ae5f-70fbfd74cb3f.PDF",
+      "published_date": "2026-03-31",
+      "acquired_at": "2026-11-12T00:38:51.886947+00:00",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "previously_acquired_original_reused_and_reread_without_network_refetch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_pdf_bytes",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-31/f7cd4d49-df50-4486-ae5f-70fbfd74cb3f.PDF",
+          "sha256": "00de777213c597ebca6c8fb7ece871fbf34b0ea4c9fc5bb9f7fe6276c73cafce",
+          "bytes": 4350209
+        }
+      ],
+      "locators": [
+        "PDF页与印刷页一致：9-10页业务/生产链；18-19页铸造研发；60-61页审计关键事项；95页售后质量负债；96-97页收入政策"
+      ],
+      "supports": [
+        "大型零部件按客户产品参数设计铸造加工，为下游成套装备制造商配套；毛坯至成品、产品品质与工期保障是公司经营叙述。",
+        "1000MW超超临界汽轮机缸体研发针对多合金、裂纹倾向、铸造性差、厚大汽道粘砂，开发高性能低焊补率工艺；18-19页项目为推进中，非已全面兑现。",
+        "国内销售以商品发至客户或客户提货、并经客户验收时确认收入；出口按合同与控制权转移；收入不等于现金到账。",
+        "产品售后维修费预计负债根据主营收入千分之四计提，并结合合同质保期届满无赔付调整。",
+        "审计关键事项单列应收款项减值，说明客户付款风险不是合格交货后自动消失。",
+        "PDF9：轮胎花纹/图案/字体与尺寸精度依赖轮胎模具；单件小批量订单生产，以销定产/以产定购；质量、加工周期、服务影响定位。",
+        "PDF18表“轮胎模具钢片高精度3D打印技术研究”已结题，包含材料/设备参数/工艺/变形模拟及成型率；“轮胎模具型腔智能化技术开发及应用系统研究”已结题，设计标准化/工艺流程化、开发设计分析加工平台。项目状态与目标列视觉核对。"
+      ],
+      "limits": [
+        "上市公司“山东豪迈机械科技股份有限公司”与招聘雇主“豪迈集团股份有限公司”不是同一法人，不将集团岗位、上市公司全部业务及财务数直接等同。",
+        "年报自述技术能力和项目计划不是独立性能试验或新人承担任务证明。",
+        "不能据研发人员学历统计推断新入职门槛；不能据一家企业业绩外推行业或2037职位。"
+      ],
+      "conflicts": [],
+      "verification": "Author read selected PDF page extracts, including pages 9, 18, 19, 60-61, 95-97, and visually inspected page 18. Technical statements remain company disclosures."
+    },
+    {
+      "id": "J01",
+      "title": "机械工程师",
+      "publisher": "豪迈集团股份有限公司；河北工业大学就业网刊载",
+      "url": "https://career.hebut.edu.cn/correcruit/content/id/13979.html",
+      "published_date": "2026-09-22",
+      "acquired_at": "2026-11-12",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "original_acquired_this_batch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://career.hebut.edu.cn/correcruit/content/id/13979.html",
+          "sha256": "81a3db858e442127e1f6d856cb2275dab81a290b84bd412afee98942ac8f77cb",
+          "bytes": 20150
+        }
+      ],
+      "locators": [
+        "正文“岗位职责/岗位要求”；HTML约正文招聘详情区域。页头专业要求与正文分别记录。"
+      ],
+      "supports": [
+        "全日制本科及以上；正文：机械设计制造及其自动化、材料成型及控制工程（模具）等机械相关专业。",
+        "职责：产品图纸设计、加工工艺编制指导；设计与生产技术问题/工艺处理；与客户技术交流。二维三维软件、CET4。工作地域仅山东省。"
+      ],
+      "limits": [
+        "未写届别、经验或具体城市；不能把J03的2027和城市补入本条。",
+        "专业要求摘要列机械设计制造及其自动化、机械工程、机械电子工程工程等机械类相关专业；摘要未明写材成，正文明确列材成（模具）。据此可说正文共同接收，不能抹去摘要差异/认定平台筛选一定通过。",
+        "不是材成所有方向共通放行；不等于2031岗位保证、录用率或新人实际任务。"
+      ],
+      "conflicts": [],
+      "verification": "Author parsed saved original HTML and checked the relevant body/table; no live availability or applicant outcome verified.",
+      "source_family": "豪迈集团同一招聘雇主；不同高校发布及年份不构成独立雇主样本"
+    },
+    {
+      "id": "J02",
+      "title": "材料工程师",
+      "publisher": "豪迈集团股份有限公司；河北工业大学就业网刊载",
+      "url": "https://career.hebut.edu.cn/correcruit/content/id/13986.html",
+      "published_date": "2026-09-22",
+      "acquired_at": "2026-11-12T00:38:51.886947+00:00",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "previously_acquired_original_reused_and_reread_without_network_refetch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://career.hebut.edu.cn/correcruit/content/id/13986.html",
+          "sha256": "955b8c62c099dcbb4477e3555d834fda3a5b095185fd2404bd4dc35633f9855c",
+          "bytes": 20186
+        }
+      ],
+      "locators": [
+        "正文“材料工程师”起至“岗位要求”末；网页读取行92-116"
+      ],
+      "supports": [
+        "同一岗位列全日制本科及以上；材料成型及控制工程、金属材料工程、材料科学与工程；地域仅山东省。",
+        "任务覆盖焊接/铸造/锻造/表面处理工艺方案编制审核、生产现场工艺指导与质量跟踪改进、产品质量检验评审、客户技术交流。",
+        "要求二维/三维绘图软件、CET-4及以上。"
+      ],
+      "limits": [
+        "未写毕业届别、经验年数或明确应届，不应称确定校招新人入口。",
+        "不能把另一条校招“材料类工程师”的城市/届别/学历或任务与本条拼成同一岗。",
+        "薪酬栏6000-8000元未说明税前后、工时等，不用于2031或2037薪资预测。"
+      ],
+      "conflicts": [],
+      "verification": "Author read saved source extract associated with original byte hash; no fresh network validation.",
+      "source_family": "豪迈集团同一招聘雇主；不同高校发布及年份不构成独立雇主样本"
+    },
+    {
+      "id": "J03",
+      "title": "豪迈2027秋季校园招聘简章",
+      "publisher": "豪迈集团股份有限公司；天津科技大学就业网刊载",
+      "url": "https://jy.tust.edu.cn/correcruit/content/id/46484.html",
+      "published_date": "2026-09-08",
+      "acquired_at": "2026-11-12T00:38:51.886947+00:00",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "previously_acquired_original_reused_and_reread_without_network_refetch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://jy.tust.edu.cn/correcruit/content/id/46484.html",
+          "sha256": "1b90f03f55996c6ae4b5cce52125fe89542394f17ace62a9fbd7b3bafe62da80",
+          "bytes": 84677
+        }
+      ],
+      "locators": [
+        "正文“二、招聘岗位”表格专业技术类→材料类工程师行；原HTML rowspan=11归属“本科及以上学历”；网页读取行134-153"
+      ],
+      "supports": [
+        "材料类工程师同表行明确本科及以上、材料成型及控制工程（焊接、锻造、铸造）、金属材料工程等，工作地潍坊高密、威海乳山。",
+        "标题明确2027秋季校园招聘；同表研发类总体标硕士，不能把其要求套到专业技术类材料岗。",
+        "本轮重读原HTML第0表第6行机械类工程师：机械设计制造及其自动化等，地点高密/坊子/奎文/乳山/日照/江苏启东；本科及以上类别rowspan=11覆盖第6至16行。材料类第9行材成限焊接/锻造/铸造，地点只高密/乳山。",
+        "商务采购类采购工程师同一行明确机械设计制造及其自动化和材料成型及控制工程，地点高密/江苏启东；这是共同商务采购入口，不能替成技术设计/工艺共同入口。"
+      ],
+      "limits": [
+        "标题2027秋招未单列毕业日期范围；不能补写海外毕业窗口。",
+        "材料岗未给具体职责或经验年数；不与J01拼接。",
+        "页面头部6000-8000元、本科、100人、山东省是整条发布元数据，不是材料岗独有。",
+        "不同高校转载版本存在薪酬头部6000-8000与8000-10000、专业名单/日期等差异，不可拼接为一份唯一原文。",
+        "机械类未列材成不等于已证排除所有材成；材料行没有启东即不能据此认定该行启东开放。方向/地点差异会改变当年可行集合，未来须重核准确招聘版本。"
+      ],
+      "conflicts": [],
+      "verification": "Author parsed saved original HTML and checked the relevant body/table; no live availability or applicant outcome verified.",
+      "source_family": "豪迈集团同一招聘雇主；不同高校发布及年份不构成独立雇主样本"
+    },
+    {
+      "id": "J04",
+      "title": "豪迈2024届校园招聘简章（山东大学宣讲页）",
+      "publisher": "豪迈集团股份有限公司；山东大学学生就业创业指导中心刊载",
+      "url": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?id=Mg4iTHubi41skQXkWr4mNe&modcode=jygl_xjhxxck&rklx=jyw&subsyscode=zpfw&type=ssoXnzpView",
+      "published_date": null,
+      "acquired_at": "2026-11-12",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "original_acquired_this_batch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?id=Mg4iTHubi41skQXkWr4mNe&modcode=jygl_xjhxxck&rklx=jyw&subsyscode=zpfw&type=ssoXnzpView",
+          "sha256": "1d5ff9dc594a2a2c19e1dfe524683244418e41c91f02cfb35f2978b05f1e6a78",
+          "bytes": 40213
+        }
+      ],
+      "locators": [
+        "网页标题豪迈集团股份有限公司招聘；举办日期/截止日期2023-09-13；正文标题豪迈2024届校园招聘简章；本科专业技术类机械工程师行。",
+        "正文“2、以下岗位要求硕士及以上学历，工作地点：高密市”下机械研发工程师、锻造研发工程师；不使用其他岗位补本科条目。"
+      ],
+      "supports": [
+        "本科及以上专业技术类机械工程师同一行：机械设计制造及其自动化、材料成型及控制工程（模具）、农业机械化及其自动化、车辆工程等；地点高密、威海乳山。",
+        "同一简章焊接工艺工程师限材成（焊接）/金属等；铸造工艺工程师列材成（铸造）等。保留方向与分岗。",
+        "原HTML另列硕士及以上机械研发工程师：机械制造及其自动化、机械工程等机械相关专业；锻造研发工程师：材料成型及控制工程（锻造）、金属材料工程等。只证明该历史简章学历分轨。"
+      ],
+      "limits": [
+        "2023是举办年份，招聘正文是2024届，不能称2023届。未见明确发布日期，published_date保留null。",
+        "历史校招共同接收不证明2027、2031仍接收；没有具体机械岗职责，不能拼给J01定届别。",
+        "未核具体可进入硕士项目、2031/2034职位或本科背景如何被未来雇主认定；不把080202自动等同研究生专业。"
+      ],
+      "conflicts": [],
+      "verification": "Author parsed saved original HTML and checked the relevant body/table; no live availability or applicant outcome verified.",
+      "event_date": "2023-09-13",
+      "cohort": "正文：2024届校园招聘；发布日期未载",
+      "source_family": "豪迈集团同一招聘雇主；不同高校发布及年份不构成独立雇主样本"
+    },
+    {
+      "id": "P01",
+      "title": "关于推动铸造和锻压行业高质量发展的指导意见",
+      "publisher": "工业和信息化部、国家发展改革委、生态环境部",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2023/art_dd397d8dae344b848c6dfa51aa07170b.html",
+      "published_date": "2023-04-14",
+      "acquired_at": "2026-11-12T00:38:51.886947+00:00",
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "previously_acquired_original_reused_and_reread_without_network_refetch",
+        "boundary": "Discovery snippets are not evidence. Source originals retained separately; index does not distribute originals."
+      },
+      "representations": [
+        {
+          "representation": "original_html_bytes",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2023/art_dd397d8dae344b848c6dfa51aa07170b.html",
+          "sha256": "fc6301e6544b14a70420fd3ba0b21f5258f7e4d8630b3d73d1b9277827e811bf",
+          "bytes": 29959
+        }
+      ],
+      "locators": [
+        "工信部联通装〔2023〕40号；2023-03-30成文；总体要求“坚持质量为先”；二（一）2-4；二（四）智能制造；人才队伍"
+      ],
+      "supports": [
+        "政策将全流程质量控制、先进铸造/锻压、工艺数据库与仿真优化、绿色安全约束作为方向；铸锻是装备制造业工艺环节。"
+      ],
+      "limits": [
+        "目标与措施不是执行效果、实际订单、毕业生新增岗位或2031就业保证。",
+        "不使用2025目标冒充已实现成果；政策不能替代企业付款和新人岗位证据。"
+      ],
+      "conflicts": [],
+      "verification": "Author read saved source extract associated with original byte hash; no fresh network validation.",
+      "document_date": "2023-03-30",
+      "current_legal_status_rechecked": false
+    },
+    {
+      "id": "B01",
+      "title": "金属材料工程与材料成型及控制工程：固定前序研究",
+      "publisher": "Pathwise Research repository",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/15e3a1cc65af5030fd565a08afebce5c436b5a8f/research/industry/metal-materials-forming-2037-choices.md",
+      "published_date": null,
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "pinned_repository_baseline_read",
+        "boundary": "Read fixed project text; no upgrading prior external-source verification or current admissions status."
+      },
+      "representations": [
+        {
+          "representation": "repository_markdown_utf8",
+          "sha256": "8c0711ee62cc4ac1e8a84c18c40b2eeb3f090861d2cc7c36a64a6f33918581c5",
+          "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
+          "repository_path": "research/industry/metal-materials-forming-2037-choices.md"
+        }
+      ],
+      "locators": [
+        "一：有条件专业次序",
+        "七：机械结构/工装连接待比较",
+        "八：江苏招生接口未取得"
+      ],
+      "supports": [
+        "Existing conditional comparisons, exact-major/admissions boundaries and unchanged prior conclusions."
+      ],
+      "limits": [
+        "Not an original school admissions plan; not a new independently verified employer or enrollment outcome."
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "工业工程与机械：固定前序研究",
+      "publisher": "Pathwise Research repository",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/15e3a1cc65af5030fd565a08afebce5c436b5a8f/research/industry/industrial-engineering-mechanical-2037-choices.md",
+      "published_date": null,
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "pinned_repository_baseline_read",
+        "boundary": "Read fixed project text; no upgrading prior external-source verification or current admissions status."
+      },
+      "representations": [
+        {
+          "representation": "repository_markdown_utf8",
+          "sha256": "5c5e649214a8e1f0d82569e9eb5fa3bc51d807679e3893f06222bbae73932a94",
+          "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
+          "repository_path": "research/industry/industrial-engineering-mechanical-2037-choices.md"
+        }
+      ],
+      "locators": [
+        "五：CUMT机械工程/智能制造非080202；条件志愿与暂停边界"
+      ],
+      "supports": [
+        "Existing conditional comparisons, exact-major/admissions boundaries and unchanged prior conclusions."
+      ],
+      "limits": [
+        "Not an original school admissions plan; not a new independently verified employer or enrollment outcome."
+      ]
+    },
+    {
+      "id": "B03",
+      "title": "专业与职业总索引：固定基线",
+      "publisher": "Pathwise Research repository",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/15e3a1cc65af5030fd565a08afebce5c436b5a8f/research/admissions/major-career-routing.md",
+      "published_date": null,
+      "read_for_this_comparison": "2026-11-12",
+      "acquisition": {
+        "mode": "pinned_repository_baseline_read",
+        "boundary": "Read fixed project text; no upgrading prior external-source verification or current admissions status."
+      },
+      "representations": [
+        {
+          "representation": "repository_markdown_utf8",
+          "sha256": "43b6cbc6ef09a2d14627200c99c80fd93489f9c8ce5911627a176304057022f9",
+          "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
+          "repository_path": "research/admissions/major-career-routing.md"
+        }
+      ],
+      "locators": [
+        "金属—材成段落",
+        "工业工程—机械段落；既有候选/计数边界"
+      ],
+      "supports": [
+        "Existing conditional comparisons, exact-major/admissions boundaries and unchanged prior conclusions."
+      ],
+      "limits": [
+        "Not an original school admissions plan; not a new independently verified employer or enrollment outcome."
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "A01",
+      "type": "assumption",
+      "claim": "江苏生源，全国培养/就业可比较；2027入学、实际四年则2031本科、2037发展观察，不是用户事实。",
+      "source_ids": [],
+      "body_section": "开篇",
+      "conditions_or_limits": [
+        "实际学制、年份和地域约束可替换"
+      ],
+      "revision_trigger": "用户实际规划条件不同"
+    },
+    {
+      "id": "A02",
+      "type": "assumption",
+      "claim": "P0目标为产品要求到机械结构、工装设备、制造验证的本科技术工作，未锁定成形工艺；进入性、总成本、实得训练相近，现场和地区可接受且存在付费及带教。",
+      "source_ids": [],
+      "body_section": "一",
+      "conditions_or_limits": [
+        "不是无偏好默认"
+      ],
+      "revision_trigger": "目标、训练、成本或可进入性改变"
+    },
+    {
+      "id": "A03",
+      "type": "assumption",
+      "claim": "基准B保留付费制造更新需求、质量交期成本压力、成熟工作数字化及选择性新人模块，不要求行业持续高增。",
+      "source_ids": [],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "非最高概率预测；非定量仿真结果"
+      ],
+      "revision_trigger": "订单、现金、技术瓶颈与组织实况改变"
+    },
+    {
+      "id": "A04",
+      "type": "assumption",
+      "claim": "本科2031至2037约六年毕业后观察；三年硕士则2034至2037约三年，两者均不等有效工龄或职位。",
+      "source_ids": [],
+      "body_section": "六",
+      "conditions_or_limits": [
+        "按期完成假设，备考/延毕等另算"
+      ],
+      "revision_trigger": "真实路径及完成时间变化"
+    },
+    {
+      "id": "F01",
+      "type": "source_fact",
+      "claim": "年报轮胎模具单件小批量、以销定产/以产定购/直销为主，影响花纹尺寸；质量、加工周期、服务影响定位。",
+      "source_ids": [
+        "I01"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "PDF9，公司披露而非全行业调查"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F02",
+      "type": "source_fact",
+      "claim": "年报法人山东豪迈机械科技股份有限公司不同于招聘雇主豪迈集团股份有限公司，不能拼财务与招新预算。",
+      "source_ids": [
+        "I01",
+        "J01",
+        "J02",
+        "J03",
+        "J04"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "不对未核法人关系和项目归属作额外推断"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F03",
+      "type": "source_fact",
+      "claim": "国内销售发货/提货及验收确认收入；出口按合同及控制权转移；售后预计负债和应收减值风险存在。",
+      "source_ids": [
+        "I01"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "PDF60-61、95-97；收入不等现金；无特定新人关联"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F04",
+      "type": "source_fact",
+      "claim": "模具钢片3D打印、型腔智能化研究在年报列已结题，内容分别含参数/变形与设计标准化/工艺流程化。",
+      "source_ids": [
+        "I01"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "PDF18；不证明全面部署、独立性能、人员变化"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F05",
+      "type": "source_fact",
+      "claim": "2023铸锻指导意见包括先进工艺、质量、仿真、绿色安全、存量改造、防盲目扩张。",
+      "source_ids": [
+        "P01"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "直接范围铸造/锻压，不是所有模具或打印项目补贴；未重核当前效力与地方兑现"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F06",
+      "type": "evidence_gap",
+      "claim": "本包无目标工种退休/补员、缺工、工时留任、合资格供给证据；研发年龄存量不能补齐。",
+      "source_ids": [
+        "I01"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "PDF19仅特定法人研发人员存量；缺证非现实不存在"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F07",
+      "type": "source_fact",
+      "claim": "AHUT准确080202/080203同标称2023版、网页2024-05-03，四年/3-6年/工学学士；执行届别未确证。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "不是同次修订、2027现行或江苏可报证明"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F08",
+      "type": "source_fact",
+      "claim": "机械共同必修覆盖力学、原理设计、材料成形、制造、测量、测试与控制。",
+      "source_ids": [
+        "C01"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "PDF4、7；安排非掌握"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F09",
+      "type": "source_fact",
+      "claim": "材成共同基础含图学力学、金属学热处理、塑性与过程控制/模拟/设备，不以全国材成铸锻焊概括。",
+      "source_ids": [
+        "C02"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "PDF6-7；安排非掌握"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F10",
+      "type": "source_fact",
+      "claim": "机械三方向各7学分指定选修/其他任选；材成两方向各5.5、本方向必修/其他可选，方向不得相加。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "C01 PDF7-8；C02 PDF7"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F11",
+      "type": "source_fact",
+      "claim": "两方案有方向实践和生产实习；机械3D软件三选一，ANSYS等选修；材成3D打印与智能制造列实践，增材等另为选修。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "C01 PDF8-9；C02 PDF7-8；不能证明开放与训练质量"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F12",
+      "type": "source_conflict",
+      "claim": "材成实践/选修汇总及平台基础合计存在冲突；机械35.5/材成35集中实践不用于能力比率排序。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "C02 PDF4/7/9；不擅修原件或择取有利分母"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F13",
+      "type": "source_fact",
+      "claim": "J01正文机械岗同时列两个准确专业、材成限模具，本科及以上，职责含图样工艺问题客户交流；摘要未列材成。",
+      "source_ids": [
+        "J01"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "2026-09-22；山东省；无届别/经验/城市；平台筛选未知"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F14",
+      "type": "source_fact",
+      "claim": "J04活动2023-09-13而正文2024届，本科机械岗共同接收两个准确专业、材成模具，高密/乳山。",
+      "source_ids": [
+        "J04"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "历史明确校招；不把J01职责/无届别条目拼接成同岗"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F15",
+      "type": "source_fact",
+      "claim": "J03本科技术类别跨11行；机械行含080202及启东等六地，材料行材成铸锻焊仅高密/乳山。",
+      "source_ids": [
+        "J03"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "2027秋招标题具体毕业窗口未列；不搬地点，不以未列等同排除"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F16",
+      "type": "source_fact",
+      "claim": "J02本科材料工艺任务含铸锻焊/表面处理、现场质量和客户交流，非共同机械岗位。",
+      "source_ids": [
+        "J02"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "届别/经验未载；培养方向不能自动匹配"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F17",
+      "type": "source_fact",
+      "claim": "J03采购岗共同接收两专业并列高密/启东，但不属于共同技术设计工艺岗；招聘要求非当前开放或结果。",
+      "source_ids": [
+        "J03",
+        "J01",
+        "J04"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "不借商务接收补技术缺口；同雇主样本不计独立市场频次"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F18",
+      "type": "source_fact",
+      "claim": "J04历史硕士及以上条目含机械研发与锻造研发，岗位及专业分轨不能套给本科共同岗。",
+      "source_ids": [
+        "J04"
+      ],
+      "body_section": "六",
+      "conditions_or_limits": [
+        "无已核可进入硕士项目、目标年持续资格及本科背景认定"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "F19",
+      "type": "baseline_boundary",
+      "claim": "固定前序与导航没有本题两准确专业可对账江苏招生配对；CUMT机械工程/智能制造不是080202。",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03"
+      ],
+      "body_section": "七",
+      "conditions_or_limits": [
+        "仅固定文本边界，不是全国没有招生或真实不可报"
+      ],
+      "revision_trigger": null
+    },
+    {
+      "id": "N01",
+      "type": "inference",
+      "claim": "客户采购价值通过几何/成形、交付质量与工期约束转为结构、过程和验证任务。",
+      "source_ids": [
+        "I01",
+        "J01",
+        "C01",
+        "C02"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "有预算订单与被客户采用的交付；不同法人和项目不拼实绩"
+      ],
+      "revision_trigger": "主要付费问题从结构改为成形或反向"
+    },
+    {
+      "id": "N02",
+      "type": "inference",
+      "claim": "合格交付帮助验收但收入未必回款，价格竞争可能转走改进收益，不能按技术工作量推招人。",
+      "source_ids": [
+        "I01"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "一般条件机制，不认定该企业现金危机"
+      ],
+      "revision_trigger": "合同价格、验收回款和培训资源改变"
+    },
+    {
+      "id": "N03",
+      "type": "inference",
+      "claim": "本科入口取决于可审核模块、带教与反馈，熟手/外包/标准化可吸收增长。",
+      "source_ids": [
+        "J01",
+        "J04",
+        "I01"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "招聘资格不等实际新人职责；最终授权不交新人假设"
+      ],
+      "revision_trigger": "新人实际模块与复验责任"
+    },
+    {
+      "id": "N04",
+      "type": "inference",
+      "claim": "标准化更可能压缩重复绘图/参数/整理；异常解释与复验比单纯软件操作更值得训练。",
+      "source_ids": [
+        "I01",
+        "C01",
+        "C02"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "以平台继续采用为条件，不声称已裁员"
+      ],
+      "revision_trigger": "数字部署是否压缩或新增受监督模块"
+    },
+    {
+      "id": "N05",
+      "type": "inference",
+      "claim": "标准过程成熟且瓶颈在设备集成时机械相对适配；材料/成形变动成为瓶颈且实验团队保留时材成上升。",
+      "source_ids": [
+        "I01",
+        "C01",
+        "C02"
+      ],
+      "body_section": "二",
+      "conditions_or_limits": [
+        "方向必须匹配，不按项目标签定专业赢家"
+      ],
+      "revision_trigger": "实际技术瓶颈与任务归属"
+    },
+    {
+      "id": "N06",
+      "type": "inference",
+      "claim": "适用铸锻政策经成本约束、预算采购实施验收再到分工；工艺和设备的实际支出影响两专业相对用途。",
+      "source_ids": [
+        "P01",
+        "I01"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "没有地方兑现或特定项目补贴证明"
+      ],
+      "revision_trigger": "适用工序、实际支出及验收"
+    },
+    {
+      "id": "N07",
+      "type": "inference",
+      "claim": "熟手接续困难且全成本合算时，经验固化、自动化与传帮带可能并行，退休不必转为本科名额。",
+      "source_ids": [
+        "I01",
+        "P01"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "条件假设，缺目标工种年龄/退出/补招证据"
+      ],
+      "revision_trigger": "实际退出、保留岗位、带教和替代方式"
+    },
+    {
+      "id": "N08",
+      "type": "inference",
+      "claim": "2031竞争取决于既有队列、招生分流、升学和迁移，今天出生变化不能直接赋予专业稀缺优势。",
+      "source_ids": [],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "方法约束，未估计合资格供给数量"
+      ],
+      "revision_trigger": "匹配地区和年份供给数据"
+    },
+    {
+      "id": "N09",
+      "type": "inference",
+      "claim": "设备瓶颈、成形瓶颈和客户/组织共同下行形成有区别的改判情景，人口政策只经适用机制接入。",
+      "source_ids": [
+        "I01",
+        "P01",
+        "C01",
+        "C02",
+        "J01"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "非概率排序/岗位规模预测"
+      ],
+      "revision_trigger": "客户付费对象、技术瓶颈、回款与新人模块"
+    },
+    {
+      "id": "R01",
+      "type": "recommendation",
+      "claim": "P0且进入性/成本/实得训练相近时机械弱前置，因结构设计制造验证基础连续。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "一",
+      "conditions_or_limits": [
+        "依赖A02及N01/N03；不代表就业胜率"
+      ],
+      "revision_trigger": "目标或实际训练/成本改变"
+    },
+    {
+      "id": "R02",
+      "type": "recommendation",
+      "claim": "主要问题为材料成形窗口、变形缺陷与匹配模具工艺，材成方向训练和反馈可得时前置材成。",
+      "source_ids": [
+        "C01",
+        "C02",
+        "J01",
+        "J02"
+      ],
+      "body_section": "一",
+      "conditions_or_limits": [
+        "塑性/模具/铸锻焊分别核；不由名称自动接收"
+      ],
+      "revision_trigger": "方向和试验条件不可得或雇主不接受"
+    },
+    {
+      "id": "R03",
+      "type": "recommendation",
+      "claim": "共同模具岗资格先并列，再比实际训练及条件，不硬排同岗胜率或双保底。",
+      "source_ids": [
+        "J01",
+        "J04",
+        "C01",
+        "C02"
+      ],
+      "body_section": "一/五",
+      "conditions_or_limits": [
+        "材成限定模具；J01字段冲突保留"
+      ],
+      "revision_trigger": "具体任务及雇主方向认定"
+    },
+    {
+      "id": "R04",
+      "type": "recommendation",
+      "claim": "可取得训练、进入机会、费用和补训成本可反转专业纸面顺序。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "body_section": "一/七",
+      "conditions_or_limits": [
+        "不是宣称某校已兑现实践"
+      ],
+      "revision_trigger": "个人承担的项目/复验及真实成本"
+    },
+    {
+      "id": "R05",
+      "type": "recommendation",
+      "claim": "无适合本科技术模块或支付/组织/现场条件失败，两边共同下调，读研不自动兜底。",
+      "source_ids": [
+        "I01",
+        "J01",
+        "J04"
+      ],
+      "body_section": "一",
+      "conditions_or_limits": [
+        "依赖条件，不认定现有雇主失败"
+      ],
+      "revision_trigger": "岗位及培训资源重新可得"
+    },
+    {
+      "id": "R06",
+      "type": "recommendation",
+      "claim": "按设备、过程瓶颈和共同下行改序，先问买什么、谁验证、是否给新人。",
+      "source_ids": [
+        "I01",
+        "P01",
+        "C01",
+        "C02"
+      ],
+      "body_section": "三",
+      "conditions_or_limits": [
+        "依赖A03及N09"
+      ],
+      "revision_trigger": "可区分的订单和新人分工变化"
+    },
+    {
+      "id": "R07",
+      "type": "recommendation",
+      "claim": "比较可获取的需求/图样或工艺、量测、失败修订与复验成果链，核方向容量和个人操作。",
+      "source_ids": [
+        "C01",
+        "C02",
+        "J01"
+      ],
+      "body_section": "四",
+      "conditions_or_limits": [
+        "建议标准，不是已观察学生成绩"
+      ],
+      "revision_trigger": "方向准入、设备数据访问、实习分工"
+    },
+    {
+      "id": "R08",
+      "type": "recommendation",
+      "claim": "只接受江苏就业时，不以山东共同岗为材成满足地域限制；启东只作J03机械历史线索。",
+      "source_ids": [
+        "J01",
+        "J03",
+        "J04"
+      ],
+      "body_section": "五",
+      "conditions_or_limits": [
+        "单一雇主不推全省优势；培养地不等就业地"
+      ],
+      "revision_trigger": "当年逐岗城市与精确专业接收"
+    },
+    {
+      "id": "R09",
+      "type": "recommendation",
+      "claim": "本科直入以受监督模块到可解释改进责任为2037目标，不把工龄当成长。",
+      "source_ids": [
+        "C01",
+        "C02",
+        "J01",
+        "J04"
+      ],
+      "body_section": "六",
+      "conditions_or_limits": [
+        "依赖A04及带教/任务连续性"
+      ],
+      "revision_trigger": "长期无复验和责任反馈"
+    },
+    {
+      "id": "R10",
+      "type": "recommendation",
+      "claim": "只有改图录入无反馈时比较换模块、补训和相邻岗，迁移仍核资格成本。",
+      "source_ids": [
+        "J01",
+        "C01",
+        "C02"
+      ],
+      "body_section": "六",
+      "conditions_or_limits": [
+        "不是已证低质量岗位描述"
+      ],
+      "revision_trigger": "真实初期分工和可获得替代"
+    },
+    {
+      "id": "R11",
+      "type": "recommendation",
+      "claim": "硕士分别因实际可得资格增益或难替代训练增益前置；任一均须可信收益足以补偿成本，本轮不默认读研。",
+      "source_ids": [
+        "J04",
+        "C01",
+        "C02"
+      ],
+      "body_section": "六",
+      "conditions_or_limits": [
+        "不存在已核可进入硕士项目，不要求两种增益同时满足"
+      ],
+      "revision_trigger": "准确岗位门槛与项目可进入性/资源/成本落实"
+    },
+    {
+      "id": "R12",
+      "type": "recommendation",
+      "claim": "未来江苏方案按目标—准确招生对象—整组接受—机会成本—实得训练与岗位接收依次落实，方向顺序不直接等填报顺序。",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "C01",
+        "C02",
+        "J03"
+      ],
+      "body_section": "七",
+      "conditions_or_limits": [
+        "招生调查暂停，仅规定获准后的应用；不造院校候选"
+      ],
+      "revision_trigger": "真实年份、分数位次、招生规则/完整成员和个人接受"
+    },
+    {
+      "id": "R13",
+      "type": "recommendation",
+      "claim": "仅新增本题路由；保持旧配对判断、南理工03未对账表和既有候选/9组48成员计数。",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03"
+      ],
+      "body_section": "七",
+      "conditions_or_limits": [
+        "不宣布覆盖完整或个性化闭合"
+      ],
+      "revision_trigger": "若未来证据实质改变旧主张再单独回传"
+    },
+    {
+      "id": "R14",
+      "type": "recommendation",
+      "claim": "当前选择为结构/设备验证机械弱前置、匹配成形/缺陷验证材成前置、共同入口比实得训练成本，付款组织失败可双退。",
+      "source_ids": [
+        "C01",
+        "C02",
+        "I01",
+        "J01",
+        "J04",
+        "P01"
+      ],
+      "body_section": "八",
+      "conditions_or_limits": [
+        "综合R01-R13；有方向非总榜"
+      ],
+      "revision_trigger": "训练、岗位、费用、地区或付费链关键条件改变"
+    }
+  ],
+  "omitted_evidence": {
+    "failed_curriculum_downloads": "An alternate university index was read during collection, but four linked attachments returned CAPTCHA HTML rather than documents; no curriculum facts adopted, no challenge solved or bypassed.",
+    "non_exact_major_leads": "Near-name mechanical engineering / mechanical design-and-manufacture leads were not treated as 080202.",
+    "source_conflicts": "C02 summary arithmetic and J01 header/body distinction retained in source entries and body."
+  },
+  "remaining_decision_gaps": [
+    "Target-cohort actual training version, direction choice/capacity, individual operation and feedback.",
+    "Target-year region/role exact-major acceptance, real newcomer tasks, supervision, safety and working conditions.",
+    "Product-specific payment, deployment and organization effects, not company growth-to-hiring extrapolation.",
+    "Obtainable masters project and actual incremental qualification/training gain versus costs.",
+    "Authorized Jiangsu exact-major/year/channel/group or major-class membership, all-outcome acceptance, comparable rank and total costs."
+  ]
+}
