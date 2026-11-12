@@ -356,7 +356,9 @@
       "representations": [
         {
           "representation": "repository_markdown_utf8",
-          "sha256": "8c0711ee62cc4ac1e8a84c18c40b2eeb3f090861d2cc7c36a64a6f33918581c5",
+          "sha256": "f9e687a93b72920b71700d8418bae17d3fe6e21f90dc76b1c628f36642e5014a",
+          "bytes": 27119,
+          "byte_scope": "Fixed-commit original bytes; excludes the local text snapshot's extra terminal LF.",
           "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
           "repository_path": "research/industry/metal-materials-forming-2037-choices.md"
         }
@@ -387,7 +389,9 @@
       "representations": [
         {
           "representation": "repository_markdown_utf8",
-          "sha256": "5c5e649214a8e1f0d82569e9eb5fa3bc51d807679e3893f06222bbae73932a94",
+          "sha256": "9a3172f007f4853e0ce633d609af000f26cd3bcc2493b99289feef5fe87e23b5",
+          "bytes": 10478,
+          "byte_scope": "Fixed-commit original bytes; excludes the local text snapshot's extra terminal LF.",
           "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
           "repository_path": "research/industry/industrial-engineering-mechanical-2037-choices.md"
         }
@@ -416,7 +420,9 @@
       "representations": [
         {
           "representation": "repository_markdown_utf8",
-          "sha256": "43b6cbc6ef09a2d14627200c99c80fd93489f9c8ce5911627a176304057022f9",
+          "sha256": "67e2a79c223ea5d9597bad533dc6a9e024be6ab8feb0c14680dd863c9c276447",
+          "bytes": 27758,
+          "byte_scope": "Fixed-commit original bytes; excludes the local text snapshot's extra terminal LF.",
           "base_commit": "15e3a1cc65af5030fd565a08afebce5c436b5a8f",
           "repository_path": "research/admissions/major-career-routing.md"
         }
