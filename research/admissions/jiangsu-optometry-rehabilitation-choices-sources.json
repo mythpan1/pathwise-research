@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "task_ref": "LOCAL-EYE-REHAB-CHOICES-20261104",
-  "research_revision": "2026-11-04",
+  "research_revision": "2026-11-12",
   "base_commit": "6590d415f242b93a0ecb7e8f2b580e8685e0d5ba",
-  "scope": "Three recruitment originals, including one narrow campus supplement; two policy families, with one local notice, attachment and explainer. No admissions collection.",
-  "source_presentation": "New sources were checked through retained official/employer tool-extracted text, not raw HTML/PDF bytes. PDF screenshots returned no image bytes, so visual table verification is incomplete. Report does not use exact prices or percentages. Tool-text hashes identify the retained tool extraction only.",
+  "scope": "2026-11-04 historical scope: Three recruitment originals, including one narrow campus supplement; two policy families, with one local notice, attachment and explainer. No admissions collection.",
+  "source_presentation": "2026-11-04 sources were checked through retained official/employer tool-extracted text, not raw HTML/PDF bytes. PDF screenshots returned no image bytes, so visual table verification is incomplete. Report does not use exact prices or percentages. Tool-text hashes identify the retained tool extraction only.",
   "sources": [
     {
       "id": "J1",
@@ -185,6 +185,148 @@
       "git_blob": "62964bce584061e66a93b131ecec683a69fd2778",
       "verification": "Fixed adopted repository content reused; external originals not rechecked this round.",
       "use_and_limits": "复用客户付款、机构/服务商分工和新人训练的条件机制，不主张本轮发生特定外包或调岗。"
+    },
+    {
+      "id": "N1",
+      "title": "南京明基医院2025届校园招聘简章",
+      "publisher": "南京明基医院雇主文案；安徽医科大学就业信息网托管",
+      "url": "https://jy.ahmu.edu.cn/news/view/aid/213331/tag/tzgg",
+      "published_date": "2024-11-06",
+      "accessed_date": "2026-11-12",
+      "geography": "南京雇主历史2025届校园公告；不是2031岗位预测",
+      "locator": "标题；一、招聘岗位首表第49、50、52行（含表头）；第3行rowspan44至46；二、医院介绍/医保服务；三、引才政策",
+      "representations": [
+        {
+          "kind": "original_HTTP_response_entity_bytes",
+          "sha256": "2afd354a0d5ba1a66a71bf0d3893d4b8390abe6a926621d7287e43cd3599f17c",
+          "bytes": 44910,
+          "scope": "原HTML含内嵌压缩/base64正文；未改行尾，不是仅壳页或工具摘要。"
+        },
+        {
+          "kind": "decoded_embedded_body_HTML",
+          "sha256": "7c4a02a2a4458cb5d8c22b1532d62a0b192b30d38d4fb7573a1b511f869d2331",
+          "bytes": 133718,
+          "scope": "本地可逆zlib/base64解码及剥离view2d/view1d站点标记；派生表示，不是另一独立来源；按HTML表头及合并属性核验，未声称浏览器视觉核验。"
+        }
+      ],
+      "facts": [
+        "第49行眼科验光师，准确列眼视光学专业，本科及以上学历，1；岗位要求全日制本科及以上学历。",
+        "医师证及住培合并格从第3行跨44行至第46行，不覆盖第49行。",
+        "第50行康复医学科技士、康复治疗专业、硕士及以上；第52行疼痛科技士、本科及以上，专业为康复治疗专业、针灸推拿学专业。",
+        "雇主介绍非公医疗组织、医保定点和商保合作；培养及正式员工工资福利为公告承诺。"
+      ],
+      "limits": [
+        "2025届为公告整体校园背景；不补单岗精确毕业窗口、资格豁免、职责、经验或理学学位。",
+        "本科校园接收范围不是个人录用、当前开放、2031持续接收或南医输送。",
+        "康复治疗专业不自行归并为准确康复治疗学；同院不同岗门槛不等南京全市门槛。",
+        "公立最高政府指导价不直接套本雇主；医保定点、商保合作、全院服务量不证明验光服务获何种支付或回款。",
+        "原件与派生表示同源；高校托管不作独立验证；培训/福利宣传不作个人已获训练或合同证明。"
+      ]
+    },
+    {
+      "id": "O1",
+      "title": "南京市第一医院康复医学科介绍",
+      "publisher": "南京市第一医院",
+      "url": "https://www.njsdyyy.com.cn/linchuangkeshi/neike/kangfuyixueke/keshijieshao/2018-07-23/82.html",
+      "published_date": null,
+      "accessed_date": "2026-11-12",
+      "locator": "工具转换L79–83",
+      "geography": "南京市第一医院科室组织自述",
+      "representations": [
+        {
+          "kind": "retained_tool_response_JSON",
+          "sha256": "a1495a9c37111e6fabb2e693dbdf1b085e009793a88c3a268195519ad87e3ed5",
+          "bytes": 4901,
+          "scope": "官方网页工具可读转换，非原HTTP实体；目录摘要未作证据。"
+        }
+      ],
+      "facts": [
+        "科室自述神经、肌骨、心肺及重症等康复服务、三级网络及治疗师规培基地/硕博培养点。"
+      ],
+      "limits": [
+        "URL日期不作已确认发布或更新日期，机构规模及服务现状的时效未知。",
+        "科室服务不是本科新员工职责；规培/硕博培养点不是本科生可取得名额或带教兑现。",
+        "不能从全科室技术反推新人可做医师、介入等操作；无科室收支、结算或招人因果事实。"
+      ]
+    },
+    {
+      "id": "L1",
+      "title": "南京市第一医院康复医学科技师岗位招聘信息（第三方转载线索）",
+      "publisher": "高校人才网转载，声称源自医院人事处",
+      "url": "https://www.gaoxiaojob.com/announcement/detail/346256.html",
+      "claimed_primary_url": "https://www.njsdyyy.com.cn/renliziyuan/rencaizhaopin/shehuizhaopin/2025-09-19/10278.html",
+      "published_date": "2025-09-22转载；正文署2025-09-19",
+      "accessed_date": "2026-11-12",
+      "locator": "工具转换L169–218",
+      "status": "lead_only_not_primary_verified",
+      "representations": [
+        {
+          "kind": "retained_mixed_tool_response_JSON",
+          "sha256": "14651385e260bfbeb661a0f6190566881280c9d1b2aaa68a80a7c6ce2acd88ff",
+          "bytes": 13241,
+          "scope": "含第三方转载的工具转换；仅该文定位作线索，不以搜索结果为原文。"
+        }
+      ],
+      "facts_as_reproduced": [
+        "转载列准确康复治疗学、本科及以上、应往届不限及已获毕业证学位证；仅保留为核原件的方向，不放行为已确认南京本科入口。"
+      ],
+      "limits": [
+        "官方原页工具不可达、直接HTTP503；停止该分支，未取得官方原件。",
+        "未核实际任务、资格种类与培训；缺原件不是拒收，也不能从省略写免资格。",
+        "不把O1官方科室介绍与本转载拼成已确认的新人岗位/带教链。"
+      ]
+    },
+    {
+      "id": "B-N",
+      "title": "2026-11-12 N增补使用的固定已采用仓库底稿",
+      "publisher": "mythpan1/pathwise-research",
+      "repository_commit": "7592b0cd66e79ce6c9e533fe79f8308666010b38",
+      "accessed_date": "2026-11-12",
+      "representations": [
+        {
+          "repository_path": "research/admissions/jiangsu-optometry-rehabilitation-choices.md",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/admissions/jiangsu-optometry-rehabilitation-choices.md",
+          "sha256": "cfe7068c5773b59f2bc493f7a1906728e63493c56a64033943ea4a81e6a018ff",
+          "bytes": 18657,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        },
+        {
+          "repository_path": "research/admissions/jiangsu-optometry-rehabilitation-choices-sources.json",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/admissions/jiangsu-optometry-rehabilitation-choices-sources.json",
+          "sha256": "289da95ef88bc3c8b1ccf0f9520a15a96051aca835ee07db0cf08e414c215129",
+          "bytes": 12330,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        },
+        {
+          "repository_path": "research/industry/demography-education-health-2037-choices.md",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/industry/demography-education-health-2037-choices.md",
+          "sha256": "275e5a9780ae7d0ddc52a1adc28f23b737d881dbd60ca63b135aa2ca5ac6eeab",
+          "bytes": 13106,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        },
+        {
+          "repository_path": "research/industry/service-organization-2037-choices.md",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/industry/service-organization-2037-choices.md",
+          "sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+          "bytes": 9963,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        },
+        {
+          "repository_path": "research/admissions/jiangsu-2025-imaging-pair.md",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/admissions/jiangsu-2025-imaging-pair.md",
+          "sha256": "c184e3e2c66e901ed5122b96917b9c4f35f982899e471a3ce5f06fe5ccfe30db",
+          "bytes": 42941,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        },
+        {
+          "repository_path": "research/admissions/jiangsu-54120-care-imaging-software.md",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/7592b0cd66e79ce6c9e533fe79f8308666010b38/research/admissions/jiangsu-54120-care-imaging-software.md",
+          "sha256": "1a84c92f2276a336b9f884517395b369bfce9b4b83614ab00c4cab6a7aab1711",
+          "bytes": 23251,
+          "byte_scope": "固定仓库原字节，远端base64解码，无追加LF或换行规范化。"
+        }
+      ],
+      "use_and_limits": "本批亲读固定底稿复用人口/组织机制、旧两专业比较与江苏历史边界；不重新取得其外部原站，不改变旧B1–B4记录。前两表示指旧底稿，不是本次候选。"
     }
   ],
   "reused_rule_urls": [
@@ -199,6 +341,109 @@
       "title": "江苏省教育考试院2026热点问题，第5、8问的旧卡核读记录",
       "url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-07-25/7486762353556459520.html",
       "limitation": "只沿用B1已核记录；服从与退档后果作为历史参照。"
+    }
+  ],
+  "updates": [
+    {
+      "revision": "2026-11-12",
+      "base_commit": "7592b0cd66e79ce6c9e533fe79f8308666010b38",
+      "prior_revision": "2026-11-04",
+      "scope": "江苏生源既有南医05两目标；N南京就业、本科直入及任务/非公用工/成本条件为作者情景。无招生采集、当前组调查或全市就业覆盖。",
+      "source_acquisition_boundary": "作者仅使用固定收集包与仓库原字节；本批原源取得状态逐项列明；不以派生正文、转载或同政策再读增加独立来源数。",
+      "policy_reread": {
+        "source_ids": [
+          "P2",
+          "P2-A"
+        ],
+        "accessed_date": "2026-11-12",
+        "representation": "tool-converted official HTML and partial PDF text retained in one tool response JSON; not original source bytes or pixels",
+        "sha256": "c2643df5ccdc1d30f22259b3b429b46c56828473743c9758b93120b1a6f6c9ec",
+        "bytes": 23492,
+        "locator": "通知L47–69、85–87；附件物理第1页p0 L20–24及53–61，第3页p2 L137–142，第5页p4合并于L143，运动AI扩展第6页p5 L167–173。",
+        "limits": [
+          "原网页及PDF直接请求均403，已停止；无原PDF字节或视觉核验，未读完118页。",
+          "本次可见片段未含眼科行；散瞳/显然验光和双眼视觉检查分类仅沿旧P2-A采用记录，不声称本次重核。",
+          "原政策两个目标及本次转换仍为同一来源家族；不把公立最高价用于明基，不以金额或比例排名。"
+        ]
+      },
+      "claim_mapping": [
+        {
+          "id": "N-F1",
+          "type": "fact",
+          "supports": [
+            "N1:row49;title;row3 rowspan44"
+          ],
+          "claim": "南京准确眼视光学本科历史校园渠道；不是当前录用或未来岗位。"
+        },
+        {
+          "id": "N-F2",
+          "type": "fact_and_limit",
+          "supports": [
+            "N1:rows50/52",
+            "L1:lead only"
+          ],
+          "claim": "同院康复技士门槛不对称；本地准确康复本科原件未证，不推全市排除。"
+        },
+        {
+          "id": "N-F3",
+          "type": "organization_self_description",
+          "supports": [
+            "N1:医院介绍/医保服务",
+            "O1:L79–83"
+          ],
+          "claim": "两类组织载体存在自述；不证明对应服务支付、岗位职责或新人训练。"
+        },
+        {
+          "id": "N-I1",
+          "type": "conditional_inference",
+          "supports": [
+            "P2",
+            "P2-A:2026-11-12 partial reread",
+            "O1",
+            "B-N"
+          ],
+          "claim": "公立康复可收费用约束排程和质量组织；本科新人任务须另证，无因果增减员结论。"
+        },
+        {
+          "id": "N-I2",
+          "type": "conditional_inference",
+          "supports": [
+            "N1",
+            "B-N"
+          ],
+          "claim": "非公视光的付款、组织分工、训练是连接历史校园门槛到持续入口的缺桥；不套公立价格。"
+        },
+        {
+          "id": "N-D1",
+          "type": "author_recommendation_under_stated_N",
+          "supports": [
+            "N-F1",
+            "N-F2",
+            "N-I1",
+            "N-I2"
+          ],
+          "claim": "N下当前先核视光具体本科入口，不据此改变专业目标顺序。附加N-S须两具体本科方案资格/用工/成本可达，视光持续付款、获准任务与可取得训练成立，且反馈/进阶优于可达康复对照、费用及工作条件不更差，才弱前置；该相对关系未证，康复缺原件不等较弱。康复建立同等组合即重比，更优即可前置，不要求视光先失败。"
+        },
+        {
+          "id": "N-D2",
+          "type": "conditional_education_comparison",
+          "supports": [
+            "N1:rows49/50",
+            "O1:training limits",
+            "B-N"
+          ],
+          "claim": "本科直入保留；硕士须有可取得学历资格或难替代训练增益，另算2034时间及成本，不自动读研。"
+        },
+        {
+          "id": "N-D3",
+          "type": "planning_boundary",
+          "supports": [
+            "B-N"
+          ],
+          "claim": "当前只改核验优先，目标顺序另按N-S完整比较前提；不改变旧11成员/9组48成员、正式完整性或接受度，不采2026/当前组。"
+        }
+      ],
+      "next_decision_gap": "N渠道的实际本科任务、可取得训练与资格/合同成本；准确康复本科本地原件；非全市名单普查。"
     }
   ]
 }
