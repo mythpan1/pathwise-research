@@ -5,6 +5,16 @@
   "research_base": "6963bc3e5e3c54f9ef18c07cb61064ac1efd82ef",
   "input_manifest_sha256": "d230006ea445f77d2d4035007877158e9769e6ecdd0eef41a64bb93461c8c12a",
   "purpose": "Sanitized source locations, limited summaries, support limits and fixed text hashes; no original-source full text or raw tool returns.",
+  "current_revision": {
+    "research_date": "2026-11-13",
+    "task_ref": "LOCAL-HR-ACCOUNTING-20261113",
+    "research_base": "4f531d307aabe4fbf2ebb9ae69a5b55568db3985",
+    "base_article_sha256": "39d6cfdadc3e3017847c09d8f1da5d0bf407563303fe3d3f04fdcab2de2ec1e8",
+    "base_source_index_sha256": "63a3b91afc7716ceae482c7a9fc7e2cf83c5625e97e51f60d88dbe9bf65c88fd",
+    "collection_manifest_sha256": "33643a30d306f0c3b220a8c342fc2b1e6957e2d7597c9d1067e6289c40d8cafe",
+    "legacy_field_scope": "All pre-existing top-level fields and their verification/not_collected statements are the preserved 2026-11-04 record, not actions or missing-evidence claims of this revision. Current scope and evidence are in revision_20261113.",
+    "scope": "Same historical A/B, P, Nanjing R and conditional2027/2031/2037; no new admissions/group/member counts, CSV/current-group collection or personal conclusions. Local independent review recommended adoption; public-version independent review and checks remain pending. Adoption status follows the PR record."
+  },
   "new_sources": [
     {
       "id": "P1",
@@ -418,5 +428,214 @@
     "Same-city payroll confirmation, personal contracts, exact city allocation or future recruitment",
     "Personal acceptance, rank, qualifications or cost ceiling"
   ],
-  "privacy": "No contacts, tool reference IDs, internal filesystem locations, raw returns or source full text included."
+  "privacy": "No contacts, tool reference IDs, internal filesystem locations, raw returns or source full text included.",
+  "revision_20261113": {
+    "new_sources": [
+      {
+        "id": "HR-C1",
+        "title": "北京科锐国际人力资源股份有限公司2025年年度报告",
+        "publisher": "北京科锐国际人力资源股份有限公司；巨潮资讯静态披露PDF",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225190004.PDF",
+        "representation": "raw HTTP PDF bytes, 225 pages; pdftotext -layout is derived; local PNGs visually checked",
+        "limits": [
+          "Company-authored reporting; automation efficacy and intended profit/cost effects are not independently audited causal findings. Do not copy R&D target metrics as actual outcomes.",
+          "Accounting revenue recognition is not bank receipt timing, cash conversion, per-contract margin, fee rate, guarantee refund outcome, individual salary or newcomer budget. No contract original acquired.",
+          "Group employee/training report does not prove the separate platform job’s legal employer, individual onboarding curriculum, supervisor, assessment, retention or 2031 vacancy.",
+          "No public-service procurement contract, 南京 customer payment or novice task quota established."
+        ],
+        "published": "2026-04-27 (cover)",
+        "period": "2025 fiscal year; group scope, not 南京 office or one hiring entity",
+        "page_convention": "1-based PDF physical page = printed page here; web conversion P index is zero-based",
+        "source_locator": [
+          "p147, (2)收入确认的具体方法, 1)灵活用工业务",
+          "p147, 2)中高端人才访寻业务",
+          "p147, 3)招聘流程外包承揽业务",
+          "p148 opening paragraph, 4)技术服务 continued",
+          "p21 VMS+ paragraph; p22 业务模式; p38 R&D table 人力资源外包管理系统, current-progress column",
+          "p26 其他数据指标变化; p67 十、公司员工情况 table + footnote",
+          "pp68–69 培训计划, p69（4）青年人才 / 全生命周期赋能体系"
+        ],
+        "checked_on": "2026-11-13",
+        "preserved_original_sha256": "3503c7a8bf91888e262062a211235cd722a59fece968026de6cdb7f4ed33dc95",
+        "original_bytes": 1535286,
+        "support_scope": [
+          "Group fee/revenue recognition for staffing/outsourcing, headhunt, RPO and SaaS; not receipts or graduate budgets.",
+          "Company-reported automated payroll/process functionality and current R&D progress are separate from goals and expected effects.",
+          "Owned employees2368 distinct from managed outsourced workers/parttime experts>53100; no graduate job inference.",
+          "Company-level newcomer courses; no specific Nanjing trainee access guarantee."
+        ],
+        "author_verification": "Read the fixed relevant representation and checked its hash; no new external retrieval. Annual147/148/38 and NAU3/5 existing PNGs also visually inspected where relevant."
+      },
+      {
+        "id": "HR-C2",
+        "title": "人力资源顾问培训生-南京（27届校招）",
+        "publisher": "实习僧 platform page under 科锐国际 brand; authenticated posting author not exposed",
+        "url": "https://www.shixiseng.com/intern/inn_wrnvv7nksrap?pcm=pc_SearchList",
+        "representation": "Saved platform source-page converted text only; original HTML attempt returned403 and stopped. No authenticated employer posting account or contracting/payroll entity established.",
+        "limits": [
+          "This is a platform-hosted recruitment evidence point, not verified employer-authored original. Actual posting account/publisher and legal contracting/payroll employer remain unknown.",
+          "Do not promote platform copyright holder into employer; do not infer Beijing parent or 南京 subsidiary is this role’s contracting entity.",
+          "Do not replace missing major wording with an explicit 专业不限 assertion, or import other job rows/qualification/degree/city/benefits.",
+          "Shows posted application conditions at retained access time, not actual current vacancy, guaranteed offer, chosen department, formal-employment outcome, salary or opportunity for 2027 entrants graduating2031.",
+          "No job-page bytes obtained; corporate-campus homepage redirect loop also failed. No retry of denied target."
+        ],
+        "published": null,
+        "displayed_refresh": "2026-11-11 17:06:11; page timezone not stated",
+        "displayed_deadline": "2027-02-25",
+        "source_locator": [
+          "L6–10, L32–36",
+          "L26 工作职责",
+          "L26 任职要求",
+          "L43 company brand vs L75–76 footer"
+        ],
+        "checked_on": "2026-11-13",
+        "preserved_converted_text_sha256": "6058c4bd56886f8249b8609bca214ed0fa8a7e66fda371e32182abad03f5879f",
+        "original_html_sha256": null,
+        "support_scope": [
+          "Exact Nanjing consultant trainee platform page: bachelor+,2027graduates with2026-09 through2027-08 graduation and no formal experience; early internship required after offer.",
+          "Candidate/role research, matching, screening, interview/salary coordination and entry followup are advertised tasks, not verified actual work."
+        ],
+        "author_verification": "Read the fixed relevant representation and checked its hash; no new external retrieval. Annual147/148/38 and NAU3/5 existing PNGs also visually inspected where relevant."
+      },
+      {
+        "id": "HR-C3",
+        "title": "公共管理学院2025级大类招生本科生专业分流工作实施方案",
+        "publisher": "南京农业大学公共管理学院",
+        "url": "https://clm.njau.edu.cn/info/1045/28870.htm",
+        "representation": "raw university HTML and attached PDF HTTP entity bytes; rules-only PDF extracts pp1,3–5 and local PNGs checked; page2 personal roster excluded",
+        "limits": [
+          "2027 quotas/rules, individual allocations, employer acceptance and internships unverified.",
+          "Personal-roster PDF page2 neither displayed nor extracted/used by author; no names, IDs, student outcomes or cohort counts included in candidate.",
+          "Original four admissions directions and14 displayed members preserved; form subdirection does not add a candidate."
+        ],
+        "published": "web2025-11-28; PDF signed2025-11-19",
+        "attachment_url": "https://clm.njau.edu.cn/__local/6/6D/4B/A78877DBCDAD34CBE7A53C78461_9A2A902B_65D88.pdf",
+        "source_locator": [
+          "HTML lines255/258 title/date and268 attachment linkage",
+          "PDF p1 一、培养模式 and 三、分流原则",
+          "PDF p3 申报/分配/公示 and 六、时间安排 / 七、分流依据",
+          "PDF p4 综合表现/处分/其他 and signature date",
+          "PDF p5 blank application form, 注意事项4"
+        ],
+        "checked_on": "2026-11-13",
+        "preserved_originals": [
+          {
+            "representation": "university HTML",
+            "sha256": "3cf258c1276d0a0f71bf87bed3aa9c84b2af4cd1c669daa2e665d94f219a9cb0",
+            "bytes": 16540
+          },
+          {
+            "representation": "attached PDF; rules pages1,3–5 only used",
+            "sha256": "0bf5ddae2a93c573ae5c51e21107a74e9c5bf7944fc94c42fbf810d06f16544a",
+            "bytes": 417160
+          }
+        ],
+        "support_scope": [
+          "2025-entry1+3 allocation: preference order, first-semester GPA+extras-discipline deduction, oversubscription rank and full-choice consequences.",
+          "Five administrative choices include a land-management subdirection, not five admissions members.",
+          "2026 implementation schedule is for2025-entry training, not new2026admissions data or confirmed outcomes."
+        ],
+        "author_verification": "Read the fixed relevant representation and checked its hash; no new external retrieval. Annual147/148/38 and NAU3/5 existing PNGs also visually inspected where relevant."
+      },
+      {
+        "id": "HR-C4",
+        "title": "南京财经大学ISCA方向班探访生态科技岛",
+        "publisher": "南京财经大学会计学院",
+        "url": "https://kj.nufe.edu.cn/info/1088/27185.htm",
+        "representation": "raw HTTP HTML bytes; text read locally, not independently verified event outcomes",
+        "limits": [
+          "One whole-class visit is evidence of an activity, not accounting work, supervised internship, real transaction/ledger/control task, duration, assessment or universal overseas placement.",
+          "No independent credential terms, grant success, visa/work eligibility, per-student internship allocation, fees, examination obligations, project exit or2027-cohort entitlement checked.",
+          "Same-group 天衡审计 is a separate target; do not borrow its training for the ISCA accounting row. This2026 activity is not2026 admissions data."
+        ],
+        "published": "2026-05-12",
+        "event_date": "4月30日 (year inferred2026 from dated report; not separately stamped on event)",
+        "source_locator": [
+          "HTML lines357–358,367",
+          "HTML line368",
+          "HTML lines369–370"
+        ],
+        "checked_on": "2026-11-13",
+        "preserved_original_sha256": "0353e179984f7919906501b4652291dc4cd845ed7e2ce26672e4337335cca02a",
+        "original_bytes": 25275,
+        "support_scope": [
+          "College reports one whole-class visit to companies/site; stronger activity evidence than intention, not supervised accounting practice.",
+          "Credential exemptions and overseas internship channels are attributed to a representative in the report, not independently verified contractual student rights."
+        ],
+        "author_verification": "Read the fixed relevant representation and checked its hash; no new external retrieval. Annual147/148/38 and NAU3/5 existing PNGs also visually inspected where relevant."
+      }
+    ],
+    "reused_context": [
+      {
+        "repository_path": "research/industry/service-organization-2037-choices.md",
+        "commit": "4f531d307aabe4fbf2ebb9ae69a5b55568db3985",
+        "sha256": "9c98a69bf6ac50cecc507521ad717529faba25fb76695172e8e946b2ea8064ff",
+        "scope": "Prior client/service-provider and payment/training distinction, not a new finding."
+      },
+      {
+        "repository_path": "research/industry/accounting-platform-audit-boundaries-2037-choices.md",
+        "commit": "4f531d307aabe4fbf2ebb9ae69a5b55568db3985",
+        "sha256": "c1eb633d92bbf9559766fd6b91fe6bb4647277990bf72622f8dd9af2bf730cfd",
+        "scope": "Prior accounting processing versus independent audit/control-evidence training; underlying originals not re-fetched."
+      }
+    ],
+    "claim_map": [
+      {
+        "id": "U1",
+        "claim": "Retain B weak preference only under original explicit S0; no upgrade from missing A evidence or joint-project label.",
+        "evidence": [
+          "base_article",
+          "HR-C3",
+          "HR-C4"
+        ],
+        "status": "conditional author judgment; not comparative outcome observation"
+      },
+      {
+        "id": "U2",
+        "claim": "Exact Nanjing adviser role narrows geography/task gap, not legal-employer, accurate-major acceptance or future vacancy gap.",
+        "evidence": [
+          "HR-C2"
+        ],
+        "status": "platform-text fact bounded by representation and unknown authorship"
+      },
+      {
+        "id": "U3",
+        "claim": "Fee and revenue recognition distinguish what clients buy; delivery feedback rather than headcount/revenue is the relevant training bridge.",
+        "evidence": [
+          "HR-C1",
+          "HR-C2",
+          "service-organization-2037-choices.md"
+        ],
+        "status": "reported business arrangements plus explicit author inference; no firm-specific novice allocation or cash result established"
+      },
+      {
+        "id": "U4",
+        "claim": "A-positive relative training/cost advantage can reverse even while B is usable; same P/R maintained.",
+        "evidence": [
+          "base_article P/S0/S1",
+          "HR-C1",
+          "HR-C3",
+          "HR-C4"
+        ],
+        "status": "revised sufficient-condition decision rule, not assertion that A currently has advantage"
+      },
+      {
+        "id": "U5",
+        "claim": "Population service demand, hiring budgets and applicant supply differ; shared client cash risk can lower both directions.",
+        "evidence": [
+          "base_article P1 and population analysis",
+          "HR-C1"
+        ],
+        "status": "conditional mechanism; no new population data, precise probability, income or hiring estimate"
+      }
+    ],
+    "remaining_unknowns": [
+      "Authenticated posting and contracting/payroll employer; exact graduate-major acceptance; current opening, actual hire, compensation and Nanjing business-line/supervision allocation.",
+      "A2027 allocation/quotas and obtainable training; B full costs, compulsory exams/fees/exit and individual supervised accounting practice; no precise A/B cost comparison.",
+      "Local public procurement/payment, margins/cash collection/newcomer budget,2031 availability and2037 progression.",
+      "Personal acceptance/rank/eligibility, target-year complete groups/rules and historical admission comparability."
+    ],
+    "privacy": "Only limited summaries, public source URLs, locators and hashes. No raw source extracts, full tool returns, internal paths, person names/contact data or student roster. All originals remain local.",
+    "research_status": "Local independent review recommended adoption. Public-version independent review and checks remain pending; adoption status follows the PR record. Existing original fields remain historical unchanged."
+  }
 }
