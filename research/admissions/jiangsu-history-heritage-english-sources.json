@@ -4,6 +4,15 @@
   "base_ref": "9fd9331d798badaf66247419b7c79a304effbaa9",
   "report_repository_path": "research/admissions/jiangsu-history-heritage-english-choices.md",
   "input_snapshot_sha256": "ed4c8a8d932a5dc29d6e8e2217950374dca5d6baa698069358c2b848e5d6dd88",
+  "current_revision": {
+    "date": "2026-11-13",
+    "base_ref": "73ed82ca5987d0ff3db77bdab64a3cef67cc4297",
+    "base_article_sha256": "fd5d8013de77b32e3e83d74563b2910e023b78fd163ec22f1c53e44c89f4d3d0",
+    "base_source_index_sha256": "164c9a42ae23d7454d70a2dba714ec3819bf2deb3f06ddb2952a7d1193aa56b6",
+    "legacy_scope": "All pre-existing fields, source claims, handling and missing-evidence statements preserve the2026-11-03 record; they do not describe new actions in this revision.",
+    "scope": "Same historical A/B and originalP/E0; N is explicit Nanjing-only research geography, not user preference. No new admissions or candidate counts.",
+    "adoption_status": "采用状态以审核/PR记录为准。"
+  },
   "scope": {
     "candidate": "江苏历史类南农2025旧01组两目标；同组12显示成员沿旧卡",
     "horizon": "假设2027入学且四年本科，2031入口；2037条件观察，不假连续工作或读研",
@@ -325,5 +334,85 @@
     "locator": "第8/5问，沿旧卡已核范围复用",
     "representation": "Prior adopted-card summary only; no original page representation in this batch",
     "limits": "2026组内调剂/退档规则参照，不作2027法律或录取保证。"
+  },
+  "revision_20261113": {
+    "sources": [
+      {
+        "id": "HN1",
+        "publisher": "南京博物院",
+        "title": "省级部门整体绩效自评价表（2023年度）",
+        "url": "https://www.njmuseum.org.cn/files/nb/news/files/2024/06/25/1b3e01d04db698987aaa50c0dc209147.pdf",
+        "representation": "web.open PDF-converted selected text, 5-page document reported; retained response includes source lines0–224, not all341 lines and not raw PDF bytes",
+        "locators": [
+          "PDF physicalp1 (toolP0) L7:公共教育职责",
+          "p1(toolP0) L19–31:全年预算/实际支出及公共文化设施免费开放运转经费",
+          "p4(toolP3) L202–214:公众/青少年教育、讲解导览和志愿者服务 separately listed"
+        ],
+        "source_period": "2023年度；URL目录2024-06-25，不当作独立核实发布日期",
+        "retained_combined_response_sha256": "0a33225fe9f0e8b3c0b5e67971f9fc9a2fe4fe3cedcb15396aa87a4e17da681a",
+        "hash_scope": "Binds the locally retained combined response containing both converted texts, not unseen rawPDF/HTML bytes; no full response or contact data included.",
+        "support_scope": [
+          "The museum reports actual expenditure as well as budgets, including free-opening operating funds; free access is not by itself evidence of no funding.",
+          "Public education/guide service and volunteer-work indicators appear separately in the self-evaluation."
+        ],
+        "limits": [
+          "Museum-wide self-report, not a specific public-education purchase/award/contract, recipient bank receipt or wage budget.",
+          "No staff counts, visitor/activity counts or financial amounts adopted into derived facts; do not turn service outputs or retirements into paid new positions.",
+          "Does not identify outsourced education provider, exact contracting entity, work-package supervision or novice selection.",
+          "This is 南京博物院, not 南京市博物总馆 or 南京大学校史博物馆; do not join their funds/contracts."
+        ]
+      },
+      {
+        "id": "HN2",
+        "publisher": "南京市博物总馆 website，南京市博物馆署名",
+        "title": "关于南京市博物馆公开招募空间运营合作方的公告",
+        "url": "https://www.njmuseumadmin.com/Article/show/id/4448",
+        "representation": "web.open converted source-page text; 36lines, not rawHTML",
+        "locators": [
+          "L4 publication/source",
+          "L8–10 location",
+          "L12–22 model and responsibility",
+          "L24–26 stated notice window"
+        ],
+        "published": "2026-11-06",
+        "retained_combined_response_sha256": "0a33225fe9f0e8b3c0b5e67971f9fc9a2fe4fe3cedcb15396aa87a4e17da681a",
+        "hash_scope": "Binds the locally retained combined response containing both converted texts, not unseen rawPDF/HTML bytes; no full response or contact data included.",
+        "support_scope": [
+          "The proposed cooperation concerns a shop space. Partner handles staff deployment, creative-product design, production, sales and daily operations. Museum supplies space/basic support and approves/oversees product design and quality.",
+          "Notice states two-year cooperation with annual assessment and a guaranteed-return plus operating-share model."
+        ],
+        "limits": [
+          "This is cultural-creative retail operation, NOT a public-education procurement or a general museum payroll route.",
+          "Solicitation/model is not award, executed contract, cash receipt, hires, salary or work offered to undergraduate novices.",
+          "No supplier identity, exact major/degree/experience, training or paid education responsibilities verified.",
+          "Do not add notice status, public award/prize or individual contact/person data to derived indexes; personal contact text remains only in controlled full tool response."
+        ]
+      }
+    ],
+    "not_adopted": [
+      {
+        "id": "HL1",
+        "topic": "南京大学档案馆/校史博物馆历史岗位",
+        "status": "Original/migrated URLs led to recruiting homepage; converted open failed. Search reproductions not adopted as exact qualification, employer or task facts."
+      },
+      {
+        "id": "HL2",
+        "topic": "文博之夏成交公告",
+        "status": "OnlyJavaScript shell; no award/provider/payment or delivery facts adopted."
+      },
+      {
+        "id": "HL3",
+        "topic": "六朝AI导览招募",
+        "status": "OriginalHTTP403; stopped without alternate-tool retry. No implementation or job inference."
+      }
+    ],
+    "judgment_change": "Useful partial funding/organization evidence, not closed Nanjing paid undergraduate education entry. OriginalE0 conditional weakB direction not strengthened. Positive relativeA training benefit may outweighB additional acceptable exit under sameP even if that exit works; no current comparative advantage observed.",
+    "remaining_unknowns": [
+      "Paid education work package, payer/contracting employer, exact undergraduate-major and novice acceptance, supervisor/feedback.",
+      "Candidate-specific obtainable practice, total costs and2031/2037 continuity; personal acceptance and target-year complete groups/qualification."
+    ],
+    "provenance": "Author read fixed converted primary passages only, no new external retrieval; legacy original sources reused through fixed cards, not re-fetched. NoPDF visual verification claimed.",
+    "privacy": "No source full text, person/contact data, raw counts/amounts or internal paths. Original historical fields preserved; adopted additions limited to bounded summaries.",
+    "adoption_status": "采用状态以审核/PR记录为准。"
   }
 }
