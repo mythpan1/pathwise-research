@@ -4,7 +4,7 @@
   "as_of_date": "2026-11-04",
   "input_manifest_sha256": "cbe97ced8556363ff2bdd88598cd71b93ef5de82a9c8277c5f4ba215d14e82d1",
   "scope": "Only source locations, limited summaries, applicability boundaries and text hashes. No raw source, contact data, complete tool response, private path or CSV.",
-  "source_hash_notice": "converted_text_sha256 refers only to converted visible-text excerpts; no raw HTML/PDF source hash is asserted. Repository file hashes are separately labeled.",
+  "source_hash_notice": "Historical P01–J03/C01 converted_text_sha256 values identify converted visible-text records as individually described; E01 separately labels original PDF and full pdftotext bytes. Repository summary hashes remain separate. No new raw representation is claimed for any historical entry.",
   "retrieval_notice": "The author read the frozen records, not live webpages; access dates describe the collector records.",
   "sources": [
     {
@@ -129,6 +129,65 @@
       "hash_scope": "Exact UTF-8 bytes of the fixed repository file; this is not a source webpage hash.",
       "summary": "界定既有泛数据研究范围，避免本轮重复扩写。",
       "limits": "不作为新增就业率或学校训练依据；仅按固定研究版本复用。"
+    },
+    {
+      "id": "E01",
+      "title": "2025年年度报告全文",
+      "publisher": "国能日新科技股份有限公司",
+      "hosting": "巨潮资讯静态披露PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-11/1225091856.PDF",
+      "report_period": "2025-01-01/2025-12-31",
+      "cover_date": "2026年4月",
+      "url_date": "2026-04-11；仅URL日期，未另核披露元数据",
+      "access_date": "2026-11-13",
+      "evidence_form": "Original annual-report PDF plus pdftotext-layout conversion; author inspected actual rendered pages 13,14,22,23,33,35,36,146. Not whole-report visual review.",
+      "source_raw_sha256": "d237c297c249450e5083956e0c35fc3f15eeb42c2b20ce2c76917453a9ce21a2",
+      "source_raw_bytes": 2297128,
+      "converted_text_sha256": "886718ce3fa634cc6d2fdaec81efca968758b990f1e11566c4bd2954cf52c242",
+      "hash_scope": "Raw hash identifies exact original PDF bytes; converted hash identifies full pdftotext-layout UTF-8 representation, not the PDF or this summary. Raw file, text and page images stay local.",
+      "locator": "Printed page = physical page; zero-based index = page minus 1. p13 automated prediction workflow; p14 control product table; p22 business models and customer classes; p23 product/data-center R&D split; p33 control product progress; p35 professional-team trading custody; p36 operations management; p146 note 37 specific revenue recognition.",
+      "summary": "一次性交付产品、按年数据/辅助决策服务、交易托管基本费加超额利润分成分开；后台预测、产品测试、模型验证与专业交易团队分工；控制接口/安全约束同时面临即插即用和工程流程集中；签收、验收与按期收入确认不同。",
+      "limits": "经营/技术/效率为公司自述，不是独立测得行业比例、减员、成本收益或本科需求。未得客户合同、实际到账、托管担保责任与收益结果，不把会计类别逐一套所有运营模式。p36原文“降低实施成本和运维效率”表述不顺，只采用明确的标准化/工单/天津迁移事实，不改成已验证运维增效。无学校合作、精确专业接收或培养优劣证据；不挪用海外项目为江苏岗位。",
+      "use": "New factual calibration for explicit conditional inference, not a labor-market outcome forecast."
+    },
+    {
+      "id": "B05",
+      "title": "能源互联网的本科入口增量",
+      "publisher": "Pathwise Research adopted summary",
+      "repository_commit": "15060dab678c10ad94f01be0b434e970e738d0be",
+      "repository_path": "research/admissions/energy-internet-undergraduate-entry-addendum.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/15060dab678c10ad94f01be0b434e970e738d0be/research/admissions/energy-internet-undergraduate-entry-addendum.md",
+      "file_sha256": "6b14323258d37131fa1a3b7be0cb5dd09cbc09f77bdd7d623b513b5316a5ed3c",
+      "locator": "Sections I/II/IV/V: updated undergraduate entry, E04 curriculum structure, task and acceptance limits",
+      "summary": "本科建造/特定技能申请入口已补；2025方案有电路、电机、暂态、运行控制和实践结构，不能继续以B无本科入口支持A排序。",
+      "limits": "仅复用已采用摘要及其原索引，未重访外部原件；原培养材料为转换文字且未完成视觉核验，不升级等级。非2027适用、实践兑现、同岗精确接收、同城可选或学校质量证据。"
+    },
+    {
+      "id": "B06",
+      "title": "江苏新能源结算责任：信息计算与能源互联网怎样比较",
+      "publisher": "Pathwise Research adopted summary",
+      "repository_commit": "15060dab678c10ad94f01be0b434e970e738d0be",
+      "repository_path": "research/industry/jiangsu-renewable-settlement-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/15060dab678c10ad94f01be0b434e970e738d0be/research/industry/jiangsu-renewable-settlement-choices.md",
+      "file_sha256": "e1396fff5e9bcffce243ed496f362677d29f6ad88ce6c80fd0e06ad7519ea2b4",
+      "locator": "Sections II–V: resource/aggregator responsibility, controllable action, 2030 expiry",
+      "summary": "复用参与方式、合同责任与可行动损益的区分；江苏机制文件有效至2030。",
+      "limits": "未重核法规或实际运行；不把2026参数保证至2031/2037，不新增江苏招聘、合同或项目收益。"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "task_ref": "LOCAL-POWER-PLATFORM-20261113",
+      "research_base": "15060dab678c10ad94f01be0b434e970e738d0be",
+      "new_source": "E01",
+      "reused_adopted_sources": [
+        "B05",
+        "B06"
+      ],
+      "scope": "Power-specific sold product/annual fee/custody/team/interface mechanism; A analysis-validation preparation and P-E B engineering-validation main/A backup with positive reversals. No admissions/new recruitment collection.",
+      "historical_metadata_notice": "Top-level original task_ref, research_base, as_of_date and input_manifest refer to the preserved 2026-11-04 batch; they are not current-batch provenance.",
+      "publication_state": "Candidate update; adoption is determined by separate review and publication records."
     }
   ],
   "excluded_source_notice": "The attempted NCSS source returned HTTP 403 and collection stopped. Neither its search-index content nor same-job alternative routes are used as evidence. No renewed attempt in this author run."
