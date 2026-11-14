@@ -86,6 +86,115 @@
       "limits": [
         "发布/更新时间与2027适用届未核；不证明大类分流、训练质量或就业。"
       ]
+    },
+    {
+      "id": "S01",
+      "type": "government_procurement_award_original_html",
+      "title": "2025年南京市城市体检评估报告项目中标公告采购包1",
+      "publisher": "江苏省公共资源交易平台，来源江苏省政府采购",
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20250814/322ceb2764b741fa9fa1fff2c0fdc7c9.html",
+      "publication_date": "2025-08-14",
+      "time_notice": "页面18:22:06与meta 06:22:06不一致，仅使用日期",
+      "original_bytes": 14373,
+      "original_html_sha256": "b670fd9e2db1aff0f9b9d22a5417475170c5000bb97a5f0f7542ed2da4a9ea19",
+      "embedded_body_text_sha256": "f3a616908a34dee08f4c1ed81ab582b4e5853a746a81d058b15be5b0b19c8fda",
+      "representation": "实际原HTML内嵌正文经HTMLParser抽取；非浏览器可见快照，不运行脚本",
+      "locator": "第二、三、四、九节；原HTML第78行内嵌正文",
+      "supports": [
+        "采购人南京市城乡建设委员会，中标供应商南京市规划设计研究院有限责任公司，2797000元。",
+        "评估南京2024年城市情况，编制2025年报告；2025年9月底前完成、经市政府审议后报省住建厅/住建部。"
+      ],
+      "limits": [
+        "这是城市评估报告中标，不是景观设计/施工合同、验收、到账或工资预算。",
+        "详细服务标准/招标文件未取得；不是S02或旧J1同一雇主/项目。",
+        "初次CDATA抽取无正文已纠正，空转换不作证；联系人和完整全文仅本地。"
+      ]
+    },
+    {
+      "id": "S02",
+      "type": "company_annual_report_original_pdf",
+      "title": "广州山水比德设计股份有限公司2025年年度报告",
+      "publisher": "广州山水比德设计股份有限公司",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229307.PDF",
+      "cover_date": "2026-04",
+      "url_date": "2026-04-29",
+      "date_notice": "封面月份与URL日期分开，未另核首次公告时间",
+      "original_bytes": 1262359,
+      "original_pdf_sha256": "62a4bc598957d3a34e3ae351570eaa79ca037e77143add35a373a82e762b0ad6",
+      "layout_text_sha256": "b7ca30b17050b97662d67d567591cc3b7b268e045199e28baef5698f705fc90d",
+      "representation": "原PDF与pdftotext-layout转换分别哈希",
+      "page_map": "191物理页；物理页=印刷页，index=页码减1",
+      "visually_inspected_pages": [
+        16,
+        24,
+        28,
+        132
+      ],
+      "facts": [
+        {
+          "locator": "p16、132",
+          "summary": "设计按合同阶段交付收费，成果逐级审查并取得客户设计确认；按合同产出值确认设计收入，EPC/施工另列。"
+        },
+        {
+          "locator": "p24",
+          "summary": "总部统一客户对接并集约调配设计资源；业务规模/合同不自动等同利润、现金或岗位。"
+        },
+        {
+          "locator": "p28研发表",
+          "summary": "老旧社区评估项目进展标已完成，论文/报告仍在拟达到目标栏；不据此声称独立验收或本科实训。"
+        }
+      ],
+      "limits": [
+        "经营与效果解释为公司自述，非独立行业就业因果验证。",
+        "分阶段反馈不证明本科新人实际取得；无南农训练/普通生资格或南京设计项目证明。",
+        "与旧gad非同雇主已证关系，不把EPC职责移给风景园林新人；确认收入不等现金到账。"
+      ]
+    },
+    {
+      "id": "S03",
+      "type": "company_annual_report_original_pdf",
+      "title": "杭州壹网壹创科技股份有限公司2025年年度报告",
+      "publisher": "杭州壹网壹创科技股份有限公司",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225058027.PDF",
+      "url_date": "2026-03-31",
+      "date_notice": "仅URL日期，未另核首次公告时间",
+      "original_bytes": 1535489,
+      "original_pdf_sha256": "f385c7e64926a6201785387e79fdabeab7d83a5cc9aac3669644a269716a009e",
+      "layout_text_sha256": "921d08e40a9963c6d4c0a38862b9818e0c35e39a6d1c6eee288ab446b20db5c3",
+      "representation": "原PDF与pdftotext-layout转换分别哈希",
+      "page_map": "224物理页；物理页=印刷页，index=页码减1",
+      "visually_inspected_pages": [
+        10,
+        12,
+        17,
+        22,
+        152
+      ],
+      "additional_text_pages": [
+        11,
+        16,
+        151
+      ],
+      "facts": [
+        {
+          "locator": "p10—12、151—152",
+          "summary": "管理服务不采购货品，品牌按效果及约定付服务费；营销/分销采购和销售货物，责任模式不同；流程有用户/效果反馈。管理收入按销售比例或客户确认等规则，营销收款/退款与分销模式分别核。"
+        },
+        {
+          "locator": "p17组织段",
+          "summary": "公司自述资深运营专家及中高层占比20.2%→26.4%，入门级5.2%→10.8%同升；对应执行岗位占比原文“下降11.80%”。",
+          "units_notice": "保留百分号，不改写百分点或反算绝对人数；占比不是人数增减。"
+        },
+        {
+          "locator": "p16与p22",
+          "summary": "管理层称部分Agent商用；具体研发项目标研发与迭代中，指标/培训周期目标不是本批取得的实测结果。"
+        }
+      ],
+      "limits": [
+        "一个企业的人员结构自述不是AI导致普遍本科扩招，也不证明普通学生学历/专业/城市/带教。",
+        "与旧赛夫不是同雇主同岗；快反馈是Q附加条件，不能由流程图直接推出教学效果或所有运营周期短。",
+        "服务收费不等全部店铺销售归服务商，管理服务不套持货库存责任；各收入政策不混成通用现金条件。"
+      ]
     }
   ],
   "reused_baselines": [
@@ -140,5 +249,83 @@
   ],
   "representation_note": "Source hashes bind saved extracted text, not original HTML/PDF bytes. Page-line numbers are extraction locators, not official paragraph numbers. Full source text, contacts and tool returns are not included.",
   "acquisition_limit": "One extractor timed out on J1; another page-text read supplied the cited sections. No original HTML bytes were obtained.",
-  "analysis_boundary": "Payment, organization and future 2031/2037 branches are conditional author analysis; neither recruitment nor policy establishes future hiring or this university training quality."
+  "analysis_boundary": "Payment, organization and future 2031/2037 branches are conditional author analysis; neither recruitment nor policy establishes future hiring or this university training quality.",
+  "bounded_updates": [
+    {
+      "research_date": "2026-11-14",
+      "fixed_base": "757c2f5cf4f9f617fb7294ac420846de10d87898",
+      "status": "local candidate; adoption depends on independent review and authorized publication",
+      "scope": "仅旧A风景园林与B工商管理类，非用户Q继承原P，分析R固定南京；两边实际本地付费/本科接收仍是假设，不把旧异地岗位搬来",
+      "new_sources": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "representation_notice": "原representation_note/acquisition_limit/source_snapshot等字段及旧source对象原样保留，仅描述2026-11-04旧批；本增补3原件的原字节/转换和缺口分别列于新对象。",
+      "decision": "同资格/总成本/带教，B可多轮回看成本/结果且作有限可撤调整，A阶段反馈受客户确认节奏约束时，B经营反馈准备弱主A备；空间使用错配/难逆返工损失权重升高，A可正面反转，无需B失效。",
+      "inference_notice": "学习反馈次数/补训难度是显式情景与作者机会成本推断，不是年报已证教学优势；A同样有阶段反馈。",
+      "unchanged": "6766、19/26/317、12显示成员、B三分流/全组接受和2027资格/实训未知；2027实际四年才2031，2037按真实经历；2026采集/当前组调查暂停",
+      "source_limits": "公司自述不证普通本科资格/人数/南京岗位；采购评估不证设计合同，人口/实施闭环未新补成"
+    }
+  ],
+  "new_acquisition_gaps": {
+    "government_reply_originals": [
+      {
+        "url": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2025njytabl/shirddbjy/202512/t20251205_5706008.html",
+        "status": 403
+      },
+      {
+        "url": "https://zjw.sh.gov.cn/bljg/20260602/51aff53c09db4d46a60a5c82e240b930.html",
+        "status": 403
+      }
+    ],
+    "use": "未取得正文，不采用搜索摘要为人口/实施闭环事实，不重试绕过；不同辖区不能替南京趋势",
+    "new_population_evidence": false
+  },
+  "new_claim_map": [
+    {
+      "claim": "Q基准B准备弱主",
+      "evidence": [
+        "J2",
+        "S03"
+      ],
+      "type": "作者条件推演；反复取得成本和滞后结果、有限可撤调整及同等导师投入为Q前提，不是实际训练优势"
+    },
+    {
+      "claim": "Q内A正面反转",
+      "evidence": [
+        "J1",
+        "S02"
+      ],
+      "type": "空间使用冲突/难逆返工权重上升时，连续专门训练更值得提前投；B仍可用，R和可接受资格/成本尺度不变"
+    },
+    {
+      "claim": "政策/人口到付费组织",
+      "evidence": [
+        "P1",
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "type": "S01仅采购评估事实；使用/购买变化是条件机制，非新南京人口序列"
+    },
+    {
+      "claim": "AI重组不等单向挤新人",
+      "evidence": [
+        "S03"
+      ],
+      "type": "公司结构反例校准机制，不外推实际人数、本科接收或普遍因果"
+    },
+    {
+      "claim": "本科项目/补训",
+      "evidence": [
+        "J1",
+        "J2",
+        "U1",
+        "S02",
+        "S03"
+      ],
+      "type": "作者建议，不是已核南农课程或实习资源"
+    }
+  ]
 }
