@@ -235,6 +235,103 @@
         "二、粮贸储备干部仅收应届研究生；不能与本科管培合并。",
         "三、基地综合岗为山西朔州，玉米收储称量报表；未逐字列两目标专业，不作为已核共享备选。"
       ]
+    },
+    {
+      "id": "U01",
+      "kind": "official_major_introduction_html_and_embedded_image",
+      "title": "农林经济管理（图说专业）",
+      "publisher": "南京农业大学本科招生办公室网站",
+      "url": "https://zsxx.njau.edu.cn/yxzy/zyjs/jjglxy/nljjgl.htm",
+      "publication_date": null,
+      "html_sha256": "4a49b7f9bf4fa9974d3275a7ef10eb7fe7aaaada86ac3462d992c07b1dd189b3",
+      "image_sha256": "9dd7ce2cceb8441ad304447286acb68ff088ff95f3172d8194ac722d6485b8f8",
+      "locator": "原HTML主文长图，实际目视",
+      "summary": "活动和研究主题宣传，不作普通学生逐课实践、资源取得或就业结果证据。",
+      "limits": [
+        "不把图中学科评价解释为旧招生“＋”。",
+        "不导出人物、照片、联系方式或宣传比例；不从活动年份补网页日期。"
+      ]
+    },
+    {
+      "id": "U02",
+      "kind": "official_historical_undergraduate_curriculum_pdf",
+      "title": "南京农业大学本科专业人才培养方案：农林经济管理",
+      "publisher": "南京农业大学教务网站",
+      "url": "https://jwc.njau.edu.cn/__local/6/3E/11/DF5EF0C58429F51F28F8DF4D06E_DA601D2D_270D3.pdf?e=.pdf",
+      "publication_date": null,
+      "applicable_cohort": null,
+      "original_bytes": 159955,
+      "original_sha256": "5a12a97c09102fcc9311f58df2e06cb968e5f7533f10eaf7474fa28018e9bcf3",
+      "layout_text_sha256": "94266679604218aeecf6a9110a643823b7cfb1130e2de37d805169202edaecd8",
+      "hash_scope": "原PDF与pdftotext-layout转换分别标识，非同一表示",
+      "page_map": "8物理页，无印刷页码；index=物理页减1",
+      "visually_inspected_physical_pages": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "facts": [
+        {
+          "locator": "物理2课程框架，5—6核心课与综合实践",
+          "summary": "普通农经历史方案核心课和综合实践标必修；农业经营、农产品运销、政策等连接农业经营分析，田野调查、ERP沙盘、决策模型、社会经济调查提供正式训练安排支点。"
+        },
+        {
+          "locator": "物理5基础课；6—7拓展选修",
+          "summary": "有国际贸易、会计统计等共同基础；作物/畜牧通论为选修，标星学术组修读要求与申请推免挂钩，不当普通生人人取得。"
+        }
+      ],
+      "limits": [
+        "发布日期和实施届别未知，元数据/搜索年代不补实施日期；不是已核2027方案。",
+        "通识汇总53与后文49口径差异保留，不用于总量排名。",
+        "正式安排不证明实习单位、数据、带教反馈、实际能力或本科岗位；非农学技术授权。"
+      ]
+    },
+    {
+      "id": "E01",
+      "kind": "company_original_annual_report_pdf",
+      "title": "厦门象屿股份有限公司2025年年度报告",
+      "publisher": "厦门象屿股份有限公司",
+      "hosting": "巨潮资讯静态披露PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225163143.PDF",
+      "report_period": "2025-01-01/2025-12-31",
+      "url_date": "2026-04-24",
+      "publication_date_notice": "URL日期未另认证为首次公开日期",
+      "original_bytes": 5460906,
+      "original_sha256": "c48dfe8909030d4b19b43ee4e7ed367e7619cd65e77607090edeccdff4a61386",
+      "layout_text_sha256": "a01df8cbed83264b43f6f95d7b7e6fc39dce1c5d2783af12d0bae6c174b4e3d0",
+      "hash_scope": "原PDF与layout转换分开；财务表/会计政策与经营效果自述分开使用",
+      "page_map": "319物理页，物理=印刷+1，index=印刷页",
+      "visually_inspected_physical_pages": [
+        13,
+        16,
+        17,
+        22,
+        155
+      ],
+      "facts": [
+        {
+          "locator": "印刷14—16；物理15仅文字，16—17图文",
+          "scope": "农产品经营与象屿农产对外物流",
+          "summary": "经营与对外物流分账；公司称北粮南运和仓容利用提升，运输增量毛利率较国储/省储等仓储存粮低，物流板块毛利率降、毛利增。"
+        },
+        {
+          "locator": "印刷11—12、21；物理13/22实际图",
+          "scope": "公司全业务模式/风险组织，不是粮食合同",
+          "summary": "全公司收益模式含服务费、集中采购成本优势及价格时空差；自述业务、总部风控、总控稽核三道风险防线和分层研究。"
+        },
+        {
+          "locator": "印刷154—155；物理155图文，156文字",
+          "scope": "全公司会计政策",
+          "summary": "按控制权判断主要责任人/代理人的总额或净额；商品货权/凭据与劳务完成等确认条件，不等现金到账或具体品质损失转移。"
+        }
+      ],
+      "limits": [
+        "单企一年经营/组织自述不是行业比例、岗位数、利润到新人人员预算的已证因果。",
+        "未取得具体粮食购销/服务收费、损失责任、授权或带教合同；期现毛利不等对外物流毛利或现金。",
+        "不移植钢铁、能源物流、造船会计至粮食；粮链通与屿链通不视为同产品。",
+        "与正大/神农/苏美达非同雇主同岗证据，不补江苏落点、本科接收、交易/授信/套保权限。"
+      ]
     }
   ],
   "same_business_source_boundary": {
@@ -263,6 +360,22 @@
       "git_blob_sha": "93aba5680d7e4f8ebd70a3547428a1585ce6912e",
       "hash_note": "SHA256 is file content digest; Git blob SHA is a distinct 40-hex identifier",
       "reuse_scope": "苏美达轻纺/机电本科入口及国贸旧培养取向；本轮未重取原网站",
+      "new_original_verification": false
+    },
+    {
+      "id": "REUSE-TRADE-20261114",
+      "repo_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "commit": "22ae5558d36ce1e8ea863aadc7b2fdea15e7bf79",
+      "sha256": "531fff068190db35307590f2db6fd5e3013a0010344f14c640d2ca641ba17fc7",
+      "reuse_scope": "旧国贸方案文字摘要与跨产品入口沿原等级，不新取国贸PDF或升级视觉完整性",
+      "new_original_verification": false
+    },
+    {
+      "id": "REUSE-ADMISSIONS-20261114",
+      "repo_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "22ae5558d36ce1e8ea863aadc7b2fdea15e7bf79",
+      "sha256": "6a1b8bc17c53fceccb2b9c4d004d09d4a66ac88318bcddc8e905270b7714cd1f",
+      "reuse_scope": "12显示成员、历史位次/录取数和规则沿旧等级，不重取招生原件",
       "new_original_verification": false
     }
   ],
@@ -307,6 +420,37 @@
         "BASE-TRADE"
       ],
       "claim_type": "conditional synthesis, not verified future profits, demand or training advantage"
+    },
+    {
+      "report_section": "2026-11-14增补：新事实与集中边界",
+      "sources": [
+        "U01",
+        "U02",
+        "E01",
+        "P1",
+        "P2"
+      ],
+      "claim_type": "historical source facts plus explicit organization/payment/population mechanism assumptions"
+    },
+    {
+      "report_section": "G基准B弱主与A正面反转",
+      "sources": [
+        "U02",
+        "E01",
+        "GRAIN-TF",
+        "REUSE-TRADE-20261114"
+      ],
+      "claim_type": "conditional comparison, not observed school superiority or future admission/employment; fixed P/R/qualification/cost/mentoring scale; bottleneck changes rather than counterpart rejection"
+    },
+    {
+      "report_section": "本科项目、代价和改判",
+      "sources": [
+        "U02",
+        "E01",
+        "REUSE-TRADE-20261114",
+        "REUSE-ADMISSIONS-20261114"
+      ],
+      "claim_type": "author-designed supervised training recommendations; no factual claim of existing school access or employer authorization"
     }
   ],
   "privacy": "Originals, full text, contacts, headers, complete tool returns and internal logs remain local; this index contains source identity, limited facts and content hashes only.",
@@ -315,5 +459,22 @@
     "未核2027规则、正式组和招生计划；未读CSV或采集2026录取。",
     "未核农经/国贸实际届别相对训练和补训成本，不凭证据多少排序。",
     "未核企业实际合同/回款/利润及未来岗位预算。"
+  ],
+  "bounded_updates": [
+    {
+      "research_date": "2026-11-14",
+      "baseline_commit": "22ae5558d36ce1e8ea863aadc7b2fdea15e7bf79",
+      "scope": "仅细化同P/R下粮食采购履约G组织分支；2027实际四年→2031本科/2037真实经历；非用户画像",
+      "status": "local candidate; adoption subject to independent review and authorized publication",
+      "new_source_ids": [
+        "U01",
+        "U02",
+        "E01"
+      ],
+      "evidence_change": "U02补普通农经历史正式训练取向，E01校准商品经营/对外物流及组织机制；旧“未取得农经培养支点”为旧取证状态。旧对象、位次、12成员、未知资格及source_freeze保留，不代表新源冻结。",
+      "decision": "G基准规格/供方较稳定且订单异常有带教：B国贸准备弱主、A农经备；供给组织失真为主要损失源则A可正面反转，B仍可用。条件相同，不以资料多少或未被招聘点名排序。",
+      "assumption_boundary": "双方入学/就业资格、总成本、带教可比且接受实际现场；课程取向能转为练习是前提，不是两专业当前效果/优势实测。",
+      "paused": "2026招生采集及当前组调查；未新增候选、全组通过或职业名额"
+    }
   ]
 }
