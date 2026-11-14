@@ -282,6 +282,56 @@
       "promulgated_date": "2025-02-23",
       "effective_date": "2025-04-15",
       "full_document_obtained": false
+    },
+    {
+      "id": "E01",
+      "title": "安井食品集团股份有限公司2025年年度报告",
+      "publisher": "安井食品集团股份有限公司",
+      "source_kind": "original corporate annual report PDF; audited financial report and management self-description distinguished",
+      "hosting": "巨潮资讯静态披露PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225063456.PDF",
+      "report_period": "2025-01-01/2025-12-31",
+      "url_date": "2026-03-31，仅URL日期，未独立核披露元数据",
+      "accessed_date": "2026-11-14",
+      "page_map": "封面为物理第1页；物理页=印刷页+1；零基index=印刷页。250物理页、249印刷编号页。",
+      "locators": [
+        "印刷11／物理12：采购计划及收货验收后信用期付款",
+        "印刷12／物理13：新物料小试、中试、供方风险评审；集团统筹与基地责任；生产、质量、设备、仓储及EDI",
+        "印刷13／物理14：商超供销/寄售及特通定制",
+        "印刷15／物理16：渠道定制调整与一般江南产学研关系，仅定向文字",
+        "印刷16／物理17：数字追溯及认证不含外协工厂的限制",
+        "印刷19–20／物理20–21：销售/库存含外购产品及外购成本表",
+        "印刷37／物理38：设备技改、PLM/LIMS等计划，不是已部署",
+        "印刷135／物理136：经销、商超和小部分寄售的收入确认"
+      ],
+      "visual_check": "作者实际目视物理12/13/14/17/20/21/38/136，对应印刷11/12/13/16/19/20/37/135；并读相关转换文字。不是全报告逐页视觉核验。",
+      "adopted_for": [
+        "采购认证、小试、质量与车间中试、风险供方评审的衔接；集团集中不抹去基地质量、安全、成本责任。",
+        "渠道定制、标准供销/寄售及采购付款/收入确认分账，支持明确假设的训练主备推演。",
+        "自产外采并存，已有信息系统与未来技改计划分开，不能让工艺或质量天然免疫集中自动化。"
+      ],
+      "limits": [
+        "组织、数字化及效果是公司自述，不是独立行业结论或实际本科任务/授权、名额与带教。",
+        "外购产品/成本不等于已证OEM、委托生产合同或代工数量比例；未核过程控制、退货/召回和质量损失的合同分配。",
+        "供应商信用期不等客户账期；收入确认不等到账或全部终端售出，不编库存质量事故或现金危机。",
+        "p37视觉/AI、PLM/LIMS、APS等是计划，不写成既有部署或替代比例。",
+        "一般江南合作不证明两目标学生训练权益；不与旧利和P03拼成同雇主/岗位/带教，不挪用异地基地证明江苏岗位。",
+        "未新增招聘、培养方案、政策核验或招生采集；公司需求预测不作已发生人口或市场事实。"
+      ],
+      "archive_artifacts": [
+        {
+          "evidence_id": "FOOD-E01-RAW",
+          "representation": "原始年报PDF字节；原件留本地",
+          "sha256": "2b8763235db0a52d671e20302090b163115d3ebb2dab7027b28b4f2fcae4a79d",
+          "bytes": 1984913
+        },
+        {
+          "evidence_id": "FOOD-E01-TEXT",
+          "representation": "pdftotext -layout完整UTF-8转换表示，非原PDF字节；文本留本地",
+          "sha256": "10c83d523c1502c25a5d4fd12cecced011f860aa0f6ebe4e3e7af9904c8cee0b",
+          "bytes": 666568
+        }
+      ]
     }
   ],
   "inferences": [
@@ -321,6 +371,31 @@
         "P03"
       ],
       "condition": "三年硕士是假设学制；没有同任务硕士硬门槛证据，亦不保证研究生训练及就业回报。"
+    },
+    {
+      "id": "I05-F",
+      "claim": "新增F下A工艺放大与批次验证为主，B供应商风险/过程异常与追溯复核为备",
+      "evidence": [
+        "E01",
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "condition": "非用户F；同R、资格与成本相近、现场与有限迁移接受、双方有带教；自产承担较多原料/配方/渠道规格变更并保留小试—中试反馈。简介侧重可落实为有反馈训练是前提，不是已证教学优劣。",
+      "reasoning": "先在形成问题的工艺/设备/批次连接处取得可复测证据，兼顾产品交付与质量原因解释；准备先后不等专业独占岗位。"
+    },
+    {
+      "id": "I06-F-REVERSAL",
+      "claim": "同F目标与R内，多供应商/跨基地证据复核成为主要付费问题时B可正面前置，A仍可用也可换序",
+      "evidence": [
+        "E01",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "condition": "组织更多依靠外采/跨基地供货、工艺较稳定，风险分层、方法适用、追溯与整改复核影响客户接收；仍须同尺度资格、带教及成本，非观测到全部条件。",
+      "reasoning": "风险证据方法可覆盖多个来源/产品，收益不必等主方案失败才存在；外购不证明OEM合同或责任转移，监管不授予专业独占权。"
     }
   ],
   "not_adopted": [
@@ -336,5 +411,20 @@
     "生产和质量岗位具体工作地、实际排班、带教与录用",
     "雇主完整招聘正文及职位当前状态",
     "未来净岗位、合资格竞争供给、薪酬与个人发展"
+  ]
+,
+  "updates": [
+    {
+      "research_date": "2026-11-14",
+      "task_ref": "LOCAL-FOOD-ORGANIZATION-20261114",
+      "baseline_commit": "0178028abb3e7151171bcfcfb699b22ee9d17a95",
+      "new_source": "E01",
+      "new_inferences": [
+        "I05-F",
+        "I06-F-REVERSAL"
+      ],
+      "historical_notice": "Top-level original date/base and I01–I04 describe preserved 2026-11-09 research. New F refines conditional preparation, not unconditional reversal of original unqualified parallel comparison.",
+      "candidate_scope": "Only comparison/source index/navigation paragraph/coverage addition; no new admissions or job data. Adoption is determined by separate independent review and publication records."
+    }
   ]
 }
