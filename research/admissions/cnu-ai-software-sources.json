@@ -236,5 +236,92 @@
       "effect": "No official 2027 Jiangsu eligibility, complete group or duration confirmation"
     }
   ],
-  "publication_note": "User authorized this research unit for the private repository on 2026-11-05. Original frozen index retained locally; only publication flags and this note changed. Source evidence and limits are unchanged; no raw source bytes or logs uploaded."
+  "publication_note": "User authorized this research unit for the private repository on 2026-11-05. Original frozen index retained locally; only publication flags and this note changed. Source evidence and limits are unchanged; no raw source bytes or logs uploaded.",
+  "training_delivery_revision_20261114": {
+    "research_revision": "2026-11-14",
+    "baseline_commit": "422dfac12f5d04cfa0a2d607706cb8705cbdaa9b",
+    "scope": "首师普通人工智能A与软件工程B训练供给、可复用模型及集中交付的责任比较；原P/R不变。",
+    "publication_authorized": false,
+    "publication_note": "本段为本地候选；顶层publication_authorized及publication_note仅保留2026-11-05历史授权，不授权本次增补。公开须另获本批具体许可。",
+    "acquired_date": "2026-11-14",
+    "collector_manifest_sha256": "1b122d653b54428d7894478e87c97c718629af808ece4b6b50d6d20441eacdc5",
+    "reuse_boundary": "旧7个sources对象及所有旧字段原样保留，只复用固定基线正文/索引，不声称重新取得旧招聘、政策或访谈原件。高教供给及服务组织专题亦仅按原证据层级复用；未新增人口观测、招生或当前组数据。",
+    "sources": [
+      {
+        "evidence_id": "CNU-AI-2025",
+        "title": "人工智能学院（筹）2025版更新",
+        "publisher": "首都师范大学本科招生网",
+        "publication_date": "2025-05-13",
+        "url": "https://bkzs.cnu.edu.cn/zyjs/55195371ad5840ac8427ef4a25c0703a.htm",
+        "representation": "Exa完整可读转换；非raw HTML，未与wire字节独立比对。哈希只绑定保存转换。",
+        "capture_sha256": "7d94c011e18b4ed3d7f3597486669c1e71a2315c5ee7a8bea8c46c50effb1c7c",
+        "capture_bytes": 6482,
+        "locators": [
+          "编号转换L15：2020本科起点/2025学院",
+          "L19、L61：全院导师、2+1+1、选修模块及系统综合实践",
+          "L23–31：非师范AI四年工学及2025拔尖班",
+          "L33–57：核心清单与实践宣介；L71起师范分节不移用"
+        ],
+        "supports": [
+          "新增非师范AI的2025校方四年制声明，限定更新旧学制未知。",
+          "全院培养设计覆盖面不限拔尖班；核心清单含数理、编程/数据结构/算法和AI。"
+        ],
+        "limits": [
+          "不是2027批准方案，无普通生/拔尖班逐学期适用对照；核心清单不等必修、全部方向不等全修。",
+          "没有学分学时、容量、遴选、评分反馈、实际取得和训练效果；不能凭宣介排名。",
+          "企业合作与学院级资源不能当人人项目席位；师范内容及就业升学宣传不作本题本科入口证据。",
+          "软件2025新增仍沿旧E04/E07访谈；本源不补软件学制或正式方案。"
+        ]
+      },
+      {
+        "evidence_id": "HAND-AR2025",
+        "title": "上海汉得信息技术股份有限公司2025年年度报告",
+        "publisher": "上海汉得信息技术股份有限公司；深交所披露",
+        "publication_date": "2026-04-14",
+        "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-14/9f20d4fa-f38c-4893-b821-3d79404a6851.pdf",
+        "representation": "原始PDF，238物理页；pdftotext -layout全文转换辅助定位，实际查看9页图。物理页与印刷页一致。",
+        "original_bytes": 4545330,
+        "original_sha256": "8382cf70947150f98e34a31d413f68b620e8016a3d39e2dc74c5f4255dae914c",
+        "text_sha256": "8e7376b33eb011fac8261ab14a6477c910874474e555ea56b19706acbb2417dc",
+        "visually_checked_pages": [
+          16,
+          29,
+          30,
+          37,
+          44,
+          101,
+          102,
+          150,
+          151
+        ],
+        "locators": [
+          "p16：得灵应用/工具/模型/服务自述",
+          "p29–30：复用组件、集中交付与专业分工；现场资深顾问配远端中心属于全球化服务章节",
+          "p37研发首行：企业级大模型训练与数智化管理平台未完成",
+          "p44：未来经营计划中的AI提效及控制规模",
+          "p150–151附注五27（2）：按业务区分收入确认",
+          "p101–102：财报审计范围及开发支出阶段验收"
+        ],
+        "supports": [
+          "企业自述存在集成、模型训练评价、咨询定制等不同责任面，采用集中专业交付；可校准任务组织推演。",
+          "会计政策区分专有软件确认收货、符合条件实施合同按进度/其他完工客户确认、外包劳务量乘单价。"
+        ],
+        "limits": [
+          "p16产品介绍与p37研发未完成并存，不能推全部功能完成或全项目部署，也不反称产品不存在。",
+          "p44计划不是裁员实绩或2031新人结果；集团学历/人数不是本地普通本科新人名额。",
+          "客户确认报告不是模型性能验收阈值，收入不等到账；p102开发资本化阶段验收也不是客户模型验收，财报审计不鉴证产品技术成效。",
+          "未将AI产品归到单一合同确认方式；无具体项目合同、付款、续费或模型安全效果实测。",
+          "不证明苏州/昆山入口、首师校企训练或普通生带教，不嫁接旧东山/思必驰雇主。"
+        ]
+      }
+    ],
+    "acquisition_limits": [
+      {
+        "url": "https://jwc.cnu.edu.cn/jxyj/pyfa/b465bd330f7f42c2a457fddc3663bb68.blk.htm",
+        "status": "正式培养方案页面访问HTTP403；已停止，未绕过或重试",
+        "effect": "无2025方案原文或普通AI/软件2027适用方案；不采搜索摘要、附件名作事实。"
+      }
+    ],
+    "decision_boundary": "K/K-E为作者条件推演，非学校效果实测或未来市场预测。同P/R、资格、可比总成本与带教下，主要错误成本决定有限训练时间先投交付链或评价链；不按名称独占岗位，也不以全国供给总量算苏州拥挤率。"
+  }
 }
