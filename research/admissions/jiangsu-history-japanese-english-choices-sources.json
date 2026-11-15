@@ -224,5 +224,97 @@
     "prior_author_version": "v2",
     "prior_independent_review": "首次独立R1结论需修改；B1要求补足相对比较条件。本版待复核，不声称通过。",
     "change": "宽S0改为并列；A/B前置分别限定于同P/R、同资源约束下，覆盖B自然英语产品/订单路线的相对任务或总补差优势。事实来源、引用和哈希不变。"
-  }
+  },
+  "organization_addenda": [
+    {
+      "date": "2026-11-15",
+      "task_ref": "LOCAL-JAPANESE-ENGLISH-ORGANIZATION-20261115",
+      "base_commit": "15ea321cba18299aa10eb44b8da7716b08c9d6d7",
+      "scope": "保留原P/R及宽S0并列；新增K/KR区分客户原语解释与共同语言交付责任。J4为R外支点，不新增已确认入口。",
+      "sources": [
+        {
+          "id": "J4",
+          "title": "国际外贸业务员（日语）江苏国泰国贸实业有限公司",
+          "publisher": "中国外语测评中心国才官方招聘平台承载，职位署名江苏国泰国贸实业有限公司",
+          "url": "https://eticx.claonline.cn/c/jobDetail/15713",
+          "publication_date": null,
+          "graduation_cohort": null,
+          "retrieved_date": "2026-11-15",
+          "locator": "职位标题/张家港本科标签；任职要求；招聘有效期；福利待遇培训期",
+          "representation": "原职位URL网页工具转换表示的单一来源段；非原始HTML、像素或劳动合同",
+          "representation_sha256": "830114dd41e4d31c2d98fccdd1aff08626880b0cde0387ebc3d2ebf85ae02ef7",
+          "representation_bytes": 6283,
+          "bounded_summary": "本科、N1与英语六级以上及语言专业专四以上等并列；未说明替代，培训期写1—2年。",
+          "limits": [
+            "张家港不在旧R，不计本比较可用入口；未明确英语专业接收或日语专业独占。",
+            "无实际工作语言、客户、职责、新人授权/训练反馈；语言门槛不替代这些字段。",
+            "无发布日期/届别，一个月有效期无法认证当前开放；培训期与待遇广告非合同/实付/效果或未来保证。"
+          ]
+        },
+        {
+          "id": "U5",
+          "title": "走访实习现场 情暖实习学子——院领导走访日语系实践周超星公司入校培训实习师生",
+          "publisher": "南京农业大学外国语学院",
+          "url": "https://foreign.njau.edu.cn/info/1055/6963.htm",
+          "publication_date": "2026-01-20",
+          "observed_activity_date": "2026-01-16",
+          "retrieved_date": "2026-11-15",
+          "locator": "首段现场走访；实操段；双语资源与企业导师评价段",
+          "representation": "学校原URL网页工具转换表示的单一来源段；非原始HTML或视觉认证",
+          "representation_sha256": "7fa01755e30a08bf4b637f5c12160963658d4ec5098da8244f49f748806aad25",
+          "representation_bytes": 5716,
+          "bounded_summary": "观察到课程资料整理、章节创建、知识点关联及课程AI实操，有企业导师；双语课程资源的语言对未写。",
+          "limits": [
+            "不证明对日订单、制造产品或业务系统客户任务；未取得客户付款验收或逐人重复反馈。",
+            "未明年级人数、工时费用、个人可进入性或2027普遍可得；不能给校别/专业相对优势。",
+            "仅一次观察，不把说明会计划或正面评价当全面培养效果。"
+          ]
+        },
+        {
+          "id": "H4",
+          "title": "上海汉得信息技术股份有限公司2025年年度报告：承接与交付分工",
+          "publisher": "上海汉得信息技术股份有限公司；深交所披露",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-14/9f20d4fa-f38c-4893-b821-3d79404a6851.pdf",
+          "publication_date": "2026-04-14",
+          "reuse_checked_date": "2026-11-15",
+          "locator": "物理/印刷p20（7）3离岸/近岸开发；p30集中交付及全球化服务；p150—151附注五27（2）收入确认",
+          "representation": "既得原始PDF，238页；本次聚焦文本并查看p20/p30图像。p150/151按既有核验层级复用文本，本次未重新看图。",
+          "original_sha256": "8382cf70947150f98e34a31d413f68b620e8016a3d39e2dc74c5f4255dae914c",
+          "original_bytes": 4545330,
+          "focused_text_sha256": "d219b35dba99c7f15264f03a0b02d0fcbe8645905b19b81f75b897a05a341e4a",
+          "bounded_summary": "公司分别自述日本子公司承接离岸开发、集中专业分工及资深当地顾问配远端中心；收入政策分实施进度/交付确认与外包劳务量单价。",
+          "limits": [
+            "不同章节不可拼为同一日本合同、项目配置或新人岗位；收入确认不是现金到账。",
+            "不证明国内新人实际日语使用、接触客户、具体地点/专业接收或未来招聘。",
+            "不修复J3专业字段冲突；不把客户、付款、带教借给国泰/超星/TCL/三井。"
+          ]
+        }
+      ],
+      "claim_mapping": [
+        {
+          "section": "7.1",
+          "sources": [
+            "J4",
+            "U5",
+            "H4"
+          ],
+          "status": "原文有限事实，各守对象/日期/表示，不拼合同。"
+        },
+        {
+          "section": "7.2—7.4",
+          "sources": [
+            "H4",
+            "U5",
+            "J4",
+            "C2",
+            "C4"
+          ],
+          "status": "组织机制支点与条件推演；具体工作语言、新人权限、实际相对训练成本未知，不把K/KR当雇主现状。"
+        }
+      ],
+      "representation_boundary": "J4/U5哈希绑定工具转换文本中单一来源段UTF-8字节，非原HTML；全部旧字段、source对象与历史修订记录保留。",
+      "negative_finding": "精确江苏城市—本科具体任务—实际工作语言/客户责任—反馈/成本链未闭合；华盛页超时及503无正文、检索摘要未采用；4查询/6访问后停止。",
+      "publication_boundary": "只拟最少索引及原创分析；长原文、联系信息、原返回/工具引用标记/本地路径不发布。本批公开需另行授权。"
+    }
+  ]
 }
