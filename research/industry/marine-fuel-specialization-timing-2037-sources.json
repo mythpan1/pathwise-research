@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-16",
+  "title": "绿色船舶燃料专项训练的投入时点与可迁移性",
+  "fixed_main": "67807023ba9c2b0c79974196d151996677cb0f21",
+  "scope": {
+    "audience": "江苏生源本科准备；P为作者设定的陆上船舶设计/设备系统/检验目标，不是个人偏好或已接受出海值班。",
+    "time": "2027入学，实际四年且如期完成时2031比较本科入口，2037观察真实经历；2027届招聘是毕业届，不作2027入学者席位。",
+    "region": "就读以江科大2025江苏镇江历史入口为坐标；大连、天津/苏州调配岗位各守原地与条件，不构成已接受的同城市场。",
+    "increment": "区分可迁移底座、可后补专用知识与难复得实践窗口，比较等待损失、提前锁定、分阶段重复成本和逐阶段授权；不预测燃料赢家或重排专业。",
+    "admissions": "2025校方计划未提高为省考试院逐项确认或2027入口；0新增招生候选。2026采集、当前组调查及CSV继续暂停。",
+    "new_sources": 0
+  },
+  "fixed_inputs": [
+    {
+      "path": "research/industry/shipbuilding-marine-engineering-2037-choices.md",
+      "commit": "67807023ba9c2b0c79974196d151996677cb0f21",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/67807023ba9c2b0c79974196d151996677cb0f21/research/industry/shipbuilding-marine-engineering-2037-choices.md"
+    },
+    {
+      "path": "research/industry/shipbuilding-marine-engineering-2037-sources.json",
+      "commit": "67807023ba9c2b0c79974196d151996677cb0f21",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/67807023ba9c2b0c79974196d151996677cb0f21/research/industry/shipbuilding-marine-engineering-2037-sources.json"
+    }
+  ],
+  "evidence_policy": "本批读取固定正文与索引，复用其中已采用事实和原核验边界，不重开外部来源。原件/转换哈希标识原研究表示，不表示本批重新取得原字节。只保留有用来源摘要和推导，不保存工具返回审计副本。",
+  "source_count": 8,
+  "counting_note": "8个继承使用单元；J1/J2为同一机构不同岗位，不计两家雇主或独立市场需求。无新增外部事实、岗位或课程取证。",
+  "sources": [
+    {
+      "source_id": "H1",
+      "previous_source_id": "S05",
+      "title": "江苏科技大学2025年江苏省招生计划",
+      "publisher": "江苏科技大学本科招生网",
+      "url": "https://zs.just.edu.cn/_t34/2025/0624/c1602a364354/page.htm",
+      "published_date": "2025-06-23",
+      "previous_access_date": "2026-11-09",
+      "version_note": "2025江苏计划；URL目录2025/0624但页内时间为2025-06-23",
+      "locator": "校方2025江苏分专业表：物理+化学栏目07/09组，合作栏目11组，末尾备注；转换行35–60、89–97。",
+      "representation_inherited": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "3b4d68fceada97c870de37a937c5b708a29ac5eef86fe9a92de216a13d8bd7ef",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "used_facts": [
+        "江科大2025江苏镇江普通船舶与海洋工程07组计划146、轮机工程09组计划52，物理+化学；11组合作船海计划35单列。"
+      ],
+      "sections": "二、六",
+      "limits": [
+        "只为校方2025历史计划，未由省考试院书册再次核对；不能给2027名额、位次、完整组认证或录取保证。"
+      ]
+    },
+    {
+      "source_id": "T1",
+      "previous_source_id": "S01",
+      "title": "江苏科技大学船舶与海洋工程专业介绍",
+      "publisher": "江苏科技大学船舶与海洋工程学院",
+      "url": "https://naoe.just.edu.cn/2026/0426/c9991a372585/page.htm",
+      "published_date": "2026-04-26",
+      "previous_access_date": "2026-11-09",
+      "version_note": "2026专业介绍",
+      "locator": "专业介绍：二、核心课程与特色培养，三、升学深造；转换行89–105。",
+      "representation_inherited": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "474919aa6085ad9e896c4122e391405e9214e68b577a49a85d7a614822e0b251",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "used_facts": [
+        "船海介绍列船舶流体与结构力学、构造制图、阻力推进、设计原理、结构强度及先进制造；只提供培养重心。"
+      ],
+      "sections": "二、四、六",
+      "limits": [
+        "仅为官方专业介绍，不证明本科研究岗位、薪资或2027安排；未取得完整船海培养方案。"
+      ]
+    },
+    {
+      "source_id": "T2",
+      "previous_source_id": "S02",
+      "title": "江苏科技大学轮机工程专业人才培养方案（2022版）",
+      "publisher": "江苏科技大学能源与动力学院",
+      "url": "https://sepe.just.edu.cn/_upload/article/files/fa/0c/4f1f796249649bde7249f588a861/eda52872-d724-48df-9187-15b1438fef8c.pdf",
+      "published_date": "2023-08-18",
+      "previous_access_date": "2026-11-09",
+      "version_note": "2022版；发布日期来自官方发布页",
+      "locator": "2022版PDF物理页1、5–6；原文转换L0–19、L138–158。官方发布页载2023-08-18。",
+      "representation_inherited": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "6a840368bd53b93dda11253afcd073c7af021d38d5219bbb14b5f3da76c73d32",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "used_facts": [
+        "轮机2022方案四年、177学分，含热工流体、机械、电学、主辅机、动力装置设计及拆装/生产实习/系统实训；目标有陆上设计制造、监修监造和维护检测。"
+      ],
+      "sections": "二、四、六",
+      "limits": [
+        "无PDF页像素核对；非另一份2018简版。",
+        "毕业后五年目标不等于实际达成率；未由本方案证明航海资格认可。"
+      ]
+    },
+    {
+      "source_id": "J1",
+      "previous_source_id": "S07",
+      "title": "中国船级社大连分社船体验船师（应届生）",
+      "publisher": "中国船级社",
+      "url": "https://www.ccs.org.cn/ccswz/RecruitList?columnid=201912240263169292&detailId=8a818502a1347deb01a15815e1e36e79",
+      "published_date": null,
+      "previous_access_date": "2026-11-09",
+      "version_note": "2026-11-09取得；页面时间字段2026.11.11，含义未明",
+      "locator": "大连分社船体验船师，岗位职责、任职要求和未明语义的时间栏。",
+      "representation_inherited": {
+        "kind": "complete_original",
+        "original_sha256": "8600df784cce5bb5b487fc4c414396a81fe5d091ec122be9a018eb8d74040c1d",
+        "converted_passages_sha256": "56e16f8ff8a51bda7373de0a56ea2754b06c10bff584f8846b6a24406301b69d",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "used_facts": [
+        "大连船体验船师列应届、全日制本科及以上及船海相应结构方向；国内船舶检验、技术问题处理和项目案卷等任务，另有毕业/学位及CET4要求。"
+      ],
+      "sections": "二、六",
+      "limits": [
+        "时间栏2026.11.11晚于2026-11-09取得日，未明语义；不是已核发布日期或仍可投递证明。",
+        "具体专业方向及其他要求须同时满足，不证明净增人数、录用率或驻厂周期。"
+      ]
+    },
+    {
+      "source_id": "J2",
+      "previous_source_id": "S08",
+      "title": "中国船级社大连分社轮机验船师（应届生）",
+      "publisher": "中国船级社",
+      "url": "https://www.ccs.org.cn/ccswz/RecruitList?columnid=201912240263169292&detailId=8a818502a1347deb01a15816612f6e7a",
+      "published_date": null,
+      "previous_access_date": "2026-11-09",
+      "version_note": "2026-11-09取得；页面时间字段2026.11.11，含义未明",
+      "locator": "大连分社轮机验船师，岗位职责、任职要求和未明语义的时间栏。",
+      "representation_inherited": {
+        "kind": "complete_original",
+        "original_sha256": "ac07cba45ff9cabe1a5b6b3164503fe4b512f633da1ba1319bc8273760bb5dd7",
+        "converted_passages_sha256": "8761990bae5ed7435ab87249b12519dedff00ff81f64c01c6b91443e18789a62",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "used_facts": [
+        "大连轮机验船师列应届、全日制本科及以上，轮机、船海（轮机）、能源动力等方向；现场产品检验、技术问题和项目记录等任务，另有毕业/学位及CET4要求。"
+      ],
+      "sections": "二、六",
+      "limits": [
+        "时间栏2026.11.11语义未明；仅作2026-11-09可读岗位快照。",
+        "船海（轮机）不等于所有船海结构培养；此岗未列船员证不代表所有岗位免证。"
+      ]
+    },
+    {
+      "source_id": "J3",
+      "previous_source_id": "S10",
+      "title": "华海智汇智慧船舶岗位2027届应届生招聘",
+      "publisher": "华海智汇技术有限公司（天津工业大学官方就业平台刊载）",
+      "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56481.html",
+      "published_date": "2026-09-29",
+      "previous_access_date": "2026-11-09",
+      "version_note": "2027届校园职业招聘；非本科招生采集",
+      "locator": "招聘职位表及工作地，原文转换行96–103；船舶设计工程师与新能源动力工程师分行。",
+      "representation_inherited": {
+        "kind": "tool_converted_original_passages_only",
+        "original_sha256": null,
+        "converted_passages_sha256": "d5af7679a4a55c8ea42cdd093b40dbe2553ac0bbe34f3939e656906688099fc5",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：普通下载HTTP503，未取得完整HTML/PDF字节；已有转换表示与工具返回逐段对应，不冒充原件或视觉验证。"
+      },
+      "used_facts": [
+        "2027届船舶设计工程师列本科/硕士及船海、轮机等专业；内分舾装、轮机、电气，适配一个方向可投；有专业理论、CET4、出差要求。",
+        "工作地先天津培养，再按业务天津/苏州调配；不将另一行新能源动力岗的台架/出海调试要求移至设计岗。"
+      ],
+      "sections": "二、三、六",
+      "limits": [
+        "高校官方平台刊载雇主招聘，不等实际录用结果；共同入口仍分任务方向。",
+        "新能源动力岗的台架/出海调试要求不得移到船舶设计岗；薪酬广告不用于行业或2037收入预测。"
+      ]
+    },
+    {
+      "source_id": "E1",
+      "previous_source_id": "S11",
+      "title": "Yangzijiang Shipbuilding 1H2026 Results Presentation",
+      "publisher": "Yangzijiang Shipbuilding (Holdings) Ltd.",
+      "url": "https://yangzijiang-cn.listedcompany.com/newsroom/20260806_172829_BS6_LYJB2HHS6J2D06AP.3.pdf",
+      "published_date": "2026-08-06",
+      "previous_access_date": "2026-11-09",
+      "version_note": "2026H1公司自述，订单截至2026-06-30且另列7月新单",
+      "locator": "2026H1公司演示PDF物理页4财务和交付分列；12手持订单与交期；14新单；19航运经营；21各项投资状态。",
+      "representation_inherited": {
+        "kind": "complete_original",
+        "original_sha256": "43eaeb0c9b9604c493d9aa4eb8b47c446b9e09318e5c099a352686b3b7c2d660",
+        "converted_passages_sha256": "c30eaeeb767550bea0fc250d336088daaf5d9a3b6e44ebe26ef6131bc50d0862",
+        "author_visually_checked_physical_pages": [
+          4,
+          12,
+          14,
+          19,
+          21
+        ],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "used_facts": [
+        "截至2026年6月底订单交期2026—2030，2026仍在交付2023/2024签约船；签约、交付、收入不是同一时点。",
+        "订单表分列甲醇/LNG双燃料船和LPG/VLAC/VLEC等气体运输船；燃料与货种不同。",
+        "江苏扬子宏大修造项目处于开工前规划，不当已投运或已接收本科。"
+      ],
+      "sections": "二、三、六",
+      "limits": [
+        "公司自述，合同额/新单/交付/收入/利润及造船/航运必须分账；不代表全国行业或本科净招聘。",
+        "双燃料用途与气体运输货种分开；修理改造仍开工前规划。",
+        "页4七月新单0.21与页14约0.2十亿美元存在精度差别，本研究不合计七月或计算其增长率。",
+        "未取得人员年龄或退休补员数据，平均船龄不是人员年龄。"
+      ]
+    },
+    {
+      "source_id": "P1",
+      "previous_source_id": "S12",
+      "title": "IMO Short-term GHG reduction measure",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/ourwork/environment/pages/short-term-ghg-reduction-measure.aspx",
+      "published_date": null,
+      "previous_access_date": "2026-11-09",
+      "version_note": "公开解释页；2026-11-09取得；部分未来回顾措辞可能尚未更新",
+      "locator": "说明页开头、The technical approach、The operational approach和Future developments；未据旧时态推定审查已完成。",
+      "representation_inherited": {
+        "kind": "complete_original",
+        "original_sha256": "44020274457a50d90ee881fc8c692b52ace76eb37a929bf2ef99b35c0cc1d9bf",
+        "converted_passages_sha256": "90f6c2fae125b8c0bc317c29d413feab528e261377b353457f018d4489097611",
+        "author_visually_checked_physical_pages": [],
+        "note": "沿原研究采用的表示与核对范围继承，本批未重新下载、保存原件或视觉核验。原研究说明：完整HTML或PDF已保存；正文所用段落/表格已核。"
+      },
+      "used_facts": [
+        "旧官方解释区分EEXI技术能效与CII营运碳强度，后者与运行数据、管理计划及改进相连；支持技术、运行响应分开分析。"
+      ],
+      "sections": "三",
+      "limits": [
+        "官方解释页不是具体船型适用性审定，须按正式MARPOL范围复核。",
+        "页面旧有2026前审查措辞不证明审查已完成；不能用于断言净零框架已生效或全球收费必然实施。"
+      ]
+    }
+  ],
+  "inference_map": [
+    {
+      "sections": "一、四、五",
+      "status": "作者训练投入分类与条件建议",
+      "claim": "共同底座、可后补专项及难复得实践分开；可以在其他路线仍可行时优先真实专项窗口或积极专门化。",
+      "basis": [
+        "T1",
+        "T2",
+        "J1",
+        "J2",
+        "J3",
+        "E1"
+      ],
+      "assumptions": "具体机会、本人进入、指导与监督、学习可迁移部分及成本均须成立；本批没有核到实际燃料专项席位，表中各行均为显式情景。"
+    },
+    {
+      "sections": "三",
+      "status": "作者产业传导与时点推演",
+      "claim": "船东需求/合规与成本选择经合同进入供应商和船厂，设计、安装、交付、运维发生时点与主体不同；订单交期不是新人训练窗口。",
+      "basis": [
+        "E1",
+        "P1",
+        "J1",
+        "J2",
+        "J3"
+      ],
+      "limits": "未核单船生产排期、某燃料专项人员安排、运营改造合同或新项目投运；不借旧IMO说明判断最新框架、收费或船型现行适用。"
+    },
+    {
+      "sections": "三、六",
+      "status": "作者人口/组织与2031—2037条件推演",
+      "claim": "人员退出或留任成本可能促带教，也可能促标准化/供应商集中；运输需求受人口结构、产业与物流组织共同影响，不能从人口或船龄直算新人缺口。",
+      "basis": [
+        "E1",
+        "J1",
+        "J2",
+        "J3"
+      ],
+      "limits": "没有新人口、人员年龄、补员、薪酬或未来就业数字，不把观察窗口作连续工龄。"
+    },
+    {
+      "sections": "五",
+      "status": "作者分阶段成本比较",
+      "claim": "延后可能错失设备/导师窗口；提前可能挤占基础并锁定单一设备；分段可能重复学习与入场成本，权限不自动跨阶段。",
+      "basis": [
+        "T1",
+        "T2",
+        "J1",
+        "J2",
+        "J3"
+      ],
+      "limits": "不编具体费用、时数、概率或工资溢价；未核哪个方案实际更低成本，不推定观察许可包含台架/试航/独立检验授权。"
+    }
+  ],
+  "unchanged": "原船海—轮机稿的结构/总体、陆上动力、海上运行三目标偏序与航海资格边界不变；不以新燃料标签将共同专业接收变成全部方向同资格。",
+  "privacy": "仅公开来源必要摘要、链接、版本、定位及继承哈希；无个人、联系人、原文全文、工具返回、机器路径或凭据。"
+}
