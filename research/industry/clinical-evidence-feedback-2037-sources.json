@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-16",
+  "title": "临床统计结果、交付质量与本科反馈训练",
+  "fixed_main": "bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5",
+  "scope": {
+    "audience": "江苏生源本科规划，未取得真实个人位次、资格、成员接受、地区与预算。",
+    "time": "2027入学且适用学制实际四年并如期完成时，2031比较本科入口；2037观察真实经历，不等于连续六年工作。",
+    "region": "南京就读是历史候选；就业R须另由本人接受。旧广告多城含南京不证明南京新人首职。",
+    "increment": "在同一临床统计目标内区分科学答案、可靠交付与后续用人资金；按能否取得问题/数据/程序/解释纠错反馈比较本科训练，允许方法训练积极前置，不新增专业榜。",
+    "admissions": "只继承2025江苏物理类南医05生物统计学及11显示成员边界；2026招生采集、当前组调查、CSV读取继续暂停。",
+    "new_evidence": "新增1个方法文献家族：1998版ICH E9及EMA版本入口。0新增招聘、培养方案或招生候选。"
+  },
+  "evidence_policy": "固定旧事实由本批读取的已采用正文和索引继承，不重开原站，不重验旧原件字节；旧哈希仅标识原研究的表示。新方法文件亲读官方承载PDF的可读文本转换及官方入口，不称已保存原PDF或视觉核页；保留必要事实、定位和链接，不建立工具返回审计副本。",
+  "fixed_inputs": [
+    {
+      "path": "research/admissions/njmu-pharma-statistics-2037.md",
+      "commit": "bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5/research/admissions/njmu-pharma-statistics-2037.md"
+    },
+    {
+      "path": "research/admissions/njmu-pharma-statistics-2037-sources.json",
+      "commit": "bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5/research/admissions/njmu-pharma-statistics-2037-sources.json"
+    },
+    {
+      "path": "research/admissions/njmu-bioinfo-biostat-choices.md",
+      "commit": "bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5/research/admissions/njmu-bioinfo-biostat-choices.md"
+    },
+    {
+      "path": "research/admissions/njmu-bioinfo-biostat-sources.json",
+      "commit": "bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/bb8b65f57dbedf6baf94caaf7080dba9a12fd0b5/research/admissions/njmu-bioinfo-biostat-sources.json"
+    }
+  ],
+  "source_count": 6,
+  "counting_note": "6个使用单元；H1是已采用历史摘要，T1/J1/P1/C1是继承外部事实，M1的版本入口与PDF属于同一方法文献家族，不算独立证据。",
+  "sources": [
+    {
+      "source_id": "H1",
+      "title": "南京医科大学2025江苏物理05组及生物统计学历史接口",
+      "kind": "固定已采用研究的历史摘要，非本轮招生原件核验",
+      "via": "research/admissions/njmu-bioinfo-biostat-choices.md 第二节；该稿sources.json B01/B02",
+      "used_facts": [
+        "05组物+化，最低561分/77094位/录取859；生物统计学561分/77094位/录取62。",
+        "全部11显示成员：医学影像技术、医学检验技术、眼视光学、生物医学工程、药学 +、智能医学工程、卫生检验与检疫、康复治疗学、护理学 +、生物统计学、生物信息学。"
+      ],
+      "limits": [
+        "原汇集资料未逐行官方溯源；+不解释，录取数不是计划，表内成员不提升为目标年正式完整组。",
+        "没有真实用户位次、选科/资格与逐成员接受；不把同尾位当可报或专业分配保证。",
+        "不复核或扩展2026、2027规则，不读取CSV。"
+      ]
+    },
+    {
+      "source_id": "T1",
+      "previous_source_id": "S01",
+      "title": "生物统计学",
+      "publisher": "南京医科大学本科生招生网",
+      "url": "https://zs.njmu.edu.cn/2014/1112/c19561a39755/page.htm",
+      "published_date": "2026-05-30",
+      "previous_access_date": "2026-11-05",
+      "via": "research/admissions/njmu-bioinfo-biostat-choices.md 第三节；同题索引S01",
+      "locator": "原研究网页转换L26、L50–102；培养方向、主干课程及实习",
+      "representation_inherited": {
+        "kind": "网页可读正文转换，不是HTML原字节",
+        "sha256": "6b670746055a13dda59d4c8c4aefaa549513cdbf343b593621f3191d81eb628e"
+      },
+      "used_facts": [
+        "统计学、公共卫生与预防医学培养方向，SAS/Python及临床试验统计等课程；介绍写一年毕业实习。",
+        "官方介绍四年、理学学位；正文仍以适用届实际学制为条件。"
+      ],
+      "limits": [
+        "不由URL的2014推正文版本，不当2027批准培养方案。",
+        "课程与一年实习不是具体项目、导师、数据权限、个人取得或效果证明。"
+      ]
+    },
+    {
+      "source_id": "J1",
+      "previous_source_id": "S04",
+      "title": "石药控股集团有限公司企业主页：SAS程序员",
+      "publisher": "南开大学学生就业指导中心承载雇主企业主页",
+      "url": "https://career.nankai.edu.cn/company/index/sxid/206/id/5725.html",
+      "published_date": null,
+      "previous_access_date": "2026-11-05",
+      "via": "research/admissions/njmu-bioinfo-biostat-choices.md 第三节；同题索引S04",
+      "locator": "原研究网页转换L250–273；与邻近博士生物统计师等岗位分开",
+      "representation_inherited": {
+        "kind": "网页可读正文转换，不是HTML原字节",
+        "sha256": "19bf2f4c841c746d77b6cd6f04ea3d2434d4ee7c53f5e82bb4e7c01c412626fe"
+      },
+      "used_facts": [
+        "SAS程序员本科及以上，专业列统计、生物统计、计算机；SAS及CDISC要求。",
+        "SDTM、ADaM、TFL生成/校验与递交支持；多城含南京。"
+      ],
+      "limits": [
+        "日期、毕业届别、应届身份、合同属性、当前开放和南京单岗名额未证。",
+        "本科资格与职责不等无经验新人入口或独立试验设计/临床解释权限。",
+        "不与泰格年报拼同一雇佣、客户或合同链。"
+      ]
+    },
+    {
+      "source_id": "C1",
+      "previous_source_id": "PS-CRO1",
+      "title": "杭州泰格医药科技股份有限公司2025年年度报告全文",
+      "publisher": "杭州泰格医药科技股份有限公司；巨潮资讯披露",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051947.PDF",
+      "published_date": "2026-03-31",
+      "previous_access_date": "2026-11-13",
+      "via": "research/admissions/njmu-pharma-statistics-2037.md 2026-11-13增补；同题索引revision_2026_11_13.new_decisive_source",
+      "representation_inherited": {
+        "kind": "原研究保存原PDF与派生文本，并定向目视部分关键页；本批只复用采用事实",
+        "original_pdf_bytes": 5189559,
+        "pages": 207,
+        "sha256": "96d719eb53d6f1fb5e96d514c76c56e12ccf2669ff2c8b9940326a60319729dd"
+      },
+      "locators": [
+        "第109–110页附注28收入：FFS/FTE计费及若干收入确认",
+        "第23页数据管理及统计分析：海外FSP模式",
+        "第21及24页：国内临床运营部分订单取消/终止与区域队伍变化"
+      ],
+      "used_facts": [
+        "FFS按总服务协议/工作订单及付款表，若干收入按交付/接纳或满足特定条件随时间确认；FTE按项目人员及工时固定费率等计费，若干收入随时间确认、通常月结。",
+        "数统FSP披露定制、全包、工时及团队嵌入等交付方式；不与会计分类一一对应。",
+        "部分国内临床运营存量订单取消或因客户资金、回款压力主动终止；同年下半年部分区域运营队伍扩大。"
+      ],
+      "limits": [
+        "收入、账单、收款权不等实际到账，更不是本科新人预算。",
+        "本批没有单项统计合同验收、成功条件、取消补偿或风险分担；不承诺阴性结果一定付费，也不声称必须阳性才能付款。",
+        "临床运营订单变化不是数统取消率，海外与集团规模不证明南京/江苏新人名额。"
+      ]
+    },
+    {
+      "source_id": "P1",
+      "title": "国家医保局“支持创新药高质量发展的若干措施”新闻发布会实录",
+      "publisher": "国家医疗保障局",
+      "url": "https://www.nhsa.gov.cn/art/2025/7/1/art_14_17065.html",
+      "published_date": "2025-07-01",
+      "previous_access_date": "2026-11-03",
+      "via": "research/admissions/njmu-pharma-statistics-2037-sources.json P1及现行正文",
+      "locator": "王国栋临床价值回答；黄心宇支付协同及健康报记者目录/进院/结算问答",
+      "representation": "沿固定原研究采用的官方发布会正文及必要摘要；本批未重开或复核原字节。",
+      "used_facts": [
+        "官方支付讨论包括基金承受、临床需求、患者获益及市场竞争。",
+        "目录、进入医院和按合同结算各有环节，不是同一付款事实。"
+      ],
+      "limits": [
+        "官方解释不是正式措施全文或2031政策持续证明。",
+        "不证明候选药效、具体研究资金、CRO合同或本科岗位；人口到研究需要及资金选择为作者条件推演。"
+      ]
+    },
+    {
+      "source_id": "M1",
+      "title": "ICH Topic E9: Statistical Principles for Clinical Trials, Step 5",
+      "publisher": "ICH；欧洲药品管理局EMA承载官方PDF",
+      "document_reference": "CPMP/ICH/363/96",
+      "document_version": "September 1998",
+      "accessed_on": "2026-11-16",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e-9-statistical-principles-clinical-trials-step-5_en.pdf",
+      "version_page": "https://www.ema.europa.eu/en/scientific-guidelines/ich-e9-statistical-principles-clinical-trials",
+      "representation": "亲读官方版本入口及PDF可读正文转换。首次PDF访问429后以另一读取方式成功；不是PDF原字节保存、截图或全册视觉核验，不存返回副本。",
+      "locators_and_facts": [
+        {
+          "locator": "§1.2、§2.1.2；文内页码5–6",
+          "fact": "方法同时重视偏倚、精度、稳健性；验证性问题预先明确，效应大小及临床意义不能被检验是否显著替代。"
+        },
+        {
+          "locator": "§3.3.2；文内页码17–18",
+          "fact": "不能因差异检验不显著认定等效或非劣；相应目标、界值与分析须按其设计处理。"
+        },
+        {
+          "locator": "§5.1；文内页码23–24",
+          "fact": "分析主要特征预先安排，详细分析计划在揭盲前定稿；变更须按其性质记录，区分验证性分析。"
+        },
+        {
+          "locator": "§5.3、§5.5；文内页码26–28",
+          "fact": "缺失可引入偏倚，需要处理方法及敏感性判断；效应估计应尽可能报告置信区间并说明模型和方法。"
+        },
+        {
+          "locator": "§5.8；文内页码29",
+          "fact": "数据处理与分析软件的可靠性、质量及测试记录影响数值结果可信性。"
+        },
+        {
+          "locator": "§7.1；文内页码32–33",
+          "fact": "报告须说明偏离预定分析的情况，将后见的附加探索与原计划工作区分。"
+        }
+      ],
+      "limits": [
+        "本批只采用所列E9方法原则，不把1998原文或旧稿等同中国现行完整监管合规清单；未读取E9(R1)正文或新增其细节主张。",
+        "第三节+5及区间为作者教学设定，不是原文病例或临床阈值；不提供治疗、试验停项或投资建议。",
+        "方法原则不证明学校实得训练、个人胜任、雇主招聘或劳动合同报酬。"
+      ]
+    }
+  ],
+  "inference_map": [
+    {
+      "sections": "一、五、六",
+      "status": "作者条件判断和培养建议",
+      "claim": "基础反馈交付优先于无反馈的复杂模型；基础已经可靠且方法问题、指导、验证和成本成立时，方法训练可积极前置。",
+      "inputs": [
+        "T1",
+        "J1",
+        "M1"
+      ],
+      "not_established": "未进行南医项目效果比较，A/B均为机会假设，不是实际分配或录用率结论。"
+    },
+    {
+      "sections": "三",
+      "status": "作者构造的教学情景与逻辑推导",
+      "claim": "同点估计但不同区间对预定目标的信息不同；窄而有错的输出不等有效否定证据。",
+      "inputs": [
+        "M1"
+      ],
+      "assumptions": "抽象指标正值为改善，关心至少+5；两区间同口径95%，设计/数据/模型有效的前提另列；未建立任何真实药物结论。"
+    },
+    {
+      "sections": "四、六",
+      "status": "产业政策人口的连续条件推演",
+      "claim": "需求经产品/研究选择、资金及服务分工才到本科任务；可靠不利结果可有信息价值但减少后续工作包，阳性也不保证续款。",
+      "inputs": [
+        "C1",
+        "P1",
+        "J1"
+      ],
+      "not_established": "没有具体药物、客户合同、支付结果、取消率或未来岗位预测；人口不新增数字，不由当下出生直接推2031供给。"
+    }
+  ],
+  "privacy": "仅必要公开机构/岗位/方法摘要、链接和定位；无患者或学生资料、联系人、全文、原始工具返回、凭据或机器路径。"
+}
