@@ -229,5 +229,117 @@
     "同地区可比接收和竞争",
     "个人位次、任务/地区与11成员接受",
     "2031岗位和2037结果"
-  ]
+  ],
+  "training_organization_addendum_2026_11_15": {
+    "task_ref": "LOCAL-NJMU-LAB-TRAINING-20261115",
+    "research_base": "ca62d507917e9e949ea330a40a262278379aab06",
+    "research_revision": "2026-11-15",
+    "scope": "原P和江苏调配／广州范围；两端质量任务均可行时的K/KR。原并列、历史索引与C/L独立分支不改。",
+    "evidence_boundary": "新增V1/V2为同一南医虚拟平台家族的项目说明，不是完整正式培养方案、实测效果或两份独立训练证明。U1/U2及安井原件复用，不新增招生或已确认入口。",
+    "sources": [
+      {
+        "id": "V1",
+        "evidence_family": "NJMU-virtual-lab-project-descriptions",
+        "publisher": "南京医科大学官方域名虚拟仿真实验教学共享平台／公共卫生学院",
+        "title": "人工智能赋能生物安全实验室虚拟仿真实验教学项目",
+        "url": "https://nmuvsetsp.njmu.edu.cn/ResourceDetail.aspx?rid=4A1E536946E73C99",
+        "published_at": null,
+        "retrieved_date": "2026-11-15",
+        "course_year": 2026,
+        "course_id": "202601",
+        "class_periods": null,
+        "cohort": null,
+        "mandatory_elective": null,
+        "credits": null,
+        "locator": "页面元数据及目标段；转换L10–34、45–54；续取L98–129、226–246；页脚L261–265",
+        "supports": "专业栏预防医学，正文另明确卫检本科、拟模块；设计有错误反馈、分项和历史成绩、复习重练、教师错误分析；账号权限及首次注册审核。",
+        "limits": "未执行或取得学生成绩；不是湿实验、食品QC或真实高等级实验室准入；不证2027普遍可得。主体/域名/版权南医，登录页脚写南农，原因未知。",
+        "representation": "网页转换工具返回，非原HTML；两个完整合并返回的哈希，前者还含导航页、后者含其他导航及本页续取，非单页内容哈希；不随索引发布原文",
+        "representation_sha256": [
+          "49413724fb41ae3d728e306c623693fee58951f8aa615b9fbc950b7c8a6c0c00",
+          "a4207b12b4caa3f78219de3802f5d576e4489d65a8910d5c98ec0699d2388b70"
+        ]
+      },
+      {
+        "id": "V2",
+        "evidence_family": "NJMU-virtual-lab-project-descriptions",
+        "publisher": "南京医科大学官方域名虚拟仿真实验教学共享平台／公共卫生学院",
+        "title": "EDTA标准溶液的配制与标定",
+        "url": "https://nmuvsetsp.njmu.edu.cn/ResourceDetail.aspx?rid=46FCEA94D5D6D5A9",
+        "published_at": null,
+        "retrieved_date": "2026-11-15",
+        "course_year": 2017,
+        "course_id": "2023103112",
+        "class_periods_as_written": 1,
+        "cohort": null,
+        "mandatory_elective": null,
+        "credits": null,
+        "locator": "转换L16–28元数据；L77–84方法；L86–239交互说明，尤其L186–188超线重配；L266–270页脚",
+        "supports": "精确专业卫检；虚拟标准溶液配制标定，误差提示与超线重配，方法标引导/交互/考核。",
+        "limits": "年份、编号和课时不互相推定；不换算分钟/学分；不证真实测量表现、必修、届别、成绩、普遍访问或2027保障；同V1页脚异常。",
+        "representation": "完整单次网页转换工具返回字节，含返回封装；非原始HTML或学生运行记录",
+        "representation_sha256": "d3209cd6f6385c5dcd006391b39f7a214263198432644d96075311240d3d9c97"
+      },
+      {
+        "id": "U1-U2-reuse",
+        "evidence_family": "NJMU-official-major-introductions",
+        "publisher": "南京医科大学本科生招生网／信息公开网",
+        "published_at": "2026-05-30",
+        "urls": [
+          "https://zs.njmu.edu.cn/2014/1112/c3430a39753/page.htm",
+          "https://xxgk.njmu.edu.cn/2014/1112/c2947a39749/page.htm"
+        ],
+        "locator": "医检转换L57–68、78–96；卫检L6–8",
+        "supports": "旧C分支已用的两专业方法与教学环节介绍：A四个各一年阶段，B四年/44周；方法交叉，不是独占。",
+        "limits": "不是新正式方案；不以一年和44周相减排名；实际进入、考核、重复反馈、2027适用和个人权限未获证。",
+        "representation": "旧合并转换工具返回，包括两专业及另条CDC页；非两页各自HTML哈希，未重新联网",
+        "representation_sha256": "e6bad103024b9d5553237a8f61b76279d132134dc71f5316a890492ccb9df50a"
+      },
+      {
+        "id": "ANJOY2025-reuse",
+        "evidence_family": "Anjoy-2025-annual-report",
+        "publisher": "安井食品集团股份有限公司；巨潮资讯承载",
+        "title": "2025年年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225063456.PDF",
+        "report_period": "2025",
+        "url_date": "2026-03-31，仅URL日期，非另核发布时间",
+        "locator": "物理12/13页＝印刷11/12页；采购结算、供应商引入评审、生产分工",
+        "supports": "安井收货验收后按合同信用期付供应商；新料小试、中试及供应商相关产品风险评审；生产纠正回传、质量多节点监测。",
+        "limits": "组织为公司自述；非客户付安井，未核实际付款或期限天数；不授予珠啤/世和同一合同、南医实习、本科接收、新人份额或工资。",
+        "representation": "复用原始PDF，250物理页、1984913字节；本次重读上述两页文本并核图像；不是重新下载",
+        "original_sha256": "2b8763235db0a52d671e20302090b163115d3ebb2dab7027b28b4f2fcae4a79d"
+      }
+    ],
+    "claims": {
+      "foundation_feedback_design": [
+        "V1",
+        "V2"
+      ],
+      "training_orientation_not_actual_effect": [
+        "U1-U2-reuse"
+      ],
+      "procurement_quality_and_correction_organization": [
+        "ANJOY2025-reuse"
+      ],
+      "newcomer_task_anchors_reused": [
+        "J1",
+        "J2"
+      ],
+      "eligibility_record_separate": [
+        "J1b"
+      ],
+      "policy_upper_chain_only": [
+        "P1"
+      ],
+      "K_KR": "作者条件推演；同P/R，双方仍有合适质量任务；问题构成和责任接口变，不是已观测的雇主现状或确定学校优势。"
+    },
+    "negative_finding": "未取得医检对等正式实验/实习大纲、两专业适用届考核与实际重练/进入记录，完整培养到有薪新人责任链未闭合；不以不对称材料数判A较弱。",
+    "retained_unknowns": [
+      "个人资格、费用、任务和全部11成员接受",
+      "J1精确专业与J1b职责不可拼",
+      "J2已暂停且未拆新人职责",
+      "实际4年与2031入口、2037经历",
+      "人口/样本/工时关系及两地机会总量"
+    ]
+  }
 }
