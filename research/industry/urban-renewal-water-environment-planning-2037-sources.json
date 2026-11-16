@@ -1,0 +1,509 @@
+{
+  "title": "既有城区更新三路径：脱敏来源与条件推导",
+  "research_date": "2026-11-16",
+  "baseline_repository_commit": "2fd1cde0346f3307d8039176fa874c57c3989cc1",
+  "scope": {
+    "student_origin": "江苏",
+    "schools": "全国；不确认本轮任何目标年度可报性",
+    "employment_hypothesis": "无锡（含江阴）和苏州相关工作构成示例R；非一个统一劳动力市场或用户偏好。R外江门、杭州/重庆招聘只作本科入口边界事实。",
+    "timeline": "2027入学；四年2031、五年2032；2037分别约六年/五年毕业后时间。硕士三年示例2034/2035求职。",
+    "paused": [
+      "2026招生/录取采集",
+      "当前专业组调查",
+      "CSV读取"
+    ],
+    "new_confirmed_admissions_candidates": 0,
+    "new_confirmed_employment_entries": 0
+  },
+  "evidence_mode": "本轮只读固定main的正文及来源索引，不重新请求外部原件，不提升原有核验等级。政策、计划、采购、年报和招聘均作历史事实；本轮新内容为N/E/P/C及D1-D9推导。以下哈希沿旧索引继承，非本轮重算；不复制原件或完整工具返回。",
+  "baselines": [
+    {
+      "id": "B-water",
+      "path": "research/industry/water-network-treatment-2037-choices.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices.md",
+      "source_index": "research/industry/water-network-treatment-2037-choices-sources.json",
+      "read_sections": "全篇；重点一/二任务与支付、三历史计划/训练/江门岗位、四人口机制、五时间、六改判。",
+      "boundary": "旧原件表示较弱处保留；原给排水/环工不同情景结论不改。"
+    },
+    {
+      "id": "B-plan",
+      "path": "research/industry/architecture-urban-planning-2037-choices.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-choices.md",
+      "source_index": "research/industry/architecture-urban-planning-2037-sources.json",
+      "read_sections": "全篇；重点一四/五年、二训练、三R外本科岗位、四采购/经营、五人口/AI/时间、六苏大29。",
+      "boundary": "旧建筑/规划两两顺序不移入本题；哈工大培养不嫁接苏大，合同部分转换和未得附件保留。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "关于加强城市生活污水管网建设和运行维护的通知",
+      "publisher": "住建部、生态环境部、发改委、财政部、市场监管总局",
+      "publication_date": "2024-03-08; published 2024-03-18",
+      "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2024/art_17339_777112.html",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "P01",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "二（一）L45；四（八）（九）L61–62；五（十一）（十二）L68–69；2027目标L42",
+      "inherited_representation": "历史官方页可读转换，非原HTML/PDF。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "a93c409363976e61813687abdbb4f090cc9240d9b9fb41b3948454d8b8605a34"
+      },
+      "used_facts": "滚动排查、厂网专业化运维、收集效能考核/按效付费。",
+      "limits": [
+        "政策目标/工具不是地方实际完成、合同执行、回款或本科岗位。",
+        "不可把2027目标当2031持续执行保证。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S2",
+      "title": "无锡市城乡雨污水治理攻坚行动方案（2024—2027年）",
+      "publisher": "无锡市人民政府办公室",
+      "publication_date": "2024-08-19; published 2024-10-25",
+      "url": "https://www.wuxi.gov.cn/doc/2024/10/25/4418152.shtml",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "P02",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "二2与4：L65、69；二12与14：L82、85；三（三）：L97；主体范围与分区安排均在二2",
+      "inherited_representation": "历史官方页可读转换，非原HTML/PDF。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "33c44a3655ac786157e99669c433d959c29d95e771c19c012c9d984f0f4b0485"
+      },
+      "used_facts": "公共管网/小区延伸范围不同，厂泵站统筹及效能/费用机制。",
+      "limits": [
+        "这是行动方案，未核全部项目实际建设/付费/验收结果。",
+        "无锡全市政策不等于单一江阴企业所有业务均按本政策合同实施。",
+        "不同人口/工业分布及管网遗存的情景可由作者推演，未取得2037人口预测。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S3",
+      "title": "关于持续推进城市更新行动的意见",
+      "publisher": "中共中央办公厅、国务院办公厅；生态环境部转载",
+      "publication_date": "2025-05-16",
+      "url": "https://www.mee.gov.cn/zcwj/zyygwj/202505/t20250516_1119546.shtml",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "P-update",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "一、总体要求：2030目标",
+        "二（一）至（五）：建筑、小区、社区、街区及城市功能",
+        "三（一）：城市体检与专项规划—片区策划—项目实施方案",
+        "三（四）：有条件的投融资渠道"
+      ],
+      "inherited_representation": "HTML原字节及重新提取正文",
+      "inherited_hash": {
+        "kind": "original_bytes_sha256",
+        "value": "b43bfc36b5bb3f016e121d3300fca6227de1becdcac6b28ae341cee3a058d4e9"
+      },
+      "used_facts": "2030阶段目标；体检与专项规划、片区策划、项目实施衔接。",
+      "limits": [
+        "政策阶段目标不是合同、到账或岗位；2030早于五年制条件毕业年2032。",
+        "政策不能证明2030之后仍有多少接续委托；不作人口统计来源。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S4",
+      "title": "苏州市城市更新专项规划采购合同/成交/采购公告",
+      "publisher": "苏州市住房和城乡建设局；苏州市政府采购网",
+      "publication_date": "2025-09-05",
+      "url": "https://czju.suzhou.gov.cn/zfcg/html/project/027980bb91ad4ab1af2c05938282248c.shtml",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "C-suzhou",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "公告转换L93—171：预算、合同主体/金额、签约与公告日期",
+        "L179—196：成交和服务范围/完成编制时间",
+        "L319—369：采购需求及组织资质要求"
+      ],
+      "inherited_representation": "L0—402/总489行的部分工具转换，非HTML或合同PDF",
+      "inherited_hash": {
+        "kind": "tool_conversion_sha256_not_original",
+        "value": "db178c9845d2e7664c670dd364faae1f1045a6902dfc098147ea60271eff344f"
+      },
+      "used_facts": "专项规划服务由苏州市住建局采购、江苏省城市规划设计研究院承接，合同369.8万元、要求2025-11-30前完成编制。",
+      "limits": [
+        "仅取得原公告网址工具转换的L0—402/标示489行，非完整HTML，也非合同PDF。",
+        "合同附件未取得，验收、付款及实际回款未知；失败后停止该资源访问。",
+        "签约不证明已完成、已到账或增员；2025项目不保证2032入口。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S5",
+      "title": "江苏江南水务股份有限公司2025年年度报告",
+      "publisher": "江苏江南水务股份有限公司；巨潮资讯披露",
+      "publication_date": "2026-04-24 disclosure; 2025 reporting year",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225158960.PDF",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "I01",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "报告纸页20–21：PDF零基P19 L657–678（工程、处理、服务业务）；纸页23：P22 L852–856（折旧说明）",
+      "inherited_representation": "历史PDF部分分页转换；无原PDF字节/像素目视核验。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "c5d4f8e29b4cb760b2ed2990e437df868a03d6a85f7050d5ef76b88e693a6370"
+      },
+      "used_facts": "工程安装收入下降、污水处理收入增长但毛利率低、受托服务与资产处理口径不同；不重列未用于判断的财务数。",
+      "limits": [
+        "企业自报并审计年度口径，不是全行业因果估计。",
+        "没有取得业务分部新人净招聘、同岗录用率或目标年需求。",
+        "报告仅取得部分分页转换文本，未保存PDF字节/未做像素目视核验。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S6",
+      "title": "深圳市华阳国际工程设计股份有限公司2025年年度报告全文",
+      "publisher": "深圳市华阳国际工程设计股份有限公司；深交所披露",
+      "publication_date": "2026-04-16",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-16/94ccaad1-7c31-4948-8ece-dda2b5004171.PDF",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "B-huayang",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "第11页：设计业务四阶段",
+        "第12、17页：AI等研发应用表述",
+        "第17页：总收入与建筑设计收入",
+        "第32页：应收账款无法收回风险",
+        "第75页：收入确认审计程序中的阶段凭据"
+      ],
+      "inherited_representation": "PDF原字节及全文提取",
+      "inherited_hash": {
+        "kind": "original_bytes_sha256",
+        "value": "15b1bd83c1fd8fe5ba1b56a3925f9d75bda37a1e33ecd492365638b3dca15b3c"
+      },
+      "used_facts": "设计四阶段、收入确认凭据与现金有别；总营收增长/建筑设计下降并存、回款风险、AI研发表述。",
+      "limits": [
+        "单一多业务企业，不代表全国行业或两专业就业；总收入不能替代设计业务收入。",
+        "收入确认凭据不是所有合同统一验收付款条款。",
+        "不与苏州合同或招聘样本拼成同一企业/项目链；技术研发表述不当作效果实测。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S7",
+      "title": "苏州科技大学环境学院公开本科教育介绍",
+      "publisher": "苏州科技大学环境科学与工程学院",
+      "publication_date": null,
+      "url": "https://ese.usts.edu.cn/rcpy/bksjy.htm",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "T01",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "环境工程L71–77，主要课程L73；给排水L86–95，主要课程L91；L78–84环境科学段未用于环境工程事实",
+      "inherited_representation": "历史网页可读转换；非完整培养方案。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "16d5d8b11c1fa39e68d938653440e8145d65a3733f00a749b7cd4fa18411233a"
+      },
+      "used_facts": "给排水水力/管网和水处理连接；环工分析、多介质及工程基础；无实际学生所得比较。",
+      "limits": [
+        "页面未注明适用届别，四专业总述与网站其他新版内容可能有时效差异。",
+        "不是2025/2027完整培养方案；无法证明必选修、实践学分、设备容量、学生取得和考核标准。",
+        "紧随环境工程的环境科学描述不可混入环境工程。",
+        "院系宣称的就业方向不是雇主接收证据。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S8",
+      "title": "城乡规划专业本科生培养方案（2024级执行）",
+      "publisher": "哈尔滨工业大学建筑与设计学院",
+      "publication_date": "2026-06-30",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/50/b8/37f5238d41a0af9b97c010d87d7d/7ec9883b-1827-4fae-a278-1066a5f0e9d2.pdf",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "U-hit-plan2024",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "第1页版本；第2页修业年限/学位/学分",
+        "第5—6页专业核心和限选分类",
+        "第7—8页专业选修轨道（含AI课程）",
+        "第12—14页调查实践、设计进程和毕业设计"
+      ],
+      "inherited_representation": "PDF原字节及全文提取",
+      "inherited_hash": {
+        "kind": "original_bytes_sha256",
+        "value": "7948197aa4c24632497b85cfec4e6989137087f8630909ab862735f5dc20ff32"
+      },
+      "used_facts": "2024级五年规划训练含调查、GIS/空间设计、工程系统与法规；仅作训练形态。",
+      "limits": [
+        "2027适用与实际教学落实未知；AI专业选修不代表人人必修。",
+        "四轨道不是四个独立专业；课程中的管理法规不授予行政审批权。",
+        "第12页城市认识的表格所在学期与备注授课学期表述不一致，原研究只使用2周，不据此确定具体学期。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S9",
+      "title": "苏州科技大学2025年江苏普高本科招生计划目标两行",
+      "publisher": "苏州科技大学本科招生办公室",
+      "publication_date": "2025 plan; page has no visible publication date",
+      "url": "https://zsb.usts.edu.cn/news/zsjh.asp",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "A01",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "官方页面UI筛选2025、普高、江苏；iframe re.asp?sYear=2025&sStyle=普高&sZone=江苏；第44、45行",
+      "inherited_representation": "历史官方查询筛选结果DOM；不是原HTML，未保存目标行截图。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "36229d8c79253ac5e416131ea1e79f463d2a1a2c9f3a67994b9e72b85c3f2d1f"
+      },
+      "used_facts": "苏科大2025江苏：环工107、给排水87；物理/化学、四年、6380元/年，组号与全成员未核。",
+      "limits": [
+        "这是历史计划，不是实际录取分数、位次或录取人数。",
+        "正式专业组号、完整成员、轮次和组级保底没有核验，不能由第三方补齐。",
+        "2027计划、选科、费用、资格及校区须目标年重核。",
+        "页面可读DOM表示，不是原始HTML；未保存目标行页面截图。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S10",
+      "title": "苏州大学2025年报考指南（江苏版）",
+      "publisher": "苏州大学本科招生办公室",
+      "publication_date": null,
+      "url": "https://zsb.suda.edu.cn/system_dntb/upload/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A62025%E5%B9%B4%E6%8A%A5%E8%80%83%E6%8C%87%E5%8D%97%EF%BC%88%E6%B1%9F%E8%8B%8F%E7%89%88%EF%BC%89.pdf",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "A-suda2025",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "PDF第8物理页，印刷第13页左上院校专业组29表（2025年江苏招生计划）"
+      ],
+      "inherited_representation": "PDF原字节及全文提取",
+      "inherited_hash": {
+        "kind": "original_bytes_sha256",
+        "value": "026f84f4e9a2d6411b49a2cec906c48a75cd5c8465fa9cdd4d940fb88e7c93b8"
+      },
+      "used_facts": "苏大2025江苏物理＋不限29组：规划五年16、建筑五年38、风景园林四年23、历史建筑保护工程四年13。",
+      "limits": [
+        "发布日未知，HTTP Last-Modified不作为发布日期。",
+        "只用2025计划表；不构成2027资格、组内录取机会或全组接受证明。",
+        "未核苏大完整培养、当年绘画要求与专业分配规则，不以其他学校课程替代。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S11",
+      "title": "江门公用水务环境股份有限公司招聘简章",
+      "publisher": "江门市国资委发布雇主招聘",
+      "publication_date": "2025-04-22",
+      "url": "https://www.jiangmen.gov.cn/jmgzw/gkmlpt/content/3/3286/post_3286523.html",
+      "inherited_index": {
+        "path": "research/industry/water-network-treatment-2037-choices-sources.json",
+        "source_id": "J01",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/water-network-treatment-2037-choices-sources.json"
+      },
+      "locator": "岗位（五）L202–233（人数、职责、学历/专业及优先条件）；四L344–349（录用）；五（三）L357（调配）",
+      "inherited_representation": "历史官方招聘可读转换，非原HTML。",
+      "inherited_hash": {
+        "kind": "selected_transformed_extract_sha256_not_original",
+        "value": "07a42041069fb6369ca733b99962e744be250642720f9fa26375b20afb6802d8"
+      },
+      "used_facts": "江门2025本科制供水接收给排水及环境科学与工程类，另有年龄/学校优先/技能/调配约束；不作为R内岗位。",
+      "limits": [
+        "只证明江门2025当批允许申请，不是无锡或苏州岗位，更不保证2031接收。",
+        "环境科学与工程类是专业类表达，未核校方具体毕业专业被雇主认定。",
+        "同岗共列不代表两专业同胜率或相同训练。"
+      ],
+      "new_original_verification": false
+    },
+    {
+      "id": "S12",
+      "title": "gad杰地设计2026–2027校园招聘",
+      "publisher": "杰地设计集团有限公司；浙江大学就业平台承载",
+      "publication_date": "2026-10-21",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5E2A0DA975B3E9A0E0653A68DD0E9B18",
+      "inherited_index": {
+        "path": "research/industry/architecture-urban-planning-2037-sources.json",
+        "source_id": "J-gad",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/2fd1cde0346f3307d8039176fa874c57c3989cc1/research/industry/architecture-urban-planning-2037-sources.json"
+      },
+      "locator": [
+        "应聘材料要求一：设计师简历与作品集",
+        "岗位描述一、设计：建筑设计；城市/规划设计",
+        "岗位描述六、实习生：建筑设计实习生"
+      ],
+      "inherited_representation": "HTML原字节及重新提取正文",
+      "inherited_hash": {
+        "kind": "original_bytes_sha256",
+        "value": "5ee3c23335645e4d0c7445d676c0e3892bd6e6ac21c1f31590c1789b082c4e4f"
+      },
+      "used_facts": "本科城市/规划设计接收规划/建筑等、要求空间分析及作品，地点杭州/重庆，不作为R内岗位。",
+      "limits": [
+        "单页为多岗广告，总栏人数/地点/全职实习不可套给每个职位。",
+        "单岗精确毕业届、经验豁免、实际录用、薪资和劳动合同未核；历史广告不保证2032可用。",
+        "同岗专业开放不证明录用概率相同；未确认江苏岗位。"
+      ],
+      "new_original_verification": false
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "N",
+      "type": "共同基准",
+      "content": "同片区持续使用，主要功能/布局稳定；网络与运行接口有可改善问题；三路准确接收、可进入训练和受监督新人模块成立；本人均接受且风险/负担可承担。成本没有假设相等，规划第五年的额外等待仍需增益补偿。"
+    },
+    {
+      "id": "E",
+      "type": "保持目标和个人接受的正向反转",
+      "content": "网络方案已有，主要约束转为污染来源、可处理性和副产物，实验能改变处理且有预算/新人反馈；环工可前置。"
+    },
+    {
+      "id": "P",
+      "type": "保持目标和个人接受的正向反转",
+      "content": "按原布局修复会锁定长期空间/功能损失，有权主体真实委托方案比较并有持续反馈；规划增益值得第五年，其他技术仍可行。"
+    },
+    {
+      "id": "C",
+      "type": "局部并列",
+      "content": "共同城镇处理岗准确接收给排水/环工，实际训练/任务无法区分，按可进入性、成本和反馈比较。"
+    }
+  ],
+  "derivations": [
+    {
+      "id": "D1",
+      "kind": "部分顺序",
+      "supports": [
+        "N",
+        "S7",
+        "S8",
+        "S9",
+        "S10"
+      ],
+      "claim": "N给排水弱主、环工近备、规划条件支线；不传递拼接旧两两排名或以行业标签总排。"
+    },
+    {
+      "id": "D2",
+      "kind": "证据强弱",
+      "supports": [
+        "B-water",
+        "B-plan"
+      ],
+      "claim": "有限历史事实足以支持任务适配假设，不提供三路同城录用率、培养实效或目标年岗位保证。"
+    },
+    {
+      "id": "D3",
+      "kind": "实体基准与交集",
+      "supports": [
+        "N",
+        "C",
+        "S1",
+        "S2",
+        "S7"
+      ],
+      "claim": "网络/水力/运行问题下给排水补差较少；不能给排水=城市、环工=工业，处理交集可并列。"
+    },
+    {
+      "id": "D4",
+      "kind": "环工正向反转",
+      "supports": [
+        "E",
+        "S2",
+        "S7"
+      ],
+      "claim": "同片区污染/可处理性成为主要损失，分析试验能影响工程时环工可在给排水仍可行时前置。"
+    },
+    {
+      "id": "D5",
+      "kind": "规划正向反转",
+      "supports": [
+        "P",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "claim": "空间/功能错配会锁定长期成本时，真实方案比较和反馈可使规划先改问题，再接后续工程；增益须值得第五年。"
+    },
+    {
+      "id": "D6",
+      "kind": "政策人口时滞",
+      "supports": [
+        "S1",
+        "S2",
+        "S3",
+        "N",
+        "P"
+      ],
+      "claim": "2027/2030目标不能平移到2031/2032；人口使用变化可增强原位优化或空间整合，单位成本、支付与劳动供给分开。",
+      "boundary": "无新增人口/退休/缺工预测，未把现状模型写成已观察事实。"
+    },
+    {
+      "id": "D7",
+      "kind": "技术组织与共风险",
+      "supports": [
+        "S5",
+        "S6"
+      ],
+      "claim": "工具可压缩重复任务，也可释放新人调查/诊断时间；共同财政/客户及组织集中可使三路共退，有款和反馈可使三路共升。",
+      "boundary": "无独立AI工时/人数成效；一企财务不等行业缩招或苏州合同付款。"
+    },
+    {
+      "id": "D8",
+      "kind": "培养时间与成本",
+      "supports": [
+        "S8",
+        "S9",
+        "S10"
+      ],
+      "claim": "2031/2032、六年/五年分别计算；规划额外一年需训练增量，硕士按可取得的资格或难替代训练任一增益与成本比较。",
+      "boundary": "年数不是工龄、职级、权限或工资保证；南工大四年调整未用于本题替代苏大五年。"
+    },
+    {
+      "id": "D9",
+      "kind": "招生分层",
+      "supports": [
+        "S9",
+        "S10"
+      ],
+      "claim": "苏科目标两行组关系未知，苏大29四成员同组；计划数不当位次。弱专业偏好须通过个人资格、历史机会、完整接受、实得训练和总成本。"
+    }
+  ],
+  "unresolved_gaps": [
+    "R内准确本科接收、合同/支付及新人复验反馈未闭合；R外广告不能填空。",
+    "实际候选的本人训练取得与规划第五年净增益未证；旧培养材料层级不对称。",
+    "苏科两专业正式组/全成员与两校目标年资格、学制、成本和同口径录取机会未核。",
+    "用户位次/选科/渠道、整组接受及地域/现场约束未给，N不是代填画像。"
+  ],
+  "output_scope": {
+    "local_only": true,
+    "requires": "独立审核及用户另行GitHub上传授权",
+    "files": [
+      "research/industry/urban-renewal-water-environment-planning-2037-choices.md",
+      "research/industry/urban-renewal-water-environment-planning-2037-sources.json",
+      "research/admissions/major-career-routing.md必要追加段",
+      "research/coverage.md必要追加段"
+    ],
+    "excluded": [
+      "来源原件",
+      "CSV/个人数据",
+      "其他旧库资料",
+      "完整工具返回/内部运行审计副本",
+      "新增流程"
+    ]
+  }
+}
