@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-11-16",
+  "title": "苏州数字产品可靠交付：修复发布与安全研判的本科投入比较",
+  "fixed_main": "cb77f8b0fa29b96c699a27c5bb9cea7847056901",
+  "scope": {
+    "audience": "江苏生源本科选择；江苏大学历史入口，镇江求学、苏州就业；未赋用户位次、接受度或能力。",
+    "question": "在同一可靠交付目标下，有限本科追加训练先投修复发布还是安全研判；不再按安全/开发岗位名称硬分专业。",
+    "years": "2027入学且实际四年按期完成则2031本科毕业；2037看实际经历。三年硕士若发生且完成则2034，均为假设。",
+    "admissions": "2026招生采集、当前组调查及CSV暂停；只复用2025江苏江大20旧摘要。",
+    "change": "新增苏州岗位列表/详情时点观察及深圳、上海2条历史本科安全职责支点；仍未闭合准确苏州产品安全本科入口，0新增已确认苏州产品安全本科入口、0新增招生候选，不改旧计数。"
+  },
+  "evidence_policy": "旧材料沿固定仓库及索引的核验等级；新材料为原发布网站或高校承载雇主文字的网页转换，不是原始HTML字节认证。只保留决定性观察、来源定位和限制，不另建工具原始返回或逐点击审计副本。表内工作闭环与N/S为作者推演，不冒充企业已实施分工。",
+  "fixed_inputs": [
+    {
+      "path": "research/admissions/jiangsu-jsu20-security-software.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/admissions/jiangsu-jsu20-security-software.md"
+    },
+    {
+      "path": "research/admissions/jiangsu-jsu20-security-software-sources.json",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/admissions/jiangsu-jsu20-security-software-sources.json"
+    },
+    {
+      "path": "research/industry/product-lifecycle-security-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/industry/product-lifecycle-security-2037-choices.md"
+    },
+    {
+      "path": "research/industry/product-lifecycle-security-2037-sources.json",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/industry/product-lifecycle-security-2037-sources.json"
+    }
+  ],
+  "sources": [
+    {
+      "id": "B1",
+      "title": "江大信息安全与软件：合规责任怎样接到苏州本科入口",
+      "publisher": "Pathwise Research已采用研究",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/admissions/jiangsu-jsu20-security-software.md",
+      "representation": "本轮读取固定main正文与来源索引；外部原件除N2所列页面状态外未重取。",
+      "locator": "历史组约束；本科入口；培养事实；责任、预算与2031/2037",
+      "used_facts": [
+        "2025江苏物理旧摘要：软件工程+32191/59、信息安全34889/61、20组35804/331；人数是旧录取数，不是计划。",
+        "六显示成员：计算机科学与技术+、软件工程+、通信工程、信息安全、物联网工程、智能科学与技术；真实用户接受未知。",
+        "旧摘要记2024/2025物理+化学、2023再选不限；两目标2025级四年、6380元/年、四年学费算术25520，非2027适用确认。",
+        "中际旭创2027苏州IT数字化混合类别曾列本科及以上与软件工程类、信息安全类；开发、运维、产品不等逐专业分轨保证；学校优先、编程、CET4等条件保留。",
+        "旧科达应用开发本科及以上和导师任务属于历史核验；不能用N2当前停用抹去历史，不能拿旧摘要说现在可投。",
+        "江苏大学2023软件工程简介为需求、设计开发及测试重心；信息安全有共同编程基础及密码、系统安全等重心。"
+      ],
+      "inherited_source_objects": [
+        {
+          "old_id": "R0",
+          "title": "江大20六成员旧摘要",
+          "url": "https://github.com/mythpan1/pathwise-research/blob/81670fd4aa7f6c919d74ef9a6b0e95391342d440/research/admissions/jiangsu-27151-jsu20-buffer.md",
+          "urls": null,
+          "inherited_representation": "canonical repository UTF-8 bytes",
+          "inherited_sha256": "004724b48096da4a81171520490705c46579c95c5a3d1a43c5cb5be159256383",
+          "locator": "三年同键显示六项；决定性项目条件；全组接受与退档",
+          "hash_note": "哈希属于旧索引指定表示；本轮未重取原件或重新验证该哈希。"
+        },
+        {
+          "old_id": "J0",
+          "title": "2027应用开发与Java对照",
+          "url": null,
+          "urls": [
+            "https://kedacom.zhiye.com/zpdetail/511214858",
+            "https://kedacom.zhiye.com/zpdetail/511199330"
+          ],
+          "inherited_representation": "canonical adopted summary UTF-8 bytes",
+          "inherited_sha256": "1a2dad5ad6b1e85b52f77c4ed5322121dccc5bf99a181153530c0f114bbce52b",
+          "locator": "同一苏州的真实入口，科达一行",
+          "hash_note": "哈希属于旧索引指定表示；本轮未重取原件或重新验证该哈希。"
+        },
+        {
+          "old_id": "J1",
+          "title": "IT数字化类（产品·研发·运维）",
+          "url": "https://zj-innolight.jobs.feishu.cn/300308/position/7674648901014423859/detail",
+          "urls": null,
+          "inherited_representation": "原雇主页面可读accessibility全文快照，非raw HTML",
+          "inherited_sha256": "197902f8a1bb8faced32215f8ce69493afff3a5b45699541504dda2568c5b3d1",
+          "locator": "AX10—14，node14三方向及资格1—7",
+          "hash_note": "哈希属于旧索引指定表示；本轮未重取原件或重新验证该哈希。"
+        },
+        {
+          "old_id": "U2",
+          "title": "软件工程简介",
+          "url": "https://cs.ujs.edu.cn/info/1067/33237.htm",
+          "urls": null,
+          "inherited_representation": "canonical adopted summary UTF-8 bytes",
+          "inherited_sha256": "9efb5c4f6331551ee0da4de84583934f619de57c05f8fcac0e6a2c60b52e096d",
+          "locator": "两专业的训练差异，U2及前批图1核验摘要",
+          "hash_note": "哈希属于旧索引指定表示；本轮未重取原件或重新验证该哈希。"
+        },
+        {
+          "old_id": "U3",
+          "title": "信息安全简介关键训练段",
+          "url": "https://cs.ujs.edu.cn/info/1067/33247.htm",
+          "urls": null,
+          "inherited_representation": "原网页转换文本选段，非raw HTML",
+          "inherited_sha256": "5be8c5bfae7c920e8f1061cd7d649973e8aaaba42fc17ebde8a052b27c62648e",
+          "locator": "网页转换lines65—67关键训练段",
+          "hash_note": "哈希属于旧索引指定表示；本轮未重取原件或重新验证该哈希。"
+        }
+      ],
+      "limits": [
+        "旧摘要不升级为官方招生结果、目标年资格或实践兑现。",
+        "混合内部IT不是产品安全职责证据。",
+        "学校简介不证两专业相对教学质量；未列不等缺课。"
+      ]
+    },
+    {
+      "id": "B2",
+      "title": "售出后仍须维护：数字产品支持期如何改变江苏软件、安全与设备方向",
+      "publisher": "Pathwise Research已采用研究",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/cb77f8b0fa29b96c699a27c5bb9cea7847056901/research/industry/product-lifecycle-security-2037-choices.md",
+      "representation": "本轮读取固定main正文与来源索引；只沿旧稿明示制度/市场条件及连续机制。",
+      "locator": "二分析单位；五产品组合、组件与组织；六本科边界；七人口与时间",
+      "used_facts": [
+        "原研究将产品制造商支持责任与国内数据处理者预算分开，保留具体市场、产品适用及任务所在地条件。",
+        "原研究的科达ESG支点为第三方承载的公司披露转换，未得官方PDF原字节，不提高核验等级。"
+      ],
+      "reused_analysis": [
+        "版本与依赖差异、旧存量和新销售时点、维护支出、集中平台及本科模块之间的条件传导。"
+      ],
+      "limits": [
+        "不在本轮重新解释现行法期限或确认任何科达产品适用、CRA实施/聘用。",
+        "公司组织位置不等真实分工、回款、训练或本科人数；旧推导不冒充外部事实。"
+      ]
+    },
+    {
+      "id": "E1",
+      "title": "启明星辰2025年年度报告全文",
+      "publisher": "启明星辰信息技术集团股份有限公司；巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-13/1225094655.PDF",
+      "report_period": "2025-01-01/2025-12-31",
+      "document_date": "2026-04",
+      "date_note": "2026-04-13为旧索引URL日期，未另核披露元数据。",
+      "representation": "沿B1旧索引E01：原PDF及定向文本；原研究目视p25/p137，其余定位仅定向文本。本轮未重取。",
+      "inherited_original_sha256": "101cf6800efed41a83c9a644efdcaa2cfb4ef501f6f67ffd14ce77bcfd053355",
+      "locator": "印刷pp13—14、25、33、43、137、179",
+      "used_facts": [
+        "有订阅、托管与集中采购安排；2025安全运营与服务收入下降而回款效率改善，收付与收入确认分开。"
+      ],
+      "limits": [
+        "不以百分比或财务量推人数，本轮不使用新数值。",
+        "一企一年，不是科达预算或中际旭创采购事实；不拼三者交易关系。"
+      ]
+    },
+    {
+      "id": "N1",
+      "title": "苏州科达科技股份有限公司2027校园招聘简章",
+      "publisher": "苏州科达雇主简章；河南大学就业创业信息网承载",
+      "url": "https://job.henu.edu.cn/module/position_brief_detail/id-113532/nid-10822",
+      "page_published_at": "2026-08-20 17:05:48",
+      "observed_on": "2026-11-16",
+      "representation": "原高校承载页面的可读转换文字；未保存raw HTML或页面布局认证。",
+      "locator": "页面标题/发布信息、招聘对象、招聘岗位开发类；转换行76—82、204—226",
+      "used_facts": [
+        "简章对象为2027年1—12月应届毕业生；开发类列安全软件工程师（苏州）。"
+      ],
+      "limits": [
+        "只用岗位名称、城市及批次对象；该简章无该岗逐项学历、准确专业与职责。",
+        "整份校招、培养宣传或相邻岗位条件不得移给安全软件岗；页面到期时间不证明当前可投。"
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "应用软件开发工程师（2027校招）原招聘详情",
+      "publisher": "苏州科达官方招聘系统",
+      "url": "https://kedacom.zhiye.com/zpdetail/511214858",
+      "page_published_at": null,
+      "observed_on": "2026-11-16",
+      "representation": "原雇主招聘页面可读转换文字；非原始HTML。",
+      "locator": "标题及紧随状态；转换行14—16",
+      "observed_text": "应用软件开发工程师（2027校招）；对不起，此职位已停用。",
+      "used_facts": [
+        "本轮该详情页显示停用，不据旧入口声称现在可报名。"
+      ],
+      "limits": [
+        "没有停用原因或日期；不推取消岗位、招聘总量、永久关闭或2031接收。",
+        "不否定此前真实历史核验；也不补任何本轮已隐藏的旧职责。"
+      ]
+    },
+    {
+      "id": "N3",
+      "title": "科达官网校园招聘列表",
+      "publisher": "苏州科达科技股份有限公司",
+      "url": "https://www.kedacom.com/cn/xyjob.jhtml",
+      "page_published_at": null,
+      "observed_on": "2026-11-16",
+      "representation": "公司官网列表可读转换文字及链接；非原始HTML。",
+      "locator": "招聘列表应用软件开发工程师行及其详情链接；转换行302—304",
+      "used_facts": [
+        "列表仍列应用软件开发工程师（2027校园招聘）、开发类、苏州、2026-09-22，并链接至N2。"
+      ],
+      "limits": [
+        "2026-09-22为列表该行标注日期，不是本轮页面发布日期。",
+        "列表链接存在不覆盖N2停用状态，不证明实际空缺或当前受理。"
+      ]
+    },
+    {
+      "id": "N4",
+      "title": "【3月27日招聘会】睿联技术",
+      "publisher": "深圳市睿联数字技术有限公司雇主材料；香港中文大学（深圳）职业规划与发展处承载",
+      "url": "https://career.cuhk.edu.cn/job/view/id/467555",
+      "page_published_at": "2026-03-23",
+      "page_end_date": "2026-03-27",
+      "observed_on": "2026-11-16",
+      "representation": "高校原页正文经Exa取得的可读转换，含岗位表；非raw HTML或原页面布局认证。",
+      "locator": "发布时间/结束时间；工作内容描述表的安全工程师行，工作职责1—4、任职要求1—4及地点/学历/专业列。",
+      "used_facts": [
+        "安全工程师行地点深圳、学历本科，任职要求为本科及以上、计算机/网络安全等相关专业；表格专业列概括为计算机相关专业。",
+        "职责包含参与产品安全渗透测试、协助产品线安全方案落地、数据防护治理和漏洞修复、网络策略与安全运营。",
+        "要求编程、安全基础和工具等能力；CTF或安全项目经验为优先项。"
+      ],
+      "limits": [
+        "仅采用该行，不将网页总工作地点“不限”改为该岗全国，也不使用薪资/人数推结果。",
+        "招聘会日期不等具体毕业届；未明确免经验。混合职责和参与/协助不等专职独立研判或实际带教分配。",
+        "深圳R外历史招聘，不是科达苏州、2027入学/2031入口、实际录用或江苏大学训练证据；不擅自认定准确专业接收。"
+      ]
+    },
+    {
+      "id": "N5",
+      "title": "泛微2025春季校园招聘简章-在泛微，遇见与众不同的你！",
+      "publisher": "泛微网络科技股份有限公司雇主简章；吉林大学就业网承载",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/details?id=1ecc9503cde249819a560a9ea0f6ca41",
+      "page_published_at": "2025-03-07 15:47:52",
+      "observed_on": "2026-11-16",
+      "representation": "高校原页全文经Exa取得的可读转换；只采用应用安全工程师段，非raw HTML或原页面布局认证。",
+      "locator": "页面发布时间；招聘内容（一）技术类岗位中的应用安全工程师及相关要求1—4。",
+      "used_facts": [
+        "应用安全工程师地点上海；2025届本科及以上，信息安全或计算机相关专业优先。",
+        "职责把系统/产品漏洞挖掘分析修复、安全需求设计编码落地、应急溯源以及安全开发生命周期SDL建设推广相连。",
+        "要求SDL落地运营经验、编程、测试与代码审计等实质技能和经验，不是仅凭本科学历的零基础入口。"
+      ],
+      "limits": [
+        "校招、本科门槛与岗位职责不证明实际录用、所有职责分给新人或权限/带教已兑现。",
+        "专业优先不是排除软件工程；准确相关专业认定仍须对应雇主，不冒称两专业同等录用。",
+        "上海R外历史样本，不填苏州、科达、2031岗位或江苏大学训练可得；不用全简章人数和其他岗位共同构造结果。"
+      ]
+    }
+  ],
+  "excluded_leads": [
+    {
+      "url": "https://www.91wllm.cn/job/view/id/2383923/from_type/4/from_id/1000944",
+      "reason": "本轮安全软件详情返回不存在或过期，未取得职责和逐岗学历；不据总列表“学历不限”补本科接收。"
+    },
+    {
+      "urls": [
+        "https://bebee.com/cn/jobs/2027--ss-cn-gb6jll",
+        "https://fs.jrzp.com/nView_E84FDF39AB5A6F35.shtml"
+      ],
+      "reason": "聚合文字有安全组件/防护检测等细节，但未追到可同一核对的原发布详情；表格学历与正文线索也不能可靠拼接。只作查找线索，不采用职责、学历、薪资或人数。"
+    },
+    {
+      "url": "https://www.kedacom.com/cn/aqyjxyzx/41404.jhtml",
+      "reason": "可读表示只得安全应急标题，未得职责正文；不以栏目名称证明PSIRT组织、本科分工或漏洞处理实绩。"
+    }
+  ],
+  "assumptions": {
+    "common": "同一可靠交付目标、苏州R、四年本科优先；准确资格、费用、工作条件与带教可接受。未赋用户画像。",
+    "N": "问题与影响范围已有足够判断，边际损失主要在实现、版本验证和交接；相应本科任务与训练可进入。",
+    "S": "开发仍可做好，但问题性质、范围、风险或控制判断错误主导损失；本科能参与复核且安全训练相对更值。",
+    "population": "客户减少现场技术人员、服务配置变化及熟手退出仅作条件，未新增人数或供给预测。"
+  },
+  "inferences": [
+    {
+      "id": "D1",
+      "claim": "N下先投完整修复交付，软件工程弱前置；共同底座有明确先后，不按代码量或岗位总量打分。",
+      "basis": [
+        "B1",
+        "B2"
+      ],
+      "limit": "N不是已证苏州主导情景，未证明江苏大学软件工程实际培养更优。"
+    },
+    {
+      "id": "D2",
+      "claim": "S下安全判断能改变工程范围与后续损失，信息安全可在开发仍可行时正面前置。",
+      "basis": [
+        "B1",
+        "B2",
+        "N4",
+        "N5"
+      ],
+      "limit": "须实际本科参与、反馈与相对训练增益，不能以工单/报告或名称替代。"
+    },
+    {
+      "id": "D3",
+      "claim": "两条R外历史本科职责支持产品/应用安全并非只有混合IT名称；同时保留产品任务、混合内部IT、准确专业与苏州接收的区别。",
+      "basis": [
+        "B1",
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5"
+      ],
+      "limit": "上海/深圳不填苏州，两广告不等实际带教或录用；N/S不因此自动换序。停用不推未来职业衰退。"
+    },
+    {
+      "id": "D4",
+      "claim": "问题—范围—改动—验证—发布是共同交付闭环；两侧责任可交叉，比较本人实际决定和纠错。",
+      "basis": [
+        "B1",
+        "B2",
+        "N4",
+        "N5"
+      ],
+      "limit": "新广告支持分析与实现可在同岗相连；比较表仍是作者工作情景，不是任一企业新人权限/反馈调查。"
+    },
+    {
+      "id": "D5",
+      "claim": "专业弱先验须与训练可得、基础补差和总成本比较；较好的实际项目可改变专业名顺序。",
+      "basis": [
+        "B1",
+        "N4",
+        "N5"
+      ],
+      "limit": "未核目标届课程、项目名额、个人费用；不造工资回报或硕士必要性。"
+    },
+    {
+      "id": "D6",
+      "claim": "产品组合、依赖版本和持续支出重组两侧任务；同平台可减重复也可扩大错误影响，共享预算使专业备选非独立保险。",
+      "basis": [
+        "B2",
+        "E1"
+      ],
+      "limit": "不推科达实施、现金或本科人数，也不拼三家企业合同关系。"
+    },
+    {
+      "id": "D7",
+      "claim": "人口通过用户配置、现场人员与补员组织改变可靠更新和解释价值，而非直接给专业缺口。",
+      "basis": [
+        "B2"
+      ],
+      "limit": "无新人口实测，少子化不直接减少2031合资格毕业供给。"
+    },
+    {
+      "id": "D8",
+      "claim": "历史目标行与组线分层筛选；同组六成员接受未知，软件主/信安备不构成独立投档保险。",
+      "basis": [
+        "B1"
+      ],
+      "limit": "无用户位次，不算个人冲稳保；历史数值不推2027可报或精确概率。"
+    },
+    {
+      "id": "D9",
+      "claim": "2031重新核入口，2037按真实责任；当前招聘列表与详情错位强化时点意识而非推断长期衰退。",
+      "basis": [
+        "B1",
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "limit": "2027校招届别不是2027入学者岗位；硕士年数仅假设。"
+    }
+  ],
+  "decisive_next_evidence": "同一目标团队本科新人参与的具体判断、变更与复核反馈；两个本科方案取得这些训练的真实代价。只在该信息会改变N/S和可行集合时继续，不扩样本凑理想岗位。",
+  "revision_effect": "N/S顺序维持；新证据加强共同工程底座与混合职责的事实支撑，不证明苏州主导瓶颈、信安相对训练优势或排除软件工程。"
+}
