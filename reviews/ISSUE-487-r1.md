@@ -5,7 +5,7 @@
 - 日期：2026-11-16。
 - 任务：江苏装备零部件交付四路径条件比较。
 - 基线：`a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5`。
-- 被审成果 H：`00daef3568d150a5387e497a6a01aea357b7eb8 `
+- 被审成果 H：`00daef3568d150a5387e497a6a01aea357b7eb8`
 - 审核结论：建议采用；内容阻断项 0。只适用于上述 H。
 - 实际 GitHub 独立审核评论：[PR #488 评论 6908980406](https://github.com/mythpan1/pathwise-research/pull/488#issuecomment-6908980406)，发布时间 2026-11-16T06:17:36Z。
 - 审核者公开审计别名：`equipment-four-path-independent-r1`。该别名不认证后端身份；所请求模型/强度为 gpt-6-astra / ultra，实际模型报告、运行强度和后端身份为 unknown。
