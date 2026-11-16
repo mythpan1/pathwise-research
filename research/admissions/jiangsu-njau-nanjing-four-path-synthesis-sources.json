@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "task_ref": "LOCAL-NANJING-FOUR-PATH-20261116",
+  "research_revision": "2026-11-16",
+  "base_commit": "b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4",
+  "scope": "南京就业、江苏历史南农四项既有候选的统一基准；local candidate, adoption/publication require distinct review and specific authorization",
+  "sources": [
+    {
+      "id": "NPOP",
+      "title": "2025年度江苏省老龄事业发展公报",
+      "publisher": "江苏省民政厅、江苏省老龄工作委员会办公室",
+      "url": "https://mzt.jiangsu.gov.cn/art/2026/10/21/art_78624_11845073.html",
+      "date_fields": {
+        "date": "2026-10-21",
+        "period": "2025末；对照2021末"
+      },
+      "region": "江苏省，常住/户籍分开",
+      "locator": "L7 一（一）（二）",
+      "adopted_scope": "2025常住60+2274万人/26.70%；2021为1884万人/22.15%。",
+      "limits": "Not Nanjing; not paid service use, purchasing power or hiring. Avoid inconsistent/ambiguous original同比 wording; no derived growth-rate claim.",
+      "representation": "official URL converted text, not raw HTML",
+      "representation_sha256": [
+        "0bc3c44c3afa1a7916c6a0baa176041ae51c77c65b45da6cc1d4a91e82033d98"
+      ],
+      "hash_scope": "完整合并网页转换返回字节，含其他来源及封装；不是单页HTML哈希。"
+    },
+    {
+      "id": "NPROPERTY",
+      "title": "1—7月全省固定资产投资走势平稳",
+      "publisher": "江苏省统计局固定资产投资统计处",
+      "url": "https://tj.jiangsu.gov.cn/art/2026/8/24/art_85276_11820000.html",
+      "date_fields": {
+        "date": "2026-08-24",
+        "period": "2026年1—7月"
+      },
+      "region": "江苏省",
+      "locator": "L20–22",
+      "adopted_scope": "新建商品房销售面积同比-15.2%；房地产开发投资-23.9%。",
+      "limits": "Not Nanjing market or landscape design orders. Period aggregate does not forecast2031; existing-stock update also needs actual payer.",
+      "representation": "original-URL web-tool conversion, not raw HTML",
+      "representation_sha256": [
+        "0bc3c44c3afa1a7916c6a0baa176041ae51c77c65b45da6cc1d4a91e82033d98"
+      ],
+      "hash_scope": "完整合并网页转换返回字节，含其他来源及封装；不是单页HTML哈希。"
+    },
+    {
+      "id": "NCIVIL",
+      "title": "南京市“十五五”民政事业发展规划",
+      "publisher": "南京市人民政府办公厅",
+      "url": "https://www.nanjing.gov.cn/zdgk/202611/t20261113_6039840.html",
+      "date_fields": {
+        "document_number": "宁政办发〔2026〕66号",
+        "document_generated_signed": "2026-11-03",
+        "url_date": "2026-11-13; separate from signed date"
+      },
+      "region": "南京",
+      "locator": "L40–62 dates; L66–70 baseline/situation;L81–104 targets;L114–117 facilities",
+      "adopted_scope": "Local planning recognizes age/family/regional distribution changes and service-quality/space mismatch; proposes existing-facility adjustment; reports prior14th-plan公益创投3600万元/300余projects.",
+      "limits": "Plan and authority retrospective self-report, not independently audited execution.2030targets not achieved; past fund not currentbudget/disbursement/newhire, no sociology-exclusive qualification.",
+      "representation": "original-URL web-tool conversion, not raw HTML",
+      "representation_sha256": [
+        "0bc3c44c3afa1a7916c6a0baa176041ae51c77c65b45da6cc1d4a91e82033d98",
+        "3151473502743000ad5f2b973b61d9dc1705da88e5eccbddbb8478cc665389c2"
+      ],
+      "hash_scope": "完整合并网页转换返回字节，含其他来源及封装；不是单页HTML哈希。"
+    },
+    {
+      "id": "NTRADE",
+      "title": "南京市推进跨境电商高质量发展行动计划（2026—2028年）",
+      "publisher": "南京市商务局",
+      "url": "https://swj.nanjing.gov.cn/njsswj/202609/t20260922_5915521.html",
+      "date_fields": {
+        "document_number": "宁商发〔2026〕19号",
+        "signed": "2026-09-21",
+        "generated": "2026-09-22"
+      },
+      "region": "南京（some targets metropolitan circle, not identical city bounds）",
+      "locator": "L22–32 dates/targets;L39–47enterprise/platform;L61–68 AI/talent",
+      "adopted_scope": "Policy links traditional trade/manufacturing to platforms and specialist services; proposes AI across supply/marketing and training.",
+      "limits": "Targets/support not observed contracts, sales/profit/cash or new-graduate posts; not major-exclusive; metropolitan targets not allNanjing cityjobs.",
+      "representation": "original-URL web-tool conversion, not raw HTML",
+      "representation_sha256": [
+        "0bc3c44c3afa1a7916c6a0baa176041ae51c77c65b45da6cc1d4a91e82033d98",
+        "3151473502743000ad5f2b973b61d9dc1705da88e5eccbddbb8478cc665389c2"
+      ],
+      "hash_scope": "完整合并网页转换返回字节，含其他来源及封装；不是单页HTML哈希。"
+    },
+    {
+      "id": "NAI",
+      "title": "以AI赋能跨境电商全流程",
+      "publisher": "南京市政府网站转载南京日报；报道引企业提供资料",
+      "url": "https://www.nanjing.gov.cn/zt/sznjjsqx/cgzs/202609/t20260910_5908068.html",
+      "date_fields": {
+        "date": "2026-09-10"
+      },
+      "region": "南京企业案例，客户覆盖不等南京岗位",
+      "locator": "L6–11",
+      "adopted_scope": "Reported seller-content/opportunity, buyer-screening/price comparison and order-followup reference tools; SaaS provision.",
+      "limits": "Secondary reporting of company-supplied material. Efficiency percentages not independently verified; no measured labor/hiring/wage effect. Not universal operational ability or NJAU training.",
+      "representation": "original-URL web-tool conversion, not raw HTML",
+      "representation_sha256": [
+        "3151473502743000ad5f2b973b61d9dc1705da88e5eccbddbb8478cc665389c2"
+      ],
+      "hash_scope": "完整合并网页转换返回字节，含其他来源及封装；不是单页HTML哈希。"
+    },
+    {
+      "id": "PAY-P1",
+      "title": "关于加强社区工作者队伍建设的意见",
+      "publisher": "中办、国办；中央社会工作部官方转载新华社",
+      "url": "https://www.zyshgzb.gov.cn/n1/2024/0920/c459388-40324583.html",
+      "document_date": "2024-03-28",
+      "release_date": "2024-04-10",
+      "repost_timestamp": "2024-10-01 06:02",
+      "locator": "第1、3、10、12、15项",
+      "representation": "复用原始HTML，本次读取相关正文；未作网页像素认证",
+      "sha256": "0eaf99b88cadc95d7748a63155db2e7b2f08ef434a7f61a723039a1f1a3c7b5c",
+      "adopted_scope": "社区专职招聘、劳动合同、财力与年度预算；区别事业及委外身份",
+      "limits": "配置和政策不等南京实际本科空缺、自动转编或毕业专业认可。"
+    },
+    {
+      "id": "PAY-N2",
+      "title": "关于进一步规范购买第三方服务管理的通知",
+      "publisher": "南京市财政局",
+      "url": "https://czj.nanjing.gov.cn/banshifuwu/cgzccx/bsfwscztwj/202609/t20260922_5915327.html",
+      "page_date": "2026-09-22",
+      "document_number": "宁财购〔2025〕299号",
+      "body_date": "2025-11-28",
+      "annex_label": "负面清单（2026年版）",
+      "date_limit": "上述差异原因未核，不统一成生效日期。",
+      "locator": "一（二）（三）、二（三）、三（一）（二）；转换L70–97",
+      "representation": "旧完整合并网页转换返回，包括其他来源；非单页HTML或目录附件",
+      "sha256": "55a3c195e9c5722384c8088d43dfb93073b9b96ccc2d23fdff2c19b7e30554ae",
+      "adopted_scope": "目录、预算、期限、调整及验收支付约束",
+      "limits": "附件未读，不判具体项目适用或实际付款；自行履职限制不扩成禁止所有需求调查/绩效评估。"
+    },
+    {
+      "id": "SPACE-AWARD",
+      "title": "2025年南京市城市体检评估报告项目中标公告采购包1",
+      "publisher": "江苏省公共资源交易平台，来源江苏省政府采购",
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20250814/322ceb2764b741fa9fa1fff2c0fdc7c9.html",
+      "date_fields": {
+        "publication_date": "2025-08-14",
+        "time_notice": "页面18:22:06与meta 06:22:06不一致，仅使用日期"
+      },
+      "locator": "第二、三、四节；原HTML内嵌正文",
+      "representation": "复用原始HTML",
+      "sha256": "b670fd9e2db1aff0f9b9d22a5417475170c5000bb97a5f0f7542ed2da4a9ea19",
+      "adopted_scope": "279.7万元购买南京2024情况评估/2025报告，不是景观设计或到账。",
+      "limits": "各为独立采购/企业，不拼同合同或移植给gad/赛夫；不证南农训练、南京普通本科接收或实际新人责任。"
+    },
+    {
+      "id": "SPACE-SPI",
+      "title": "广州山水比德设计股份有限公司2025年年度报告",
+      "publisher": "广州山水比德设计股份有限公司",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225229307.PDF",
+      "date_fields": {
+        "cover_date": "2026-04",
+        "url_date": "2026-04-29",
+        "date_notice": "封面月份与URL日期分开，未另核首次公告时间"
+      },
+      "locator": "物理/印刷第16、24、132页；第16、132页本次核图",
+      "representation": "复用原始PDF；物理页＝印刷页，文本与选定原图对照",
+      "sha256": "62a4bc598957d3a34e3ae351570eaa79ca037e77143add35a373a82e762b0ad6",
+      "adopted_scope": "阶段设计交付收费、客户确认和资源统筹；收入不等现金。",
+      "limits": "各为独立采购/企业，不拼同合同或移植给gad/赛夫；不证南农训练、南京普通本科接收或实际新人责任。"
+    },
+    {
+      "id": "ORG-ONECHANCE",
+      "title": "杭州壹网壹创科技股份有限公司2025年年度报告",
+      "publisher": "杭州壹网壹创科技股份有限公司",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225058027.PDF",
+      "date_fields": {
+        "url_date": "2026-03-31",
+        "date_notice": "仅URL日期，未另核首次公告时间"
+      },
+      "locator": "物理/印刷第10、12、17、152页；第17、152页本次核图",
+      "representation": "复用原始PDF；物理页＝印刷页，文本与选定原图对照",
+      "sha256": "f385c7e64926a6201785387e79fdabeab7d83a5cc9aac3669644a269716a009e",
+      "adopted_scope": "服务收费与持货经营分别核算；自述入门级和资深占比同升，不反算人数。",
+      "limits": "各为独立采购/企业，不拼同合同或移植给gad/赛夫；不证南农训练、南京普通本科接收或实际新人责任。"
+    },
+    {
+      "id": "TRADE-ENTRY",
+      "title": "苏美达轻纺业务助理",
+      "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/posDetail.html?postId=6a9aff38ded00b8cb6908edb&postType=campus",
+      "published_at": null,
+      "locator": "职责/任职要求",
+      "representation": "既有原URL转换返回，本次重读；非原始HTML/PDF，哈希为完整保存返回字节",
+      "sha256": "2bd69dec4897952cb03b9c1e6f91883b56fd1eb86bffeed1744e1fe5745c2d73",
+      "adopted_scope": "南京建邺、本科，国贸/英语等优先；订单、打样、生产及出运协调，工作英语要求。",
+      "limits": "发布日期/适用届保留原未知；广告非当前开放或2031承诺，培养文字非实际效果；专业优先非独占，不补造回款职责。"
+    },
+    {
+      "id": "TRADE-TRAINING",
+      "title": "南农国际经济与贸易旧培养方案",
+      "url": "https://jwc.njau.edu.cn/__local/5/88/30/DCC15C5797F9C4D5899EE4B49AD_018EB67D_27F85.pdf?e=.pdf",
+      "published_at": null,
+      "locator": "一、二、四、五及专业核心/实践段",
+      "representation": "既有原URL转换返回，本次重读；非原始HTML/PDF，哈希为完整保存返回字节",
+      "sha256": "9ac40984800c06c477c4dd505f41691e7b9dc5a0945832b68ba8928a42eeb2c7",
+      "adopted_scope": "历史四年及贸易流程/实践取向，不保证2027实际训练。",
+      "limits": "发布日期/适用届保留原未知；广告非当前开放或2031承诺，培养文字非实际效果；专业优先非独占，不补造回款职责。"
+    }
+  ],
+  "fixed_baseline_reuse": [
+    {
+      "id": "HIST",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4/research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "repository_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "commit": "b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4",
+      "sha256": "6a1b8bc17c53fceccb2b9c4d004d09d4a66ac88318bcddc8e905270b7714cd1f",
+      "locator": "组1922；成员1926–1937；旧章程/问答段",
+      "use": "历史数字、显示成员与规则沿旧等级；未读CSV/当前招生。",
+      "representation": "精确固定main已采用研究文件，不是新增原始事实或2027规则。"
+    },
+    {
+      "id": "SOC",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4/research/admissions/jiangsu-njau-social-public-trade.md",
+      "repository_path": "research/admissions/jiangsu-njau-social-public-trade.md",
+      "commit": "b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4",
+      "sha256": "2ac20da7b71365722467dd8485f1f127b592d062bc6ec69ac41a93bcfc382303",
+      "locator": "分流、三种用人结构、一次调查教学及第六节",
+      "use": "社会学类四方向及训练取得限制；旧条件排序不继承。",
+      "representation": "精确固定main已采用研究文件，不是新增原始事实或2027规则。"
+    },
+    {
+      "id": "LAND-BIZ",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4/research/admissions/jiangsu-history-landscape-brand-choices.md",
+      "repository_path": "research/admissions/jiangsu-history-landscape-brand-choices.md",
+      "commit": "b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4",
+      "sha256": "35f2c2c7c093b84f2d8c244ed2b439f9ace1844273dcda8b5890b1148f7848f8",
+      "locator": "Q与原招聘/专业表",
+      "use": "gad重庆、赛夫单岗城市未知；工商3分流、风景专门训练；旧Q不继承。",
+      "representation": "精确固定main已采用研究文件，不是新增原始事实或2027规则。"
+    },
+    {
+      "id": "TRADE",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4/research/admissions/jiangsu-history-trade-english-order.md",
+      "repository_path": "research/admissions/jiangsu-history-trade-english-order.md",
+      "commit": "b8bcbf97be1b551475edd9bdc4517d7bb8d4eee4",
+      "sha256": "531fff068190db35307590f2db6fd5e3013a0010344f14c640d2ca641ba17fc7",
+      "locator": "原件连接、历史规则及付款链",
+      "use": "保留旧来源层级和语种/业务训练限制；不继承6527假设考生。",
+      "representation": "精确固定main已采用研究文件，不是新增原始事实或2027规则。"
+    }
+  ],
+  "fact_inference_boundary": {
+    "observed": "省人口/地产统计、南京规划/行动、官方承载企业报道；旧购买规则、采购及公司原件。均保持主体/时间/表示边界。",
+    "N_baseline": "作者新设共同假设：一般本科有薪责任、四路条件可行、大类结果愿读但不保证分流，南京现有商业继续、公共及空间先整合提质、不押新建反弹。不是本地岗位总量实测。",
+    "ranking": "国贸>工商类>社会学类>风景园林是弱条件准备序；相邻理由见正文，不是旧pair传递、概率或已验证校别优势。",
+    "reversals": "服务识别/结果责任或难逆空间错误成为主要付费增量时，其相应路线可在商业仍可行时上升；训练取得/资格/成本约束保留。"
+  },
+  "gaps": {
+    "elder_budget_voucher": "两候选PDF直取403未获正文，不采用预算数、服务券条件或实付事实；未额外搜索。",
+    "not_verified": "2027正式组/培养/规则，个人位次英语费用接受，四路同口径南京岗位/录用/收入及实际反馈。"
+  },
+  "public_boundary": "仅有限转述、原URL、日期定位与哈希；不含机器路径、联系方式、原始长返回或内部工具引用。"
+}
