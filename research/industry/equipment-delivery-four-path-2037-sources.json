@@ -1,0 +1,388 @@
+{
+  "title": "装备零部件交付四路径：脱敏来源与推导索引",
+  "research_date": "2026-11-16",
+  "baseline_repository_commit": "a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5",
+  "scope": {
+    "student_origin": "江苏",
+    "school_geography": "全国；并不确认本轮任一学校当年江苏可报性",
+    "employment_scenario": "N的明示R为江苏无锡/启东和山东高密/乳山，非单城劳动力市场、非用户迁移偏好；岗位各守原地点",
+    "hypothetical_timeline": "2027入学，实际四年则2031本科，2037观察实际经历；三年硕士另按2034求职比较",
+    "paused": [
+      "2026录取采集",
+      "当前组调查",
+      "CSV读取"
+    ],
+    "new_admissions_candidates": 0,
+    "new_verified_employment_entries": 0
+  },
+  "evidence_use": "本轮只读取固定仓库正文和既有脱敏源索引。以下外部来源为沿旧核验的历史事实继承，不是本轮重取、亲核原件或当前网站/岗位/政策有效性检查。没有新事实采集；新内容是N及D1-D8的条件推导。公开URL、日期和原件哈希沿相应固定索引逐项继承，哈希不代表本轮重算。原件及完整工具返回不随本批复制或提交。",
+  "baselines": [
+    {
+      "id": "B1",
+      "path": "research/industry/industrial-engineering-mechanical-2037-choices.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/industrial-engineering-mechanical-2037-choices.md",
+      "locator": "一至五：IE/机械任务、同标称2023级局部培养对照、流程/物理约束、江苏招生接口缺口",
+      "related_index": {
+        "path": "research/industry/industrial-engineering-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/industrial-engineering-mechanical-2037-sources.json",
+        "source_ids": [
+          "C02",
+          "C04",
+          "E02"
+        ]
+      },
+      "verification_tier": "本轮读取固定仓库内容；不提升其原有事实核验等级",
+      "limits": [
+        "事实、旧推断和本文新推断分别使用",
+        "培养历史不等2027可进入训练，历史岗位不等未来持续入口"
+      ]
+    },
+    {
+      "id": "B2",
+      "path": "research/industry/forming-mechanical-2037-choices.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-choices.md",
+      "locator": "一至七：机械/材成准确专业、结构/过程比较、方向限制、招聘地域、硕士增益、招生缺口",
+      "related_index": {
+        "path": "research/industry/forming-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-sources.json",
+        "source_ids": [
+          "C01",
+          "C02",
+          "I01",
+          "J03",
+          "J04",
+          "P01"
+        ]
+      },
+      "verification_tier": "本轮读取固定仓库内容；不提升其原有事实核验等级",
+      "limits": [
+        "事实、旧推断和本文新推断分别使用",
+        "培养历史不等2027可进入训练，历史岗位不等未来持续入口"
+      ]
+    },
+    {
+      "id": "B3",
+      "path": "research/industry/metal-materials-forming-2037-choices.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/metal-materials-forming-2037-choices.md",
+      "locator": "一至八：金属/材成局部培养对照、材料状态/成形、人口边界、南理工未对账",
+      "related_index": {
+        "path": "research/industry/metal-materials-forming-2037-choices-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/metal-materials-forming-2037-choices-sources.json",
+        "source_ids": [
+          "M01",
+          "M02",
+          "I01"
+        ]
+      },
+      "verification_tier": "本轮读取固定仓库内容；不提升其原有事实核验等级",
+      "limits": [
+        "事实、旧推断和本文新推断分别使用",
+        "培养历史不等2027可进入训练，历史岗位不等未来持续入口"
+      ]
+    },
+    {
+      "id": "B4",
+      "path": "research/admissions/cumt-mechanical-class-pathways.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/admissions/cumt-mechanical-class-pathways.md",
+      "locator": "三个阶段四种对象、2024/2025级机械类分流及两条机械工程出口",
+      "related_index": null,
+      "verification_tier": "本轮读取固定仓库内容；不提升其原有事实核验等级",
+      "limits": [
+        "事实、旧推断和本文新推断分别使用",
+        "培养历史不等2027可进入训练，历史岗位不等未来持续入口"
+      ]
+    },
+    {
+      "id": "B5",
+      "path": "research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "locator": "下端5组22显示成员：上电02完整16成员表机械设计制造及其自动化25516/2，组27151/60；历史来源分层及P_S接受范围",
+      "related_index": null,
+      "verification_tier": "本轮读取固定仓库内容；不提升其原有事实核验等级",
+      "limits": [
+        "旧录取数非计划；早批资料继承旧摘要层级，本轮未读CSV或重新核官方录取",
+        "新N不继承P_S的接受/拒绝；组线不保证专业线；16显示成员不自动等于目标年完整组"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "山东豪迈机械科技股份有限公司2025年年度报告全文",
+      "publisher": "山东豪迈机械科技股份有限公司；深圳证券交易所披露",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-31/f7cd4d49-df50-4486-ae5f-70fbfd74cb3f.PDF",
+      "publication_date": "2026-03-31",
+      "event_date": null,
+      "document_date": null,
+      "inherited_fixed_index": {
+        "path": "research/industry/forming-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-sources.json",
+        "source_id": "I01"
+      },
+      "inherited_original_sha256": "00de777213c597ebca6c8fb7ece871fbf34b0ea4c9fc5bb9f7fe6276c73cafce",
+      "locators": [
+        "PDF9—10：轮胎模具/大型零部件及制造链；18：研究状态；60—61：应收审计事项；96—97：收入确认。"
+      ],
+      "used_facts": [
+        "年报披露轮胎模具为单件小批量订单生产，以销定产/以产定购；大型零部件按客户产品参数设计铸造加工，品质与工期重要。",
+        "年报披露轮胎模具型腔智能化研究的设计标准化、工艺流程化，以及钢片3D打印相关材料/参数/变形研究；相关项目报告为已结题。",
+        "国内销售收入确认涉及发货/提货并经客户验收；出口按合同及控制权转移；应收款项减值为关键审计事项。"
+      ],
+      "limits": [
+        "上市公司与豪迈集团招聘不是同一法人；财务不等集团校招预算。",
+        "经营和技术自述不等独立性能验证、全面部署或新人实际承担；收入不等现金。"
+      ],
+      "use_mode": "历史事实沿固定索引继承；本轮未重读原件、未重算原件哈希"
+    },
+    {
+      "id": "S2",
+      "title": "豪迈2027秋季校园招聘简章",
+      "publisher": "豪迈集团股份有限公司；天津科技大学就业网刊载",
+      "url": "https://jy.tust.edu.cn/correcruit/content/id/46484.html",
+      "publication_date": "2026-09-08",
+      "event_date": null,
+      "document_date": null,
+      "inherited_fixed_index": {
+        "path": "research/industry/forming-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-sources.json",
+        "source_id": "J03"
+      },
+      "inherited_original_sha256": "1b90f03f55996c6ae4b5cce52125fe89542394f17ace62a9fbd7b3bafe62da80",
+      "locators": [
+        "原HTML第0表第6行机械类、第9行材料类；本科及以上rowspan=11覆盖第6—16行。"
+      ],
+      "used_facts": [
+        "专业技术类本科及以上合并单元格覆盖机械与材料行；机械行列机械设计制造及其自动化，地点包括高密/坊子/奎文/乳山/日照/江苏启东。",
+        "材料行共同列金属材料工程和材成（焊接、锻造、铸造），地点仅高密/乳山。"
+      ],
+      "limits": [
+        "材料行没有启东；机械行城市不可移给材料行。",
+        "标题2027秋招未单列毕业日期窗口，不补未来届别。",
+        "整页工资/人数不套分岗；未给具体新人模块、录用结果或2031持续性。"
+      ],
+      "use_mode": "历史事实沿固定索引继承；本轮未重读原件、未重算原件哈希"
+    },
+    {
+      "id": "S3",
+      "title": "豪迈2024届校园招聘简章（山东大学宣讲页）",
+      "publisher": "豪迈集团股份有限公司；山东大学学生就业创业指导中心刊载",
+      "url": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?id=Mg4iTHubi41skQXkWr4mNe&modcode=jygl_xjhxxck&rklx=jyw&subsyscode=zpfw&type=ssoXnzpView",
+      "publication_date": null,
+      "event_date": "2023-09-13",
+      "document_date": null,
+      "inherited_fixed_index": {
+        "path": "research/industry/forming-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-sources.json",
+        "source_id": "J04"
+      },
+      "inherited_original_sha256": "1d5ff9dc594a2a2c19e1dfe524683244418e41c91f02cfb35f2978b05f1e6a78",
+      "locators": [
+        "2023-09-13为举办/截止日期；正文2024届，专业技术类机械工程师行。"
+      ],
+      "used_facts": [
+        "正文为2024届校招，本科及以上机械工程师行共同列机械设计制造及其自动化和材成（模具），地点高密/威海乳山。"
+      ],
+      "limits": [
+        "未见明确发布日期；历史同岗共同接收不证明目标年资格或同胜率。",
+        "模具限定不能扩为所有材成方向；不与其他年份任务页拼一岗。"
+      ],
+      "use_mode": "历史事实沿固定索引继承；本轮未重读原件、未重算原件哈希"
+    },
+    {
+      "id": "S4",
+      "title": "精益工程师（2027届校招）",
+      "publisher": "无锡先导智能装备股份有限公司；四川大学就业指导中心发布",
+      "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WKk7a6yobddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "publication_date": "2026-09-23",
+      "event_date": null,
+      "document_date": null,
+      "inherited_fixed_index": {
+        "path": "research/industry/industrial-engineering-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/industrial-engineering-mechanical-2037-sources.json",
+        "source_id": "E02"
+      },
+      "inherited_original_sha256": "821ee7f348c05be27676b490d232d9f7378b340a96f059c02bbad196569144ca",
+      "locators": [
+        "原HTML职位信息和岗位职责/任职要求；旧编号文本L42—68、L79—95。"
+      ],
+      "used_facts": [
+        "2026-09-23刊载2027届校招，无锡，本科及以上，正文IE等相关背景。",
+        "参与工时分析、节拍/工序平衡、异常工时、IE改善、生产数据、SLP布局与精益物流；另有统计/成本、CAD/SLP和适应阶段性加班要求。"
+      ],
+      "limits": [
+        "平台专业不限不覆盖正文；未逐字列080202共同接收。",
+        "岗位不是同一豪迈零部件项目，不证明实际录用、首日独立承担或2031岗位。"
+      ],
+      "use_mode": "历史事实沿固定索引继承；本轮未重读原件、未重算原件哈希"
+    },
+    {
+      "id": "S5",
+      "title": "关于推动铸造和锻压行业高质量发展的指导意见",
+      "publisher": "工业和信息化部、国家发展改革委、生态环境部",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2023/art_dd397d8dae344b848c6dfa51aa07170b.html",
+      "publication_date": "2023-04-14",
+      "event_date": null,
+      "document_date": "2023-03-30",
+      "inherited_fixed_index": {
+        "path": "research/industry/forming-mechanical-2037-sources.json",
+        "version_url": "https://github.com/mythpan1/pathwise-research/blob/a1c1a0b9aab038dcebd55a5f9dfadf9e1efb87a5/research/industry/forming-mechanical-2037-sources.json",
+        "source_id": "P01"
+      },
+      "inherited_original_sha256": "fc6301e6544b14a70420fd3ba0b21f5258f7e4d8630b3d73d1b9277827e811bf",
+      "locators": [
+        "工信部联通装〔2023〕40号，总体要求及主要任务的工艺、质量、智能制造与绿色安全内容。"
+      ],
+      "used_facts": [
+        "2023指导意见提出质量控制、先进工艺装备、工艺数据库/仿真、绿色安全，兼有存量改造、防止盲目扩张及落后产能处置。"
+      ],
+      "limits": [
+        "仅继承历史政策内容，当前效力和地方执行本轮未重核。",
+        "仅按适用铸造锻压环节使用，目标不等成果/订单/新人岗位，不扩大为所有机加工或3D打印补贴。"
+      ],
+      "use_mode": "历史事实沿固定索引继承；本轮未重读原件、未重算原件哈希"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "N",
+      "description": "同一合格交付目标；结构/工装/加工适配持续，多数材料过程已有成熟支持；准确接收、实际训练、新人复验模块和总成本可比；四路工作均可接受。N是研究基准，不是市场概率或用户画像。"
+    },
+    {
+      "id": "F",
+      "description": "其他可比条件保持，成形窗口/变形/缺陷为主要可改善损失，匹配材成方向和受控试验可得。"
+    },
+    {
+      "id": "M",
+      "description": "其他可比条件保持，形状/过程稳定，材料状态/性能或使用失效成为主要验收风险，实验能回到工艺。"
+    },
+    {
+      "id": "O",
+      "description": "其他可比条件保持，工程方案合格，但等待/换线/资源错配为主要可改善损失；IE新人有受监督改善权限和连续复测。"
+    }
+  ],
+  "derivations": [
+    {
+      "id": "D1",
+      "kind": "条件部分顺序",
+      "basis": [
+        "B1",
+        "B2",
+        "B3",
+        "N"
+      ],
+      "claim": "N下机械弱主、材成近备；IE/金属有可前置支线，二者无稳定先后；不传递拼接旧两两排名。",
+      "reversal": "F/M/O改变主要可改善损失，或可取得训练/成本显著不等。"
+    },
+    {
+      "id": "D2",
+      "kind": "证据强度",
+      "basis": [
+        "B1",
+        "B2",
+        "B3",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "claim": "已有训练局部对照与招聘支点支持弱任务适配，不支持四专业同岗录用率或整个市场份额。"
+    },
+    {
+      "id": "D3",
+      "kind": "有限训练投入",
+      "basis": [
+        "N",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "claim": "实体约束仍需解释时，先取得设计制造及实物复验基础；材成优势取决具体过程，金属取决状态/性能问题，IE不能替代不可制造问题的解决。"
+    },
+    {
+      "id": "D4",
+      "kind": "正向反转",
+      "basis": [
+        "F",
+        "M",
+        "O",
+        "B1",
+        "B2",
+        "B3",
+        "S3",
+        "S4"
+      ],
+      "claim": "材成、金属和IE分别可在其他路径仍可行时前置；IE价值由工程成熟后的流转与资源损失产生，而非技术就业失败。",
+      "limits": "不是已观察企业情景或四种等概率未来。"
+    },
+    {
+      "id": "D5",
+      "kind": "政策人口机制",
+      "basis": [
+        "S5",
+        "B3",
+        "N"
+      ],
+      "claim": "适用质量/安全约束、熟手接续和知识固化可改变工装/参数/材料判据/标准作业投入及带教；既可压缩重复任务，也可让新人更快取得反馈。",
+      "limits": "无本轮政策现行效力/兑现、退休缺工或专业竞争人数核验；不以全国人口代替目标工种退出。"
+    },
+    {
+      "id": "D6",
+      "kind": "共同风险",
+      "basis": [
+        "S1",
+        "N"
+      ],
+      "claim": "同客户订单、回款与组织集中可同时影响四路；不同专业和雇主不自动形成独立保险。",
+      "limits": "不由单年财务数推本企业缩招，不把上市公司财务当集团招聘预算。"
+    },
+    {
+      "id": "D7",
+      "kind": "训练与时间建议",
+      "basis": [
+        "B1",
+        "B2",
+        "B3",
+        "N"
+      ],
+      "claim": "本科先争取一种完整复验闭环，2037看真实责任；硕士以资格或难替代训练任一增益及成本单列。",
+      "limits": "提出的产物不是已核学校/雇主实际安排，工龄不等权限或能力。"
+    },
+    {
+      "id": "D8",
+      "kind": "下端分层筛选",
+      "basis": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "N"
+      ],
+      "claim": "上电准确机械历史接口与矿大相邻大类分开；IE/金属/材成招生配对待核，弱任务优势可被真实进入风险、训练和总成本改变。",
+      "arithmetic": "27151 - 25516 = 1635，仅为旧观察尺与专业位次差；无概率推定。",
+      "limits": "不重读CSV、不恢复采集、不改旧组/成员计数，不产生可提交志愿顺序。"
+    }
+  ],
+  "unresolved_decision_gaps": [
+    "R内具体单位的主要损失—预算—新人责任及复验链，尤其四路同口径对照未取得。",
+    "实际可进入学校/方向的本人训练反馈未闭合；旧跨校局部对照不可相加为学校总榜。",
+    "四准确专业的江苏招生配对未闭合；上电历史目标/组与矿大校内大类仍各守旧边界。",
+    "个人资格、位次、组/大类接受、现场/地域和总成本未提供；N不能代填。"
+  ],
+  "publication_scope": {
+    "status": "仅本地候选，独审与另行上传授权未完成",
+    "proposed_items": [
+      "research/industry/equipment-delivery-four-path-2037-choices.md",
+      "research/industry/equipment-delivery-four-path-2037-sources.json",
+      "research/admissions/major-career-routing.md的必要追加段",
+      "research/coverage.md的必要追加段"
+    ],
+    "excluded": [
+      "来源原件",
+      "CSV及个人输入",
+      "旧库资料",
+      "内部运行/完整工具返回",
+      "额外流程工具"
+    ]
+  }
+}
