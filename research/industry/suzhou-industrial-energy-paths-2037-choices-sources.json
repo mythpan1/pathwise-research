@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "research_revision": "2026-11-16",
+  "base_commit": "5721298e5117f43ee4a099c29451558d82ce491f",
+  "scope": "苏州市就业、江苏物理既有候选；本科三路线条件比较，不是当前规则或岗位开放认证",
+  "sources": [
+    {
+      "id": "U1",
+      "title": "江苏省电力需求响应实施细则",
+      "publisher": "江苏省发展改革委；江苏省政府公报全文",
+      "url": "https://www.js.gov.cn/art/2024/7/25/art_64797_11305791.html",
+      "document_number": "苏发改规发〔2024〕2号",
+      "signed": "2024-06-13",
+      "published": "2024-07-25",
+      "stated_effective_interval": "2024-07-14/2029-07-13",
+      "locator": "一（一）；二（二）2、二（三）；三（二）2、三（三）1–3、三（四）（五）；末段有效期",
+      "representation": "政府公报原URL的工具转换正文；非原始HTML/PDF。哈希为完整合并返回，含其他结果与封装。",
+      "representation_sha256": [
+        "97dd17c9521b43a92443064fc4c17986db0f0ef010d773d8e71c406421e14809",
+        "470103992dd769c3fcf5a6d9b71c16c5ddccb807d5a75e1cce010e2fcea1dd6f"
+      ],
+      "adopted": "安全/工艺、计量和基线、恢复、委托分成与核定；实时快上快下容量部分保留。",
+      "limits": "未读附件表，不采用数值补贴率或计算个体收益；未认证后续修订；2029终止期限不延为2031规则；无具体用户合同/到账。"
+    },
+    {
+      "id": "U2",
+      "title": "热能工程师—苏州海派特热能设备有限公司",
+      "publisher": "智联招聘平台上的雇主职位广告",
+      "url": "https://www.zhaopin.com/jobdetail/CC279332016J90250080000.htm",
+      "publication_date": null,
+      "displayed_update": "7月8日，未给年份",
+      "locator": "职位基本信息、职位描述/任职要求第1–5项；转换正文L23–60",
+      "representation": "招聘平台原URL工具转换，非原始HTML；哈希为完整合并返回。",
+      "representation_sha256": [
+        "97dd17c9521b43a92443064fc4c17986db0f0ef010d773d8e71c406421e14809"
+      ],
+      "adopted": "苏州吴中，本科能动等；热系统设计/改造/现场责任；正文3年以上经验。",
+      "limits": "非应届入口、当前开放认证、实际录用或学校培养证明；不采用薪资、联系人及岗位数量。"
+    },
+    {
+      "id": "U3",
+      "title": "苏城商务中心节能改造设备采购及安装项目采购公告",
+      "publisher": "苏州市公共资源交易平台发布苏州城投再生资源发展有限公司采购公告",
+      "url": "https://ggzy.suzhou.gov.cn/jyxx/003034/003034001/20260730/d7475bb6-467f-4e5e-b0a3-11fd9256bd10.html",
+      "published": "2026-07-30",
+      "locator": "一、项目基本情况第3、5、6项；二、特定资格",
+      "representation": "公共资源交易平台原URL工具转换；非原始HTML/招标文件；哈希为完整保存返回。",
+      "representation_sha256": [
+        "1045c4afe35439286e86b269a1f3bad2b0de9875414680b300f4879bc9433b4f"
+      ],
+      "adopted": "苏城商务中心冷热设备，预算5598409.29元；签约后80日历天安装调试。",
+      "limits": "商业楼宇，非工业工厂；预算不等合同、付款或人员分工。招标全文未取得。"
+    },
+    {
+      "id": "R1",
+      "title": "国能日新2025年年度报告全文",
+      "publisher": "国能日新科技股份有限公司；巨潮资讯原始披露PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-11/1225091856.PDF",
+      "report_period": "2025",
+      "cover_date": "2026年4月",
+      "locator": "原始PDF物理/印刷第22–23页经营模式；原页图与文字对照",
+      "representation": "既有原始年报PDF，本次局部重读；企业组织自述，不是独立效果验证。",
+      "sha256": "d237c297c249450e5083956e0c35fc3f15eeb42c2b20ce2c76917453a9ce21a2",
+      "adopted": "一次交付、年度数据费、工商业运营分成与产品/技术/工程分工。",
+      "limits": "非苏州具名用户、海派特或商务中心同一合同；不证实付或本科接收。"
+    },
+    {
+      "id": "R-KEDA",
+      "title": "苏州科达2027应用软件开发",
+      "publisher": "苏州科达招聘官网",
+      "url": "https://kedacom.zhiye.com/zpdetail/511214858",
+      "published": "2026-09-22，沿既有元数据",
+      "locator": "工作职责第1–6项；任职资格",
+      "representation": "既有雇主原始HTML，本次重读职责/资格；非录用结果",
+      "sha256": "2f16834ecfd0ae7a63a7acbdba2d2de1b2a198490b60b17220a44eae2e1f7400",
+      "adopted": "应届本科、计算机等优先、导师下开发/评审测试及AI工具；其他专业有项目亦欢迎。",
+      "limits": "非能效/响应专岗，不证目标学校接收或2031继续招聘。"
+    }
+  ],
+  "fixed_main_reuse": [
+    {
+      "path": "research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5721298e5117f43ee4a099c29451558d82ce491f/research/admissions/jiangsu-27151-software-control-synthesis.md",
+      "git_blob": "75293c1bd537b833341752f6a410419549c2c616",
+      "sha256": "68109695c5b950c9d3591b03deed5289badea831510c68fbb8970136c94c9fe7",
+      "representation": "固定main已采用研究，不升级为本次原始核验",
+      "use": "历史组/目标/成本；东山岗位与苏州人口沿旧层级，未重读其外部原件"
+    },
+    {
+      "path": "research/admissions/jiangsu-27000-decision-slice.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5721298e5117f43ee4a099c29451558d82ce491f/research/admissions/jiangsu-27000-decision-slice.md",
+      "git_blob": "6f998dd2395196c767602e660e50392851331c41",
+      "sha256": "2b48f77453e5a01fa590ee8712b13db51e85e302e10004d51fd8c90fbe85d38a",
+      "representation": "固定main已采用研究，不升级为本次原始核验",
+      "use": "旧P/地区差异不可传递；候选机会账"
+    },
+    {
+      "path": "research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5721298e5117f43ee4a099c29451558d82ce491f/research/admissions/jiangsu-27151-thermal-control-choices.md",
+      "git_blob": "594a5fc579df1121ba32ce247038967c5b8d3016",
+      "sha256": "4b1018ad24e997d38034d366ae09a3ff89cf3993fa8a1af6a8551b7724c3bc43",
+      "representation": "固定main已采用研究，不升级为本次原始核验",
+      "use": "上电能动/自动化与16成员；旧H/C前提不直接继承"
+    },
+    {
+      "path": "research/admissions/jiangsu-power-market-math-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5721298e5117f43ee4a099c29451558d82ce491f/research/admissions/jiangsu-power-market-math-choices.md",
+      "git_blob": "3bfceb9b890f631fdfb5d229682c5ea4f25cef98",
+      "sha256": "9a1774b1675cffafb3cc0ef2ba4f2fba96833865ffcb725bb92af2a131500541",
+      "representation": "固定main已采用研究，不升级为本次原始核验",
+      "use": "平台/工程分析旧P不同；组织支点与本轮区分"
+    },
+    {
+      "path": "research/industry/investment-retrofit-operations-2037-choices.md",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/5721298e5117f43ee4a099c29451558d82ce491f/research/industry/investment-retrofit-operations-2037-choices.md",
+      "git_blob": "c4cc1ad86c8e3dba8c6091934a2d254b4620b94b",
+      "sha256": "f6b5416602ab46ac8af4458f7a97ca27e7e5d59d39d7155188361876608efa33",
+      "representation": "固定main已采用研究，不升级为本次原始核验",
+      "use": "已有泛改造/运行机制，本轮不重复强制总序"
+    }
+  ],
+  "gaps": [
+    "苏州同一工业用户生产约束—付款合同未闭合；商业楼宇不能替代。",
+    "本地热工应届桥未取得；经验岗仅作任务参照。",
+    "个人资格/费用/接受、学校实际训练和2031规则岗位未核。"
+  ],
+  "source_boundary": "三个新网页均为转换表示；索引只有限转述和原URL/定位/哈希。事实、N假设与推断分开；不拼同一客户，不将不可得视为不存在。"
+}
