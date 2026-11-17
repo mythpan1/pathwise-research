@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "title": "空间底图的时效、定位质量与维护选择：来源索引",
+  "research_date_utc": "2026-11-17",
+  "fixed_input": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "acb027a912a530f90fefabc8a2cedee7614f9cbd",
+    "documents": [
+      "research/industry/surveying-remote-sensing-2037-choices.md",
+      "research/industry/surveying-remote-sensing-2037-sources.json",
+      "research/industry/resource-spatial-six-majors-2037-scenarios.md"
+    ],
+    "use": "亲读固定仓库文字并继承已采用事实及边界；另定向核读南京两份官方网页原文的相关段落，见P2/P3。六专业稿仅用于去重和范围衔接，不把其假设当事实。"
+  },
+  "source_count": 10,
+  "source_count_meaning": "8个固定材料使用单元及2个新核原文单元；E1/E2为同一项目采购/成交两个阶段，不能当独立市场样本。",
+  "new_external_source_count": 2,
+  "scope": {
+    "student_origin": "江苏；苏州/泰州项目、济南招聘、安徽培养和南信大历史招生分别使用。",
+    "assumed_timing": "2027入学且实际四年才2031本科入口；2037按真实经历。南信大目标行未载学制，不将别校四年制写成该行事实。",
+    "comparison": "同一用途下先满足不可替代的定位、时效、覆盖要求，再比较全面生产、质量修复和增量维护的成本与训练投入。",
+    "not_observed": "没有城市实测、实际更新频率、最优周期、节省比例、岗位数量或个人条件；南京规划指标及办法周期不当实际完成统计，用途例子和正向选择为作者明确推演。"
+  },
+  "sources": [
+    {
+      "id": "T1",
+      "fixed_source_id": "S01",
+      "title": "安徽理工大学测绘工程专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AM8n1VnRUYn77DomRL4nlUYLm-ZozfN7nRvDLzUaL77iMRC0gihFp2hmCIa0okhfLkhRMYyDnmLZM4LsLlCiLzv4Lz6kozGPL4AfnRUsUmWFoRGsoRUZLRAFUmVRoRlJv2nto4OeosUDgDTJQty0Lz-aokysMzGigtA8pUTcc&e=.pdf&nid=7505&oid=944884314&tid=1208",
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208",
+      "source_date": "2025-09-29",
+      "source_date_note": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "官方完整PDF，20页；作者重新提取文字并核读关键课表图像。",
+      "locators": [
+        "PDF第1页/印刷1215：专业代码",
+        "第7页/1221：标准学制、学位及摘要总量",
+        "第10–12页/1224–1226：必修、选修及星号",
+        "第14页/1228：实践安排及表末合计",
+        "第15页/1229：学分分配与摘要矛盾"
+      ],
+      "used_facts": [
+        "测绘工程2024版样本有工程测量、误差处理及相应实习链，两专业有测量/影像共同底座。"
+      ],
+      "limits": [
+        "只识别训练适配，不以学分汇总冲突作精确强弱评分；2027适用及实际训练可得未核。",
+        "不移为南信大培养，也不把课表或实习周数当就业外勤比例。"
+      ],
+      "inherited_hash": {
+        "sha256": "378cf67856e4732cb027df7b8f5c444df88565f0db7c908afde0340a33fadd25",
+        "object": "PDF完整字节",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "T2",
+      "fixed_source_id": "S02",
+      "title": "安徽理工大学遥感科学与技术专业本科人才培养方案（2024版）",
+      "publisher": "安徽理工大学空间信息与测绘工程学院",
+      "url": "https://chxy.aust.edu.cn/virtual_attach_file.vsb?afc=AoRv1Yoz7YL4vDUmlL8olCaM8LDMRLN8oRLZMm9sU878MmC0gihFp2hmCIa0M1ybM1yiokyYM4CiM8M2nl-iMzWRMNU8Uz9DMm7aMzAknlnFU8MVnmffLNMFnlC4nm7Jv2nto4OeosUDgDTJQty0Lz-aokysMzG8gtA8pUTcc&e=.pdf&nid=7504&oid=944884314&tid=1208",
+      "landing_page_url": "https://chxy.aust.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1208",
+      "source_date": "2025-09-29",
+      "source_date_note": "学院培养方案列表显示2025-09-29，方案本体为2024版；发布日期不等适用入学届别确认。",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "官方完整PDF，30页；作者重新提取文字并核读关键课表和两个方向的星号规则。",
+      "locators": [
+        "PDF第1页/1235：专业代码",
+        "第6页/1240：学制及两个方向介绍",
+        "第12–14页/1246–1248：基础/专业必修与遥感方向星号",
+        "第17页/1251：地理空间信息方向星号",
+        "第20–21页/1254–1255：实践",
+        "第22–23页/1256–1257：实践合计与摘要差异"
+      ],
+      "used_facts": [
+        "遥感科学与技术的遥感方向含图像处理、定量/微波遥感等方向必选，另有地理空间信息方向；有地面与野外实践。"
+      ],
+      "limits": [
+        "不把两个方向的课程累计为每人全部必修或实际取得；培养样本不决定岗位职责。",
+        "内部学分口径差异不用于数量排名；不补2027方向准入或南信大实得训练。"
+      ],
+      "inherited_hash": {
+        "sha256": "5a2b5303bf501e4363d3ff99ef107e431e618690060aa498f0e4d73097345c4d",
+        "object": "PDF完整字节",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "H1",
+      "fixed_source_id": "S03",
+      "title": "2025年江苏省分专业分批次招生计划",
+      "publisher": "南京信息工程大学招生网",
+      "url": "https://zs.nuist.edu.cn/info/1172/2977.htm",
+      "source_date": "2025-06-22",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "后续HTTP403之前成功保存的官方网页正文转换片段，含表头、组行和目标专业行；不是搜索摘要。原始HTML未取得，全文缺格部分不使用。",
+      "locators": [
+        "官方转换L37–42：年度/普通批栏目/2024参考表头",
+        "L75：11专业组物理+化学",
+        "L90：代号92目标专业、12、603、28485、6380"
+      ],
+      "used_facts": [
+        "南信大2025江苏普通物理本科11组物理+化学，代号92遥感科学与技术（中国科学院大学参与教学），计划12、学费栏6380。",
+        "603分/28485位属于表头明确的2024录取参考，不是2025录取；该专业行未给学制。"
+      ],
+      "limits": [
+        "不是两个专业同档配对、全国专业代码替代或联合学位证明；不嫁接安徽理工学制/培养。",
+        "测绘普通批入口及完整组未核，不用地方专项缺格材料填补；2027资格与个人接受未知。",
+        "原转换片段后续403已止，本批未重试、未读取CSV或新采招生数据。"
+      ],
+      "inherited_hash": {
+        "sha256": "652bfce43b0859671384572ff6b2abaa2028dc9450a742fb9b51799951c76655",
+        "object": "已保存正文转换文本",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "J1",
+      "fixed_source_id": "S04",
+      "title": "招聘岗位（测绘内业、外业及GIS开发岗位）",
+      "publisher": "金田产业发展（山东）集团有限公司",
+      "url": "https://www.sdjintian.com/join.php",
+      "source_date": "原研究未核明；具体限制见本条。",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "雇主官网完整正文转换，作者按各岗位段落核读；后来直接HTTP503，未取得原始HTML。网页无发布日期。",
+      "locators": [
+        "测绘外业工程师：职责与任职资格，转换行7–32",
+        "测绘内业工程师：职责与本科要求，转换行34–50",
+        "GIS开发工程师：应届学历条款，转换行197–211"
+      ],
+      "used_facts": [
+        "济南测绘内业工程师本科及以上，共同接收测绘工程、GIS、遥感科学与技术等；数据处理、制图、图形编辑/录入及生产质量，相关软件和生产经验优先。",
+        "同页测绘外业岗位未写学历，不借内业学历补本科。"
+      ],
+      "limits": [
+        "公开历史要求，不证明当前仍招、无经验应届承诺、实际录用或本文设定的更新责任。",
+        "不把内业等同无出差/固定办公室，不挪用土地规划岗位的短期出差条件。",
+        "GIS仅按原招聘相关背景口径使用，不新增准确本科招生专业或其专属岗位；苏州/泰州项目不填成济南招聘的本地合同。"
+      ],
+      "inherited_hash": {
+        "sha256": "506f17ea7b3217b1d7709fc036cb35409c76c3da280adcd58c3798b177ffa531",
+        "object": "已保存正文转换文本",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "E1",
+      "fixed_source_id": "S05",
+      "title": "2025年苏州市实景三维数据采集与更新项目采购公告",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004002/20250922/65b30e3b97b34979a6eae51d83900a1c.html",
+      "source_date": "2025-09-22",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "官方采购公告网页正文转换；另有下载HTML外壳，仅含标题、日期和原文链接，不含关键采购正文。正文事实依赖已保存转换，不称全文HTML双重核验。",
+      "locators": [
+        "官方转换L18–27：预算、更新需求、期限",
+        "L50–52：供应商资质",
+        "L54–106：CA采购文件获取边界"
+      ],
+      "used_facts": [
+        "苏州2025采购公告说明2024已完成倾斜摄影及地理实体建设，2025需求转向地理场景/实体分库动态更新维护并探索常态监测更新。"
+      ],
+      "limits": [
+        "是公告对既有建设及需求的说明，不是本批独立验收或更新成效核验。",
+        "未读取CA后的采购文件，不能补未见技术阈值、更新频率或本科人员计划。",
+        "关键正文沿旧官方转换，不称下载HTML外壳含采购正文；本篇不采用预算算岗位。"
+      ],
+      "inherited_hash": {
+        "sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "object": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "E2",
+      "fixed_source_id": "S06",
+      "title": "2025年苏州市实景三维数据采集与更新项目成交公告采购包1",
+      "publisher": "苏州市自然资源和规划局／江苏省公共资源交易网",
+      "url": "https://jsggzy.jszwfw.gov.cn/jyxx/003004/003004006/20251013/d3f54517c0384b14822222290bc8597b.html",
+      "source_date": "2025-10-13",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "官方成交公告网页正文转换；另有下载HTML外壳，仅含标题、日期和原文链接，不含成交详情。正文事实依赖已保存转换。",
+      "locators": [
+        "官方转换L8–19：同一项目编号、成交与服务要求"
+      ],
+      "used_facts": [
+        "同一苏州更新项目已有成交公告及承接单位江苏省测绘工程院。"
+      ],
+      "limits": [
+        "成交不等实际履约、验收、付款或招聘；不与泰州项目及济南岗位拼为一条雇佣链。",
+        "与E1是同一项目不同阶段、旧表示容器相同，不当两份独立市场需求证据；本篇不采用成交额推工资预算。"
+      ],
+      "inherited_hash": {
+        "sha256": "f37294e0bf4a4dd892f82b23d49560603793f27505e8587b02894f3ed3b99860",
+        "object": "包含两份官方公告正文转换的原始工具返回JSON；不是HTML正文哈希",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "E3",
+      "fixed_source_id": "S07",
+      "title": "泰州市区实景三维建设项目（包2）技术合同书",
+      "publisher": "泰州市自然资源和规划局；泰州市财政局公开合同",
+      "url": "https://czj.taizhou.gov.cn/jirdpub/jird_files/filedata/5f2c27ae01284ca19514b4adf4cb404e/2024/12/18/fc6f96f0d1e64ecf972e814f4ac58379.pdf",
+      "source_date": "原研究未核明；具体限制见本条。",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "泰州市财政局公开托管的原始扫描PDF，8页；文字提取为空，作者直接核读第1–6页本地渲染图像。人工摘录不是原件。",
+      "locators": [
+        "PDF第1页：合同编号、当事方和月份空白",
+        "第2–3页：采集/地面控制、实体、更新、融合、质量与工期",
+        "第4–5页：人员、合同总价、联合体分工和分期付款",
+        "第6页：承接方质量责任、阶段验收终止条款"
+      ],
+      "used_facts": [
+        "泰州市区实景三维包2合同含采集生产、地面控制、实体转换、存量更新、融合建库、平台升级，并要求核查图形/属性/空间关系矛盾。",
+        "联合体按任务分工，合同约定分期付款；本篇仅用任务及回款不同步机制，不重算总价或就业投入。"
+      ],
+      "limits": [
+        "合同日期未由首页完整载明，URL日期不自动作为签订日；工期与付款约定不证明现实完成、到账。",
+        "承接方责任和任务分工不等本科人员实际安排，不赋学生正式底库修改或成果批准权。",
+        "只复用公开合同文字，不取得地理坐标、受限地图或底层数据；未新读原PDF。"
+      ],
+      "inherited_hash": {
+        "sha256": "e200ce5d2c6bbd760dd399f87cf06d640e2e1c7e2e5e5065090d393e7463da53",
+        "object": "PDF完整字节",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "P1",
+      "fixed_source_id": "S08",
+      "title": "自然资源部例行新闻发布会介绍测绘地理信息工作有关情况（实录）",
+      "publisher": "自然资源部；上海市规划和自然资源局转载",
+      "url": "https://ghzyj.sh.gov.cn/hyxw/20260902/ea780e9edfbb4b9e8236bef31e60dbbc.html",
+      "source_date": "2026-08-28",
+      "source_date_note": "发布会2026-08-27，原研究记转载页面日期2026-08-28；不从URL另改日期。",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_acquisition_representation": "自然资源部发布会实录的上海政府网站转载；后来HTTP403之前保存的网页正文转换片段，报告总117行，实际保留至L53；采用L25–36，不声称全文取得。",
+      "locators": [
+        "官方转换L0–10：页面与发布会日期",
+        "L29–32：存量更新、遥感统筹、基准、即产即检和数智化"
+      ],
+      "used_facts": [
+        "2026年自然资源部发布会实录涉及存量智能化更新、多源影像统筹、几何/辐射基准、智能生产与即产即检。"
+      ],
+      "limits": [
+        "是部门说明，不是预算到账、地方执行效果或招聘；不倒填为2024/2025合同的历史原因。",
+        "旧取得表示仅到L53、采用L25—36，不声称全文；后续403已止，本批不继续访问。"
+      ],
+      "inherited_hash": {
+        "sha256": "d997848fdcdbba6a7a651adf60f340f75df5834595723e13ce37ed3a417dbd5c",
+        "object": "已保存正文转换文本",
+        "use": "仅为原索引登记的旧表示定位，本批未重新取得或重验这些字节；未另建工具返回副本。"
+      }
+    },
+    {
+      "id": "P2",
+      "title": "市政府办公厅关于印发《南京市“十五五”基础测绘规划》的通知",
+      "publisher": "南京市人民政府办公厅／南京市人民政府官网",
+      "url": "https://www.nanjing.gov.cn/zzb/zfxxgk/fdzdgknr/szfjbgtwj/202609/t20260930_5920738.html",
+      "source_date": "2026-09-20",
+      "source_date_note": "正文落款与页面发布时间均为2026-09-20，不把URL中的20260930替代发文日期。",
+      "retrieval_date": "2026-11-17",
+      "acquisition_representation": "直接打开官方URL所得网页正文转换，亲读表1及第四部分相关原文；不是搜索摘要。未保存HTML原始字节或另建工具返回副本。",
+      "locators": [
+        "页面标题、发布时间及落款（转换L18–28）",
+        "第二部分（三）表1及注（L81–96）",
+        "第四部分（二）大比例尺地形图精准更新（L133–143）"
+      ],
+      "used_facts": [
+        "城市更新及重点项目用图区域即时更新；工作界内大比例尺地形图/基础地理实体年更为约束指标，“一张图”月更为预期指标；工作界外大比例尺地形图五年一轮是该规划安排。"
+      ],
+      "limits": [
+        "规划不是完成、验收或招聘，不据月更推全部产品每月重做。",
+        "工作界与办法第12条区域/产品范围的对应未核，不用规划五年覆盖办法周期；仅支撑分用途组织更新的训练推演。"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "南京市测绘地理信息管理办法",
+      "publisher": "南京市人民政府／政府公报",
+      "url": "https://www.nanjing.gov.cn/xxgkn/zfgb/202601/t20260130_5783614.html",
+      "source_date": "2026-01-30",
+      "source_date_note": "页面发布2026-01-30；第353号令落款2025-12-20，明载2026-02-01起施行。本篇不展开项目合规裁定。",
+      "retrieval_date": "2026-11-17",
+      "acquisition_representation": "直接打开官方URL所得网页正文转换，亲读发布日期、公布令与第12条；不是搜索摘要。未保存HTML原始字节或另建工具返回副本。",
+      "locators": [
+        "页面日期及第353号令（转换L41–52）",
+        "第12条（二）（三）（L117–127）"
+      ],
+      "used_facts": [
+        "全市遥感数据至少每年获取一次；1∶500/1∶1000地形图全市至少两年更新一次，城市建成区至少每年一次。"
+      ],
+      "limits": [
+        "不同成果、区域与周期分别使用，不将遥感获取等同全部下游成果更新；不据此推实际履行或本科岗位。",
+        "与P2并读用于防止把工作界外五年当普遍法定周期，未裁定二者具体产品及空间范围如何衔接。"
+      ]
+    }
+  ]
+}
