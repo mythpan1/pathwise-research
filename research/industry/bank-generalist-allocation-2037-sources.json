@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "title": "银行综合培养与金融—财会路径：分配、训练及可用接续",
+  "research_date_utc": "2026-11-16",
+  "fixed_input": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "6576c7216dc646139effbc5c4753570c38f3a130",
+    "documents": [
+      "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "research/admissions/jiangsu-history-joint-accounting-choice.md",
+      "research/admissions/jiangsu-history-joint-accounting-choice-sources.json"
+    ],
+    "use": "本批亲读固定稿与相关索引，只复用所列事实及原有等级；没有重新取得外部原件。"
+  },
+  "scope": {
+    "student_origin": "江苏",
+    "employment_market": "南京岗位所在地R为研究假设，不是用户偏好；不把全页城市集合泛化为逐岗地点。",
+    "timing": "2027入学且实际四年才2031本科入口；2037观察实际经历，不预设连续就业、轮岗或后台晋升。",
+    "preference": "沿原P0愿比较银行营销/运营和审计任务，额外重视银行外财会准备；仅接受后台的分支另作接受边界测试，不冒充同一P0反转。",
+    "admissions": "南农01金融学、南财03ISCA会计与天衡审计各守旧目标层级及14显示成员，2027规则和个人接受未核。",
+    "inference": "对申请资格、雇主分配、本人可行使选择及外部接续的区分为作者推导。没有分配概率、独立性假设、两校比较训练结果或未来岗位预测。"
+  },
+  "source_count": 5,
+  "source_count_meaning": "5个复用使用单元，不是5份独立原件或全库覆盖分母；T1含3项旧校方支点，H1为固定研究卡的历史汇集。",
+  "new_external_source_count": 0,
+  "sources": [
+    {
+      "id": "H1",
+      "title": "南农金融—南财财会既有历史配对与P0",
+      "publisher": "Pathwise Research固定研究卡",
+      "repository_path": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "fixed_commit": "6576c7216dc646139effbc5c4753570c38f3a130",
+      "locations": [
+        "先给方向/P0",
+        "2025核心组及全部显示成员",
+        "从政策、产业、人口到2031入口和2037方向"
+      ],
+      "source_representation": "本批读取固定仓库文字；其中招生为原研究汇集历史摘要，不是本批新核官方录取原件，未读取CSV。",
+      "used_facts": [
+        "2025江苏历史南农01组595/6766/录取317，金融学599/5797/33；12显示成员合计一致，不证明官方完整组。",
+        "南财03组599/5797/35，会计目标599/5797/20，审计目标600/5559/15；与南农合计14显示成员；南农同组会计4463为另一目标。",
+        "原P0优先本科，银行营销/运营与审计任务均愿比较，额外看重银行外财会准备；原S0的财会弱前置以实际训练和可承担负担为条件。"
+      ],
+      "limits": [
+        "目标同位次不等同概率，组线不能替目标线，录取数不当计划；个人位次/接受、2027正式组与资格未确认。",
+        "原P0为作者设定，不是用户输入；原稿各分支不作为现实岗位分配或两校训练优势。"
+      ]
+    },
+    {
+      "id": "J1",
+      "title": "招商银行南京分行2027届校园招聘",
+      "publisher": "招聘文本，天津商业大学就业平台承载",
+      "url": "https://career.tjcu.edu.cn/correcruit/content/id/14344.html",
+      "source_date": "原研究标页面发布2026-09-04；截止2026-10-10。",
+      "inherited_from": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "locations": [
+        "当期南京原件表，综合培养生/基本条件"
+      ],
+      "source_representation": "沿固定稿已核原页可读文本；本批没有新取、保存原HTML或重新确认职位存续。",
+      "used_facts": [
+        "南京综合培养生本科及以上、专业不限；任务涉及营销、市场拓展、客户维护与柜面结算，另有英语、毕业证学位证及筛选条件。",
+        "同公告定向培养生硕士起；数字金融岗硕士起且要求计算机/通讯等相关专业。"
+      ],
+      "limits": [
+        "综合任务清单不证明个人分轨选择权、轮岗安排、后台转入或部门转换保证；本篇未核实际分配结果。",
+        "2027为毕业届，不是2027入学者的预约；历史已截止，不声称当前可投、实际录用或未来接收。",
+        "不能借其他岗位学历、地点、全页人数或总薪资填本岗位，专业不限不等无其他门槛。"
+      ]
+    },
+    {
+      "id": "J2",
+      "title": "中汇2027校园招聘：南京审计及估值支点",
+      "publisher": "中汇招聘文本，南开大学就业平台承载",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/119792.html",
+      "source_date": "原研究标2026-10-16。",
+      "inherited_from": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "locations": [
+        "当期南京原件表，审计现场/底稿/内控及相邻资产估值段"
+      ],
+      "source_representation": "沿固定稿采用的原页可读文字；本批未重新核原页，未确认当前职位存续。",
+      "used_facts": [
+        "审计本科及以上、专业不限，财会等优先，地点含南京，任务涉及现场、底稿与内控。",
+        "相邻估值助理本科、优先专业包括金融及财会，地点亦含南京。"
+      ],
+      "limits": [
+        "这是另一雇主的申请入口，不是银行内部转岗或无成本接续；专业优先不等录用保证。",
+        "金融也可争取审计，财会也不独占估值；不移用税务或风险咨询的其他城市。",
+        "现有事实不证明南农/南财学生训练质量、实习分配或实际录用率。"
+      ]
+    },
+    {
+      "id": "P1",
+      "title": "推动数字金融高质量发展行动方案",
+      "publisher": "七部门文件，商务部网站转载",
+      "url": "https://www.mofcom.gov.cn/cwxx/zcfb/art/2025/art_a4f08a24e0ef468f83fcf21cbdbcdfe7.html",
+      "source_date": "沿旧核验：落款2024-11-21、转载2024-11-27；URL含2025不改作落款日期。",
+      "inherited_from": "research/admissions/jiangsu-history-finance-accounting-pair.md",
+      "locations": [
+        "二（七）、三（十一）、五（二十）；固定稿当期原件表"
+      ],
+      "source_representation": "复用旧原页可读文本事实，不是本批重新取得全文或现行执行核验。",
+      "used_facts": [
+        "提出流程机器人、数字营销触达、集约作业，同时涉及适老化及保留现金等传统服务。"
+      ],
+      "limits": [
+        "政策方向不是南京部门分配、轮岗、裁员或招聘人数的实施结果。",
+        "人口、预算与组织的传导为条件推演，不把适老服务换成资产规模或本科岗位数；未新增人口统计。"
+      ]
+    },
+    {
+      "id": "T1",
+      "title": "南财两个联合项目的身份、历史费用与资源边界",
+      "publisher": "Pathwise Research固定联合会计选择卡，继承校方原件支点",
+      "repository_path": "research/admissions/jiangsu-history-joint-accounting-choice.md",
+      "fixed_commit": "6576c7216dc646139effbc5c4753570c38f3a130",
+      "inherited_index": "research/admissions/jiangsu-history-joint-accounting-choice-sources.json",
+      "locations": [
+        "成本同口径",
+        "证据分层：已核校方原件",
+        "会改变先后的未知"
+      ],
+      "source_representation": "本批亲读固定卡及索引，以下哈希仅标识原研究记录；未重取招生PDF或校方网页。",
+      "underlying_used_sources": [
+        {
+          "fixed_source_id": "N1",
+          "title": "2025江苏招生计划，费用学制两行",
+          "publisher": "南京财经大学",
+          "url": "https://bkzs.nufe.edu.cn/2025js.pdf",
+          "date": "2025-06-26",
+          "locator": "页1左侧历史03两项目的学费／学制；仅使用这些字段",
+          "inherited_sha256": "56a19d8cd6de26fbb4caaa7b32b431d4dc4637b64fbcec1a58c4b5cea51a60d5",
+          "hash_meaning": "原研究索引登记的原始文件字节哈希；本批未重新取得或验证原文件。"
+        },
+        {
+          "fixed_source_id": "N2",
+          "title": "ISCA开班仪式",
+          "publisher": "南京财经大学会计学院",
+          "url": "https://kj.nufe.edu.cn/info/1047/27018.htm",
+          "date": "2025-10-17",
+          "locator": "正文首段及开班、协会身份",
+          "inherited_sha256": "6e940372bdb718db854d1ade9352d4c01a9dbc95c7b188a9b2a766115f504b13",
+          "hash_meaning": "原研究索引登记的原始文件字节哈希；本批未重新取得或验证原文件。"
+        },
+        {
+          "fixed_source_id": "N4",
+          "title": "天衡研讨会暨校外导师聘任",
+          "publisher": "南京财经大学会计学院",
+          "url": "https://kj.nufe.edu.cn/info/1047/26617.htm",
+          "date": "2024-11-21",
+          "locator": "第二段与导师聘任段，事件2024-11-19",
+          "inherited_sha256": "fe30c002b6d83be6fd40d3561dc6639eea92d242d41a60963fdc5679bc52dc45",
+          "hash_meaning": "原研究索引登记的原始文件字节哈希；本批未重新取得或验证原文件。"
+        }
+      ],
+      "used_facts": [
+        "会计项目为ISCA，审计合作方为天衡，两者不是同一项目或可互借资源。",
+        "2025南财列示学费不等全部项目支出，完整考试/退出及其他义务仍未闭合；本篇不重新计算费用。",
+        "天衡已有导师聘任和方案协商支点，不证明每人实际取得实践、反馈或未来接收。"
+      ],
+      "limits": [
+        "不把ISCA身份等同ACCA、中国CPA或就业许可，不新增资格法规判断。",
+        "未采用学院介绍页中的待核考试/推荐承诺，不以合作标签推录用或培训兑现。",
+        "本篇不比较天津工业，不沿用其他城市、普通会计费用差或项目资源替A/B填空。"
+      ]
+    }
+  ]
+}
