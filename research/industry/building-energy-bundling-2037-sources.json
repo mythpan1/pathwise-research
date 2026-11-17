@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "title": "楼宇节能打包的组织与物理边界：脱敏来源索引",
+  "research_date_utc": "2026-11-17",
+  "fixed_input": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "a81b21e39f06e8bdc52e5b1dfc7dc6c3561763a3",
+    "documents": [
+      "research/industry/building-energy-hvac-2037-choices.md",
+      "research/industry/building-energy-hvac-2037-sources.json"
+    ],
+    "deduplication_only": [
+      "research/industry/investment-retrofit-operations-2037-choices.md"
+    ],
+    "use": "本批亲读固定文字及索引，继承已采用事实用于新的条件推演；未重取外部原件。额外固定稿只用于去重，不新增其原始来源。"
+  },
+  "source_count": 6,
+  "new_external_source_count": 0,
+  "scope": {
+    "student_origin": "江苏；苏大历史招生、同济培养、江苏采访、上海制度及多地招聘分别使用，不拼同一项目。",
+    "assumed_timing": "2027入学且实际四年完成才2031本科入口，2037按真实经历观察；不是用户条件。",
+    "inference": "合同/组织、数据、物理系统三种共享分开；减少重复组织成本、负荷时间重叠/错峰与峰值保障、独立设备加共享支持均为明确条件情景。",
+    "not_observed": "未核本地实际联供、逐楼或组合收益、同期负荷、设备容量/参数、净招聘及本科真实任务；不作设计、现行合规或实际最优方案裁定。"
+  },
+  "sources": [
+    {
+      "id": "H1",
+      "fixed_source_id": "A01",
+      "title": "苏州大学2025江苏报考指南",
+      "publisher": "苏州大学本科招生部门",
+      "url": "https://zsb.suda.edu.cn/system_dntb/upload/苏州大学2025年报考指南（江苏版）.pdf",
+      "source_date": "2025",
+      "region": "江苏生源招生计划",
+      "locator": "PDF第8页 / 印刷页13，院校专业组31（物理+化学）两目标行",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的PDF完整字节；本批未重取。",
+      "used_facts": [
+        "苏大2025江苏31专业组物理+化学，能源与动力工程计划27、建筑环境与能源应用工程计划34，两项均四年。"
+      ],
+      "limits": [
+        "历史同组及计划不是录取数、专业位次、2027资格或个人可报确认；全组接受与苏大实得训练未知，不移植同济方案。"
+      ],
+      "inherited_hash": {
+        "sha256": "026f84f4e9a2d6411b49a2cec906c48a75cd5c8465fa9cdd4d940fb88e7c93b8",
+        "object": "raw_pdf",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    },
+    {
+      "id": "T1",
+      "fixed_source_id": "T01",
+      "title": "同济大学建筑环境与能源应用工程公开培养方案（适用届别未明）",
+      "publisher": "同济大学",
+      "url": "https://mefaculty.tongji.edu.cn/__local/F/A8/76/CD65952179C5B7E8E84E14A92C0_0BE46273_850BA.pdf",
+      "source_date": null,
+      "region": "同济大学，适用届别未明",
+      "locator": "PDF第1页；第4页有关说明第5条；第7页课程模块；第8页实践环节",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的PDF完整字节；本批未重取。",
+      "used_facts": [
+        "建筑环境学及相关实验、专业实践有明确安排；专业选修分暖通A/燃气B模块，不是两个模块均由每人完成；有系统测试课程。"
+      ],
+      "limits": [
+        "版本和适用届别未明，不证明2027、苏大或项目训练已兑现；本篇跨楼任务是作者提出的训练比较，不是课程原文承诺。"
+      ],
+      "inherited_hash": {
+        "sha256": "4eb66fe627cfdf5f338263b2f49500bc2b0d069a8c1d68abe4ff3b08fa9c5bb8",
+        "object": "raw_pdf",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    },
+    {
+      "id": "T2",
+      "fixed_source_id": "T02",
+      "title": "同济大学能源与动力工程公开培养方案（适用届别未明）",
+      "publisher": "同济大学",
+      "url": "https://hece.tongji.edu.cn/_upload/article/files/47/e3/7d1b94e2407fa730ec5b69aeafac/410fc774-9620-4ee8-8f67-8b1473b82909.pdf",
+      "source_date": null,
+      "region": "同济大学，适用届别未明",
+      "locator": "PDF第1页；第10页专业必修/选修；第11页选修与实践",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的PDF完整字节；本批未重取。",
+      "used_facts": [
+        "换热器、制冷为专业必修，并有冷热源及换热器设计实验；与T01列同名同课号系统测试课程。"
+      ],
+      "limits": [
+        "版本及适用届别未明，PDF元数据不认证方案年；共同课程不等同届同质，不把全部建筑选修当已取得，不推设备岗独占。"
+      ],
+      "inherited_hash": {
+        "sha256": "5a22730356ceab9ef8710e8198fb5e5a597f662c39f218bf7943a6db89733e12",
+        "object": "raw_pdf",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    },
+    {
+      "id": "J1",
+      "fixed_source_id": "J01",
+      "title": "中国电子系统工程第二建设有限公司2027届校园招聘",
+      "publisher": "中国电子系统工程第二建设有限公司，河北工业大学就业平台刊载",
+      "url": "https://career.hebut.edu.cn/home/correcruit/content/id/79660.html",
+      "source_date": "2026-09-24",
+      "region": "页面工作地域北京、天津、江苏、山东、陕西",
+      "locator": "招聘需求表：建造岗暖通工程师/设计岗暖通动力设计师；招聘对象；培养发展；福利待遇",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的HTML完整字节；本批未重取。",
+      "used_facts": [
+        "2027届暖通建造岗接收两专业本科，设计岗另列硕士；页面地区含北京、天津、江苏、山东、陕西，项目与非项目条件分列。"
+      ],
+      "limits": [
+        "洁净工程、工业建筑背景，不是已核公共建筑托管团队；无本篇跨楼/联供职责承诺，不保证江苏分配或2031招聘，培养声明不等效果。"
+      ],
+      "inherited_hash": {
+        "sha256": "638bddc27c098786e025d1f4be3ae9efdf65dbcf28a3eb93c5ec0801731b0f96",
+        "object": "raw_html",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    },
+    {
+      "id": "P1",
+      "fixed_source_id": "P01",
+      "title": "上海市公共机构合同能源管理项目管理办法",
+      "publisher": "上海市人民政府办公厅",
+      "url": "https://www.shanghai.gov.cn/nw12344/20230727/e8eff156796545d8be1c6374d0151587.html",
+      "source_date": "2023-07-27",
+      "source_date_scope": {
+        "issued": "2023-06-29",
+        "effective_from": "2023-07-01",
+        "effective_until": "2028-06-30",
+        "document_number": "沪府办规〔2023〕18号"
+      },
+      "region": "上海市公共机构",
+      "locator": "第四、五、九、十一、十四、十五、二十、二十二、二十八条",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的原工具可读表示，不是原始HTML；具体容器未在旧索引进一步细分，本批未重取。",
+      "used_facts": [
+        "上海2023办法连接预算、全周期成本、基准调整、服务绩效及支付、验收、物业运维等责任。"
+      ],
+      "limits": [
+        "只继承历史文件作机制参照，不写成江苏制度或2031/2037有效规则；无具体多楼合同/资金互拨/支付结果。",
+        "原研究可读表示成功后原字节403停止；本批不重取、不称原HTML。"
+      ],
+      "inherited_hash": {
+        "sha256": "f464ca5e9b1701095d1c286179f3a33712dca1047887b4f55abfe6baf6132d7a",
+        "object": "original_tool_readable_representation",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    },
+    {
+      "id": "B1",
+      "fixed_source_id": "B01",
+      "title": "江苏整区能源费用托管现场采访",
+      "publisher": "新华日报报道，江苏省人民政府网站转载",
+      "url": "https://www.jiangsu.gov.cn/art/2025/11/24/art_90953_11679680.html",
+      "source_date": "2025-11-24",
+      "region": "江苏多地公共机构试点的一手受访叙述",
+      "locator": "宜兴旧中央空调及办公楼打包段；大丰一期10年托管段；企业打包/持续优化段；硬件、协调和资金阻力段",
+      "inherited_retrieval_date": "2026-11-09",
+      "inherited_representation": "原研究登记的原工具可读表示，不是原始HTML；具体容器未在旧索引进一步细分，本批未重取。",
+      "used_facts": [
+        "宜兴、大丰当事人介绍办公楼打包、冷热系统改造和托管；企业介绍持续优化及集中平台服务；报道亦列部分项目初测难回本、审计预算等阻力。"
+      ],
+      "limits": [
+        "一手受访叙述，不是合同、审计或净就业统计；未核楼间物理连接、逐楼收益或完整方案。",
+        "不将江苏报道与上海规则、中电二招聘拼成同一合同和用工链；旧可读表示不是原始HTML，本批未重新访问。"
+      ],
+      "inherited_hash": {
+        "sha256": "9b2219192a8d91c2b556e9a8b245c366c1d997374e8b715bb1d5cd98067ff205",
+        "object": "original_tool_readable_representation",
+        "use": "仅定位旧索引所载表示，不称本批重验，不复制原件或工具返回。"
+      }
+    }
+  ]
+}
