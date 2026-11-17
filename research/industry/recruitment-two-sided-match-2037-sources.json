@@ -1,0 +1,226 @@
+{
+  "title": "招聘服务的双边匹配：脱敏来源索引",
+  "research_date": "2026-11-17",
+  "author_role": "research_author",
+  "article": "research/industry/recruitment-two-sided-match-2037-choices.md",
+  "fixed_repository": {
+    "repository": "mythpan1/pathwise-research",
+    "commit": "9d84cee04559efd8f1d5d25dd264588edb6af8ee",
+    "article_path": "research/admissions/jiangsu-history-hr-accounting-choices.md",
+    "article_git_blob_sha": "4436cf0f4952ff91a3a7b3a61a0cf0d63bca6448",
+    "index_path": "research/admissions/jiangsu-history-hr-accounting-choices-sources.json",
+    "index_git_blob_sha": "c4d0ae0797e825d280663f9eb1776421ed09e015"
+  },
+  "use_counts": {
+    "used_units": 6,
+    "inherited_external_source_units": 5,
+    "fixed_historical_interface_units": 1,
+    "new_external_retrievals": 0,
+    "new_admissions_candidates": 0,
+    "new_job_entries": 0
+  },
+  "reading_scope": "本批读取固定仓库正文与来源索引，沿用其中已核事实；未重新请求外部原页或原件。下列继承哈希只定位原研究取得的表示，不是本批重新校验的凭证。固定历史接口不另算一份独立招生原件。",
+  "sources": [
+    {
+      "id": "J2",
+      "original_id": "new_sources.J2",
+      "title": "科锐国际2027届秋季校园招聘",
+      "publisher": "北京科锐国际人力资源股份有限公司雇主发布，天津商业大学就业网承载",
+      "url": "https://career.tjcu.edu.cn/correcruit/content/id/14575.html",
+      "published": "2026-09-29",
+      "original_retrieved": "2026-11-04",
+      "original_representation": "选取的工具转换文本，非原HTML、完整工具返回或原页字节",
+      "inherited_representation_sha256": "b7aaf6a6d0a6472830b49ffeebe9a503dbeeebcfe5508fe58f9ad41bbbba7627",
+      "locator": [
+        "计划一顾问职责及任职",
+        "全局城市、2027届对象及录用流程"
+      ],
+      "used_facts": [
+        "计划一顾问本科及以上、明示专业不限，行业与岗位学习、客户和候选人沟通、面试与薪谈等任务。",
+        "具体城市以网申为准；服务公司的业务员工与被服务的外包员工不能混同。"
+      ],
+      "limits": [
+        "不把全局南京直接分到计划一某岗，也不将锦州计划三员工管理或薪酬核算职责移入南京顾问。",
+        "不证明实际录用、签约法人、真实分工、带教、当前开放或2031岗位。"
+      ]
+    },
+    {
+      "id": "J1",
+      "original_id": "revision_20261113.new_sources.HR-C2",
+      "title": "人力资源顾问培训生-南京（27届校招）",
+      "publisher": "实习僧平台，科锐国际品牌页面；发布账户身份未认证",
+      "url": "https://www.shixiseng.com/intern/inn_wrnvv7nksrap?pcm=pc_SearchList",
+      "published": null,
+      "displayed_refresh": "2026-11-11 17:06:11，页面未注明时区",
+      "original_checked": "2026-11-13",
+      "original_representation": "仅平台页转换文本；原研究HTML请求403后停止，未取得原页字节",
+      "inherited_representation_sha256": "6058c4bd56886f8249b8609bca214ed0fa8a7e66fda371e32182abad03f5879f",
+      "locator": [
+        "转换文本L6—10、L32—36",
+        "L26工作职责及任职要求",
+        "L43品牌与L75—76平台页脚分开"
+      ],
+      "used_facts": [
+        "南京；统招本科及以上；2027届、毕业时间2026年9月至2027年8月且无正式工作经验；offer后须提前实习。",
+        "访寻匹配、甄选、面试薪谈与入职跟踪为广告职责。"
+      ],
+      "limits": [
+        "未具名专业不等于明确专业不限；J2不能替该岗认证A/B准确接收。",
+        "品牌和平台版权均不认证发布、签约或发薪法人；任务描述不等实际任务分配或训练。",
+        "历史展示条件，不是仍招、录用或2031入口。"
+      ]
+    },
+    {
+      "id": "E1",
+      "original_id": "revision_20261113.new_sources.HR-C1",
+      "title": "北京科锐国际人力资源股份有限公司2025年年度报告",
+      "publisher": "北京科锐国际人力资源股份有限公司；巨潮资讯静态PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225190004.PDF",
+      "published": "2026-04-27（封面）",
+      "period": "2025年集团，非南京单一公司或具体合同",
+      "original_checked": "2026-11-13",
+      "original_representation": "原HTTP PDF，225页；原研究对相关页提取和视觉核读",
+      "inherited_representation_sha256": "3503c7a8bf91888e262062a211235cd722a59fece968026de6cdb7f4ed33dc95",
+      "locator": [
+        "PDF实体页147，(2)收入确认的具体方法：2)中高端人才访寻、3)招聘流程外包承揽",
+        "PDF实体页69，新人培训相关段"
+      ],
+      "used_facts": [
+        "中高端人才访寻与招聘流程外包分列；入职经客户确认等收入确认条件，与RPO固定及变动服务费安排有区别。",
+        "集团披露新人课程安排。"
+      ],
+      "limits": [
+        "收入确认不等实际到账、单一合同已结算、个人提成或新人预算。",
+        "不证明南京平台岗所属业务线，也不把集团课程变成个人已得培训。",
+        "公司报告不是独立因果评估；不据收费结构假定双方实际利益冲突或任何违规行为。"
+      ]
+    },
+    {
+      "id": "T1",
+      "original_id": "revision_20261113.new_sources.HR-C3",
+      "title": "公共管理学院2025级大类招生本科生专业分流工作实施方案",
+      "publisher": "南京农业大学公共管理学院",
+      "url": "https://clm.njau.edu.cn/info/1045/28870.htm",
+      "attachment_url": "https://clm.njau.edu.cn/__local/6/6D/4B/A78877DBCDAD34CBE7A53C78461_9A2A902B_65D88.pdf",
+      "published": "网页2025-11-28；附件署2025-11-19",
+      "original_checked": "2026-11-13",
+      "original_representation": "校方原HTML及附件PDF；原研究仅使用PDF规则页1、3—5，排除第2页个人名单",
+      "inherited_representations": [
+        {
+          "type": "HTML",
+          "sha256": "3cf258c1276d0a0f71bf87bed3aa9c84b2af4cd1c669daa2e665d94f219a9cb0"
+        },
+        {
+          "type": "PDF",
+          "sha256": "0bf5ddae2a93c573ae5c51e21107a74e9c5bf7944fc94c42fbf810d06f16544a"
+        }
+      ],
+      "locator": [
+        "PDF第1页培养模式与分流原则",
+        "第3页申报、分配及依据",
+        "第4页综合表现与落款",
+        "第5页空白申请表"
+      ],
+      "used_facts": [
+        "2025级1+3培养、志愿与成绩参与分流，是目标人力资源管理训练取得的历史约束。",
+        "行政表的子方向不增加原公管四个招生方向或招生记录。"
+      ],
+      "limits": [
+        "不含个人名单、学生结果或名额推断。",
+        "2026实施的是2025级培养分流，不是新采2026招生；不认证2027规则、个人分流和训练。"
+      ]
+    },
+    {
+      "id": "P1",
+      "original_id": "new_sources.P1",
+      "title": "人力资源社会保障部等5部门关于进一步健全就业公共服务体系的意见",
+      "publisher": "人力资源社会保障部等5部门；国务院客户端承载，来源标人社部网站",
+      "url": "https://app.www.gov.cn/govdata/gov/202505/26/529861/article.html",
+      "document_number": "人社部发〔2025〕21号",
+      "document_date": "2025-04-22",
+      "page_publication_date": "2025-05-26",
+      "original_retrieved": "2026-11-04",
+      "original_representation": "选取的工具转换文本，非原HTML或原页字节",
+      "inherited_representation_sha256": "c11aa7153d75efd44a9cd5226380ba0b1894a189d4e7fce664880c276275b729",
+      "locator": [
+        "第四、五条职业信息及介绍",
+        "第七至九条服务对象",
+        "第十四至十七条社会力量",
+        "第十八至二十条数字平台及末段经费"
+      ],
+      "used_facts": [
+        "职业介绍、老年求职服务、按规定购买服务和数字集约的政策方向。"
+      ],
+      "limits": [
+        "不是南京采购、科锐合同、付款或本科招聘，不能推岗位数与2031/2037结果。",
+        "只引用2025年文件内容，不作当前法律合规判断。"
+      ]
+    },
+    {
+      "id": "H1",
+      "type": "fixed_repository_historical_interface",
+      "title": "南农公管大类与南财会计：人事服务何时值得优先",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/9d84cee04559efd8f1d5d25dd264588edb6af8ee/research/admissions/jiangsu-history-hr-accounting-choices.md",
+      "locator": [
+        "2026-11-13修订及同一P/R下更新分支",
+        "历史原稿：招生账、全部14显示成员",
+        "培养连接与代价"
+      ],
+      "git_blob_sha": "4436cf0f4952ff91a3a7b3a61a0cf0d63bca6448",
+      "used_facts": [
+        "2025江苏历史：南农01公共管理类目标最低位次6766/录取58，组6766/317；南财03会计学ISCA联合目标5797/20，组5797/35，同组审计学5559/15。",
+        "旧两组14显示成员不当正式完整组；公共管理类四方向为土地资源管理、人力资源管理、劳动与社会保障、行政管理，不是四条招生记录。",
+        "南财完整项目费用、退出及受监督实践仍未闭合；参访不替代训练，同组审计资源不借给会计学目标。",
+        "原完整P/S0保留B弱前置；顾问支路无专业名排序，A相对训练/成本优势可在B仍可用时前置。"
+      ],
+      "limits": [
+        "本批仅使用固定历史汇集接口；未读CSV或重核官方招生原件。录取数不是计划，位次不是同概率或2027等值线。",
+        "未给出的选科、备注、个人接受、预算与资格不补值；不改变旧组/成员计数。",
+        "H1本身不是新增独立原件，其引用的宏观/招生/活动来源不另计本批新取证。"
+      ]
+    }
+  ],
+  "claim_map": [
+    {
+      "claim": "必要能力通过与候选人接受是不同条件，同版本和有效时点的交集才支持推进。",
+      "evidence": [
+        "J1",
+        "J2"
+      ],
+      "status": "岗位任务支点上的教学情景与作者推导；甲乙丙非真实案例"
+    },
+    {
+      "claim": "条件清楚时可靠执行可前置；能改变真实决定的条件校准也可前置；无交集可定向扩搜、请求改范围或停止。",
+      "evidence": [
+        "J1",
+        "J2",
+        "E1"
+      ],
+      "status": "显式条件选择，不宣称企业实际授权或必须调整"
+    },
+    {
+      "claim": "训练按任务瓶颈选择，顾问开放支路不按专业名排胜负，也不改原完整P/S0的条件弱方向。",
+      "evidence": [
+        "J1",
+        "J2",
+        "T1",
+        "H1"
+      ],
+      "status": "训练与成本推导；未比较已实现校别效果"
+    },
+    {
+      "claim": "人口、产业调整和公共服务经雇主/公共预算及组织接收才到本科任务。",
+      "evidence": [
+        "P1",
+        "E1"
+      ],
+      "status": "政策内容与条件机制分开；无净岗位预测"
+    }
+  ],
+  "important_unknowns": [
+    "南京准确雇主、专业接收与业务线；本科新人具体任务、授权和指导。",
+    "双方可得训练、适用届别分流及全成本；个人目标和正式组接受。",
+    "具体合同结算、真实招聘状态、2031任务预算与2037经历。"
+  ],
+  "privacy": "只保留有限事实摘要、公共来源链接及定位；无个人简历、联系方式、学生名单、内部任务路径、原始工具返回或源全文。"
+}
