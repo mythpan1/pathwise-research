@@ -1,0 +1,317 @@
+{
+  "title": "跨实验研究设计底稿：固定复用版本与主张边界",
+  "date": "2026-10-24",
+  "status": "discussion draft; not formally adopted; author self-check only",
+  "scope": "中国2026—2036职业与培养比较；只复用固定材料，新增方法设计明确为建议。",
+  "rules_baseline": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+  "access_boundary": "仅阅读协调者交付的9份规则、12份固定PR文件和三PR快照；未读取外部原文、受控原始返回、未列入包的论文或视频。以下哈希固定复用文档内容，不证明其引用原件已重新核验。",
+  "pr_snapshot": [
+    {
+      "number": 26,
+      "url": "https://github.com/mythpan1/pathwise-research/pull/26",
+      "head": "5ad022984a68964412c7df2f8e4a7c79616e7a4f",
+      "state": "open",
+      "merged": false,
+      "adoption": "pending; review recommendation is not adoption",
+      "version": "PR26-F"
+    },
+    {
+      "number": 28,
+      "url": "https://github.com/mythpan1/pathwise-research/pull/28",
+      "head": "72e6797030b7e14a79a09b6fa3a495355160bb8c",
+      "state": "open",
+      "merged": false,
+      "adoption": "pending; review recommendation is not adoption",
+      "version": "PR28-F"
+    },
+    {
+      "number": 30,
+      "url": "https://github.com/mythpan1/pathwise-research/pull/30",
+      "head": "214cdcf19b1f1d24b7f83683679acf4e2df1cd12",
+      "state": "open",
+      "merged": false,
+      "adoption": "pending; review recommendation is not adoption",
+      "version": "PR30-F"
+    }
+  ],
+  "main_boundary": "main基线的实验目录仅有EXP-001旧内容；本次三实验新阶段按各自PR固定版本引用，不称已在main采用。",
+  "reused_files": [
+    {
+      "id": "EXP1-README",
+      "path": "research/experiments/EXP-001-demography-education/README.md",
+      "sha256": "03ac777a6cf94e83275683f43d1c28f5044b3bdfdf601350659944f5e4ce7096",
+      "sections": [
+        "本轮前置研究收尾",
+        "已有成果与本次候选"
+      ],
+      "use_boundary": "仅确认历史入口与证据状态；不把README冻结时的待审措辞当最新PR状态。",
+      "version": "PR26-F"
+    },
+    {
+      "id": "DEMOGRAPHY",
+      "path": "research/experiments/EXP-001-demography-education/stages/20261023-preliminary-closeout/REPORT.md",
+      "sha256": "51b1d1bc92c6f61e4cd5c50bb806d9ff2b5fb4deb5ac60b97cbe6f390eb7d473",
+      "sections": [
+        "已有材料支持到哪里",
+        "基准方向与强弱",
+        "主要路径怎样接到选择",
+        "三组有辨别力的后续证据",
+        "当前能用于什么选择"
+      ],
+      "use_boundary": "全国底稿经既有报告转述，仍为回顾性检验且未独立最终终审；地方可比序列缺失、行政退出非少子化因果；消费及服务分支为条件推演。",
+      "version": "PR26-F"
+    },
+    {
+      "id": "DEMOGRAPHY-SOURCES",
+      "path": "research/experiments/EXP-001-demography-education/stages/20261023-preliminary-closeout/sources.json",
+      "sha256": "d9f8a1a57c1cbf9262e6bd97d6b6baef4a4bbf2ad05b9c97e25f15cc56d41f25",
+      "sections": [
+        "reading_boundary",
+        "sources:E-STAGE/E-G01/E-EVENT/E-DRAFT/E-COUNTEREXAMPLE",
+        "claim_map"
+      ],
+      "use_boundary": "本轮只读该索引，未打开其受控原稿、反例或官方原件；合成例不是现实证据，索引不升级底稿审核状态。",
+      "version": "PR26-F"
+    },
+    {
+      "id": "CO2-README",
+      "path": "research/experiments/EXP-002-co2-starch/README.md",
+      "sha256": "71561dc4dbf33b03c5a65928a8b17f2106d66f251be264a09558c01dca119075",
+      "sections": [
+        "当前判断",
+        "2026-10-23后续记录"
+      ],
+      "use_boundary": "入口与历史冻结状态；最新状态以固定PR快照为准。",
+      "version": "PR28-F"
+    },
+    {
+      "id": "CO2-FACTS",
+      "path": "research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/REPORT.md",
+      "sha256": "0fd9c581c5869bf7ceaa2e9b53ea35b18e8b09071e1e85d662488a1957f9a0fb",
+      "sections": [
+        "当前应定位为",
+        "商业化判断要继续经过运行、产品和交易三层",
+        "成本比较表",
+        "最能改变判断的后续材料"
+      ],
+      "use_boundary": "主体平台声明及媒体采访不等于商业运行或销售；论文及补充材料全文未取得；成本、产能和年份未知不填零。",
+      "version": "PR28-F"
+    },
+    {
+      "id": "CO2-SCENARIO",
+      "path": "research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/SCENARIO.md",
+      "sha256": "dc9733f28f2c9ed24635898053604f932e27ff5b206964b7bb12714606d63b3d",
+      "sections": [
+        "各自的路线与出口",
+        "主情景增加一个明确假设",
+        "是否停在甲醇",
+        "传导顺序",
+        "职业上应提高",
+        "两个有限对照",
+        "下一步只观察"
+      ],
+      "use_boundary": "不同项目与路线不拼接；甲醇、糖、ASAP淀粉分别判断；纸张施胶销售与采购替代为假设，不是来源验证事实；职业与培养为条件含义。",
+      "version": "PR28-F"
+    },
+    {
+      "id": "CO2-SOURCES",
+      "path": "research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/sources.json",
+      "sha256": "5c4fe2356d7debc7eaf114a07829645623089ad5b87536a8a8a3642765470e93",
+      "sections": [
+        "evidence_grades",
+        "stage_fields",
+        "sources:E01-E08",
+        "primary_evidence_gaps",
+        "claim_map"
+      ],
+      "use_boundary": "取得的是历史工具解析范围；主体与同源转载不增加独立性；未核投产量值不采用；本轮未取原文。",
+      "version": "PR28-F"
+    },
+    {
+      "id": "CO2-ROUTES",
+      "path": "research/experiments/EXP-002-co2-starch/stages/20261023-technology-commercialization/route-sources.json",
+      "sha256": "e817723f48fbd20a57d0c03693cffebb6f8dd09f258c03d616d6c888350109f1",
+      "sections": [
+        "sources:R01-R04/R05-R06/R00",
+        "note"
+      ],
+      "use_boundary": "企业公告非独立交易审计；R04为机构实验方向摘要；R05仅线索、R06未取得；未验证跨路线接口。",
+      "version": "PR28-F"
+    },
+    {
+      "id": "ROBOT-README",
+      "path": "research/experiments/EXP-003-robotics-workers/README.md",
+      "sha256": "f0f9798cd49d79e21d301fe06ba4694a21a3a8092163b89ddf35916f5843d88f",
+      "sections": [
+        "第二轮追加",
+        "前置研究收口导航"
+      ],
+      "use_boundary": "阶段入口与历史状态；未把目录导航视为全部现实结论已完成。",
+      "version": "PR30-F"
+    },
+    {
+      "id": "ROBOT-CLOSEOUT",
+      "path": "research/experiments/EXP-003-robotics-workers/stages/20261024-closeout/REPORT.md",
+      "sha256": "e746f57258d6b6d64615048b8715992ca44bcb8a4914c3818c57d4b0ca9f1652",
+      "sections": [
+        "机器能替代什么",
+        "既有场景表",
+        "条件主判断",
+        "两轮讨论对原假设作了三项收窄",
+        "对今天的培养选择",
+        "未来仅保留四项最小收集问题"
+      ],
+      "use_boundary": "动作替代不等于职业消失；技术、经济、组织与人员结果分层；中国历史个案及海外关联不可直接外推；需求反馈仍为条件机制。",
+      "version": "PR30-F"
+    },
+    {
+      "id": "ROBOT-R1-SOURCES",
+      "path": "research/experiments/EXP-003-robotics-workers/stages/20261023-round1/sources.json",
+      "sha256": "5bddcf6f2c8c973cefb55add11046d1ae48605493257a70d6bc5f818cdc20989",
+      "sections": [
+        "source_groups.trends:T4",
+        "source_groups.cases:B-S1/B-S4",
+        "capture_boundary",
+        "claim_map"
+      ],
+      "use_boundary": "商业部署叙述缺同产出人时和招聘台账；法国研究为2010—2015继续经营企业的关联、主要就业变量为工时；缺一般均衡与中国外推依据。",
+      "version": "PR30-F"
+    },
+    {
+      "id": "ROBOT-R2-SOURCES",
+      "path": "research/experiments/EXP-003-robotics-workers/stages/20261023-round2/sources.json",
+      "sha256": "44d474d14ae794db893c6b7396f6dd5552e10e3677e0a79ce3ae34b785baf079",
+      "sections": [
+        "sources:CN-R1/CN-R2/B2-T4-reuse/B2-M1/B2-C1",
+        "source_independence",
+        "work_hypotheses_status",
+        "gaps"
+      ],
+      "use_boundary": "两个中国工厂来自同一2018田野，2022雇主报道不是2026台账；Cedefop为未编辑非正式方法稿；全国存量非毕业年合资格供给；额外消费模型原文未取得。",
+      "version": "PR30-F"
+    }
+  ],
+  "method_references": [
+    {
+      "id": "METHOD",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/research-methods.md",
+      "sha256": "bec5ee083d3a50fc13910f957f721270b65c32c5306f9e05f46f1946de67b265",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/97183b34167fbd2f5de27185832ca3dfc7677d92/docs/research-methods.md",
+      "sections": [
+        "先推演，在关键节点求证",
+        "用推演反向设计政策收集"
+      ],
+      "use_boundary": "已提供的方法规则；不是本轮新取证、最新政策清单或国际实验完成证明。"
+    },
+    {
+      "id": "ARCHITECTURE",
+      "commit": "97183b34167fbd2f5de27185832ca3dfc7677d92",
+      "path": "docs/research-architecture.md",
+      "sha256": "035556ae8f79104b9765917996d034e55763a803b829f9cea3df341ac7e99216",
+      "url": "https://github.com/mythpan1/pathwise-research/blob/97183b34167fbd2f5de27185832ca3dfc7677d92/docs/research-architecture.md",
+      "sections": [
+        "研究目标与主次",
+        "国际研读：独立追踪，按暴露渠道接入中国",
+        "合成时怎样避免重新变浅"
+      ],
+      "use_boundary": "已提供的方法规则；不是本轮新取证、最新政策清单或国际实验完成证明。"
+    }
+  ],
+  "claim_map": [
+    {
+      "draft_section": "三场实验分别教会了什么：少子化",
+      "sources": [
+        "DEMOGRAPHY",
+        "DEMOGRAPHY-SOURCES"
+      ],
+      "type": "bounded prior synthesis plus conditional career implication"
+    },
+    {
+      "draft_section": "三场实验分别教会了什么：CO₂",
+      "sources": [
+        "CO2-FACTS",
+        "CO2-SCENARIO",
+        "CO2-SOURCES",
+        "CO2-ROUTES"
+      ],
+      "type": "bounded prior synthesis; commercial sale/purchase substitution remain assumptions"
+    },
+    {
+      "draft_section": "三场实验分别教会了什么：机器人",
+      "sources": [
+        "ROBOT-CLOSEOUT",
+        "ROBOT-R1-SOURCES",
+        "ROBOT-R2-SOURCES"
+      ],
+      "type": "bounded prior synthesis and conditional risk/training implication"
+    },
+    {
+      "draft_section": "共同路径以同一对象为单位",
+      "sources": [
+        "DEMOGRAPHY",
+        "CO2-SCENARIO",
+        "ROBOT-CLOSEOUT",
+        "ARCHITECTURE"
+      ],
+      "type": "author cross-experiment design; branches and feedback not empirically verified universal chain"
+    },
+    {
+      "draft_section": "只收能改判的信息：最小信息表及四项区分",
+      "sources": [
+        "DEMOGRAPHY",
+        "CO2-FACTS",
+        "CO2-SCENARIO",
+        "ROBOT-CLOSEOUT",
+        "ROBOT-R2-SOURCES"
+      ],
+      "type": "author synthesis of existing discriminating observations; priority sources are future candidates, not acquired evidence"
+    },
+    {
+      "draft_section": "政策先整理候选和分歧，再决定是否做实验",
+      "sources": [
+        "METHOD",
+        "ARCHITECTURE",
+        "DEMOGRAPHY",
+        "CO2-SCENARIO",
+        "ROBOT-CLOSEOUT"
+      ],
+      "type": "new design proposal incorporating current task amendment; classifications not verified policy inventory; video procedure not video analysis"
+    },
+    {
+      "draft_section": "国际主线仍缺一次独立检验",
+      "sources": [
+        "ARCHITECTURE",
+        "CO2-SCENARIO",
+        "ROBOT-CLOSEOUT"
+      ],
+      "type": "author-proposed minimal future candidate; no international experiment or current restriction claim"
+    },
+    {
+      "draft_section": "正式框架前三项决策与停止",
+      "sources": [
+        "METHOD",
+        "DEMOGRAPHY",
+        "CO2-SCENARIO",
+        "ROBOT-CLOSEOUT"
+      ],
+      "type": "author recommendation; selection belongs to user; no automatic next investigation"
+    }
+  ],
+  "new_business_calls": 0,
+  "excluded_from_upload": [
+    "original materials",
+    "full tool returns",
+    "RUN.json",
+    "STEPS.jsonl",
+    "BASIS.md"
+  ],
+  "author": {
+    "actor_id": "/root/cross_design_author",
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "ultra",
+    "reported_model": null,
+    "reported_reasoning": null,
+    "verification": "unknown; no actual runtime metadata exposed; requested values are not backend identity evidence"
+  }
+}
