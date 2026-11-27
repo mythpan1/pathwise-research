@@ -1,21 +1,25 @@
 ---
-card_id: "<填入唯一卡片ID，如 l4-dec-02-midhigh-stem-tradeoff>"
-slot_id: "<必填：绑定 index/master-map.md 中的 L4-DEC-01 ~ L4-DEC-06 槽位>"
+card_id: "<填入唯一叶子卡片ID，如 l4-4-3-2-physics-midhigh-tradeoff>"
+slot_id: "<必填：全局唯一叶子子槽，正则 ^L4-DEC-\\d{2}\\.\\d{2}$，如 L4-DEC-02.01>"
+parent_slot_id: "<必填：绑定 index/master-map.md 中的 L4-DEC-01 ~ L4-DEC-06 母槽>"
 layer: "L4"
-stability: "volatile" # 时效属性（validity），同步对齐 index/manifest.json
-valid_until: "YYYY-MM-DD"
-target_regions: ["江苏本地", "长三角", "全国流动"]
-graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组，同步对齐 index/manifest.json
-major_codes: []
-upstream_ids: ["<必填：综合引用的 L1 / L2 / L3 卡片 card_id 列表>"]
-last_verified: "YYYY-MM-DD"
+batch: "Batch 4" # 取值 Batch 1 | Batch 2 | Batch 3 | Batch 4
+status: "draft" # 唯一受控枚举：draft | active | needs_reverify | deprecated（提纲占位阶段填 draft）
+stability: "volatile" # 时效属性：volatile | evergreen，同步对齐 index/manifest.json
+valid_until: "2027-06-30" # volatile 填合法 YYYY-MM-DD；evergreen 填 null
+drivers: ["policy", "industry", "demography"] # L1–L4 必填非空去重数组
+major_codes: [] # 教育部 6 位标准本科专业代码（可带 K/T）；跨门类通则填 []
+target_regions: ["江苏", "长三角", "全国"] # 必填非空去重数组；真实叶子卡严禁保留占位符
+graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组；常青卡填 ["all_cohorts"]
+upstream_ids: ["<必填：综合引用的 L1 / L2 / L3 叶子卡 card_id 列表>"]
+last_verified: "2026-11-27" # 合法 YYYY-MM-DD 日期
 ---
 
 # [L4 江苏生源跨路径公共决策收口卡标题]（`slot_id`）
 
 **核心结论（置信度：高 / 中 / 低）**：[1–3 句话在明示「默认基准前提包」的条件下，直接给出 `Rank 1 默认主推 → Rank 2 同簇稳健替代 → Rank 3 经四维冲击核验的独立备选` 基准主序及首要换序触发条件，严禁伪装无条件普适排序或退回无主次平铺。]
 
-> **公私解耦与情景锚定约定（`3B`）**：公开库 `Rank 1–3` 仅对首节声明的**默认基准前提包**成立，绝非对所有家庭无条件普适；全文严分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`。本地个案须挂载 [individual-constraints.md](individual-constraints.md) 与 [../scripts/README.md](../scripts/README.md) 对应年份招生规则与水位引擎重算。
+> **公私解耦、情景锚定（`3B`）与 v3.1.0 静态门禁约定**：公开库 `Rank 1–3` 仅对首节声明的**默认基准前提包**成立，绝非对所有家庭无条件普适；全文严分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`。真实落盘叶子卡顶部 14 项 YAML 严禁留占位符、须与 [../index/manifest.json](../index/manifest.json) 逐字段一致（`evergreen` 时 `valid_until` 必为 `null`）；`status: "draft"` 提纲占位态须含 `>= 3` 个二/三级定制小节与 `>= 3` 条 `- [ ]` 待填清单，升格 `status: "active"` 定稿态后仅强制 `>= 3` 个二/三级小节（无需为过门禁硬凑复选框）；将本模板实例化至三级深目录 `research/<layer>/<subdir>/*.md` 时，须将模板内相对链接（`../index/...`、`../scripts/...`、`individual-constraints.md`）同步调整为 `../../../index/...`、`../../../scripts/...` 与 `../../../templates/individual-constraints.md`。本地个案须挂载 [individual-constraints.md](individual-constraints.md) 与 [../scripts/README.md](../scripts/README.md) 对应年份招生规则与水位引擎重算。
 
 ---
 
@@ -69,6 +73,6 @@ last_verified: "YYYY-MM-DD"
 
 - **下游反向回灌检查**：[若本卡综合比较中发现地域/预算/专业组硬门槛推翻了上游 `L1–L3` 卡片假设，写明本 PR 联立修订或标为待复核的上游 `card_id`]
 - **成立边界与推翻条件**：[政策、目标年江苏招生专刊或毕业窗供需发生何种变化时重排本卡]
-- **上游依赖卡片核对（同步登记于 [../index/manifest.json](../index/manifest.json)）**：
+- **上游依赖卡片核对（同步登记于 [../index/manifest.json](../index/manifest.json)；落盘至三级深目录 `research/<layer>/<subdir>/` 时改写为 `../../../index/manifest.json`）**：
   - `L1` 外驱卡：`[列出 card_id]` ｜ `L2` 岗位族卡：`[列出 card_id]` ｜ `L3` 培养卡：`[列出 card_id]`
 - **待核未知清单（`[待核未知]`）**：[留待当年正式《招生计划专刊》发布后在本地受控区核实的年度组号、计划数与选科体检细则]

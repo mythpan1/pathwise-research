@@ -89,7 +89,7 @@
 
 ```json
 {
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "calculation_status": "degraded",
   "excluded_shock_years": [],
   "pending_shock_candidates": ["2023->2024"],
@@ -154,7 +154,7 @@
 
 ```json
 {
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "target_year": 2026,
   "case_id": "CASE-DEMO-001",
   "dim1_academic_physical": {
@@ -242,12 +242,12 @@
 | **维度二**（财务与长周期缓冲） | `max_annual_tuition_cny`, `grad_school_budget_tolerance`, `early_low_pay_buffer_years` | `grad_school_budget_tolerance`: `full_support` \| `conditional` \| `bachelor_direct_only` | 学费红线否决、结合 `D5.primary_routes[]` 逐路径学历门槛校验、成长期缓冲匹配 |
 | **维度三**（稳态弹性与红线边界） | `stability_elasticity_floor`, `target_job_regions`, `hard_redline_majors`, `hard_redline_scenarios`, `soft_dislike_majors` | `floor`: `public_soe_priority` \| `balanced` \| `market_elastic`; `hard_redline_scenarios`: 与 `D2-D.group_wide_scenario_flags` / `member_scenario_flags_by_seq` 对齐的 7 类标准枚举 | **严格分离**绝对红线（触发整组一票否决）与一般弱偏好（转入 `water_level` 精算） |
 | **维度四**（家庭共识与认知防偏） | `family_disagreement_topics`, `out_of_province_willingness`, `debias_checklist_ack` | `willingness`: `high` \| `moderate` \| `low`; **防偏 4 项布尔确认**（与 `templates/individual-constraints.md` 必检四问一一对应：`no_min_score_anchoring`、`no_yrd_clustering_blindspot`、`no_blind_transfer_assumption`、`no_pseudo_independent_backup`） | 防最低分锚定、防长三角扎堆溢价盲区、防盲信进校转专业幻觉、防假独立双保险盲区 |
-| **逐组主动填报专业**（`3.0.7`） | `candidate_group_targets[]` | 必填数组，元素含 `{target_year, batch, college_code, group_code, target_major_seqs: [integer, ...]}`（可选显式 `track` 须严格等于 `dim1.track`） | 按归一化五元组唯一键 `(target_year, track, batch, college_code, group_code)` 全局唯一，且单条 `target_major_seqs` 为非空正整数数组并严格去重（`len(set(T)) == len(T)`）、`target_year == D6Input.target_year` 且 `T ⊆ G`；缺失、出现重复组键（`>= 2` 条）或重复/非法序号一律判 `group_target_valid = false`，与数组顺序无关地回退 `S = G` 并阻断保底 |
-| **主备志愿组绑定**（`3.0.7`） | `candidate_pair_bindings[]` | 数组元素含全局唯一 `pair_id`、`primary` 与 `backup`，两端均必填 `{target_year, batch, college_code, group_code, major_seq, moe_major_code, route_id}` | 将同专业或**跨专业**的主备路径在个案端显式绑定至具体院校专业组与当年 `D2-D` 规则，须通过 §2.2 第 5 点 `pair_id` 唯一性、跨表引用完整性与可达性（`major_seq ∈ T` 且 `group_target_valid == true`）硬校验 |
+| **逐组主动填报专业**（`3.1.0`） | `candidate_group_targets[]` | 必填数组，元素含 `{target_year, batch, college_code, group_code, target_major_seqs: [integer, ...]}`（可选显式 `track` 须严格等于 `dim1.track`） | 按归一化五元组唯一键 `(target_year, track, batch, college_code, group_code)` 全局唯一，且单条 `target_major_seqs` 为非空正整数数组并严格去重（`len(set(T)) == len(T)`）、`target_year == D6Input.target_year` 且 `T ⊆ G`；缺失、出现重复组键（`>= 2` 条）或重复/非法序号一律判 `group_target_valid = false`，与数组顺序无关地回退 `S = G` 并阻断保底 |
+| **主备志愿组绑定**（`3.1.0`） | `candidate_pair_bindings[]` | 数组元素含全局唯一 `pair_id`、`primary` 与 `backup`，两端均必填 `{target_year, batch, college_code, group_code, major_seq, moe_major_code, route_id}` | 将同专业或**跨专业**的主备路径在个案端显式绑定至具体院校专业组与当年 `D2-D` 规则，须通过 §2.2 第 5 点 `pair_id` 唯一性、跨表引用完整性与可达性（`major_seq ∈ T` 且 `group_target_valid == true`）硬校验 |
 
 ### 2.2 `2B` 两阶段判定状态机（绑定 `D2-D` 当年调剂规则，严禁主观加权总分）
 
-> **当年章程 `D2-D` 暴露集合 `S` 裁定与按成员序号投影铁律（贯穿阶段一与阶段二，`3.0.7`）**：  
+> **当年章程 `D2-D` 暴露集合 `S` 裁定与按成员序号投影铁律（贯穿阶段一与阶段二，`3.1.0`）**：  
 > 设 `G` 为目标年 `D2-B` 该专业组全部专业序号集合，`A` 为 `D2-D.adjustable_major_seqs`，`E` 为 `D2-D.excluded_major_seqs`。定义候选组归一化唯一键为五元组 `K = (target_year, track, batch, college_code, group_code)`（其中 `track` 继承自 `D6Input.dim1_academic_physical.track`，若条目显式携带 `track` 则须严格等于 `dim1.track`；字符串字段去首尾空白且 `college_code / group_code` 与目标年 `D2-A` 规范编码精确对齐）。
 > 1. **显式接入 `D2-D`（`admissions_group_charter_rules`，见 [data/README.md §2.4](../data/README.md)）裁定实际录取暴露专业序号集合 `S`**：
 >    - **逐组主动填报集合 `T` 唯一性与合法性前置校验（闭环 `#16`，顺序无关铁律）**：`group_target_valid == true` **当且仅当**该待评组在 `candidate_group_targets[]` 中按归一化五元组键 `K` **恰好出现 1 次**（严禁同组出现 `>= 2` 条记录，无论 `target_major_seqs` 相同或不同），`target_year == D6Input.target_year`，且 `target_major_seqs` 为非空正整数数组、元素**严格唯一无重复**（`len(set(T)) == len(T)`）并满足 `T ⊆ G`。凡缺失该组记录、出现重复组键（`>= 2` 条）、或 `target_major_seqs` 含重复元素/非正整数/空数组/越界 `⊈ G` / `target_year` 不符，一律记 **`group_target_valid = false`**——**严禁取首条、取末条或覆盖合并为子集**，必须与数组顺序无关地强制令 **`S = G`（全组成员最坏暴露集合）**执行阶段一全量 `VETO_*` 硬红线扫描，且**无论阶段一是否 `VETOED`**，一律强制置 `unverified_redline_block_safety = true`、`water_level = "unknown"`、`water_level_percentile = null`、`safety_pool_blocked = true`；同时任何引用 `group_target_valid == false` 专业组的 `candidate_pair_bindings[]` 端点自动置 `binding_valid = false`；
@@ -255,7 +255,7 @@
 >    - `adjustment_scope_mode == "subset_isolated_verified"`（且 `rule_completeness == "complete"`、`group_target_valid == true`、`A != null` 且 `(A ∪ E) ⊆ G`）：**`S = T ∪ (A \ E)`**——**`E` 仅从被动调剂集合 `A` 中剔除，绝不从考生主动填报集合 `T` 中剔除**（主动填报的排除调剂专业仍可能被志愿直接录取，必须保留在 `S` 内接受全量硬红线与水位扫描）；若考生填报合法（`group_target_valid == true`）但 `A == null` 或 `(A ∪ E) ⊈ G`，**保留 `group_target_valid == true`（不伪造为考生填报非法，亦不因此置 `binding_valid = false`）**，仅按章程规则不完整回退 `S = G` 并置 `unverified_redline_block_safety = true`、`water_level = "unknown"`、`water_level_percentile = null`、`safety_pool_blocked = true`；
 >    - `adjustment_scope_mode == "no_adjustment_written_promise_verified"`（且 `rule_completeness == "complete"`、`group_target_valid == true` 且满足 `written_no_adjustment_condition`）：`S = T`（若未满足书面生效条件，同样保留 `group_target_valid == true` 并按章程回退 `S = G` 阻断保底）；
 >    - **凡缺失当年 `D2-D` 记录、`adjustment_scope_mode == "unknown"` 或 `rule_completeness != "complete"`**：在保留真实 `group_target_valid` 状态的前提下，回退 `S = G` 执行最坏暴露红线扫描，并强制置 `unverified_redline_block_safety = true`、`water_level = "unknown"`、`water_level_percentile = null`、`safety_pool_blocked = true`。
-> 2. **场景红线排除后投影规则（`3.0.7`）**：
+> 2. **场景红线排除后投影规则（`3.1.0`）**：
 >    - 若 `D2-D.group_wide_scenario_flags == null`、`D2-D.member_scenario_flags_by_seq == null`，或存在任意 `seq ∈ S` 在 `member_scenario_flags_by_seq` 中缺键或值为 `null`，强制置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`；
 >    - 否则计算投影集合 `effective_scenario_flags(S) = group_wide_scenario_flags ∪ (⋃_{seq ∈ S} member_scenario_flags_by_seq[str(seq)])`，仅按 `effective_scenario_flags(S)` 与 `seq ∈ S` 的成员执行 `VETO_HARD_REDLINE_MAJOR`——未被考生主动填报且已书面排除调剂的 `seq ∈ E \ T` 不污染 `S`，但考生主动填报的 `seq ∈ T ∩ E` 必保留在 `S` 内接受红线否决。
 > 3. **缺失绝不等价于安全**：`S` 内任一成员的选科要求（`D2-A.subject_req`）、体检限报条款（`D2-B.physical_limit_codes == null`）、年学费（`tuition_cny_per_year == null`）、学制（`duration_years == null`）、转专业约束（`transfer_restriction == "unknown"`），或当年 `D2-D.group_wide_scenario_flags == null`、`D2-D.member_scenario_flags_by_seq == null`（或任意 `seq ∈ S` 缺键/`null`）、`D2-D.subject_score_limits == null`、`D2-D.foreign_language_limits == null`（以及缺考生 `subject_scores` / `foreign_language` 导致无法排除单科/语种限报）任一命中，均必须置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`，**严禁默认放行进入 `safety` 保底池**。
@@ -313,7 +313,7 @@
 | 任意 | 存在未知红线或当年 `D2-D` 未核全（`unverified_redline_block_safety=true`） | **`true`（硬拦截）** | `["unverified_manual_review"]` | `block_safety_until_redlines_verified`（红线或章程调剂规则未知严禁入保底池，须先核当年官方章程） |
 | `unknown` | 任意（含任一可调剂成员缺位次或录取人数） | **`true`（硬拦截）** | `["unverified_manual_review"]` | `block_until_major_ranks_verified`（缺成员分位/录取人数或调剂范围未核清，严禁等权伪算，先线下核查） |
 
-5. **跨专业逐配对四维主备独立性冲击核验（`backup_independence_check`，基于 `candidate_pair_bindings[]` × `D5.paired_primary_refs[]` × `D2-D`，`3.0.7`）**：
+5. **跨专业逐配对四维主备独立性冲击核验（`backup_independence_check`，基于 `candidate_pair_bindings[]` × `D5.paired_primary_refs[]` × `D2-D`，`3.1.0`）**：
    - 仅证明“付款主体不同”不足以宣称备选独立；系统必须以 `D6Input.candidate_pair_bindings[]` 中的每一组 `(primary, backup)` 为单位，先执行**跨表引用完整性与可达性校验**及**共损对象前置合法性校验**，再按**正向白名单**与**唯一四级优先序**执行确定性四维冲击核验（彻底废除“否则→pass”兜底，且消除 `A5 / C / D / §2.4` 之间的优先级冲突）：
    - **枚举锁定**：
      - 单维状态（`payer` / `group_isolation` / `entry_gate_isolation` / `region_exposure`）：`pass` \| `fail` \| `unknown_blocked`
@@ -361,11 +361,11 @@
 
 ### 2.3 输出契约（`D6Output` JSON Schema 与八组最小反例 Fixture）
 
-#### 2.3.1 标准输出示例（`D6Output`，`3.0.7`）
+#### 2.3.1 标准输出示例（`D6Output`，`3.1.0`）
 
 ```json
 {
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "target_year": 2026,
   "case_id": "CASE-DEMO-001",
   "summary": {
@@ -505,7 +505,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-A-CROSS-MAJOR-CO-FAILURE",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "candidate_group_targets": [
       {
@@ -623,7 +623,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-B-UNKNOWN-CO-FAILURE-NO-PASS",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "candidate_group_targets": [
       {
@@ -746,7 +746,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-B-PRIME-MALFORMED-CO-FAILURE-NO-PASS",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "candidate_group_targets": [
       {
@@ -865,7 +865,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-C-EXCLUDED-SEQ-SCENARIO-PROJECTION",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "hard_redline_scenarios": ["prohibited_transfer_sino_foreign"],
     "d2b_group_seqs": [1, 2, 3],
@@ -913,7 +913,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-C-PRIME-TARGETED-EXCLUDED-SEQ-VETO",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "hard_redline_scenarios": ["prohibited_transfer_sino_foreign"],
     "d2b_group_seqs": [1, 2, 3],
@@ -961,7 +961,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-D-DUPLICATE-GROUP-TARGET-CONFLICT",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "target_year": 2026,
     "track": "physics",
@@ -1020,7 +1020,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-E-INVALID-BINDING-WITH-SAME-PAYER",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "target_year": 2026,
     "track": "physics",
@@ -1150,7 +1150,7 @@
 ```json
 {
   "fixture_id": "FIXTURE-F-MULTI-PAIR-SCOPE-SEPARATION",
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "input": {
     "target_year": 2026,
     "track": "physics",
@@ -1388,14 +1388,20 @@
 
 纯 Python 3 标准库实现（零第三方依赖），用于在提交 PR 与合并 `main` 前执行仓库级结构与防泄漏硬门禁。
 
-### 3.1 校验项目（`3.0.7`）
-1. **`index/manifest.json` 契约与引用自洽校验**：
+### 3.1 校验项目（`3.1.0`）
+1. **`index/manifest.json` 契约、43 母槽全覆盖与叶子子槽合法性校验**：
    - JSON 语法、顶层必填字段（`schema_version` / `updated_at` / `layers` / `slot_prefixes` / `items`）与受控前缀精确集合（`FW` / `TPL` / `L1-POL` / `L1-IND` / `L1-DEM` / `L2-CAR` / `L3-PTH` / `L4-DEC`，拦截表外或废弃前缀）；
-   - **受控槽位精确白名单与 `slot_id` 全局唯一性校验**：强校验 43 个业务主干槽位（`L1-DEM-01..03`、`L1-POL-01..08`、`L1-IND-01..09`、`L2-CAR-01..09`、`L3-PTH-01..08`、`L4-DEC-01..06`）与框架/模板白名单（`FW-001..007`、`TPL-001..005`），并与 `index/master-map.md` 主干槽位清单双向一致性核对，阻断表外野槽；同时执行**`slot_id` 全局唯一性硬校验**（单态主干架构下严禁两个条目共用同一 `slot_id`，命中重复立即失败退出 `1`）；
+   - **母子槽位双层强校验与 `slot_id` 全局唯一性**：框架/模板层（`framework`）强制校验 12 项系统槽（`FW-001..007` 与 `TPL-001..005`）全覆盖且无多余槽（缺任一系统槽即退出 `1`）；业务层（`L1–L4`）强制校验层级叶子子槽号匹配所属层正则（`L1`: `^(L1-DEM|L1-POL|L1-IND)-\d{2}\.\d{2}$`、`L2`: `^L2-CAR-\d{2}\.\d{2}$`、`L3`: `^L3-PTH-\d{2}\.\d{2}$`、`L4`: `^L4-DEC-\d{2}\.\d{2}$`）、母槽前缀落入 43 个受控母槽白名单（`L1-DEM-01..03`、`L1-POL-01..08`、`L1-IND-01..09`、`L2-CAR-01..09`、`L3-PTH-01..08`、`L4-DEC-01..06`）、**业务条目强制必填 `parent_slot_id`（严格等于 `slot_id.split('.')[0]`）与 `batch`（严格属于 `Batch 1 | Batch 2 | Batch 3 | Batch 4`）**、全部 `slot_id` 与 `path` 全局唯一，且 **43 个一级母槽必须 100% 至少覆盖 `>= 1` 张叶子子槽卡**（缺任一母槽即退出 `1`）；
    - **必填非空 `graduation_cohort` 与数组去重校验**：强制校验逐项必填非空 `target_regions`（禁占位符）与必填非空 `graduation_cohort`（常青/通用项仅允许 `["all_cohorts"]` 且禁与具体届混用；具体研究卡须匹配 `^20\d{2}_in_20\d{2}_(?:bachelor|5yr|master|phd|md_residency)$` 且毕业年严格大于入学年、禁占位符）；强制校验 `L1–L4` 条目 `drivers` 非空，并对 `drivers`、`major_codes`、`target_regions`、`graduation_cohort`、`upstream_ids` 执行数组去重校验；
-   - **唯一待复核状态机与图完整性**：锁定 `status` 唯一允许枚举 `active | draft | needs_reverify | deprecated`（拦截非标词如旧态冲突词）、`volatile` 条目 `valid_until` 非空 ISO 日期、`upstream_ids` 目标存在性与三色 DFS DAG 无环校验、条目 `path` 真实存在且位于仓库根内。
-2. **全仓 Markdown 本地相对链接校验**：扫描所有 `.md` 文件（自动剥离围栏代码块与行内代码），忽略 `http/https/mailto/tel/data/#`，核验所有本地相对链接目标存在、非绝对路径且未越界。
-3. **硬性隐私、编码格式、本机路径、凭据与受控个案/商业表防泄漏扫描**：
+   - **唯一待复核状态机、时效强约束与图完整性**：锁定 `status` 唯一允许枚举 `active | draft | needs_reverify | deprecated`（拦截非标词如旧态冲突词）、`volatile` 条目 `valid_until` 必为非空 ISO 日期、**`evergreen` 条目 `valid_until` 必须严格为 `null`**（填任何非 `null` 值均拦截）、`upstream_ids` 目标存在性与三色 DFS DAG 无环校验、条目 `path` 真实存在且位于仓库根内。
+2. **`research/` 细枝目录树、三方 1:1 全列严格双射、YAML Frontmatter、正文上下游图一致性与提纲完整度校验**：
+   - **`research/` 纯净度校验**：扫描 `research/` 全目录树，拒绝任何非 `.md` 杂文件（如 `.txt`/`.csv`/`.json`/`.gitkeep`/二进制产物等）；
+   - **三方 1:1 全列严格双射（`D ⇄ M ⇄ J`）与 43 母槽真校验**：校验 `index/master-map.md` §二 43 母槽汇总表无重复且严格等于 43 母槽白名单（缺失或空表直接报错）；完整解析 `index/master-map.md` §三每行叶子表的五元组 `(slot_id, parent_slot_id, card_id, path, batch)`（将表内相对链接归一化为仓库根相对 POSIX 路径，并检测重复子槽），与 `D`（`research/` 下所有非 `README.md` 叶子 `.md` 相对路径集合）及 `J`（`index/manifest.json` 中 `L1–L4` 业务条目集合）构成严格 1:1 全列双射（`D == J_paths`、`M == J_slots`，且同行 `parent_slot_id`/`card_id`/`path`/`batch` 逐字段精确一致）；
+   - **纯标准库 14 项 YAML Frontmatter 逐字段对齐校验**：逐篇解析每张叶子 `.md` 卡片顶部 `--- ... ---` YAML 元数据，**强校验完整 14 项必填键**（`card_id` / `slot_id` / `parent_slot_id` / `layer` / `batch` / `status` / `stability` / `valid_until` / `drivers` / `major_codes` / `target_regions` / `graduation_cohort` / `upstream_ids` / `last_verified`），强验 `batch ∈ {Batch 1..4}`、`last_verified` 为合法 ISO 日期、`evergreen` 下 `valid_until == null`，严禁元数据出现占位符（`<`/`>`/`[`/`]`/`待填`/`YYYY`/`TBD`/`TODO`），并校验 `parent_slot_id == slot_id.split('.')[0]` 及全部共有字段与 `index/manifest.json` 对应条目逐字段完全一致；
+   - **正文上下游链接与 `upstream_ids` 双向图一致性校验**：扫描每张叶子卡正文中以 `- **前置上游卡片**`（或 `- **核心上游卡片**`）及 `- **直接传导下游卡片**` 开头的行，提取其中指向 `research/` 叶子 `.md` 的相对链接——凡卡 `Y` 上游行链接卡 `X`、或卡 `X` 下游行链接卡 `Y`，均强制校验 `X.id ∈ Y.upstream_ids`（缺边立即退出 `1`）；
+   - **分状态正文结构校验**：剥离 YAML Frontmatter 与围栏代码块后，所有叶子 `.md` 卡片均强制包含 `>= 3` 个二级/三级小节标题（`^#{2,3}\s+\S`）；仅当 `status == "draft"`（提纲占位态）时额外强制包含 `>= 3` 条 `- [ ]`（或 `- [x]`）待填核查清单项（`active` / `needs_reverify` / `deprecated` 成稿态不再强制保留待办复选框）。
+3. **全仓 Markdown 本地相对链接校验**：扫描所有 `.md` 文件（自动剥离围栏代码块与行内代码），支持含一层内嵌方括号的链接标签（如 `[[官方原件] 标题](...)`）、未编码中文路径与 URL 百分号编码中文路径解码，忽略 `http/https/mailto/tel/data/#`，核验所有本地相对链接目标存在、非绝对路径、未越界，且当链接目标为目录时强制校验目录内存在 `README.md`。
+4. **硬性隐私、编码格式、本机路径、凭据与受控个案/商业表防泄漏扫描**：
    - **二进制与非 `UTF-8` 文件默认拒绝**：凡包含空字节（`NUL` / `\x00`）的二进制文件或无法按 `UTF-8` 解码的文件一律拒绝，防非文本绕过扫描；
    - **独立 `.json` 个案字段内容级隐私拦截**：对仓库内除 `index/manifest.json` 外的全部 `.json` 文件执行 JSON 解析与键/值扫描，拦截包含 `case_id` / `CASE-*` 标识、个人身份键（`student_name`、`id_card`、`phone`、`wechat` 等）或出现 `>= 2` 个个案/计算实例键（如 `student_rank`、`gaokao_score`、`max_annual_tuition_cny`、`dim1_academic_physical`、`group_evaluations` 等）的独立 JSON 文件，不依赖文件名约定；
    - 拦截各类本机绝对路径（macOS/Linux 用户目录与外置挂载卷路径、Windows 盘符用户路径）；
