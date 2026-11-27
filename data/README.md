@@ -9,7 +9,7 @@
 
 | 资产编号与类别 | 存储位置 | 入公开库权限 | 本地程序读取接口 |
 | --- | --- | --- | --- |
-| **D1** 知识资产路由与时效清单 | 公开仓库 `index/manifest.json`（`schema_version: 3.1.0`） | 允许公开 | 相对仓库根路径直接读取；强制校验 `FW/TPL` 系统白名单、`43` 母槽（`parent_slot_id`）全覆盖与全局唯一叶子子槽 `L*-***-dd.dd`（`slot_id`）、`research/` 叶子 `.md` ⇄ `index/master-map.md` 子槽行 ⇄ `index/manifest.json` 业务条目三方 1:1 严格双射与 YAML Frontmatter 逐字段一致、非空 `target_regions` 与必填非空 `graduation_cohort`（常青项填 `["all_cohorts"]`，具体卡填 `^20\d{2}_in_20\d{2}_(?:bachelor\|5yr\|master\|phd\|md_residency)$`） |
+| **D1** 知识资产路由与时效清单 | 公开仓库 `index/manifest.json`（`schema_version: 3.2.0`） | 允许公开 | 相对仓库根路径直接读取；强制校验 `schema_version == "3.2.0"`、`12` 项 `FW/TPL` 系统槽全覆盖、`41` 母槽（`parent_slot_id`：`L1` 15 / `L2` 11 / `L3` 9 / `L4` 6，覆盖 18 二级子目录 × 102 篇细枝）全覆盖与全局唯一叶子子槽 `L*-***-dd.dd`（`slot_id`）、`research/` 叶子 `.md` ⇄ `index/master-map.md` 五元组子槽行 ⇄ `index/manifest.json` 业务条目三方 1:1 严格双射与 14 键 YAML Frontmatter 逐字段一致、非空 `target_regions` 与必填非空 `graduation_cohort`（常青项填 `["all_cohorts"]`，具体卡填 `^20\d{2}_in_20\d{2}_(?:bachelor\|5yr\|master\|phd\|md_residency)$`） |
 | **D2** 江苏在苏招生专业组、历年投档/专业分底表与当年章程调剂规则表（`D2-A/B/C/D`） | 本地受控招生数据区 | **严格禁止入公开库** | 通过环境变量 `PATHWISE_CONTROLLED_DATA_DIR` 或 CLI 参数 `--controlled-data-dir` 注入 |
 | **D3** 跨年专业组拆并映射明细与异常年标记表 | 明细留本地受控区；通用规则公开 | **明细严格禁止入公开库** | 同上，从 `$PATHWISE_CONTROLLED_DATA_DIR` 读取 |
 | **D5** 教育部本科专业↔L2职业规格/L3培养与逐路径主备映射字典 | 公开仓库 `data/dictionaries/`（后续启用） | **允许公开**（仅含国标专业代码与公共研究卡 ID，零商业考分与个人数据） | 相对仓库根路径读取 |
@@ -21,9 +21,9 @@
 
 | 缺失字段类别 | 具体涉及字段 | 允许的表级 `completeness_status` | 下游 `D6` 强制行为（硬规则） |
 | --- | --- | --- | --- |
-| **一般辅助字段** | `moe_college_code`、`max_score`、`major_max_score`、`major_avg_score`、`notes` | `partial` | 不单独阻断红线核验或水位精算，仅在报告中保留降级备注 |
-| **红线核验字段与当年章程规则** | `D2-A.subject_req`、`D2-B.physical_limit_codes`（`null` 表示未知，`[]` 表示已核无受限）、`D2-B.tuition_cny_per_year`、`D2-B.duration_years`、`D2-B.transfer_restriction=="unknown"`、`D2-D` 缺失或 `rule_completeness != "complete"`、`D2-D.group_wide_scenario_flags == null`、`D2-D.member_scenario_flags_by_seq == null` 或实际可调剂成员 `seq ∈ S` 在 `member_scenario_flags_by_seq` 中缺键/为 `null` | `partial` 或 `unknown` | 只要实际可调剂范围 `S` 内**任一成员**命中任一项未知，立即置 `unverified_redline_block_safety = true` 且 `safety_pool_blocked = true`，**严禁放行进 `safety` 保底池** |
-| **分位计算核心字段** | 实际可调剂范围内任一成员的 `D2-B.major_min_rank` 或 `D2-B.admitted_count` 为 `null`（或 `D2-D` 可调剂范围未核清） | `partial`（缺成员分位）或 `unknown` | **一律强制输出 `water_level = "unknown"` 且 `safety_pool_blocked = true`**；删除“缺录取人数时退化为等权仍算 `top/mid`”的旧口径（除非存在经独立审核明确批准的同口径可比替代证据，默认无） |
+| **一般辅助字段** | `moe_college_code`、`max_score`、`major_avg_score`、`notes`（注：`major_max_score` 及换算所得 `major_max_rank` 在缺组内逐人/逐分位次分布时属水位区间定界核心输入，不归此类） | `partial` | 不单独阻断红线核验或水位精算，仅在报告中保留降级备注 |
+| **红线核验字段与当年章程规则** | `D2-A.subject_req`（含未识别原文哨兵值 `"UNPARSED_RAW_SUBJECT_REQ"`）、`D2-B.physical_limit_codes`（`null` 表示未知，`[]` 表示已核无受限）、`D2-B.tuition_cny_per_year`、`D2-B.duration_years`、`D2-B.transfer_restriction=="unknown"`、`D2-B.is_broad_category==true` 且 `broad_stream_major_codes` 为 `null`/空或 `broad_stream_completeness != "complete"`、`D2-D` 缺失或 `rule_completeness != "complete"`、`D2-D.group_wide_scenario_flags == null`、`D2-D.member_scenario_flags_by_seq == null` 或实际暴露成员 `seq ∈ S` 在 `member_scenario_flags_by_seq` 中缺键/为 `null` | `partial` 或 `unknown` | 只要实际录取暴露范围 `S` 内**任一成员**命中任一项未知，立即置 `unverified_redline_block_safety = true` 且 `safety_pool_blocked = true`，**严禁放行进 `safety` 保底池** |
+| **分位定界核心字段** | 缺失同口径组内逐人/逐分录取位次分布时：暴露集 `S` 内任一成员的 `D2-B.major_min_rank` 或 `D2-B.admitted_count`（`null` 或 `<= 0`）缺失、`D2-D` 调剂范围未核清，或因缺 `D2-B.major_max_rank` / 即使有 `major_max_rank` 仍致严格前序分位区间 `[P_min, P_max]` 跨越分档边界（`0.20 / 0.50 / 0.80`） | `partial`（缺成员分位或最高位次定界不足）或 `unknown` | **一律强制输出 `water_level = "unknown"`、`water_level_percentile = null`（附 `water_level_percentile_bounds: [P_min, P_max]`）且 `safety_pool_blocked = true`**；严禁凭 `(major_min_rank, admitted_count)` 伪推组内分位、直录/调剂概率或放行进入 `safety` 保底池，亦严禁缺录取人数时退化为等权估算 |
 
 3. **公共字段编码标准**：统一 UTF-8（无 BOM）编码；日期遵循 ISO 8601（`YYYY-MM-DD`）；缺失值在 JSON 中为 `null`，在 CSV 中为空字符串 `""`（绝不用 `0`、`-1` 或空数组 `[]` 冒充未核实的未知值）。
 
@@ -50,7 +50,7 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 | `college_tier` | `string` | 否 | `985` \| `211` \| `double_first_class` \| `public_undergrad` \| `private_undergrad` \| `independent` | 院校层次分类 |
 | `college_province` | `string` | 否 | 标准省级行政区简称（如 `"北京"`、`"江苏"`） | 院校主办学地所属省份（用于 D4 地域多样性诊断） |
 | `group_code` | `string` | 否 | 2–4 位专业组代码（如 `"01"`、`"05"`） | 院校专业组号 |
-| `subject_req` | `string` | 否 | `PHY_CHEM` \| `PHY_ONLY` \| `PHY_BIO` \| `PHY_GEO` \| `PHY_POL` \| `HIST_ONLY` \| `HIST_POL` \| `HIST_GEO` \| `HIST_CHEM` \| `HIST_BIO` \| `UNLIMITED` | 再选科目硬门槛（物理/历史首选 + 再选要求） |
+| `subject_req` | `string` | 否 | 既有单/双科及不限枚举：`PHY_CHEM` \| `PHY_ONLY` \| `PHY_BIO` \| `PHY_GEO` \| `PHY_POL` \| `HIST_ONLY` \| `HIST_POL` \| `HIST_GEO` \| `HIST_CHEM` \| `HIST_BIO` \| `UNLIMITED`；`3+1+2` 三科合取枚举：`PHY_CHEM_BIO` \| `PHY_CHEM_GEO` \| `PHY_CHEM_POL` \| `PHY_BIO_GEO` \| `PHY_BIO_POL` \| `PHY_GEO_POL` \| `HIST_POL_GEO` \| `HIST_POL_CHEM` \| `HIST_POL_BIO` \| `HIST_GEO_CHEM` \| `HIST_GEO_BIO` \| `HIST_CHEM_BIO`；未识别哨兵值：`UNPARSED_RAW_SUBJECT_REQ` | 选考科目硬门槛（物理/历史首选 + 再选要求）。**无损映射铁律**：三科全选原文（如昆明学院 2025 年在苏临床医学、药学、医学检验技术“物理+化学+生物(3门科目考生均须选考方可报考)”）必须无损映射为 `PHY_CHEM_BIO`，**严禁降格压宽为 `PHY_CHEM`**；任何未能 100% 无损匹配的复杂析取或新表述原文一律置 `UNPARSED_RAW_SUBJECT_REQ` 且表级 `completeness_status = "unknown"`（原文保留于 `notes`），交 `D6` 阶段一拦截转人工核验 |
 | `plan_count` | `integer` | 是 | `>= 0` | 该专业组当年在苏计划招生总数 |
 | `admitted_count` | `integer` | 是 | `>= 0` | 该专业组实际录取人数 |
 | `min_score` | `integer` | 是 | `0`–`750` | 专业组最低投档分 |
@@ -67,8 +67,8 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 ### 2.2 D2-B 组内各专业计划与录取明细表（`admissions_group_majors`）
 
 - **主键（PK）**：`(admission_year, track, batch, college_code, group_code, major_seq)`
-- **外键（FK）**：`(admission_year, track, batch, college_code, group_code)` → `admissions_group_cutoff`；`moe_major_code` → D5 `major_pathway_dictionary.moe_major_code`（大类招生允许为 `null` 并通过别名表解析）
-- **业务定位**：支撑 `2B` 硬红线整组否决（体检/学费/禁转/排斥专业核查）与非红线组内 `water_level` 相对水位精算。
+- **外键（FK）**：`(admission_year, track, batch, college_code, group_code)` → `admissions_group_cutoff`；`moe_major_code` → D5 `major_pathway_dictionary.moe_major_code`（大类招生允许 `moe_major_code` 为 `null`，但**必须按该校、当年、该组、该成员在 `broad_stream_major_codes` 与 `broad_stream_completeness` 中结构化登记官方章程/分流方案公布的实际可分流专业代码集合**，严禁拿 `D5.broad_category_aliases` 跨校通用别名充当该校大类全集）
+- **业务定位**：支撑 `2B` 硬红线整组否决（体检/学费/禁转/排斥专业/大类按校分流核查）与非红线组内 `water_level` 相对水位严格区间定界。
 
 | 字段名 | 类型 | 可空 | 枚举 / 格式约束 | 业务含义 |
 | --- | --- | --- | --- | --- |
@@ -78,23 +78,26 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 | `college_code` | `string` | 否 | 同 D2-A | 院校代码（FK） |
 | `group_code` | `string` | 否 | 同 D2-A | 专业组号（FK） |
 | `major_seq` | `integer` | 否 | `>= 1` | 组内专业顺序号 |
-| `moe_major_code` | `string` | 是 | `^[0-9]{6}[KT]?$` | 教育部标准本科专业代码（大类招生可为 `null`） |
+| `moe_major_code` | `string` | 是 | `^[0-9]{6}(?:T\|K\|TK)?$` | 教育部标准本科专业代码（大类招生可为 `null`，此时须配合 `broad_stream_major_codes` 核验） |
 | `raw_major_name` | `string` | 否 | 招生计划原名 | 招生章程/计划书中的专业（或大类）原始名称 |
-| `is_broad_category` | `boolean` | 否 | `true` \| `false` | 是否按专业大类招生（需关联大类分流与 D5 别名） |
+| `is_broad_category` | `boolean` | 否 | `true` \| `false` | 是否按专业大类招生（为 `true` 时须按校、按年、按组核验 `broad_stream_major_codes` 与 `broad_stream_completeness`） |
+| `broad_stream_major_codes` | `array<string>` | 是 | 元素匹配 `^[0-9]{6}(?:T\|K\|TK)?$`；`is_broad_category == false` 时固定为 `[]`；`is_broad_category == true` 且未核清时填 `null` | **该校、当年、该组、该大类成员**官方章程或专业分流方案公布的实际可分流国标专业代码集合（供 `D6` 阶段一红线核查；**严禁拿 `D5.broad_category_aliases` 跨校通用别名充当某校大类全集**） |
+| `broad_stream_completeness` | `string` | 否 | `not_applicable` \| `complete` \| `incomplete_or_unknown` | 大类可分流集合核验完整性；非大类必为 `not_applicable`；大类已核全当年官方分流全集时方可为 `complete`，否则必为 `incomplete_or_unknown`（触发 `D6` 阶段一未排除红线时强制拦截出 `safety` 保底池） |
 | `plan_count` | `integer` | 是 | `>= 0` | 单专业计划招生数 |
-| `admitted_count` | `integer` | 是 | `>= 0` | 单专业实际录取人数（用于水位分位加权） |
+| `admitted_count` | `integer` | 是 | `>= 0` | 单专业实际录取人数（`> 0` 方可参与分位区间分母 `N_S` 与辅助门槛占比计算；单凭 `major_min_rank + admitted_count` 无法还原组内位次分布） |
 | `tuition_cny_per_year` | `integer` | 是 | `>= 0` | 年学费（人民币元/年；用于 `dim2` 学费硬红线校验） |
 | `duration_years` | `integer` | 是 | `4` \| `5` \| `6` \| `7` \| `8` | 培养学制（年；用于对齐 L2 毕业入职时钟） |
 | `campus_location` | `string` | 是 | 城市/校区名 | 单专业实际办学地点 |
 | `program_type` | `string` | 否 | `regular` \| `sino_foreign` \| `joint_degree` \| `honors_base` \| `targeted` \| `normal_public_funded` | 班型与办学类型（普通/中外合作/联合学士学位/拔尖基地/定向/公费师范） |
 | `transfer_restriction` | `string` | 否 | `allowed` \| `restricted` \| `prohibited` \| `unknown` | 入校转专业约束状态（中外合作明文禁转记为 `prohibited`） |
-| `physical_limit_codes` | `array<string>` | 是 | 教育部体检受限条款编号数组；**`[]` 仅表示已核实无受限条款，`null` 表示未核实未知（严禁混同）** | 体检限报/不予录取条款（如色盲/色弱/视力条款；命中交集即退档红线否决，为 `null` 即触发 `unverified_redline_block_safety=true`） |
+| `physical_limit_codes` | `array<string>` | 是 | 教育部体检受限条款编号数组；**`[]` 仅表示已核实无受限条款，`null` 表示未核实未知（严禁混同）** | 高校当年招生章程体检限报/不予录取条款（如色盲/色弱/视力条款；命中交集即退档红线否决，为 `null` 即触发 `unverified_redline_block_safety=true`；**与 `D5` 按年度/单位/岗位记录的招聘用工体检风险提示严格剥离，严禁凭 `D5` 用工体检风险替代 `D2-B` 对招生专业组作 `D6` 硬否决**） |
 | `major_min_score` | `integer` | 是 | `0`–`750` | 单专业最低录取分 |
-| `major_min_rank` | `integer` | 是 | `>= 1` | 单专业最低录取位次（任一可调剂成员缺失即触发下游 `water_level=unknown`） |
-| `major_max_score` | `integer` | 是 | `0`–`750` | 单专业最高录取分 |
+| `major_min_rank` | `integer` | 是 | `>= 1` | 单专业最低录取等效位次（数字越小位次越靠前；任一暴露集成员缺失即触发下游 `water_level="unknown"` 且 `safety_pool_blocked=true`） |
+| `major_max_score` | `integer` | 是 | `0`–`750` | 单专业最高录取分（用于经 `D2-C` 换算 `major_max_rank` 以辅助水位区间定界） |
+| `major_max_rank` | `integer` | 是 | `>= 1` 且 `<= major_min_rank` | 单专业最高录取分对应的等效位次（由 `major_max_score` 经 `D2-C` 换算或官方公布；缺失同口径组内逐人/逐分位次分布时，用于计算 `water_level` 前序占比严格上下界 `[P_min, P_max]` 的核心定界输入） |
 | `major_avg_score` | `number` | 是 | `0`–`750` | 单专业平均录取分 |
-| `completeness_status` | `string` | 否 | `complete` \| `partial` \| `unknown` | 单专业记录完整性状态（须同步配合 §1 字段级缺失映射规则；缺 `major_min_rank` 或 `admitted_count` 或红线字段均触发下游硬拦截） |
-| `notes` | `string` | 是 | 自由文本 | 专业备注（含大类含具体专业清单等辅助信息；单科/外语/调剂硬条款须结构化落入 `D2-D`） |
+| `completeness_status` | `string` | 否 | `complete` \| `partial` \| `unknown` | 单专业记录完整性状态（须同步配合 §1 字段级缺失映射规则；缺 `major_min_rank`、`admitted_count`、红线字段、大类可分流全集，或无组内分布且 `major_max_rank` 定界跨档，均触发下游对应硬拦截） |
+| `notes` | `string` | 是 | 自由文本 | 专业备注（大类当年官方可分流代码集合须结构化落入 `broad_stream_major_codes` 与 `broad_stream_completeness`，单科/外语/调剂硬条款须结构化落入 `D2-D`，均不得仅滞留于自由文本） |
 
 ### 2.3 D2-C 江苏一分一段与报考规模辅助表（`js_score_rank_scale`）
 
@@ -126,7 +129,7 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 | `member_scenario_flags_by_seq` | `object<string, array<string>>` | 是 | 键为字符串化的 `D2-B.major_seq`（如 `"1"`、`"2"`、`"3"`），值为上述 7 类枚举数组（该专业无风险填 `[]`）；未核填 `null`；**实际可调剂成员 `seq ∈ S` 缺键或值为 `null` 均视为未知** | 按组内专业序号逐专业记录的场景红线标记（避免已书面排除专业的风险污染可调剂子集） |
 | `rule_completeness` | `string` | 否 | `complete` \| `partial` \| `unknown` | 当年规则核验完整性；**凡缺失当年 `D2-D` 记录或 `rule_completeness != "complete"`，D6 必须按已知全组成员执行最坏暴露红线扫描，并强制置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`** |
 
-- **排除后暴露集合与场景红线投影规则（`3.1.0`）**：设 `G` 为当年 `D2-B` 组内全部专业序号集合，`T` 为考生在该组主动填报的专业序号集合（`D6Input.candidate_group_targets[].target_major_seqs`），`A` 为 `adjustable_major_seqs`，`E` 为 `excluded_major_seqs`。
+- **排除后暴露集合与场景红线投影规则（`3.2.0`）**：设 `G` 为当年 `D2-B` 组内全部专业序号集合，`T` 为考生在该组主动填报的专业序号集合（`D6Input.candidate_group_targets[].target_major_seqs`），`A` 为 `adjustable_major_seqs`，`E` 为 `excluded_major_seqs`。
   - **严格区分两类回退成因**：① **考生填报合法性（`group_target_valid`）**：`D6Input.candidate_group_targets[]` 按归一化完整五元组键 `(target_year, track, batch, college_code, group_code)` 全局唯一且单条 `target_major_seqs` 内元素严格去重；**仅当**缺失、出现重复组键（`>= 2` 条）或 `target_major_seqs` 含重复/为空/非正整数/越界 `⊈ G` / `target_year` 不符时，判 `group_target_valid = false`（与顺序无关回退 `S = G`、强制阻断保底，且引用该组的配对 `binding_valid = false`）；② **章程调剂证据回退**：当考生填报合法（`group_target_valid == true`），在 `adjustment_scope_mode == "subset_isolated_verified"` 且 `rule_completeness == "complete"`、`A != null` 且 `(A ∪ E) ⊆ G` 时，实际录取暴露集合严格定义为 **`S = T ∪ (A \ E)`**——**`E` 仅从被动调剂集合 `A` 中剔除，绝不从考生主动填报集合 `T` 中剔除**；若 `subset_isolated_verified` 下 `A == null` 或 `(A ∪ E) ⊈ G`（或 `no_adjustment_written_promise_verified` 未满足书面生效条件，或缺失 `D2-D` / `adjustment_scope_mode == "unknown"` / `rule_completeness != "complete"`），则**保留 `group_target_valid = true`**（不误判为考生填报非法或 `binding_valid = false`），仅回退 `S = G` 最坏暴露并置 `unverified_redline_block_safety = true`、`water_level = "unknown"`、`water_level_percentile = null`、`safety_pool_blocked = true`，若该组被合法配对引用，已知同组共损（同属 `(college_code, group_code)` 且两端 `major_seq ∈ S`，或含 `same_admission_group_risk`）优先判 `group_isolation = "fail"`，未命中同组 `"fail"` 时（如跨组配对）由章程证据规则令 `group_isolation = "unknown_blocked"`（绝不判 `"pass"`）。
   - 若 `group_wide_scenario_flags == null`、`member_scenario_flags_by_seq == null`，或存在任意 `seq ∈ S` 在 `member_scenario_flags_by_seq` 中缺键或值为 `null`，D6 强制置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`；否则仅按投影集合 `effective_scenario_flags(S) = group_wide_scenario_flags ∪ (⋃_{seq ∈ S} member_scenario_flags_by_seq[str(seq)])` 与 `seq ∈ S` 的成员执行 `VETO_HARD_REDLINE_MAJOR`——未被考生主动填报且已书面排除调剂的 `seq ∈ E \ T` 不污染 `S`。
 
@@ -171,8 +174,8 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 | `校名` / `省份` / `层次` | D2-A `college_name` / `college_province` / `college_tier` | 标准化枚举并回查 `college_code` |
 | `科类` / `年份` / `组号` | D2-A & D2-B `track` / `admission_year` / `group_code` | `物理类 -> physics`、`历史类 -> history`，组号零填充至 2 位 |
 | `类型` | 路由分流键 | `投档线` 行写入 D2-A；`专业分` 行写入 D2-B |
-| `最低分` / `最低位次` / `最高分` / `录取数` | D2-A 组级指标或 D2-B 专业级指标 | 空值置 `null`，缺专业分明细时组记录标注 `completeness_status=partial` |
-| `专业名` / `选考要求` / `备注` | D2-B `raw_major_name` / D2-A `subject_req` / `notes` | 过滤非专业名控制标记，解析选考枚举与学费/校区备注 |
+| `最低分` / `最低位次` / `最高分` / `录取数` | D2-A 组级指标或 D2-B 专业级指标（含由 `major_max_score` 经 `D2-C` 换算的 `major_max_rank`） | 空值置 `null`，缺专业分明细或 `major_max_rank` 时如实标注，严禁缺值伪推分位 |
+| `专业名` / `选考要求` / `备注` | D2-B `raw_major_name` / D2-A `subject_req` / `notes` | 过滤非专业名控制标记；选考原文按 §2.1 无损映射（三科全选如“物理+化学+生物(3门科目考生均须选考方可报考)”必映射为 `PHY_CHEM_BIO`，**严禁压宽为 `PHY_CHEM`**；任何未能 100% 无损匹配的原文一律置 `subject_req = "UNPARSED_RAW_SUBJECT_REQ"` 且 `completeness_status = "unknown"` 并保留原文于 `notes`）；解析学费/校区备注 |
 
 **D2-A / D2-B 虚构占位示例（`[虚构占位示例，非真实招生数据]`）**：
 
@@ -182,9 +185,9 @@ admission_year,province_source,track,batch,college_code,moe_college_code,college
 ```
 
 ```csv
-admission_year,track,batch,college_code,group_code,major_seq,moe_major_code,raw_major_name,is_broad_category,plan_count,admitted_count,tuition_cny_per_year,duration_years,campus_location,program_type,transfer_restriction,physical_limit_codes,major_min_score,major_min_rank,major_max_score,major_avg_score,completeness_status,notes
-2025,physics,undergrad_regular,9901,02,1,080601,电气工程及其自动化,false,20,20,5800,4,主校区,regular,allowed,"[]",620,19200,628,623.5,complete,虚构占位示例行
-2025,physics,undergrad_regular,9901,02,2,080401,材料科学与工程,false,20,20,5800,4,主校区,regular,allowed,"[""2.2""]",612,24500,619,615.0,complete,虚构占位示例行
+admission_year,track,batch,college_code,group_code,major_seq,moe_major_code,raw_major_name,is_broad_category,broad_stream_major_codes,broad_stream_completeness,plan_count,admitted_count,tuition_cny_per_year,duration_years,campus_location,program_type,transfer_restriction,physical_limit_codes,major_min_score,major_min_rank,major_max_score,major_max_rank,major_avg_score,completeness_status,notes
+2025,physics,undergrad_regular,9901,02,1,080601,电气工程及其自动化,false,"[]",not_applicable,20,20,5800,4,主校区,regular,allowed,"[]",620,19200,628,15400,623.5,complete,虚构占位示例行
+2025,physics,undergrad_regular,9901,02,2,080401,材料科学与工程,false,"[]",not_applicable,20,20,5800,4,主校区,regular,allowed,"[""2.2""]",612,24500,619,19800,615.0,complete,虚构占位示例行
 ```
 
 ---
@@ -286,21 +289,22 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 
 ## 4. D5：教育部本科专业↔L2职业规格/L3培养与逐路径主备映射字典
 
-- **主键（PK）**：`moe_major_code`（教育部 6 位标准本科专业代码，特设专业带 `T`，国家控制布点专业带 `K`）
+- **主键（PK）**：`moe_major_code`（教育部 6 位标准本科专业代码，特设专业带 `T`，国家控制布点专业带 `K`，特设兼国家控制布点专业带双后缀 `TK`）
 - **公私权限**：本字典仅连接国标专业目录与公开库 `L2 / L3` 公共卡片 ID 及逐路径准入门槛，**不含真实考分与个案信息，允许公开入库**。
-- **逐路径与跨专业全局配对原则（`3.1.0`）**：同一本科专业往往对应多个跨行业岗位族、不同就业地域与不同学历/执业准入门槛，且真实志愿中的主攻与备选常跨越**不同国标专业**（如法学 vs 知识产权、临床医学 vs 药学）。本契约以结构化对象数组 `primary_routes[]` 与 `backup_routes[]` 逐路径建模，强制 `route_id` 以 `moe_major_code` 为全局唯一前缀，并通过 `backup_routes[].paired_primary_refs[]`（含 `primary_major_code + primary_route_id + co_failure_status_by_dim`）实现同专业与跨专业的确定性主备配对及逐维共损审计，支撑 `D6` 结合个案端专业组绑定与 `D2-D` 规则执行四维独立性冲击核验。
+- **逐路径与跨专业全局配对原则（`3.2.0`）**：同一本科专业往往对应多个跨行业岗位族、不同就业地域与不同学历/执业准入门槛，且真实志愿中的主攻与备选常跨越**不同国标专业**（如法学 vs 知识产权、临床医学 vs 药学）。本契约以结构化对象数组 `primary_routes[]` 与 `backup_routes[]` 逐路径建模，强制 `route_id` 以 `moe_major_code` 为全局唯一前缀，并通过 `backup_routes[].paired_primary_refs[]`（含 `primary_major_code + primary_route_id + co_failure_status_by_dim`）实现同专业与跨专业的确定性主备配对及逐维共损审计，支撑 `D6` 结合个案端专业组绑定与 `D2-D` 规则执行四维独立性冲击核验。
 
 ### 4.1 专业级主记录字段
 
 | 字段名 | 类型 | 可空 | 枚举 / 格式约束 | 业务含义 |
 | --- | --- | --- | --- | --- |
-| `moe_major_code` | `string` | 否 | `^[0-9]{6}[KT]?$` | 教育部标准本科专业代码（PK） |
+| `moe_major_code` | `string` | 否 | `^[0-9]{6}(?:T\|K\|TK)?$` | 教育部标准本科专业代码（PK） |
 | `moe_major_name` | `string` | 否 | 教育部目录规范名 | 标准本科专业名称 |
-| `discipline_category` | `string` | 否 | 教育部 12/13 学科门类规范名（如 `工学`/`理学`/`医学`/`法学`） | 学科门类（用于客观判定 `cross_discipline_mix`） |
-| `sub_category` | `string` | 否 | 教育部专业类规范名（如 `电气类`/`法学类`） | 所属本科专业类 |
-| `is_special_major` | `boolean` | 否 | `true` \| `false` | 是否特设专业（代码含 `T`） |
-| `is_controlled_major` | `boolean` | 否 | `true` \| `false` | 是否国家控制布点专业（代码含 `K`） |
-| `broad_category_aliases` | `array<string>` | 否 | 常见高校大类招生名称列表 | 将 D2-B 宽口径大类名称映射回候选国标专业集合 |
+| `discipline_category` | `string` | 否 | 教育部本科专业目录学科门类规范名（如 `工学`/`理学`/`医学`/`法学`/`交叉学科`，对应目录门类 `01–14`） | 学科门类（用于客观判定 `cross_discipline_mix`） |
+| `has_moe_sub_category` | `boolean` | 否 | `true` \| `false` | 教育部官方本科专业目录中该门类下是否为本专业设有四位专业类（普通门类填 `true`；如教育部《普通高等学校本科专业目录（2026年）》第 32–33 页在 `14 交叉学科` 下直接列专业 `140001TK 未来机器人` 而未设专业类时填 `false`） |
+| `sub_category` | `string` | 是 | `has_moe_sub_category == true` 时非空必填教育部专业类规范名（如 `电气类`/`法学类`）；`has_moe_sub_category == false` 时固定为 `null`（明确语义为“目录未设专业类/不适用”，严格区别于未采到；普通有类专业缺失专业类名时严禁置 `has_moe_sub_category=false`） | 所属本科专业类（目录未设专业类时为 `null`） |
+| `is_special_major` | `boolean` | 否 | `true` \| `false` | 是否特设专业（代码含 `T`；后缀为 `TK` 特设兼国家控制布点专业时，与 `is_controlled_major` 同时置 `true`） |
+| `is_controlled_major` | `boolean` | 否 | `true` \| `false` | 是否国家控制布点专业（代码含 `K`；后缀为 `TK` 特设兼国家控制布点专业时，与 `is_special_major` 同时置 `true`） |
+| `broad_category_aliases` | `array<string>` | 否 | 常见高校大类招生名称列表 | 跨校通用大类招生别名提示索引（**仅作跨校检索与线下核查提示，严禁替代 `D2-B.broad_stream_major_codes` 充当某校当年大类可分流全集，更不得据此在 `D6` 阶段一放行未核大类**） |
 | `role_family_tags` | `array<string>` | 否 | 跨行业岗位族规范标识数组（如 `power_grid_ops`、`industrial_control`、`corporate_ip_legal`） | 建立“专业↔岗位族↔多行业”多对多索引，防止将跨行业职能武断塞入单一产业槽位 |
 | `l2_career_card_ids` | `array<string>` | 否 | 须命中 `index/manifest.json` 的 `L2` 卡片 `id` | 关联的 L2 毕业窗职业入口规格卡汇总 |
 | `l3_pathway_card_ids` | `array<string>` | 否 | 须命中 `index/manifest.json` 的 `L3` 卡片 `id` | 关联的 L3 培养实得训练与大学执行轴卡片 |
@@ -314,7 +318,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 
 | 字段名 | 适用数组 | 类型 | 可空 | 枚举 / 格式约束 | 业务含义 |
 | --- | --- | --- | --- | --- | --- |
-| `route_id` | 主 / 备 | `string` | 否 | **全局唯一键**，正则 `^[0-9]{6}[KT]?-(?:PRI\|BKP)-[0-9]{2,}$`，且前缀必须严格等于所在记录的 `moe_major_code`（如 `"080601-PRI-01"`、`"030102T-BKP-01"`） | 跨专业全局唯一路径主键 |
+| `route_id` | 主 / 备 | `string` | 否 | **全局唯一键**，正则 `^[0-9]{6}(?:T\|K\|TK)?-(?:PRI\|BKP)-[0-9]{2,}$`，且前缀必须严格等于所在记录的 `moe_major_code`（如 `"080601-PRI-01"`、`"030102T-BKP-01"`、`"030108TK-PRI-01"`） | 跨专业全局唯一路径主键 |
 | `role_family_id` | 主 / 备 | `string` | 否 | 具体岗位族规范标识（非空） | 该路径对应的跨行业岗位族 ID |
 | `l2_career_card_id` | 主 / 备 | `string` | 是 | 非空时须命中 `index/manifest.json` 的 `L2` 卡片 `id` | 该路径挂载的 L2 规格卡 ID |
 | `job_regions` | 主 / 备 | `array<string>` | 否 | 非空数组；元素枚举：`jiangsu_local` \| `yrd_cluster` \| `national_mobile` \| `remote_field_site` \| `unknown` | 该路径主要应届就业地域分布 |
@@ -329,27 +333,28 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 
 | 字段名 | 类型 | 可空 | 枚举 / 格式约束 | 业务含义 |
 | --- | --- | --- | --- | --- |
-| `primary_major_code` | `string` | 否 | `^[0-9]{6}[KT]?$` | 所配对主路径归属的国标专业代码（允许指向本专业记录或**另一国标专业记录**） |
-| `primary_route_id` | `string` | 否 | `^[0-9]{6}[KT]?-PRI-[0-9]{2,}$`，且前缀须等于 `primary_major_code` | 所配对主路径的全局唯一 `route_id`（须命中 `primary_major_code` 对应记录的 `primary_routes[]`） |
+| `primary_major_code` | `string` | 否 | `^[0-9]{6}(?:T\|K\|TK)?$` | 所配对主路径归属的国标专业代码（允许指向本专业记录或**另一国标专业记录**） |
+| `primary_route_id` | `string` | 否 | `^[0-9]{6}(?:T\|K\|TK)?-PRI-[0-9]{2,}$`，且前缀须等于 `primary_major_code` | 所配对主路径的全局唯一 `route_id`（须命中 `primary_major_code` 对应记录的 `primary_routes[]`） |
 | `co_failure_status_by_dim` | `object` | 否 | 必须严格包含且仅包含 `payer`、`entry_gate`、`region_exposure` 三键，每键取值仅限 `isolated \| shared_fail \| unknown`（严禁缺键、`null` 或超枚举值） | 逐维内在共损审计状态（`group_isolation` 由个案端 `D6` 绑定目标年院校专业组与 `D2-D` 动态裁定） |
 | `shared_bottlenecks` | `array<string>` | 否 | 非空数组；元素枚举：`same_payer_pool` \| `same_admission_group_risk` \| `same_degree_master_gate` \| `same_license_gate` \| `same_region_cycle` \| `same_org_type_exposure` \| `none` \| `unknown` | 共享单点故障标签集；**严禁 `"none"` 与任何其他值混用，严禁 `"unknown"` 与 `"none"` 混用** |
 | `shared_failure_notes` | `string` | 是 | 非空文字说明（当 `shared_bottlenecks` 非 `["none"]` 时必填） | 写明共享故障点的触发情景、传导边界或待核原因（供 D6 逐配对核验直接透出） |
 
-- **共损对象合法性与双向一致性硬规则（`3.1.0`）**：
+- **共损对象合法性与双向一致性硬规则（`3.2.0`）**：
   1. **严格三键与枚举校验**：`co_failure_status_by_dim` 必须为非空对象且精确包含 `{"payer", "entry_gate", "region_exposure"}` 三键，每个键值必须属于 `{"isolated", "shared_fail", "unknown"}`；凡缺键、`null`、超枚举值或非对象结构，下游 `D6` 按正向白名单一律视同未核清并置 `"unknown_blocked"`，**严禁落入 `"pass"`**；
   2. **双向一致性约束**：仅当 `co_failure_status_by_dim` 严格合法且三键均为 `"isolated"` 时，`shared_bottlenecks` 方可填 `["none"]`（且不得与其他值混用）；任一维为 `"shared_fail"` 时，`shared_bottlenecks` 须包含对应故障标签且不得为 `["none"]`；任一维为 `"unknown"` 时，`shared_bottlenecks` 须包含 `"unknown"` 且不得包含 `"none"`；反之，若 `shared_bottlenecks` 包含 `"unknown"` 而 `co_failure_status_by_dim` 未显式标出对应 `"unknown"` 维度，下游 `D6` 将全部未命中 `"fail"` 的维度一律置为 `"unknown_blocked"`；**任何违反上述双向一致性（如 `co_failure_status_by_dim` 缺键或含 `shared_fail`/`unknown` 却填 `shared_bottlenecks: ["none"]`）均直接视同非法未核清，下游 `D6` 强制置 `"unknown_blocked"`，绝不判 `"pass"`**；
   3. **个案端临时配对降级规则**：若考生在 D6 组合的主备路径未在 `D5` 的 `paired_primary_refs[]` 中预登记共损审计，无法仅凭单路径字段交集证伪共损的维度（尤其是 `region_exposure`）及未通过正向白名单校验的维度一律判 `"unknown_blocked"`，严禁默认判 `"pass"`。
 
-**D5 公共字典结构占位示例（`[结构示意示例，关联卡片 ID 待分批研究填充；含同专业双路径与跨专业主备配对 030101K <-> 030102T]`）**：
+**D5 公共字典结构占位示例（`[结构示意示例，关联卡片 ID 待分批研究填充；含同专业双路径、跨专业主备配对 030101K <-> 030102T，以及 14 交叉学科目录无专业类记录 140001TK 未来机器人]`）**：
 
 ```json
 {
-  "schema_version": "3.1.0",
+  "schema_version": "3.2.0",
   "records": [
     {
       "moe_major_code": "080601",
       "moe_major_name": "电气工程及其自动化",
       "discipline_category": "工学",
+      "has_moe_sub_category": true,
       "sub_category": "电气类",
       "is_special_major": false,
       "is_controlled_major": false,
@@ -407,6 +412,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
       "moe_major_code": "030101K",
       "moe_major_name": "法学",
       "discipline_category": "法学",
+      "has_moe_sub_category": true,
       "sub_category": "法学类",
       "is_special_major": false,
       "is_controlled_major": true,
@@ -438,6 +444,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
       "moe_major_code": "030102T",
       "moe_major_name": "知识产权",
       "discipline_category": "法学",
+      "has_moe_sub_category": true,
       "sub_category": "法学类",
       "is_special_major": true,
       "is_controlled_major": false,
@@ -487,6 +494,38 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
       "l3_evidence_status": "pending",
       "admissions_verification_questions": [
         "核实该校知识产权专业本科生报考法考 A 证资格与科技制造企业法务校招去向"
+      ],
+      "completeness_status": "partial"
+    },
+    {
+      "moe_major_code": "140001TK",
+      "moe_major_name": "未来机器人",
+      "discipline_category": "交叉学科",
+      "has_moe_sub_category": false,
+      "sub_category": null,
+      "is_special_major": true,
+      "is_controlled_major": true,
+      "broad_category_aliases": [],
+      "role_family_tags": ["embodied_robotics_system", "industrial_control"],
+      "l2_career_card_ids": [],
+      "l3_pathway_card_ids": [],
+      "primary_routes": [
+        {
+          "route_id": "140001TK-PRI-01",
+          "role_family_id": "embodied_robotics_system",
+          "l2_career_card_id": null,
+          "job_regions": ["yrd_cluster", "national_mobile"],
+          "payer_type": "competitive_mfg_capex_rd",
+          "org_category": "listed_private_mfg",
+          "degree_threshold": "master_recommended",
+          "license_ids": [],
+          "gate_completeness": "complete"
+        }
+      ],
+      "backup_routes": [],
+      "l3_evidence_status": "pending",
+      "admissions_verification_questions": [
+        "核实该校 140001TK 未来机器人专业的本科培养方案实训学分、推免比例及具身机器人/工控整机厂校招实绩"
       ],
       "completeness_status": "partial"
     }

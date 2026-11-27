@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Pathwise v3.1.0 repository static gate validator (pure Python 3 standard library).
+"""Pathwise v3.2.0 repository static gate validator (pure Python 3 standard library).
 
 Checks:
 1. index/manifest.json syntax, schema fields, enums, FW/TPL whitelist,
-   43-parent-slot full coverage, L*-***-dd.dd globally unique leaf sub-slots,
+   41-parent-slot full coverage, L*-***-dd.dd globally unique leaf sub-slots,
    mandatory business parent_slot_id & batch (Batch 1..4), evergreen
    valid_until==null constraint, upstream_ids DAG integrity, and file existence.
-2. research/ tree hygiene (no non-.md files), index/master-map.md §2 43-parent
+2. research/ tree hygiene (no non-.md files), index/master-map.md §2 41-parent
    mandatory table check, §3 full 5-column (slot_id, parent_slot_id, card_id,
    path, batch) strict 3-way 1:1 bijection, pure-stdlib 14-key YAML Frontmatter
    field-by-field parity with manifest.json, bidirectional body upstream/
@@ -40,8 +40,10 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 from urllib.parse import unquote
 
 # ---------------------------------------------------------------------------
-# Constants & Schema Rules (v3.1.0)
+# Constants & Schema Rules (v3.2.0)
 # ---------------------------------------------------------------------------
+
+EXPECTED_SCHEMA_VERSION = "3.2.0"
 
 REQUIRED_TOP_LEVEL_KEYS = {
     "schema_version",
@@ -117,12 +119,12 @@ ALLOWED_FRAMEWORK_SLOTS: Set[str] = (
 
 ALLOWED_PARENT_SLOTS_BY_LAYER: Dict[str, Set[str]] = {
     "L1": (
-        {f"L1-DEM-{i:02d}" for i in range(1, 4)}
-        | {f"L1-POL-{i:02d}" for i in range(1, 9)}
-        | {f"L1-IND-{i:02d}" for i in range(1, 10)}
+        {f"L1-POL-{i:02d}" for i in range(1, 7)}
+        | {f"L1-IND-{i:02d}" for i in range(1, 6)}
+        | {f"L1-DEM-{i:02d}" for i in range(1, 5)}
     ),
-    "L2": {f"L2-CAR-{i:02d}" for i in range(1, 10)},
-    "L3": {f"L3-PTH-{i:02d}" for i in range(1, 9)},
+    "L2": {f"L2-CAR-{i:02d}" for i in range(1, 12)},
+    "L3": {f"L3-PTH-{i:02d}" for i in range(1, 10)},
     "L4": {f"L4-DEC-{i:02d}" for i in range(1, 7)},
 }
 
@@ -142,7 +144,7 @@ LEAF_SLOT_REGEX_BY_LAYER: Dict[str, re.Pattern[str]] = {
 
 LEAF_SLOT_GENERIC_RE = re.compile(r"^(L[1-4]-[A-Z]{3}-\d{2})\.(\d{2})$")
 
-MAJOR_CODE_RE = re.compile(r"^[0-9]{6}[KT]?$")
+MAJOR_CODE_RE = re.compile(r"^[0-9]{6}(?:T|K|TK)?$")
 COHORT_STRUCTURED_RE = re.compile(
     r"^(20\d{2})_in_(20\d{2})_(?:bachelor|5yr|master|phd|md_residency)$"
 )
@@ -153,7 +155,7 @@ PLACEHOLDER_RE = re.compile(r"(?:[<>[\]]|待填|YYYY|TBD|TODO)")
 MASTER_MAP_LEAF_SLOT_ROW_RE = re.compile(
     r"^\|\s*`(L[1-4]-[A-Z]{3}-\d{2}\.\d{2})`\s*\|"
 )
-# Matches §2 43-parent-slot summary rows (with optional 2-digit index column):
+# Matches §2 41-parent-slot summary rows (with optional 2-digit index column):
 #   | 01 | `L1-DEM-01` | ... |  OR  | `L1-DEM-01` | ... |
 MASTER_MAP_PARENT_SLOT_ROW_RE = re.compile(
     r"^\|\s*(?:\d{2}\s*\|\s*)?`(L[1-4]-[A-Z]{3}-\d{2})`\s*\|"
@@ -805,7 +807,7 @@ def collect_runtime_os_usernames() -> Set[str]:
 
 
 # ---------------------------------------------------------------------------
-# Check 1: index/manifest.json (v3.1.0 Parent + Leaf Sub-Slot Gate)
+# Check 1: index/manifest.json (v3.2.0 Parent + Leaf Sub-Slot Gate)
 # ---------------------------------------------------------------------------
 
 def check_manifest(
@@ -829,8 +831,11 @@ def check_manifest(
     if missing_top:
         failures.append(f"[manifest] Missing top-level keys: {missing_top}")
 
-    if not isinstance(data.get("schema_version"), str) or not data["schema_version"].strip():
-        failures.append("[manifest] 'schema_version' must be a non-empty string.")
+    if data.get("schema_version") != EXPECTED_SCHEMA_VERSION:
+        failures.append(
+            f"[manifest] 'schema_version' must strictly equal '{EXPECTED_SCHEMA_VERSION}' "
+            f"(got {data.get('schema_version')!r})."
+        )
 
     if not is_valid_iso_date(data.get("updated_at")):
         failures.append("[manifest] 'updated_at' must be a valid YYYY-MM-DD ISO date.")
@@ -935,14 +940,14 @@ def check_manifest(
                 leaf_re = LEAF_SLOT_REGEX_BY_LAYER[layer]
                 if not leaf_re.fullmatch(slot_id):
                     failures.append(
-                        f"[manifest] {label}.slot_id '{slot_id}' does not match v3.1 leaf sub-slot regex for layer '{layer}'."
+                        f"[manifest] {label}.slot_id '{slot_id}' does not match v3.2 leaf sub-slot regex for layer '{layer}'."
                     )
                 else:
                     parent_prefix = slot_id.split(".", 1)[0]
                     if parent_prefix not in ALLOWED_PARENT_SLOTS_BY_LAYER[layer]:
                         failures.append(
                             f"[manifest] {label}.slot_id '{slot_id}' parent '{parent_prefix}' "
-                            f"is not in the 43-parent-slot whitelist for layer '{layer}'."
+                            f"is not in the 41-parent-slot whitelist for layer '{layer}'."
                         )
                     else:
                         covered_parents.add(parent_prefix)
@@ -1019,7 +1024,7 @@ def check_manifest(
             not isinstance(c, str) or not MAJOR_CODE_RE.fullmatch(c) for c in major_codes
         ):
             failures.append(
-                f"[manifest] {label}.major_codes entries must match ^[0-9]{{6}}[KT]?$."
+                f"[manifest] {label}.major_codes entries must match ^[0-9]{{6}}(?:T|K|TK)?$."
             )
         else:
             dup_majors = find_duplicates(major_codes)
@@ -1104,7 +1109,7 @@ def check_manifest(
         if item["status"] not in ALLOWED_STATUS:
             failures.append(f"[manifest] {label}.status '{item['status']}' not in {sorted(ALLOWED_STATUS)}.")
 
-    # 12-framework-slot full coverage gate (FW-001..007 / TPL-001..005 mandatory in v3.1.0)
+    # 12-framework-slot full coverage gate (FW-001..007 / TPL-001..005 mandatory in v3.2.0)
     if seen_framework_slots != ALLOWED_FRAMEWORK_SLOTS:
         missing_fw = sorted(ALLOWED_FRAMEWORK_SLOTS - seen_framework_slots)
         extra_fw = sorted(seen_framework_slots - ALLOWED_FRAMEWORK_SLOTS)
@@ -1113,15 +1118,15 @@ def check_manifest(
             f"missing={missing_fw}, extra={extra_fw}"
         )
 
-    # Non-empty business items + 43-parent-slot full coverage gate (mandatory in v3.1.0)
+    # Non-empty business items + 41-parent-slot full coverage gate (mandatory in v3.2.0)
     if len(business_items) == 0:
         failures.append(
-            "[manifest] Business items (L1-L4) must be non-empty in v3.1.0."
+            "[manifest] Business items (L1-L4) must be non-empty in v3.2.0."
         )
     missing_parents = sorted(EXPECTED_PARENT_SLOTS - covered_parents)
     if missing_parents:
         failures.append(
-            f"[manifest] Incomplete 43-parent-slot coverage: missing {len(missing_parents)} parent slot(s): {missing_parents}"
+            f"[manifest] Incomplete 41-parent-slot coverage: missing {len(missing_parents)} parent slot(s): {missing_parents}"
         )
 
     # Upstream reference integrity + cycle check
@@ -1183,7 +1188,7 @@ def check_research_tree_and_cards(
             continue
         disk_leaf_paths.add(rel)
 
-    # 2.2 Parse index/master-map.md §2 43-parent table & §3 leaf 5-tuple rows
+    # 2.2 Parse index/master-map.md §2 41-parent table & §3 leaf 5-tuple rows
     (
         master_leaf_rows,
         dup_master_leaves,
@@ -1200,12 +1205,12 @@ def check_research_tree_and_cards(
         failures.append(
             f"[tree] index/master-map.md §2 contains duplicate parent slot_id row(s): {dup_master_parents}"
         )
-    # Unconditional 43-parent-slot check (zero-match short-circuit removed)
+    # Unconditional 41-parent-slot check (zero-match short-circuit removed)
     if master_leaf_rows is not None and master_parent_slots != EXPECTED_PARENT_SLOTS:
         extra_p = sorted(master_parent_slots - EXPECTED_PARENT_SLOTS)
         missing_p = sorted(EXPECTED_PARENT_SLOTS - master_parent_slots)
         failures.append(
-            "[tree] index/master-map.md §2 parent-slot summary table diverges from 43-slot whitelist "
+            "[tree] index/master-map.md §2 parent-slot summary table diverges from 41-slot whitelist "
             f"(matched={len(master_parent_slots)}, extra={extra_p}, missing={missing_p})"
         )
 
@@ -1222,6 +1227,23 @@ def check_research_tree_and_cards(
 
     j_paths = set(j_by_path.keys())
     j_slots = set(j_by_slot.keys())
+
+    # Precompute expected business-card-only directed graph from manifest upstream_ids (#4)
+    business_ids: Set[str] = {
+        item["id"] for item in business_items if isinstance(item.get("id"), str)
+    }
+    expected_up: Dict[str, Set[str]] = {cid: set() for cid in business_ids}
+    expected_down: Dict[str, Set[str]] = {cid: set() for cid in business_ids}
+    for item in business_items:
+        cid = item.get("id")
+        if not isinstance(cid, str):
+            continue
+        ups = item.get("upstream_ids")
+        if isinstance(ups, list):
+            for uid in ups:
+                if isinstance(uid, str) and uid in business_ids:
+                    expected_up[cid].add(uid)
+                    expected_down[uid].add(cid)
 
     if disk_leaf_paths != j_paths:
         unregistered = sorted(disk_leaf_paths - j_paths)
@@ -1390,10 +1412,12 @@ def check_research_tree_and_cards(
                 f"minimum required is {MIN_OUTLINE_CHECKBOXES}"
             )
 
-        # Bidirectional body upstream/downstream link vs upstream_ids graph check (#3)
+        # Bidirectional body upstream/downstream link vs manifest DAG completeness check (#3 / #4)
         if m_item is not None:
             cur_id = m_item.get("id")
             cur_upstreams = set(m_item.get("upstream_ids", [])) if isinstance(m_item.get("upstream_ids"), list) else set()
+            body_up: Set[str] = set()
+            body_down: Set[str] = set()
             for rel_ln, line in body_lines:
                 abs_ln = body_start_line + rel_ln - 1
                 is_up_line = bool(UPSTREAM_BULLET_RE.match(line))
@@ -1410,22 +1434,40 @@ def check_research_tree_and_cards(
                         continue
                     target_id = target_item.get("id")
                     if is_up_line:
-                        if isinstance(target_id, str) and target_id not in cur_upstreams:
-                            failures.append(
-                                f"[graph] {rel}:{abs_ln}: body upstream link to '{target_rel}' "
-                                f"(card_id='{target_id}') is missing from YAML/manifest upstream_ids"
-                            )
+                        if isinstance(target_id, str):
+                            body_up.add(target_id)
+                            if target_id not in cur_upstreams:
+                                failures.append(
+                                    f"[graph] {rel}:{abs_ln}: body upstream link to '{target_rel}' "
+                                    f"(card_id='{target_id}') is missing from YAML/manifest upstream_ids"
+                                )
                     elif is_down_line:
                         target_upstreams = (
                             set(target_item.get("upstream_ids", []))
                             if isinstance(target_item.get("upstream_ids"), list)
                             else set()
                         )
+                        if isinstance(target_id, str):
+                            body_down.add(target_id)
                         if isinstance(cur_id, str) and cur_id not in target_upstreams:
                             failures.append(
                                 f"[graph] {rel}:{abs_ln}: body downstream link to '{target_rel}' "
                                 f"(card_id='{target_id}') is missing reverse upstream_id '{cur_id}' in target card"
                             )
+
+            if isinstance(cur_id, str) and cur_id in business_ids:
+                missing_body_up = sorted(expected_up[cur_id] - body_up)
+                if missing_body_up:
+                    failures.append(
+                        f"[graph] {rel}: body upstream bullet ('- **前置上游卡片**' / '- **核心上游卡片**') "
+                        f"missing link(s) for manifest upstream_ids: {missing_body_up}"
+                    )
+                missing_body_down = sorted(expected_down[cur_id] - body_down)
+                if missing_body_down:
+                    failures.append(
+                        f"[graph] {rel}: body downstream bullet ('- **直接传导下游卡片**') "
+                        f"missing link(s) for manifest downstream card(s): {missing_body_down}"
+                    )
 
     master_count = len(master_leaf_rows) if master_leaf_rows is not None else 0
     return failures, len(disk_leaf_paths), master_count
@@ -1630,7 +1672,7 @@ def check_privacy_and_leaks(
 def parse_args(argv: Sequence[str]) -> argparse.Namespace:
     default_root = Path(__file__).resolve().parent.parent
     parser = argparse.ArgumentParser(
-        description="Validate Pathwise v3.1.0 repository manifest, fine-grained tree, YAML frontmatter, links, and privacy boundaries."
+        description="Validate Pathwise v3.2.0 repository manifest, fine-grained tree, YAML frontmatter, links, and privacy boundaries."
     )
     parser.add_argument(
         "repo_root",
@@ -1666,7 +1708,7 @@ def main(argv: Sequence[str]) -> int:
 
     all_failures = manifest_failures + tree_failures + link_failures + privacy_failures
 
-    print("=== Pathwise v3.1.0 Static Framework Gate ===")
+    print("=== Pathwise v3.2.0 Static Framework Gate ===")
     print(
         f"[1/4] Manifest & slot gate: total_items={manifest_items}, "
         f"business_items={len(business_items)}, failures={len(manifest_failures)}"
