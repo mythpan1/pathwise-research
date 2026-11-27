@@ -1,21 +1,25 @@
 ---
-card_id: "<填入唯一卡片ID，如 l2-car-02-automation-control-roles>"
-slot_id: "<必填：绑定 index/master-map.md 中的 L2-CAR-01 ~ L2-CAR-09 职业岗位族槽位>"
+card_id: "<填入唯一叶子卡片ID，如 l2-2-2-2-automation-control-roles>"
+slot_id: "<必填：全局唯一叶子子槽，正则 ^L2-CAR-\\d{2}\\.\\d{2}$，如 L2-CAR-02.01>"
+parent_slot_id: "<必填：绑定 index/master-map.md 中的 L2-CAR-01 ~ L2-CAR-09 母槽>"
 layer: "L2"
-stability: "volatile | evergreen" # 时效属性（validity），同步对齐 index/manifest.json
-valid_until: "YYYY-MM-DD"
-drivers: ["policy", "industry", "demography"]
-target_regions: ["江苏本地", "长三角", "全国流动", "异地驻场或基层"]
-graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2032_5yr", "2027_in_2034_master"] # 目标队列数组；常青卡填 ["all_cohorts"]，同步对齐 index/manifest.json
-upstream_ids: ["<必填：多对多引用的 L1-DEM / L1-POL / L1-IND 信号卡 card_id 列表>"]
-last_verified: "YYYY-MM-DD"
+batch: "Batch 2" # 取值 Batch 1 | Batch 2 | Batch 3 | Batch 4
+status: "draft" # 唯一受控枚举：draft | active | needs_reverify | deprecated（提纲占位阶段填 draft）
+stability: "volatile" # 时效属性：volatile | evergreen，同步对齐 index/manifest.json
+valid_until: "2027-06-30" # volatile 填合法 YYYY-MM-DD；evergreen 填 null
+drivers: ["policy", "industry", "demography"] # L1–L4 必填非空去重数组
+major_codes: [] # 教育部 6 位标准本科专业代码（可带 K/T）；跨专业岗位族通则填 []
+target_regions: ["江苏本地", "长三角", "全国流动"] # 必填非空去重数组；真实叶子卡严禁保留占位符
+graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2032_5yr", "2027_in_2034_master"] # 目标队列数组；常青卡填 ["all_cohorts"]
+upstream_ids: ["<必填：多对多引用的 L1 叶子卡 card_id 列表>"]
+last_verified: "2026-11-27" # 合法 YYYY-MM-DD 日期
 ---
 
 # [L2 职业岗位族入口与付款链规格卡标题]（`slot_id`）
 
 **核心结论（置信度：高 / 中 / 低）**：[1–3 句话给出本职业岗位族在目标就业地（`target_regions`）与毕业队列（`graduation_cohort`）下的跨行业承接优劣序、真实应届校招转化敞口，以及经四维冲击核验后的备选结论。]
 
-> **多对多岗位族与表述约定**：本卡按**职业岗位族（Role Family）**归口，多对多连接上游多个产业（`L1-IND-*`）与下游多个专业簇（`L3-PTH-*`），严禁按行业拆出重复野卡；全文严格区分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`（参见 [../docs/architecture-v3.md](../docs/architecture-v3.md) 与 [../index/master-map.md](../index/master-map.md)）。
+> **多对多岗位族与 v3.1.0 静态门禁约定**：本卡按**职业岗位族（Role Family）**归口，多对多连接上游多个产业（`L1-IND-*`）与下游多个专业簇（`L3-PTH-*`），严禁按行业拆出重复野卡；全文严格区分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`；真实落盘叶子卡顶部 14 项 YAML 严禁留占位符、须与 [../index/manifest.json](../index/manifest.json) 逐字段一致（`evergreen` 时 `valid_until` 必为 `null`）；`status: "draft"` 提纲占位态须含 `>= 3` 个二/三级定制小节与 `>= 3` 条 `- [ ]` 待填清单，升格 `status: "active"` 定稿态后仅强制 `>= 3` 个二/三级小节（无需硬留 `- [ ]`）；将本模板实例化至三级深目录 `research/<layer>/<subdir>/*.md` 时，须将模板内一级相对链接（`../docs/...`、`../index/...`）同步调整为 `../../../docs/...`、`../../../index/...`（参见 [../docs/architecture-v3.md](../docs/architecture-v3.md) 与 [../index/master-map.md](../index/master-map.md)）。
 
 ---
 

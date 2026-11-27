@@ -1,28 +1,31 @@
 ---
-card_id: "<填入唯一卡片ID，如 l1-dem-02-school-age-peak>"
-slot_id: "<必填：绑定 index/master-map.md 中的 L1-DEM-* / L1-POL-* / L1-IND-* 槽位>"
+card_id: "<填入唯一叶子卡片ID，如 l1-1-1-1-birth-cohort-cliff>"
+slot_id: "<必填：全局唯一叶子子槽，正则 ^(L1-DEM|L1-POL|L1-IND)-\\d{2}\\.\\d{2}$，如 L1-DEM-01.01>"
+parent_slot_id: "<必填：绑定 index/master-map.md 中的 L1 母槽，如 L1-DEM-01>"
 layer: "L1"
-stability: "volatile | evergreen" # 时效属性（validity），同步对齐 index/manifest.json
-valid_until: "YYYY-MM-DD"
-drivers: ["policy", "industry", "demography"]
-target_regions: ["江苏本地", "长三角", "全国流动", "异地驻场或基层"] # 按实保留适用范围
-graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组；常青机制卡填 ["all_cohorts"]，同步对齐 index/manifest.json
+batch: "Batch 1" # 取值 Batch 1 | Batch 2 | Batch 3 | Batch 4
+status: "draft" # 唯一受控枚举：draft | active | needs_reverify | deprecated（提纲占位阶段填 draft）
+stability: "volatile" # 时效属性：volatile | evergreen，同步对齐 index/manifest.json
+valid_until: "2027-06-30" # volatile 填合法 YYYY-MM-DD；evergreen 填 null
+drivers: ["policy", "industry", "demography"] # L1–L4 必填非空去重数组
+major_codes: [] # 教育部 6 位标准本科专业代码（可带 K/T）；跨门类通则填 []
+target_regions: ["全国", "江苏"] # 必填非空去重数组；真实叶子卡严禁保留占位符
+graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组；常青卡填 ["all_cohorts"]
 upstream_ids: []
-horizontal_tags: [] # 可选挂载 TAG-SCI / TAG-SEC / TAG-MAR
-last_verified: "YYYY-MM-DD"
+last_verified: "2026-11-27" # 合法 YYYY-MM-DD 日期
 ---
 
 # [L1 外驱信号卡标题]（`slot_id`）
 
 **核心结论（置信度：高 / 中 / 低）**：[用 1–3 句平实结论直陈本槽位在全国与重点目标就业地（`target_regions`）的结构变化、关键拐点年份区间及面向 `graduation_cohort` 传导的主张力方向，严禁抄写公文套话或直接跳推推荐某本科专业。]
 
-> **四类表述约定**：全文严格区分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`；元数据须与 [../index/manifest.json](../index/manifest.json) 同步，槽位与逻辑 `AND` 三问门禁参见 [../index/master-map.md](../index/master-map.md)。
+> **四类表述与 v3.1.0 静态门禁约定**：全文严格区分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`；真实落盘叶子卡顶部 14 项 YAML 严禁留 `<...>`/`[...]`/`待填`/`YYYY`/`TBD`/`TODO` 占位符且须与 [../index/manifest.json](../index/manifest.json) 逐字段一致（`evergreen` 时 `valid_until` 必为 `null`）；`status: "draft"` 提纲占位态须含 `>= 3` 个二/三级定制小节与 `>= 3` 条 `- [ ]` 待填清单，升格 `status: "active"` 定稿态（或 `needs_reverify` / `deprecated`）后仅强制 `>= 3` 个二/三级小节（无需为过门禁保留 `- [ ]` 待办复选框）；将本模板实例化至三级深目录 `research/<layer>/<subdir>/*.md` 时，须将模板内一级相对路径（如 `../index/...`）同步调整为 `../../../index/...`（母子槽位与逻辑 `AND` 三问门禁参见 [../index/master-map.md](../index/master-map.md)）。
 
 ---
 
 ## 一、立题过闸核验（逻辑 `AND` 三问必填）
 
-- **1. 绑定主干槽位与批次**：`slot_id`（所属批次：`Batch 1` / `Batch 2`）
+- **1. 绑定母槽、子槽与批次**：`parent_slot_id` / `slot_id`（所属批次：`Batch 1` / `Batch 2`）
 - **2. 传导机制排重增量**：[说明本卡补齐了哪项尚未覆盖的预算/资本深化/人口队列接续机制]
 - **3. 江苏普通批波及范围**：[写明传导影响的 `L2-CAR-*` 岗位族槽位、重点 `target_regions` 及受影响的 `graduation_cohort`]
 

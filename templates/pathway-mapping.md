@@ -1,22 +1,25 @@
 ---
-card_id: "<填入唯一卡片ID，如 l3-pth-01-cs-ee-training>"
-slot_id: "<必填：绑定 index/master-map.md 中的 L3-PTH-01 ~ L3-PTH-08 槽位>"
+card_id: "<填入唯一叶子卡片ID，如 l3-3-2-1-qiangji-plan>"
+slot_id: "<必填：全局唯一叶子子槽，正则 ^L3-PTH-\\d{2}\\.\\d{2}$，如 L3-PTH-08.01>"
+parent_slot_id: "<必填：绑定 index/master-map.md 中的 L3-PTH-01 ~ L3-PTH-08 母槽>"
 layer: "L3"
-stability: "volatile" # 时效属性（validity），同步对齐 index/manifest.json
-valid_until: "YYYY-MM-DD"
-target_regions: ["江苏本地", "长三角", "全国流动"]
-graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组，同步对齐 index/manifest.json
-upstream_ids: ["<必填：多对多承接的 L2-CAR-* 岗位族卡片 card_id 列表>"]
-major_codes: ["<必填：教育部 2026 本科专业目录 6 位精确代码列表，如 080901, 080904K>"]
-evidence_mode: "primary | proxy_1B | third_party_403_verified"
-last_verified: "YYYY-MM-DD"
+batch: "Batch 3" # 取值 Batch 1 | Batch 2 | Batch 3 | Batch 4
+status: "draft" # 唯一受控枚举：draft | active | needs_reverify | deprecated（提纲占位阶段填 draft）
+stability: "volatile" # 时效属性：volatile | evergreen，同步对齐 index/manifest.json
+valid_until: "2027-06-30" # volatile 填合法 YYYY-MM-DD；evergreen 填 null
+drivers: ["policy", "industry"] # L1–L4 必填非空去重数组
+major_codes: ["080901", "080904K"] # 教育部 6 位标准本科专业代码（可带 K/T）；跨门类通则填 []
+target_regions: ["全国", "江苏"] # 必填非空去重数组；真实叶子卡严禁保留占位符
+graduation_cohort: ["2027_in_2031_bachelor", "2027_in_2034_master"] # 目标入学/毕业队列数组；常青卡填 ["all_cohorts"]
+upstream_ids: ["<必填：多对多承接的 L1/L2 叶子卡 card_id 列表>"]
+last_verified: "2026-11-27" # 合法 YYYY-MM-DD 日期
 ---
 
 # [L3 培养兑现与路径映射卡标题]（`slot_id`）
 
 **核心结论（置信度：高 / 中 / 低）**：[1–3 句话明确本专业簇在江苏普通批可及范围内的本硕/执照刚性边界、院校梯度间的普通生实得训练与就业地域（`target_regions`）渠道差异，以及缺分母时基于 `1B` 线索给出的保守定位；若推翻上游假设须同步声明反向回灌。]
 
-> **四类表述与 `1B/403` 严格边界**：全文严分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`。官网 `403` 须两路权威第三方交叉核验并标 `[第三方交叉降级]`；缺同届细分分母时，`1B` 结构代理仅作待核实结构线索支撑保守默认序与招办核实单，**严禁伪造普通生成功概率，且多项代理指标冲突时一律降级标为 `[待核未知]`**（见 [../index/master-map.md](../index/master-map.md)）。
+> **四类表述、`1B/403` 与 v3.1.0 静态门禁约定**：全文严分 `[已核实事实｜出处]`、`[明示假设]`、`[分析推断]`、`[待核未知]`。官网 `403` 须两路权威第三方交叉核验并标 `[第三方交叉降级]`；缺同届细分分母时，`1B` 结构代理仅作待核实结构线索支撑保守默认序与招办核实单，**严禁伪造普通生成功概率，且多项代理指标冲突时一律降级标为 `[待核未知]`**。真实落盘叶子卡顶部 14 项 YAML 严禁留占位符、须与 [../index/manifest.json](../index/manifest.json) 逐字段一致（`evergreen` 时 `valid_until` 必为 `null`）；`status: "draft"` 提纲占位态须含 `>= 3` 个二/三级定制小节与 `>= 3` 条 `- [ ]` 待填清单，升格 `status: "active"` 定稿态后仅强制 `>= 3` 个二/三级小节（无需硬留 `- [ ]`）；将本模板实例化至三级深目录 `research/<layer>/<subdir>/*.md` 时，须将 `../index/...` 一级相对链接同步调整为 `../../../index/...`（见 [../index/master-map.md](../index/master-map.md)）。
 
 ---
 

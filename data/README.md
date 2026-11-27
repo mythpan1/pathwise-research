@@ -9,7 +9,7 @@
 
 | 资产编号与类别 | 存储位置 | 入公开库权限 | 本地程序读取接口 |
 | --- | --- | --- | --- |
-| **D1** 知识资产路由与时效清单 | 公开仓库 `index/manifest.json`（`schema_version: 3.0.7`） | 允许公开 | 相对仓库根路径直接读取；强制校验 `43` 主干槽与 `FW/TPL` 白名单、`slot_id` 全局唯一性、非空 `target_regions` 与必填非空 `graduation_cohort`（常青项填 `["all_cohorts"]`，具体卡填 `^20\d{2}_in_20\d{2}_(?:bachelor\|5yr\|master\|phd\|md_residency)$`） |
+| **D1** 知识资产路由与时效清单 | 公开仓库 `index/manifest.json`（`schema_version: 3.1.0`） | 允许公开 | 相对仓库根路径直接读取；强制校验 `FW/TPL` 系统白名单、`43` 母槽（`parent_slot_id`）全覆盖与全局唯一叶子子槽 `L*-***-dd.dd`（`slot_id`）、`research/` 叶子 `.md` ⇄ `index/master-map.md` 子槽行 ⇄ `index/manifest.json` 业务条目三方 1:1 严格双射与 YAML Frontmatter 逐字段一致、非空 `target_regions` 与必填非空 `graduation_cohort`（常青项填 `["all_cohorts"]`，具体卡填 `^20\d{2}_in_20\d{2}_(?:bachelor\|5yr\|master\|phd\|md_residency)$`） |
 | **D2** 江苏在苏招生专业组、历年投档/专业分底表与当年章程调剂规则表（`D2-A/B/C/D`） | 本地受控招生数据区 | **严格禁止入公开库** | 通过环境变量 `PATHWISE_CONTROLLED_DATA_DIR` 或 CLI 参数 `--controlled-data-dir` 注入 |
 | **D3** 跨年专业组拆并映射明细与异常年标记表 | 明细留本地受控区；通用规则公开 | **明细严格禁止入公开库** | 同上，从 `$PATHWISE_CONTROLLED_DATA_DIR` 读取 |
 | **D5** 教育部本科专业↔L2职业规格/L3培养与逐路径主备映射字典 | 公开仓库 `data/dictionaries/`（后续启用） | **允许公开**（仅含国标专业代码与公共研究卡 ID，零商业考分与个人数据） | 相对仓库根路径读取 |
@@ -126,7 +126,7 @@ D2 拆分为四张规范化表：**D2-A（院校专业组投档表）**、**D2-B
 | `member_scenario_flags_by_seq` | `object<string, array<string>>` | 是 | 键为字符串化的 `D2-B.major_seq`（如 `"1"`、`"2"`、`"3"`），值为上述 7 类枚举数组（该专业无风险填 `[]`）；未核填 `null`；**实际可调剂成员 `seq ∈ S` 缺键或值为 `null` 均视为未知** | 按组内专业序号逐专业记录的场景红线标记（避免已书面排除专业的风险污染可调剂子集） |
 | `rule_completeness` | `string` | 否 | `complete` \| `partial` \| `unknown` | 当年规则核验完整性；**凡缺失当年 `D2-D` 记录或 `rule_completeness != "complete"`，D6 必须按已知全组成员执行最坏暴露红线扫描，并强制置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`** |
 
-- **排除后暴露集合与场景红线投影规则（`3.0.7`）**：设 `G` 为当年 `D2-B` 组内全部专业序号集合，`T` 为考生在该组主动填报的专业序号集合（`D6Input.candidate_group_targets[].target_major_seqs`），`A` 为 `adjustable_major_seqs`，`E` 为 `excluded_major_seqs`。
+- **排除后暴露集合与场景红线投影规则（`3.1.0`）**：设 `G` 为当年 `D2-B` 组内全部专业序号集合，`T` 为考生在该组主动填报的专业序号集合（`D6Input.candidate_group_targets[].target_major_seqs`），`A` 为 `adjustable_major_seqs`，`E` 为 `excluded_major_seqs`。
   - **严格区分两类回退成因**：① **考生填报合法性（`group_target_valid`）**：`D6Input.candidate_group_targets[]` 按归一化完整五元组键 `(target_year, track, batch, college_code, group_code)` 全局唯一且单条 `target_major_seqs` 内元素严格去重；**仅当**缺失、出现重复组键（`>= 2` 条）或 `target_major_seqs` 含重复/为空/非正整数/越界 `⊈ G` / `target_year` 不符时，判 `group_target_valid = false`（与顺序无关回退 `S = G`、强制阻断保底，且引用该组的配对 `binding_valid = false`）；② **章程调剂证据回退**：当考生填报合法（`group_target_valid == true`），在 `adjustment_scope_mode == "subset_isolated_verified"` 且 `rule_completeness == "complete"`、`A != null` 且 `(A ∪ E) ⊆ G` 时，实际录取暴露集合严格定义为 **`S = T ∪ (A \ E)`**——**`E` 仅从被动调剂集合 `A` 中剔除，绝不从考生主动填报集合 `T` 中剔除**；若 `subset_isolated_verified` 下 `A == null` 或 `(A ∪ E) ⊈ G`（或 `no_adjustment_written_promise_verified` 未满足书面生效条件，或缺失 `D2-D` / `adjustment_scope_mode == "unknown"` / `rule_completeness != "complete"`），则**保留 `group_target_valid = true`**（不误判为考生填报非法或 `binding_valid = false`），仅回退 `S = G` 最坏暴露并置 `unverified_redline_block_safety = true`、`water_level = "unknown"`、`water_level_percentile = null`、`safety_pool_blocked = true`，若该组被合法配对引用，已知同组共损（同属 `(college_code, group_code)` 且两端 `major_seq ∈ S`，或含 `same_admission_group_risk`）优先判 `group_isolation = "fail"`，未命中同组 `"fail"` 时（如跨组配对）由章程证据规则令 `group_isolation = "unknown_blocked"`（绝不判 `"pass"`）。
   - 若 `group_wide_scenario_flags == null`、`member_scenario_flags_by_seq == null`，或存在任意 `seq ∈ S` 在 `member_scenario_flags_by_seq` 中缺键或值为 `null`，D6 强制置 `unverified_redline_block_safety = true`、`safety_pool_blocked = true`；否则仅按投影集合 `effective_scenario_flags(S) = group_wide_scenario_flags ∪ (⋃_{seq ∈ S} member_scenario_flags_by_seq[str(seq)])` 与 `seq ∈ S` 的成员执行 `VETO_HARD_REDLINE_MAJOR`——未被考生主动填报且已书面排除调剂的 `seq ∈ E \ T` 不污染 `S`。
 
@@ -288,7 +288,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 
 - **主键（PK）**：`moe_major_code`（教育部 6 位标准本科专业代码，特设专业带 `T`，国家控制布点专业带 `K`）
 - **公私权限**：本字典仅连接国标专业目录与公开库 `L2 / L3` 公共卡片 ID 及逐路径准入门槛，**不含真实考分与个案信息，允许公开入库**。
-- **逐路径与跨专业全局配对原则（`3.0.7`）**：同一本科专业往往对应多个跨行业岗位族、不同就业地域与不同学历/执业准入门槛，且真实志愿中的主攻与备选常跨越**不同国标专业**（如法学 vs 知识产权、临床医学 vs 药学）。本契约以结构化对象数组 `primary_routes[]` 与 `backup_routes[]` 逐路径建模，强制 `route_id` 以 `moe_major_code` 为全局唯一前缀，并通过 `backup_routes[].paired_primary_refs[]`（含 `primary_major_code + primary_route_id + co_failure_status_by_dim`）实现同专业与跨专业的确定性主备配对及逐维共损审计，支撑 `D6` 结合个案端专业组绑定与 `D2-D` 规则执行四维独立性冲击核验。
+- **逐路径与跨专业全局配对原则（`3.1.0`）**：同一本科专业往往对应多个跨行业岗位族、不同就业地域与不同学历/执业准入门槛，且真实志愿中的主攻与备选常跨越**不同国标专业**（如法学 vs 知识产权、临床医学 vs 药学）。本契约以结构化对象数组 `primary_routes[]` 与 `backup_routes[]` 逐路径建模，强制 `route_id` 以 `moe_major_code` 为全局唯一前缀，并通过 `backup_routes[].paired_primary_refs[]`（含 `primary_major_code + primary_route_id + co_failure_status_by_dim`）实现同专业与跨专业的确定性主备配对及逐维共损审计，支撑 `D6` 结合个案端专业组绑定与 `D2-D` 规则执行四维独立性冲击核验。
 
 ### 4.1 专业级主记录字段
 
@@ -335,7 +335,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 | `shared_bottlenecks` | `array<string>` | 否 | 非空数组；元素枚举：`same_payer_pool` \| `same_admission_group_risk` \| `same_degree_master_gate` \| `same_license_gate` \| `same_region_cycle` \| `same_org_type_exposure` \| `none` \| `unknown` | 共享单点故障标签集；**严禁 `"none"` 与任何其他值混用，严禁 `"unknown"` 与 `"none"` 混用** |
 | `shared_failure_notes` | `string` | 是 | 非空文字说明（当 `shared_bottlenecks` 非 `["none"]` 时必填） | 写明共享故障点的触发情景、传导边界或待核原因（供 D6 逐配对核验直接透出） |
 
-- **共损对象合法性与双向一致性硬规则（`3.0.7`）**：
+- **共损对象合法性与双向一致性硬规则（`3.1.0`）**：
   1. **严格三键与枚举校验**：`co_failure_status_by_dim` 必须为非空对象且精确包含 `{"payer", "entry_gate", "region_exposure"}` 三键，每个键值必须属于 `{"isolated", "shared_fail", "unknown"}`；凡缺键、`null`、超枚举值或非对象结构，下游 `D6` 按正向白名单一律视同未核清并置 `"unknown_blocked"`，**严禁落入 `"pass"`**；
   2. **双向一致性约束**：仅当 `co_failure_status_by_dim` 严格合法且三键均为 `"isolated"` 时，`shared_bottlenecks` 方可填 `["none"]`（且不得与其他值混用）；任一维为 `"shared_fail"` 时，`shared_bottlenecks` 须包含对应故障标签且不得为 `["none"]`；任一维为 `"unknown"` 时，`shared_bottlenecks` 须包含 `"unknown"` 且不得包含 `"none"`；反之，若 `shared_bottlenecks` 包含 `"unknown"` 而 `co_failure_status_by_dim` 未显式标出对应 `"unknown"` 维度，下游 `D6` 将全部未命中 `"fail"` 的维度一律置为 `"unknown_blocked"`；**任何违反上述双向一致性（如 `co_failure_status_by_dim` 缺键或含 `shared_fail`/`unknown` 却填 `shared_bottlenecks: ["none"]`）均直接视同非法未核清，下游 `D6` 强制置 `"unknown_blocked"`，绝不判 `"pass"`**；
   3. **个案端临时配对降级规则**：若考生在 D6 组合的主备路径未在 `D5` 的 `paired_primary_refs[]` 中预登记共损审计，无法仅凭单路径字段交集证伪共损的维度（尤其是 `region_exposure`）及未通过正向白名单校验的维度一律判 `"unknown_blocked"`，严禁默认判 `"pass"`。
@@ -344,7 +344,7 @@ D3 解决“同组号跨年换专业成员”导致的位次失真，以及一�
 
 ```json
 {
-  "schema_version": "3.0.7",
+  "schema_version": "3.1.0",
   "records": [
     {
       "moe_major_code": "080601",
