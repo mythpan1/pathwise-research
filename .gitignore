@@ -1,11 +1,62 @@
+# OS & Editor
 .DS_Store
-*.bak
-*.bak.*
-private/
-local/
+._*
+Thumbs.db
+.obsidian/
+.vscode/
+.idea/
+
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
 .env
 .env.*
-__pycache__/
-*.pyc
-.venv/
-.obsidian/
+!.env.example
+
+# Backups & Temp
+*.bak
+*.bak.*
+*.tmp
+*.swp
+
+# Local Controlled & Private Directories (100% excluded from public repo)
+private/
+local/
+controlled/
+cases/
+raw-data/
+00-deep-research/
+01-inbox-raw/
+02-verified-sources/
+03-notebook-briefs/
+04-controlled-admissions/
+05-individual-cases/
+
+# Controlled Commercial Admissions Tables & Individual Case Artifacts
+*.raw.csv
+*-data.csv
+*youzy*
+*individual-case*
+*admissions-raw*
+*score-cutoff*
+*CASE-*.json
+*case-*.json
+*d4-output*.json
+*d6-output*.json
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+*招生底表*
+*个案*
+*志愿表*
+
+# Secrets & Local Privacy Blocklists
+*.secret
+*.key
+*.pem
+*privacy-blocklist*

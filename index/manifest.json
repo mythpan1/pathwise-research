@@ -1,0 +1,366 @@
+{
+  "schema_version": "3.0.7",
+  "updated_at": "2026-11-27",
+  "description": "知途研究 v3（Pathwise v3）D1 知识资产路由与时效依赖清单（单一当前态，绑定 master-map 43 主干槽与 FW/TPL 系统前缀，内置 graduation_cohort、target_regions 与下游反向回灌 needs_reverify；严禁含本机绝对路径或隐私数据）",
+  "layers": {
+    "framework": {
+      "label": "框架与契约层",
+      "description": "项目总纲、协作总则、架构蓝图、全局路由索引、标准卡片模板及数据/脚本接口契约",
+      "directory": "."
+    },
+    "L1": {
+      "label": "L1 上端外驱层",
+      "description": "国家政策组合、产业变迁周期、人口结构队列拐点及三线交叉张力信号卡",
+      "directory": "research/l1-drivers"
+    },
+    "L2": {
+      "label": "L2 中游传导与职业规格桥",
+      "description": "三只时钟对齐、付款人/承接组织/新人带教漏斗与四维独立备选规格卡",
+      "directory": "research/l2-careers"
+    },
+    "L3": {
+      "label": "L3 培养兑现与路径映射层",
+      "description": "本硕准入分流、高校实得训练（含 1B 结构代理与招办核实单）及大学 4-7 年执行轴",
+      "directory": "research/l3-pathways"
+    },
+    "L4": {
+      "label": "L4 公共决策底座层",
+      "description": "江苏生源跨行业/跨院校公共条件排序卡（Rank 1-3 + 换序信号）；L4B 个案产物流转仅限本地受控区",
+      "directory": "research/l4-decisions"
+    }
+  },
+  "slot_prefixes": {
+    "FW": "框架总纲、架构蓝图、路由索引与数据/脚本契约",
+    "TPL": "标准化单态卡片模板",
+    "L1-POL": "L1 国家政策主线外驱信号卡",
+    "L1-IND": "L1 产业变迁主线外驱信号卡",
+    "L1-DEM": "L1 人口结构变化主线外驱信号卡",
+    "L2-CAR": "L2 毕业窗职业入口与四维独立备选规格卡",
+    "L3-PTH": "L3 本硕准入分流、高校实得训练与大学 4-7 年执行路径卡",
+    "L4-DEC": "L4A 公共跨路径/跨院校条件排序决策卡"
+  },
+  "items": [
+    {
+      "id": "fw-architecture-v3",
+      "slot_id": "FW-001",
+      "title": "知途研究 v3 总体实现框架蓝图",
+      "path": "docs/architecture-v3.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [],
+      "stale_action": "当四层拓扑、1B/2B/3B 核心架构取舍、下游反向回灌门禁或推翻条件触发时，经 PR 修订蓝图并联动将受波及条目置为 needs_reverify。",
+      "status": "active"
+    },
+    {
+      "id": "fw-readme",
+      "slot_id": "FW-002",
+      "title": "知途研究 v3 项目总纲",
+      "path": "README.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3"
+      ],
+      "stale_action": "当架构总图、目录结构或三层资产边界变更时同步更新项目总纲。",
+      "status": "active"
+    },
+    {
+      "id": "fw-agents",
+      "slot_id": "FW-003",
+      "title": "知途研究 v3 协作总则与单态维护规范",
+      "path": "AGENTS.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3"
+      ],
+      "stale_action": "当岗位分工边界、PR 审核门禁、下游反向回灌规则或公私隔离规则调整时同步更新协作总则。",
+      "status": "active"
+    },
+    {
+      "id": "fw-master-map",
+      "slot_id": "FW-004",
+      "title": "主干研究槽位版图与防走偏立项门禁",
+      "path": "index/master-map.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3"
+      ],
+      "stale_action": "当 L1-L4 主干槽位增删、多对多岗位族连接或分批回灌规则调整时同步更新槽位版图并校验 manifest 43 槽白名单。",
+      "status": "active"
+    },
+    {
+      "id": "fw-routing",
+      "slot_id": "FW-005",
+      "title": "场景化按需加载路由表",
+      "path": "index/routing.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-master-map"
+      ],
+      "stale_action": "当自上而下刷新入口、自下而上倒推入口、反向回灌重审链路或主干槽位路径变更时同步更新路由表。",
+      "status": "active"
+    },
+    {
+      "id": "fw-data-contract",
+      "slot_id": "FW-006",
+      "title": "D2（含 D2-D）/D3/D5 数据结构与公私隔离存储契约",
+      "path": "data/README.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3"
+      ],
+      "stale_action": "当招生底表字段、D2-D 当年章程调剂规则、D3-B 断裂年核验状态或 D5 逐路径映射字典 Schema 调整时升级契约版本。",
+      "status": "active"
+    },
+    {
+      "id": "fw-scripts-contract",
+      "slot_id": "FW-007",
+      "title": "D4/D6 计算接口契约与静态门禁脚本说明",
+      "path": "scripts/README.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-data-contract"
+      ],
+      "stale_action": "当 D4 位次超额漂移算法、D6 逐配对四维独立性冲击核验与缺失阻断口径或静态校验门禁变更时同步修订接口文档。",
+      "status": "active"
+    },
+    {
+      "id": "tpl-driver-signal",
+      "slot_id": "TPL-001",
+      "title": "L1 宏观外驱信号卡标准模板",
+      "path": "templates/driver-signal.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-master-map"
+      ],
+      "stale_action": "当 L1 三线交叉口径、地域落点、graduation_cohort 字段或模板必填元字段变动时同步更新并复核存量 L1 卡片。",
+      "status": "active"
+    },
+    {
+      "id": "tpl-career-entry-spec",
+      "slot_id": "TPL-002",
+      "title": "L2 职业入口与独立备选规格卡标准模板",
+      "path": "templates/career-entry-spec.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏",
+        "长三角"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-master-map"
+      ],
+      "stale_action": "当 L2 三只时钟对齐、岗位族多对多标识、地域入口、graduation_cohort 或四维独立备选冲击测试字段变动时同步更新并复核存量 L2 卡片。",
+      "status": "active"
+    },
+    {
+      "id": "tpl-pathway-mapping",
+      "slot_id": "TPL-003",
+      "title": "L3 培养实得训练与大学 4-7 年执行路线标准模板",
+      "path": "templates/pathway-mapping.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "全国",
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-master-map",
+        "fw-data-contract"
+      ],
+      "stale_action": "当 L3 1B 结构代理降级口径、下游反向回灌标记、graduation_cohort 或大学分流时间轴字段调整时同步更新模板。",
+      "status": "active"
+    },
+    {
+      "id": "tpl-public-comparison",
+      "slot_id": "TPL-004",
+      "title": "L4A 公共路径排序收口卡标准模板",
+      "path": "templates/public-comparison.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [
+        "policy",
+        "industry",
+        "demography"
+      ],
+      "major_codes": [],
+      "target_regions": [
+        "江苏",
+        "长三角"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-master-map"
+      ],
+      "stale_action": "当 L4A 情景主序 Rank 1-3、四维主备独立性冲击测试、graduation_cohort 或换序信号规范变动时同步更新模板。",
+      "status": "active"
+    },
+    {
+      "id": "tpl-individual-constraints",
+      "slot_id": "TPL-005",
+      "title": "L4B 空白四维个体/家庭约束卡标准模板",
+      "path": "templates/individual-constraints.md",
+      "layer": "framework",
+      "stability": "evergreen",
+      "valid_until": null,
+      "drivers": [],
+      "major_codes": [],
+      "target_regions": [
+        "江苏"
+      ],
+      "graduation_cohort": [
+        "all_cohorts"
+      ],
+      "upstream_ids": [
+        "fw-architecture-v3",
+        "fw-scripts-contract"
+      ],
+      "stale_action": "当 D6 四维个体约束字段、D2-D 年度章程规则绑定或 2B 缺失红线拦截口径变更时同步更新空白模板（实填件严禁入公开库）。",
+      "status": "active"
+    }
+  ]
+}
