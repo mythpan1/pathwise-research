@@ -393,7 +393,7 @@
       "id": "l1-1-1-2-pillar-anti-involution-6030",
       "slot_id": "L1-POL-01.02",
       "parent_slot_id": "L1-POL-01",
-      "title": "1.1.2 传统支柱提质反内卷与筑峰强链企业库（`L1-POL-01.02` · 提纲占位卡）",
+      "title": "1.1.2 传统支柱提质反内卷与筑峰强链企业库（`L1-POL-01.02`）",
       "path": "research/l1-drivers/1.1-十五五顶层主轴与实体制造脊梁/1.1.2-传统支柱提质反内卷与筑峰强链企业库.md",
       "layer": "L1",
       "batch": "Batch 1",
@@ -417,7 +417,7 @@
         "l1-1-1-1-outline-manufacturing-spine"
       ],
       "stale_action": "当《十五五》政策细则、六张网预算、国家或江苏统计公报及高校专业增撤目录更新时复核，并沿 upstream_ids 触发受波及下游卡片重审。",
-      "status": "draft"
+      "status": "active"
     },
     {
       "id": "l1-1-1-3-foundation-six-breakthroughs",
